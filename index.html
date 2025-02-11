@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Multiple Links</title>
+</head>
+<body>
+    <a href="https://example1.com" target="_blank" style="display: none;">Open Example 1</a>
+    <a href="https://example2.com" target="_blank" style="display: none;">Open Example 2</a>
+    <a href="https://example3.com" target="_blank" style="display: none;">Open Example 3</a>
+
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            link.click();
+        });
+    </script>
+</body>
+</html>
