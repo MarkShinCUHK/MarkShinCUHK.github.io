@@ -1,0 +1,1 @@
+var e=`/hdat-ds-study-hub`;function t(t){return`${e}${t.startsWith(`/`)?t:`/${t}`}`}export{t};

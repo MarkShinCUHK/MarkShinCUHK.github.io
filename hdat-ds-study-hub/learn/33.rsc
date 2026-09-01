@@ -1,0 +1,526 @@
+2:I["8c0f216c4604",[],"Children",1]
+3:I["593f344dc510",[],"GlobalErrorBoundary",1]
+4:I["0b874ad30386",[],"default",1]
+5:I["593f344dc510",[],"ErrorBoundary",1]
+6:I["15c18cfaeeff",[],"LayoutSegmentProvider",1]
+7:I["8c0f216c4604",[],"Slot",1]
+8:I["9276801271d6",[],"AppRouterScrollTarget",1]
+9:I["593f344dc510",[],"RedirectBoundary",1]
+:HL["/hdat-ds-study-hub/_next/static/css/index.DUJsiA_O.css","style"     ]
+0:{"__route":"route:/learn/33","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/33":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DUJsiA_O.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DUJsiA_O.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DUJsiA_O.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"처음 배우는 사람을 위한 34개 강의, 필기 60문항, Process·Problem 실습과 PyTorch 치트시트를 갖춘 HDAT-DS 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"HDAT-DS 34강 학습실 | PyTorch Only"}],["$","meta",null,{"property":"og:description","content":"처음 배우는 사람을 위한 34개 강의, 필기 60문항, Process·Problem 실습과 PyTorch 치트시트를 갖춘 HDAT-DS 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1731"}],["$","meta",null,{"property":"og:image:height","content":"909"}],["$","meta",null,{"property":"og:image:alt","content":"HDAT DS PyTorch Study Hub"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"HDAT-DS 34강 학습실 | PyTorch Only"}],["$","meta",null,{"name":"twitter:description","content":"처음 배우는 사람을 위한 34개 강의, 필기 60문항, Process·Problem 실습과 PyTorch 치트시트를 갖춘 HDAT-DS 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"HDAT-DS 34강 학습실 | PyTorch Only"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/33":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","33"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/33","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/33"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"0be1391f-f251-4ca0-a28d-8b93b4887aab","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/33"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/33","_N_T_/layout","_N_T_/learn/33","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/33"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+a:I["326fe58ccdc4",[],"default",1]
+b:I["1bf83181c527",[],"default",1]
+c:I["6a9a214970dc",[],"default",1]
+1:[["$","$La",null,{"active":"learn"}],["$","$Lb",null,{}],["$","div",null,{"className":"lesson-layout","children":[["$","aside",null,{"className":"course-sidebar","aria-label":"34강 커리큘럼","children":["$","div",null,{"className":"sidebar-sticky","children":[["$","a",null,{"className":"sidebar-back","href":"/hdat-ds-study-hub/learn/","children":"← 전체 커리큘럼"}],["$","$Lc",null,{"compact":true}],["$","nav",null,{"children":[["$","section","1",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[1,"단계"]}],"시험과 기초 언어"]}],["$","ol",null,{"children":[["$","li","01",{"data-progress-lesson":"01","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/01/","aria-current":"$undefined","children":[["$","span",null,{"children":"01"}],["$","strong",null,{"children":"시험 지도를 먼저 그리기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","02",{"data-progress-lesson":"02","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/02/","aria-current":"$undefined","children":[["$","span",null,{"children":"02"}],["$","strong",null,{"children":"Python·Jupyter·shape 언어"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","03",{"data-progress-lesson":"03","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/03/","aria-current":"$undefined","children":[["$","span",null,{"children":"03"}],["$","strong",null,{"children":"NumPy·pandas로 데이터 계약 지키기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","04",{"data-progress-lesson":"04","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/04/","aria-current":"$undefined","children":[["$","span",null,{"children":"04"}],["$","strong",null,{"children":"선형대수: 모델의 shape를 계산하는 언어"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","05",{"data-progress-lesson":"05","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/05/","aria-current":"$undefined","children":[["$","span",null,{"children":"05"}],["$","strong",null,{"children":"미분·역전파·최적화의 원리"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","06",{"data-progress-lesson":"06","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/06/","aria-current":"$undefined","children":[["$","span",null,{"children":"06"}],["$","strong",null,{"children":"확률·통계·정보이론"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}],["$","section","2",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[2,"단계"]}],"데이터·검증·머신러닝"]}],["$","ol",null,{"children":[["$","li","07",{"data-progress-lesson":"07","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/07/","aria-current":"$undefined","children":[["$","span",null,{"children":"07"}],["$","strong",null,{"children":"EDA: 모델보다 먼저 데이터 생성 과정을 읽기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","08",{"data-progress-lesson":"08","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/08/","aria-current":"$undefined","children":[["$","span",null,{"children":"08"}],["$","strong",null,{"children":"전처리: 결측·이상치·스케일·인코딩·증강"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","09",{"data-progress-lesson":"09","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/09/","aria-current":"$undefined","children":[["$","span",null,{"children":"09"}],["$","strong",null,{"children":"Feature Engineering·Selection·Extraction"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","10",{"data-progress-lesson":"10","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/10/","aria-current":"$undefined","children":[["$","span",null,{"children":"10"}],["$","strong",null,{"children":"선형회귀·로지스틱회귀·KNN"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","11",{"data-progress-lesson":"11","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/11/","aria-current":"$undefined","children":[["$","span",null,{"children":"11"}],["$","strong",null,{"children":"결정트리·앙상블·SVM"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","12",{"data-progress-lesson":"12","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/12/","aria-current":"$undefined","children":[["$","span",null,{"children":"12"}],["$","strong",null,{"children":"군집화·DBSCAN·PCA와 비지도학습"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","13",{"data-progress-lesson":"13","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/13/","aria-current":"$undefined","children":[["$","span",null,{"children":"13"}],["$","strong",null,{"children":"Validation Strategy와 데이터 누수"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","14",{"data-progress-lesson":"14","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/14/","aria-current":"$undefined","children":[["$","span",null,{"children":"14"}],["$","strong",null,{"children":"평가지표와 불균형"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","15",{"data-progress-lesson":"15","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/15/","aria-current":"$undefined","children":[["$","span",null,{"children":"15"}],["$","strong",null,{"children":"Regularization·Hyperparameter Tuning·실험 설계"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}],"$Ld","$Le","$Lf"]}]]}]}],"$L10","$L11"]}],"$L12"]
+d:["$","section","3",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[3,"단계"]}],"PyTorch와 딥러닝 모델"]}],["$","ol",null,{"children":[["$","li","16",{"data-progress-lesson":"16","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/16/","aria-current":"$undefined","children":[["$","span",null,{"children":"16"}],["$","strong",null,{"children":"PyTorch 기초: Tensor·autograd·Dataset·DataLoader"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","17",{"data-progress-lesson":"17","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/17/","aria-current":"$undefined","children":[["$","span",null,{"children":"17"}],["$","strong",null,{"children":"퍼셉트론·MLP·활성함수·손실함수"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","18",{"data-progress-lesson":"18","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/18/","aria-current":"$undefined","children":[["$","span",null,{"children":"18"}],["$","strong",null,{"children":"PyTorch 학습 엔지니어링: optimizer·초기화·BN·Dropout"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","19",{"data-progress-lesson":"19","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/19/","aria-current":"$undefined","children":[["$","span",null,{"children":"19"}],["$","strong",null,{"children":"CNN: convolution·padding·pooling·이미지 코드"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","20",{"data-progress-lesson":"20","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/20/","aria-current":"$undefined","children":[["$","span",null,{"children":"20"}],["$","strong",null,{"children":"ResNet과 전이학습"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","21",{"data-progress-lesson":"21","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/21/","aria-current":"$undefined","children":[["$","span",null,{"children":"21"}],["$","strong",null,{"children":"시계열 데이터 계약과 window"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","22",{"data-progress-lesson":"22","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/22/","aria-current":"$undefined","children":[["$","span",null,{"children":"22"}],["$","strong",null,{"children":"RNN·LSTM·GRU와 1D CNN"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","23",{"data-progress-lesson":"23","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/23/","aria-current":"$undefined","children":[["$","span",null,{"children":"23"}],["$","strong",null,{"children":"Attention과 Transformer"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","24",{"data-progress-lesson":"24","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/24/","aria-current":"$undefined","children":[["$","span",null,{"children":"24"}],["$","strong",null,{"children":"Autoencoder와 이상탐지"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","25",{"data-progress-lesson":"25","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/25/","aria-current":"$undefined","children":[["$","span",null,{"children":"25"}],["$","strong",null,{"children":"VAE와 GAN"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}]
+e:["$","section","4",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[4,"단계"]}],"실기 문제 완주"]}],["$","ol",null,{"children":[["$","li","26",{"data-progress-lesson":"26","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/26/","aria-current":"$undefined","children":[["$","span",null,{"children":"26"}],["$","strong",null,{"children":"Process형 완전 공략: 명세를 edge case까지 구현하기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","27",{"data-progress-lesson":"27","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/27/","aria-current":"$undefined","children":[["$","span",null,{"children":"27"}],["$","strong",null,{"children":"Problem형 공통 파이프라인과 표형 문제"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","28",{"data-progress-lesson":"28","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/28/","aria-current":"$undefined","children":[["$","span",null,{"children":"28"}],["$","strong",null,{"children":"시계열 Problem 완주"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","29",{"data-progress-lesson":"29","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/29/","aria-current":"$undefined","children":[["$","span",null,{"children":"29"}],["$","strong",null,{"children":"이미지·이상탐지 Problem 분기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","30",{"data-progress-lesson":"30","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/30/","aria-current":"$undefined","children":[["$","span",null,{"children":"30"}],["$","strong",null,{"children":"제출·디버깅·170분 운영"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}]
+f:["$","section","5",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[5,"단계"]}],"모의고사와 최종 점검"]}],["$","ol",null,{"children":[["$","li","31",{"data-progress-lesson":"31","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/31/","aria-current":"$undefined","children":[["$","span",null,{"children":"31"}],["$","strong",null,{"children":"필기 모의고사 1회 — 20문항 50분"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","32",{"data-progress-lesson":"32","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/32/","aria-current":"$undefined","children":[["$","span",null,{"children":"32"}],["$","strong",null,{"children":"Process형 모의고사 — 독자 문제 8문항"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","33",{"data-progress-lesson":"33","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/33/","aria-current":"page","children":[["$","span",null,{"children":"33"}],["$","strong",null,{"children":"Problem형 완전 모의 — 차량 센서 다중출력 예측"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","34",{"data-progress-lesson":"34","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/34/","aria-current":"$undefined","children":[["$","span",null,{"children":"34"}],["$","strong",null,{"children":"21일 완주 계획·최종 암기표·합격 체크"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}]
+13:T60c2,
+<h3 id="331">33.1 문제</h3>
+<p>아래 생성기로 만든 100Hz 차량 센서 시계열이 있다.</p>
+<ul>
+<li>입력 feature: 12개 sensor</li>
+<li>lookback: 과거 0.2초</li>
+<li>horizon: 마지막 관측 0.4초 뒤</li>
+<li>target: 연속값 3개</li>
+<li>validation: 시간순 마지막 구간</li>
+<li>metric: MSE</li>
+<li>test prediction shape: 코드에서 생성된 <code>X_test</code>의 window 수 × 3</li>
+<li>제출: <code>Submission_problem.npy</code>, test 순서 유지, numeric finite array</li>
+<li>딥러닝 모델은 PyTorch를 사용한다.</li>
+</ul>
+<p>목표는 최고 성능이 아니라 170분에 Process와 함께 완주 가능한 해결책이다.</p>
+<h3 id="332">33.2 데이터 생성 셀</h3>
+<div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-1">복사</button></div><pre id="code-33-1" tabindex="0" aria-label="33강 Python 코드 1"><code class="language-python">import copy
+import random
+import time
+from pathlib import Path
+
+import numpy as np
+import torch
+import torch.nn as nn
+from sklearn.preprocessing import StandardScaler
+from torch.utils.data import DataLoader, TensorDataset
+
+problem_start = time.monotonic()
+
+SEED = 42
+random.seed(SEED)
+np.random.seed(SEED)
+torch.manual_seed(SEED)
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+def generate_mock_series(n=30000, n_features=12, horizon=40, seed=42):
+    rng = np.random.default_rng(seed)
+    X = rng.normal(0, 0.2, (n, n_features)).astype(np.float32)
+    seasonal = np.sin(np.arange(n, dtype=np.float32) / 80.0)
+    for t in range(1, n):
+        X[t] += 0.90 * X[t - 1]
+        X[t, 6] += 0.15 * seasonal[t]
+
+    y = np.full((n, 3), np.nan, dtype=np.float32)
+    src = X[:-horizon]
+    noise = rng.normal(0, 0.03, (n - horizon, 3)).astype(np.float32)
+    y[horizon:, 0] = 0.8 * src[:, 0] + 0.2 * src[:, 3] + noise[:, 0]
+    y[horizon:, 1] = -0.5 * src[:, 1] + 0.3 * src[:, 4] ** 2 + noise[:, 1]
+    y[horizon:, 2] = 0.6 * src[:, 2] - 0.2 * src[:, 5] + 0.1 * src[:, 6] + noise[:, 2]
+    return X, y
+
+HORIZON = 40
+LOOKBACK = 20
+X_raw, y_raw = generate_mock_series(horizon=HORIZON)
+print(X_raw.shape, y_raw.shape)
+</code></pre></div>
+<p><code>y[e+HORIZON]</code>은 input 마지막 시점 <code>e</code>의 sensor 조합에 noise를 더해 만들었으므로 학습 가능하다. 실제 시험에서는 이런 생성식을 알 수 없으며 EDA와 validation으로 판단한다.</p>
+<h3 id="333">33.3 응시자 과제</h3>
+<ol>
+<li><code>X_raw</code>, <code>y_raw</code>의 shape/dtype/finite와 첫 유효 target을 확인한다.</li>
+<li>target 시각 기준 70% train, 15% validation, 15% test로 나눈다.</li>
+<li>input window <code>[e-L+1:e+1]</code>, target <code>y[e+H]</code>를 정확히 만든다.</li>
+<li>scaler는 train window에만 fit한다.</li>
+<li>target 평균 또는 flatten linear/MLP baseline을 평가한다.</li>
+<li>CNN1D를 학습하고 validation MSE를 비교한다.</li>
+<li>best 모델로 test prediction <code>(N_test,3)</code>을 만든다.</li>
+<li><code>Submission_problem.npy</code> 저장 후 reload 검사한다.</li>
+<li>첫 유효 파일까지 걸린 시간을 기록한다.</li>
+</ol>
+<details class="answer-panel" id="334-1-target-index-window"><summary>33.4 정답 1 — target index와 window 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-2">복사</button></div><pre id="code-33-2" tabindex="0" aria-label="33강 Python 코드 2"><code class="language-python">n = len(X_raw)
+train_target_cut = int(n * 0.70)
+valid_target_cut = int(n * 0.85)
+
+all_end = np.arange(LOOKBACK - 1, n - HORIZON, dtype=np.int64)
+all_target = all_end + HORIZON
+
+train_end = all_end[all_target &lt; train_target_cut]
+valid_end = all_end[(all_target &gt;= train_target_cut) &amp; (all_target &lt; valid_target_cut)]
+test_end = all_end[all_target &gt;= valid_target_cut]
+
+def materialize(X, y, end_indices, lookback, horizon):
+    Xw = np.stack([X[e - lookback + 1:e + 1] for e in end_indices]).astype(np.float32)
+    yw = np.stack([y[e + horizon] for e in end_indices]).astype(np.float32)
+    if Xw.shape != (len(end_indices), lookback, X.shape[1]):
+        raise RuntimeError("window shape 오류")
+    if yw.shape != (len(end_indices), 3):
+        raise RuntimeError("target shape 오류")
+    if not np.isfinite(Xw).all() or not np.isfinite(yw).all():
+        raise ValueError("window NaN/Inf")
+    return Xw, yw
+
+X_train, y_train = materialize(X_raw, y_raw, train_end, LOOKBACK, HORIZON)
+X_valid, y_valid = materialize(X_raw, y_raw, valid_end, LOOKBACK, HORIZON)
+X_test, y_test_hidden = materialize(X_raw, y_raw, test_end, LOOKBACK, HORIZON)
+
+assert train_end[-1] + HORIZON &lt; train_target_cut
+assert valid_end[0] + HORIZON &gt;= train_target_cut
+assert test_end[0] + HORIZON &gt;= valid_target_cut
+print(X_train.shape, X_valid.shape, X_test.shape)
+</code></pre></div><p>실제 Problem에서는 test target이 없다. 여기서는 모의 종료 후 일반화 점수를 검산하기 위해 <code>y_test_hidden</code>을 보관한다. 모델 선택에는 사용하지 않는다.</p></div></details>
+
+
+<details class="answer-panel" id="335-2-train-only-scaling"><summary>33.5 정답 2 — train-only scaling 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-3">복사</button></div><pre id="code-33-3" tabindex="0" aria-label="33강 Python 코드 3"><code class="language-python">n_features = X_train.shape[-1]
+x_scaler = StandardScaler()
+X_train_s = x_scaler.fit_transform(X_train.reshape(-1, n_features)).reshape(X_train.shape)
+X_valid_s = x_scaler.transform(X_valid.reshape(-1, n_features)).reshape(X_valid.shape)
+X_test_s = x_scaler.transform(X_test.reshape(-1, n_features)).reshape(X_test.shape)
+
+y_scaler = StandardScaler()
+y_train_s = y_scaler.fit_transform(y_train).astype(np.float32)
+y_valid_s = y_scaler.transform(y_valid).astype(np.float32)
+
+X_train_s = X_train_s.astype(np.float32)
+X_valid_s = X_valid_s.astype(np.float32)
+X_test_s = X_test_s.astype(np.float32)
+</code></pre></div><p>target scaling은 필수가 아니지만 output 세 축의 scale이 다를 때 안정적이다. 다만 scaled MSE는 축마다 다른 가중치를 주는 셈이어서 공식 원단위 MSE와 동치가 아닐 수 있다. 학습 loss는 scaled 공간을 쓰더라도 checkpoint와 최종 모델 선택은 매 epoch inverse한 공식 원단위 MSE로 한다.</p></div></details>
+
+
+<details class="answer-panel" id="336-3-baseline"><summary>33.6 정답 3 — baseline 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-4">복사</button></div><pre id="code-33-4" tabindex="0" aria-label="33강 Python 코드 4"><code class="language-python">def mse(y_true, y_pred):
+    y_true = np.asarray(y_true)
+    y_pred = np.asarray(y_pred)
+    if y_true.shape != y_pred.shape:
+        raise ValueError((y_true.shape, y_pred.shape))
+    return float(np.mean((y_true - y_pred) ** 2))
+
+mean_pred = np.repeat(y_train.mean(axis=0, keepdims=True), len(y_valid), axis=0)
+baseline_valid_mse = mse(y_valid, mean_pred)
+print("mean baseline valid MSE:", baseline_valid_mse)
+
+# 학습 전에 첫 유효 test 파일을 확보한다.
+baseline_test_pred = np.repeat(y_train.mean(axis=0, keepdims=True), len(X_test), axis=0)
+if baseline_test_pred.shape != (len(X_test), 3) or not np.isfinite(baseline_test_pred).all():
+    raise ValueError("baseline prediction 계약 오류")
+baseline_path = Path("Submission_problem.npy")
+np.save(baseline_path, baseline_test_pred, allow_pickle=False)
+baseline_reload = np.load(baseline_path, allow_pickle=False)
+if not np.array_equal(baseline_reload, baseline_test_pred):
+    raise IOError("baseline NPY reload 불일치")
+first_valid_seconds = time.monotonic() - problem_start
+print("first valid submission seconds:", first_valid_seconds)
+
+# 이 synthetic 문제의 target 생성상 last sensor 조합을 모른다고 가정한다.
+# 문제 의미가 일치하는 경우에만 last-value baseline을 추가한다.
+</code></pre></div><p>첫 test 제출은 train target 평균으로도 만들 수 있다. 성능은 낮지만 파일 계약을 검증한다.</p></div></details>
+
+
+<details class="answer-panel" id="337-4-dataloader-cnn1d"><summary>33.7 정답 4 — DataLoader와 CNN1D 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-5">복사</button></div><pre id="code-33-5" tabindex="0" aria-label="33강 Python 코드 5"><code class="language-python">train_ds = TensorDataset(
+    torch.from_numpy(X_train_s),
+    torch.from_numpy(y_train_s),
+)
+valid_ds = TensorDataset(
+    torch.from_numpy(X_valid_s),
+    torch.from_numpy(y_valid_s),
+)
+test_ds = TensorDataset(torch.from_numpy(X_test_s))
+
+BATCH_SIZE = 256
+train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True, num_workers=0)
+valid_loader = DataLoader(valid_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
+test_loader = DataLoader(test_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
+
+class MockCNN1D(nn.Module):
+    def __init__(self, n_features, out_dim=3):
+        super().__init__()
+        self.features = nn.Sequential(
+            nn.Conv1d(n_features, 64, 3, padding=1),
+            nn.ReLU(),
+            nn.Conv1d(64, 64, 3, padding=1),
+            nn.ReLU(),
+            nn.AdaptiveAvgPool1d(1),
+        )
+        self.head = nn.Sequential(
+            nn.Flatten(),
+            nn.Linear(64, 32),
+            nn.ReLU(),
+            nn.Linear(32, out_dim),
+        )
+
+    def forward(self, x):
+        x = x.permute(0, 2, 1)
+        return self.head(self.features(x))
+
+model = MockCNN1D(n_features).to(DEVICE)
+assert model(torch.zeros(2, LOOKBACK, n_features, device=DEVICE)).shape == (2, 3)
+</code></pre></div></div></details>
+
+<details class="answer-panel" id="338-5"><summary>33.8 정답 5 — 시간 제한 학습 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-6">복사</button></div><pre id="code-33-6" tabindex="0" aria-label="33강 Python 코드 6"><code class="language-python">criterion = nn.MSELoss()
+optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
+
+best_metric = float("inf")
+best_state = None
+patience = 5
+wait = 0
+start = time.monotonic()
+MAX_SECONDS = 120.0
+
+for epoch in range(1, 41):
+    model.train()
+    train_sum, train_n = 0.0, 0
+    for xb, yb in train_loader:
+        xb = xb.to(DEVICE)
+        yb = yb.to(DEVICE)
+        optimizer.zero_grad(set_to_none=True)
+        pred = model(xb)
+        loss = criterion(pred, yb)
+        if not torch.isfinite(loss):
+            raise FloatingPointError("non-finite train loss")
+        loss.backward()
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 5.0)
+        optimizer.step()
+        train_sum += loss.detach().item() * len(xb)
+        train_n += len(xb)
+
+    model.eval()
+    valid_sum, valid_n = 0.0, 0
+    valid_pred_chunks = []
+    with torch.inference_mode():
+        for xb, yb in valid_loader:
+            xb = xb.to(DEVICE)
+            yb = yb.to(DEVICE)
+            out = model(xb)
+            loss = criterion(out, yb)
+            valid_sum += loss.item() * len(xb)
+            valid_n += len(xb)
+            valid_pred_chunks.append(out.cpu().numpy())
+    valid_scaled_loss = valid_sum / valid_n
+    valid_pred_epoch = y_scaler.inverse_transform(np.concatenate(valid_pred_chunks))
+    valid_metric = mse(y_valid, valid_pred_epoch)  # 공식 원단위 MSE
+    print(epoch, train_sum / train_n, valid_scaled_loss, valid_metric)
+
+    if valid_metric &lt; best_metric - 1e-6:
+        best_metric = valid_metric
+        best_state = copy.deepcopy({k: v.detach().cpu() for k, v in model.state_dict().items()})
+        wait = 0
+    else:
+        wait += 1
+
+    if wait &gt;= patience or time.monotonic() - start &gt;= MAX_SECONDS:
+        break
+
+if best_state is None:
+    raise RuntimeError("best checkpoint 없음")
+model.load_state_dict(best_state)
+model.to(DEVICE)
+</code></pre></div></div></details>
+
+<details class="answer-panel" id="339-6-validation"><summary>33.9 정답 6 — validation 원 단위 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-7">복사</button></div><pre id="code-33-7" tabindex="0" aria-label="33강 Python 코드 7"><code class="language-python">def predict_scaled(model, loader, device):
+    model.eval()
+    chunks = []
+    with torch.inference_mode():
+        for batch in loader:
+            xb = batch[0].to(device, dtype=torch.float32)
+            chunks.append(model(xb).cpu().numpy())
+    if not chunks:
+        raise ValueError("빈 prediction loader")
+    return np.concatenate(chunks, axis=0)
+
+valid_pred_s = predict_scaled(model, DataLoader(
+    TensorDataset(torch.from_numpy(X_valid_s)),
+    batch_size=BATCH_SIZE,
+    shuffle=False,
+), DEVICE)
+valid_pred = y_scaler.inverse_transform(valid_pred_s)
+cnn_valid_mse = mse(y_valid, valid_pred)
+print("CNN valid MSE:", cnn_valid_mse)
+print("output RMSE:", np.sqrt(np.mean((y_valid - valid_pred) ** 2, axis=0)))
+</code></pre></div></div></details>
+
+<details class="answer-panel" id="3310-7-test"><summary>33.10 정답 7 — test 저장 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-8">복사</button></div><pre id="code-33-8" tabindex="0" aria-label="33강 Python 코드 8"><code class="language-python">cnn_test_pred_s = predict_scaled(model, test_loader, DEVICE)
+cnn_test_pred = y_scaler.inverse_transform(cnn_test_pred_s)
+
+if cnn_valid_mse &lt; baseline_valid_mse:
+    selected_name = "CNN1D"
+    test_pred = cnn_test_pred
+else:
+    selected_name = "mean baseline"
+    test_pred = baseline_test_pred
+print("selected by original-unit valid MSE:", selected_name)
+
+expected_shape = (len(X_test), 3)
+if test_pred.shape != expected_shape:
+    raise ValueError((test_pred.shape, expected_shape))
+if not np.isfinite(test_pred).all():
+    raise ValueError("test prediction NaN/Inf")
+
+output_path = Path("Submission_problem.npy")
+np.save(output_path, test_pred, allow_pickle=False)
+reloaded = np.load(output_path, allow_pickle=False)
+if reloaded.shape != expected_shape or not np.array_equal(reloaded, test_pred):
+    raise IOError("저장/reload 불일치")
+print(output_path, reloaded.shape, reloaded.dtype)
+</code></pre></div><p>연습이 끝난 뒤에만 hidden test MSE를 본다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-33-9">복사</button></div><pre id="code-33-9" tabindex="0" aria-label="33강 Python 코드 9"><code class="language-python">print("hidden test MSE (연습 채점용):", mse(y_test_hidden, test_pred))
+</code></pre></div></div></details>
+
+
+
+<h3 id="3311">33.11 채점 기준</h3>
+<div class="table-scroll" role="region" tabindex="0" aria-label="33강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
+<thead>
+<tr>
+<th>항목</th>
+<th style="text-align: right;">점수</th>
+<th>0점 조건</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>데이터 계약·window</td>
+<td style="text-align: right;">20</td>
+<td>horizon/window 잘못 대응</td>
+</tr>
+<tr>
+<td>validation·누수</td>
+<td style="text-align: right;">20</td>
+<td>random overlapping split, 전체 scaler fit</td>
+</tr>
+<tr>
+<td>첫 baseline</td>
+<td style="text-align: right;">10</td>
+<td>유효 prediction 없음</td>
+</tr>
+<tr>
+<td>PyTorch 모델·학습</td>
+<td style="text-align: right;">20</td>
+<td>output/loss shape 오류</td>
+</tr>
+<tr>
+<td>metric·inverse</td>
+<td style="text-align: right;">10</td>
+<td>scaled metric만 보고 공식값 미계산</td>
+</tr>
+<tr>
+<td>제출 파일</td>
+<td style="text-align: right;">20</td>
+<td>파일명/shape/NaN/순서/reload 실패</td>
+</tr>
+</tbody>
+</table></div>
+<p>합격 조건은 점수와 별개로 <code>Submission_problem.npy</code>가 유효해야 한다.</p>
+<h3 id="3312-a-group">33.12 확장 모의 A — group 일반화</h3>
+<p>여러 차량의 서로 다른 offset과 noise를 생성하고 test를 새 vehicle로 둔다.</p>
+<ul>
+<li>group 밖 window 금지</li>
+<li>vehicle GroupKFold/holdout</li>
+<li>vehicle ID를 feature로 쓰는 모델과 제거한 모델 비교</li>
+<li>unseen vehicle 성능 해석</li>
+</ul>
+<h3 id="3313-b-event">33.13 확장 모의 B — 불균형 event 분류</h3>
+<p>target을 “향후 50 sample 안에 threshold event 발생”으로 바꾼다.</p>
+<ul>
+<li>causal label 생성</li>
+<li>BCEWithLogitsLoss/pos_weight</li>
+<li>validation Macro-F1/PR-AUC</li>
+<li>threshold는 validation에서 선택</li>
+<li>event 인접 window 양 fold 분리</li>
+</ul>
+<h3 id="3314">33.14 회고 질문</h3>
+<ol>
+<li>첫 유효 파일까지 몇 분 걸렸는가?</li>
+<li>가장 오래 걸린 shape 오류는 무엇인가?</li>
+<li>validation 선택이 실제 test 생성 과정을 모사했는가?</li>
+<li>CNN1D가 baseline을 이겼는가? 아니라면 왜인가?</li>
+<li>마지막 7분을 확보했는가?</li>
+</ol>
+<h3 id="3315-process-8-problem-1-170">33.15 통합 모의고사 — Process 8 + Problem 1, 총 170분</h3>
+<p>32강과 33강을 따로 푸는 것만으로는 두 영역이 시간을 경쟁하는 상황을 훈련할 수 없다. 다음 세트는 답안을 보지 않고 <strong>한 번의 170분 타이머</strong>로 연속 응시한다.</p>
+<p>권장 시간:</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="33강 표 2, 좌우로 스크롤할 수 있습니다"><table data-table="2">
+<thead>
+<tr>
+<th style="text-align: right;">구간</th>
+<th>행동</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0~7분</td>
+<td>9문항 전체 훑기, Process A/B/C 분류, Problem 계약 기록</td>
+</tr>
+<tr>
+<td style="text-align: right;">7~57분</td>
+<td>Process A/B 6문항 목표</td>
+</tr>
+<tr>
+<td style="text-align: right;">57~70분</td>
+<td>Problem 첫 baseline과 유효 NPY</td>
+</tr>
+<tr>
+<td style="text-align: right;">70~142분</td>
+<td>Problem 검증·PyTorch MLP·threshold 개선</td>
+</tr>
+<tr>
+<td style="text-align: right;">142~160분</td>
+<td>남은 Process</td>
+</tr>
+<tr>
+<td style="text-align: right;">160~170분</td>
+<td>양쪽 reload·Ctrl+S·제출 확인</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="process-1">통합 Process 1 — 결측 보고서</h4>
+<p><code>missing_report(df)</code>를 구현하라. 각 열마다 <code>dtype</code>, <code>missing_count</code>, <code>missing_rate</code>, <code>nunique_with_missing</code>을 가진 DataFrame을 원래 열 순서로 반환한다. 빈 DataFrame과 비연속 index를 처리하고 입력을 변경하지 않는다.</p>
+<h4 id="process-2-group-z-score">통합 Process 2 — Group Z-score</h4>
+<p><code>group_zscore(df, group_col, value_col)</code>을 구현하라. group별 population mean/std(ddof=0)를 쓰고 std=0인 유효값은 0, NaN은 유지한다. 원 index/순서를 지킨다.</p>
+<h4 id="process-3-binary-f1">통합 Process 3 — Binary F1</h4>
+<p>NumPy만으로 <code>binary_f1(y_true, y_pred)</code>를 작성하라. 두 배열은 같은 1D shape와 <code>{0,1}</code> 값이어야 한다. precision/recall denominator가 0이면 해당 값과 F1을 0으로 정의한다.</p>
+<h4 id="process-4-causal-lag">통합 Process 4 — Causal Lag</h4>
+<p><code>add_lag(df, group_col, time_col, value_col, lag=1)</code>을 구현하라. group/time stable sort 후 과거 lag 값을 추가하고 원래 순서로 복원한다. <code>lag&gt;=1</code>.</p>
+<h4 id="process-5-rgb-normalize">통합 Process 5 — RGB Normalize</h4>
+<p>uint8 NumPy image <code>(H,W,3)</code>을 받아 float32 PyTorch tensor <code>(3,H,W)</code>와 각 channel별 <code>(x-mean)/std</code>를 반환하는 <code>normalize_rgb(image, mean, std)</code>를 구현하라. mean/std 길이는 3, std&gt;0, 입력 범위 0~255.</p>
+<h4 id="process-6-cnn-block">통합 Process 6 — 정확한 CNN Block</h4>
+<p><code>ExactBlock</code>을 구현하라: Conv2d 3→8 K3 P1 bias=False → BatchNorm2d(8) → ReLU → MaxPool2d(2). 입력 <code>(B,3,32,32)</code>의 출력 assert와 parameter 수를 쓰라. 추가 layer 금지.</p>
+<h4 id="process-7-class-weight">통합 Process 7 — Class Weight</h4>
+<p>class index <code>y</code>와 전체 class 수 <code>n_classes</code>를 받아 각 class weight <code>N/(C×count_c)</code> float32 Tensor를 반환하는 <code>balanced_class_weights</code>를 작성하라. 누락 class가 있으면 명시적 <code>ValueError</code>.</p>
+<h4 id="process-8-npy">통합 Process 8 — NPY 계약</h4>
+<p><code>save_checked_npy(pred, path, n_rows, n_outputs)</code>를 구현하라. 정확히 <code>(n_rows,n_outputs)</code>, numeric, finite인지 검사하고 <code>allow_pickle=False</code>로 저장한 뒤 reload의 shape/dtype/value를 확인한다.</p>
+<h3 id="3316-problem">33.16 통합 Problem — 새 차량 고장 분류</h3>
+<p>동봉한 <code>full_mock_tabular.py --generate-only</code>로 train/test를 생성한다.</p>
+<ul>
+<li>행: 차량 운행 segment</li>
+<li>동일 <code>vehicle_id</code>가 여러 행</li>
+<li>test에는 train에 없던 차량만 존재</li>
+<li>수치/범주형/결측 혼합</li>
+<li>target: <code>fault</code> 0/1, 불균형</li>
+<li>metric: Macro-F1</li>
+<li>출력: test label <code>(N,)</code></li>
+<li>제출 파일: <code>Submission_problem.npy</code></li>
+</ul>
+<p>요구:</p>
+<ol>
+<li><code>vehicle_id</code>를 group으로 validation하고 feature에서는 제외한다.</li>
+<li>imputer/encoder/scaler는 train fold만 fit한다.</li>
+<li>빠른 baseline 제출을 먼저 만든다.</li>
+<li>PyTorch MLP와 <code>BCEWithLogitsLoss(pos_weight=...)</code>를 학습한다.</li>
+<li>validation에서 threshold를 정한다.</li>
+<li>전체 train 재학습 후 test label을 예측한다.</li>
+<li>정확한 파일을 저장·reload한다.</li>
+</ol>
+<details class="answer-panel" id="3317-process"><summary>33.17 통합 Process 정답 핵심 보기</summary><div class="answer-body"><p>실제 응시 후 확인한다.</p><ol>
+<li><code>df.isna().sum()</code>, <code>/len(df)</code>(빈 데이터는 0 정책 명시), <code>nunique(dropna=False)</code>를 열 순서 index로 조립한다.</li>
+<li><code>groupby.transform('mean')</code>, population std. std 0 mask에서 NaN을 덮지 않는다.</li>
+<li>TP/FP/FN을 boolean sum하고 <code>2PR/(P+R)</code>의 0 denominator를 처리한다.</li>
+<li><code>__order__</code> 보존→stable sort→groupby shift(lag)→원 order 복원.</li>
+<li>입력 계약 검사→<code>torch.from_numpy(image).permute(2,0,1).float()/255</code>→mean/std <code>(3,1,1)</code>.</li>
+<li>output <code>(B,8,16,16)</code>. Conv parameter <code>8×3×3×3=216</code>, BN learnable 16, 총 232.</li>
+<li><code>np.bincount(y,minlength=C)</code> 후 0 count 검사, <code>N/(C*count)</code>.</li>
+<li>변환 뒤에도 finite 검사, 저장 뒤 <code>np.load(...,allow_pickle=False)</code>와 <code>np.array_equal</code>.</li>
+</ol></div></details>
+
+
+<h3 id="3318">33.18 통합 모의 채점표</h3>
+<div class="table-scroll" role="region" tabindex="0" aria-label="33강 표 3, 좌우로 스크롤할 수 있습니다"><table data-table="3">
+<thead>
+<tr>
+<th>영역</th>
+<th style="text-align: right;">점수</th>
+<th>합격 조건</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Process 일반 정확성</td>
+<td style="text-align: right;">24</td>
+<td>8개 중 6개 이상 일반 test</td>
+</tr>
+<tr>
+<td>Process 경계·계약</td>
+<td style="text-align: right;">16</td>
+<td>원본/NaN/batch/shape hidden test</td>
+</tr>
+<tr>
+<td>Problem split·누수</td>
+<td style="text-align: right;">15</td>
+<td>group 교집합 0, fold 내부 fit</td>
+</tr>
+<tr>
+<td>첫 유효 baseline</td>
+<td style="text-align: right;">10</td>
+<td>70분 전에 NPY 존재</td>
+</tr>
+<tr>
+<td>PyTorch MLP·metric</td>
+<td style="text-align: right;">15</td>
+<td>logits/BCE/threshold 정확</td>
+</tr>
+<tr>
+<td>최종 제출</td>
+<td style="text-align: right;">20</td>
+<td>shape/dtype/finite/order/reload</td>
+</tr>
+</tbody>
+</table></div>
+<p>다음 중 하나면 총점과 무관하게 재응시한다.</p>
+<ul>
+<li>Problem 파일 미생성</li>
+<li>Process/Problem 한쪽 미제출</li>
+<li>test 정보로 threshold·전처리 fit</li>
+<li>마지막 7분 미확보</li>
+<li>전체 helper 무수정 복사로 문제 계약을 설명하지 못함</li>
+</ul>
+
+10:["$","main",null,{"className":"lesson-main","id":"main-content","children":["$","article",null,{"children":[["$","header",null,{"className":"lesson-header","children":[["$","nav",null,{"className":"breadcrumbs","aria-label":"현재 위치","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/","children":"34강"}],["$","span",null,{"children":"/"}],["$","span",null,{"children":[5,"단계"]}]]}],["$","p",null,{"className":"lesson-phase","children":[5,"단계 · ","모의고사와 최종 점검"]}],["$","h1",null,{"children":[["$","span",null,{"children":["33","강"]}],"Problem형 완전 모의 — 차량 센서 다중출력 예측"]}],["$","p",null,{"className":"lesson-summary","children":"차량 센서 시계열 문제와 통합 모의를 실행해 window·학습·검증·저장을 처음부터 끝까지 반복합니다."}],["$","div",null,{"className":"lesson-meta","children":[["$","span",null,{"children":["약 ",220,"분"]}],["$","span",null,{"children":["코드 ",9,"개"]}],["$","span",null,{"children":["표 ",3,"개"]}],["$","span",null,{"children":["완료 체크 ",0,"개"]}]]}],["$","div",null,{"className":"tag-row","children":[["$","span","Problem형",{"children":"Problem형"}],["$","span","통합모의",{"children":"통합모의"}],["$","span","시계열",{"children":"시계열"}]]}],["$","p",null,{"className":"prerequisites","children":[["$","strong",null,{"children":"먼저 보면 좋은 강의"}],[["$","a","28",{"href":"/hdat-ds-study-hub/learn/28/","children":[28,"강"]}],["$","a","29",{"href":"/hdat-ds-study-hub/learn/29/","children":[29,"강"]}],["$","a","30",{"href":"/hdat-ds-study-hub/learn/30/","children":[30,"강"]}],["$","a","32",{"href":"/hdat-ds-study-hub/learn/32/","children":[32,"강"]}]]]}]]}],["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":[10,"개"]}]]}],["$","ol",null,{"children":[["$","li","331",{"children":["$","a",null,{"href":"#331","children":"문제"}]}],["$","li","332",{"children":["$","a",null,{"href":"#332","children":"데이터 생성 셀"}]}],["$","li","333",{"children":["$","a",null,{"href":"#333","children":"응시자 과제"}]}],["$","li","3311",{"children":["$","a",null,{"href":"#3311","children":"채점 기준"}]}],["$","li","3312-a-group",{"children":["$","a",null,{"href":"#3312-a-group","children":"확장 모의 A — group 일반화"}]}],["$","li","3313-b-event",{"children":["$","a",null,{"href":"#3313-b-event","children":"확장 모의 B — 불균형 event 분류"}]}],["$","li","3314",{"children":["$","a",null,{"href":"#3314","children":"회고 질문"}]}],["$","li","3315-process-8-problem-1-170",{"children":["$","a",null,{"href":"#3315-process-8-problem-1-170","children":"통합 모의고사 — Process 8 + Problem 1, 총 170분"}]}],["$","li","3316-problem",{"children":["$","a",null,{"href":"#3316-problem","children":"통합 Problem — 새 차량 고장 분류"}]}],["$","li","3318",{"children":["$","a",null,{"href":"#3318","children":"통합 모의 채점표"}]}]]}]]}],false,["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"코드를 읽기 전에 입력과 출력 shape를 종이에 적고, 확인문제는 해설을 열기 전 30초 동안 먼저 설명해 보세요."}]]}],["$","section",null,{"aria-labelledby":"lesson-body-title","children":[["$","h2",null,{"id":"lesson-body-title","className":"sr-only","children":"강의 내용"}],["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$13"}}]]}],"$L14","$L15","$L16"]}]}]
+11:["$","aside",null,{"className":"lesson-toc","aria-label":"이번 강의 목차","children":["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"IN THIS LESSON"}],["$","ol",null,{"children":[["$","li","331",{"children":["$","a",null,{"href":"#331","children":"문제"}]}],["$","li","332",{"children":["$","a",null,{"href":"#332","children":"데이터 생성 셀"}]}],["$","li","333",{"children":["$","a",null,{"href":"#333","children":"응시자 과제"}]}],["$","li","3311",{"children":["$","a",null,{"href":"#3311","children":"채점 기준"}]}],["$","li","3312-a-group",{"children":["$","a",null,{"href":"#3312-a-group","children":"확장 모의 A — group 일반화"}]}],["$","li","3313-b-event",{"children":["$","a",null,{"href":"#3313-b-event","children":"확장 모의 B — 불균형 event 분류"}]}],["$","li","3314",{"children":["$","a",null,{"href":"#3314","children":"회고 질문"}]}],["$","li","3315-process-8-problem-1-170",{"children":["$","a",null,{"href":"#3315-process-8-problem-1-170","children":"통합 모의고사 — Process 8 + Problem 1, 총 170분"}]}],["$","li","3316-problem",{"children":["$","a",null,{"href":"#3316-problem","children":"통합 Problem — 새 차량 고장 분류"}]}],["$","li","3318",{"children":["$","a",null,{"href":"#3318","children":"통합 모의 채점표"}]}]]}]]}]}]
+12:["$","footer",null,{"className":"site-footer","children":[["$","div",null,{"className":"shell footer-grid","children":[["$","div",null,{"children":[["$","strong",null,{"children":"HDAT DS · PyTorch Study Room"}],["$","p",null,{"children":"처음 배우는 사람도 순서대로 완주할 수 있도록 만든 개인 학습 자료입니다."}]]}],["$","nav",null,{"aria-label":"하단 메뉴","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/","children":"34강"}],["$","a",null,{"href":"/hdat-ds-study-hub/practice/","children":"실전 연습"}],["$","a",null,{"href":"/hdat-ds-study-hub/resources/","children":"자료실"}],["$","a",null,{"href":"/hdat-ds-study-hub/cheatsheet.html","children":"로컬 치트시트"}]]}]]}],["$","p",null,{"className":"legal shell","children":"이 사이트는 개인 학습용 비공식 자료이며 현대자동차그룹 또는 현대엔지비의 공식 사이트가 아닙니다. 시험 당일 문제 지시, 제공 스켈레톤, 공식 규정과 감독관 안내가 항상 우선합니다."}]]}]
+17:I["f0433735e848",[],"default",1]
+14:["$","section",null,{"className":"lesson-sources","aria-labelledby":"lesson-sources-title","children":[["$","div",null,{"className":"lesson-sources-heading","children":[["$","p",null,{"className":"micro-label","children":"PRIMARY SOURCES"}],["$","h2",null,{"id":"lesson-sources-title","children":"공식 자료로 한 번 더 확인하기"}],["$","p",null,{"children":"본문을 이해한 뒤 필요한 항목만 대조하세요. 외부 링크는 시험 전 학습용입니다."}]]}],["$","div",null,{"className":"source-list","children":[["$","a","https://exam.hyundai-ngv.com/practice/13567",{"href":"https://exam.hyundai-ngv.com/practice/13567","target":"_blank","rel":"noreferrer noopener","children":[["$","span",null,{"children":"HDAT 공식"}],["$","strong",null,{"children":"HDAT-DS 공식 연습문제 안내"}],["$","p",null,{"children":"필기 20문항 50분, 실기 Process 8문항과 Problem 1문항 170분 및 공개 범위를 확인합니다."}],["$","small",null,{"children":"공식 페이지 열기 ↗"}]]}],["$","a","https://docs.pytorch.org/tutorials/beginner/basics/saveloadrun_tutorial.html",{"href":"https://docs.pytorch.org/tutorials/beginner/basics/saveloadrun_tutorial.html","target":"_blank","rel":"noreferrer noopener","children":[["$","span",null,{"children":"PyTorch 공식"}],["$","strong",null,{"children":"Save and load a model"}],["$","p",null,{"children":"state_dict 저장·reload와 eval 전환을 제출 전 검증 습관에 연결합니다."}],["$","small",null,{"children":"공식 페이지 열기 ↗"}]]}]]}]]}]
+15:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"LESSON COMPLETE"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"스크롤만 끝낸 것은 완료가 아닙니다. 이 강의의 완료 기준을 실제로 확인한 뒤 표시하세요."}]]}],["$","$L17",null,{"lessonId":"33"}]]}]
+16:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/32/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",32,". ","Process형 모의고사 — 독자 문제 8문항"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/34/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[34,". ","21일 완주 계획·최종 암기표·합격 체크"," →"]}]]}]]}]

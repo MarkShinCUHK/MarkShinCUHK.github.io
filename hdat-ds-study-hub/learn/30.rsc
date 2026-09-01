@@ -1,0 +1,168 @@
+2:I["8c0f216c4604",[],"Children",1]
+3:I["593f344dc510",[],"GlobalErrorBoundary",1]
+4:I["0b874ad30386",[],"default",1]
+5:I["593f344dc510",[],"ErrorBoundary",1]
+6:I["15c18cfaeeff",[],"LayoutSegmentProvider",1]
+7:I["8c0f216c4604",[],"Slot",1]
+8:I["9276801271d6",[],"AppRouterScrollTarget",1]
+9:I["593f344dc510",[],"RedirectBoundary",1]
+:HL["/hdat-ds-study-hub/_next/static/css/index.DUJsiA_O.css","style"     ]
+0:{"__route":"route:/learn/30","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/30":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DUJsiA_O.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DUJsiA_O.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DUJsiA_O.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"처음 배우는 사람을 위한 34개 강의, 필기 60문항, Process·Problem 실습과 PyTorch 치트시트를 갖춘 HDAT-DS 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"HDAT-DS 34강 학습실 | PyTorch Only"}],["$","meta",null,{"property":"og:description","content":"처음 배우는 사람을 위한 34개 강의, 필기 60문항, Process·Problem 실습과 PyTorch 치트시트를 갖춘 HDAT-DS 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1731"}],["$","meta",null,{"property":"og:image:height","content":"909"}],["$","meta",null,{"property":"og:image:alt","content":"HDAT DS PyTorch Study Hub"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"HDAT-DS 34강 학습실 | PyTorch Only"}],["$","meta",null,{"name":"twitter:description","content":"처음 배우는 사람을 위한 34개 강의, 필기 60문항, Process·Problem 실습과 PyTorch 치트시트를 갖춘 HDAT-DS 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"HDAT-DS 34강 학습실 | PyTorch Only"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/30":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","30"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/30","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/30"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"0be1391f-f251-4ca0-a28d-8b93b4887aab","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/30"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/30","_N_T_/layout","_N_T_/learn/30","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/30"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+a:I["326fe58ccdc4",[],"default",1]
+b:I["1bf83181c527",[],"default",1]
+c:I["6a9a214970dc",[],"default",1]
+1:[["$","$La",null,{"active":"learn"}],["$","$Lb",null,{}],["$","div",null,{"className":"lesson-layout","children":[["$","aside",null,{"className":"course-sidebar","aria-label":"34강 커리큘럼","children":["$","div",null,{"className":"sidebar-sticky","children":[["$","a",null,{"className":"sidebar-back","href":"/hdat-ds-study-hub/learn/","children":"← 전체 커리큘럼"}],["$","$Lc",null,{"compact":true}],["$","nav",null,{"children":[["$","section","1",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[1,"단계"]}],"시험과 기초 언어"]}],["$","ol",null,{"children":[["$","li","01",{"data-progress-lesson":"01","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/01/","aria-current":"$undefined","children":[["$","span",null,{"children":"01"}],["$","strong",null,{"children":"시험 지도를 먼저 그리기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","02",{"data-progress-lesson":"02","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/02/","aria-current":"$undefined","children":[["$","span",null,{"children":"02"}],["$","strong",null,{"children":"Python·Jupyter·shape 언어"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","03",{"data-progress-lesson":"03","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/03/","aria-current":"$undefined","children":[["$","span",null,{"children":"03"}],["$","strong",null,{"children":"NumPy·pandas로 데이터 계약 지키기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","04",{"data-progress-lesson":"04","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/04/","aria-current":"$undefined","children":[["$","span",null,{"children":"04"}],["$","strong",null,{"children":"선형대수: 모델의 shape를 계산하는 언어"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","05",{"data-progress-lesson":"05","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/05/","aria-current":"$undefined","children":[["$","span",null,{"children":"05"}],["$","strong",null,{"children":"미분·역전파·최적화의 원리"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","06",{"data-progress-lesson":"06","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/06/","aria-current":"$undefined","children":[["$","span",null,{"children":"06"}],["$","strong",null,{"children":"확률·통계·정보이론"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}],["$","section","2",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[2,"단계"]}],"데이터·검증·머신러닝"]}],["$","ol",null,{"children":[["$","li","07",{"data-progress-lesson":"07","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/07/","aria-current":"$undefined","children":[["$","span",null,{"children":"07"}],["$","strong",null,{"children":"EDA: 모델보다 먼저 데이터 생성 과정을 읽기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","08",{"data-progress-lesson":"08","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/08/","aria-current":"$undefined","children":[["$","span",null,{"children":"08"}],["$","strong",null,{"children":"전처리: 결측·이상치·스케일·인코딩·증강"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","09",{"data-progress-lesson":"09","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/09/","aria-current":"$undefined","children":[["$","span",null,{"children":"09"}],["$","strong",null,{"children":"Feature Engineering·Selection·Extraction"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","10",{"data-progress-lesson":"10","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/10/","aria-current":"$undefined","children":[["$","span",null,{"children":"10"}],["$","strong",null,{"children":"선형회귀·로지스틱회귀·KNN"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","11",{"data-progress-lesson":"11","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/11/","aria-current":"$undefined","children":[["$","span",null,{"children":"11"}],["$","strong",null,{"children":"결정트리·앙상블·SVM"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","12",{"data-progress-lesson":"12","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/12/","aria-current":"$undefined","children":[["$","span",null,{"children":"12"}],["$","strong",null,{"children":"군집화·DBSCAN·PCA와 비지도학습"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","13",{"data-progress-lesson":"13","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/13/","aria-current":"$undefined","children":[["$","span",null,{"children":"13"}],["$","strong",null,{"children":"Validation Strategy와 데이터 누수"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","14",{"data-progress-lesson":"14","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/14/","aria-current":"$undefined","children":[["$","span",null,{"children":"14"}],["$","strong",null,{"children":"평가지표와 불균형"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","15",{"data-progress-lesson":"15","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/15/","aria-current":"$undefined","children":[["$","span",null,{"children":"15"}],["$","strong",null,{"children":"Regularization·Hyperparameter Tuning·실험 설계"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}],"$Ld","$Le","$Lf"]}]]}]}],"$L10","$L11"]}],"$L12"]
+d:["$","section","3",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[3,"단계"]}],"PyTorch와 딥러닝 모델"]}],["$","ol",null,{"children":[["$","li","16",{"data-progress-lesson":"16","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/16/","aria-current":"$undefined","children":[["$","span",null,{"children":"16"}],["$","strong",null,{"children":"PyTorch 기초: Tensor·autograd·Dataset·DataLoader"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","17",{"data-progress-lesson":"17","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/17/","aria-current":"$undefined","children":[["$","span",null,{"children":"17"}],["$","strong",null,{"children":"퍼셉트론·MLP·활성함수·손실함수"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","18",{"data-progress-lesson":"18","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/18/","aria-current":"$undefined","children":[["$","span",null,{"children":"18"}],["$","strong",null,{"children":"PyTorch 학습 엔지니어링: optimizer·초기화·BN·Dropout"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","19",{"data-progress-lesson":"19","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/19/","aria-current":"$undefined","children":[["$","span",null,{"children":"19"}],["$","strong",null,{"children":"CNN: convolution·padding·pooling·이미지 코드"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","20",{"data-progress-lesson":"20","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/20/","aria-current":"$undefined","children":[["$","span",null,{"children":"20"}],["$","strong",null,{"children":"ResNet과 전이학습"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","21",{"data-progress-lesson":"21","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/21/","aria-current":"$undefined","children":[["$","span",null,{"children":"21"}],["$","strong",null,{"children":"시계열 데이터 계약과 window"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","22",{"data-progress-lesson":"22","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/22/","aria-current":"$undefined","children":[["$","span",null,{"children":"22"}],["$","strong",null,{"children":"RNN·LSTM·GRU와 1D CNN"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","23",{"data-progress-lesson":"23","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/23/","aria-current":"$undefined","children":[["$","span",null,{"children":"23"}],["$","strong",null,{"children":"Attention과 Transformer"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","24",{"data-progress-lesson":"24","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/24/","aria-current":"$undefined","children":[["$","span",null,{"children":"24"}],["$","strong",null,{"children":"Autoencoder와 이상탐지"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","25",{"data-progress-lesson":"25","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/25/","aria-current":"$undefined","children":[["$","span",null,{"children":"25"}],["$","strong",null,{"children":"VAE와 GAN"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}]
+e:["$","section","4",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[4,"단계"]}],"실기 문제 완주"]}],["$","ol",null,{"children":[["$","li","26",{"data-progress-lesson":"26","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/26/","aria-current":"$undefined","children":[["$","span",null,{"children":"26"}],["$","strong",null,{"children":"Process형 완전 공략: 명세를 edge case까지 구현하기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","27",{"data-progress-lesson":"27","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/27/","aria-current":"$undefined","children":[["$","span",null,{"children":"27"}],["$","strong",null,{"children":"Problem형 공통 파이프라인과 표형 문제"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","28",{"data-progress-lesson":"28","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/28/","aria-current":"$undefined","children":[["$","span",null,{"children":"28"}],["$","strong",null,{"children":"시계열 Problem 완주"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","29",{"data-progress-lesson":"29","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/29/","aria-current":"$undefined","children":[["$","span",null,{"children":"29"}],["$","strong",null,{"children":"이미지·이상탐지 Problem 분기"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","30",{"data-progress-lesson":"30","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/30/","aria-current":"page","children":[["$","span",null,{"children":"30"}],["$","strong",null,{"children":"제출·디버깅·170분 운영"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}]
+f:["$","section","5",{"children":[["$","p",null,{"children":[["$","span",null,{"children":[5,"단계"]}],"모의고사와 최종 점검"]}],["$","ol",null,{"children":[["$","li","31",{"data-progress-lesson":"31","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/31/","aria-current":"$undefined","children":[["$","span",null,{"children":"31"}],["$","strong",null,{"children":"필기 모의고사 1회 — 20문항 50분"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","32",{"data-progress-lesson":"32","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/32/","aria-current":"$undefined","children":[["$","span",null,{"children":"32"}],["$","strong",null,{"children":"Process형 모의고사 — 독자 문제 8문항"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","33",{"data-progress-lesson":"33","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/33/","aria-current":"$undefined","children":[["$","span",null,{"children":"33"}],["$","strong",null,{"children":"Problem형 완전 모의 — 차량 센서 다중출력 예측"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}],["$","li","34",{"data-progress-lesson":"34","children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/34/","aria-current":"$undefined","children":[["$","span",null,{"children":"34"}],["$","strong",null,{"children":"21일 완주 계획·최종 암기표·합격 체크"}],["$","i",null,{"aria-hidden":"true","children":"✓"}]]}]}]]}]]}]
+13:T1fd5,
+<span class="section-anchor" id="301" aria-hidden="true"></span>
+
+<h3 id="302">30.2 절대 규칙</h3>
+<ol>
+<li>제공 변수명·파일명·저장 cell을 임의로 바꾸지 않는다.</li>
+<li>코드 수정 후 <code>Ctrl+S</code>로 수동 저장한다.</li>
+<li>Process와 Problem을 각각 제출한다.</li>
+<li>제출 파일을 먼저 만들고 성능을 개선한다.</li>
+<li>test row order를 보존한다.</li>
+<li>전체 helper를 통째 import하거나 완성 pipeline을 무수정 복사하지 않고 필요한 블록만 사용한다.</li>
+<li>코드 실행과 모델 학습 시간도 170분에 포함되며, 실행 지연만으로 시험시간이 연장되지 않는다는 공식 운영 조건을 전제로 time cap을 둔다.</li>
+</ol>
+<h3 id="303-prediction">30.3 prediction 계약 검사</h3>
+<div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-30-1">복사</button></div><pre id="code-30-1" tabindex="0" aria-label="30강 Python 코드 1"><code class="language-python">def validate_prediction(pred, expected_shape, name="prediction"):
+    arr = np.asarray(pred)
+    if arr.shape != tuple(expected_shape):
+        raise ValueError(f"{name} shape {arr.shape} != {tuple(expected_shape)}")
+    if not np.issubdtype(arr.dtype, np.number):
+        raise TypeError(f"{name} numeric dtype 필요: {arr.dtype}")
+    if not np.isfinite(arr).all():
+        bad = np.argwhere(~np.isfinite(arr))[:10]
+        raise ValueError(f"{name} NaN/Inf 위치 예: {bad.tolist()}")
+    return arr
+</code></pre></div>
+<p>문제에서 dtype을 지정했을 때만 변환한다. float32 변환 후 overflow가 생길 수 있어 다시 검사한다.</p>
+<h3 id="304-npy">30.4 NPY</h3>
+<div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-30-2">복사</button></div><pre id="code-30-2" tabindex="0" aria-label="30강 Python 코드 2"><code class="language-python">pred = validate_prediction(pred, (len(test), OUT_DIM))
+path = "Submission_problem.npy"
+np.save(path, pred, allow_pickle=False)
+
+loaded = np.load(path, allow_pickle=False)
+validate_prediction(loaded, pred.shape, name="reloaded")
+if loaded.dtype != pred.dtype or not np.array_equal(loaded, pred):
+    raise IOError("NPY reload 불일치")
+print(path, loaded.shape, loaded.dtype)
+</code></pre></div>
+<p><code>(N,)</code>이 요구되는데 <code>(N,1)</code>로 저장하거나 그 반대는 채점 실패가 될 수 있다. 공식 shape를 그대로 쓴다.</p>
+<h3 id="305-csv">30.5 CSV</h3>
+<p>sample submission이 있으면 복사하고 target 열만 채운다.</p>
+<div class="code-shell"><div class="code-toolbar"><span>PYTHON</span><button type="button" data-copy-target="code-30-3">복사</button></div><pre id="code-30-3" tabindex="0" aria-label="30강 Python 코드 3"><code class="language-python">submission = sample_submission.copy()
+if not submission.columns.is_unique:
+    raise ValueError("submission 중복 열")
+if not set(PRED_COLS).issubset(submission.columns):
+    raise KeyError(f"PRED_COLS 오타: {PRED_COLS}")
+if len(submission) != len(pred):
+    raise ValueError("row 수 불일치")
+
+arr = np.asarray(pred)
+if len(PRED_COLS) == 1:
+    if arr.shape not in {(len(submission),), (len(submission), 1)}:
+        raise ValueError(f"단일 target shape 오류: {arr.shape}")
+    submission[PRED_COLS[0]] = arr.reshape(-1)
+else:
+    if arr.shape != (len(submission), len(PRED_COLS)):
+        raise ValueError((arr.shape, len(PRED_COLS)))
+    submission.loc[:, PRED_COLS] = arr
+
+numeric_before = submission[PRED_COLS].select_dtypes(include=["number"])
+if numeric_before.shape[1] and not np.isfinite(numeric_before.to_numpy()).all():
+    raise ValueError("CSV target NaN/Inf")
+
+submission.to_csv("submission.csv", index=False)
+loaded = pd.read_csv("submission.csv")
+if list(loaded.columns) != list(submission.columns) or len(loaded) != len(submission):
+    raise IOError("CSV schema/reload 불일치")
+if loaded[PRED_COLS].isna().any().any():
+    raise IOError("CSV target NaN")
+numeric_after = loaded[PRED_COLS].select_dtypes(include=["number"])
+if numeric_after.shape[1] and not np.isfinite(numeric_after.to_numpy()).all():
+    raise IOError("CSV reload target Inf")
+</code></pre></div>
+<h3 id="306">30.6 오류 진단 순서</h3>
+<p><code>mat1 and mat2 shapes cannot be multiplied</code>:</p>
+<ol>
+<li>model 직전 input shape</li>
+<li>flatten/permute 축</li>
+<li>Linear input_dim</li>
+</ol>
+<p><code>Expected target Long</code>:</p>
+<ul>
+<li>CE target을 <code>.long()</code>, shape <code>[B]</code></li>
+</ul>
+<p><code>Target size must be same as input</code>:</p>
+<ul>
+<li>BCE/MSE prediction-target shape를 정확히 맞춤</li>
+</ul>
+<p><code>CUDA out of memory</code>:</p>
+<ul>
+<li>batch↓, lazy Dataset, model↓, 불필요 tensor 참조, CPU baseline</li>
+</ul>
+<p><code>loss NaN</code>:</p>
+<ul>
+<li>입력/target finite, LR↓, log domain, scaling, gradient 확인</li>
+</ul>
+<p><code>AUC only one class</code>:</p>
+<ul>
+<li>split class 확인, stratify/group seed 조정. metric을 임의 변경하지 않음</li>
+</ul>
+<h3 id="307">30.7 시간 부족 축소 순서</h3>
+<ol>
+<li>탐색 중지</li>
+<li>best checkpoint/첫 제출 보존</li>
+<li>epoch/patience 축소</li>
+<li>모델 하나만 선택</li>
+<li>batch·hidden 축소</li>
+<li>CV→holdout</li>
+<li>augmentation/복잡 feature 제거</li>
+<li>제출 검증 시간 7분은 지킨다</li>
+</ol>
+<h3 id="308-30">30.8 최종 30초 체크</h3>
+<ul>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-1"><span>Process 제출 버튼</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-2"><span>Problem 제출 버튼</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-3"><span><code>Submission_problem.npy</code> 존재</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-4"><span>shape/dtype/NaN/Inf/reload</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-5"><span>test 순서와 class mapping</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-6"><span>제공 저장 cell 마지막 실행</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-7"><span>Ctrl+S</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-8"><span>오류·autosave/kernel 문제는 감독관에게 즉시 알림</span></label></li>
+</ul>
+<h3 id="309">30.9 실습문제</h3>
+<ol>
+<li>prediction <code>(200,2)</code>를 단일 target CSV 400행에 flatten해 넣으면 왜 위험한가?</li>
+<li><code>np.isfinite</code>를 float32 변환 전후 모두 보는 이유는?</li>
+<li>CSV 문자열 빈 label이 reload 후 무엇이 될 수 있는가?</li>
+<li>성능 개선보다 마지막 7분 제출 검증이 중요한 이유는?</li>
+<li>kernel 재시작 전에 해야 할 일은?</li>
+</ol>
+<details class="answer-panel" id="_31"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
+<li>우연히 원소 수가 같아도 sample-target 구조를 파괴한 잘못된 제출이다. 허용 shape를 먼저 제한한다.</li>
+<li>매우 큰 float64가 float32에서 Inf로 overflow될 수 있다.</li>
+<li>pandas가 NaN으로 읽을 수 있으므로 모든 target 열 결측을 검사한다.</li>
+<li>파일 계약 실패는 모델 성능과 무관하게 채점 불가/큰 감점으로 이어질 수 있다.</li>
+<li>Ctrl+S로 코드 저장하고 공식 절차·감독관 안내를 따른다.</li>
+</ol></div></details>
+
+<h3 id="3010">30.10 완료 기준</h3>
+<ul>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-9"><span>NPY/CSV를 저장 후 reload한다.</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-10"><span>여섯 오류 유형을 2분 안에 진단한다.</span></label></li>
+<li class="check-item"><label><input type="checkbox" data-check-id="30-11"><span>마지막 7분을 반드시 확보한다.</span></label></li>
+</ul>
+
+10:["$","main",null,{"className":"lesson-main","id":"main-content","children":["$","article",null,{"children":[["$","header",null,{"className":"lesson-header","children":[["$","nav",null,{"className":"breadcrumbs","aria-label":"현재 위치","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/","children":"34강"}],["$","span",null,{"children":"/"}],["$","span",null,{"children":[4,"단계"]}]]}],["$","p",null,{"className":"lesson-phase","children":[4,"단계 · ","실기 문제 완주"]}],["$","h1",null,{"children":[["$","span",null,{"children":["30","강"]}],"제출·디버깅·170분 운영"]}],["$","p",null,{"className":"lesson-summary","children":"예측 shape·dtype·파일 schema를 검사하고 오류와 시간 부족에 대응하는 마지막 실행 순서를 정리합니다."}],["$","div",null,{"className":"lesson-meta","children":[["$","span",null,{"children":["약 ",55,"분"]}],["$","span",null,{"children":["코드 ",3,"개"]}],["$","span",null,{"children":["표 ",0,"개"]}],["$","span",null,{"children":["완료 체크 ",11,"개"]}]]}],["$","div",null,{"className":"tag-row","children":[["$","span","제출",{"children":"제출"}],["$","span","디버깅",{"children":"디버깅"}],["$","span","시간관리",{"children":"시간관리"}]]}],["$","p",null,{"className":"prerequisites","children":[["$","strong",null,{"children":"먼저 보면 좋은 강의"}],[["$","a","26",{"href":"/hdat-ds-study-hub/learn/26/","children":[26,"강"]}],["$","a","27",{"href":"/hdat-ds-study-hub/learn/27/","children":[27,"강"]}],["$","a","28",{"href":"/hdat-ds-study-hub/learn/28/","children":[28,"강"]}],["$","a","29",{"href":"/hdat-ds-study-hub/learn/29/","children":[29,"강"]}]]]}]]}],["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":[9,"개"]}]]}],["$","ol",null,{"children":[["$","li","302",{"children":["$","a",null,{"href":"#302","children":"절대 규칙"}]}],["$","li","303-prediction",{"children":["$","a",null,{"href":"#303-prediction","children":"prediction 계약 검사"}]}],["$","li","304-npy",{"children":["$","a",null,{"href":"#304-npy","children":"NPY"}]}],["$","li","305-csv",{"children":["$","a",null,{"href":"#305-csv","children":"CSV"}]}],["$","li","306",{"children":["$","a",null,{"href":"#306","children":"오류 진단 순서"}]}],["$","li","307",{"children":["$","a",null,{"href":"#307","children":"시간 부족 축소 순서"}]}],["$","li","308-30",{"children":["$","a",null,{"href":"#308-30","children":"최종 30초 체크"}]}],["$","li","309",{"children":["$","a",null,{"href":"#309","children":"실습문제"}]}],["$","li","3010",{"children":["$","a",null,{"href":"#3010","children":"완료 기준"}]}]]}]]}],["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"AFTER THIS LESSON"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","제공 skeleton과 저장 cell을 보존한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"제공 skeleton과 저장 cell을 보존한다."]}],["$","li","prediction의 shape, dtype, finite, 순서를 검사한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"prediction의 shape, dtype, finite, 순서를 검사한다."]}],["$","li","NPY/CSV를 다시 읽어 검증한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"NPY/CSV를 다시 읽어 검증한다."]}],["$","li","OOM, NaN, shape 오류를 우선순위대로 해결한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"OOM, NaN, shape 오류를 우선순위대로 해결한다."]}]]}]]}],["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"코드를 읽기 전에 입력과 출력 shape를 종이에 적고, 확인문제는 해설을 열기 전 30초 동안 먼저 설명해 보세요."}]]}],["$","section",null,{"aria-labelledby":"lesson-body-title","children":[["$","h2",null,{"id":"lesson-body-title","className":"sr-only","children":"강의 내용"}],["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$13"}}]]}],"$L14","$L15","$L16"]}]}]
+11:["$","aside",null,{"className":"lesson-toc","aria-label":"이번 강의 목차","children":["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"IN THIS LESSON"}],["$","ol",null,{"children":[["$","li","302",{"children":["$","a",null,{"href":"#302","children":"절대 규칙"}]}],["$","li","303-prediction",{"children":["$","a",null,{"href":"#303-prediction","children":"prediction 계약 검사"}]}],["$","li","304-npy",{"children":["$","a",null,{"href":"#304-npy","children":"NPY"}]}],["$","li","305-csv",{"children":["$","a",null,{"href":"#305-csv","children":"CSV"}]}],["$","li","306",{"children":["$","a",null,{"href":"#306","children":"오류 진단 순서"}]}],["$","li","307",{"children":["$","a",null,{"href":"#307","children":"시간 부족 축소 순서"}]}],["$","li","308-30",{"children":["$","a",null,{"href":"#308-30","children":"최종 30초 체크"}]}],["$","li","309",{"children":["$","a",null,{"href":"#309","children":"실습문제"}]}],["$","li","3010",{"children":["$","a",null,{"href":"#3010","children":"완료 기준"}]}]]}]]}]}]
+12:["$","footer",null,{"className":"site-footer","children":[["$","div",null,{"className":"shell footer-grid","children":[["$","div",null,{"children":[["$","strong",null,{"children":"HDAT DS · PyTorch Study Room"}],["$","p",null,{"children":"처음 배우는 사람도 순서대로 완주할 수 있도록 만든 개인 학습 자료입니다."}]]}],["$","nav",null,{"aria-label":"하단 메뉴","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/","children":"34강"}],["$","a",null,{"href":"/hdat-ds-study-hub/practice/","children":"실전 연습"}],["$","a",null,{"href":"/hdat-ds-study-hub/resources/","children":"자료실"}],["$","a",null,{"href":"/hdat-ds-study-hub/cheatsheet.html","children":"로컬 치트시트"}]]}]]}],["$","p",null,{"className":"legal shell","children":"이 사이트는 개인 학습용 비공식 자료이며 현대자동차그룹 또는 현대엔지비의 공식 사이트가 아닙니다. 시험 당일 문제 지시, 제공 스켈레톤, 공식 규정과 감독관 안내가 항상 우선합니다."}]]}]
+17:I["f0433735e848",[],"default",1]
+14:["$","section",null,{"className":"lesson-sources","aria-labelledby":"lesson-sources-title","children":[["$","div",null,{"className":"lesson-sources-heading","children":[["$","p",null,{"className":"micro-label","children":"PRIMARY SOURCES"}],["$","h2",null,{"id":"lesson-sources-title","children":"공식 자료로 한 번 더 확인하기"}],["$","p",null,{"children":"본문을 이해한 뒤 필요한 항목만 대조하세요. 외부 링크는 시험 전 학습용입니다."}]]}],["$","div",null,{"className":"source-list","children":[["$","a","https://hdat.gitbook.io/2026-hdat-ds",{"href":"https://hdat.gitbook.io/2026-hdat-ds","target":"_blank","rel":"noreferrer noopener","children":[["$","span",null,{"children":"HDAT 공식"}],["$","strong",null,{"children":"2026 HDAT-DS 응시 매뉴얼"}],["$","p",null,{"children":"시험 일정·응시 절차·저장·제출·금지행위를 확인하는 최우선 자료입니다."}],["$","small",null,{"children":"공식 페이지 열기 ↗"}]]}],["$","a","https://exam.hyundai-ngv.com/practice/13567",{"href":"https://exam.hyundai-ngv.com/practice/13567","target":"_blank","rel":"noreferrer noopener","children":[["$","span",null,{"children":"HDAT 공식"}],["$","strong",null,{"children":"HDAT-DS 공식 연습문제 안내"}],["$","p",null,{"children":"필기 20문항 50분, 실기 Process 8문항과 Problem 1문항 170분 및 공개 범위를 확인합니다."}],["$","small",null,{"children":"공식 페이지 열기 ↗"}]]}],["$","a","https://docs.pytorch.org/tutorials/beginner/basics/saveloadrun_tutorial.html",{"href":"https://docs.pytorch.org/tutorials/beginner/basics/saveloadrun_tutorial.html","target":"_blank","rel":"noreferrer noopener","children":[["$","span",null,{"children":"PyTorch 공식"}],["$","strong",null,{"children":"Save and load a model"}],["$","p",null,{"children":"state_dict 저장·reload와 eval 전환을 제출 전 검증 습관에 연결합니다."}],["$","small",null,{"children":"공식 페이지 열기 ↗"}]]}]]}]]}]
+15:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"LESSON COMPLETE"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"스크롤만 끝낸 것은 완료가 아닙니다. 이 강의의 완료 기준을 실제로 확인한 뒤 표시하세요."}]]}],["$","$L17",null,{"lessonId":"30"}]]}]
+16:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/29/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",29,". ","이미지·이상탐지 Problem 분기"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/31/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[31,". ","필기 모의고사 1회 — 20문항 50분"," →"]}]]}]]}]
