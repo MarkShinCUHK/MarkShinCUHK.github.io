@@ -57,21 +57,21 @@ code { font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace; font-s
 <body>
 <div class="headerbar">
   <strong>HDAT-DS · PyTorch</strong>
-  <a class="hub-link" href="manual.html">학습 허브</a>
-  <input id="search" aria-label="치트시트 검색" placeholder="키워드 입력 후 Enter — 예: OOM, window, submission">
+  <a class="hub-link" href="manual.html">학습실 홈</a>
+  <input id="search" aria-label="치트시트 검색" placeholder="검색어를 입력하고 Enter — 예: 메모리, 시계열, 제출">
   <button onclick="window.print()">인쇄/PDF</button>
 </div>
 <main><h1 id="hdat-ds-pytorch">HDAT-DS 실기 오픈북 치트시트 — PyTorch 전용</h1>
-<p>버전: 2026-09-08 · shape·broadcasting 기초 보강 (2026-09-07 Astra 감사 유지)<br>
+<p>버전: 2026-09-08 · 배열 크기·브로드캐스팅 기초 보강 (2026-09-07 Astra 감사 유지)<br>
 검색 키워드: <code>EDIT</code>, <code>binary</code>, <code>multiclass</code>, <code>multioutput</code>, <code>RMSLE</code>, <code>group</code>, <code>timeseries</code>, <code>window</code>, <code>CNN1D</code>, <code>GRU</code>, <code>LSTM</code>, <code>image</code>, <code>autoencoder</code>, <code>submission</code>, <code>hidden test</code>, <code>OOM</code>, <code>NaN</code></p>
 <blockquote>
-<p>목표는 만능 모델이 아니라 <strong>문제 유형을 2분 안에 분류하고, 유효한 baseline 제출 파일을 먼저 만든 뒤, 한 가지 개선 모델만 시도하는 것</strong>이다. 실제 문제의 skeleton·함수명·변수명·파일명·출력 shape가 이 문서보다 항상 우선한다.</p>
+<p>목표는 만능 모델이 아니라 <strong>문제 유형을 2분 안에 분류하고, 기준 모델로 유효한 제출 파일을 먼저 만든 뒤, 한 가지 개선 모델만 시도하는 것</strong>이다. 실제 문제의 기본 코드(skeleton)·함수명·변수명·파일명·출력 크기(shape)가 이 문서보다 항상 우선한다.</p>
 </blockquote>
 <blockquote>
-<p>이 팩은 개인 연습·검색용이다. 파일 반입·업로드·외부 접속 및 코드 사용 허용 범위는 해당 회차 규정으로 확인한다. 생성형 AI 활용은 공식 안내상 금지다. 허용되는 범위 안에서 필요한 블록을 제공 skeleton의 명세에 맞춘다. 이 문서가 시험장 사용 허가를 의미하지 않는다.</p>
+<p>이 자료는 개인 연습·검색용이다. 파일 반입·업로드·외부 접속 및 코드 사용 허용 범위는 해당 회차 규정으로 확인한다. 생성형 AI 활용은 공식 안내상 금지다. 허용되는 범위 안에서 필요한 블록을 제공된 기본 코드의 명세에 맞춘다. 이 문서가 시험장 사용 허가를 의미하지 않는다.</p>
 </blockquote>
-<p><strong>어디서 시작할지 모르겠다면 <a href="./playbook.html">12유형 풀이 가이드</a>부터 보세요.</strong> 새 가이드는 다운로드 소스 <code>hdat_templates.py</code>의 API로 통일했다. 이 문서의 독립 예제(<code>fit</code>, <code>ImageCNN</code>)와 소스 함수(<code>train_torch_model</code>, <code>SmallImageCNN</code>)를 섞지 않는다. 딥러닝은 PyTorch이며 5·7절의 sklearn 모델은 고전 머신러닝 선택 참고다. PyTorch 표형 첫 경로는 10→11(MLP)→12→17절이다.</p>
-<nav class="toc" aria-label="치트시트 전체 목차"><ul><li><a href="#0">0. 시험장에서 가장 먼저 할 일</a></li><li><a href="#1">1. 절대 규칙</a></li><li><a href="#2-pytorch-shapeloss">2. PyTorch shape·loss 한 장 표</a></li><li><a href="#3-process-hidden-test">3. Process: hidden test를 통과하는 법</a></li><li><a href="#4-2-eda">4. 2분 EDA·계약 검사</a></li><li><a href="#5-baseline">5. 표형 데이터 baseline — 먼저 제출 파일 확보</a></li><li><a href="#6-validation">6. validation 교체 레시피</a></li><li><a href="#7-rmsle">7. RMSLE·건수 문제</a></li><li><a href="#8">8. 불균형 분류</a></li><li><a href="#9-window">9. 시계열 window</a></li><li><a href="#10-pytorch-dataloader">10. PyTorch 공통 설정·DataLoader</a></li><li><a href="#11-pytorch">11. PyTorch 모델 블록</a></li><li><a href="#12-pytorch">12. PyTorch 공통 학습·예측</a></li><li><a href="#13">13. 이미지 처리</a></li><li><a href="#14-autoencoder">14. Autoencoder 이상 탐지</a></li><li><a href="#14a-pytorch">14A. 명세가 직접 요구할 때만 쓰는 PyTorch 부록</a></li><li><a href="#15-feature-selectionpca">15. Feature selection·PCA·고유 범주</a></li><li><a href="#16-hyperparameter">16. 작은 hyperparameter 탐색</a></li><li><a href="#17">17. 제공 저장 셀 실행 전 검증 — 가장 중요한 블록</a></li><li><a href="#18">18. 오류 → 즉시 조치</a></li><li><a href="#19">19. 시간 부족 축소 순서</a></li><li><a href="#20-170">20. 170분 권장 운영</a></li><li><a href="#21">21. 소스 코드 지도</a></li><li><a href="#22-30">22. 최종 30초 체크</a></li></ul></nav><h2 id="0">0. 시험장에서 가장 먼저 할 일</h2>
+<p><strong>어디서 시작할지 모르겠다면 <a href="./playbook.html">12유형 풀이 가이드</a>부터 보세요.</strong> 새 가이드는 다운로드 소스 <code>hdat_templates.py</code>의 API로 통일했다. 이 문서의 독립 예제(<code>fit</code>, <code>ImageCNN</code>)와 소스 함수(<code>train_torch_model</code>, <code>SmallImageCNN</code>)를 섞지 않는다. 딥러닝은 PyTorch이며 5·7절의 sklearn 모델은 고전 머신러닝 선택 참고다. PyTorch로 표 데이터 문제를 처음 풀 때는 10→11(MLP)→12→17절 순으로 참고한다.</p>
+<nav class="toc" aria-label="치트시트 전체 목차"><ul><li><a href="#0">0. 시험장에서 가장 먼저 할 일</a></li><li><a href="#1">1. 절대 규칙</a></li><li><a href="#2-pytorch-shapeloss">2. PyTorch 배열 크기·손실 요약표</a></li><li><a href="#3-process-hidden-test">3. Process: 비공개 테스트까지 대비하는 법</a></li><li><a href="#4-2-eda">4. 2분 EDA·입출력 조건 검사</a></li><li><a href="#5-baseline">5. 표 형태의 데이터 기준 모델 — 먼저 제출 파일 확보</a></li><li><a href="#6-validation">6. 검증 방법 바꾸기</a></li><li><a href="#7-rmsle">7. RMSLE·건수 문제</a></li><li><a href="#8">8. 불균형 분류</a></li><li><a href="#9-window">9. 시계열 윈도</a></li><li><a href="#10-pytorch-dataloader">10. PyTorch 공통 설정·DataLoader</a></li><li><a href="#11-pytorch">11. PyTorch 모델 블록</a></li><li><a href="#12-pytorch">12. PyTorch 공통 학습·예측</a></li><li><a href="#13">13. 이미지 처리</a></li><li><a href="#14-autoencoder">14. Autoencoder 이상 탐지</a></li><li><a href="#14a-pytorch">14A. 명세가 직접 요구할 때만 쓰는 PyTorch 부록</a></li><li><a href="#15-feature-selectionpca">15. 특성 선택·PCA·고유 범주</a></li><li><a href="#16-hyperparameter">16. 소규모 하이퍼파라미터 탐색</a></li><li><a href="#17">17. 제공 저장 셀 실행 전 검증 — 가장 중요한 블록</a></li><li><a href="#18">18. 오류 → 즉시 조치</a></li><li><a href="#19">19. 시간 부족 축소 순서</a></li><li><a href="#20-170">20. 170분 권장 운영</a></li><li><a href="#21">21. 필요한 코드 찾기</a></li><li><a href="#22-30">22. 최종 30초 체크</a></li></ul></nav><h2 id="0">0. 시험장에서 가장 먼저 할 일</h2>
 <p>다음 10줄을 문제 상단에 직접 적고 빈칸을 채운 뒤 코딩한다.</p>
 <pre><code class="language-text">TASK        = regression / binary / multiclass / multilabel / anomaly
 METRIC      = MSE / RMSE / MAE / RMSLE / Accuracy / Macro-F1 / AUC
@@ -89,35 +89,35 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 <thead>
 <tr>
 <th>문제 신호</th>
-<th>validation</th>
-<th>첫 baseline</th>
-<th>PyTorch 개선</th>
-<th>대표 함정</th>
+<th>검증 방법</th>
+<th>첫 기준 모델</th>
+<th>PyTorch 개선 모델</th>
+<th>대표적인 함정</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>독립 행 + 연속 target</td>
-<td>random/KFold</td>
+<td>독립 행 + 연속 정답</td>
+<td>무작위 분할/KFold</td>
 <td>Ridge 또는 ExtraTrees 회귀</td>
 <td>MLP</td>
-<td><code>(N,)</code> vs <code>(N,1)</code>, target inverse transform</td>
+<td><code>(N,)</code>와 <code>(N,1)</code>, 정답 단위의 역변환</td>
 </tr>
 <tr>
-<td>독립 행 + 2개 class</td>
-<td>stratified</td>
+<td>독립 행 + 클래스 2개</td>
+<td>계층화 분할</td>
 <td>Logistic/ExtraTrees 분류</td>
 <td>MLP + BCE</td>
-<td>label인지 양성 확률인지 확인</td>
+<td>제출값이 라벨인지 양성 확률인지 확인</td>
 </tr>
 <tr>
-<td>독립 행 + 3개 이상 class</td>
-<td>stratified</td>
+<td>독립 행 + 클래스 3개 이상</td>
+<td>계층화 분할</td>
 <td>Logistic/ExtraTrees 분류</td>
 <td>MLP + CE</td>
-<td>class index 0…C-1, 확률 열 순서</td>
+<td>클래스 인덱스 0…C-1, 확률 열 순서</td>
 </tr>
 <tr>
-<td>연속 target 여러 개</td>
+<td>연속 정답 여러 개</td>
 <td>데이터 구조에 맞춤</td>
 <td>ExtraTrees 다중출력</td>
 <td>MLP/CNN1D</td>
@@ -125,31 +125,31 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 </tr>
 <tr>
 <td>같은 차량·설비 ID 반복</td>
-<td>group split</td>
-<td>표형 baseline</td>
-<td>MLP/sequence</td>
-<td>같은 ID가 train/valid 양쪽에 존재</td>
+<td>그룹 분할</td>
+<td>표 데이터 기준 모델</td>
+<td>MLP/시퀀스 모델</td>
+<td>같은 ID가 훈련·검증 양쪽에 존재</td>
 </tr>
 <tr>
 <td>미래 예측·시간 순서</td>
-<td>chronological</td>
-<td>last value/Ridge/ExtraTrees</td>
+<td>시간순 분할</td>
+<td>마지막 값 예측/Ridge/ExtraTrees</td>
 <td>CNN1D → GRU</td>
-<td>random split, window off-by-one</td>
+<td>무작위 분할, 윈도 인덱스가 한 칸 어긋남</td>
 </tr>
 <tr>
 <td>이미지 <code>(N,H,W,C)</code></td>
-<td>stratified/group</td>
+<td>계층화·그룹 분할</td>
 <td>작은 CNN</td>
-<td>Image CNN</td>
-<td>NCHW, RGB/gray, train만 augmentation</td>
+<td>이미지 CNN</td>
+<td>NCHW, RGB/흑백, 훈련자료에만 증강</td>
 </tr>
 <tr>
 <td>이상 탐지</td>
-<td>정상 train 분리</td>
+<td>정상 훈련자료 분리</td>
 <td>IsolationForest/PCA</td>
 <td>Autoencoder</td>
-<td>score 방향·threshold 결정</td>
+<td>점수의 방향과 임계값 결정</td>
 </tr>
 <tr>
 <td>수요·건수 + RMSLE</td>
@@ -160,93 +160,93 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 </tr>
 <tr>
 <td>심한 불균형</td>
-<td>stratified/group/time</td>
-<td>class weight</td>
+<td>계층화·그룹·시간 분할</td>
+<td>클래스 가중치</td>
 <td>BCE <code>pos_weight</code></td>
-<td>accuracy 맹신, test로 threshold 선택</td>
+<td>정확도 맹신, 테스트 점수로 임계값 선택</td>
 </tr>
 </tbody></table>
-<h3 id="split">split 우선순위</h3>
+<h3 id="split">데이터 분할 기준의 우선순위</h3>
 <ol>
-<li>미래를 예측하면 <strong>시간순 split</strong>.</li>
-<li>처음 보는 차량·설비·사용자에 일반화하면 <strong>group split</strong>.</li>
-<li>일반 분류이면 <strong>stratified split</strong>.</li>
-<li>그 외 일반 회귀이면 random holdout 또는 KFold.</li>
+<li>미래를 예측하면 <strong>시간순으로 분할</strong>한다.</li>
+<li>처음 보는 차량·설비·사용자를 예측하면 <strong>그룹별로 분할</strong>한다.</li>
+<li>일반적인 분류 문제이면 <strong>계층화 분할</strong>을 사용한다.</li>
+<li>그 외 일반적인 회귀 문제이면 무작위 단일 검증 분할 또는 KFold를 사용한다.</li>
 </ol>
-<p>시간과 group이 함께 있으면 문제의 배포 상황을 먼저 해석한다. “같은 차량의 미래”와 “처음 보는 차량”은 서로 다른 validation이다.</p>
+<p>시간과 그룹 정보가 함께 있으면 실제로 예측할 상황을 먼저 해석한다. “같은 차량의 미래”와 “처음 보는 차량”은 서로 다른 검증 방법이 필요하다.</p>
 <h2 id="1">1. 절대 규칙</h2>
 <ul>
 <li>Problem과 Process는 각각 저장·제출 상태를 확인한다.</li>
 <li>의미 있는 셀을 실행할 때마다 저장하고, 문항 이동 전에도 <code>Ctrl+S</code>를 누른다.</li>
-<li>별도 파일보다 제공 skeleton 안의 지정 셀·변수·저장 코드를 우선한다.</li>
-<li>문제에 제출/저장 셀이 제공되면 그 셀은 바꾸지 않는다. 직전에 prediction만 검증한 뒤 제공 셀을 그대로 실행한다.</li>
+<li>별도 파일보다 제공된 기본 코드 안의 지정 셀·변수·저장 코드를 우선한다.</li>
+<li>문제에 제출/저장 셀이 제공되면 그 셀은 바꾸지 않는다. 직전에 예측값만 검증한 뒤 제공 셀을 그대로 실행한다.</li>
 <li>실기 170분에는 학습·실행 시간도 포함된다.</li>
-<li>test 행 순서를 바꾸지 않는다. 정렬했다면 원래 순서로 복원한다.</li>
-<li>scaler, imputer, encoder, PCA, feature selector는 train에만 <code>fit</code>한다.</li>
-<li>validation을 확인하기 전에 전체 train으로 재학습하지 않는다.</li>
+<li>테스트 행 순서를 바꾸지 않는다. 정렬했다면 원래 순서로 복원한다.</li>
+<li>스케일러·결측 대체기·인코더·PCA·특성 선택기는 훈련자료에만 <code>fit</code>한다.</li>
+<li>검증 결과를 확인하기 전에 훈련자료 전체로 재학습하지 않는다.</li>
 <li>처음부터 큰 LSTM·Transformer·대규모 탐색을 돌리지 않는다.</li>
-<li>20분 남으면 성능 개선을 멈추고 저장·shape·NaN·제출 상태를 확인한다.</li>
+<li>20분 남으면 성능 개선을 멈추고 저장 여부·배열 크기·NaN·제출 상태를 확인한다.</li>
 <li>실제 시험 중에는 생성형 AI, GitHub, Notion, Colab, Kaggle 등 공식 금지 대상을 열지 않는다.</li>
 </ul>
-<h2 id="2-pytorch-shapeloss">2. PyTorch shape·loss 한 장 표</h2>
+<h2 id="2-pytorch-shapeloss">2. PyTorch 배열 크기·손실 요약표</h2>
 <table>
 <thead>
 <tr>
-<th>TASK</th>
+<th>과제</th>
 <th><code>y</code></th>
-<th>모델 raw output</th>
-<th>loss</th>
-<th>제출 변환</th>
+<th>변환 전 모델 출력</th>
+<th>손실함수</th>
+<th>제출용 변환</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>단일 회귀</td>
-<td><code>[B,1]</code> float</td>
+<td><code>[B,1]</code> 실수형</td>
 <td><code>[B,1]</code></td>
 <td><code>MSELoss</code></td>
-<td>raw value</td>
+<td>연속 예측값</td>
 </tr>
 <tr>
 <td>다중 회귀</td>
-<td><code>[B,K]</code> float</td>
+<td><code>[B,K]</code> 실수형</td>
 <td><code>[B,K]</code></td>
 <td><code>MSELoss</code></td>
-<td>raw value</td>
+<td>연속 예측값</td>
 </tr>
 <tr>
 <td>이진분류</td>
-<td><code>[B,1]</code> float 0/1</td>
-<td><code>[B,1]</code> logits</td>
+<td><code>[B,1]</code> 실수형 0/1</td>
+<td><code>[B,1]</code> 로짓(logits)</td>
 <td><code>BCEWithLogitsLoss</code></td>
-<td>sigmoid 후 확률/threshold</td>
+<td>시그모이드 확률 또는 임계값 판정</td>
 </tr>
 <tr>
 <td>다중분류</td>
-<td><code>[B]</code> long, 0…C-1</td>
-<td><code>[B,C]</code> logits</td>
+<td><code>[B]</code> long 정수형, 0…C-1</td>
+<td><code>[B,C]</code> 로짓</td>
 <td><code>CrossEntropyLoss</code></td>
-<td>softmax 또는 argmax</td>
+<td>소프트맥스 또는 argmax</td>
 </tr>
 <tr>
-<td>multilabel</td>
-<td><code>[B,K]</code> float 0/1</td>
-<td><code>[B,K]</code> logits</td>
+<td>다중라벨 분류</td>
+<td><code>[B,K]</code> 실수형 0/1</td>
+<td><code>[B,K]</code> 로짓</td>
 <td><code>BCEWithLogitsLoss</code></td>
-<td>각 열 sigmoid/threshold</td>
+<td>열별 시그모이드 확률 또는 임계값 판정</td>
 </tr>
 </tbody></table>
 <p>반드시 지킬 것:</p>
 <ul>
-<li><code>CrossEntropyLoss</code> 앞에 softmax를 붙이지 않는다.</li>
-<li><code>BCEWithLogitsLoss</code> 앞에 sigmoid를 붙이지 않는다.</li>
-<li>회귀·BCE에서 output과 target shape를 완전히 같게 만든다. MSELoss는 <code>[B]</code>와 <code>[B,1]</code>을 broadcasting해 의도와 다른 비교를 할 수 있다. BCEWithLogitsLoss는 서로 다른 shape를 허용하지 않고 오류를 낸다.</li>
-<li>표형 배치는 <code>[B,F]</code>, window로 묶은 sequence 배치는 <code>[B,T,F]</code>, PyTorch 이미지 배치는 <code>[B,C,H,W]</code>. 전체 샘플 수 N과 현재 배치 크기 B를 구분한다.</li>
+<li><code>CrossEntropyLoss</code> 앞에 소프트맥스를 붙이지 않는다.</li>
+<li><code>BCEWithLogitsLoss</code> 앞에 시그모이드를 붙이지 않는다.</li>
+<li>회귀·BCE에서 예측과 정답 배열의 크기를 완전히 같게 만든다. MSELoss는 <code>[B]</code>와 <code>[B,1]</code>을 브로드캐스팅해 의도와 다른 비교를 할 수 있다. BCEWithLogitsLoss는 서로 다른 배열 크기를 허용하지 않고 오류를 낸다.</li>
+<li>표형 배치는 <code>[B,F]</code>, 윈도(window)로 묶은 시퀀스 배치는 <code>[B,T,F]</code>, PyTorch 이미지 배치는 <code>[B,C,H,W]</code>. 전체 샘플 수 N과 현재 배치 크기 B를 구분한다.</li>
 <li>RNN/LSTM/GRU 입력 <code>[B,T,F]</code>는 <code>batch_first=True</code>일 때다. 기본값은 <code>[T,B,F]</code>이며 마지막 은닉 상태의 축 순서는 별도다.</li>
-<li><code>Conv1d</code>는 <code>[B,C,L]</code>이다. 특성 F를 채널, 시간 T를 길이로 쓰면 <code>x.permute(0,2,1)</code>로 <code>[B,T,F] → [B,F,T]</code>로 바꾼다. wrapper가 내부에서 바꾸면 중복 변환하지 않는다.</li>
-<li>validation/test loader는 <code>shuffle=False</code>.</li>
+<li><code>Conv1d</code>는 <code>[B,C,L]</code>이다. 특성 F를 채널, 시간 T를 길이로 쓰면 <code>x.permute(0,2,1)</code>로 <code>[B,T,F] → [B,F,T]</code>로 바꾼다. 모델을 감싼 코드가 내부에서 축을 바꾸면 중복 변환하지 않는다.</li>
+<li>검증·테스트 로더는 <code>shuffle=False</code>로 설정한다.</li>
 <li>추론은 <code>model.eval()</code>과 <code>torch.inference_mode()</code>.</li>
 </ul>
-<h3 id="shape-basics">shape·permute·broadcasting 빠른 복습</h3>
+<h3 id="shape-basics">배열 크기·축 교환·브로드캐스팅 빠른 복습</h3>
 <p>처음 보는 기호라면 <a href="https://markshincuhk.github.io/hdat-ds-study-hub/start/06/">입문 6강의 쉬운 설명과 13문제·해설</a>부터 읽는다. 이 링크는 온라인 강의이며, 이 절 자체의 요약은 내려받은 치트시트에서도 읽을 수 있다.</p>
 <table>
 <thead>
@@ -257,12 +257,12 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 </tr>
 </thead>
 <tbody><tr>
-<td>shape</td>
+<td>배열 크기(shape)</td>
 <td>숫자의 값이 아니라 각 축의 크기</td>
-<td>B=배치 샘플 수, F=특성, T=시간, C=채널, H/W=높이/너비</td>
+<td>B=배치 샘플 수, F=특성 수, T=시점 수, C=채널, H/W=높이/너비</td>
 </tr>
 <tr>
-<td><code>[B,K]</code> logits</td>
+<td><code>[B,K]</code> 로짓</td>
 <td>샘플마다 클래스 점수 K개</td>
 <td>아직 확률 아님; <code>argmax(dim=1)</code> 결과는 <code>[B]</code></td>
 </tr>
@@ -272,7 +272,7 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 <td><code>[B,T,F] → [B,F,T]</code>; reshape로 대체하지 않기</td>
 </tr>
 <tr>
-<td>broadcasting</td>
+<td>브로드캐스팅(broadcasting)</td>
 <td>계산할 때 같은 값을 여러 위치에 적용</td>
 <td>오른쪽부터 크기가 같거나 한쪽이 1, 없는 왼쪽 축은 1</td>
 </tr>
@@ -297,7 +297,7 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 <td>한 출력이면 둘 다 <code>[B,1]</code> 또는 둘 다 <code>[B]</code>로 맞추기</td>
 </tr>
 </tbody></table>
-<p>원본 시계열 CSV가 항상 <code>[B,T,F]</code>인 것은 아니다. <code>[전체 시점 수,F]</code>에서 window를 만든 뒤 배치로 묶은 형태인지 확인한다. broadcasting이 성공해도 의도한 축에 적용되었는지는 별도 확인해야 한다.</p>
+<p>원본 시계열 CSV가 항상 <code>[B,T,F]</code>인 것은 아니다. <code>[전체 시점 수,F]</code>에서 윈도를 만든 뒤 배치로 묶은 형태인지 확인한다. 브로드캐스팅이 성공해도 의도한 축에 적용되었는지는 별도 확인해야 한다.</p>
 <pre><code class="language-python">import torch
 
 # 독립 실행 가능한 shape 검사 예제. 실제 문제에서는 데이터·출력 계약을 확인한다.
@@ -309,19 +309,19 @@ assert pred.shape == target.shape
 assert (pred - target).square().mean().item() == 1.0
 assert pred[:1].squeeze(1).shape == (1,) # B=1에서도 배치 축 보존
 </code></pre>
-<p>다중출력 회귀라면 둘 다 <code>[B,K]</code>로 맞춘다. 정수 class index를 쓰는 CE는 logits <code>[B,K]</code>와 정답 <code>[B]</code>가 올바르므로 무조건 unsqueeze하지 않는다. 기호 C·K 등의 뜻은 각 절의 정의를 따른다.</p>
-<h2 id="3-process-hidden-test">3. Process: hidden test를 통과하는 법</h2>
-<h3 id="_1">계약 체크리스트</h3>
+<p>다중출력 회귀라면 둘 다 <code>[B,K]</code>로 맞춘다. 정수 클래스 인덱스를 쓰는 CE는 로짓 <code>[B,K]</code>와 정답 <code>[B]</code>가 올바르므로 무조건 unsqueeze하지 않는다. 기호 C·K 등의 뜻은 각 절의 정의를 따른다.</p>
+<h2 id="3-process-hidden-test">3. Process: 비공개 테스트까지 대비하는 법</h2>
+<h3 id="_1">입출력 조건 점검표</h3>
 <ul>
 <li>요구 함수명, 인자 순서, 기본값, 전역 변수명, 모델명을 그대로 썼는가?</li>
 <li>반환형이 DataFrame/Series/NumPy/Tensor 중 무엇인지 확인했는가?</li>
 <li>입력을 수정하라는 말이 없으면 <code>copy()</code>했는가?</li>
-<li>지정 열만 바꾸고 비대상 열·열 순서·index를 보존했는가?</li>
-<li>sample 크기, 열 이름, 이미지 크기, batch 크기를 hard-code하지 않았는가?</li>
+<li>지정한 열만 바꾸고 나머지 열·열 순서·인덱스를 보존했는가?</li>
+<li>샘플 수, 열 이름, 이미지 크기, 배치 크기를 코드에 고정된 값으로 넣지 않았는가?</li>
 <li>임의로 <code>squeeze()</code>하지 않았는가?</li>
-<li>dummy input으로 모델 output shape를 확인했는가?</li>
+<li>예시 입력으로 모델을 실행해 출력 크기를 확인했는가?</li>
 </ul>
-<h3 id="micro-test">최소 micro-test</h3>
+<h3 id="micro-test">최소 입력으로 테스트하기</h3>
 <pre><code class="language-python"># 함수명은 실제 문제에 맞게 바꾼다.
 tests = [
     pd.DataFrame({"x": [], "keep": []}),
@@ -351,17 +351,17 @@ for case in tests:
             out[col] = (x - lo) / (hi - lo)
     return out
 </code></pre>
-<h3 id="pil-crop">PIL crop</h3>
+<h3 id="pil-crop">PIL로 이미지 자르기</h3>
 <pre><code class="language-python">def crop_to_numpy(image, box):
     # box = (left, upper, right, lower)
     return np.asarray(image.crop(box)).copy()
 </code></pre>
-<h3 id="convolution">convolution 출력 크기</h3>
+<h3 id="convolution">합성곱의 출력 크기</h3>
 <pre><code class="language-python">def conv_out(n, kernel, stride=1, padding=0, dilation=1):
     return (n + 2*padding - dilation*(kernel-1) - 1) // stride + 1
 </code></pre>
-<p>Process에서 구조를 정확히 지정하면 범용 모델로 바꾸지 말고 layer 순서, kernel, stride, padding, activation, pooling을 <strong>문제 문장 그대로</strong> 구현한다.</p>
-<h2 id="4-2-eda">4. 2분 EDA·계약 검사</h2>
+<p>Process에서 구조를 정확히 지정하면 범용 모델로 바꾸지 말고 층 순서, 커널, 보폭, 패딩, 활성함수, 풀링을 <strong>문제 문장 그대로</strong> 구현한다.</p>
+<h2 id="4-2-eda">4. 2분 EDA·입출력 조건 검사</h2>
 <pre><code class="language-python">print("train/test:", train.shape, test.shape)             # &lt;&lt;&lt; 변수명 EDIT
 print("duplicate columns:", train.columns[train.columns.duplicated()].tolist())
 print("dtypes:\n", train.dtypes.value_counts())
@@ -379,21 +379,21 @@ assert set(TARGETS).issubset(train.columns)
 </code></pre>
 <p>누수 의심 열:</p>
 <ul>
-<li>target의 다른 표현이나 target으로 만든 파생 열</li>
+<li>정답을 다른 형식으로 나타내거나 정답에서 만든 파생 열</li>
 <li>사고·고장·배송 완료 이후에만 알 수 있는 정보</li>
 <li>미래 시점 값</li>
 <li>동일 객체의 전체 기간 요약값</li>
-<li>train에만 존재하는 설명 불명 열</li>
-<li>record 순서가 사실상 정답 순서인 ID</li>
+<li>훈련자료에만 있으며 의미를 알 수 없는 열</li>
+<li>기록 순서가 사실상 정답 순서와 같은 ID</li>
 </ul>
-<p>ID를 자동 삭제하지 말고 group/time 정보인지 먼저 확인한다.</p>
-<h2 id="5-baseline">5. 표형 데이터 baseline — 먼저 제출 파일 확보</h2>
-<h3 id="when">WHEN</h3>
+<p>ID를 자동으로 삭제하지 말고 그룹·시간 정보인지 먼저 확인한다.</p>
+<h2 id="5-baseline">5. 표 형태의 데이터 기준 모델 — 먼저 제출 파일 확보</h2>
+<h3 id="when">언제 사용하나요?</h3>
 <ul>
 <li>행마다 독립적인 표형 분류·회귀.</li>
-<li>sequence라도 이미 각 행이 하나의 완성된 window/feature라면 표형 baseline을 먼저 시도.</li>
+<li>시퀀스라도 각 행이 이미 하나의 윈도 또는 특성 묶음이라면 표 데이터 기준 모델부터 시도한다.</li>
 </ul>
-<h3 id="change-here">CHANGE HERE</h3>
+<h3 id="change-here">이 부분을 수정하세요</h3>
 <p><code>TARGETS</code>, <code>DROP_COLS</code>, <code>DATE_COLS</code>, <code>TASK</code>, <code>METRIC</code>, <code>model</code>.</p>
 <h3 id="_2">범용 코드</h3>
 <pre><code class="language-python">import numpy as np
@@ -624,13 +624,13 @@ if metric == "rmsle":
 print("test_pred", np.asarray(test_pred).shape)
 assert len(test_pred) == len(X_test)
 </code></pre>
-<h3 id="check">CHECK</h3>
+<h3 id="check">실행 후 확인할 내용</h3>
 <ul>
-<li>category가 매우 많아 OHE 열 수가 폭발하지 않는가?</li>
-<li>test에 unseen category가 있어도 <code>handle_unknown="ignore"</code>로 동작하는가?</li>
+<li>범주가 너무 많아 원-핫 인코딩(OHE)의 열 수가 지나치게 늘어나지 않는가?</li>
+<li>테스트에 훈련 때 없던 범주가 있어도 <code>handle_unknown="ignore"</code>로 동작하는가?</li>
 <li>다중출력 회귀이면 <code>test_pred.shape == (len(X_test), len(TARGETS))</code>인가?</li>
-<li>위의 100-tree baseline이 안정적으로 제출된 뒤 시간이 남으면 <code>n_estimators=300</code>, <code>min_samples_leaf=2</code>를 validation으로 비교한다.</li>
-<li>다중출력/멀티라벨 metric 산식은 대회마다 다르다. 위 점수를 그대로 믿지 말고 공식 산식을 구현한다.</li>
+<li>위의 트리 100개짜리 기준 모델로 유효한 파일을 제출한 뒤 시간이 남으면 <code>n_estimators=300</code>, <code>min_samples_leaf=2</code>를 검증자료에서 비교한다.</li>
+<li>다중출력·다중라벨 평가지표의 산식은 대회마다 다르다. 위 점수를 그대로 믿지 말고 공식 산식을 구현한다.</li>
 </ul>
 <h3 id="_3">모델만 교체</h3>
 <pre><code class="language-python"># 희소·고차원 선형 분류
@@ -642,8 +642,8 @@ model = LogisticRegression(max_iter=1500, class_weight=None, C=1.0)
 from sklearn.linear_model import Ridge
 model = Ridge(alpha=1.0)
 </code></pre>
-<h2 id="6-validation">6. validation 교체 레시피</h2>
-<h3 id="group-split">Group split</h3>
+<h2 id="6-validation">6. 검증 방법 바꾸기</h2>
+<h3 id="group-split">그룹 분할</h3>
 <pre><code class="language-python">from sklearn.model_selection import GroupShuffleSplit
 
 groups = train_df["vehicle_id"].to_numpy()                 # &lt;&lt;&lt; EDIT
@@ -651,8 +651,8 @@ splitter = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
 tr_idx, va_idx = next(splitter.split(X, y, groups=groups))
 assert set(groups[tr_idx]).isdisjoint(set(groups[va_idx]))
 </code></pre>
-<p>“처음 보는 group” 일반화 문제라면 <code>vehicle_id</code> 같은 group 식별자는 보통 <code>DROP_COLS</code>에도 넣는다. 단, ID 자체가 의미 있는 feature라고 명세한 경우는 validation으로 판단한다.</p>
-<h3 id="split_1">시간순 split</h3>
+<p>“처음 보는 그룹”을 예측하는 문제라면 <code>vehicle_id</code> 같은 그룹 식별자는 보통 <code>DROP_COLS</code>에도 넣는다. 단, ID 자체가 의미 있는 특성이라고 명시한 경우에는 검증 결과로 판단한다.</p>
+<h3 id="split_1">시간순 분할</h3>
 <pre><code class="language-python"># 날짜 feature 생성 전에 보존한 원본에서 가져온다.
 time_key = pd.to_datetime(train["datetime"], errors="coerce")     # &lt;&lt;&lt; EDIT
 if time_key.isna().any():
@@ -664,13 +664,13 @@ if cut == 0 or cut == len(order):
 tr_idx, va_idx = order[:cut], order[cut:]
 assert time_key.iloc[tr_idx].max() &lt;= time_key.iloc[va_idx].min()
 </code></pre>
-<p>“같은 차량의 미래”와 “처음 보는 차량”을 구분한다. 처음 보는 차량의 미래를 평가한다면 group과 시간 제약을 <strong>함께</strong> 만족해야 한다. 하나를 임의로 버리지 않는다.</p>
-<h3 id="sliding-window">sliding window가 겹칠 때</h3>
+<p>“같은 차량의 미래”와 “처음 보는 차량”을 구분한다. 처음 보는 차량의 미래를 평가한다면 그룹과 시간 조건을 <strong>함께</strong> 만족해야 한다. 하나를 임의로 버리지 않는다.</p>
+<h3 id="sliding-window">이동 윈도가 겹칠 때</h3>
 <ul>
-<li>window를 만든 뒤 random split하지 않는다.</li>
-<li>실시간 미래 예측은 train label을 관측할 수 있는 시점이 첫 validation의 **예측 원점(입력 끝)**보다 늦으면 안 된다. target index만 경계로 나누면 horizon&gt;1에서 이 조건을 어길 수 있다. 아래 기본 코드는 label availability와 예측 원점을 함께 검사한다.</li>
-<li>겹침으로 성능이 과도하게 낙관적이면 경계 양쪽 target에 gap을 둔다. gap 크기는 문제 구조로 결정하고 validation 표본이 비지 않는지 확인한다.</li>
-<li>group별 sequence는 group 경계를 넘는 window를 만들지 않는다.</li>
+<li>윈도를 만든 뒤 무작위로 분할하지 않는다.</li>
+<li>실시간 미래 예측은 훈련 정답을 알 수 있는 시점이 첫 검증의 <strong>예측 기준 시점</strong>(입력 끝)보다 늦으면 안 된다. 정답 인덱스만 기준으로 나누면 horizon&gt;1에서 이 조건을 어길 수 있다. 아래 기본 코드는 정답을 알 수 있는 시점과 예측 기준 시점을 함께 검사한다.</li>
+<li>겹침으로 성능이 과도하게 낙관적이면 분할 지점 양쪽의 정답 사이에 간격(gap)을 둔다. 간격은 문제 구조에 맞게 정하고 검증 샘플이 남는지 확인한다.</li>
+<li>그룹별 시퀀스에서는 한 윈도에 서로 다른 그룹의 관측을 섞지 않는다.</li>
 </ul>
 <h2 id="7-rmsle">7. RMSLE·건수 문제</h2>
 <p><code>y &gt;= 0</code>일 때만 사용한다.</p>
@@ -689,9 +689,9 @@ va_true = np.asarray(y)[va_idx]
 rmsle = np.sqrt(np.mean((np.log1p(va_true) - np.log1p(va_pred)) ** 2))
 print("rmsle", rmsle)
 </code></pre>
-<p>RMSE가 metric이면 무조건 log target이 좋은 것은 아니다. 원래 target baseline과 validation으로 비교한다.</p>
+<p>평가지표가 RMSE라면 정답에 로그를 취하는 것이 항상 좋지는 않다. 원래 정답을 학습하는 기준 모델과 검증자료에서 비교한다.</p>
 <h2 id="8">8. 불균형 분류</h2>
-<p>우선순위: stratified split → class weight → Macro-F1 확인 → binary threshold → 필요할 때만 sampling.</p>
+<p>우선순위: 계층화 분할 → 클래스 가중치 → Macro-F1 확인 → 이진 판정 임계값 → 필요한 경우에만 재표집.</p>
 <pre><code class="language-python"># sklearn binary threshold
 POS_LABEL, NEG_LABEL = 1, 0                              # &lt;&lt;&lt; EDIT
 pipe.fit(X.iloc[tr_idx], np.asarray(y)[tr_idx])
@@ -709,9 +709,9 @@ print(best_t, best_f1)
 </code></pre>
 <ul>
 <li><code>classes_[1]</code>이 항상 양성이라고 가정하지 않는다.</li>
-<li>threshold는 validation으로만 고른다.</li>
-<li>SMOTE를 전체 데이터에 적용한 뒤 split하면 누수다.</li>
-<li><code>imbalanced-learn</code>에 의존하지 않는 class weight가 시험에서 가장 안전하다.</li>
+<li>임계값은 검증자료로만 고른다.</li>
+<li>SMOTE를 전체 데이터에 적용한 뒤 분할하면 누수다.</li>
+<li><code>imbalanced-learn</code>에 의존하지 않는 클래스 가중치는 시험 환경에서 추가 의존성 없이 적용하기에 안전한 선택이다.</li>
 </ul>
 <p>PyTorch 이진분류:</p>
 <pre><code class="language-python">y_binary = np.asarray(y_train).reshape(-1)              # &lt;&lt;&lt; 먼저 명시적 0/1 mapping
@@ -722,9 +722,9 @@ POS_WEIGHT = n_neg / max(n_pos, 1)
 print("POS_WEIGHT", POS_WEIGHT)
 # 10절의 USE_CLASS_WEIGHTS=True가 같은 값을 계산해 공통 fit에 전달한다.
 </code></pre>
-<h2 id="9-window">9. 시계열 window</h2>
+<h2 id="9-window">9. 시계열 윈도</h2>
 <h3 id="_4">인덱스를 먼저 정의</h3>
-<p>입력 마지막 관측 행을 <code>e</code>, lookback을 <code>L</code>, 마지막 관측 이후 horizon을 <code>H</code>라 하면:</p>
+<p>입력 마지막 관측 행을 <code>e</code>, 과거 입력 길이(lookback)를 <code>L</code>, 마지막 관측 이후 예측 간격(horizon)을 <code>H</code>라 하면:</p>
 <pre><code class="language-python">X_window = X[e-L+1:e+1]   # 길이 L
 y_target = y[e+H]         # H=1은 바로 다음 행
 </code></pre>
@@ -780,7 +780,7 @@ X_valid, y_valid = Xw[valid_mask], yw[valid_mask]
 assert len(X_train) and len(X_valid)
 assert (target_idx[train_mask] + LABEL_DELAY).max() &lt;= origin_idx[valid_mask].min()
 </code></pre>
-<p>차량·주행별 sequence라면 각 group 안에서만 정렬하고 window를 만든다.</p>
+<p>차량·주행별 시퀀스라면 각 그룹 안에서만 정렬하고 윈도를 만든다.</p>
 <pre><code class="language-python">def make_grouped_windows(features, targets, groups, times,
                          lookback, horizon=1, stride=1):
     Xv, yv, gv = map(np.asarray, (features, targets, groups))
@@ -805,7 +805,7 @@ assert (target_idx[train_mask] + LABEL_DELAY).max() &lt;= origin_idx[valid_mask]
     return (np.concatenate(Xs), np.concatenate(ys),
             np.concatenate(target_rows), np.concatenate(target_groups))
 </code></pre>
-<p>group window를 만든 뒤 random split하지 않는다. 아래 두 평가 목표 중 하나를 고른다.</p>
+<p>그룹별 윈도를 만든 뒤 무작위로 분할하지 않는다. 아래 두 평가 목표 중 하나를 고른다.</p>
 <pre><code class="language-python">Xg, yg, target_rows, target_groups = make_grouped_windows(
     X_all, y_all, GROUPS, TIME_ALL, LOOKBACK, HORIZON, STRIDE       # &lt;&lt;&lt; EDIT
 )
@@ -851,8 +851,8 @@ X_valid, y_valid = Xg[va_idx], yg[va_idx]
 <pre><code class="language-python">gb = n_windows * lookback * n_features * 4 / 1e9  # float32
 print("estimated GB", gb)
 </code></pre>
-<p>100만 × 20 × 23 × float32는 약 1.84GB이며 복사본까지 생기면 커널이 죽을 수 있다.</p>
-<h3 id="lazy-dataset">큰 데이터용 lazy Dataset</h3>
+<p>100만 × 20 × 23 × float32는 약 1.84GB이며 복사본까지 생기면 메모리 부족으로 커널이 종료될 수 있다.</p>
+<h3 id="lazy-dataset">큰 데이터용 지연 로딩 Dataset</h3>
 <pre><code class="language-python">class LazyWindowDataset(torch.utils.data.Dataset):
     def __init__(self, X, y=None, lookback=20, horizon=1, stride=1,
                  starts=None, expected_n=None, assume_sorted=False):
@@ -898,8 +898,8 @@ print("estimated GB", gb)
         target_idx = s + self.L - 1 + self.H
         return x, self.y[target_idx]
 </code></pre>
-<p><code>y=None</code> 추론에서 자동으로 window 수를 정하면 제출 행과 어긋날 수 있다. 문제에서 정의한 test 기준시점의 <code>starts</code>를 직접 만들고 <code>expected_n=len(sample_submission)</code>처럼 검증한다. <code>assume_sorted=True</code>는 실제로 시간순 정렬과 원래 행 대응을 확인한 뒤에만 준다.</p>
-<h3 id="sequence-scaling">sequence scaling</h3>
+<p><code>y=None</code> 추론에서 자동으로 윈도 수를 정하면 제출 행과 어긋날 수 있다. 문제에서 정의한 테스트 예측 기준 시점의 <code>starts</code>를 직접 만들고 <code>expected_n=len(sample_submission)</code>처럼 검증한다. <code>assume_sorted=True</code>는 실제로 시간순 정렬과 원래 행 대응을 확인한 뒤에만 준다.</p>
+<h3 id="sequence-scaling">시퀀스 스케일링</h3>
 <pre><code class="language-python">from sklearn.preprocessing import StandardScaler
 
 scaler = StandardScaler()
@@ -913,10 +913,10 @@ X_train = scale_3d(X_train)
 X_valid = scale_3d(X_valid)
 X_test = scale_3d(X_test)
 </code></pre>
-<p>결측치 forward fill은 과거 값만 사용한다. 미래의 값으로 채우는 backward fill은 누수 가능성이 있다.</p>
+<p>앞선 값으로 결측을 채우는 전방 채우기(forward fill)는 과거 값만 사용한다. 뒤의 값으로 채우는 후방 채우기(backward fill)는 미래 정보를 사용해 누수가 생길 수 있다.</p>
 <h2 id="10-pytorch-dataloader">10. PyTorch 공통 설정·DataLoader</h2>
-<h3 id="dataframe-pytorch-dense">표형 DataFrame → PyTorch dense 배열</h3>
-<p>표형 <code>X</code>를 MLP에 넣을 때는 5절처럼 Inf와 범주형 혼합 타입을 먼저 정리하고, split을 만든 뒤 전처리기를 train fold에만 fit한다. 아래 dense OHE는 변환 후 열 수가 감당 가능한 경우에만 쓴다.</p>
+<h3 id="dataframe-pytorch-dense">표 형태의 DataFrame → PyTorch 밀집 배열</h3>
+<p>표형 <code>X</code>를 MLP에 넣을 때는 5절처럼 Inf와 범주형 혼합 타입을 먼저 정리하고, 자료를 나눈 뒤 전처리기를 훈련 폴드에서만 학습한다. 아래 밀집 배열 형태의 OHE는 변환 후 열 수가 감당 가능한 경우에만 쓴다.</p>
 <pre><code class="language-python">from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
@@ -949,8 +949,8 @@ print("dense features", X_train.shape[1],
       "estimated MB", (X_train.nbytes + X_valid.nbytes + X_test_torch.nbytes) / 1e6)
 X_test = X_test_torch
 </code></pre>
-<p>OHE가 수천~수만 열로 폭발하면 dense화하지 않는다. sklearn 희소 선형 baseline을 유지하거나, 문제 허용 범위 안에서 rare category를 묶고 <code>max_categories</code>를 제한한다.</p>
-<h3 id="loader">공통 설정과 loader</h3>
+<p>OHE 결과가 수천~수만 열로 늘어나면 밀집 배열로 변환하지 않는다. sklearn의 희소 입력용 선형 기준 모델을 유지하거나, 문제 허용 범위 안에서 드문 범주를 묶고 <code>max_categories</code>를 제한한다.</p>
+<h3 id="loader">공통 설정과 DataLoader</h3>
 <pre><code class="language-python">import random, time, copy
 import numpy as np
 import torch
@@ -1045,10 +1045,10 @@ test_loader = make_loader(
     X_test, None, task=TASK, batch_size=BATCH_SIZE, shuffle=False
 )
 </code></pre>
-<p><code>OneHotEncoder(sparse_output=True)</code> 결과는 PyTorch로 바로 넘기지 않는다. feature 수와 메모리가 작을 때만 <code>.toarray()</code>로 dense화하고, 크면 sklearn 선형 모델을 쓰거나 ordinal/dense 전처리를 따로 설계한다.</p>
-<p>원래 label 복원은 추론을 마친 뒤에만 한다. binary 확률 제출이면 <code>POS_LABEL=None</code>인 0/1 데이터에서는 class 1의 확률, 명시적으로 지정했으면 그 <code>POS_LABEL</code>의 확률이며 복원하지 않는다.</p>
+<p><code>OneHotEncoder(sparse_output=True)</code> 결과는 PyTorch로 바로 넘기지 않는다. 특성 수가 적고 메모리가 충분할 때만 <code>.toarray()</code>로 밀집 배열로 바꾸고, 크면 sklearn 선형 모델을 쓰거나 순서 인코딩 또는 밀집 배열용 전처리를 따로 설계한다.</p>
+<p>원래 라벨 복원은 추론을 마친 뒤에만 한다. 이진분류 확률 제출이면 <code>POS_LABEL=None</code>인 0/1 데이터에서는 클래스 1의 확률, 명시적으로 지정했으면 그 <code>POS_LABEL</code>의 확률이며 복원하지 않는다.</p>
 <h2 id="11-pytorch">11. PyTorch 모델 블록</h2>
-<h3 id="mlp-flatten-feature">MLP — 표형·flatten feature</h3>
+<h3 id="mlp-flatten-feature">MLP — 표 형태의 데이터·펼친 특성</h3>
 <pre><code class="language-python">class MLP(nn.Module):
     def __init__(self, input_dim, out_dim, hidden=(128, 64), dropout=0.1):
         super().__init__()
@@ -1062,7 +1062,7 @@ test_loader = make_loader(
     def forward(self, x):
         return self.net(x.flatten(1) if x.ndim &gt; 2 else x)
 </code></pre>
-<h3 id="cnn1d-window-sequence">CNN1D — 센서·고정 window, 첫 sequence 모델</h3>
+<h3 id="cnn1d-window-sequence">CNN1D — 센서·고정 윈도의 첫 시퀀스 모델</h3>
 <pre><code class="language-python">class CNN1D(nn.Module):
     def __init__(self, n_features, out_dim, channels=(64, 128), dropout=0.1):
         super().__init__()
@@ -1103,8 +1103,8 @@ test_loader = make_loader(
         h = h.transpose(0, 1).reshape(b, -1)
         return self.head(h)
 </code></pre>
-<p>시간이 부족하면 GRU 1층, hidden 64, 단방향을 선택한다.</p>
-<h3 id="image-cnn">Image CNN</h3>
+<p>시간이 부족하면 은닉 크기 64인 단방향 1층 GRU를 선택한다.</p>
+<h3 id="image-cnn">이미지용 CNN</h3>
 <pre><code class="language-python">class ImageCNN(nn.Module):
     def __init__(self, in_channels, out_dim):
         super().__init__()
@@ -1335,15 +1335,15 @@ if OUTPUT_KIND not in ({"value"} if TASK == "regression" else {"label", "probabi
     raise ValueError("TASK와 OUTPUT_KIND가 맞지 않습니다")
 test_pred = decode(raw, TASK, probability=(OUTPUT_KIND == "probability"))
 </code></pre>
-<p>multilabel accuracy는 “모든 label이 맞아야 정답”인 subset accuracy일 수 있고 열별 평균일 수도 있다. 다중출력 metric은 반드시 문제의 공식 산식을 그대로 구현한다.</p>
-<p>label 제출이고 위에서 encoding했다면 <strong>추론 후</strong> 원래 값으로 복원한다. 확률 제출이면 복원하지 않는다.</p>
+<p>다중라벨 분류의 정확도는 “모든 라벨이 맞아야 정답”인 부분집합 정확도(subset accuracy)일 수 있고 열별 평균일 수도 있다. 다중출력 평가지표은 반드시 문제의 공식 산식을 그대로 구현한다.</p>
+<p>라벨을 제출해야 하고 위에서 라벨을 인코딩했다면 <strong>추론 후</strong> 원래 값으로 복원한다. 확률 제출이면 복원하지 않는다.</p>
 <pre><code class="language-python">if OUTPUT_KIND == "label" and TASK == "binary" and NEG_LABEL is not None:
     test_pred = np.where(np.asarray(test_pred).reshape(-1) == 1,
                          POS_LABEL, NEG_LABEL)
 elif OUTPUT_KIND == "label" and TASK == "multiclass" and label_encoder is not None:
     test_pred = label_encoder.inverse_transform(np.asarray(test_pred).reshape(-1))
 </code></pre>
-<p>multiclass <strong>확률 열</strong>은 <code>label_encoder.classes_</code> 순서다. 제출 열 순서가 따로 주어지면 재정렬한다.</p>
+<p>다중분류의 <strong>확률 열</strong>은 <code>label_encoder.classes_</code> 순서다. 제출 열 순서가 따로 주어지면 재정렬한다.</p>
 <pre><code class="language-python">if TASK == "multiclass" and OUTPUT_KIND == "probability":
     REQUIRED_LABEL_ORDER = list(label_encoder.classes_)  # &lt;&lt;&lt; sample 제출 열 순서
     assert len(REQUIRED_LABEL_ORDER) == len(label_encoder.classes_)
@@ -1351,9 +1351,9 @@ elif OUTPUT_KIND == "label" and TASK == "multiclass" and label_encoder is not No
     column_idx = [list(label_encoder.classes_).index(v) for v in REQUIRED_LABEL_ORDER]
     test_pred = np.asarray(test_pred)[:, column_idx]
 </code></pre>
-<p><strong>checkpoint 주의:</strong> 위 독립 <code>fit</code>은 validation <strong>loss</strong> 최소 모델을 복원한다. <code>METRIC</code>은 마지막 점수 계산용이며 checkpoint 선택을 바꾸지 않는다. 공식 MAE·RMSLE·F1·AUC로 매 epoch 선택하려면 새 유형별 가이드의 <code>hdat_templates.train_torch_model(score_fn=..., maximize=...)</code> 경로를 쓴다. 두 API를 혼용하지 않는다.</p>
+<p><strong>체크포인트 주의:</strong> 위 독립 <code>fit</code>은 검증 <strong>손실</strong>이 최소인 모델을 복원한다. <code>METRIC</code>은 마지막 점수 계산용이며 체크포인트 선택을 바꾸지 않는다. 공식 MAE·RMSLE·F1·AUC로 매 학습 회차마다 모델을 선택하려면 새 유형별 가이드의 <code>hdat_templates.train_torch_model(score_fn=..., maximize=...)</code> 함수를 사용한다. 두 API를 혼용하지 않는다.</p>
 <h2 id="13">13. 이미지 처리</h2>
-<h3 id="numpy-image-nchw">NumPy image를 NCHW로</h3>
+<h3 id="numpy-image-nchw">NumPy 이미지를 NCHW로 변환하기</h3>
 <pre><code class="language-python">def prepare_images(X, layout="NHWC", divide_255=True):
     arr = np.asarray(X)
     if layout not in {"NHWC", "NCHW"}:
@@ -1373,8 +1373,8 @@ elif OUTPUT_KIND == "label" and TASK == "multiclass" and label_encoder is not No
         raise ValueError("image에 NaN/Inf가 있습니다")
     return arr
 </code></pre>
-<p>shape만 보고 NHWC/NCHW를 자동 추정하지 않는다. 예를 들어 폭이 3인 NCHW 배열도 잘못 뒤집힐 수 있다. dtype이 <code>uint8</code>이고 값 범위가 0…255일 때만 <code>divide_255=True</code>; 이미 0…1이거나 표준화된 float이면 <code>False</code>다.</p>
-<h3 id="path-dataset">path 기반 Dataset</h3>
+<p>배열 크기만 보고 NHWC/NCHW를 자동 추정하지 않는다. 예를 들어 폭이 3인 NCHW 배열도 잘못 뒤집힐 수 있다. 원소 자료형이 <code>uint8</code>이고 값 범위가 0…255일 때만 <code>divide_255=True</code>; 이미 0…1이거나 표준화된 float이면 <code>False</code>다.</p>
+<h3 id="path-dataset">파일 경로 기반 Dataset</h3>
 <pre><code class="language-python">from PIL import Image
 from torchvision import transforms
 
@@ -1403,7 +1403,7 @@ class ImagePathDataset(torch.utils.data.Dataset):
         img = self.transform(img) if self.transform else transforms.ToTensor()(img)
         return img if self.y is None else (img, self.y[i])
 </code></pre>
-<p>path 문자열은 공통 <code>make_loader</code>에 넣지 않는다. 10절에서 label을 <code>y_train_model/y_valid_model</code>로 먼저 바꾼 뒤 전용 Dataset과 loader를 만든다.</p>
+<p>경로 문자열은 공통 <code>make_loader</code>에 넣지 않는다. 10절에서 라벨을 <code>y_train_model/y_valid_model</code>로 먼저 바꾼 뒤 전용 Dataset과 로더를 만든다.</p>
 <pre><code class="language-python">train_image_ds = ImagePathDataset(
     train_paths, y_train_model, transform=train_tf, task=TASK      # &lt;&lt;&lt; EDIT
 )
@@ -1426,9 +1426,9 @@ with torch.no_grad():
     assert model(xb[:2].to(DEVICE)).shape == (min(2, len(xb)), OUT_DIM)
 # 이후 12절의 fit/raw_predict를 그대로 사용한다.
 </code></pre>
-<p>pretrained weight는 즉석 다운로드에 실패하거나 시간을 소모할 수 있다. 캐시·제공 여부를 확인하지 못했다면 작은 CNN을 먼저 사용한다. pretrained 없이 backbone을 freeze하지 않는다.</p>
-<h3 id="optional-resnet18-transfer-learning">Optional ResNet18 transfer learning</h3>
-<p>작은 CNN 제출 후, ImageNet weight가 <strong>이미 캐시되었거나 시험에서 제공됨을 확인했을 때만</strong> <code>USE_PRETRAINED=True</code>로 바꾼다.</p>
+<p>사전학습 가중치는 즉석 다운로드에 실패하거나 시간을 소모할 수 있다. 캐시·제공 여부를 확인하지 못했다면 작은 CNN을 먼저 사용한다. 사전학습 가중치 없이 특징 추출부의 가중치를 고정하지 않는다.</p>
+<h3 id="optional-resnet18-transfer-learning">선택: ResNet18 전이학습</h3>
+<p>작은 CNN 제출 후, ImageNet 사전학습 가중치가 <strong>이미 캐시되었거나 시험에서 제공됨을 확인했을 때만</strong> <code>USE_PRETRAINED=True</code>로 바꾼다.</p>
 <pre><code class="language-python">from torchvision.models import resnet18, ResNet18_Weights
 
 USE_PRETRAINED = False                                  # 기본은 다운로드 없는 scratch
@@ -1450,11 +1450,11 @@ model.fc = nn.Linear(in_features, OUT_DIM)
 model = model.to(DEVICE)
 # 기존 ImagePathDataset/loader를 바뀐 transform으로 다시 만든 뒤 12절 fit 사용.
 </code></pre>
-<p>pretrained backbone을 freeze한 첫 실험 후 시간이 남고 validation 근거가 있을 때만 마지막 block 일부를 작은 LR로 unfreeze한다.</p>
+<p>사전학습 특징 추출부의 가중치를 고정한 첫 실험을 마친 뒤, 시간이 남고 검증 결과상 개선 여지가 있을 때만 마지막 블록 일부의 고정을 풀어 작은 학습률로 학습한다.</p>
 <h2 id="14-autoencoder">14. Autoencoder 이상 탐지</h2>
-<h3 id="when_1">WHEN</h3>
+<h3 id="when_1">언제 사용하나요?</h3>
 <ul>
-<li>정상 데이터로 학습하고 reconstruction error가 큰 샘플을 이상으로 본다.</li>
+<li>정상 데이터로 학습하고 복원 오차가 큰 샘플을 이상으로 본다.</li>
 </ul>
 <pre><code class="language-python"># X_train_normal만 scaler fit 후 사용
 ae = Autoencoder(input_dim=X_train_normal.shape[1], latent=16).to(DEVICE)
@@ -1485,15 +1485,15 @@ else:
 assert np.asarray(test_pred).shape == (len(X_test),)
 </code></pre>
 <ul>
-<li>이상 label이 있는 validation이면 threshold를 F1 등 공식 metric으로 고른다.</li>
-<li>label이 없으면 정상 validation error의 95/99 percentile을 비교한다.</li>
-<li>score 방향은 error가 클수록 이상이다.</li>
+<li>이상 라벨이 있는 검증자료가 있으면 F1 등 공식 평가지표로 임계값을 고른다.</li>
+<li>이상 라벨이 없으면 정상 검증자료의 복원 오차에서 95번째·99번째 백분위수를 비교한다.</li>
+<li>복원 오차가 클수록 이상에 가까운 점수로 사용한다.</li>
 </ul>
-<p>빠른 baseline은 <code>IsolationForest</code>이며, Autoencoder 전에 비교한다.</p>
+<p>빠른 기준 모델은 <code>IsolationForest</code>이며, Autoencoder 전에 비교한다.</p>
 <h2 id="14a-pytorch">14A. 명세가 직접 요구할 때만 쓰는 PyTorch 부록</h2>
-<p>VAE·GAN·Transformer는 170분 Problem의 첫 모델로 쓰지 않는다. Process가 구조를 직접 요구하거나, 빠른 baseline 제출 후 validation 근거가 있을 때만 사용한다.</p>
-<p>VAE는 재구성+KL loss, GAN은 두 optimizer·교대 학습, 가변길이 Transformer는 padding/mask 처리가 필요하다. 구조 블록만 가져와 위 범용 <code>fit</code>에 연결하면 완성되지 않는다. 아래 코드는 구조 참고이며 문제 명세에 맞는 전용 루프를 별도로 작성한다.</p>
-<h3 id="residual-block">Residual block</h3>
+<p>VAE·GAN·Transformer는 170분 Problem의 첫 모델로 쓰지 않는다. Process가 구조를 직접 요구하거나, 빠른 기준 모델의 결과를 제출한 뒤 검증 결과상 근거가 있을 때만 사용한다.</p>
+<p>VAE는 복원 손실+KL, GAN은 두 최적화 알고리즘을 이용한 교대 학습, 가변길이 Transformer는 패딩·마스크 처리가 필요하다. 구조 블록만 가져와 위 범용 <code>fit</code>에 연결하면 완성되지 않는다. 아래 코드는 구조 참고이며 문제 명세에 맞는 전용 루프를 별도로 작성한다.</p>
+<h3 id="residual-block">잔차 블록</h3>
 <pre><code class="language-python">class ResidualBlock2D(nn.Module):
     def __init__(self, in_ch, out_ch, stride=1):
         super().__init__()
@@ -1511,7 +1511,7 @@ assert np.asarray(test_pred).shape == (len(X_test),)
     def forward(self, x):
         return self.act(self.main(x) + self.skip(x))
 </code></pre>
-<h3 id="transformer-encoder-btf">Transformer encoder — 입력 <code>[B,T,F]</code></h3>
+<h3 id="transformer-encoder-btf">Transformer 인코더 — 입력 <code>[B,T,F]</code></h3>
 <pre><code class="language-python">class TransformerSequence(nn.Module):
     def __init__(self, n_features, out_dim, d_model=64, nhead=4,
                  layers=2, max_len=512):
@@ -1563,7 +1563,7 @@ def vae_loss(recon, x, mu, logvar, beta=1.0):
     kl = -0.5 * torch.mean(1 + logvar - mu.pow(2) - logvar.exp())
     return rec + beta * kl, rec, kl
 </code></pre>
-<p>VAE는 <code>forward</code>가 <code>(recon, mu, logvar)</code>를 반환하므로 위의 공통 <code>fit</code>과 호환되지 않는다. 전용 loop에서 다음 순서로 계산한다.</p>
+<p>VAE는 <code>forward</code>가 <code>(recon, mu, logvar)</code>를 반환하므로 위의 공통 <code>fit</code>과 호환되지 않는다. 전용 학습 반복문에서 다음 순서로 계산한다.</p>
 <pre><code class="language-python">recon, mu, logvar = model(x)
 total, rec, kl = vae_loss(recon, x, mu, logvar)
 </code></pre>
@@ -1591,10 +1591,10 @@ class Discriminator(nn.Module):
 </code></pre>
 <ul>
 <li>입력 데이터를 <code>[-1,1]</code>로 스케일하고 Generator 끝에 <code>Tanh</code>를 둘지 명세에 맞춰 결정한다.</li>
-<li>GAN도 Generator/Discriminator optimizer를 번갈아 갱신하는 전용 loop가 필요하며 공통 <code>fit</code>으로 학습할 수 없다.</li>
+<li>GAN도 생성기와 판별기를 각각의 최적화 알고리즘으로 번갈아 갱신하는 전용 학습 반복문가 필요하며 공통 <code>fit</code>으로 학습할 수 없다.</li>
 <li>GAN 학습은 불안정하고 제출용 예측 모델이 아니므로, 구조 구현 문제가 아니면 우선순위가 낮다.</li>
 </ul>
-<h2 id="15-feature-selectionpca">15. Feature selection·PCA·고유 범주</h2>
+<h2 id="15-feature-selectionpca">15. 특성 선택·PCA·고유 범주</h2>
 <h3 id="_8">고유 범주가 너무 많을 때</h3>
 <pre><code class="language-python">OneHotEncoder(
     handle_unknown="infrequent_if_exist",
@@ -1603,8 +1603,8 @@ class Discriminator(nn.Module):
     sparse_output=True,
 )
 </code></pre>
-<p>고유값 비율이 1에 가까운 열은 ID일 수 있지만 group/time 열인지 먼저 확인한다.</p>
-<h3 id="feature-selection">feature selection</h3>
+<p>고유값 비율이 1에 가까운 열은 ID일 수 있지만 그룹·시간 정보를 담은 열인지 먼저 확인한다.</p>
+<h3 id="feature-selection">특성 선택</h3>
 <pre><code class="language-python">from sklearn.feature_selection import SelectPercentile, f_classif, f_regression
 IS_CLASSIFICATION = TASK in {"binary", "multiclass", "multilabel"}
 score_func = f_classif if IS_CLASSIFICATION else f_regression
@@ -1614,7 +1614,7 @@ pipe = Pipeline([
     ("model", model),
 ])
 </code></pre>
-<p>위 <code>SelectPercentile</code> 예시는 단일 target용이다. 다중출력/멀티라벨은 열별 선택 규칙을 따로 정하지 못했다면 생략한다. selection/PCA는 반드시 Pipeline 안에서 train fold에만 fit한다.</p>
+<p>위 <code>SelectPercentile</code> 예시는 단일 정답용이다. 다중출력/멀티라벨은 열별 선택 규칙을 따로 정하지 못했다면 생략한다. 특성 선택기·PCA는 반드시 Pipeline 안에서 훈련 폴드로만 학습한다.</p>
 <h3 id="pcakmeansisolationforest">PCA·KMeans·IsolationForest 최소 코드</h3>
 <pre><code class="language-python">from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
@@ -1652,12 +1652,12 @@ anomaly_label = (raw_label == -1).astype(int)
 anomaly_score = -iso.score_samples(Xte_s)  # 값이 클수록 이상
 </code></pre>
 <ul>
-<li>PCA reconstruction error가 필요하면 <code>inverse_transform(transform(X))</code>와 원본의 MSE를 계산한다.</li>
-<li><code>contamination</code>과 threshold는 validation 또는 정상 validation quantile로 결정한다.</li>
+<li>PCA 복원 오차가 필요하면 <code>inverse_transform(transform(X))</code>와 원본의 MSE를 계산한다.</li>
+<li><code>contamination</code>과 임계값은 검증자료 또는 정상 검증 점수의 분위수로 결정한다.</li>
 <li>군집 번호 0/1/2에는 순서나 의미가 없다.</li>
 </ul>
-<h2 id="16-hyperparameter">16. 작은 hyperparameter 탐색</h2>
-<p>아래 parameter grid는 <strong>ExtraTrees 전용</strong>이다. <strong>첫 유효 제출을 완료했고 30분 이상 남을 때만</strong> 시도한다. 아래 random 3-fold는 독립·동일분포(IID) 행 데이터 전용이다. time/group 문제는 그 구조에 맞는 splitter를 <code>cv=</code>에 넣을 수 없으면 탐색을 생략한다.</p>
+<h2 id="16-hyperparameter">16. 소규모 하이퍼파라미터 탐색</h2>
+<p>아래 하이퍼파라미터 탐색표는 <strong>ExtraTrees 전용</strong>이다. <strong>첫 유효 제출을 완료했고 30분 이상 남을 때만</strong> 시도한다. 아래 무작위 3폴드 분할은 독립·동일분포(IID) 행 데이터 전용이다. 시간·그룹 문제에서는 그 구조에 맞는 분할기를 <code>cv=</code>에 넣을 수 없으면 탐색을 생략한다.</p>
 <pre><code class="language-python">from sklearn.model_selection import RandomizedSearchCV
 
 keys = pipe.get_params().keys()
@@ -1679,10 +1679,10 @@ search = RandomizedSearchCV(
 search.fit(X, y)
 print(search.best_params_, search.best_score_)
 </code></pre>
-<p><code>MultiOutputClassifier</code>처럼 model이 wrapper이면 실제 parameter 경로가 <code>model__estimator__...</code>일 수 있다. <code>pipe.get_params().keys()</code>로 확인하며, 시간이 빠듯하면 손대지 않는다.</p>
+<p><code>MultiOutputClassifier</code>처럼 모델이 다른 모델을 감싼 구조라면 실제 하이퍼파라미터 경로가 <code>model__estimator__...</code>일 수 있다. <code>pipe.get_params().keys()</code>로 확인하며, 시간이 빠듯하면 손대지 않는다.</p>
 <h2 id="17">17. 제공 저장 셀 실행 전 검증 — 가장 중요한 블록</h2>
 <p>문제에 저장/제출 셀이 있으면 <strong>그 셀을 아래 코드로 교체하지 않는다.</strong> <code>test_pred</code>만 먼저 검증한 다음 제공 셀을 수정 없이 실행한다. 아래 직접 저장 예시는 제공 저장 코드가 전혀 없는 연습/예외 상황에서만 쓴다.</p>
-<h3 id="prediction">prediction 계약 검증</h3>
+<h3 id="prediction">예측값의 제출 조건 검증</h3>
 <pre><code class="language-python">EXPECTED_SHAPE = (len(X_test), 3)                       # &lt;&lt;&lt; 문제 지시대로 EDIT
 pred = np.asarray(test_pred)
 assert pred.shape == EXPECTED_SHAPE, (pred.shape, EXPECTED_SHAPE)
@@ -1694,7 +1694,7 @@ else:
 
 # 여기까지 통과한 뒤 skeleton의 제공 저장/제출 셀을 그대로 실행한다.
 </code></pre>
-<h3 id="npy-fallback">NPY 직접 저장 fallback</h3>
+<h3 id="npy-fallback">저장 셀이 없는 연습용 NPY 저장</h3>
 <pre><code class="language-python">OUT_PATH = "Submission_problem.npy"                     # &lt;&lt;&lt; skeleton 우선
 path = OUT_PATH if str(OUT_PATH).endswith(".npy") else f"{OUT_PATH}.npy"
 # dtype은 문제 지시가 있을 때만 변환한다: pred = pred.astype(np.float32)
@@ -1710,7 +1710,7 @@ assert check.dtype == pred.dtype
 assert np.isfinite(check).all() if is_numeric else not pd.isna(check).any()
 print("SAVED", path, check.shape, check.dtype)
 </code></pre>
-<h3 id="csv-fallback">CSV 직접 저장 fallback</h3>
+<h3 id="csv-fallback">저장 셀이 없는 연습용 CSV 저장</h3>
 <pre><code class="language-python">submission = sample_submission.copy()                    # &lt;&lt;&lt; skeleton 변수 우선
 PRED_COLS = ["target"]                                  # &lt;&lt;&lt; EDIT
 arr = np.asarray(test_pred)
@@ -1738,11 +1738,11 @@ assert numeric_check.shape[1] == 0 or np.isfinite(numeric_check.to_numpy()).all(
 </code></pre>
 <p>추가 확인:</p>
 <ul>
-<li>label encoder를 썼으면 원래 label로 inverse transform했는가?</li>
+<li>라벨 인코더를 썼다면 원래 라벨로 역변환했는가?</li>
 <li>확률 열 순서가 <code>model.classes_</code>와 제출 열 순서에 맞는가?</li>
-<li>target scaler를 썼으면 inverse transform했는가?</li>
+<li>정답 스케일러를 썼다면 원래 단위로 역변환했는가?</li>
 <li>RMSLE면 음수 예측을 0 이상으로 처리했는가?</li>
-<li>sort/merge 후 test 원래 순서를 복원했는가?</li>
+<li>정렬·병합 후 테스트의 원래 순서를 복원했는가?</li>
 <li><code>(N,1)</code>과 <code>(N,)</code> 중 정확히 무엇을 요구하는가?</li>
 </ul>
 <h2 id="18">18. 오류 → 즉시 조치</h2>
@@ -1757,16 +1757,16 @@ assert numeric_check.shape[1] == 0 or np.isfinite(numeric_check.to_numpy()).all(
 <tbody><tr>
 <td><code>Input X contains NaN</code></td>
 <td>Inf/결측</td>
-<td>Inf→NaN, imputer가 Pipeline 안에 있는지 확인</td>
+<td>Inf→NaN, 결측 대체기가 Pipeline 안에 있는지 확인</td>
 </tr>
 <tr>
-<td>OHE mixed types 오류</td>
-<td>category에 숫자·문자 혼합</td>
-<td>category 열을 pandas <code>string</code>으로 통일</td>
+<td>OHE의 혼합 자료형 오류</td>
+<td>범주값에 숫자·문자 혼합</td>
+<td>범주형 열을 pandas <code>string</code>으로 통일</td>
 </tr>
 <tr>
-<td>unseen category</td>
-<td>encoder 설정</td>
+<td>훈련에 없던 범주</td>
+<td>인코더 설정</td>
 <td><code>handle_unknown="ignore"</code></td>
 </tr>
 <tr>
@@ -1775,59 +1775,59 @@ assert numeric_check.shape[1] == 0 or np.isfinite(numeric_check.to_numpy()).all(
 <td><code>print(X.shape)</code>와 첫 Linear 입력 확인</td>
 </tr>
 <tr>
-<td>Conv1d channel 오류</td>
-<td><code>[B,T,F]</code> vs <code>[B,F,T]</code></td>
+<td>Conv1d 채널 오류</td>
+<td><code>[B,T,F]</code>와 <code>[B,F,T]</code></td>
 <td>모델 안에서 <code>x.transpose(1,2)</code></td>
 </tr>
 <tr>
-<td>Conv2d channel 오류</td>
-<td>NHWC vs NCHW</td>
+<td>Conv2d 채널 오류</td>
+<td>NHWC와 NCHW</td>
 <td><code>transpose(0,3,1,2)</code></td>
 </tr>
 <tr>
-<td>CE target dtype 오류</td>
-<td>target float/one-hot</td>
-<td><code>[B]</code> long class index로 변환</td>
+<td>CE 정답 자료형 오류</td>
+<td>실수형·원-핫 정답</td>
+<td><code>[B]</code> long 정수형 클래스 인덱스로 변환</td>
 </tr>
 <tr>
-<td>BCE shape warning</td>
-<td><code>[B]</code> vs <code>[B,1]</code></td>
-<td>target과 output shape를 동일하게</td>
+<td>BCE 배열 크기 오류</td>
+<td><code>[B]</code>와 <code>[B,1]</code></td>
+<td>정답과 출력 배열의 크기를 같게</td>
 </tr>
 <tr>
-<td>loss가 NaN</td>
-<td>입력 NaN/Inf, LR, scaling</td>
-<td>입력 검사, LR <code>1e-3→3e-4</code>, gradient clip</td>
+<td>손실이 NaN</td>
+<td>입력 NaN/Inf, 학습률, 스케일링</td>
+<td>입력 검사, LR <code>1e-3→3e-4</code>, 기울기 크기 제한</td>
 </tr>
 <tr>
 <td>CUDA OOM</td>
-<td>batch/model/window</td>
-<td>batch 절반, channel/hidden 축소, lazy Dataset</td>
+<td>배치·모델·윈도 메모리</td>
+<td>배치 크기를 절반으로, 채널 수·은닉 크기 축소, 지연 로딩 Dataset</td>
 </tr>
 <tr>
-<td>validation만 비정상적으로 좋음</td>
-<td>누수/split</td>
-<td>time/group/overlapping window 재검토</td>
+<td>검증 점수만 비정상적으로 좋음</td>
+<td>누수·분할</td>
+<td>시간·그룹·중첩 윈도 분할 재검토</td>
 </tr>
 <tr>
 <td>학습이 너무 느림</td>
-<td>모델 크기/CPU</td>
-<td>ExtraTrees 100개, GRU 64, epoch 20, run 10분 제한</td>
+<td>모델 크기·CPU</td>
+<td>ExtraTrees 100개, GRU 은닉 크기 64, 학습 20회, 실행 시간 10분 제한</td>
 </tr>
 <tr>
 <td>예측 행 수 불일치</td>
-<td>test shuffle/sort/window</td>
-<td>원래 test index와 1:1 대응 재검토</td>
+<td>테스트의 순서 섞기·정렬·윈도 생성</td>
+<td>원래 테스트 인덱스와 1:1 대응 재검토</td>
 </tr>
 <tr>
 <td><code>object dtype</code> NPY</td>
-<td>label/array 혼합</td>
-<td>수치 dtype으로 명시 변환</td>
+<td>라벨·배열의 자료형 혼합</td>
+<td>수치 자료형으로 명시 변환</td>
 </tr>
 <tr>
-<td>커널 사망</td>
-<td>window 메모리</td>
-<td>lazy Dataset, float32, 불필요 배열 삭제</td>
+<td>커널 종료</td>
+<td>윈도 메모리</td>
+<td>지연 로딩 Dataset, float32, 불필요한 배열 해제</td>
 </tr>
 </tbody></table>
 <p>CUDA OOM 복구:</p>
@@ -1838,15 +1838,15 @@ if torch.cuda.is_available():
 </code></pre>
 <h2 id="19">19. 시간 부족 축소 순서</h2>
 <ol>
-<li>validation 1회와 첫 제출 파일을 확보한다.</li>
-<li>CV와 hyperparameter search를 생략한다.</li>
-<li>ExtraTrees 개선안 <code>300→100</code>, <code>min_samples_leaf=5</code> baseline으로 복귀한다.</li>
-<li>epoch <code>30→15</code>, patience <code>5→3</code>.</li>
-<li>LSTM 대신 GRU 1층, hidden <code>128→64</code>.</li>
-<li>CNN channel <code>(64,128)→(32,64)</code>.</li>
+<li>검증을 1회 수행하고 첫 제출 파일을 확보한다.</li>
+<li>교차검증과 하이퍼파라미터 탐색을 생략한다.</li>
+<li>ExtraTrees 개선안 <code>300→100</code>, <code>min_samples_leaf=5</code> 기준 모델로 복귀한다.</li>
+<li>학습 반복 횟수 <code>30→15</code>, 조기 종료 대기 횟수 <code>5→3</code>.</li>
+<li>LSTM 대신 GRU 1층, 은닉 크기 <code>128→64</code>.</li>
+<li>CNN 채널 수 <code>(64,128)→(32,64)</code>.</li>
 <li>이미지 <code>224→128→96</code>.</li>
-<li>batch OOM이면 <code>256→128→64→32</code>.</li>
-<li>ensemble은 validation에서 실제 이득이 있을 때만 한다.</li>
+<li>배치 때문에 메모리가 부족하면 <code>256→128→64→32</code>.</li>
+<li>앙상블은 검증자료에서 실제 성능 향상이 있을 때만 사용한다.</li>
 <li>20분 남으면 모델 개선을 즉시 중단한다.</li>
 </ol>
 <h2 id="20-170">20. 170분 권장 운영</h2>
@@ -1860,7 +1860,7 @@ if torch.cuda.is_available():
 </thead>
 <tbody><tr>
 <td align="right">0~5분</td>
-<td>skeleton, 변수, output shape, metric, 파일명 확인</td>
+<td>기본 코드, 변수, 출력 크기, 평가지표, 파일명 확인</td>
 </tr>
 <tr>
 <td align="right">5~55분</td>
@@ -1868,7 +1868,7 @@ if torch.cuda.is_available():
 </tr>
 <tr>
 <td align="right">55~60분</td>
-<td>Process micro-test, 저장 상태 확인</td>
+<td>Process 소규모 테스트, 저장 상태 확인</td>
 </tr>
 <tr>
 <td align="right">60~65분</td>
@@ -1876,15 +1876,15 @@ if torch.cuda.is_available():
 </tr>
 <tr>
 <td align="right">65~78분</td>
-<td>Problem audit, split, leakage, output 계약 확정</td>
+<td>Problem 데이터 점검, 분할·누수·출력 조건 확정</td>
 </tr>
 <tr>
 <td align="right">78~100분</td>
-<td>빠른 baseline과 제출 파일 검증</td>
+<td>빠른 기준 모델과 제출 파일 검증</td>
 </tr>
 <tr>
 <td align="right">100~105분</td>
-<td><strong>Problem baseline 첫 제출</strong></td>
+<td><strong>Problem 기준 모델 결과 첫 제출</strong></td>
 </tr>
 <tr>
 <td align="right">105~140분</td>
@@ -1892,25 +1892,25 @@ if torch.cuda.is_available():
 </tr>
 <tr>
 <td align="right">140~150분</td>
-<td>validation 비교, 필요할 때만 단순 평균 ensemble</td>
+<td>검증 성능 비교, 필요한 경우에만 단순 평균 앙상블</td>
 </tr>
 <tr>
 <td align="right">150~158분</td>
-<td>최종 prediction 생성·재검증·Problem 재제출</td>
+<td>최종 예측 생성·재검증·Problem 재제출</td>
 </tr>
 <tr>
 <td align="right">158~165분</td>
-<td>최종 파일 reload, test 행·shape·dtype·유한값 재확인</td>
+<td>최종 파일을 다시 읽어 테스트 행·배열 크기·원소 자료형·유한성 재확인</td>
 </tr>
 <tr>
 <td align="right">165~170분</td>
 <td>두 영역 제출 완료 상태와 최종 저장 확인</td>
 </tr>
 </tbody></table>
-<h2 id="21">21. 소스 코드 지도</h2>
-<p>동일 폴더의 <code>hdat_templates.py</code>에서 아래 태그를 Ctrl+F한다. 시험에서는 파일 전체를 무작정 붙이지 말고 필요한 블록만 실제 skeleton에 맞게 수정한다.</p>
+<h2 id="21">21. 필요한 코드 찾기</h2>
+<p>동일 폴더의 <code>hdat_templates.py</code>에서 아래 태그를 Ctrl+F한다. 시험에서는 파일 전체를 무작정 붙이지 말고 필요한 블록만 실제 기본 코드에 맞게 수정한다.</p>
 <blockquote>
-<p><strong>본문 코드와 <code>hdat_templates.py</code> API를 한 흐름 안에서 섞지 않는다.</strong> 예를 들어 본문은 <code>fit</code>/<code>ImageCNN</code>/<code>VAE</code>, 소스는 <code>train_torch_model</code>/<code>SmallImageCNN</code>/<code>VariationalAutoencoder</code>라는 이름을 쓴다. 소스를 택했다면 loader→model→loss→train→predict를 소스 태그 기준으로 일관되게 복사하고, 함수 호출은 위치 인자 대신 <code>epochs=...</code>, <code>lr=...</code>, <code>patience=...</code>처럼 keyword로 쓴다.</p>
+<p><strong>본문 코드와 <code>hdat_templates.py</code> API를 한 흐름 안에서 섞지 않는다.</strong> 예를 들어 본문은 <code>fit</code>/<code>ImageCNN</code>/<code>VAE</code>, 소스는 <code>train_torch_model</code>/<code>SmallImageCNN</code>/<code>VariationalAutoencoder</code>라는 이름을 쓴다. 소스를 택했다면 로더→모델→손실→학습→예측를 소스 태그 기준으로 일관되게 복사하고, 함수 호출은 위치 인자 대신 <code>epochs=...</code>, <code>lr=...</code>, <code>patience=...</code>처럼 키워드 인자로 쓴다.</p>
 </blockquote>
 <table>
 <thead>
@@ -1928,15 +1928,15 @@ if torch.cuda.is_available():
 <td><code>[PROCESS-MINMAX]</code>, <code>[PROCESS-CLIP]</code>, <code>[PROCESS-DATETIME]</code>, <code>[PROCESS-IMAGE]</code></td>
 </tr>
 <tr>
-<td>표형 설정·split·pipeline</td>
+<td>표형 설정·분할·파이프라인</td>
 <td><code>[TABULAR-CONFIG]</code>, <code>[TABULAR-SPLIT]</code>, <code>[TABULAR-PREPROCESS]</code>, <code>[TABULAR-FIT]</code></td>
 </tr>
 <tr>
-<td>metric</td>
+<td>평가지표</td>
 <td><code>[METRIC]</code></td>
 </tr>
 <tr>
-<td>시계열 window</td>
+<td>시계열 윈도</td>
 <td><code>[TIME-WINDOW]</code>, <code>[TIME-LAZY-DATASET]</code></td>
 </tr>
 <tr>

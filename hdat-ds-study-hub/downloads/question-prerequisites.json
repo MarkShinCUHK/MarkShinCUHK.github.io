@@ -1,7 +1,7 @@
 [
   {
     "lesson": "01",
-    "title": "시험 지도를 먼저 그리기",
+    "title": "시험 구성과 준비 순서",
     "questions": [
       {
         "id": "O01-01",
@@ -19,7 +19,7 @@
         "sectionId": "16",
         "index": 1,
         "label": "1.6 확인문제 · 2번",
-        "text": "1.5의 170분 연습 계획에서 첫 baseline 구간이 끝나는 약 65분 시점까지 확보하려는 산출물은 무엇인가? 이 시각이 공식 채점 조건인가?"
+        "text": "1.5의 170분 연습 계획에서 첫 기준 모델을 만드는 구간이 끝나는 약 65분 시점까지 무엇을 만들어 두려는가? 이 시각이 공식 채점 조건인가?"
       },
       {
         "id": "O01-03",
@@ -55,7 +55,7 @@
         "sectionId": "visual-01-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "50분 중 검토 10분을 남기면 첫 풀이의 문항당 평균 예산은 얼마인가? 특정 문항을 그 시간에 반드시 끝내야 하는가?"
+        "text": "50분 중 검토 10분을 남기면 첫 풀이에서 문항당 평균 몇 분을 쓸 수 있는가? 각 문항을 그 시간 안에 반드시 끝내야 하는가?"
       },
       {
         "id": "V01-03",
@@ -64,7 +64,7 @@
         "sectionId": "visual-01-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "함수가 실행되었는데 입력 표를 수정했고, 요구는 새 표 반환이었다. 완료로 볼 수 있는가?"
+        "text": "새 표를 반환하라는 요구가 있었는데, 함수가 실행되면서 입력 표를 수정했다. 완료로 볼 수 있는가?"
       },
       {
         "id": "V01-04",
@@ -138,7 +138,7 @@
   },
   {
     "lesson": "02",
-    "title": "Python·Jupyter·shape 언어",
+    "title": "Python·Jupyter와 배열 크기 읽기",
     "questions": [
       {
         "id": "O02-01",
@@ -147,7 +147,7 @@
         "sectionId": "28",
         "index": 0,
         "label": "2.8 실습문제 · 1번",
-        "text": "x의 shape가 [32,50,8]이고 축 의미가 [배치,시간,특성]이다. 특성 8개를 채널로 쓰는 Conv1d(in_channels=8, ...)에 넣기 직전 필요한 PyTorch 코드를 쓰라."
+        "text": "x의 배열 크기가 [32,50,8]이고 각 축의 의미는 [배치,시간,특성]이다. 특성 8개를 채널로 쓰는 Conv1d(in_channels=8, ...)에 넣기 직전에 필요한 PyTorch 코드를 쓰라."
       },
       {
         "id": "O02-02",
@@ -192,7 +192,7 @@
         "sectionId": "visual-02-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "shape (4,5,3)의 시계열에는 원소가 몇 개이며, Conv1d 직전 shape는 무엇인가?"
+        "text": "배열 크기가 (4,5,3)인 시계열에는 원소가 몇 개이며, Conv1d에 넣기 직전의 배열 크기는 무엇인가?"
       },
       {
         "id": "V02-02",
@@ -219,7 +219,7 @@
         "sectionId": "visual-02-7",
         "index": 3,
         "label": "기초 확인 · 4번",
-        "text": "view 값을 바꾼 뒤 원본이 바뀌었다. Python이 값을 잘못 복사한 것인가?"
+        "text": "뷰의 값을 바꾼 뒤 원본이 바뀌었다. Python이 값을 잘못 복사한 것인가?"
       }
     ],
     "mappings": [
@@ -291,7 +291,7 @@
   },
   {
     "lesson": "03",
-    "title": "NumPy·pandas로 데이터 계약 지키기",
+    "title": "NumPy·pandas로 데이터 구조와 값 점검하기",
     "questions": [
       {
         "id": "O03-01",
@@ -300,7 +300,7 @@
         "sectionId": "39",
         "index": 0,
         "label": "3.9 실습문제 · 1번",
-        "text": "test.reindex(columns=train_features)가 test의 실제 feature 누락을 조용히 숨길 수 있는 이유는?"
+        "text": "test.reindex(columns=train_features)가 평가 데이터에 필요한 특성 열이 없다는 사실을 오류 없이 숨길 수 있는 이유는?"
       },
       {
         "id": "O03-02",
@@ -309,7 +309,7 @@
         "sectionId": "39",
         "index": 1,
         "label": "3.9 실습문제 · 2번",
-        "text": "test를 시간순으로 정렬해 예측한 뒤 원래 순서를 복원하는 최소 코드를 작성하라."
+        "text": "평가 데이터를 시간순으로 정렬해 예측한 뒤 원래 순서를 복원하는 최소 코드를 작성하라."
       },
       {
         "id": "O03-03",
@@ -336,7 +336,7 @@
         "sectionId": "39",
         "index": 4,
         "label": "3.9 실습문제 · 5번",
-        "text": "한 범주 열에서 숫자 1과 문자열 '1'을 같은 범주로 합쳐도 된다고 가정한다. pd.NA를 범주형 imputer가 받을 np.nan으로 바꾸고 결측을 문자열로 만들지 않는 코드를 쓰라."
+        "text": "한 범주 열에서 숫자 1과 문자열 '1'을 같은 범주로 합쳐도 된다고 가정한다. pd.NA를 범주형 결측 대치 도구가 받을 np.nan으로 바꾸되, 결측값을 문자열로 만들지 않는 코드를 쓰라."
       },
       {
         "id": "O03-06",
@@ -354,7 +354,7 @@
         "sectionId": "39",
         "index": 6,
         "label": "3.9 실습문제 · 7번",
-        "text": "입력 [10,NaN,Inf,30]에 fillna(0)만 쓰면 무슨 문제가 남는가? Inf를 결측으로 취급하고 train 중앙값을 사용하면 결과는?"
+        "text": "입력 [10,NaN,Inf,30]에 fillna(0)만 쓰면 무슨 문제가 남는가? Inf를 결측값으로 취급하고 학습 데이터의 중앙값으로 채우면 결과는?"
       },
       {
         "id": "O03-08",
@@ -363,7 +363,7 @@
         "sectionId": "39",
         "index": 7,
         "label": "3.9 실습문제 · 8번",
-        "text": "차량 기록의 ID가 [A,B,A], 오른쪽 정보표의 ID가 [A,A,B]다. 검사 없이 left merge하면 몇 행이 되는가? 어떻게 조기에 막는가?"
+        "text": "차량 기록의 ID가 [A,B,A], 오른쪽 정보표의 ID가 [A,A,B]다. 검사 없이 왼쪽 표를 기준으로 병합하면 몇 행이 되는가? 문제를 어떻게 미리 발견해 막을 수 있는가?"
       },
       {
         "id": "O03-09",
@@ -390,7 +390,7 @@
         "sectionId": "visual-03-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "왼쪽 key가 [A,A,B], 오른쪽 key가 [A,A,B,B]이면 검사 없는 inner merge는 몇 행인가?"
+        "text": "왼쪽 키가 [A,A,B], 오른쪽 키가 [A,A,B,B]이면 중복 검사 없이 내부 병합(inner merge)한 결과는 몇 행인가?"
       },
       {
         "id": "V03-02",
@@ -523,7 +523,7 @@
   },
   {
     "lesson": "04",
-    "title": "선형대수: 모델의 shape를 계산하는 언어",
+    "title": "선형대수: 모델의 배열 크기 계산하기",
     "questions": [
       {
         "id": "O04-01",
@@ -532,7 +532,7 @@
         "sectionId": "49",
         "index": 0,
         "label": "4.9 실습문제 · 1번",
-        "text": "X:[64,20], Linear(20,7)의 weight, bias, output shape를 쓰라."
+        "text": "X:[64,20], Linear(20,7)일 때 가중치, 편향, 출력 배열의 크기를 쓰라."
       },
       {
         "id": "O04-02",
@@ -541,7 +541,7 @@
         "sectionId": "49",
         "index": 1,
         "label": "4.9 실습문제 · 2번",
-        "text": "x=[3,4]의 L1, L2 norm을 구하라."
+        "text": "x=[3,4]의 L1, L2 노름을 구하라."
       },
       {
         "id": "O04-03",
@@ -550,7 +550,7 @@
         "sectionId": "49",
         "index": 2,
         "label": "4.9 실습문제 · 3번",
-        "text": "입력에 동일한 두 수치 feature만 있고 적어도 두 개의 서로 다른 관측값이 있다. 중심화한 covariance matrix의 rank와 양의 분산을 가진 PCA 방향 수는 얼마인가? 두 feature가 모두 상수이면 어떻게 달라지는가?"
+        "text": "입력에 값이 동일한 두 수치 특성만 있고 적어도 두 개의 서로 다른 관측값이 있다. 중심화한 공분산 행렬의 계수와 양의 분산을 가진 PCA 방향 수는 얼마인가? 두 특성이 모두 상수이면 어떻게 달라지는가?"
       },
       {
         "id": "O04-04",
@@ -559,7 +559,7 @@
         "sectionId": "49",
         "index": 3,
         "label": "4.9 실습문제 · 4번",
-        "text": "PCA를 split 전에 전체 데이터에 fit하면 왜 leakage인가?"
+        "text": "데이터를 분할하기 전에 전체 데이터로 PCA를 학습하면 왜 데이터 누수가 생기는가?"
       },
       {
         "id": "O04-05",
@@ -568,7 +568,7 @@
         "sectionId": "49",
         "index": 4,
         "label": "4.9 실습문제 · 5번",
-        "text": "두 영벡터가 아닌 벡터의 cosine similarity가 1, 0, -1일 때 의미를 쓰라. 한쪽이 영벡터이면 같은 각도 해석을 적용할 수 있는가?"
+        "text": "두 벡터가 모두 영벡터가 아닐 때 코사인 유사도가 1, 0, -1이라는 것은 각각 무엇을 뜻하는가? 한쪽이 영벡터이면 같은 각도 해석을 적용할 수 있는가?"
       },
       {
         "id": "V04-01",
@@ -586,7 +586,7 @@
         "sectionId": "visual-04-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "X의 shape가 (5,3), W가 (2,3)일 때 XWᵀ의 shape는? 왜 XW는 바로 곱할 수 없는가?"
+        "text": "X의 크기가 (5,3), W의 크기가 (2,3)일 때 XWᵀ의 크기는? 왜 XW는 바로 곱할 수 없는가?"
       },
       {
         "id": "V04-03",
@@ -696,7 +696,7 @@
         "sectionId": "59",
         "index": 1,
         "label": "5.9 실습문제 · 2번",
-        "text": "zero_grad()를 생략하고 두 batch를 학습하면 어떤 일이 생기는가?"
+        "text": "zero_grad()를 생략하고 두 배치를 학습하면 어떤 일이 생기는가?"
       },
       {
         "id": "O05-03",
@@ -705,7 +705,7 @@
         "sectionId": "59",
         "index": 2,
         "label": "5.9 실습문제 · 3번",
-        "text": "sigmoid가 깊은 신경망 hidden activation에 불리한 이유 두 가지는?"
+        "text": "시그모이드가 깊은 신경망의 은닉층 활성함수로 불리한 이유 두 가지는?"
       },
       {
         "id": "O05-04",
@@ -714,7 +714,7 @@
         "sectionId": "59",
         "index": 3,
         "label": "5.9 실습문제 · 4번",
-        "text": "learning rate가 너무 클 때와 너무 작을 때의 loss 곡선을 설명하라."
+        "text": "학습률이 너무 클 때와 너무 작을 때의 손실 곡선을 설명하라."
       },
       {
         "id": "O05-05",
@@ -723,7 +723,7 @@
         "sectionId": "59",
         "index": 4,
         "label": "5.9 실습문제 · 5번",
-        "text": "AdamW와 Adam+L2 penalty의 핵심 차이는?"
+        "text": "AdamW와 Adam에 L2 규제를 더한 방식의 핵심 차이는?"
       },
       {
         "id": "V05-01",
@@ -850,7 +850,7 @@
         "sectionId": "69",
         "index": 1,
         "label": "6.9 실습문제 · 2번",
-        "text": "binary class 비율이 1:1일 때와 99:1일 때 어느 쪽 entropy가 큰가?"
+        "text": "이진분류의 클래스 비율이 1:1일 때와 99:1일 때 어느 쪽의 엔트로피가 큰가?"
       },
       {
         "id": "O06-03",
@@ -859,7 +859,7 @@
         "sectionId": "69",
         "index": 2,
         "label": "6.9 실습문제 · 3번",
-        "text": "KL divergence가 거리 metric이 아닌 이유 두 가지는?"
+        "text": "KL 발산이 수학적 의미의 거리가 아닌 이유 두 가지는?"
       },
       {
         "id": "O06-04",
@@ -868,7 +868,7 @@
         "sectionId": "69",
         "index": 3,
         "label": "6.9 실습문제 · 4번",
-        "text": "고장률 1%, recall 90%, false positive rate 10%인 검사의 precision을 10,000대 기준으로 계산하라."
+        "text": "고장률 1%, 재현율 90%, 거짓 양성률 10%인 검사의 정밀도를 10,000대 기준으로 계산하라."
       },
       {
         "id": "O06-05",
@@ -877,7 +877,7 @@
         "sectionId": "69",
         "index": 4,
         "label": "6.9 실습문제 · 5번",
-        "text": "MSE가 Gaussian likelihood와 연결되는 직관을 설명하라."
+        "text": "MSE가 가우시안 우도와 어떻게 연결되는지 설명하라."
       },
       {
         "id": "V06-01",
@@ -985,7 +985,7 @@
   },
   {
     "lesson": "07",
-    "title": "EDA: 모델보다 먼저 데이터 생성 과정을 읽기",
+    "title": "EDA: 모델을 만들기 전에 데이터 생성 과정 살펴보기",
     "questions": [
       {
         "id": "O07-01",
@@ -994,7 +994,7 @@
         "sectionId": "79",
         "index": 0,
         "label": "7.9 실습문제 · 1번",
-        "text": "random split AUC는 0.99인데 group split은 0.61이다."
+        "text": "무작위 분할의 AUC는 0.99인데 그룹별 분할의 AUC는 0.61이다."
       },
       {
         "id": "O07-02",
@@ -1003,7 +1003,7 @@
         "sectionId": "79",
         "index": 1,
         "label": "7.9 실습문제 · 2번",
-        "text": "특정 열과 target 상관이 0.999다."
+        "text": "특정 열과 정답의 상관계수가 0.999다."
       },
       {
         "id": "O07-03",
@@ -1012,7 +1012,7 @@
         "sectionId": "79",
         "index": 2,
         "label": "7.9 실습문제 · 3번",
-        "text": "test-only category가 30%다."
+        "text": "평가 데이터에서 학습 때 보지 못한 범주가 30%를 차지한다."
       },
       {
         "id": "O07-04",
@@ -1021,7 +1021,7 @@
         "sectionId": "79",
         "index": 3,
         "label": "7.9 실습문제 · 4번",
-        "text": "시계열의 timestamp 차이가 대부분 0.01초지만 일부 5초다."
+        "text": "시계열의 측정 시각 간격이 대부분 0.01초지만 일부는 5초다."
       },
       {
         "id": "O07-05",
@@ -1030,7 +1030,7 @@
         "sectionId": "79",
         "index": 4,
         "label": "7.9 실습문제 · 5번",
-        "text": "회귀 target 99%는 0~10인데 최대값이 100,000이다."
+        "text": "회귀 정답의 99%는 0~10인데 최댓값은 100,000이다."
       },
       {
         "id": "V07-01",
@@ -1066,7 +1066,7 @@
         "sectionId": "visual-07-7",
         "index": 3,
         "label": "기초 확인 · 4번",
-        "text": "target과 상관 0인 특성을 모두 없애도 안전한가?"
+        "text": "정답과 상관계수가 0인 특성을 모두 없애도 안전한가?"
       }
     ],
     "mappings": [
@@ -1150,7 +1150,7 @@
         "sectionId": "89",
         "index": 0,
         "label": "8.9 실습문제 · 1번",
-        "text": "train [0,5,10], test [15]에 train min-max를 적용한 test 값은?"
+        "text": "학습 데이터 [0,5,10], 평가 데이터 [15]에 학습 데이터 기준의 최소–최대 정규화를 적용하면 평가 데이터의 값은 얼마인가?"
       },
       {
         "id": "O08-02",
@@ -1159,7 +1159,7 @@
         "sectionId": "89",
         "index": 1,
         "label": "8.9 실습문제 · 2번",
-        "text": "tree와 KNN 중 scaling이 더 중요한 모델과 이유는?"
+        "text": "트리와 KNN 중 스케일링이 더 중요한 모델은 무엇이며, 그 이유는 무엇인가?"
       },
       {
         "id": "O08-03",
@@ -1168,7 +1168,7 @@
         "sectionId": "89",
         "index": 2,
         "label": "8.9 실습문제 · 3번",
-        "text": "target encoding을 안전하게 train feature로 만드는 원리는?"
+        "text": "타깃 인코딩을 누수 없이 학습 특성으로 만드는 원리는?"
       },
       {
         "id": "O08-04",
@@ -1177,7 +1177,7 @@
         "sectionId": "89",
         "index": 3,
         "label": "8.9 실습문제 · 4번",
-        "text": "시계열 forward fill은 어떤 조건에서 누수가 될 수 있는가? split 전에 실행했다는 사실만으로 항상 누수라고 할 수 있는지도 설명하라."
+        "text": "시계열에서 앞선 값으로 빈칸을 채우는 전방 채우기는 어떤 조건에서 누수를 일으킬 수 있는가? 데이터를 분할하기 전에 실행했다는 사실만으로 항상 누수라고 할 수 있는지도 설명하라."
       },
       {
         "id": "O08-05",
@@ -1186,7 +1186,7 @@
         "sectionId": "89",
         "index": 4,
         "label": "8.9 실습문제 · 5번",
-        "text": "test-only category를 -1로 ordinal encoding할 때 unknown 코드의 의미와 충돌 여부에서 무엇을 확인해야 하는가? 이어서 PyTorch Embedding에 넣는다면 어떤 추가 변환·범위 검사가 필요한가?"
+        "text": "평가 데이터에만 있는 범주를 순서형 인코딩으로 -1에 배정할 때, 이 번호의 의미와 기존 번호와의 충돌 여부에서 무엇을 확인해야 하는가? 이어서 PyTorch Embedding에 넣는다면 어떤 추가 변환과 범위 검사가 필요한가?"
       },
       {
         "id": "V08-01",
@@ -1195,7 +1195,7 @@
         "sectionId": "visual-08-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "학습 Min-Max 범위가 0~10인데 새 값 15가 1.5로 나왔다. 반드시 1로 잘라야 하는가?"
+        "text": "학습 데이터의 최소–최대 정규화 범위가 0~10인데 새 값 15가 1.5로 나왔다. 반드시 1로 제한해야 하는가?"
       },
       {
         "id": "V08-02",
@@ -1294,7 +1294,7 @@
   },
   {
     "lesson": "09",
-    "title": "Feature Engineering·Selection·Extraction",
+    "title": "특성 만들기·선택·추출",
     "questions": [
       {
         "id": "O09-01",
@@ -1303,7 +1303,7 @@
         "sectionId": "97",
         "index": 0,
         "label": "9.7 실습문제 · 1번",
-        "text": "variance가 거의 0인 feature를 제거하는 방법은 세 계열 중 어디에 속하는가?"
+        "text": "분산이 거의 0인 특성을 제거하는 방법은 세 계열 중 어디에 속하는가?"
       },
       {
         "id": "O09-02",
@@ -1312,7 +1312,7 @@
         "sectionId": "97",
         "index": 1,
         "label": "9.7 실습문제 · 2번",
-        "text": "L1 선형모델이 feature selection 효과를 갖는 이유는?"
+        "text": "L1 선형모델이 특성을 선택하는 효과를 갖는 이유는?"
       },
       {
         "id": "O09-03",
@@ -1321,7 +1321,7 @@
         "sectionId": "97",
         "index": 2,
         "label": "9.7 실습문제 · 3번",
-        "text": "입력 feature가 6개인 4-class LDA의 최대 출력 차원은?"
+        "text": "입력 특성이 6개이고 클래스가 4개인 LDA의 최대 출력 차원은?"
       },
       {
         "id": "O09-04",
@@ -1339,7 +1339,7 @@
         "sectionId": "97",
         "index": 4,
         "label": "9.7 실습문제 · 5번",
-        "text": "PCA 95% explained variance와 95% 예측 정보가 같은 뜻이 아닌 이유는?"
+        "text": "PCA가 분산의 95%를 설명한다는 것과 예측 정보의 95%를 보존한다는 것이 다른 이유는?"
       },
       {
         "id": "V09-01",
@@ -1455,7 +1455,7 @@
         "sectionId": "107",
         "index": 0,
         "label": "10.7 실습문제 · 1번",
-        "text": "Ridge의 규제 강도를 너무 크게 하면 bias와 variance는 어떻게 변하는가?"
+        "text": "Ridge의 규제 강도를 너무 크게 하면 편향과 분산은 어떻게 변하는가?"
       },
       {
         "id": "O10-02",
@@ -1464,7 +1464,7 @@
         "sectionId": "107",
         "index": 1,
         "label": "10.7 실습문제 · 2번",
-        "text": "KNN에서 feature 하나의 단위가 0~1, 다른 하나가 0~100000이면 무엇이 문제인가?"
+        "text": "KNN에서 한 특성의 값 범위가 01이고 다른 특성은 0100000이면 무엇이 문제인가?"
       },
       {
         "id": "O10-03",
@@ -1473,7 +1473,7 @@
         "sectionId": "107",
         "index": 2,
         "label": "10.7 실습문제 · 3번",
-        "text": "이진 logit 0의 확률은?"
+        "text": "이진분류의 변환 전 점수가 0이면 확률은 얼마인가?"
       },
       {
         "id": "O10-04",
@@ -1482,7 +1482,7 @@
         "sectionId": "107",
         "index": 3,
         "label": "10.7 실습문제 · 4번",
-        "text": "BCEWithLogitsLoss 앞에 sigmoid를 붙이면 왜 좋지 않은가?"
+        "text": "BCEWithLogitsLoss 앞에 시그모이드를 붙이면 왜 좋지 않은가?"
       },
       {
         "id": "O10-05",
@@ -1491,7 +1491,7 @@
         "sectionId": "107",
         "index": 4,
         "label": "10.7 실습문제 · 5번",
-        "text": "선형모델이 비선형 feature를 사용할 수 있는 예를 하나 쓰라."
+        "text": "선형모델에 비선형으로 변환한 특성을 사용할 수 있는 예를 하나 쓰라."
       },
       {
         "id": "V10-01",
@@ -1500,7 +1500,7 @@
         "sectionId": "visual-10-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "logit 0은 확률 0인가? 확률 0.5를 기준으로 할 때 어떤 위치인가?"
+        "text": "변환 전 점수가 0이면 확률도 0인가? 확률 0.5를 기준으로 분류할 때 어떤 위치인가?"
       },
       {
         "id": "V10-02",
@@ -1509,7 +1509,7 @@
         "sectionId": "visual-10-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "BCEWithLogitsLoss에 sigmoid 출력을 넣어도 같은 계산인가?"
+        "text": "BCEWithLogitsLoss에 시그모이드 출력을 넣어도 같은 계산인가?"
       },
       {
         "id": "V10-03",
@@ -1608,7 +1608,7 @@
         "sectionId": "118",
         "index": 0,
         "label": "11.8 실습문제 · 1번",
-        "text": "class 비율 3/4, 1/4 node의 Gini를 계산하라."
+        "text": "클래스 비율이 3/4, 1/4인 노드의 지니 불순도를 계산하라."
       },
       {
         "id": "O11-02",
@@ -1617,7 +1617,7 @@
         "sectionId": "118",
         "index": 1,
         "label": "11.8 실습문제 · 2번",
-        "text": "Random Forest가 단일 tree보다 variance를 줄이는 원리는?"
+        "text": "Random Forest가 단일 트리보다 분산을 줄이는 원리는?"
       },
       {
         "id": "O11-03",
@@ -1626,7 +1626,7 @@
         "sectionId": "118",
         "index": 2,
         "label": "11.8 실습문제 · 3번",
-        "text": "bagging과 boosting의 학습 순서를 비교하라."
+        "text": "배깅과 부스팅의 학습 순서를 비교하라."
       },
       {
         "id": "O11-04",
@@ -1644,7 +1644,7 @@
         "sectionId": "118",
         "index": 4,
         "label": "11.8 실습문제 · 5번",
-        "text": "tree에 scaling이 보통 필요 없는 이유는?"
+        "text": "트리에 스케일링이 보통 필요 없는 이유는?"
       },
       {
         "id": "V11-01",
@@ -1653,7 +1653,7 @@
         "sectionId": "visual-11-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "클래스 비율 3/4,1/4 노드의 Gini는? 1:0 노드보다 큰 이유는?"
+        "text": "클래스 비율이 3/4,1/4인 노드의 지니 불순도는 얼마인가? 1:0인 노드보다 큰 이유는?"
       },
       {
         "id": "V11-02",
@@ -1662,7 +1662,7 @@
         "sectionId": "visual-11-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "bagging의 구성 모델과 boosting의 구성 모델은 학습 순서에서 무엇이 다른가?"
+        "text": "배깅과 부스팅을 구성하는 모델은 학습 순서에서 무엇이 다른가?"
       },
       {
         "id": "V11-03",
@@ -1671,7 +1671,7 @@
         "sectionId": "visual-11-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "양성 점의 SVM 점수가 0.2면 분류가 맞아도 hinge loss가 생길 수 있는가?"
+        "text": "양성 샘플의 SVM 점수가 0.2이면 분류가 맞아도 힌지 손실이 생길 수 있는가?"
       },
       {
         "id": "V11-04",
@@ -1764,7 +1764,7 @@
         "sectionId": "127",
         "index": 0,
         "label": "12.7 실습문제 · 1번",
-        "text": "K-means에서 feature scaling이 중요한 이유는?"
+        "text": "K-means에서 특성 스케일링이 중요한 이유는?"
       },
       {
         "id": "O12-02",
@@ -1782,7 +1782,7 @@
         "sectionId": "127",
         "index": 2,
         "label": "12.7 실습문제 · 3번",
-        "text": "silhouette가 음수인 sample의 의미는?"
+        "text": "실루엣 점수가 음수인 표본은 무엇을 뜻하는가?"
       },
       {
         "id": "O12-04",
@@ -1791,7 +1791,7 @@
         "sectionId": "127",
         "index": 3,
         "label": "12.7 실습문제 · 4번",
-        "text": "cluster 0을 “정상”, 1을 “고장”으로 바로 제출하면 안 되는 이유는?"
+        "text": "군집 0을 “정상”, 1을 “고장”으로 바로 제출하면 안 되는 이유는?"
       },
       {
         "id": "O12-05",
@@ -1800,7 +1800,7 @@
         "sectionId": "127",
         "index": 4,
         "label": "12.7 실습문제 · 5번",
-        "text": "single linkage의 chaining 현상을 설명하라."
+        "text": "단일 연결의 연결 현상을 설명하라."
       },
       {
         "id": "V12-01",
@@ -1818,7 +1818,7 @@
         "sectionId": "visual-12-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "eps 안에 자기 자신 포함 2개가 있고 min_samples=3이다. 이 점은 반드시 noise인가?"
+        "text": "eps 안에 자기 자신 포함 2개가 있고 min_samples=3이다. 이 점은 반드시 잡음점인가?"
       },
       {
         "id": "V12-03",
@@ -1894,7 +1894,7 @@
   },
   {
     "lesson": "13",
-    "title": "Validation Strategy와 데이터 누수",
+    "title": "검증 전략과 데이터 누수",
     "questions": [
       {
         "id": "O13-01",
@@ -1903,7 +1903,7 @@
         "sectionId": "1310",
         "index": 0,
         "label": "13.10 실습문제 · 1번",
-        "text": "한 차량의 1,000개 센서 행을 random split했을 때 모델이 암기할 수 있는 것은?"
+        "text": "한 차량의 센서 행 1,000개를 무작위로 나누었을 때 모델이 암기할 수 있는 것은?"
       },
       {
         "id": "O13-02",
@@ -1912,7 +1912,7 @@
         "sectionId": "1310",
         "index": 1,
         "label": "13.10 실습문제 · 2번",
-        "text": "SMOTE를 split 전에 하면 왜 누수인가?"
+        "text": "데이터 분할 전에 SMOTE를 적용하면 왜 누수인가?"
       },
       {
         "id": "O13-03",
@@ -1921,7 +1921,7 @@
         "sectionId": "1310",
         "index": 2,
         "label": "13.10 실습문제 · 3번",
-        "text": "같은 차량의 미래를 예측하는데 차량 전체를 group split하면 무엇을 측정하는가?"
+        "text": "같은 차량의 미래를 예측하려는데 차량 단위로 그룹 분할하면 무엇을 측정하는가?"
       },
       {
         "id": "O13-04",
@@ -1930,7 +1930,7 @@
         "sectionId": "1310",
         "index": 3,
         "label": "13.10 실습문제 · 4번",
-        "text": "target index가 validation이지만 input 일부가 train 경계 이전이면 무조건 누수인가?"
+        "text": "정답 인덱스는 검증 기간에 속하지만 입력 일부가 학습·검증 분할 시점 이전이면 무조건 누수인가?"
       },
       {
         "id": "O13-05",
@@ -1939,7 +1939,7 @@
         "sectionId": "1310",
         "index": 4,
         "label": "13.10 실습문제 · 5번",
-        "text": "validation score 평균은 같지만 표준편차가 큰 모델과 작은 모델 중 어떤 것을 선택할지 논하라."
+        "text": "검증 점수의 평균은 같지만 표준편차가 큰 모델과 작은 모델 중 어떤 것을 선택할지 논하라."
       },
       {
         "id": "V13-01",
@@ -1957,7 +1957,7 @@
         "sectionId": "visual-13-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "scaler는 전체 자료로 fit하고 모델만 train으로 학습했다. 평가가 독립적인가?"
+        "text": "특성의 척도를 맞추는 변환기는 전체 자료로 학습하고 모델만 훈련 데이터로 학습했다. 평가가 독립적인가?"
       },
       {
         "id": "V13-03",
@@ -1966,7 +1966,7 @@
         "sectionId": "visual-13-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "과거 3일을 보고 내일을 예측한다. validation의 입력에 train 기간의 마지막 이틀이 들어가면 항상 누수인가?"
+        "text": "과거 3일을 보고 내일을 예측한다. 검증 입력에 훈련 기간의 마지막 이틀이 들어가면 항상 누수인가?"
       }
     ],
     "mappings": [
@@ -2040,7 +2040,7 @@
         "sectionId": "149",
         "index": 0,
         "label": "14.9 실습문제 · 1번",
-        "text": "accuracy, precision, recall, F1을 계산하라."
+        "text": "정확도, 정밀도, 재현율, F1을 계산하라."
       },
       {
         "id": "O14-02",
@@ -2049,7 +2049,7 @@
         "sectionId": "149",
         "index": 1,
         "label": "14.9 실습문제 · 2번",
-        "text": "hard label보다 연속 score 또는 probability를 보존해야 하는 metric 두 개를 쓰고, ROC-AUC와 log loss의 입력 요구가 어떻게 다른지 설명하라."
+        "text": "하드 라벨보다 연속 점수 또는 확률을 보존해야 하는 지표 두 개를 쓰고, ROC-AUC와 log loss의 입력 요구가 어떻게 다른지 설명하라."
       },
       {
         "id": "O14-03",
@@ -2058,7 +2058,7 @@
         "sectionId": "149",
         "index": 2,
         "label": "14.9 실습문제 · 3번",
-        "text": "Macro-F1과 Weighted-F1 중 소수 class에 더 동일한 중요도를 주는 것은?"
+        "text": "Macro-F1과 Weighted-F1 중 소수 클래스에도 같은 중요도를 주는 것은?"
       },
       {
         "id": "O14-04",
@@ -2067,7 +2067,7 @@
         "sectionId": "149",
         "index": 3,
         "label": "14.9 실습문제 · 4번",
-        "text": "validation에서 threshold를 골랐는데 전체 재학습 후 calibration이 달라지는 이유는?"
+        "text": "검증 데이터에서 임계값을 골랐는데 전체 재학습 후 확률 보정 상태가 달라지는 이유는?"
       },
       {
         "id": "O14-05",
@@ -2076,7 +2076,7 @@
         "sectionId": "149",
         "index": 4,
         "label": "14.9 실습문제 · 5번",
-        "text": "pos_weight를 전체 train+validation에서 계산하면 왜 엄밀히 누수인가?"
+        "text": "pos_weight를 훈련·검증 데이터 전체에서 계산하면 왜 엄밀히 누수인가?"
       },
       {
         "id": "V14-01",
@@ -2085,7 +2085,7 @@
         "sectionId": "visual-14-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "실제 양성이 10개이고 6개를 찾았으며 양성 예측은 총 15개다. precision과 recall은?"
+        "text": "실제 양성이 10개이고 6개를 찾았으며 양성 예측은 총 15개다. 정밀도와 재현율은?"
       },
       {
         "id": "V14-02",
@@ -2169,7 +2169,7 @@
   },
   {
     "lesson": "15",
-    "title": "Regularization·Hyperparameter Tuning·실험 설계",
+    "title": "규제·하이퍼파라미터 탐색·실험 설계",
     "questions": [
       {
         "id": "O15-01",
@@ -2178,7 +2178,7 @@
         "sectionId": "158",
         "index": 0,
         "label": "15.8 실습문제 · 1번",
-        "text": "learning rate와 weight decay 후보를 선형 간격보다 log 간격으로 보는 이유는?"
+        "text": "학습률과 가중치 감쇠 후보를 선형 간격보다 로그 간격으로 정하는 이유는?"
       },
       {
         "id": "O15-02",
@@ -2187,7 +2187,7 @@
         "sectionId": "158",
         "index": 1,
         "label": "15.8 실습문제 · 2번",
-        "text": "train score도 valid score도 나쁠 때 dropout을 크게 늘리는 것이 왜 부적절할 수 있는가?"
+        "text": "훈련·검증 점수가 모두 나쁠 때 드롭아웃 비율을 크게 늘리는 것이 왜 부적절할 수 있는가?"
       },
       {
         "id": "O15-03",
@@ -2196,7 +2196,7 @@
         "sectionId": "158",
         "index": 2,
         "label": "15.8 실습문제 · 3번",
-        "text": "random search가 grid보다 유리한 전형적 조건은?"
+        "text": "무작위 탐색이 격자 탐색보다 유리한 전형적인 조건은?"
       },
       {
         "id": "O15-04",
@@ -2205,7 +2205,7 @@
         "sectionId": "158",
         "index": 3,
         "label": "15.8 실습문제 · 4번",
-        "text": "같은 validation에 100개 모델을 비교한 best score가 낙관적인 이유는?"
+        "text": "같은 검증 데이터로 모델 100개를 비교해 얻은 최고 점수가 낙관적인 이유는?"
       },
       {
         "id": "O15-05",
@@ -2214,7 +2214,7 @@
         "sectionId": "158",
         "index": 4,
         "label": "15.8 실습문제 · 5번",
-        "text": "실험 A/B를 공정하게 비교하기 위한 고정 요소 네 가지를 쓰라."
+        "text": "실험 A/B를 공정하게 비교하기 위해 고정할 요소 네 가지를 쓰라."
       },
       {
         "id": "V15-01",
@@ -2232,7 +2232,7 @@
         "sectionId": "visual-15-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "train loss와 valid loss 모두 높다. dropout을 0.1에서 0.8로 키우면 반드시 해결되는가?"
+        "text": "훈련 손실과 검증 손실이 모두 높다. 드롭아웃 비율을 0.1에서 0.8로 키우면 반드시 해결되는가?"
       },
       {
         "id": "V15-03",
@@ -2241,7 +2241,7 @@
         "sectionId": "visual-15-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "3개 학습률, 4개 깊이, 2개 규제 후보를 3-fold로 grid search하면 총 몇 번 fit하는가?"
+        "text": "3개 학습률, 4개 깊이, 2개 규제 후보를 3-겹 교차검증으로 격자 탐색하면 총 몇 번 학습하는가?"
       }
     ],
     "mappings": [
@@ -2307,7 +2307,7 @@
   },
   {
     "lesson": "16",
-    "title": "PyTorch 기초: Tensor·autograd·Dataset·DataLoader",
+    "title": "PyTorch 기초: 텐서·자동 미분·Dataset·DataLoader",
     "questions": [
       {
         "id": "O16-01",
@@ -2325,7 +2325,7 @@
         "sectionId": "169",
         "index": 1,
         "label": "16.9 실습문제 · 2번",
-        "text": "validation에서 no_grad()만 쓰고 model.eval()을 안 쓰면 어떤 layer가 문제인가?"
+        "text": "검증에서 no_grad()만 쓰고 model.eval()을 호출하지 않으면 어떤 층에서 문제가 생기는가?"
       },
       {
         "id": "O16-03",
@@ -2334,7 +2334,7 @@
         "sectionId": "169",
         "index": 2,
         "label": "16.9 실습문제 · 3번",
-        "text": "batch size 1에서 무인자 squeeze()가 위험한 이유는?"
+        "text": "배치 크기가 1일 때 인자 없는 squeeze()가 위험한 이유는?"
       },
       {
         "id": "O16-04",
@@ -2343,7 +2343,7 @@
         "sectionId": "169",
         "index": 3,
         "label": "16.9 실습문제 · 4번",
-        "text": "multiclass target이 문자열이면 DataLoader 전에 무엇을 해야 하는가?"
+        "text": "다중분류 정답이 문자열이면 DataLoader에 전달하기 전에 무엇을 해야 하는가?"
       },
       {
         "id": "O16-05",
@@ -2352,7 +2352,7 @@
         "sectionId": "169",
         "index": 4,
         "label": "16.9 실습문제 · 5번",
-        "text": "test 표본 수가 batch_size로 나누어떨어지지 않을 때 DataLoader에 drop_last=True를 쓰면 제출에 어떤 일이 생기는가?"
+        "text": "테스트 표본 수가 배치 크기로 나누어떨어지지 않을 때 DataLoader에 drop_last=True를 쓰면 제출에 어떤 문제가 생기는가?"
       },
       {
         "id": "V16-01",
@@ -2361,7 +2361,7 @@
         "sectionId": "visual-16-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "loss의 backward()를 두 번 새 forward로 계산하면서 .grad를 지우지 않으면 어떤 일이 일어나는가?"
+        "text": "새로 순전파한 손실에 backward()를 호출하는 과정을 두 번 반복하면서 .grad를 지우지 않으면 어떤 일이 일어나는가?"
       },
       {
         "id": "V16-02",
@@ -2370,7 +2370,7 @@
         "sectionId": "visual-16-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "원래 자료가 9개이고 batch_size=4, drop_last=False이면 배치는 몇 개이며 마지막 shape의 첫 축은 얼마인가?"
+        "text": "원래 자료가 9개이고 batch_size=4, drop_last=False이면 배치는 몇 개이며 마지막 배치의 첫 축 길이는 얼마인가?"
       },
       {
         "id": "V16-03",
@@ -2379,7 +2379,7 @@
         "sectionId": "visual-16-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "validation에서 no_grad()만 사용하면 Dropout이 자동으로 꺼지는가?"
+        "text": "검증에서 no_grad()만 사용하면 드롭아웃이 자동으로 꺼지는가?"
       }
     ],
     "mappings": [
@@ -2454,7 +2454,7 @@
         "sectionId": "179",
         "index": 0,
         "label": "17.9 실습문제 · 1번",
-        "text": "activation 없는 3개 Linear 층이 여전히 선형인 이유는?"
+        "text": "활성함수 없이 Linear 층 세 개를 쌓아도 전체가 선형인 이유는?"
       },
       {
         "id": "O17-02",
@@ -2463,7 +2463,7 @@
         "sectionId": "179",
         "index": 1,
         "label": "17.9 실습문제 · 2번",
-        "text": "Linear(32,16) parameter 수는?"
+        "text": "Linear(32,16)의 파라미터 수는?"
       },
       {
         "id": "O17-03",
@@ -2472,7 +2472,7 @@
         "sectionId": "179",
         "index": 2,
         "label": "17.9 실습문제 · 3번",
-        "text": "binary 모델 output에 sigmoid가 없는데 확률은 언제 만드는가?"
+        "text": "이진분류 모델 출력에 sigmoid가 없다면 언제 확률로 바꾸는가?"
       },
       {
         "id": "O17-04",
@@ -2481,7 +2481,7 @@
         "sectionId": "179",
         "index": 3,
         "label": "17.9 실습문제 · 4번",
-        "text": "PyTorch CrossEntropyLoss의 기본 class-index 경로에서 target의 shape와 dtype은 무엇인가? one-hot [B,K]도 사용할 수 있는 별도 경로의 조건과 구분 이유를 설명하라."
+        "text": "PyTorch CrossEntropyLoss에서 클래스 번호를 받는 기본 방식은 어떤 정답 형태와 자료형을 요구하는가? one-hot [B,K]도 사용할 수 있는 별도 방식의 조건과 두 방식을 구분해야 하는 이유를 설명하라."
       },
       {
         "id": "O17-05",
@@ -2508,7 +2508,7 @@
         "sectionId": "visual-17-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "하나의 사진에 ‘고양이’와 ‘실내’가 동시에 참일 수 있다. softmax 하나로 합을 1로 만들어야 하는가?"
+        "text": "하나의 사진에 ‘고양이’와 ‘실내’가 동시에 참일 수 있다. 소프트맥스 하나로 합을 1로 만들어야 하는가?"
       },
       {
         "id": "V17-03",
@@ -2517,7 +2517,7 @@
         "sectionId": "visual-17-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "logits [0,ln 3], 정답 클래스 1일 때 softmax와 CE는 얼마인가?"
+        "text": "로짓 [0,ln 3], 정답 클래스 1일 때 소프트맥스와 CE는 얼마인가?"
       }
     ],
     "mappings": [
@@ -2581,7 +2581,7 @@
   },
   {
     "lesson": "18",
-    "title": "PyTorch 학습 엔지니어링: optimizer·초기화·BN·Dropout",
+    "title": "PyTorch 학습: 옵티마이저·초기화·배치 정규화·드롭아웃",
     "questions": [
       {
         "id": "O18-01",
@@ -2590,7 +2590,7 @@
         "sectionId": "1810",
         "index": 0,
         "label": "18.10 실습문제 · 1번",
-        "text": "PyTorch BatchNorm의 기본 track_running_stats=True에서 train/eval의 통계 사용과 running statistics 갱신 차이를 쓰라."
+        "text": "PyTorch BatchNorm의 기본 설정 track_running_stats=True에서 훈련·평가 모드의 통계 사용과 누적 통계 갱신이 어떻게 다른지 쓰라."
       },
       {
         "id": "O18-02",
@@ -2599,7 +2599,7 @@
         "sectionId": "1810",
         "index": 1,
         "label": "18.10 실습문제 · 2번",
-        "text": "dropout p를 0.2에서 0.8로 높이면 일반적으로 train/valid에 어떤 영향이 가능한가?"
+        "text": "드롭아웃 비율 p를 0.2에서 0.8로 높이면 훈련·검증 성능에 어떤 영향이 생길 수 있는가?"
       },
       {
         "id": "O18-03",
@@ -2608,7 +2608,7 @@
         "sectionId": "1810",
         "index": 2,
         "label": "18.10 실습문제 · 3번",
-        "text": "ReLU network에 He 초기화가 적합한 직관은?"
+        "text": "ReLU 신경망에 He 초기화가 적합한 이유를 직관적으로 설명하라."
       },
       {
         "id": "O18-04",
@@ -2617,7 +2617,7 @@
         "sectionId": "1810",
         "index": 3,
         "label": "18.10 실습문제 · 4번",
-        "text": "validation F1 early stopping에서 min 비교를 쓰면 어떤 오류인가?"
+        "text": "검증 F1로 조기 종료할 때 min 비교를 쓰면 어떤 오류가 생기는가?"
       },
       {
         "id": "O18-05",
@@ -2626,7 +2626,7 @@
         "sectionId": "1810",
         "index": 4,
         "label": "18.10 실습문제 · 5번",
-        "text": "gradient clipping이 vanishing gradient를 해결하는가?"
+        "text": "기울기 클리핑이 기울기 소실을 해결하는가?"
       },
       {
         "id": "V18-01",
@@ -2644,7 +2644,7 @@
         "sectionId": "visual-18-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "Dropout p=0.25에서 값 6이 살아남았다면 훈련 출력은 얼마인가?"
+        "text": "드롭아웃 비율 p=0.25에서 값 6이 살아남았다면 훈련 출력은 얼마인가?"
       },
       {
         "id": "V18-03",
@@ -2653,7 +2653,7 @@
         "sectionId": "visual-18-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "best validation F1이 0.7인데 새 F1이 0.6이다. 최소 loss와 같은 비교 방향으로 저장해도 되는가?"
+        "text": "지금까지 가장 좋은 검증 F1이 0.7인데 새 F1이 0.6이다. 손실을 최소화할 때와 같은 비교 방향으로 저장해도 되는가?"
       }
     ],
     "mappings": [
@@ -2717,7 +2717,7 @@
   },
   {
     "lesson": "19",
-    "title": "CNN: convolution·padding·pooling·이미지 코드",
+    "title": "CNN: 합성곱·패딩·풀링·이미지 처리",
     "questions": [
       {
         "id": "O19-01",
@@ -2726,7 +2726,7 @@
         "sectionId": "1910",
         "index": 0,
         "label": "19.10 실습문제 · 1번",
-        "text": "input 32, K=3, P=1, S=2, D=1의 output 크기는?"
+        "text": "입력 크기 32, K=3, P=1, S=2, D=1일 때 출력 크기는?"
       },
       {
         "id": "O19-02",
@@ -2735,7 +2735,7 @@
         "sectionId": "1910",
         "index": 1,
         "label": "19.10 실습문제 · 2번",
-        "text": "Conv2d(16,32,3,padding=1,bias=False) parameter 수는?"
+        "text": "Conv2d(16,32,3,padding=1,bias=False)의 파라미터 수는?"
       },
       {
         "id": "O19-03",
@@ -2744,7 +2744,7 @@
         "sectionId": "1910",
         "index": 2,
         "label": "19.10 실습문제 · 3번",
-        "text": "RGB [B,64,64,3] tensor를 NCHW로 바꾸는 코드는?"
+        "text": "RGB [B,64,64,3] 텐서를 NCHW 순서로 바꾸는 코드는?"
       },
       {
         "id": "O19-04",
@@ -2753,7 +2753,7 @@
         "sectionId": "1910",
         "index": 3,
         "label": "19.10 실습문제 · 4번",
-        "text": "pooling이 parameter 수를 늘리는가?"
+        "text": "풀링이 파라미터 수를 늘리는가?"
       },
       {
         "id": "O19-05",
@@ -2762,7 +2762,7 @@
         "sectionId": "1910",
         "index": 4,
         "label": "19.10 실습문제 · 5번",
-        "text": "PIL box (10,20,50,70)의 결과 width/height는?"
+        "text": "PIL 영역 (10,20,50,70)을 잘라낸 결과의 너비와 높이는?"
       },
       {
         "id": "V19-01",
@@ -2771,7 +2771,7 @@
         "sectionId": "visual-19-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "입력 10, kernel 3, stride 2, padding 0, dilation 1인 한 축의 출력 길이는 얼마인가?"
+        "text": "입력 10, 커널 크기 3, 스트라이드 2, 패딩 0, 팽창 간격 1인 한 축의 출력 길이는 얼마인가?"
       },
       {
         "id": "V19-02",
@@ -2789,7 +2789,7 @@
         "sectionId": "visual-19-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "[B,8,4,4]에 AdaptiveAvgPool2d(1)을 적용하고 batch 축을 보존해 flatten하면 shape는?"
+        "text": "[B,8,4,4]에 AdaptiveAvgPool2d(1)을 적용하고 배치 축을 보존해 펼치면 형태는?"
       }
     ],
     "mappings": [
@@ -2862,7 +2862,7 @@
         "sectionId": "208",
         "index": 0,
         "label": "20.8 실습문제 · 1번",
-        "text": "residual addition에서 input [B,32,64,64], main [B,64,32,32]이면 shortcut에 무엇이 필요한가?"
+        "text": "잔차 덧셈에서 입력이 [B,32,64,64], 주 분기의 출력이 [B,64,32,32]이면 우회 연결에 무엇이 필요한가?"
       },
       {
         "id": "O20-02",
@@ -2871,7 +2871,7 @@
         "sectionId": "208",
         "index": 1,
         "label": "20.8 실습문제 · 2번",
-        "text": "학습 시작 전에 backbone을 requires_grad=False로 동결했고 각 frozen parameter의 .grad가 None이다. head를 교체한 뒤 일반적인 PyTorch optimizer에 model.parameters() 전체를 넣으면 frozen weight가 갱신되는가? 학습 중간에 동결하는 경우의 추가 주의점도 쓰라."
+        "text": "학습 시작 전에 백본을 requires_grad=False로 동결했고 각 동결 파라미터의 .grad가 None이다. 헤드를 교체한 뒤 일반적인 PyTorch 옵티마이저에 model.parameters() 전체를 넣으면 동결 가중치가 갱신되는가? 학습 중간에 동결할 때 추가로 주의할 점도 쓰라."
       },
       {
         "id": "O20-03",
@@ -2889,7 +2889,7 @@
         "sectionId": "208",
         "index": 3,
         "label": "20.8 실습문제 · 4번",
-        "text": "pretrained ResNet에 grayscale image를 넣는 해결책 두 가지는?"
+        "text": "사전학습한 ResNet에 흑백 이미지를 넣는 해결책 두 가지는?"
       },
       {
         "id": "O20-05",
@@ -2898,7 +2898,7 @@
         "sectionId": "208",
         "index": 4,
         "label": "20.8 실습문제 · 5번",
-        "text": "전이학습이 항상 scratch보다 좋은가?"
+        "text": "전이학습이 항상 처음부터 학습하는 것보다 좋은가?"
       },
       {
         "id": "V20-01",
@@ -2907,7 +2907,7 @@
         "sectionId": "visual-20-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "x와 F(x)가 모두 [B,16,8,8]일 때 더한 출력 channel은 16인가 32인가?"
+        "text": "x와 F(x)가 모두 [B,16,8,8]일 때 더한 출력 채널 수는 16인가 32인가?"
       },
       {
         "id": "V20-02",
@@ -2916,7 +2916,7 @@
         "sectionId": "visual-20-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "동결된 BatchNorm에서 requires_grad=False만 설정하고 train 모드로 돌렸다. running statistics도 고정되는가?"
+        "text": "동결된 배치 정규화 층에서 requires_grad=False만 설정하고 학습 모드로 돌렸다. 누적 통계도 고정되는가?"
       },
       {
         "id": "V20-03",
@@ -2925,7 +2925,7 @@
         "sectionId": "visual-20-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "입력 특성 128개, 출력 클래스 5개의 bias 있는 Linear head 파라미터 수는?"
+        "text": "입력 특성 128개와 출력 클래스 5개를 갖고 편향을 사용하는 Linear 헤드의 파라미터 수는?"
       }
     ],
     "mappings": [
@@ -2990,7 +2990,7 @@
   },
   {
     "lesson": "21",
-    "title": "시계열 데이터 계약과 window",
+    "title": "시계열 데이터 구성과 입력 구간",
     "questions": [
       {
         "id": "O21-01",
@@ -2999,7 +2999,7 @@
         "sectionId": "219",
         "index": 0,
         "label": "21.9 실습문제 · 1번",
-        "text": "50Hz, lookback 0.4초, horizon 2초는 각각 몇 sample인가?"
+        "text": "50Hz에서 입력 길이 0.4초와 예측 간격 2초는 각각 몇 표본에 해당하는가?"
       },
       {
         "id": "O21-02",
@@ -3008,7 +3008,7 @@
         "sectionId": "219",
         "index": 1,
         "label": "21.9 실습문제 · 2번",
-        "text": "T=1000, L=20, H=100, stride 1의 window 수는?"
+        "text": "T=1000, L=20, H=100, 한 행씩 이동할 때 구간 수는?"
       },
       {
         "id": "O21-03",
@@ -3017,7 +3017,7 @@
         "sectionId": "219",
         "index": 2,
         "label": "21.9 실습문제 · 3번",
-        "text": "window를 먼저 random split할 때 발생하는 누수를 설명하라."
+        "text": "입력 구간을 먼저 만든 뒤 무작위로 나눌 때 발생하는 누수를 설명하라."
       },
       {
         "id": "O21-04",
@@ -3026,7 +3026,7 @@
         "sectionId": "219",
         "index": 3,
         "label": "21.9 실습문제 · 4번",
-        "text": "시점 799의 관측과 정답이 확정된 직후, 그때까지 알려진 label만으로 학습을 마치고 target 800을 예측한다. 입력은 인덱스 780부터 799이고 H=1이다. validation target 구간이 800부터라는 조건에서, 입력에 train 기간의 과거가 들어갔다는 이유만으로 누수인가? 모델을 cut=800 직전에 확정하고 validation 예측 원점을 800 이상으로 제한하는 별도 설계와도 구분하라."
+        "text": "시점 799의 관측과 정답이 확정된 직후, 그때까지 알려진 정답만으로 학습을 마치고 정답 시점 800을 예측한다. 입력은 인덱스 780부터 799이고 H=1이다. 검증 정답 구간이 800부터라는 조건에서, 입력에 훈련 기간의 과거 관측이 들어갔다는 이유만으로 누수인가? 모델을 cut=800 직전에 확정하고 검증 예측 기준 시점을 800 이상으로 제한하는 별도 설계와도 구분하라."
       },
       {
         "id": "O21-05",
@@ -3035,7 +3035,7 @@
         "sectionId": "219",
         "index": 4,
         "label": "21.9 실습문제 · 5번",
-        "text": "float32 (900000,20,23) window의 대략 메모리는?"
+        "text": "float32 (900000,20,23) 구간 배열이 차지하는 대략적인 메모리는?"
       },
       {
         "id": "V21-01",
@@ -3044,7 +3044,7 @@
         "sectionId": "visual-21-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "T=12, L=4, H=3, S=1이면 창 수와 첫 target index는 얼마인가?"
+        "text": "T=12, L=4, H=3, S=1이면 창 수와 첫 정답 인덱스는 얼마인가?"
       },
       {
         "id": "V21-02",
@@ -3053,7 +3053,7 @@
         "sectionId": "visual-21-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "20Hz에서 1.5초 lookback은 몇 행인가? 간격이 일정하다고 가정한다."
+        "text": "20Hz에서 1.5초의 과거 입력 구간은 몇 행인가? 간격이 일정하다고 가정한다."
       },
       {
         "id": "V21-03",
@@ -3137,7 +3137,7 @@
         "sectionId": "229",
         "index": 0,
         "label": "22.9 실습문제 · 1번",
-        "text": "RNN(input_size=10, hidden_size=32, batch_first=True) 입력 [64,20,10]의 sequence output shape는?"
+        "text": "RNN(input_size=10, hidden_size=32, batch_first=True) 입력 [64,20,10]의 시점별 출력 형태는?"
       },
       {
         "id": "O22-02",
@@ -3146,7 +3146,7 @@
         "sectionId": "229",
         "index": 1,
         "label": "22.9 실습문제 · 2번",
-        "text": "2층 LSTM에 dropout을 0.3 지정했을 때 어디에 적용되는가?"
+        "text": "2층 LSTM에 드롭아웃 비율 0.3을 지정했을 때 어디에 적용되는가?"
       },
       {
         "id": "O22-03",
@@ -3164,7 +3164,7 @@
         "sectionId": "229",
         "index": 3,
         "label": "22.9 실습문제 · 4번",
-        "text": "causal forecasting에서 bidirectional 사용 여부를 결정하는 기준은?"
+        "text": "인과적 시계열 예측에서 양방향 구조의 사용 여부를 결정하는 기준은?"
       },
       {
         "id": "O22-05",
@@ -3182,7 +3182,7 @@
         "sectionId": "visual-22-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "batch_first=True, B=8,T=10,F=4,H=6인 한 층 단방향 GRU의 sequence output과 h_n shape는?"
+        "text": "batch_first=True, B=8,T=10,F=4,H=6인 한 층 단방향 GRU의 시점별 출력과 h_n의 형태는?"
       },
       {
         "id": "V22-02",
@@ -3265,7 +3265,7 @@
   },
   {
     "lesson": "23",
-    "title": "Attention과 Transformer",
+    "title": "어텐션과 Transformer",
     "questions": [
       {
         "id": "O23-01",
@@ -3274,7 +3274,7 @@
         "sectionId": "2310",
         "index": 0,
         "label": "23.10 실습문제 · 1번",
-        "text": "d_model=60, nhead=8이 기본 multi-head에 맞지 않는 이유는?"
+        "text": "d_model=60, nhead=8이 기본 멀티헤드 설정에 맞지 않는 이유는?"
       },
       {
         "id": "O23-02",
@@ -3283,7 +3283,7 @@
         "sectionId": "2310",
         "index": 1,
         "label": "23.10 실습문제 · 2번",
-        "text": "Q [B,4,10,16], K [B,4,20,16] score shape는?"
+        "text": "Q [B,4,10,16], K [B,4,20,16] 점수 행렬의 형태는?"
       },
       {
         "id": "O23-03",
@@ -3292,7 +3292,7 @@
         "sectionId": "2310",
         "index": 2,
         "label": "23.10 실습문제 · 3번",
-        "text": "positional encoding, 위치 의존 mask, 기타 순서 단서가 없는 self-attention은 입력 순서를 바꾸었을 때 어떻게 동작하는가? 순서 없는 평균 pooling까지 적용하면 무엇을 구별하기 어려운가?"
+        "text": "위치 인코딩, 위치 의존 마스크, 기타 순서 단서가 없는 셀프 어텐션은 입력 순서를 바꾸었을 때 어떻게 동작하는가? 순서를 사용하지 않는 평균 풀링까지 적용하면 무엇을 구별하기 어려운가?"
       },
       {
         "id": "O23-04",
@@ -3310,7 +3310,7 @@
         "sectionId": "2310",
         "index": 4,
         "label": "23.10 실습문제 · 5번",
-        "text": "T를 2배로 하면 attention score 원소 수는 몇 배인가?"
+        "text": "T를 2배로 하면 어텐션 점수의 원소 수는 몇 배인가?"
       },
       {
         "id": "V23-01",
@@ -3319,7 +3319,7 @@
         "sectionId": "visual-23-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "Q [B,4,3,8], K [B,4,5,8], V [B,4,5,6]이면 score와 output shape는?"
+        "text": "Q [B,4,3,8], K [B,4,5,8], V [B,4,5,6]이면 점수와 출력의 형태는?"
       },
       {
         "id": "V23-02",
@@ -3328,7 +3328,7 @@
         "sectionId": "visual-23-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "score [0,0,0]의 softmax는 무엇이며 그 이유는?"
+        "text": "점수 [0,0,0]의 소프트맥스는 무엇이며 그 이유는?"
       },
       {
         "id": "V23-03",
@@ -3337,7 +3337,7 @@
         "sectionId": "visual-23-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "d_model=30, nhead=8을 일반적인 동일 크기 head 분할에 사용할 수 있는가?"
+        "text": "d_model=30, nhead=8을 각 헤드의 크기를 같게 나누는 일반적인 구현에서 사용할 수 있는가?"
       }
     ],
     "mappings": [
@@ -3403,7 +3403,7 @@
   },
   {
     "lesson": "24",
-    "title": "Autoencoder와 이상탐지",
+    "title": "오토인코더(Autoencoder)와 이상탐지",
     "questions": [
       {
         "id": "O24-01",
@@ -3412,7 +3412,7 @@
         "sectionId": "249",
         "index": 0,
         "label": "24.9 실습문제 · 1번",
-        "text": "이 강의처럼 reconstruction error가 클수록 이상이며 score > threshold일 때 anomaly=1로 정의한다. 새 sample의 error가 threshold보다 낮으면 어떤 label로 판정하는가?"
+        "text": "이 강의에서는 복원 오차가 클수록 이상에 가깝고, score > threshold일 때 anomaly=1로 정의한다. 새 샘플의 오차가 임계값보다 낮으면 어떤 라벨로 판정하는가?"
       },
       {
         "id": "O24-02",
@@ -3421,7 +3421,7 @@
         "sectionId": "249",
         "index": 1,
         "label": "24.9 실습문제 · 2번",
-        "text": "train에 anomaly를 대량 포함하면 어떤 문제가 가능한가?"
+        "text": "훈련자료에 이상 샘플을 대량으로 포함하면 어떤 문제가 생길 수 있는가?"
       },
       {
         "id": "O24-03",
@@ -3430,7 +3430,7 @@
         "sectionId": "249",
         "index": 2,
         "label": "24.9 실습문제 · 3번",
-        "text": "AE latent dimension이 input보다 반드시 작아야 하는가?"
+        "text": "AE의 잠재 차원은 반드시 입력 차원보다 작아야 하는가?"
       },
       {
         "id": "O24-04",
@@ -3439,7 +3439,7 @@
         "sectionId": "249",
         "index": 3,
         "label": "24.9 실습문제 · 4번",
-        "text": "sample별 [B,F] error를 [B]로 만드는 코드는?"
+        "text": "샘플별 [B,F] error를 [B]로 만드는 코드는?"
       },
       {
         "id": "O24-05",
@@ -3448,7 +3448,7 @@
         "sectionId": "249",
         "index": 4,
         "label": "24.9 실습문제 · 5번",
-        "text": "고장 라벨은 없지만 정상으로 확인된 validation sample만 별도로 있다. 이 조건에서 threshold 후보를 어떻게 정하고, 어떤 성능은 직접 계산할 수 없는가?"
+        "text": "고장 라벨은 없지만 정상으로 확인된 검증 샘플만 별도로 있다. 이 조건에서 임계값 후보를 어떻게 정하며, 어떤 성능은 직접 계산할 수 없는가?"
       },
       {
         "id": "V24-01",
@@ -3475,7 +3475,7 @@
         "sectionId": "visual-24-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "배치 이미지 [4,3,8,8]의 제곱오차에 .mean()을 적용한 결과를 제출했다. 샘플별 점수 계약을 어떻게 복원하는가?"
+        "text": "배치 이미지 [4,3,8,8]의 제곱오차에 .mean()을 적용한 결과를 제출했다. 요구한 샘플별 점수를 어떻게 다시 계산하는가?"
       }
     ],
     "mappings": [
@@ -3551,7 +3551,7 @@
         "sectionId": "2510",
         "index": 0,
         "label": "25.10 실습문제 · 1번",
-        "text": "logvar=0이면 std는?"
+        "text": "logvar=0이면 표준편차는?"
       },
       {
         "id": "O25-02",
@@ -3560,7 +3560,7 @@
         "sectionId": "2510",
         "index": 1,
         "label": "25.10 실습문제 · 2번",
-        "text": "μ=0, logvar=0이면 standard normal prior KL은?"
+        "text": "μ=0, logvar=0이면 표준정규 사전분포에 대한 KL은 얼마인가?"
       },
       {
         "id": "O25-03",
@@ -3569,7 +3569,7 @@
         "sectionId": "2510",
         "index": 2,
         "label": "25.10 실습문제 · 3번",
-        "text": "reparameterization에서 ε를 분리하는 이유는?"
+        "text": "재매개화에서 ε를 분리하는 이유는 무엇인가?"
       },
       {
         "id": "O25-04",
@@ -3578,7 +3578,7 @@
         "sectionId": "2510",
         "index": 3,
         "label": "25.10 실습문제 · 4번",
-        "text": "D step에서 fake를 detach하는 이유는?"
+        "text": "D 단계에서 가짜 샘플에 detach를 적용하는 이유는 무엇인가?"
       },
       {
         "id": "O25-05",
@@ -3587,7 +3587,7 @@
         "sectionId": "2510",
         "index": 4,
         "label": "25.10 실습문제 · 5번",
-        "text": "GAN loss가 낮으면 sample 품질이 반드시 좋은가?"
+        "text": "GAN의 손실이 낮으면 생성 샘플의 품질이 반드시 좋은가?"
       },
       {
         "id": "V25-01",
@@ -3680,7 +3680,7 @@
   },
   {
     "lesson": "26",
-    "title": "Process형 완전 공략: 명세를 edge case까지 구현하기",
+    "title": "Process형 실전: 경계조건까지 명세대로 구현하기",
     "questions": [
       {
         "id": "O26-01",
@@ -3689,7 +3689,7 @@
         "sectionId": "2613",
         "index": 0,
         "label": "26.13 실습문제 · 1번",
-        "text": "Conv2d(3,8,kernel_size=5,padding=2,bias=True) → BatchNorm2d(8,affine=True) → ReLU의 learnable parameter 총수를 계산하라. running mean/variance는 parameter에서 제외한다."
+        "text": "Conv2d(3,8,kernel_size=5,padding=2,bias=True) → BatchNorm2d(8,affine=True) → ReLU의 학습 매개변수의 총수를 계산하라. 누적 평균·분산(running mean/variance)은 매개변수 수에서 제외한다."
       },
       {
         "id": "O26-02",
@@ -3707,7 +3707,7 @@
         "sectionId": "2613",
         "index": 2,
         "label": "26.13 실습문제 · 3번",
-        "text": "feature가 5개인 3-class LDA 최대 차원은?"
+        "text": "입력 특성이 5개이고 클래스가 3개인 LDA의 최대 차원은 얼마인가?"
       },
       {
         "id": "O26-04",
@@ -3743,7 +3743,7 @@
         "sectionId": "visual-26-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "위 CNN의 입력 너비만 12가 되면 Pool 뒤 shape와 flatten 크기는 무엇이며 기존 Linear에 연결할 수 있는가?"
+        "text": "위 CNN의 입력 너비만 12가 되면 풀링 뒤 배열 크기와 펼친 벡터의 크기는 무엇이며 기존 선형층에 연결할 수 있는가?"
       },
       {
         "id": "V26-03",
@@ -3752,7 +3752,7 @@
         "sectionId": "visual-26-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "공개 예시가 맞는데 원본 보존 테스트가 실패했다. 결과 배열의 수가 맞으면 제출해도 되는가?"
+        "text": "공개 예시가 맞는데 원본 보존 테스트가 실패했다. 결과 배열의 값이 맞으면 제출해도 되는가?"
       }
     ],
     "mappings": [
@@ -3818,7 +3818,7 @@
   },
   {
     "lesson": "27",
-    "title": "Problem형 공통 파이프라인과 표형 문제",
+    "title": "Problem형 공통 풀이 과정과 표 데이터",
     "questions": [
       {
         "id": "O27-01",
@@ -3827,7 +3827,7 @@
         "sectionId": "2711",
         "index": 0,
         "label": "27.11 실습문제 · 1번",
-        "text": "MLP가 tree baseline보다 낮으면 반드시 코딩 오류인가?"
+        "text": "MLP의 성능이 트리 기준 모델보다 낮으면 반드시 코딩 오류인가?"
       },
       {
         "id": "O27-02",
@@ -3836,7 +3836,7 @@
         "sectionId": "2711",
         "index": 1,
         "label": "27.11 실습문제 · 2번",
-        "text": "multiclass probability column 순서를 어디서 얻는가?"
+        "text": "다중분류 확률의 열 순서는 어디서 확인하는가?"
       },
       {
         "id": "O27-03",
@@ -3845,7 +3845,7 @@
         "sectionId": "2711",
         "index": 2,
         "label": "27.11 실습문제 · 3번",
-        "text": "validation에서 target scaler를 inverse하지 않고 RMSE를 계산하면 무엇을 측정하는가?"
+        "text": "검증 예측을 정답 스케일러로 역변환하지 않고 RMSE를 계산하면 무엇을 측정하는가?"
       },
       {
         "id": "O27-04",
@@ -3854,7 +3854,7 @@
         "sectionId": "2711",
         "index": 3,
         "label": "27.11 실습문제 · 4번",
-        "text": "전체 재학습 때 validation threshold를 test에서 다시 고쳐도 되는가?"
+        "text": "전체 재학습 때 검증에서 고른 임계값을 테스트 자료를 보고 다시 바꿔도 되는가?"
       },
       {
         "id": "O27-05",
@@ -3872,7 +3872,7 @@
         "sectionId": "visual-27-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "훈련 정답이 [2,4,6], 검증 정답이 [5,9]일 때 훈련 평균 baseline의 MSE는?"
+        "text": "훈련 정답이 [2,4,6], 검증 정답이 [5,9]일 때 훈련 정답 평균을 이용한 기준 예측의 MSE는?"
       },
       {
         "id": "V27-02",
@@ -3881,7 +3881,7 @@
         "sectionId": "visual-27-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "두 테스트 ID의 순서를 바꾸어 예측한 뒤 원래대로 복원하지 않으면 shape 검사가 잡아주는가?"
+        "text": "두 테스트 ID의 순서를 바꾸어 예측한 뒤 원래대로 복원하지 않으면 배열 크기 검사만으로 알아낼 수 있는가?"
       },
       {
         "id": "V27-03",
@@ -3890,7 +3890,7 @@
         "sectionId": "visual-27-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "epoch별 검증 MSE가 [8,5,6]인데 마지막 모델로 예측했다. 어떤 상태를 사용해야 하며 왜인가?"
+        "text": "학습 회차별 검증 MSE가 [8,5,6]인데 마지막 모델로 예측했다. 어떤 상태를 사용해야 하며 왜인가?"
       }
     ],
     "mappings": [
@@ -3955,7 +3955,7 @@
   },
   {
     "lesson": "28",
-    "title": "시계열 Problem 완주",
+    "title": "시계열 Problem 끝까지 풀기",
     "questions": [
       {
         "id": "O28-01",
@@ -3964,7 +3964,7 @@
         "sectionId": "2811",
         "index": 0,
         "label": "28.11 실습문제 · 1번",
-        "text": "test row 순서를 정렬해 학습했는데 복원하지 않으면 무엇이 틀리는가?"
+        "text": "테스트 행을 정렬해 예측한 뒤 원래 순서로 복원하지 않으면 무엇이 잘못되는가?"
       },
       {
         "id": "O28-02",
@@ -3973,7 +3973,7 @@
         "sectionId": "2811",
         "index": 1,
         "label": "28.11 실습문제 · 2번",
-        "text": "Conv1d kernel 3 두 층을 연속 적용하고 두 층 모두 stride=1, dilation=1이며 pooling은 없다. padding 경계를 제외한 두 번째 층의 한 출력 위치가 참조하는 이론적 receptive field는 몇 시점인가?"
+        "text": "Conv1d 커널 크기 3인 두 층을 연속 적용하고 두 층 모두 stride=1, dilation=1이며 풀링은 없다. 패딩 가장자리를 제외한 두 번째 층의 한 출력 위치가 참조하는 이론적 수용영역는 몇 시점인가?"
       },
       {
         "id": "O28-03",
@@ -3982,7 +3982,7 @@
         "sectionId": "2811",
         "index": 2,
         "label": "28.11 실습문제 · 3번",
-        "text": "유효한 CNN 제출은 이미 보존했고 GRU의 계산 시간이 cap을 넘는다. OOM은 아니다. 시간 예산을 줄일 조정 두 가지와, batch size 감소가 반드시 학습 시간을 줄이지는 않는 이유를 설명하라."
+        "text": "유효한 CNN 제출은 이미 보존했고 GRU의 계산 시간이 정해 둔 상한을 넘는다. 메모리 부족은 아니다. 시간 예산을 줄일 조정 두 가지와, 배치 크기 감소가 반드시 학습 시간을 줄이지는 않는 이유를 설명하라."
       },
       {
         "id": "O28-04",
@@ -3991,7 +3991,7 @@
         "sectionId": "2811",
         "index": 3,
         "label": "28.11 실습문제 · 4번",
-        "text": "validation target scaler를 train+valid에 fit하면 왜 누수인가?"
+        "text": "정답 스케일러를 훈련·검증 정답 전체로 학습하면 왜 누수인가?"
       },
       {
         "id": "O28-05",
@@ -4000,7 +4000,7 @@
         "sectionId": "2811",
         "index": 4,
         "label": "28.11 실습문제 · 5번",
-        "text": "naive baseline이 CNN보다 좋으면 어떤 점을 점검할까?"
+        "text": "단순 기준 예측이 CNN보다 성능이 좋으면 무엇을 점검해야 하는가?"
       },
       {
         "id": "V28-01",
@@ -4009,7 +4009,7 @@
         "sectionId": "visual-28-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "50Hz에서 lookback 0.4초, horizon 1초는 L·H 각각 얼마인가?"
+        "text": "50Hz에서 과거 입력 길이가 0.4초, 예측 간격이 1초이면 L·H는 각각 얼마인가?"
       },
       {
         "id": "V28-02",
@@ -4018,7 +4018,7 @@
         "sectionId": "visual-28-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "T=12,L=4,H=3일 때 window 수와 첫·마지막 target 인덱스는?"
+        "text": "T=12,L=4,H=3일 때 윈도 수와 첫·마지막 정답 인덱스는?"
       },
       {
         "id": "V28-03",
@@ -4027,7 +4027,7 @@
         "sectionId": "visual-28-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "[100,20,12] 입력을 flatten MLP와 CNN1D에 각각 어떤 shape로 연결하는가?"
+        "text": "[100,20,12] 입력을 평탄화해 MLP에 넣을 때와 CNN1D에 넣을 때 각각 어떤 배열 크기로 바꾸는가?"
       }
     ],
     "mappings": [
@@ -4094,7 +4094,7 @@
   },
   {
     "lesson": "29",
-    "title": "이미지·이상탐지 Problem 분기",
+    "title": "이미지·이상탐지 Problem 풀이",
     "questions": [
       {
         "id": "O29-01",
@@ -4103,7 +4103,7 @@
         "sectionId": "299",
         "index": 0,
         "label": "29.9 실습문제 · 1번",
-        "text": "validation에 random crop을 매 epoch 적용하면 metric에 어떤 영향이 있는가?"
+        "text": "검증자료를 매 학습 회차마다 무작위로 잘라 사용하면 평가지표에 어떤 영향이 있는가?"
       },
       {
         "id": "O29-02",
@@ -4112,7 +4112,7 @@
         "sectionId": "299",
         "index": 1,
         "label": "29.9 실습문제 · 2번",
-        "text": "RGBA image를 Conv2d(3,...)에 넣을 때 필요한 처리 예는?"
+        "text": "RGBA 이미지를 Conv2d(3,...)에 넣을 때 필요한 처리 예는?"
       },
       {
         "id": "O29-03",
@@ -4121,7 +4121,7 @@
         "sectionId": "299",
         "index": 2,
         "label": "29.9 실습문제 · 3번",
-        "text": "class 3개 CE 모델 output과 target shape/dtype은?"
+        "text": "클래스가 3개인 CE 모델에서 출력과 정답의 크기·자료형은 무엇인가?"
       },
       {
         "id": "O29-04",
@@ -4130,7 +4130,7 @@
         "sectionId": "299",
         "index": 3,
         "label": "29.9 실습문제 · 4번",
-        "text": "AE batch 전체 scalar loss를 anomaly score로 제출하면 왜 틀리는가?"
+        "text": "AE 배치 전체의 손실값 하나를 이상 점수로 제출하면 왜 틀리는가?"
       },
       {
         "id": "O29-05",
@@ -4139,7 +4139,7 @@
         "sectionId": "299",
         "index": 4,
         "label": "29.9 실습문제 · 5번",
-        "text": "labeled anomaly가 충분할 때 AE만 고집할 이유가 있는가?"
+        "text": "라벨이 있는 이상 샘플이 충분할 때 AE만 고집할 이유가 있는가?"
       },
       {
         "id": "V29-01",
@@ -4148,7 +4148,7 @@
         "sectionId": "visual-29-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "RGB 한 장 [12,20,3]을 CNN에 넣기 위한 배치 shape는?"
+        "text": "RGB 한 장 [12,20,3]을 CNN에 넣기 위한 배치 배열의 크기는?"
       },
       {
         "id": "V29-02",
@@ -4240,7 +4240,7 @@
         "sectionId": "309",
         "index": 0,
         "label": "30.9 실습문제 · 1번",
-        "text": "prediction (200,2)를 단일 target CSV 400행에 flatten해 넣으면 왜 위험한가?"
+        "text": "예측값 (200,2)를 단일 정답 열을 가진 CSV 400행에 펼쳐서 넣으면 왜 위험한가?"
       },
       {
         "id": "O30-02",
@@ -4258,7 +4258,7 @@
         "sectionId": "309",
         "index": 2,
         "label": "30.9 실습문제 · 3번",
-        "text": "CSV 문자열 빈 label이 reload 후 무엇이 될 수 있는가?"
+        "text": "CSV의 빈 문자열 라벨은 다시 읽었을 때 무엇으로 바뀔 수 있는가?"
       },
       {
         "id": "O30-04",
@@ -4276,7 +4276,7 @@
         "sectionId": "309",
         "index": 4,
         "label": "30.9 실습문제 · 5번",
-        "text": "kernel 재시작 전에 해야 할 일은?"
+        "text": "커널을 재시작하기 전에 해야 할 일은 무엇인가?"
       },
       {
         "id": "V30-01",
@@ -4285,7 +4285,7 @@
         "sectionId": "visual-30-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "[3,1] 예측과 [3] 정답을 빼면 어떤 shape가 될 수 있으며 왜 위험한가?"
+        "text": "[3,1] 예측과 [3] 정답을 빼면 어떤 배열 크기가 될 수 있으며 왜 위험한가?"
       },
       {
         "id": "V30-02",
@@ -4294,7 +4294,7 @@
         "sectionId": "visual-30-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "저장 배열 shape와 dtype이 맞으면 행 순서 검사도 끝난 것인가?"
+        "text": "저장한 배열의 크기와 자료형이 맞으면 행 순서 검사도 끝난 것인가?"
       },
       {
         "id": "V30-03",
@@ -4375,7 +4375,7 @@
         "kind": "heading",
         "sectionId": "1-broadcasting",
         "label": "1번. Broadcasting",
-        "text": "1번. Broadcasting x의 shape가 (16, 20, 8)일 때 오류 없이 feature별 bias를 더하기 가장 적절한 bias shape는? ① (16,) ② (20,) ③ (8,) ④ (16,20)"
+        "text": "1번. Broadcasting x의 크기가 (16, 20, 8)일 때 오류 없이 특성별 편향(bias)을 더하기에 가장 적절한 편향 배열의 크기는? ① (16,) ② (20,) ③ (8,) ④ (16,20)"
       },
       {
         "id": "O31-02",
@@ -4383,7 +4383,7 @@
         "kind": "heading",
         "sectionId": "2_1",
         "label": "2번. 전처리 누수",
-        "text": "2번. 전처리 누수 다음 중 validation 누수를 일으키지 않는 것은? ① split 전 전체 데이터로 StandardScaler fit ② split 전 전체 데이터로 PCA fit ③ split 후 train fold로 median을 구해 valid에 적용 ④ split 전 전체 데이터에 SMOTE 후 나누기"
+        "text": "2번. 전처리 누수 다음 중 검증자료의 정보가 학습에 유출되지 않는 것은? ① 분할 전에 전체 데이터로 StandardScaler를 학습한다.② 분할 전에 전체 데이터로 PCA를 학습한다.③ 분할 후 훈련 폴드에서 중앙값을 구해 검증자료에 적용한다.④ 분할 전에 전체 데이터에 SMOTE를 적용한 뒤 나눈다."
       },
       {
         "id": "O31-03",
@@ -4391,7 +4391,7 @@
         "kind": "heading",
         "sectionId": "3",
         "label": "3번. 정보이론",
-        "text": "3번. 정보이론 이진 node의 class 비율이 0.5/0.5에서 1.0/0.0으로 바뀔 때 entropy는? ① 0에서 최대로 증가 ② 최대에서 0으로 감소 ③ 변하지 않음 ④ 음수가 됨"
+        "text": "3번. 정보이론 이진분류 노드의 클래스 비율이 0.5/0.5에서 1.0/0.0으로 바뀌면 엔트로피(entropy)는 어떻게 변하는가? ① 0에서 최대로 증가 ② 최대에서 0으로 감소 ③ 변하지 않음 ④ 음수가 됨"
       },
       {
         "id": "O31-04",
@@ -4399,7 +4399,7 @@
         "kind": "heading",
         "sectionId": "4-validation",
         "label": "4번. Validation",
-        "text": "4번. Validation 800대 차량에서 차량당 여러 sensor 행이 있고 test에는 처음 보는 차량만 등장한다. 가장 적절한 validation은? ① 행 random split ② stratified row split ③ vehicle group split ④ 전체 train으로 학습 후 train score"
+        "text": "4번. Validation 800대 차량에서 차량당 여러 센서 행을 수집했으며, 테스트에는 처음 보는 차량만 등장한다. 가장 적절한 검증 방법은? ① 행 단위 무작위 분할 ② 행 단위 계층화 분할 ③ 차량 단위 그룹 분할 ④ 전체 훈련자료로 학습한 뒤 같은 자료에서 점수 계산"
       },
       {
         "id": "O31-05",
@@ -4407,15 +4407,15 @@
         "kind": "heading",
         "sectionId": "5-metric",
         "label": "5번. 불균형 metric",
-        "text": "5번. 불균형 metric 고장 class가 1%인 이진분류에서 소수 class 성능을 숨기지 않기 위한 첫 metric으로 가장 적절한 것은? ① accuracy ② Macro-F1 ③ MSE ④ R²"
+        "text": "5번. 불균형 metric 고장 클래스가 1%인 이진분류에서 소수 클래스의 성능을 드러내기 위한 첫 지표로 가장 적절한 것은? ① accuracy ② Macro-F1 ③ MSE ④ R²"
       },
       {
         "id": "O31-06",
         "source": "original",
         "kind": "heading",
         "sectionId": "6-loss",
-        "label": "6번. Loss 계약",
-        "text": "6번. Loss 계약 4-class 단일정답 분류에서 CrossEntropyLoss의 올바른 입력은? ① sigmoid 확률 (B,1), float target (B,1) ② softmax 확률 (B,4), one-hot target (B,4)만 가능 ③ raw logits (B,4), long class index (B,) ④ raw logits (B,), long target (B,4)"
+        "label": "6번. 손실함수의 입력 조건",
+        "text": "6번. 손실함수의 입력 조건 클래스가 4개이고 정답이 하나인 분류에서 CrossEntropyLoss의 올바른 입력은? ① 시그모이드 확률 (B,1), 실수형 정답 (B,1)② 소프트맥스 확률 (B,4), 원-핫 정답 (B,4)만 가능③ 변환하지 않은 로짓 (B,4), long 정수형 클래스 인덱스 (B,)④ 변환하지 않은 로짓 (B,), long 정수형 정답 (B,4)"
       },
       {
         "id": "O31-07",
@@ -4431,7 +4431,7 @@
         "kind": "heading",
         "sectionId": "8-optimizer",
         "label": "8번. Optimizer",
-        "text": "8번. Optimizer Momentum의 핵심 설명으로 가장 적절한 것은? ① gradient를 항상 0으로 만든다 ② 과거 update 방향을 누적해 일관된 방향은 가속하고 진동을 줄인다 ③ 모든 parameter를 같은 상수로 바꾼다 ④ validation loss를 직접 미분한다"
+        "text": "8번. Optimizer 모멘텀(Momentum)의 핵심 설명으로 가장 적절한 것은? ① 기울기를 항상 0으로 만든다.② 과거 갱신 방향을 누적해 일관된 방향으로는 가속하고 진동은 줄인다.③ 모든 매개변수를 같은 상수로 바꾼다.④ 검증 손실을 직접 미분한다."
       },
       {
         "id": "O31-09",
@@ -4439,7 +4439,7 @@
         "kind": "heading",
         "sectionId": "9-batch-normalization",
         "label": "9번. Batch Normalization",
-        "text": "9번. Batch Normalization track_running_stats=True인 BatchNorm을 model.eval()로 평가할 때 옳은 것은? ① 현재 sample 하나의 통계만 사용 ② 학습 중 저장한 running mean/variance 사용 ③ 모든 activation을 0으로 만듦 ④ dropout 확률을 자동 선택"
+        "text": "9번. Batch Normalization track_running_stats=True인 BatchNorm을 model.eval()로 평가할 때 옳은 것은? ① 현재 샘플 하나의 통계만 사용한다.② 학습 중 저장한 누적 평균·분산을 사용한다.③ 모든 활성값을 0으로 만든다.④ 드롭아웃 확률을 자동으로 선택한다."
       },
       {
         "id": "O31-10",
@@ -4447,7 +4447,7 @@
         "kind": "heading",
         "sectionId": "10-cnn",
         "label": "10번. CNN 출력 크기",
-        "text": "10번. CNN 출력 크기 한 공간축 input 64, kernel 5, padding 2, stride 2, dilation 1인 convolution의 output 크기는? ① 30 ② 31 ③ 32 ④ 64"
+        "text": "10번. CNN 출력 크기 한 공간축의 입력 크기 64, 커널 크기 5, 패딩 2, 보폭(stride) 2, 팽창률(dilation) 1인 합성곱의 출력 크기는? ① 30 ② 31 ③ 32 ④ 64"
       },
       {
         "id": "O31-11",
@@ -4455,7 +4455,7 @@
         "kind": "heading",
         "sectionId": "11-cnn-parameter",
         "label": "11번. CNN parameter",
-        "text": "11번. CNN parameter Conv2d(3, 10, kernel_size=3, bias=True)의 parameter 수는? ① 270 ② 280 ③ 300 ④ input H/W에 따라 다름"
+        "text": "11번. CNN parameter Conv2d(3, 10, kernel_size=3, bias=True)의 매개변수 수는? ① 270 ② 280 ③ 300 ④ 입력 높이·너비에 따라 다름"
       },
       {
         "id": "O31-12",
@@ -4463,7 +4463,7 @@
         "kind": "heading",
         "sectionId": "12-lstm",
         "label": "12번. LSTM",
-        "text": "12번. LSTM LSTM forget gate의 주 역할은? ① class 확률 정규화 ② 이전 cell state 유지 정도 조절 ③ image downsampling ④ learning rate 감소"
+        "text": "12번. LSTM LSTM의 망각 게이트(forget gate)가 하는 주된 역할은? ① 클래스 확률 정규화 ② 이전 셀 상태의 유지 정도 조절 ③ 이미지 다운샘플링 ④ 학습률 감소"
       },
       {
         "id": "O31-13",
@@ -4471,7 +4471,7 @@
         "kind": "heading",
         "sectionId": "13-rnn-shape",
         "label": "13번. RNN shape",
-        "text": "13번. RNN shape GRU(input_size=6, hidden_size=32, batch_first=True)에 (B=8,T=15,F=6)을 넣은 단방향 1층 sequence output shape는? ① (8,32) ② (15,8,32) ③ (8,15,32) ④ (8,15,6)"
+        "text": "13번. RNN shape GRU(input_size=6, hidden_size=32, batch_first=True)에 (B=8,T=15,F=6)을 넣은 단방향 1층 시퀀스 출력의 크기는? ① (8,32) ② (15,8,32) ③ (8,15,32) ④ (8,15,6)"
       },
       {
         "id": "O31-14",
@@ -4479,7 +4479,7 @@
         "kind": "heading",
         "sectionId": "14-attention",
         "label": "14번. Attention",
-        "text": "14번. Attention Scaled dot-product attention에서 sqrt(d_k)로 나누는 주된 이유는? ① sequence 길이를 줄이기 위해 ② score 규모가 dimension과 함께 커져 softmax가 포화하는 것을 완화 ③ value를 one-hot으로 만들기 위해 ④ positional encoding을 제거하기 위해"
+        "text": "14번. Attention 스케일 조정 내적 어텐션(scaled dot-product attention)에서 sqrt(d_k)로 나누는 주된 이유는? ① 시퀀스 길이를 줄이기 위해② 차원 수와 함께 점수 크기가 커져 소프트맥스가 포화하는 현상을 완화하기 위해③ 값(value)을 원-핫 벡터로 만들기 위해④ 위치 인코딩을 제거하기 위해"
       },
       {
         "id": "O31-15",
@@ -4487,7 +4487,7 @@
         "kind": "heading",
         "sectionId": "15-transformer",
         "label": "15번. Transformer",
-        "text": "15번. Transformer 기본 self-attention에 positional information이 필요한 이유는? ① attention은 channel을 처리할 수 없어서 ② attention만으로는 입력 순서를 명시적으로 알지 못해서 ③ softmax 출력 합이 1이 아니어서 ④ gradient를 계산할 수 없어서"
+        "text": "15번. Transformer 기본 자기어텐션(self-attention)에 위치 정보가 필요한 이유는? ① 어텐션은 채널을 처리할 수 없어서② 어텐션만으로는 입력 순서를 명시적으로 알 수 없어서③ 소프트맥스 출력의 합이 1이 아니어서④ 기울기를 계산할 수 없어서"
       },
       {
         "id": "O31-16",
@@ -4495,7 +4495,7 @@
         "kind": "heading",
         "sectionId": "16-resnet",
         "label": "16번. ResNet",
-        "text": "16번. ResNet Residual addition 전에 main branch와 shortcut의 shape가 다를 때 일반적인 해결은? ① target을 one-hot 변환 ② 1×1 projection과 필요한 stride 사용 ③ sigmoid 추가 ④ loss를 MAE로 변경"
+        "text": "16번. ResNet 잔차를 더하기 전에 주 분기(main branch)와 지름길 연결(shortcut)의 배열 크기가 다를 때 일반적인 해결 방법은? ① 정답을 원-핫 변환 ② 1×1 투영(projection)과 필요한 보폭 사용 ③ 시그모이드 추가 ④ 손실을 MAE로 변경"
       },
       {
         "id": "O31-17",
@@ -4503,7 +4503,7 @@
         "kind": "heading",
         "sectionId": "17_1",
         "label": "17번. 전이학습",
-        "text": "17번. 전이학습 작은 새 이미지 데이터에서 pretrained model을 쓰는 일반적인 첫 단계는? ① 모든 weight 무작위 초기화 ② classifier head를 교체하고 backbone을 freeze해 head부터 학습 ③ validation에도 random crop을 강제 ④ target label을 input에 추가"
+        "text": "17번. 전이학습 새 이미지 데이터가 적을 때 사전학습 모델을 사용하는 일반적인 첫 단계는? ① 모든 가중치를 무작위로 초기화한다.② 분류 출력층을 교체하고 특징 추출부(backbone)의 가중치를 고정한 뒤 출력층부터 학습한다.③ 검증자료도 반드시 무작위로 잘라 사용한다.④ 정답 라벨을 입력에 추가한다."
       },
       {
         "id": "O31-18",
@@ -4511,7 +4511,7 @@
         "kind": "heading",
         "sectionId": "18-autoencoder",
         "label": "18번. Autoencoder 이상탐지",
-        "text": "18번. Autoencoder 이상탐지 정상 데이터로 학습한 AE의 일반적인 anomaly 판정은? ① reconstruction error가 작을수록 anomaly ② reconstruction error가 validation threshold보다 클수록 anomaly ③ latent dimension이 크면 모두 anomaly ④ train과 test error 평균이 같으면 anomaly"
+        "text": "18번. Autoencoder 이상탐지 정상 데이터로 학습한 AE의 일반적인 이상 판정 기준은? ① 복원 오차가 작을수록 이상에 가깝다.② 복원 오차가 검증자료에서 정한 임계값보다 크면 이상으로 판정한다.③ 잠재 차원이 크면 모두 이상으로 판정한다.④ 훈련과 테스트 오차의 평균이 같으면 이상으로 판정한다."
       },
       {
         "id": "O31-19",
@@ -4519,7 +4519,7 @@
         "kind": "heading",
         "sectionId": "19-vae",
         "label": "19번. VAE",
-        "text": "19번. VAE VAE의 KL term 역할로 가장 적절한 것은? ① output을 hard label로 변환 ② approximate posterior를 prior와 가깝게 규제 ③ image 크기를 반으로 줄임 ④ discriminator를 학습"
+        "text": "19번. VAE VAE의 KL 항이 하는 역할로 가장 적절한 것은? ① 출력을 확정 라벨로 변환한다.② 근사 사후분포를 사전분포에 가깝게 규제한다.③ 이미지 크기를 반으로 줄인다.④ 판별기를 학습한다."
       },
       {
         "id": "O31-20",
@@ -4527,7 +4527,7 @@
         "kind": "heading",
         "sectionId": "20-gan",
         "label": "20번. GAN",
-        "text": "20번. GAN BCEWithLogitsLoss를 사용하는 Discriminator의 마지막 layer로 가장 적절한 것은? ① Linear로 logit 1개, sigmoid 없음 ② Linear 뒤 softmax class 10개 ③ ReLU만 사용, 출력 없음 ④ sigmoid를 두 번 적용"
+        "text": "20번. GAN BCEWithLogitsLoss를 사용하는 판별기의 마지막 층로 가장 적절한 것은? ① Linear로 로짓 1개를 출력하며 시그모이드는 넣지 않는다.② Linear 뒤에 클래스 10개의 소프트맥스를 둔다.③ ReLU만 사용, 출력 없음④ 시그모이드를 두 번 적용한다."
       },
       {
         "id": "O31-21",
@@ -4535,7 +4535,7 @@
         "kind": "heading",
         "sectionId": "2-1",
         "label": "2회-1번",
-        "text": "2회-1번 명시적 target 없이 데이터 구조를 찾는 학습은? ① 지도 ② 비지도 ③ 강화 ④ 회귀만"
+        "text": "2회-1번 명시적인 정답 없이 데이터의 구조를 찾는 학습은? ① 지도학습 ② 비지도학습 ③ 강화학습 ④ 회귀만 해당"
       },
       {
         "id": "O31-22",
@@ -4543,7 +4543,7 @@
         "kind": "heading",
         "sectionId": "2-2",
         "label": "2회-2번",
-        "text": "2회-2번 validation fold의 중앙값을 imputation에 사용하지 않게 하는 가장 안전한 구조는? ① 전체 fit 후 split ② fold 내부 Pipeline ③ test 평균 사용 ④ 결측 행 전부 무조건 삭제"
+        "text": "2회-2번 검증 폴드의 중앙값이 결측 대체에 쓰이지 않도록 하는 가장 안전한 구조는? ① 전체 학습 후 분할 ② 각 폴드 안에서 학습하는 Pipeline ③ 테스트 평균 사용 ④ 결측 행을 모두 무조건 삭제"
       },
       {
         "id": "O31-23",
@@ -4551,7 +4551,7 @@
         "kind": "heading",
         "sectionId": "2-3",
         "label": "2회-3번",
-        "text": "2회-3번 일반적인 결정트리에 feature standardization이 필수가 아닌 이유는? ① gradient가 없어서가 아니라 threshold 순서 분할이 단조 scale에 거의 불변 ② 결측이 자동 제거 ③ 모든 tree가 선형 ④ target을 사용하지 않음"
+        "text": "2회-3번 일반적인 결정트리에 특성 표준화가 필수가 아닌 이유는? ① 기울기를 쓰지 않기 때문이 아니라, 값의 순서를 기준으로 나누므로 단조 스케일 변환의 영향을 거의 받지 않기 때문 ② 결측이 자동으로 제거되기 때문 ③ 모든 트리가 선형이기 때문 ④ 정답을 사용하지 않기 때문"
       },
       {
         "id": "O31-24",
@@ -4559,7 +4559,7 @@
         "kind": "heading",
         "sectionId": "2-4",
         "label": "2회-4번",
-        "text": "2회-4번 Ridge의 L2 규제 강도 λ를 매우 크게 하면 일반적으로? 여기서 bias는 절편 parameter가 아니라 추정 편향을 뜻한다. ① weight 크기 감소·bias 증가 ② weight 폭발 ③ L1 sparsity만 발생 ④ test label 사용"
+        "text": "2회-4번 Ridge의 L2 규제 강도 λ를 매우 크게 하면 일반적으로 어떻게 되는가? 여기서 bias는 절편 매개변수가 아니라 추정 편향을 뜻한다. ① 가중치 크기 감소·편향 증가 ② 가중치 폭발 ③ L1 희소성만 발생 ④ 테스트 라벨 사용"
       },
       {
         "id": "O31-25",
@@ -4567,7 +4567,7 @@
         "kind": "heading",
         "sectionId": "2-5",
         "label": "2회-5번",
-        "text": "2회-5번 이진 logistic logit이 ln(3)이면 odds와 확률은? ① odds 3, p=0.75 ② odds 0.75, p=3 ③ odds 1, p=.5 ④ odds 3, p=.25"
+        "text": "2회-5번 이진 로지스틱 회귀의 로짓이 ln(3)이면 오즈(odds)와 확률은? ① odds 3, p=0.75 ② odds 0.75, p=3 ③ odds 1, p=.5 ④ odds 3, p=.25"
       },
       {
         "id": "O31-26",
@@ -4575,7 +4575,7 @@
         "kind": "heading",
         "sectionId": "2-6",
         "label": "2회-6번",
-        "text": "2회-6번 KNN의 k를 1에서 매우 크게 늘릴 때 일반적 변화는? ① variance↑ bias↓ ② variance↓ bias↑ ③ 둘 다 반드시 0 ④ scale 영향 소멸"
+        "text": "2회-6번 KNN의 k를 1에서 매우 크게 늘릴 때 일반적인 변화는? ① 분산 증가·편향 감소 ② 분산 감소·편향 증가 ③ 둘 다 반드시 0 ④ 스케일의 영향 소멸"
       },
       {
         "id": "O31-27",
@@ -4583,7 +4583,7 @@
         "kind": "heading",
         "sectionId": "2-7",
         "label": "2회-7번",
-        "text": "2회-7번 RBF SVM에서 C와 gamma가 모두 지나치게 크면? ① 매우 단순한 경계만 가능 ② 복잡하고 국소적인 경계로 overfit 위험 ③ 선형회귀가 됨 ④ PCA가 자동 실행"
+        "text": "2회-7번 RBF SVM에서 C와 gamma가 모두 지나치게 크면? ① 매우 단순한 경계만 가능 ② 복잡하고 국소적인 경계로 과적합 위험 ③ 선형회귀가 됨 ④ PCA가 자동 실행"
       },
       {
         "id": "O31-28",
@@ -4591,7 +4591,7 @@
         "kind": "heading",
         "sectionId": "2-8",
         "label": "2회-8번",
-        "text": "2회-8번 class 비율 0.8/0.2인 node의 Gini는? ① .16 ② .32 ③ .50 ④ .64"
+        "text": "2회-8번 클래스 비율이 0.8/0.2인 노드의 지니 불순도(Gini)는? ① .16 ② .32 ③ .50 ④ .64"
       },
       {
         "id": "O31-29",
@@ -4599,7 +4599,7 @@
         "kind": "heading",
         "sectionId": "2-9",
         "label": "2회-9번",
-        "text": "2회-9번 Random Forest의 핵심은? ① boosting만 사용 ② bootstrap과 feature 무작위성으로 덜 상관된 tree를 평균 ③ 하나의 매우 깊은 tree ④ 거리 기반 voting"
+        "text": "2회-9번 랜덤 포리스트(Random Forest)의 핵심은? ① 부스팅만 사용 ② 부트스트랩 표본과 특성의 무작위 선택으로 상관이 낮은 트리들을 만들어 평균 ③ 매우 깊은 트리 하나 ④ 거리 기반 투표"
       },
       {
         "id": "O31-30",
@@ -4607,7 +4607,7 @@
         "kind": "heading",
         "sectionId": "2-10",
         "label": "2회-10번",
-        "text": "2회-10번 Gradient boosting 설명으로 옳은 것은? ① 모든 tree 독립 병렬만 ② 앞 모델 residual/negative gradient를 순차 보완 ③ label 없이 centroid 갱신 ④ margin만 최대화"
+        "text": "2회-10번 그래디언트 부스팅(gradient boosting)의 설명으로 옳은 것은? ① 모든 트리를 독립적으로 병렬 학습만 함 ② 앞 모델의 잔차 또는 손실의 음의 기울기를 순차적으로 보완 ③ 라벨 없이 군집 중심 갱신 ④ 마진만 최대화"
       },
       {
         "id": "O31-31",
@@ -4615,7 +4615,7 @@
         "kind": "heading",
         "sectionId": "2-11",
         "label": "2회-11번",
-        "text": "2회-11번 L1 coefficient가 0이 된 feature를 제거하는 방식은? ① wrapper만 ② embedded selection ③ PCA extraction ④ clustering"
+        "text": "2회-11번 L1 규제로 계수가 0이 된 특성을 제거하는 방식은? ① 래퍼 방식만 해당 ② 내장형 특성 선택(embedded selection) ③ PCA 특성 추출 ④ 군집화"
       },
       {
         "id": "O31-32",
@@ -4623,7 +4623,7 @@
         "kind": "heading",
         "sectionId": "2-12",
         "label": "2회-12번",
-        "text": "2회-12번 PCA에 대한 옳은 설명은? ① target class 분리만 최대화 ② X 분산이 큰 직교 방향을 찾는 비지도 extraction ③ 원 feature 일부만 선택 ④ scale과 무관"
+        "text": "2회-12번 PCA에 대한 옳은 설명은? ① 정답 클래스 간 분리만 최대화 ② X의 분산이 큰 직교 방향을 찾는 비지도 특성 추출 ③ 원래 특성 일부만 선택 ④ 스케일과 무관"
       },
       {
         "id": "O31-33",
@@ -4631,7 +4631,7 @@
         "kind": "heading",
         "sectionId": "2-13",
         "label": "2회-13번",
-        "text": "2회-13번 입력 feature가 8개인 5-class LDA가 만들 수 있는 discriminant 축의 최대 수는? ① 2 ② 4 ③ 5 ④ feature 수와 무관하게 10"
+        "text": "2회-13번 입력 특성이 8개이고 클래스가 5개인 LDA의 판별축은 최대 몇 개인가? ① 2 ② 4 ③ 5 ④ 특성 수와 무관하게 10"
       },
       {
         "id": "O31-34",
@@ -4639,7 +4639,7 @@
         "kind": "heading",
         "sectionId": "2-14",
         "label": "2회-14번",
-        "text": "2회-14번 K-means의 centroid 갱신은? ① cluster 내 점의 평균 ② 가장 먼 점 ③ target 평균 ④ support vector"
+        "text": "2회-14번 K-means는 군집 중심을 어떤 값으로 갱신하는가? ① 군집 안 점들의 평균 ② 가장 먼 점 ③ 정답의 평균 ④ 서포트 벡터"
       },
       {
         "id": "O31-35",
@@ -4647,7 +4647,7 @@
         "kind": "heading",
         "sectionId": "2-15",
         "label": "2회-15번",
-        "text": "2회-15번 DBSCAN의 장점은? ① cluster 수 k가 반드시 필요 ② 임의 형태 cluster와 noise 식별 가능 ③ 고차원에서 항상 완벽 ④ scale이 전혀 무관"
+        "text": "2회-15번 DBSCAN의 장점은? ① 군집 수 k가 반드시 필요함 ② 임의 모양의 군집과 잡음을 식별할 수 있음 ③ 고차원에서 항상 완벽함 ④ 스케일과 전혀 무관함"
       },
       {
         "id": "O31-36",
@@ -4655,7 +4655,7 @@
         "kind": "heading",
         "sectionId": "2-16",
         "label": "2회-16번",
-        "text": "2회-16번 불균형 single-label classification에서 fold별 class 비율을 유지하려면? ① KFold ② StratifiedKFold ③ GroupKFold만 ④ PCA"
+        "text": "2회-16번 불균형 단일라벨 분류에서 폴드별 클래스 비율을 유지하려면? ① KFold ② StratifiedKFold ③ GroupKFold만 ④ PCA"
       },
       {
         "id": "O31-37",
@@ -4663,7 +4663,7 @@
         "kind": "heading",
         "sectionId": "2-17",
         "label": "2회-17번",
-        "text": "2회-17번 Target encoding의 가장 큰 위험은? ① feature 수 감소 ② 자기 행/validation target 통계가 들어가는 누수 ③ 숫자가 됨 ④ category가 존재함"
+        "text": "2회-17번 타깃 인코딩(target encoding)의 가장 큰 위험은? ① 특성 수 감소 ② 자기 행 또는 검증 정답의 통계가 포함되는 누수 ③ 숫자로 변환됨 ④ 범주가 존재함"
       },
       {
         "id": "O31-38",
@@ -4671,7 +4671,7 @@
         "kind": "heading",
         "sectionId": "2-18",
         "label": "2회-18번",
-        "text": "2회-18번 큰 오차에 제곱 penalty를 주면서 target 원 단위로 해석되는 metric은? ① RMSE ② MAE ③ accuracy ④ entropy"
+        "text": "2회-18번 큰 오차에 제곱 벌점을 주면서 정답의 원래 단위로 해석할 수 있는 지표는? ① RMSE ② MAE ③ 정확도 ④ 엔트로피"
       },
       {
         "id": "O31-39",
@@ -4679,7 +4679,7 @@
         "kind": "heading",
         "sectionId": "2-19",
         "label": "2회-19번",
-        "text": "2회-19번 탐색 차원이 많고 평가 횟수가 제한될 때 Grid보다 자주 효율적인 것은? ① RandomizedSearch ② test 수동 선택 ③ 모든 조합 무한 반복 ④ validation 삭제"
+        "text": "2회-19번 탐색 차원이 많고 평가 횟수가 제한될 때 그리드 탐색보다 효율적인 경우가 많은 방법은? ① RandomizedSearch ② 테스트 점수로 수동 선택 ③ 모든 조합 무한 반복 ④ 검증자료 삭제"
       },
       {
         "id": "O31-40",
@@ -4687,7 +4687,7 @@
         "kind": "heading",
         "sectionId": "2-20",
         "label": "2회-20번",
-        "text": "2회-20번 SMOTE의 올바른 적용 위치는? ① split 전 전체 데이터 ② 각 train fold 내부 ③ validation+test ④ 제출 후"
+        "text": "2회-20번 SMOTE의 올바른 적용 위치는? ① 분할 전 전체 데이터 ② 각 훈련 폴드 내부 ③ 검증·테스트 자료 ④ 제출 후"
       },
       {
         "id": "O31-41",
@@ -4711,7 +4711,7 @@
         "kind": "heading",
         "sectionId": "3-3",
         "label": "3회-3번",
-        "text": "3회-3번 Linear(12,5)의 parameter와 batch 7 output은? ① 60개, (7,5) ② 65개, (7,5) ③ 65개, (5,7) ④ 17개, (7,12)"
+        "text": "3회-3번 Linear(12,5)의 매개변수 수와 배치 크기 7일 때의 출력 크기는? ① 60개, (7,5) ② 65개, (7,5) ③ 65개, (5,7) ④ 17개, (7,12)"
       },
       {
         "id": "O31-44",
@@ -4735,7 +4735,7 @@
         "kind": "heading",
         "sectionId": "3-6",
         "label": "3회-6번",
-        "text": "3회-6번 TP=40, FP=10, FN=40일 때 precision/recall/F1은? ① .8/.5 약 .615 ② .5/.8 약 .615 ③ .8/.8 .8 ④ .4/.5 .444"
+        "text": "3회-6번 TP=40, FP=10, FN=40일 때 정밀도·재현율·F1은? ① .8/.5 약 .615 ② .5/.8 약 .615 ③ .8/.8 .8 ④ .4/.5 .444"
       },
       {
         "id": "O31-47",
@@ -4743,7 +4743,7 @@
         "kind": "heading",
         "sectionId": "3-7",
         "label": "3회-7번",
-        "text": "3회-7번 이 모의의 RMSLE는 target과 prediction이 모두 0 이상이어야 한다고 정의한다. 이 입력 규약에 맞지 않는 값은? ① 0 ② 양수 ③ 음수 ④ 1"
+        "text": "3회-7번 이 모의에서는 RMSLE의 정답과 예측이 모두 0 이상이어야 한다고 정의한다. 이 입력 규칙에 맞지 않는 값은? ① 0 ② 양수 ③ 음수 ④ 1"
       },
       {
         "id": "O31-48",
@@ -4751,7 +4751,7 @@
         "kind": "heading",
         "sectionId": "3-8",
         "label": "3회-8번",
-        "text": "3회-8번 이미지 분류의 data augmentation 적용으로 가장 올바른 것은? ① train/valid/test 모두 random crop·flip ② train에만 label-preserving random 변환, valid/test에는 deterministic resize·normalize ③ valid에만 강한 random 변환 ④ test label을 보고 변환 선택"
+        "text": "3회-8번 이미지 분류의 데이터 증강 적용으로 가장 올바른 것은? ① 훈련·검증·테스트 모두 무작위 자르기·뒤집기 적용 ② 훈련에만 라벨을 보존하는 무작위 변환을 적용하고 검증·테스트에는 고정된 크기 조절·정규화 적용 ③ 검증에만 강한 무작위 변환 적용 ④ 테스트 라벨을 보고 변환 선택"
       },
       {
         "id": "O31-49",
@@ -4759,7 +4759,7 @@
         "kind": "heading",
         "sectionId": "3-9",
         "label": "3회-9번",
-        "text": "3회-9번 MaxPool2d(2,2)가 (B,16,32,40)에 적용된 output은? ① (B,16,16,20) ② (B,8,16,20) ③ (B,16,32,40) ④ (B,32,16,20)"
+        "text": "3회-9번 MaxPool2d(2,2)가 (B,16,32,40)에 적용된 출력 크기는? ① (B,16,16,20) ② (B,8,16,20) ③ (B,16,32,40) ④ (B,32,16,20)"
       },
       {
         "id": "O31-50",
@@ -4767,7 +4767,7 @@
         "kind": "heading",
         "sectionId": "3-10",
         "label": "3회-10번",
-        "text": "3회-10번 BatchNorm1d(20)의 learnable γ,β parameter 수는? ① 20 ② 40 ③ 60 ④ batch size에 따라 변함"
+        "text": "3회-10번 BatchNorm1d(20)의 학습 매개변수 γ,β의 수는? ① 20 ② 40 ③ 60 ④ 배치 크기에 따라 변함"
       },
       {
         "id": "O31-51",
@@ -4775,7 +4775,7 @@
         "kind": "heading",
         "sectionId": "3-11",
         "label": "3회-11번",
-        "text": "3회-11번 LSTM cell update로 옳은 것은? ① c_t=f_t⊙c_{t-1}+i_t⊙g_t ② c_t=softmax(x) ③ c_t=QKᵀ ④ c_t=maxpool(x)"
+        "text": "3회-11번 LSTM 셀 상태 갱신식로 옳은 것은? ① c_t=f_t⊙c_{t-1}+i_t⊙g_t ② c_t=softmax(x) ③ c_t=QKᵀ ④ c_t=maxpool(x)"
       },
       {
         "id": "O31-52",
@@ -4783,7 +4783,7 @@
         "kind": "heading",
         "sectionId": "3-12",
         "label": "3회-12번",
-        "text": "3회-12번 길이 T=500인 유효 시계열에서 input은 X[e-19:e+1], 단일 target은 y[e+30]이다. group 경계·결측이 없고 stride=1일 때 만들 수 있는 window 수는? ① 450 ② 451 ③ 470 ④ 500"
+        "text": "3회-12번 길이 T=500인 유효 시계열에서 입력은 X[e-19:e+1], 단일 정답은 y[e+30]이다. 그룹을 넘나들지 않으며 결측이 없고 stride=1일 때 만들 수 있는 윈도 수는? ① 450 ② 451 ③ 470 ④ 500"
       },
       {
         "id": "O31-53",
@@ -4791,7 +4791,7 @@
         "kind": "heading",
         "sectionId": "3-13",
         "label": "3회-13번",
-        "text": "3회-13번 target index가 cut 이상이면 validation에 배정하는 규칙에서 cut=400이고 window target index가 400, input 마지막 index가 370일 때 time validation 배정은? ① train ② valid ③ 폐기만 가능 ④ random"
+        "text": "3회-13번 정답 인덱스가 cut 이상이면 검증자료에 배정하는 규칙이 있다. cut=400이고 윈도의 정답 인덱스가 400, 마지막 입력 인덱스가 370일 때 이 윈도는 어디에 배정되는가? ① 훈련 ② 검증 ③ 폐기만 가능 ④ 무작위"
       },
       {
         "id": "O31-54",
@@ -4799,7 +4799,7 @@
         "kind": "heading",
         "sectionId": "3-14",
         "label": "3회-14번",
-        "text": "3회-14번 한 query score가 [0, ln3]이면 softmax weight는? ① [.5,.5] ② [.25,.75] ③ [.75,.25] ④ [0,1]"
+        "text": "3회-14번 한 질의(query)의 점수가 [0, ln3]이면 소프트맥스 가중치는? ① [.5,.5] ② [.25,.75] ③ [.75,.25] ④ [0,1]"
       },
       {
         "id": "O31-55",
@@ -4807,7 +4807,7 @@
         "kind": "heading",
         "sectionId": "3-15",
         "label": "3회-15번",
-        "text": "3회-15번 VAE에서 mu=0, logvar=0인 1차원 posterior와 N(0,1) prior의 KL은? ① 0 ② .5 ③ 1 ④ 무한대"
+        "text": "3회-15번 VAE에서 mu=0, logvar=0인 1차원 사후분포와 N(0,1) 사전분포의 KL은? ① 0 ② .5 ③ 1 ④ 무한대"
       },
       {
         "id": "O31-56",
@@ -4815,7 +4815,7 @@
         "kind": "heading",
         "sectionId": "3-16",
         "label": "3회-16번",
-        "text": "3회-16번 AE validation 정상 error의 99 percentile을 threshold로 썼다. score가 threshold보다 큰 sample의 일반적 label은? ① 정상 ② anomaly ③ class 99 ④ 알 수 없어 항상 삭제"
+        "text": "3회-16번 AE의 정상 검증 오차에서 99번째 백분위수를 임계값으로 썼다. 점수가 임계값보다 큰 샘플의 일반적인 라벨은? ① 정상 ② 이상 ③ 클래스 99 ④ 알 수 없어 항상 삭제"
       },
       {
         "id": "O31-57",
@@ -4823,7 +4823,7 @@
         "kind": "heading",
         "sectionId": "3-17",
         "label": "3회-17번",
-        "text": "3회-17번 GAN discriminator step에서 G(z).detach()의 목적은? ① G gradient graph 차단 ② D gradient 차단 ③ sigmoid 두 번 ④ noise 제거"
+        "text": "3회-17번 GAN의 판별기 학습 단계에서 G(z).detach()의 목적은? ① G로 이어지는 기울기 계산 그래프 차단 ② D의 기울기 차단 ③ 시그모이드 두 번 적용 ④ 잡음 제거"
       },
       {
         "id": "O31-58",
@@ -4831,7 +4831,7 @@
         "kind": "heading",
         "sectionId": "3-18",
         "label": "3회-18번",
-        "text": "3회-18번 Residual main output (B,64,16,16), input (B,32,32,32)일 때 shortcut은? ① identity ② 1×1, stride2, 32→64 ③ maxpool만 ④ softmax"
+        "text": "3회-18번 잔차 블록의 주 분기 출력이 (B,64,16,16), 입력이 (B,32,32,32)일 때 지름길 연결은? ① identity ② 1×1, stride2, 32→64 ③ maxpool만 ④ softmax"
       },
       {
         "id": "O31-59",
@@ -4839,7 +4839,7 @@
         "kind": "heading",
         "sectionId": "3-19",
         "label": "3회-19번",
-        "text": "3회-19번 multilabel 5개 target의 올바른 계약은? ① logits (B,5), float target (B,5), BCEWithLogits ② logits (B,5), long target (B,), CE ③ logits (B,1), target (B,5) ④ argmax만"
+        "text": "3회-19번 라벨이 5개인 다중라벨 분류의 올바른 출력·정답·손실 조합은? ① 로짓 (B,5), 실수형 정답 (B,5), BCEWithLogits ② 로짓 (B,5), long 정수형 정답 (B,), CE ③ 로짓 (B,1), 정답 (B,5) ④ argmax만 사용"
       },
       {
         "id": "O31-60",
@@ -4847,7 +4847,7 @@
         "kind": "heading",
         "sectionId": "3-20",
         "label": "3회-20번",
-        "text": "3회-20번 문제가 정확히 (8333,3) NPY를 요구할 때 (8333,)이 나온 모델의 올바른 대응은? ① 파일명만 변경 ② 3개 output을 내도록 모델/예측 계약 수정 ③ 같은 배열 세 번 저장하지 않고 무조건 제출 ④ flatten"
+        "text": "3회-20번 문제가 정확히 (8333,3) NPY를 요구할 때 (8333,)이 나온 모델의 올바른 대응은? ① 파일명만 변경 ② 출력 3개를 내도록 모델과 예측 코드 수정 ③ 같은 배열 세 번 저장하지 않고 무조건 제출 ④ flatten"
       },
       {
         "id": "V31-01",
@@ -4856,7 +4856,7 @@
         "sectionId": "visual-31-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "세 클래스의 logit이 모두 같으면 정답 클래스의 확률과 CE는 무엇인가?"
+        "text": "세 클래스의 로짓이 모두 같으면 정답 클래스의 확률과 CE는 무엇인가?"
       },
       {
         "id": "V31-02",
@@ -5325,55 +5325,55 @@
   },
   {
     "lesson": "32",
-    "title": "Process형 모의고사 — 독자 문제 8문항",
+    "title": "Process형 모의고사 — 자체 제작 8문항",
     "questions": [
       {
         "id": "O32-01",
         "source": "original",
         "kind": "heading",
         "sectionId": "322-1-robust-scaling",
-        "label": "32.2 문제 1 — 선택 열 Robust Scaling",
-        "text": "32.2 문제 1 — 선택 열 Robust Scaling robust_scale_columns(df, columns)를 작성하라. 요구사항: 각 지정 열을 (x - median) / IQR로 변환한다. 선택 열은 수치형이며 열 이름은 유일하다. Q1/Q3는 NaN을 제외한 pandas quantile(q, interpolation=\"linear\")을 사용한다. 모든 값이 NaN인 열은 그대로 유지한다. IQR이 0이면 해당 열의 유효값을 0.0으로 만든다. 기존 NaN은 유지한다. 미지정 열, index, 열 순서를 보존한다. 입력 DataFrame은 변경하지 않는다. 없는 열 이름은 KeyError."
+        "label": "32.2 문제 1 — 선택한 열의 로버스트 스케일링",
+        "text": "32.2 문제 1 — 선택한 열의 로버스트 스케일링 robust_scale_columns(df, columns)를 작성하라. 요구사항: 각 지정 열을 (x - median) / IQR로 변환한다. 선택 열은 수치형이며 열 이름은 유일하다. Q1/Q3는 NaN을 제외한 pandas의 quantile(q, interpolation=\"linear\")을 사용한다. 모든 값이 NaN인 열은 그대로 유지한다. IQR이 0이면 해당 열의 유효값을 0.0으로 만든다. 기존 NaN은 유지한다. 지정하지 않은 열, 인덱스, 열 순서를 보존한다. 입력 DataFrame은 변경하지 않는다. 존재하지 않는 열 이름이 주어지면 KeyError를 발생시킨다."
       },
       {
         "id": "O32-02",
         "source": "original",
         "kind": "heading",
         "sectionId": "323-2-causal-group-rolling-feature",
-        "label": "32.3 문제 2 — Causal Group Rolling Feature",
-        "text": "32.3 문제 2 — Causal Group Rolling Feature add_past_mean(df, group_col, time_col, value_col, window)를 작성하라. 요구사항: group/time에는 결측이 없고 time은 비교 가능한 숫자·datetime 또는 변환 가능한 날짜 문자열이다. value는 유한 수치 또는 NaN이다. group별 time 오름차순에서 현재 행을 제외한 직전 최대 window행의 값으로 평균을 계산한다. NaN은 평균에서 제외하며 유효값이 없으면 NaN이다. 결과를 value_col + '_past_mean'이라는 새 열에 추가하고 이 열은 입력에 없다고 가정한다. 현재 행 값은 평균에서 제외한다. 계산 후 원래 행 순서와 index를 복원한다. 동일 time은 원래 행 순서로 안정 정렬한다. 이 모의에서는 같은 timestamp의 앞 행도 현재 행 이전에 관측된 것으로 정의한다. 입력 변경 금지, window>=1."
+        "label": "32.3 문제 2 — 그룹별 과거 이동평균 특성",
+        "text": "32.3 문제 2 — 그룹별 과거 이동평균 특성 add_past_mean(df, group_col, time_col, value_col, window)를 작성하라. 요구사항: group/time 열에는 결측이 없고 time은 비교 가능한 숫자·datetime 또는 날짜로 변환 가능한 문자열이다. value는 유한한 수 또는 NaN이다. 각 group을 time 오름차순으로 정렬한 뒤, 현재 행을 제외한 직전 최대 window개 행의 값으로 평균을 계산한다. NaN은 평균에서 제외하며 유효값이 없으면 NaN이다. 결과는 value_col + '_past_mean'이라는 새 열에 추가한다. 이 열은 입력에 없다고 가정한다. 현재 행 값은 평균에서 제외한다. 계산 후 원래 행 순서와 인덱스를 복원한다. time 값이 같으면 원래 행 순서를 유지하도록 안정 정렬한다. 이 모의에서는 같은 시각(timestamp)의 앞 행도 현재 행보다 먼저 관측된 것으로 정의한다. 입력 변경 금지, window>=1."
       },
       {
         "id": "O32-03",
         "source": "original",
         "kind": "heading",
         "sectionId": "324-3-stable-softmax-cross-entropy",
-        "label": "32.4 문제 3 — Stable Softmax Cross-Entropy",
-        "text": "32.4 문제 3 — Stable Softmax Cross-Entropy numpy_cross_entropy(logits, targets)를 작성하라. logits는 유한 실수 shape (N,C), N>=1, C>=1이며 targets는 shape (N,)의 정수 class index이다. 각 target은 0 이상 C 미만이다. stable log-sum-exp를 사용한다. 각 sample NLL의 평균 scalar 반환. 빈 batch, 범위 밖 target, NaN/Inf, shape 오류는 ValueError."
+        "label": "32.4 문제 3 — 수치적으로 안정적인 소프트맥스 교차엔트로피",
+        "text": "32.4 문제 3 — 수치적으로 안정적인 소프트맥스 교차엔트로피 numpy_cross_entropy(logits, targets)를 작성하라. logits는 유한 실수로 이루어진 크기 (N,C)의 배열이며 N>=1, C>=1이다. targets는 크기 (N,)의 정수 클래스 인덱스 배열이고 각 값은 0 이상 C 미만이다. 수치적으로 안정적인 log-sum-exp를 사용한다. 각 샘플의 음의 로그가능도(NLL)를 평균해 스칼라 하나를 반환한다. 빈 배치, 범위를 벗어난 정답 인덱스, NaN/Inf, 배열 크기 오류가 있으면 ValueError를 발생시킨다."
       },
       {
         "id": "O32-04",
         "source": "original",
         "kind": "heading",
         "sectionId": "325-4-split-validator",
-        "label": "32.5 문제 4 — Split Validator",
-        "text": "32.5 문제 4 — Split Validator validate_split(train_idx, valid_idx, n_rows, groups=None, times=None)를 작성하라. n_rows는 양의 정수이다. train_idx/valid_idx는 각각 비어 있지 않은 1D integer이며 0 이상 n_rows 미만, 각 집합 내 중복이 없어야 한다. groups/times가 주어지면 각각 길이 n_rows의 1D이며 결측을 허용하지 않는다. 수치 times는 finite여야 한다. 어느 조건이든 위반하면 ValueError를 낸다. train/valid index 교집합 없음. groups가 주어지면 group 교집합 없음. times가 주어지면 train의 최대 시간이 valid 최소 시간 이하. 통과 시 True."
+        "label": "32.5 문제 4 — 데이터 분할 검사기",
+        "text": "32.5 문제 4 — 데이터 분할 검사기 validate_split(train_idx, valid_idx, n_rows, groups=None, times=None)를 작성하라. n_rows는 양의 정수이다. train_idx/valid_idx는 각각 비어 있지 않은 1차원 정수 배열이어야 하며, 값은 0 이상 n_rows 미만, 각 집합 내 중복이 없어야 한다. groups/times가 주어지면 각각 길이 n_rows의 1차원 배열이며 결측을 허용하지 않는다. 수치형 times의 값은 유한해야 한다. 어느 조건이든 위반하면 ValueError를 발생시킨다. train과 valid 인덱스에는 교집합이 없어야 한다. groups가 주어지면 두 분할의 그룹에도 교집합이 없어야 한다. times가 주어지면 train의 최대 시간이 valid의 최소 시간 이하여야 한다. 통과 시 True."
       },
       {
         "id": "O32-05",
         "source": "original",
         "kind": "heading",
         "sectionId": "326-5-pil-crop",
-        "label": "32.6 문제 5 — PIL 중앙 Crop",
-        "text": "32.6 문제 5 — PIL 중앙 Crop center_crop_array(image, crop_width, crop_height)를 작성하라. PIL image 입력. 중심 기준 crop. 홀수 차이는 왼쪽/위쪽에 floor offset을 둔다. crop_width/crop_height는 bool을 제외한 양의 정수여야 하며 원본보다 큰 crop 또는 잘못된 크기는 ValueError이다. 원 mode를 유지한 NumPy array 반환."
+        "label": "32.6 문제 5 — PIL 이미지 중앙 자르기",
+        "text": "32.6 문제 5 — PIL 이미지 중앙 자르기 center_crop_array(image, crop_width, crop_height)를 작성하라. PIL 이미지를 입력받는다. 이미지 중심을 기준으로 자른다. 원본과 잘라 낼 크기의 차이가 홀수이면 왼쪽·위쪽 여백은 차이의 절반을 내림한 값으로 둔다. crop_width/crop_height는 bool을 제외한 양의 정수여야 하며 잘라 낼 크기가 원본보다 크거나 유효하지 않으면 ValueError를 발생시킨다. 원래 이미지 모드를 유지한 NumPy 배열을 반환한다."
       },
       {
         "id": "O32-06",
         "source": "original",
         "kind": "heading",
         "sectionId": "327-6-convolution",
-        "label": "32.7 문제 6 — Convolution 계산기",
-        "text": "32.7 문제 6 — Convolution 계산기 conv2d_info(h, w, in_ch, out_ch, kernel, stride=1, padding=0, dilation=1, groups=1, bias=True)를 작성하라. h,w,in_ch,out_ch,groups는 bool을 제외한 양의 정수이다. kernel,stride,padding,dilation은 bool을 제외한 int 또는 길이2 tuple/list (높이,너비)를 허용한다. padding은 0 이상, 나머지는 양수이며 bias는 bool이다. 잘못된 설정은 ValueError이다. output (out_h,out_w)와 parameter 수 반환. channel이 groups로 나누어지지 않거나 output이 1 미만이면 오류."
+        "label": "32.7 문제 6 — 합성곱 계산기",
+        "text": "32.7 문제 6 — 합성곱 계산기 conv2d_info(h, w, in_ch, out_ch, kernel, stride=1, padding=0, dilation=1, groups=1, bias=True)를 작성하라. h,w,in_ch,out_ch,groups는 bool을 제외한 양의 정수이다. kernel,stride,padding,dilation은 bool을 제외한 int 또는 길이 2의 튜플·리스트 (높이,너비)를 허용한다. padding은 0 이상, 나머지는 양수이며 bias는 bool이다. 설정이 잘못되면 ValueError를 발생시킨다. 출력 크기 (out_h,out_w)와 매개변수 수를 반환한다. 입력·출력 채널 수가 groups로 나누어떨어지지 않거나 출력 높이·너비가 1 미만이면 오류를 발생시킨다."
       },
       {
         "id": "O32-07",
@@ -5381,7 +5381,7 @@
         "kind": "heading",
         "sectionId": "328-7-mlp",
         "label": "32.8 문제 7 — 정확한 MLP 명세",
-        "text": "32.8 문제 7 — 정확한 MLP 명세 다음 구조의 ExamMLP를 작성하라. input 20 Linear 20→64, BatchNorm1d(64), ReLU, Dropout(0.25) Linear 64→32, ReLU Linear 32→3 forward는 raw logits 반환 추가 layer 금지"
+        "text": "32.8 문제 7 — 정확한 MLP 명세 다음 구조의 ExamMLP를 작성하라. 입력 특성은 20개다. Linear 20→64, BatchNorm1d(64), ReLU, Dropout(0.25) Linear 64→32, ReLU Linear 32→3 forward는 변환하지 않은 로짓을 반환한다. 추가 층을 넣지 않는다."
       },
       {
         "id": "O32-08",
@@ -5389,7 +5389,7 @@
         "kind": "heading",
         "sectionId": "329-8-many-to-one-lstm",
         "label": "32.9 문제 8 — Many-to-One LSTM",
-        "text": "32.9 문제 8 — Many-to-One LSTM ExamLSTM(n_features, hidden_size, n_classes)를 작성하라. 2층 단방향 LSTM, batch_first=True, layer 사이 dropout 0.2 입력은 padding 없는 고정 길이 [B,T,F]이며 B>=1,T>=1이다. projection과 bidirectional을 사용하지 않는다. 마지막 시점 sequence output으로 class logits [B,n_classes] hidden/cell을 외부에서 받지 않는다."
+        "text": "32.9 문제 8 — Many-to-One LSTM ExamLSTM(n_features, hidden_size, n_classes)를 작성하라. 2층 단방향 LSTM, batch_first=True, 층 사이 드롭아웃 비율 0.2 입력은 패딩 없는 고정 길이 [B,T,F]이며 B>=1,T>=1이다. 투영과 양방향 설정을 사용하지 않는다. 마지막 시퀀스 출력을 사용해 클래스 로짓 [B,n_classes]를 반환한다. 은닉 상태·셀 상태를 외부에서 받지 않는다."
       },
       {
         "id": "V32-01",
@@ -5398,7 +5398,7 @@
         "sectionId": "visual-32-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "[2,4,6,8]의 중앙값·Q1·Q3·IQR과 robust scaling 결과는?"
+        "text": "[2,4,6,8]의 중앙값·Q1·Q3·IQR과 로버스트 스케일링 결과는?"
       },
       {
         "id": "V32-02",
@@ -5407,7 +5407,7 @@
         "sectionId": "visual-32-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "한 group의 시간순 값이 [10,20,40]일 때 window2 과거 평균에서 마지막 값이 30이면 어떤 오류인가?"
+        "text": "한 그룹의 시간순 값이 [10,20,40]일 때 윈도 크기가 2인 과거 평균에서 마지막 값이 30이면 어떤 오류인가?"
       },
       {
         "id": "V32-03",
@@ -5416,7 +5416,7 @@
         "sectionId": "visual-32-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "Many-to-one LSTM의 배치 1 출력이 [K]였다. 클래스 logit K개가 있으므로 맞는가?"
+        "text": "다대일 LSTM의 배치 크기 1 출력이 [K]였다. 클래스 로짓 K개가 있으므로 맞는가?"
       }
     ],
     "mappings": [
@@ -5501,7 +5501,7 @@
   },
   {
     "lesson": "33",
-    "title": "Problem형 완전 모의 — 차량 센서 다중출력 예측",
+    "title": "Problem형 종합 모의고사 — 차량 센서 다중출력 예측",
     "questions": [
       {
         "id": "O33-01",
@@ -5509,7 +5509,7 @@
         "kind": "heading",
         "sectionId": "331",
         "label": "33.1 문제",
-        "text": "33.1 문제 아래 생성기로 만든 100Hz 차량 센서 시계열이 있다. 입력 feature: 12개 sensor lookback: 과거 0.2초 horizon: 마지막 관측 0.4초 뒤 target: 연속값 3개 validation: 시간순 마지막 구간 metric: MSE test prediction shape: 코드에서 생성된 X_test의 window 수 × 3 제출: Submission_problem.npy, test 순서 유지, numeric finite array 딥러닝 모델은 PyTorch를 사용한다. 목표는 최고 성능이 아니라 170분에 Process와 함께 완주 가능한 해결책이다."
+        "text": "33.1 문제 아래 생성기로 만든 100Hz 차량 센서 시계열이 있다. 입력 특성: 센서 12개 입력에 사용할 과거 길이(lookback): 0.2초 예측 간격(horizon): 마지막 관측에서 0.4초 뒤 정답: 연속값 3개 검증자료: 시간순으로 마지막 구간 평가지표: MSE 테스트 예측 크기: 코드에서 생성된 X_test의 윈도 수 × 3 제출: Submission_problem.npy, 테스트 순서를 유지한 유한 수치 배열 딥러닝 모델은 PyTorch를 사용한다. 목표는 170분 안에 Process 문제도 풀면서 이 Problem의 학습·검증·제출까지 마칠 수 있는 풀이를 익히는 것이다."
       },
       {
         "id": "O33-02",
@@ -5518,7 +5518,7 @@
         "sectionId": "333",
         "index": 0,
         "label": "33.3 응시자 과제 · 1번",
-        "text": "X_raw, y_raw의 shape/dtype/finite와 첫 유효 target을 확인한다."
+        "text": "X_raw, y_raw의 배열 크기·원소 자료형·유한성과 첫 유효 정답을 확인한다."
       },
       {
         "id": "O33-03",
@@ -5527,7 +5527,7 @@
         "sectionId": "333",
         "index": 1,
         "label": "33.3 응시자 과제 · 2번",
-        "text": "원시 시간의 70%·85%에 경계를 두고, 이전 구간 label이 다음 구간의 예측 원점 전에 알려지도록 horizon만큼 경계 sample을 제외한다. 최종 sample 비율은 정확한 70/15/15가 아니다."
+        "text": "원시 시간의 70%·85%에 경계를 두고, 이전 구간의 정답이 다음 구간의 예측 기준 시점 전에 알려지도록 예측 간격만큼 구간 사이 샘플을 제외한다. 최종 샘플 비율은 정확한 70/15/15가 아니다."
       },
       {
         "id": "O33-04",
@@ -5536,7 +5536,7 @@
         "sectionId": "333",
         "index": 2,
         "label": "33.3 응시자 과제 · 3번",
-        "text": "input window [e-L+1:e+1], target y[e+H]를 정확히 만든다."
+        "text": "입력 윈도 [e-L+1:e+1], 정답 y[e+H]를 정확히 만든다."
       },
       {
         "id": "O33-05",
@@ -5545,7 +5545,7 @@
         "sectionId": "333",
         "index": 3,
         "label": "33.3 응시자 과제 · 4번",
-        "text": "scaler는 train window에만 fit한다."
+        "text": "스케일러는 훈련 윈도로만 학습한다."
       },
       {
         "id": "O33-06",
@@ -5554,7 +5554,7 @@
         "sectionId": "333",
         "index": 4,
         "label": "33.3 응시자 과제 · 5번",
-        "text": "target 평균 또는 flatten linear/MLP baseline을 평가한다."
+        "text": "훈련 정답 평균 또는 입력을 펼친 선형모델·MLP를 기준 모델로 평가한다."
       },
       {
         "id": "O33-07",
@@ -5563,7 +5563,7 @@
         "sectionId": "333",
         "index": 5,
         "label": "33.3 응시자 과제 · 6번",
-        "text": "CNN1D를 학습하고 validation MSE를 비교한다."
+        "text": "CNN1D를 학습하고 검증 MSE를 비교한다."
       },
       {
         "id": "O33-08",
@@ -5572,7 +5572,7 @@
         "sectionId": "333",
         "index": 6,
         "label": "33.3 응시자 과제 · 7번",
-        "text": "best 모델로 test prediction (N_test,3)을 만든다."
+        "text": "검증 성능이 가장 좋은 모델로 테스트 예측 (N_test,3)을 만든다."
       },
       {
         "id": "O33-09",
@@ -5581,7 +5581,7 @@
         "sectionId": "333",
         "index": 7,
         "label": "33.3 응시자 과제 · 8번",
-        "text": "Submission_problem.npy 저장 후 reload 검사한다."
+        "text": "Submission_problem.npy 를 저장한 뒤 다시 읽어 검사한다."
       },
       {
         "id": "O33-10",
@@ -5617,7 +5617,7 @@
         "sectionId": "3314",
         "index": 2,
         "label": "33.14 회고 질문 · 3번",
-        "text": "validation 선택이 실제 test 생성 과정을 모사했는가?"
+        "text": "검증 방법이 실제 테스트 데이터의 생성 과정을 재현했는가?"
       },
       {
         "id": "O33-14",
@@ -5626,7 +5626,7 @@
         "sectionId": "3314",
         "index": 3,
         "label": "33.14 회고 질문 · 4번",
-        "text": "CNN1D가 baseline을 이겼는가? 아니라면 왜인가?"
+        "text": "CNN1D가 기준 모델보다 나았는가? 아니라면 왜인가?"
       },
       {
         "id": "O33-15",
@@ -5643,7 +5643,7 @@
         "kind": "heading",
         "sectionId": "process-1",
         "label": "통합 Process 1 — 결측 보고서",
-        "text": "통합 Process 1 — 결측 보고서 missing_report(df)를 구현하라. 입력은 열 이름이 유일한 DataFrame이다. 원래 열 이름을 index로 갖는 DataFrame을 원래 열 순서로 반환하고, 반환 열 순서는 dtype, missing_count, missing_rate, nunique_with_missing으로 한다. dtype에는 원 열 dtype 객체를 기록하고 missing_rate=missing_count/행 수로 계산하되 행이 0개이면 0.0으로 정의한다. nunique_with_missing은 NaN을 하나의 고유값으로 센다. 입력의 비연속 index를 처리하고 원본을 변경하지 않는다."
+        "text": "통합 Process 1 — 결측 보고서 missing_report(df)를 구현하라. 입력은 열 이름이 유일한 DataFrame이다. 원래 열 이름을 인덱스로 갖는 DataFrame을 원래 열 순서로 반환하고, 반환 열 순서는 dtype, missing_count, missing_rate, nunique_with_missing으로 한다. dtype에는 원래 열의 dtype 객체를 기록하고 missing_rate=missing_count/행 수로 계산하되 행이 0개이면 0.0으로 정의한다. nunique_with_missing은 NaN을 하나의 고유값으로 센다. 입력의 비연속 인덱스를 처리하고 원본을 변경하지 않는다."
       },
       {
         "id": "O33-17",
@@ -5651,7 +5651,7 @@
         "kind": "heading",
         "sectionId": "process-2-group-z-score",
         "label": "통합 Process 2 — Group Z-score",
-        "text": "통합 Process 2 — Group Z-score group_zscore(df, group_col, value_col)을 구현하라. group_col은 결측이 없고 value_col은 유한 수치 또는 NaN이다. value_col을 group별 유효값의 population mean/std(ddof=0)로 z-score 변환한 복사 DataFrame을 반환한다. std=0인 유효값은 0, 기존 NaN과 전부 NaN인 group은 NaN을 유지하고 미지정 열은 보존한다. 원 index/순서를 지킨다."
+        "text": "통합 Process 2 — Group Z-score group_zscore(df, group_col, value_col)을 구현하라. group_col은 결측이 없고 value_col은 유한 수치 또는 NaN이다. value_col을 각 group의 유효값에서 구한 모집단 평균·표준편차(std, ddof=0)로 표준화한 DataFrame 복사본을 반환한다. std=0인 유효값은 0, 기존 NaN과 전부 NaN인 group은 NaN을 유지하고 미지정 열은 보존한다. 원래 인덱스와 행 순서를 지킨다."
       },
       {
         "id": "O33-18",
@@ -5659,7 +5659,7 @@
         "kind": "heading",
         "sectionId": "process-3-binary-f1",
         "label": "통합 Process 3 — Binary F1",
-        "text": "통합 Process 3 — Binary F1 NumPy만으로 binary_f1(y_true, y_pred)를 작성하라. 두 배열은 같은 1D shape와 {0,1} 값이어야 한다. precision/recall denominator가 0이면 해당 값과 F1을 0으로 정의한다."
+        "text": "통합 Process 3 — Binary F1 NumPy만으로 binary_f1(y_true, y_pred)를 작성하라. 두 배열은 같은 1차원 크기와 {0,1} 값이어야 한다. 정밀도 또는 재현율의 분모가 0이면 해당 값과 F1을 0으로 정의한다."
       },
       {
         "id": "O33-19",
@@ -5667,7 +5667,7 @@
         "kind": "heading",
         "sectionId": "process-4-causal-lag",
         "label": "통합 Process 4 — Causal Lag",
-        "text": "통합 Process 4 — Causal Lag add_lag(df, group_col, time_col, value_col, lag=1)을 구현하라. group/time에는 결측이 없고 time은 비교 가능한 숫자 또는 datetime이다. group/time/원래 위치 순으로 안정 정렬한 뒤 group 내부에서 value_col을 lag행 이동해 value_col + '_lag'라는 새 열에 추가한다. 동일 time의 앞 행도 이전 관측으로 정의한다. 새 열은 입력에 없다고 가정한다. 원래 행 순서·index·나머지 열을 보존하며 입력을 변경하지 않는다. lag는 bool을 제외한 1 이상 정수다."
+        "text": "통합 Process 4 — Causal Lag add_lag(df, group_col, time_col, value_col, lag=1)을 구현하라. group/time에는 결측이 없고 time은 비교 가능한 숫자 또는 datetime이다. group/time/원래 위치 순으로 안정 정렬한 뒤 group 내부에서 value_col을 lag행 이동해 value_col + '_lag'라는 새 열에 추가한다. time 값이 같은 앞 행도 이전 관측으로 정의한다. 새 열은 입력에 없다고 가정한다. 원래 행 순서·인덱스·나머지 열을 보존하며 입력을 변경하지 않는다. lag는 bool을 제외한 1 이상 정수다."
       },
       {
         "id": "O33-20",
@@ -5675,7 +5675,7 @@
         "kind": "heading",
         "sectionId": "process-5-rgb-normalize",
         "label": "통합 Process 5 — RGB Normalize",
-        "text": "통합 Process 5 — RGB Normalize normalize_rgb(image, mean, std)를 구현하라. image는 H>=1,W>=1인 uint8 NumPy array (H,W,3)이고 mean/std는 길이3의 finite 실수이며 std>0이다. image를 float32로 바꾸어 255로 나누고 HWC에서 CHW로 축을 옮긴 뒤 채널별 (x-mean)/std를 적용한 float32 PyTorch tensor 하나를 반환한다. 입력 image를 변경하지 않는다."
+        "text": "통합 Process 5 — RGB Normalize normalize_rgb(image, mean, std)를 구현하라. image는 H>=1,W>=1인 uint8 NumPy 배열 (H,W,3)이고 mean/std는 길이 3의 유한 실수 배열이며 std>0이다. image를 float32로 바꾸어 255로 나누고 HWC에서 CHW로 축을 옮긴 뒤 채널별 (x-mean)/std를 적용한 float32 PyTorch 텐서 하나를 반환한다. 입력 image를 변경하지 않는다."
       },
       {
         "id": "O33-21",
@@ -5683,7 +5683,7 @@
         "kind": "heading",
         "sectionId": "process-6-cnn-block",
         "label": "통합 Process 6 — 정확한 CNN Block",
-        "text": "통합 Process 6 — 정확한 CNN Block ExactBlock을 구현하라: Conv2d 3→8 K3 P1 bias=False → BatchNorm2d(8) → ReLU → MaxPool2d(2). 입력 (B,3,32,32)의 출력 assert와 parameter 수를 쓰라. 추가 layer 금지."
+        "text": "통합 Process 6 — 정확한 CNN Block ExactBlock을 구현하라: Conv2d 3→8 K3 P1 bias=False → BatchNorm2d(8) → ReLU → MaxPool2d(2). 입력 (B,3,32,32)의 출력을 확인하는 assertion과 매개변수 수를 쓰라. 추가 층은 넣지 않는다."
       },
       {
         "id": "O33-22",
@@ -5691,15 +5691,15 @@
         "kind": "heading",
         "sectionId": "process-7-class-weight",
         "label": "통합 Process 7 — Class Weight",
-        "text": "통합 Process 7 — Class Weight balanced_class_weights(y,n_classes)를 작성하라. y는 비어 있지 않은 1D integer class index, n_classes=C는 bool을 제외한 양의 정수이고 모든 y는 0 이상 C 미만이어야 한다. class별 weight N/(C×count_c)를 class0부터 C-1 순서의 shape(C,) float32 Tensor로 반환한다. 누락 class 또는 입력 계약 위반은 ValueError이다."
+        "text": "통합 Process 7 — Class Weight balanced_class_weights(y,n_classes)를 작성하라. y는 비어 있지 않은 1차원 정수 클래스 인덱스 배열, n_classes=C는 bool을 제외한 양의 정수이고 모든 y는 0 이상 C 미만이어야 한다. 클래스별 가중치 N/(C×count_c)를 클래스 0부터 C-1 순서로 shape(C,) float32 Tensor로 반환한다. 누락된 클래스가 있거나 입력 조건을 위반하면 ValueError를 발생시킨다."
       },
       {
         "id": "O33-23",
         "source": "original",
         "kind": "heading",
         "sectionId": "process-8-npy",
-        "label": "통합 Process 8 — NPY 계약",
-        "text": "통합 Process 8 — NPY 계약 save_checked_npy(pred, path, n_rows, n_outputs)를 구현하라. 정확히 (n_rows,n_outputs), numeric, finite인지 검사하고 allow_pickle=False로 저장한 뒤 reload의 shape/dtype/value를 확인한다."
+        "label": "통합 Process 8 — NPY 저장 조건",
+        "text": "통합 Process 8 — NPY 저장 조건 save_checked_npy(pred, path, n_rows, n_outputs)를 구현하라. 정확히 (n_rows,n_outputs), 수치형이며 모든 값이 유한한지 검사하고 allow_pickle=False로 저장한 뒤 다시 읽은 배열의 크기·원소 자료형·값을 확인한다."
       },
       {
         "id": "O33-24",
@@ -5707,7 +5707,7 @@
         "kind": "heading",
         "sectionId": "3316-problem",
         "label": "33.16 통합 Problem — 새 차량 고장 분류",
-        "text": "33.16 통합 Problem — 새 차량 고장 분류 다운로드한 full-mock-tabular.py를 저장한 폴더에서 python full-mock-tabular.py --generate-only로 train/test를 생성한다. 행: 차량 운행 segment 동일 vehicle_id가 여러 행 test에는 train에 없던 차량만 존재 수치/범주형/결측 혼합 target: fault 0/1, 불균형 metric: Macro-F1 출력: test label (N,) 제출 파일: Submission_problem.npy 요구: vehicle_id를 group으로 validation하고 feature에서는 제외한다. imputer/encoder/scaler는 train fold만 fit한다. 빠른 baseline 제출을 먼저 만든다. PyTorch MLP와 BCEWithLogitsLoss(pos_weight=...)를 학습한다. validation에서 threshold를 정한다. 전체 train 재학습 후 test label을 예측한다. 정확한 파일을 저장·reload한다."
+        "text": "33.16 통합 Problem — 새 차량 고장 분류 다운로드한 full-mock-tabular.py를 저장한 폴더에서 python full-mock-tabular.py --generate-only로 train/test를 생성한다. 행: 차량 운행 구간 동일 vehicle_id가 여러 행에 등장한다. 테스트에는 훈련자료에 없던 차량만 존재한다. 수치/범주형/결측 혼합 정답: fault 0/1이며 클래스 비율이 불균형하다. 평가지표: Macro-F1 출력: 테스트 라벨 (N,) 제출 파일: Submission_problem.npy 요구: vehicle_id를 그룹으로 삼아 검증 분할하고 입력 특성에서는 제외한다. 결측 대체기·인코더·스케일러는 훈련 폴드에서만 학습한다. 빠른 기준 모델로 제출 파일을 먼저 만든다. PyTorch MLP와 BCEWithLogitsLoss(pos_weight=...)를 학습한다. 검증자료에서 임계값을 정한다. 훈련자료 전체로 재학습한 뒤 테스트 라벨을 예측한다. 요구사항에 맞는 파일을 저장하고 다시 읽어 검사한다."
       },
       {
         "id": "V33-01",
@@ -5716,7 +5716,7 @@
         "sectionId": "visual-33-7",
         "index": 0,
         "label": "기초 확인 · 1번",
-        "text": "끝 인덱스 e=19의 입력 범위와 target 인덱스는 무엇인가?"
+        "text": "끝 인덱스 e=19의 입력 범위와 정답 인덱스는 무엇인가?"
       },
       {
         "id": "V33-02",
@@ -5725,7 +5725,7 @@
         "sectionId": "visual-33-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "테스트를 원점 850 대신 target 850부터 시작하면 첫 target의 예측 원점은 몇이며 이번 고정모델 계약과 맞는가?"
+        "text": "테스트를 예측 기준 시점 850 대신 정답 인덱스 850부터 시작하면 첫 정답의 예측 기준 시점은 몇이며 이번 고정 모델의 검증 조건과 맞는가?"
       },
       {
         "id": "V33-03",
@@ -5939,7 +5939,7 @@
   },
   {
     "lesson": "34",
-    "title": "21일 완주 계획·최종 암기표·합격 체크",
+    "title": "21일 학습 계획·최종 암기표·준비 상태 점검",
     "questions": [
       {
         "id": "O34-01",
@@ -5948,7 +5948,7 @@
         "sectionId": "3411",
         "index": 0,
         "label": "34.11 최종 자기설명 시험 · 1번",
-        "text": "왜 scaler를 train fold에만 fit하는가?"
+        "text": "왜 스케일러는 훈련 폴드로만 학습하는가?"
       },
       {
         "id": "O34-02",
@@ -5957,7 +5957,7 @@
         "sectionId": "3411",
         "index": 1,
         "label": "34.11 최종 자기설명 시험 · 2번",
-        "text": "[B]와 [B,1]이 loss에서 왜 위험한가?"
+        "text": "[B]와 [B,1]이 손실 계산에서 왜 위험한가?"
       },
       {
         "id": "O34-03",
@@ -5966,7 +5966,7 @@
         "sectionId": "3411",
         "index": 2,
         "label": "34.11 최종 자기설명 시험 · 3번",
-        "text": "group split과 time split을 어떻게 고르는가?"
+        "text": "그룹 분할과 시간 분할을 어떻게 고르는가?"
       },
       {
         "id": "O34-04",
@@ -5984,7 +5984,7 @@
         "sectionId": "3411",
         "index": 4,
         "label": "34.11 최종 자기설명 시험 · 5번",
-        "text": "BCEWithLogits/CE의 output-target 계약은?"
+        "text": "BCEWithLogits/CE가 요구하는 출력과 정답의 크기·자료형은 무엇인가?"
       },
       {
         "id": "O34-06",
@@ -5993,7 +5993,7 @@
         "sectionId": "3411",
         "index": 5,
         "label": "34.11 최종 자기설명 시험 · 6번",
-        "text": "convolution output과 parameter 수는?"
+        "text": "합성곱의 출력 크기와 매개변수 수는 어떻게 구하는가?"
       },
       {
         "id": "O34-07",
@@ -6002,7 +6002,7 @@
         "sectionId": "3411",
         "index": 6,
         "label": "34.11 최종 자기설명 시험 · 7번",
-        "text": "BN/Dropout의 train/eval 차이는?"
+        "text": "BN/Dropout은 훈련과 평가 모드에서 어떻게 다른가?"
       },
       {
         "id": "O34-08",
@@ -6011,7 +6011,7 @@
         "sectionId": "3411",
         "index": 7,
         "label": "34.11 최종 자기설명 시험 · 8번",
-        "text": "LSTM gate와 GRU 차이는?"
+        "text": "LSTM의 게이트와 GRU는 어떻게 다른가?"
       },
       {
         "id": "O34-09",
@@ -6020,7 +6020,7 @@
         "sectionId": "3411",
         "index": 8,
         "label": "34.11 최종 자기설명 시험 · 9번",
-        "text": "attention scaling·position·mask가 왜 필요한가?"
+        "text": "어텐션의 점수 스케일 조정·위치 정보·마스크는 각각 왜 필요한가?"
       },
       {
         "id": "O34-10",
@@ -6029,7 +6029,7 @@
         "sectionId": "3411",
         "index": 9,
         "label": "34.11 최종 자기설명 시험 · 10번",
-        "text": "AE/VAE/GAN의 목적과 loss는?"
+        "text": "AE/VAE/GAN의 목적과 손실함수는 무엇인가?"
       },
       {
         "id": "O34-11",
@@ -6038,7 +6038,7 @@
         "sectionId": "3411",
         "index": 10,
         "label": "34.11 최종 자기설명 시험 · 11번",
-        "text": "overlapping window 누수는 어떻게 막는가?"
+        "text": "중첩 윈도에서 발생하는 누수를 어떻게 막는가?"
       },
       {
         "id": "O34-12",
@@ -6065,7 +6065,7 @@
         "sectionId": "visual-34-7",
         "index": 1,
         "label": "기초 확인 · 2번",
-        "text": "오류가 shape 2/4, metric 2/10이었다. 틀린 개수가 같으므로 복습 우선순위도 같아야 하는가?"
+        "text": "오류가 배열 크기 2/4, 평가지표 2/10이었다. 틀린 개수가 같으므로 복습 우선순위도 같아야 하는가?"
       },
       {
         "id": "V34-03",
@@ -6074,7 +6074,7 @@
         "sectionId": "visual-34-7",
         "index": 2,
         "label": "기초 확인 · 3번",
-        "text": "21일째 시계열 모의에서 metric은 계산했지만 prediction을 저장·reload하지 못했다. 어떤 완료 상태로 기록하고 다음 연습을 정할까?"
+        "text": "21일째 시계열 모의에서 평가지표는 계산했지만 예측값을 저장하고 다시 읽는 데까지 마치지 못했다. 어디까지 완료한 것으로 기록하고 다음에는 무엇을 연습하면 좋을까?"
       }
     ],
     "mappings": [

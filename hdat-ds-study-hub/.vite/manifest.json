@@ -15,7 +15,7 @@
     "name": "rolldown-runtime"
   },
   "components/CurriculumProgressSync.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/CurriculumProgressSync-CDOEqqpl.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/CurriculumProgressSync-DRts6vQ6.js",
     "name": "CurriculumProgressSync",
     "src": "components/CurriculumProgressSync.tsx",
     "isDynamicEntry": true,
@@ -26,7 +26,7 @@
     ]
   },
   "components/LessonClient.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/LessonClient-BQjnmVJh.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/LessonClient-CmMJEius.js",
     "name": "LessonClient",
     "src": "components/LessonClient.tsx",
     "isDynamicEntry": true,
@@ -58,7 +58,7 @@
     ]
   },
   "components/ProgressSummary.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/ProgressSummary-DW8_6qP0.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/ProgressSummary-CURI3OiI.js",
     "name": "ProgressSummary",
     "src": "components/ProgressSummary.tsx",
     "isDynamicEntry": true,
@@ -69,7 +69,7 @@
     ]
   },
   "components/ProgressTools.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/ProgressTools-LGJc-dqo.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/ProgressTools-D1I4DW51.js",
     "name": "ProgressTools",
     "src": "components/ProgressTools.tsx",
     "isDynamicEntry": true,
@@ -92,7 +92,7 @@
     ]
   },
   "components/RecallCheck.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/RecallCheck-CtkvC-sW.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/RecallCheck-CF9Mr5HK.js",
     "name": "RecallCheck",
     "src": "components/RecallCheck.tsx",
     "isDynamicEntry": true,
@@ -103,7 +103,7 @@
     ]
   },
   "components/SiteHeader.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-Dcv0I9P5.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-B3bV_4yc.js",
     "name": "SiteHeader",
     "src": "components/SiteHeader.tsx",
     "isDynamicEntry": true,
@@ -114,7 +114,7 @@
     ]
   },
   "components/StudyDashboard.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/StudyDashboard-dT-nsfBJ.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/StudyDashboard-BNzY3Vcx.js",
     "name": "StudyDashboard",
     "src": "components/StudyDashboard.tsx",
     "isDynamicEntry": true,
@@ -128,7 +128,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-DUOzpVhw.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-DDbbfB_0.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -139,7 +139,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/index-B_BjNkjG.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/index-BDH5_Rca.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
