@@ -103,7 +103,7 @@
     ]
   },
   "components/SiteHeader.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-B3bV_4yc.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-CHGrDouC.js",
     "name": "SiteHeader",
     "src": "components/SiteHeader.tsx",
     "isDynamicEntry": true,
@@ -128,7 +128,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-BPwC_dFA.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-Sua821Fg.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -139,7 +139,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/index-CTk3_xWA.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/index-Bqnp3S7M.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,

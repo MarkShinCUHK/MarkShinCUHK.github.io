@@ -21,6 +21,8 @@
 
 ### 2. 두 파일을 같은 폴더에 저장하세요
 
+함수의 인자 이름은 알겠는데 실제로 무엇을 넣을지 막힌다면 [템플릿 호출 매뉴얼](../templates/)부터 보세요. 작은 데이터를 직접 만드는 단계부터 설명하고, 모든 함수·모델의 인자를 값의 출처와 연결합니다. 인터넷 없이 읽을 때는 [오프라인 호출 매뉴얼](./hdat-template-guide.html)을 저장하세요.
+
 [hdat_templates.py](./hdat_templates.py)는 함수·모델 모음이고, [pytorch-problem-starter.py](./pytorch-problem-starter.py)는 이를 연결한 합성 데이터로 실행해 볼 수 있는 작은 예제입니다. 기존 하이픈 이름 `hdat-templates.py`도 같은 내용으로 유지하지만 불러올 때는 **밑줄 이름**을 쓰세요. 로컬 학습 환경에서 NumPy·pandas·scikit-learn·PyTorch가 필요합니다. 이미지 Process에는 Pillow가 필요합니다.
 
 ```bash

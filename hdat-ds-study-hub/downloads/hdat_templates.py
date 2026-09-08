@@ -1,10 +1,26 @@
 """HDAT-DS 실기용 복사·수정 템플릿.
 
-사용법
-------
-1. 이 파일 전체를 실행하려 하지 말고, 문제 유형에 맞는 ``[TAG]`` 블록을 복사한다.
-2. ``EDIT`` 주석이 붙은 값만 먼저 바꾼다.
-3. 문제에서 지정한 함수명, 변수명, 반환형, 파일명을 항상 우선한다.
+괄호 안에 무엇을 넣을지 막히면
+------------------------------
+웹: https://markshincuhk.github.io/hdat-ds-study-hub/templates/
+오프라인: hdat-template-guide.html (전체 학습 팩에서는 template-guide.html)
+01~06: 데이터 만들기 → 호출 → 반환값 사용. 07~09: 공개 API 44개 인자 사전.
+같은 폴더의 template-call-regression.py는 표 준비부터 저장까지 실행하는 예제다.
+
+학습용으로 시작하기
+------------------
+1. 이 파일을 hdat_templates.py라는 이름으로 연습 파일과 같은 폴더에 둔다.
+2. 연습 파일에서 ``import hdat_templates as h``로 불러온다.
+3. ``h.MLP(n_features=X_train.shape[1], out_dim=1)``처럼 실제 값을 넣는다.
+   X_train은 앞서 만든 전처리 후 숫자 배열이어야 한다. 문자열 "X_train"이 아니다.
+4. model은 ``h.MLP(...)``로 만든 객체, train_loader는 ``h.make_tensor_loader(...)``
+   결과다. train_torch_model은 (model, history), predict_torch는 예측 배열을 반환한다.
+5. ``help(h.train_torch_model)``로 자세한 인자 설명을 다시 볼 수 있다.
+
+시험 코드에 적용할 때
+--------------------
+문제 유형에 맞는 ``[TAG]``와 그 블록의 의존 함수를 확인한다.
+문제에서 지정한 함수명, 변수명, 반환형, 파일명이 이 연습 코드보다 항상 우선한다.
 
 시험 중 이 파일 전체를 업로드·import하거나 end-to-end 함수를 무수정 호출하지 않는다.
 필요한 작은 블록만 제공 skeleton에 옮겨 실제 열·split·metric·출력에 맞게 수정한다.
@@ -932,6 +948,17 @@ if torch is not None:
 
     # %% [TORCH-MLP] X=(N,F)
     class MLP(nn.Module):
+        """표형 모델. 먼저 전처리 후 입력 X_train=(N,F)을 만든다.
+
+        실제 호출: model = h.MLP(n_features=X_train.shape[1], out_dim=1,
+                                  hidden=(16, 8), dropout=0.0)
+        n_features: 전처리 후 F. 표본 수 N이나 원본 범주형 열 수가 아니다.
+        out_dim: 단일 회귀/이진분류 1, 다중분류 K, 다중회귀/다중라벨 D.
+        hidden: 내가 선택하거나 문제에서 지정한 은닉층 크기. (16,)은 한 층.
+        dropout: 학습 때 끌 비율. 기본 0.1. 데이터에서 자동 추정하는 값이 아니다.
+        반환: 아직 학습하지 않은 nn.Module 객체. model(xb)는 raw output (B,out_dim).
+        실제 학습·예측·저장까지는 /templates/02/의 순서대로 실행한다.
+        """
         def __init__(
             self,
             n_features: int,
@@ -1308,6 +1335,24 @@ if torch is not None:
         batch_size: int = 128,
         shuffle: bool = False,
     ):
+        """숫자 배열로 미니배치를 꺼내 주는 DataLoader를 만든다.
+
+        준비: X_train은 전처리 후 수치 NumPy 배열, y_train은 같은 행 순서의 정답.
+        tr = h.make_tensor_loader(X=X_train, y=y_train, task="regression",
+                                  batch_size=32, shuffle=True)
+        te = h.make_tensor_loader(X=X_test, y=None, task="regression",
+                                  batch_size=32, shuffle=False)
+
+        X: 표형 (N,F), 시계열 (N,T,F), 이미지 (N,C,H,W). 파일 경로/열 이름이 아님.
+        y: 회귀 수치 (N,D), 이진 0/1 (N,1), 다중분류 번호 (N,), 다중라벨 (N,L).
+           단일 목표 (N,)도 받는다. None이면 정답 없는 예측용. X와 행 대응이 같아야 함.
+        task: 정답의 의미를 나타내는 문자열. regression/binary/multiclass/multilabel.
+              이 loader는 X를 float32, 다중분류 y를 long, 나머지 y를 float32로 바꾼다.
+        batch_size: 한 번에 꺼낼 표본 수인 양의 정수. 기본 128. 열 개수와 무관.
+        shuffle: 학습 True, 검증/제출 예측 False 권장. 기본 False.
+        반환: DataLoader. 학습용은 xb, yb = next(iter(tr))로 한 배치를 확인한다.
+        희소행렬은 바로 넣지 못한다. 전처리 예제와 전체 호출: /templates/02/.
+        """
         if hasattr(X, "tocsr"):
             raise TypeError(
                 "scipy sparse를 PyTorch로 직접 넘길 수 없습니다. 작은 경우만 dense로, "
@@ -1411,7 +1456,36 @@ if torch is not None:
         maximize: bool = False,
         loss_fn=None,
     ):
-        """score_fn(y_true_numpy, raw_output_numpy): 전체 valid의 공식 지표.
+        """준비한 모델과 두 loader를 받아 학습하고 최선의 가중치를 복원한다.
+
+        먼저 model=h.MLP(...), train_loader=h.make_tensor_loader(...),
+        valid_loader=h.make_tensor_loader(...)를 실제 데이터로 만든다. 전체 예제:
+        https://markshincuhk.github.io/hdat-ds-study-hub/templates/02/
+
+        model, history = h.train_torch_model(
+            model=model, train_loader=train_loader, valid_loader=valid_loader,
+            task="regression", epochs=30, lr=0.001, patience=5, device="cpu",
+        )
+
+        model: 이미 생성한 nn.Module. "MLP"나 h.MLP 클래스 자체가 아니다.
+        train_loader/valid_loader: (xb,yb) 묶음을 내는 DataLoader 객체. 문자열 아님.
+        task: 정답에 맞는 regression/binary/multiclass/multilabel 문자열. 필수.
+        epochs: 최대 학습 반복 수(양의 정수), 기본 30. patience: 개선을 기다릴 횟수, 5.
+        lr: AdamW 학습률, 1e-3(0.001). weight_decay: 가중치 감쇠 크기, 1e-4.
+        max_seconds: 학습 시간 예산 또는 None(기본). 검증 시간까지 칼같이 끊지는 않음.
+        pos_weight: 훈련 정답에서 구한 이진 양성 가중치 숫자/다중라벨 길이 L 배열.
+        class_weight: 훈련 정답의 class 번호 순서에 맞는 길이 K 배열. 다중분류용.
+        grad_clip: 전체 기울기 norm의 제한값, 기본 1.0.
+        device: "cpu"/"cuda" 등 사용 가능한 장치. None이면 CUDA 가능 여부로 자동 선택.
+        score_fn: (검증 정답 NumPy, raw 출력 NumPy)를 받아 점수 하나를 돌려주는 함수.
+                  score_fn=my_rmse처럼 함수 자체를 전달. "rmse"나 my_rmse()가 아님.
+        maximize: 점수가 클수록 좋으면 True. score_fn을 안 주면 반드시 False.
+        loss_fn: nn.L1Loss() 등 만든 손실 객체. None이면 task에서 기본 손실을 선택.
+                 직접 주면 pos_weight/class_weight보다 loss_fn이 우선함.
+        반환: (학습된 모델, pandas DataFrame). 기록 열은 epoch/train_loss/valid_loss/monitor.
+        model_factory/config/metric이라는 인자는 없다. 모든 인자 예제: /templates/09/.
+
+        score_fn(y_true_numpy, raw_output_numpy): 전체 valid의 공식 지표.
 
         제공하지 않으면 validation loss 최소 checkpoint. metric 문자열만 바꿔도
         선택 기준이 바뀌는 것은 아니다. score_fn에서 sigmoid/softmax·원 단위 복원을
@@ -1519,6 +1593,21 @@ if torch is not None:
         threshold: float = 0.5,
         device: str | None = None,
     ) -> np.ndarray:
+        """학습된 모델과 예측용 loader를 받아 NumPy 예측 배열을 반환한다.
+
+        te = h.make_tensor_loader(X=X_test, task="binary", shuffle=False)
+        pred = h.predict_torch(model=model, loader=te, task="binary",
+                               return_proba=True, device="cpu")
+        model: train_torch_model이 돌려준 모델 객체. history나 파일 경로가 아님.
+        loader: 예측 순서대로 데이터를 주는 DataLoader. train_loader라는 인자명은 없음.
+        task: 학습 시 정한 문제 종류. return_proba 기본 False, threshold 기본 0.5.
+        return_proba=True: 이진 (N,1), 다중분류 (N,K), 다중라벨 (N,L) 확률.
+        False: 이진 (N,1)/다중라벨 (N,L) 0/1, 다중분류 (N,) class 번호.
+        threshold: 이진/다중라벨 라벨 변환에만 적용. 다중분류는 argmax.
+        회귀는 모델 원출력. 목표를 변환해 학습했다면 사용자가 원 단위로 복원한다.
+        device: None이면 CUDA 가능 여부로 자동 선택. CPU 연습은 "cpu".
+        이진 (N,1)을 제출 (N,)로 줄이려면 명세 확인 후 pred[:,0]을 사용한다.
+        """
         device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         model = model.to(device).eval()
         outputs = []

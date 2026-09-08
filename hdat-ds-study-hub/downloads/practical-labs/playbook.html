@@ -107,6 +107,7 @@ code { font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace; font-s
 </tbody></table>
 <p><strong>손실(loss), 모델 선택 기준(metric), 제출 변환은 세 가지 별도 설정</strong>입니다. MSELoss로 학습하면서 MAE로 체크포인트를 고를 수도 있습니다. 지표 이름만 바꿔도 이 세 설정이 자동으로 맞춰지지 않습니다.</p>
 <h3>2. 두 파일을 같은 폴더에 저장하세요</h3>
+<p>함수의 인자 이름은 알겠는데 실제로 무엇을 넣을지 막힌다면 <a href="template-guide.html">템플릿 호출 매뉴얼</a>부터 보세요. 작은 데이터를 직접 만드는 단계부터 설명하고, 모든 함수·모델의 인자를 값의 출처와 연결합니다. 인터넷 없이 읽을 때는 <a href="template-guide.html">오프라인 호출 매뉴얼</a>을 저장하세요.</p>
 <p><a href="./hdat_templates.py">hdat_templates.py</a>는 함수·모델 모음이고, <a href="./pytorch-problem-starter.py">pytorch-problem-starter.py</a>는 이를 연결한 합성 데이터로 실행해 볼 수 있는 작은 예제입니다. 기존 하이픈 이름 <code>hdat-templates.py</code>도 같은 내용으로 유지하지만 불러올 때는 <strong>밑줄 이름</strong>을 쓰세요. 로컬 학습 환경에서 NumPy·pandas·scikit-learn·PyTorch가 필요합니다. 이미지 Process에는 Pillow가 필요합니다.</p>
 <pre><code class="language-bash">python pytorch-problem-starter.py --case regression --epochs 3
 python pytorch-problem-starter.py --case binary --epochs 3

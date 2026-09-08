@@ -1,0 +1,108 @@
+2:I["8c0f216c4604",[],"Children",1]
+3:I["593f344dc510",[],"GlobalErrorBoundary",1]
+4:I["0b874ad30386",[],"default",1]
+5:I["593f344dc510",[],"ErrorBoundary",1]
+6:I["15c18cfaeeff",[],"LayoutSegmentProvider",1]
+7:I["8c0f216c4604",[],"Slot",1]
+8:I["9276801271d6",[],"AppRouterScrollTarget",1]
+9:I["593f344dc510",[],"RedirectBoundary",1]
+:HL["/hdat-ds-study-hub/_next/static/css/index.COtfHe_8.css","style"     ]
+0:{"__route":"route:/templates/04","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/templates/[chapter]/page","page:/templates/04":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.COtfHe_8.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.COtfHe_8.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.COtfHe_8.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/templates/04":[[["$","meta",null,{"charSet":"utf-8"}],[["$","title","0",{"children":"시계열에서 T와 F를 실제 값으로 바꾸기 | HDAT DS"}]],[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["templates","04"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/templates/04","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/templates/04"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:467b84659031f790","deploymentVersion":"b09e4206-5d79-45c5-90be-eef7c466cf6b","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/templates/04"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/templates/04","_N_T_/layout","_N_T_/templates/04","_N_T_/templates/[chapter]/layout","_N_T_/templates/[chapter]/page","_N_T_/templates/layout"],"pathTags":["/templates/04"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+a:I["326fe58ccdc4",[],"default",1]
+b:I["66e71be26559",[],"default",1]
+c:I["ad205a1e87e8",[],"default",1]
+d:T1bd6,<p>원본 센서 기록 <code>(전체 시점 수, 센서 수)</code>와 모델에 넣는 여러 구간 <code>(구간 수, 구간 길이, 센서 수)</code>는 서로 다릅니다. 아래 예제에서는 1초마다 측정한 센서 두 개를 가정합니다. 최근 4행을 보고 그 마지막 행에서 1행 뒤의 값을 예측합니다.</p>
+<h3 id="template-04-1">lookback, horizon, stride를 행 번호로 읽는다</h3>
+<div class="table-scroll" tabindex="0" role="region" aria-label="인자와 실제 값 비교 표"><table>
+<thead>
+<tr>
+<th>인자</th>
+<th>이 예제의 값</th>
+<th>첫 번째 구간에서 뜻하는 것</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>lookback=4</code></td>
+<td>과거 4행</td>
+<td>입력 행 0, 1, 2, 3</td>
+</tr>
+<tr>
+<td><code>horizon=1</code></td>
+<td>입력 마지막 행에서 1행 뒤</td>
+<td>정답 행 4</td>
+</tr>
+<tr>
+<td><code>stride=1</code></td>
+<td>구간 시작을 1행씩 이동</td>
+<td>다음 입력 행 1, 2, 3, 4</td>
+</tr>
+<tr>
+<td><code>n_features=2</code></td>
+<td>센서 2개</td>
+<td>시간 길이 4와 무관</td>
+</tr>
+<tr>
+<td><code>out_dim=1</code></td>
+<td>예측할 값 1개</td>
+<td>horizon과 별개의 개수</td>
+</tr>
+</tbody></table></div>
+<p><code>horizon=3</code>으로 바꾸면 마지막 관측점에서 3행 뒤 <strong>한 시점</strong>을 예측합니다. 앞으로 세 시점을 모두 예측하는 기능이 아닙니다. 100Hz로 일정하게 측정했다면 horizon 100은 1초에 해당하지만, 측정 간격이 불규칙하면 행 수를 초로 해석할 수 없습니다.</p>
+<h3 id="template-04-2">원본 정렬 → 누수 없는 구간 분할 → 같은 scaler 재사용</h3>
+<!-- run: timeseries -->
+<div class="code-shell"><div class="code-toolbar"><span>PYTHON · 준비 코드와 실행 순서 확인</span><button type="button" data-copy-target="template-code-04-1">복사</button></div><pre id="template-code-04-1" tabindex="0" aria-label="시계열에서 T와 F를 실제 값으로 바꾸기 코드 1"><code class="language-python">import numpy as np
+import pandas as pd
+import torch
+import hdat_templates as h
+
+h.seed_everything(42)
+torch.set_num_threads(1)
+df = pd.DataFrame({
+    "time": pd.date_range("2026-01-01", periods=40, freq="s"),
+    "temperature": np.linspace(10, 20, 40),
+    "pressure": np.sin(np.arange(40) / 5),
+    "next_value": np.linspace(20, 30, 40),
+})
+df = df.sort_values("time", kind="stable").reset_index(drop=True)
+features = df[["temperature", "pressure"]].to_numpy(dtype=np.float32)
+targets = df[["next_value"]].to_numpy(dtype=np.float32)
+train_part, valid_part, cut = h.split_raw_time_then_window(
+    features=features, targets=targets, train_ratio=0.7,
+    lookback=4, horizon=1, stride=1, gap=0,
+    assume_sorted=True, split_mode="forecast_origin", label_delay=0,
+)
+X_train_raw, y_train, train_target_rows = train_part
+X_valid_raw, y_valid, valid_target_rows = valid_part
+scaler = h.fit_scale_3d(X_train=X_train_raw)
+X_train = h.transform_scale_3d(X=X_train_raw, scaler=scaler)
+X_valid = h.transform_scale_3d(X=X_valid_raw, scaler=scaler)
+print(cut, X_train.shape, X_valid.shape)  # 28 (24, 4, 2) (11, 4, 2)
+assert train_target_rows.max() &lt; cut
+assert (valid_target_rows - 1).min() &gt;= cut
+</code></pre></div>
+<p><code>features</code>와 <code>targets</code>는 <strong>같은 표를 함께 정렬한 뒤</strong> 꺼냈습니다. 각자 정렬하면 입력과 정답의 짝이 깨집니다. <code>assume_sorted=True</code>는 함수에게 정렬을 시키는 명령이 아니라 “내가 이미 확인했다”는 선언입니다. 아직 정렬하지 않았다면 True만 적어 오류를 없애서는 안 됩니다.</p>
+<p><code>train_part</code>와 <code>valid_part</code>는 각각 세 배열을 담은 튜플입니다. 순서대로 입력 구간, 구간별 정답, 그 정답의 원본 행 위치입니다. <code>cut=28</code>은 원본에서 분할 기준으로 삼은 위치입니다. 기본 <code>forecast_origin</code> 방식은 검증의 예측 기준 시각에 학습 정답이 이미 알려져 있도록 구분합니다. 이때 검증 입력이 일부 과거 관측을 포함할 수 있습니다. 문제에서 완전히 분리된 구간이나 추가 간격을 요구한다면 <code>gap</code>과 실제 시각 조건을 다시 설계해야 합니다.</p>
+<p><code>fit_scale_3d</code>는 훈련 구간의 모든 시점에서 센서별 평균과 표준편차를 구합니다. 반환된 <code>scaler</code> 객체를 그대로 검증·테스트 변환에 넣으세요. 겹치는 구간의 관측값은 여러 번 집계됩니다. 원본 관측을 한 번씩만 세야 하는 명세라면 원본 훈련 구간에 scaler를 fit하는 별도 처리가 필요합니다.</p>
+<h3 id="template-04-3">CNN1D에는 (N, T, F)를 그대로 넣는다</h3>
+<!-- run: timeseries -->
+<div class="code-shell"><div class="code-toolbar"><span>PYTHON · 준비 코드와 실행 순서 확인</span><button type="button" data-copy-target="template-code-04-2">복사</button></div><pre id="template-code-04-2" tabindex="0" aria-label="시계열에서 T와 F를 실제 값으로 바꾸기 코드 2"><code class="language-python">tr = h.make_tensor_loader(X=X_train, y=y_train, task="regression", batch_size=8, shuffle=True)
+va = h.make_tensor_loader(X=X_valid, y=y_valid, task="regression", batch_size=8)
+model = h.CNN1D(n_features=X_train.shape[2], out_dim=y_train.shape[1], channels=(8, 16), dropout=0)
+model, history = h.train_torch_model(
+    model=model, train_loader=tr, valid_loader=va,
+    task="regression", epochs=2, device="cpu",
+)
+valid_pred = h.predict_torch(model=model, loader=va, task="regression", device="cpu")
+assert valid_pred.shape == y_valid.shape == (11, 1)
+
+# 모델을 새로 만드는 예: 아래 모델은 아직 학습되지 않았다.
+rnn = h.SequenceRNN(n_features=2, out_dim=1, hidden_size=8, kind="lstm")
+with torch.no_grad():
+    assert rnn(torch.from_numpy(X_valid[:2])).shape == (2, 1)
+</code></pre></div>
+<p>일반적인 <code>torch.nn.Conv1d</code>는 <code>(B, F, T)</code>를 받지만 <strong>이 파일의 <code>h.CNN1D</code>는 내부에서 축을 바꿉니다.</strong> 앞에서 다시 <code>permute</code>하면 오히려 시간과 센서가 뒤집힙니다. <code>SequenceRNN</code>도 <code>(B, T, F)</code>를 받습니다. <code>n_features=X_train.shape[2]</code>는 마지막 축의 센서 수 2입니다. RNN의 <code>hidden_size=8</code>은 내부 기억 벡터의 크기이지 입력 센서 수가 아닙니다.</p>
+<p>이 예제는 검증 예측까지입니다. 실제 제출에서 정답 없는 긴 기록을 구간으로 만들 때는 <strong>제출의 각 행이 어느 시작 위치와 대응하는지</strong> 알아야 합니다. 임의로 <code>np.arange(...)</code>를 만들고 제출 행 수만 맞추면 시점이 어긋날 수 있습니다. 07장의 <code>LazyWindowDataset</code> 예제에서 <code>starts</code>의 의미를 확인하세요. 여러 차량이 섞여 있으면 그룹을 넘는 구간도 막아야 합니다. 그룹별 구간 생성은 그룹별 검증 분할까지 자동으로 보장하지는 않습니다.</p>
+1:[["$","$La",null,{"active":"playbook"}],["$","div",null,{"className":"playbook-layout shell-wide","children":[["$","aside",null,{"className":"playbook-sidebar","children":[["$","a",null,{"className":"sidebar-back","href":"/hdat-ds-study-hub/templates/","children":"← 템플릿 호출 매뉴얼"}],["$","nav",null,{"aria-label":"호출 매뉴얼 장 목록","children":[["$","a","01",{"href":"/hdat-ds-study-hub/templates/01/","aria-current":"$undefined","children":[["$","span",null,{"children":"01"}],"함수의 괄호를 읽는 법부터"]}],["$","a","02",{"href":"/hdat-ds-study-hub/templates/02/","aria-current":"$undefined","children":[["$","span",null,{"children":"02"}],"표 데이터 하나로 처음부터 끝까지 호출하기"]}],["$","a","03",{"href":"/hdat-ds-study-hub/templates/03/","aria-current":"$undefined","children":[["$","span",null,{"children":"03"}],"회귀를 분류로 바꿀 때 함께 바꿀 것"]}],["$","a","04",{"href":"/hdat-ds-study-hub/templates/04/","aria-current":"page","children":[["$","span",null,{"children":"04"}],"시계열에서 T와 F를 실제 값으로 바꾸기"]}],["$","a","05",{"href":"/hdat-ds-study-hub/templates/05/","aria-current":"$undefined","children":[["$","span",null,{"children":"05"}],"이미지와 오토인코더는 어디가 다른가요?"]}],["$","a","06",{"href":"/hdat-ds-study-hub/templates/06/","aria-current":"$undefined","children":[["$","span",null,{"children":"06"}],"지표·손실·저장 인자를 내 문제에 맞추기"]}],["$","a","07",{"href":"/hdat-ds-study-hub/templates/07/","aria-current":"$undefined","children":[["$","span",null,{"children":"07"}],"입력·전처리·분할·저장 함수 사전"]}],["$","a","08",{"href":"/hdat-ds-study-hub/templates/08/","aria-current":"$undefined","children":[["$","span",null,{"children":"08"}],"모델을 만드는 인자 사전"]}],["$","a","09",{"href":"/hdat-ds-study-hub/templates/09/","aria-current":"$undefined","children":[["$","span",null,{"children":"09"}],"loader·학습·예측의 모든 인자"]}]]}]]}],["$","main",null,{"id":"main-content","className":"playbook-article","data-playbook":true,"children":[["$","header",null,{"className":"lesson-header","children":[["$","p",null,{"className":"micro-label","children":["hdat_templates · 호출 매뉴얼 ","04"]}],["$","h1",null,{"children":"시계열에서 T와 F를 실제 값으로 바꾸기"}],["$","p",null,{"className":"playbook-note","children":"정의 → 값의 출처 → 호출 → 반환값 → 다음 단계"}]]}],["$","details",null,{"className":"playbook-mobile-list","children":[["$","summary",null,{"children":"매뉴얼의 다른 장 고르기"}],["$","nav",null,{"children":[["$","a","01",{"href":"/hdat-ds-study-hub/templates/01/","aria-current":"$undefined","children":["01",". ","함수의 괄호를 읽는 법부터"]}],["$","a","02",{"href":"/hdat-ds-study-hub/templates/02/","aria-current":"$undefined","children":["02",". ","표 데이터 하나로 처음부터 끝까지 호출하기"]}],["$","a","03",{"href":"/hdat-ds-study-hub/templates/03/","aria-current":"$undefined","children":["03",". ","회귀를 분류로 바꿀 때 함께 바꿀 것"]}],["$","a","04",{"href":"/hdat-ds-study-hub/templates/04/","aria-current":"page","children":["04",". ","시계열에서 T와 F를 실제 값으로 바꾸기"]}],["$","a","05",{"href":"/hdat-ds-study-hub/templates/05/","aria-current":"$undefined","children":["05",". ","이미지와 오토인코더는 어디가 다른가요?"]}],["$","a","06",{"href":"/hdat-ds-study-hub/templates/06/","aria-current":"$undefined","children":["06",". ","지표·손실·저장 인자를 내 문제에 맞추기"]}],["$","a","07",{"href":"/hdat-ds-study-hub/templates/07/","aria-current":"$undefined","children":["07",". ","입력·전처리·분할·저장 함수 사전"]}],["$","a","08",{"href":"/hdat-ds-study-hub/templates/08/","aria-current":"$undefined","children":["08",". ","모델을 만드는 인자 사전"]}],["$","a","09",{"href":"/hdat-ds-study-hub/templates/09/","aria-current":"$undefined","children":["09",". ","loader·학습·예측의 모든 인자"]}]]}]]}],["$","nav",null,{"className":"playbook-section-toc","aria-label":"현재 장 목차","children":[["$","a","template-04-1",{"href":"#template-04-1","children":"lookback, horizon, stride를 행 번호로 읽는다"}],["$","a","template-04-2",{"href":"#template-04-2","children":"원본 정렬 → 누수 없는 구간 분할 → 같은 scaler 재사용"}],["$","a","template-04-3",{"href":"#template-04-3","children":"CNN1D에는 (N, T, F)를 그대로 넣는다"}]]}],["$","$Lb",null,{}],["$","$Lc",null,{"recipe":"template-04"}],["$","section",null,{"className":"template-download-note","aria-label":"현재 장 실행 파일","children":[["$","strong",null,{"children":"같은 예제를 파일로 실행하기"}],["$","p",null,{"children":"각 파일은 독립 실행입니다. 한 파일 안의 셀들은 위에서 아래로 이어집니다. hdat_templates.py와 같은 폴더에 저장하세요."}],["$","div",null,{"className":"playbook-actions","children":[["$","a","timeseries",{"href":"/hdat-ds-study-hub/downloads/template-call-timeseries.py","download":true,"children":["timeseries",".py ↓"]}]]}]]}],["$","div",null,{"className":"lesson-content playbook-content template-content","dangerouslySetInnerHTML":{"__html":"$d"}}],"$Le","$Lf"]}]]}],"$L10"]
+e:["$","div",null,{"className":"playbook-bottom","children":[["$","a",null,{"href":"/hdat-ds-study-hub/templates/09/","children":"학습 함수의 모든 인자"}],["$","a",null,{"href":"/hdat-ds-study-hub/playbook/","children":"문제 유형별 풀이"}],["$","a",null,{"href":"/hdat-ds-study-hub/downloads/hdat-template-guide.html","download":true,"children":"오프라인 매뉴얼 ↓"}]]}]
+f:["$","nav",null,{"className":"lesson-pager","aria-label":"호출 매뉴얼 앞뒤 이동","children":[["$","a",null,{"href":"/hdat-ds-study-hub/templates/03/","children":["← ","회귀를 분류로 바꿀 때 함께 바꿀 것"]}],["$","a",null,{"href":"/hdat-ds-study-hub/templates/05/","children":["이미지와 오토인코더는 어디가 다른가요?"," →"]}]]}]
+10:["$","footer",null,{"className":"site-footer","children":[["$","div",null,{"className":"shell footer-grid","children":[["$","div",null,{"children":[["$","strong",null,{"children":"HDAT DS · PyTorch Study Room"}],["$","p",null,{"children":"Python을 처음 배우는 사람도 데이터 분석부터 차근차근 공부할 수 있도록 만든 개인 학습 자료입니다."}]]}],["$","nav",null,{"aria-label":"하단 메뉴","children":[["$","a",null,{"href":"/hdat-ds-study-hub/start/","children":"Python 기초 10강"}],["$","a",null,{"href":"/hdat-ds-study-hub/learn/","children":"HDAT 본과정 34강"}],["$","a",null,{"href":"/hdat-ds-study-hub/practice/","children":"실전 연습"}],["$","a",null,{"href":"/hdat-ds-study-hub/resources/","children":"자료실"}],["$","a",null,{"href":"/hdat-ds-study-hub/cheatsheet.html","children":"로컬 치트시트"}]]}]]}],["$","p",null,{"className":"legal shell","children":"이 사이트는 개인 학습용 비공식 자료이며 현대자동차그룹 또는 현대엔지비의 공식 사이트가 아닙니다. 시험 당일 문제 지시, 제공 스켈레톤, 공식 규정과 감독관 안내가 항상 우선합니다."}]]}]
