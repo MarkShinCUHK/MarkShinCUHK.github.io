@@ -500,7 +500,9 @@ np.testing.assert_array_equal(reloaded, p)
 </tr>
 </tbody></table>
 <h3>마지막 30초</h3>
-<p>함수명·변수명·파일명, Process/Problem 각각 저장, test 행 순서, 출력 종류·shape·dtype, NaN/Inf, 저장 후 reload, 제출 완료 표시를 확인합니다. 문항 재방문을 가정한 운영은 피하고 당일 이동 규칙을 먼저 확인하세요.</p>
+<p>함수명·변수명·파일명, test 행 순서, 출력 종류·shape·dtype, NaN/Inf를 먼저 검사합니다. <strong>Ctrl+S → Autosaved 확인 → 기존 저장 셀 실행·예측 파일 확인 → 다시 저장 → Process/Problem 각각 제출 → 정상 제출 팝업·로그 확인</strong>까지 마쳐야 합니다. 파일 생성과 노트북 저장만으로 제출이 끝난 것은 아닙니다. Autosave Failed·연결 오류는 감독관에게 알리고, 테스트 종료 후에는 다시 수정할 수 없습니다. <a href="https://hdat.gitbook.io/2026-hdat-ds/undefined/undefined/6.-2/1/undefined-1.md">공식 저장 안내</a></p>
+<p>2026 안내에서는 170분 안에 문항 간 이동이 가능합니다. 이동 전에 저장하고 이전 런박스 연결 해제 → 새 문항 연결 절차를 따르세요. <strong>세팅 중에는 이동·새로고침하지 않습니다.</strong> 왼쪽 런박스 시간과 오른쪽 상단 시험 잔여시간을 구분하세요. One-way는 자료 참고 방식이지 문항 이동 금지라는 뜻이 아닙니다. <a href="https://hdat.gitbook.io/2026-hdat-ds/undefined/undefined/6.-2/3.md">문항 이동 안내</a></p>
+<p>로컬 <code>import hdat_templates as h</code>를 시험 제출 방식으로 오해하지 마세요. 문제에서 허용한 작성영역에 필요한 import·정의·호출을 배치하고 기존 저장 셀이 참조하는 변수로 연결합니다. 추가 <code>.py</code> 파일이 자동 제출된다고 가정하지 않습니다. 패키지 설치 허용과 작성영역·제출 계약은 별개입니다. 필기는 자료·검색 불가이고 실기는 허용된 단방향 참고만 가능합니다. 생성형 AI·검색 AI 답변·GitHub·Colab·Kaggle·Notion·메일·메신저는 사용하지 말고 문제 데이터는 제공 IDE 밖에서 처리하지 마세요. <a href="https://hdat.gitbook.io/2026-hdat-ds/faq/3..md">공식 FAQ</a></p>
 <h2 id="recipe-14">14. 부록 · ResNet·Transformer·VAE·GAN의 지원 경계</h2>
 <p>이 구조들은 공개 학습 범위에 포함되지만 <strong>이름이 범위에 있다고 모든 것이 특정 실기 유형으로 출제된다는 뜻은 아닙니다.</strong> 구조가 직접 지정되면 정확히 구현하고, 자유 모델 선택 문제에서는 작은 baseline 이후 validation 근거가 있을 때 비교하세요.</p>
 <table>

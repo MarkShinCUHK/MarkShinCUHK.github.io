@@ -26,7 +26,7 @@
     ]
   },
   "components/LessonClient.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/LessonClient-DelhzYUh.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/LessonClient-Cen9PSat.js",
     "name": "LessonClient",
     "src": "components/LessonClient.tsx",
     "isDynamicEntry": true,
@@ -37,7 +37,7 @@
     ]
   },
   "components/PlaybookCopy.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/PlaybookCopy-B29pE1fP.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/PlaybookCopy-C5988D-w.js",
     "name": "PlaybookCopy",
     "src": "components/PlaybookCopy.tsx",
     "isDynamicEntry": true,
@@ -81,6 +81,16 @@
       "_framework-CQnNz__K.js"
     ]
   },
+  "components/ReadingTools.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/ReadingTools-DjPzqCjP.js",
+    "name": "ReadingTools",
+    "src": "components/ReadingTools.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "_framework-CQnNz__K.js"
+    ]
+  },
   "components/RecallCheck.tsx": {
     "file": "hdat-ds-study-hub/_next/static/chunks/RecallCheck-CtkvC-sW.js",
     "name": "RecallCheck",
@@ -93,7 +103,7 @@
     ]
   },
   "components/SiteHeader.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-B99244Q3.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-Dcv0I9P5.js",
     "name": "SiteHeader",
     "src": "components/SiteHeader.tsx",
     "isDynamicEntry": true,
@@ -104,7 +114,7 @@
     ]
   },
   "components/StudyDashboard.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/StudyDashboard-BUwvAUcw.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/StudyDashboard-B4ayF6Wn.js",
     "name": "StudyDashboard",
     "src": "components/StudyDashboard.tsx",
     "isDynamicEntry": true,
@@ -118,7 +128,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-BjNVCV4A.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-QpqyP5UT.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -129,7 +139,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/index-s43iJprX.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/index-HwmEYG5p.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -146,6 +156,7 @@
       "components/StudyDashboard.tsx",
       "components/SiteHeader.tsx",
       "components/PracticeQuiz.tsx",
+      "components/ReadingTools.tsx",
       "components/ProgressSummary.tsx",
       "components/PlaybookCopy.tsx",
       "components/LessonClient.tsx"

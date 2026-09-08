@@ -407,10 +407,12 @@ def evaluate_predictions(
     y_pred,
     metric: str,
     y_score=None,
+    task: str | None = None,
 ) -> float:
     """대표 metric 계산.
 
-    다중출력 분류의 accuracy/F1은 열별 점수 평균이다. 실제 문제의 공식 산식이
+    task='multilabel'은 subset accuracy / label-macro F1이다.
+    그 밖의 다중출력 분류 accuracy/F1은 열별 점수 평균이다. 실제 문제의 공식 산식이
     다르면 이 helper를 쓰지 말고 명시된 산식을 그대로 구현한다.
     """
     from sklearn.metrics import (
@@ -438,6 +440,8 @@ def evaluate_predictions(
         clipped = np.clip(np.asarray(y_pred), 0, None)
         return float(mean_squared_log_error(y_true_arr, clipped) ** 0.5)
     if metric == "accuracy":
+        if task == "multilabel":
+            return float(accuracy_score(y_true, y_pred))
         if y_true_arr.ndim == 2 and y_true_arr.shape[1] > 1:
             return float(
                 np.mean(
@@ -447,6 +451,13 @@ def evaluate_predictions(
             )
         return float(accuracy_score(y_true, y_pred))
     if metric in {"f1", "f1_macro"}:
+        if task == "multilabel":
+            true = y_true_arr.reshape(len(y_true_arr), -1)
+            pred = y_pred_arr.reshape(len(y_pred_arr), -1)
+            if true.shape != pred.shape or not set(np.unique(true)).issubset({0, 1}):
+                raise ValueError("multilabel은 같은 shape의 0/1 indicator여야 합니다.")
+            return float(np.mean([f1_score(true[:, j], pred[:, j], average="binary", zero_division=0)
+                                  for j in range(true.shape[1])]))
         if y_true_arr.ndim == 2 and y_true_arr.shape[1] > 1:
             return float(
                 np.mean(
@@ -524,6 +535,8 @@ def fit_tabular_baseline(
     assert_frame_contract(train, test, cfg.target_cols, cfg.drop_cols)
 
     target_cols = list(cfg.target_cols)
+    if cfg.task in {"binary", "multiclass"} and len(target_cols) != 1:
+        raise ValueError("binary/multiclass wrapper는 단일 target만 지원합니다. 다중 head는 전용 루프를 쓰세요.")
     y = train[target_cols].copy()
     if len(target_cols) == 1:
         y = y.iloc[:, 0]
@@ -601,6 +614,7 @@ def fit_tabular_baseline(
         valid_pred,
         cfg.metric,
         y_score=valid_score,
+        task=cfg.task,
     )
     print(f"validation {cfg.metric} = {metric_value:.6f}")
 
@@ -636,6 +650,13 @@ def predict_tabular_probabilities(pipe, X, task, positive_label=1, class_order=N
             raise ValueError("class_order는 모든 class를 중복 없이 포함해야 합니다.")
         return probabilities[:, [list(classes).index(label) for label in order]]
     if task == "multilabel":
+        # 단일 label은 sklearn이 보통 단일 estimator의 (N,2)를 돌려준다.
+        if isinstance(probabilities, np.ndarray):
+            labels = list(classes)
+            if not set(labels).issubset({0, 1}):
+                raise ValueError("multilabel은 0/1 indicator만 지원합니다.")
+            column = probabilities[:, labels.index(1)] if 1 in labels else np.zeros(len(X))
+            return column[:, None]
         columns = []
         for probability, labels in zip(probabilities, classes):
             if not set(labels).issubset({0, 1}):
@@ -1300,6 +1321,12 @@ if torch is not None:
             if len(y_arr) != len(X_tensor):
                 raise ValueError("X와 y 길이가 다릅니다.")
             if task == "multiclass":
+                if y_arr.ndim not in {1, 2} or (y_arr.ndim == 2 and y_arr.shape[1] != 1):
+                    raise ValueError("multiclass target은 class index (N,) 또는 (N,1)이어야 합니다.")
+                if (not np.issubdtype(y_arr.dtype, np.number)
+                        or np.iscomplexobj(y_arr) or not np.isfinite(y_arr).all()
+                        or np.any(y_arr < 0) or np.any(y_arr != np.floor(y_arr))):
+                    raise ValueError("multiclass target은 유한한 0 이상의 정수 class index여야 합니다. 원래 label은 먼저 mapping하세요.")
                 y_tensor = torch.as_tensor(y_arr.reshape(-1), dtype=torch.long)
             else:
                 if task == "binary" and not set(np.unique(y_arr)).issubset({0, 1}):
@@ -1335,7 +1362,17 @@ if torch is not None:
         xb, yb = xb.to(device), yb.to(device)
         logits = model(xb)
         if task == "multiclass":
+            if yb.ndim not in {1, 2} or (yb.ndim == 2 and yb.shape[1] != 1):
+                raise ValueError("공통 multiclass 루프는 hard class index만 지원합니다. soft target은 전용 루프를 쓰세요.")
+            if (yb.is_complex() or not torch.isfinite(yb).all()
+                    or (yb.is_floating_point() and not torch.equal(yb, yb.floor()))):
+                raise ValueError("target은 유한한 정수 class index여야 합니다.")
             yb = yb.long().reshape(-1)
+            if logits.ndim != 2 or logits.shape[0] != len(yb):
+                raise ValueError("multiclass output은 (N,C), target은 (N,)이어야 합니다.")
+            keep = yb != getattr(criterion, "ignore_index", -100)
+            if torch.any((yb[keep] < 0) | (yb[keep] >= logits.shape[1])):
+                raise ValueError("class index가 output 범위 0..C-1 밖입니다.")
         else:
             yb = yb.float()
             if logits.ndim == 2 and yb.ndim == 1:
@@ -1384,6 +1421,10 @@ if torch is not None:
         """
         if len(train_loader.dataset) == 0 or len(valid_loader.dataset) == 0:
             raise ValueError("train/validation Dataset이 비었습니다.")
+        if getattr(valid_loader, "drop_last", False):
+            raise ValueError("validation drop_last=True는 일부 표본을 누락합니다. False로 설정하세요.")
+        if len(train_loader) == 0 or len(valid_loader) == 0:
+            raise ValueError("train/validation batch가 없습니다. batch_size와 drop_last를 확인하세요.")
         device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         model = model.to(device)
         criterion = loss_fn if loss_fn is not None else make_torch_loss(task, pos_weight, class_weight)
@@ -1433,6 +1474,8 @@ if torch is not None:
                         score_targets.append(yb.detach().cpu().numpy())
                         score_outputs.append(model(xb.to(device)).detach().cpu().numpy())
 
+            if train_n <= 0 or valid_n <= 0:
+                raise ValueError("train/validation에서 유효한 batch가 나오지 않았습니다.")
             train_loss = train_sum / train_n
             valid_loss = valid_sum / valid_n
             score = valid_loss if score_fn is None else float(score_fn(
@@ -1484,6 +1527,8 @@ if torch is not None:
                 xb = batch[0] if isinstance(batch, (tuple, list)) else batch
                 xb = xb.to(device)
                 logits = model(xb)
+                if not torch.isfinite(logits).all():
+                    raise ValueError("prediction raw output에 NaN/Inf가 있습니다. label 변환 전에 모델·입력을 점검하세요.")
                 if task in {"binary", "multilabel"}:
                     prob = torch.sigmoid(logits)
                     out = prob if return_proba else (prob >= threshold).long()

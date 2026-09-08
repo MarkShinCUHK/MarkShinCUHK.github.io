@@ -916,7 +916,7 @@ schema와 데이터 생성 구조는 전체 train에서 확인해도 되지만, 
 
 ### 8.3 이상치
 
-IQR 규칙은 `Q1-1.5×IQR` 밖을 flag한다. 그러나 “통계적 극단값”과 “오류”는 다르다. 고장 예측에서 극단 sensor 값은 가장 중요한 신호일 수 있다.
+IQR은 `Q3−Q1`이다. 하한 `Q1−1.5×IQR`보다 작거나 상한 `Q3+1.5×IQR`보다 큰 값을 flag한다. 예를 들어 Q1=10, Q3=14이면 IQR=4, 경계는 4와 20이다. 경계값 자체는 이상치로 표시하지 않는다. 그러나 “통계적 극단값”과 “오류”는 다르다. 고장 예측에서 극단 sensor 값은 가장 중요한 신호일 수 있다.
 
 선택지:
 
@@ -1779,7 +1779,7 @@ assert x.shape == (2, 2)
 | 다중분류 | `float32` | `long`, `[B]` class index |
 | multilabel | `float32` | `float32`, `[B,K]` |
 
-`CrossEntropyLoss` target에 one-hot이나 float class index를 넣지 않는다.
+이 강의의 기본 class-index 경로에서는 `CrossEntropyLoss` target을 `(N,)`, `torch.long`, 값 `0..C−1`로 준비한다. float 값을 long으로 바꾸기 전에 정수인지 확인한다. PyTorch는 `(N,C)` 확률 target도 지원하지만 이는 soft-target용 별도 경로이며 class index와 혼합하지 않는다(17.9 참고).
 
 ### 16.4 device
 
@@ -2721,7 +2721,7 @@ Transformer는 padding mask를 attention에 전달한다. padding 값을 0으로
 
 ### 22.10 완료 기준
 
-- [ ] LSTM 네 gate 역할과 두 state를 설명한다.
+- [ ] LSTM의 세 gate(input·forget·output), candidate, 두 state(h·c)를 구분해 설명한다.
 - [ ] CNN1D와 GRU 모델을 같은 output 계약으로 교체한다.
 - [ ] padded sequence의 마지막 시점 함정을 안다.
 
@@ -3819,8 +3819,8 @@ Task B: 세로 pattern만 정상으로 AE 학습, 가로/대각선 anomaly 탐�
 ### 30.2 절대 규칙
 
 1. 제공 변수명·파일명·저장 cell을 임의로 바꾸지 않는다.
-2. 코드 수정 후 `Ctrl+S`로 수동 저장한다.
-3. Process와 Problem을 각각 제출한다.
+2. 코드 수정 후 `Ctrl+S`로 저장하고 `Autosaved`를 확인한다. 기존 저장 셀을 실행해 예측 파일을 검사한 뒤 다시 저장한다.
+3. Process와 Problem을 각각 제출하고 정상 제출 팝업·로그를 확인한다. 파일 생성·노트북 저장·문항 제출은 별개다. Autosave Failed나 연결 오류는 감독관에게 알린다. 테스트 종료 후에는 수정할 수 없다.
 4. 제출 파일을 먼저 만들고 성능을 개선한다.
 5. test row order를 보존한다.
 6. 전체 helper를 통째 import하거나 완성 pipeline을 무수정 복사하지 않고 필요한 블록만 사용한다.
@@ -3844,6 +3844,8 @@ def validate_prediction(pred, expected_shape, name="prediction"):
 문제에서 dtype을 지정했을 때만 변환한다. float32 변환 후 overflow가 생길 수 있어 다시 검사한다.
 
 ### 30.4 NPY
+
+아래는 개인 연습에서 저장 원리를 확인하는 코드다. 실제 답안의 기존 저장 셀을 교체하지 말고, 그 셀이 참조하는 변수에 검증된 예측을 연결한다. 변수·파일명·대소문자·경로·Notebook 이름은 당일 스켈레톤 그대로 둔다.
 
 ```python
 pred = validate_prediction(pred, (len(test), OUT_DIM))
