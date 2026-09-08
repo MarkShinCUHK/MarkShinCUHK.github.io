@@ -167,18 +167,22 @@ def inspect(name, x):
 
 ### 2.3 축을 문장으로 읽기
 
-`X.shape == (64, 20, 23)`을 보면 “배치 64개, 각 샘플은 과거 20시점, 시점당 23특성”이라고 읽는다. `Linear`는 마지막 축을 feature로 본다. `Conv1d`는 `[B,C,T]`, `RNN/LSTM/GRU`에 `batch_first=True`를 쓰면 `[B,T,F]`, `Conv2d`는 `[B,C,H,W]`다.
+`X.shape == (64, 20, 23)`이 시계열 mini-batch라는 계약이면 “한 배치에 샘플 64개, 각 샘플은 과거 20시점, 시점당 23특성”이라고 읽는다. shape만으로 축의 의미가 정해지는 것은 아니다. `Linear`는 마지막 축을 feature로 본다. `Conv1d`는 `[B,C,T]`, `RNN/LSTM/GRU`에 `batch_first=True`를 쓰면 `[B,T,F]`, `Conv2d`는 `[B,C,H,W]`다.
+
+기호부터 낯설다면 [입문 6강: shape를 처음부터 읽기](https://markshincuhk.github.io/hdat-ds-study-hub/start/06/#start-06-1)를 먼저 읽는다. B=배치 안의 샘플 수, F=특성 수, T=시간 단계 수, C=채널 수, H/W=이미지 높이/너비, K=여기서는 클래스 수다. 전체 샘플 수 N과 B는 다르다. 다른 절에서 같은 글자를 은닉 크기·커널 크기 등에 쓸 때는 그 절의 정의를 따른다.
 
 ```text
 표형 MLP       [B, F]
-시계열 원본    [B, T, F]
+시계열 배치    [B, T, F]  ← window로 묶은 샘플 B개
 Conv1d 입력    [B, F, T]  ← permute(0, 2, 1)
-RNN 입력       [B, T, F]
+RNN 입력       [B, T, F]  ← batch_first=True일 때
 이미지 Conv2d  [B, C, H, W]
-다중분류 logit [B, K]
+다중분류 logit [B, K]     ← 샘플마다 클래스 점수 K개
 ```
 
-`reshape`는 원소 수를 바꾸지 않는다. `permute`는 축 순서를 바꾼다. 두 연산을 혼동하지 않는다.
+원본 시계열 CSV는 `[전체 시점 수,F]`인 긴 표일 수 있다. window를 만들고 배치로 묶은 뒤 `[B,T,F]`가 된다. RNN의 기본값 `batch_first=False`에서는 `[T,B,F]`를 받으며, 은닉 상태는 별도의 축 순서를 따른다. logits는 확률이 아니며 `argmax(dim=1)`로 샘플마다 클래스 번호 하나를 고르면 `[B]`가 된다.
+
+`reshape`는 원소 수를 바꾸지 않는다. `permute(0,2,1)`는 기존 축을 0번·2번·1번 순서로 놓는다. 시간·특성 축 교환을 reshape로 대체하지 않는다. broadcasting은 축 교환이 아니라 원소별 계산에서 값을 반복 적용하는 규칙이다. [같은 숫자로 비교하는 예제](https://markshincuhk.github.io/hdat-ds-study-hub/start/06/#start-06-5)에서 값의 대응까지 확인한다.
 
 ### 2.4 indexing과 경계
 
@@ -222,11 +226,11 @@ assert a[1] == 999
 
 ### 2.6 broadcasting
 
-뒤쪽 축부터 크기가 같거나 한쪽이 1이면 broadcasting이 가능하다.
+원소별 덧셈·뺄셈 등의 broadcasting은 뒤쪽 축부터 크기가 같거나 한쪽이 1이면 가능하다. 없는 왼쪽 축은 크기 1로 맞춰 읽는다. 숫자 하나를 배열의 모든 원소에 더하는 것도 broadcasting이다. 반복 적용은 개념적인 설명이며 반복된 입력 전체를 복사할 필요는 없다. [입문 6강의 손계산·PyTorch 예제와 회귀 함정](https://markshincuhk.github.io/hdat-ds-study-hub/start/06/#start-06-6)으로 확인한다.
 
 - `[B,F] + [F] → [B,F]`
 - `[B,T,F] + [F] → [B,T,F]`
-- `[B,T,F] + [T]`는 일반적으로 불가능하다. `[T]`는 마지막 축 `F`와 비교되기 때문이다.
+- `[B,T,F] + [T]`에서 `[T]`는 마지막 축 `F`와 비교된다. T와 F가 다르고 둘 다 1이 아니면 불가능하다. T=F이면 실행되어도 시간별 값이 아니라 특성별 값처럼 적용된다.
 - 시점별 값을 더하려면 `[1,T,1]`로 만든다.
 
 의도하지 않은 broadcasting은 오류 없이 잘못된 loss를 만든다. 예를 들어 예측 `[B,1]`과 정답 `[B]`를 MSE에 넣으면 `[B,B]`로 확장될 수 있다. 회귀에서는 둘 다 `[B]` 또는 둘 다 `[B,1]`로 맞춘다.
@@ -283,30 +287,86 @@ def selected_minmax(df, columns):
 
 ### 3.1 학습 목표
 
-- train/test의 열 계약과 target 계약을 검사한다.
-- 결측, 무한대, 중복, 혼합 dtype을 안전하게 찾는다.
-- 정렬·groupby·시간 파생변수를 원래 행 순서와 혼동하지 않는다.
-- 큰 데이터를 전부 복사하지 않고 요약한다.
+- train·test·feature·target이 무엇인지 작은 표로 설명한다.
+- 빈칸·무한대·중복·자료형을 확인하고 처리 이유를 말한다.
+- merge와 groupby의 결과 행 수를 예상하고 정렬 후 예측 순서를 복원한다.
+- 간단한 검사 함수를 실행하고 큰 배열의 메모리를 만들기 전에 계산한다.
 
 ### 3.2 2분 EDA의 순서
+
+#### 먼저 상황부터: 자동차의 연비를 예측하고 싶다
+
+이번 강의에서 **데이터 계약은 “모델에 줄 표가 지켜야 하는 약속”**이다. 어려운 법률 용어가 아니다. 예를 들어 “한 행은 자동차 한 대, 입력 열은 무게·속도 순서, 정답은 연비, 제출도 처음 받은 자동차 순서”라는 약속이다. 코드가 실행되어도 무게와 속도를 뒤집거나 다른 자동차의 예측을 제출하면 틀린 결과다.
+
+처음부터 2분 안에 할 필요는 없다. 먼저 아래 예제를 천천히 읽고 직접 실행한 뒤, 익숙해졌을 때 점검 속도를 줄인다. 이번 강의는 모델을 학습하기 **전**에 표를 점검하는 단계다. pandas 자체가 낯설면 [입문 7강의 DataFrame 읽기](https://markshincuhk.github.io/hdat-ds-study-hub/start/07/)와 [입문 8강의 데이터 정리](https://markshincuhk.github.io/hdat-ds-study-hub/start/08/)를 함께 본다.
+
+| 용어 | 쉬운 뜻 | 이번 예제 |
+|---|---|---|
+| DataFrame | 이름 붙은 행과 열이 있는 표 | `train`, `test` |
+| Series | 표에서 꺼낸 한 열 | `train["speed"]` |
+| train | 정답을 보고 규칙을 배우는 학습 데이터 | 연비 열이 있다 |
+| test | 학습한 규칙으로 정답을 예측할 데이터 | 연비 열이 없다 |
+| feature, X | 예측에 사용할 입력 정보 | 무게·속도 |
+| target, y | 예측하려는 정답 | 연비 |
+| ID | 어떤 자동차인지 식별하는 번호 | `vehicle_id`; 이 예제에서는 입력에서 제외 |
+| dtype | 값의 자료형 | 숫자·문자·날짜 등 |
+| schema | 열 이름·순서·자료형 같은 표의 구조 | 무게 다음 속도 |
+| EDA | 학습 전에 크기·분포·이상한 값을 살펴보는 일 | 빈칸이 몇 개인지 확인 |
+
+아래 코드 하나만 새 셀에서 실행해도 된다. 외부 CSV 파일은 필요 없다.
 
 ```python
 import numpy as np
 import pandas as pd
 
-print("train/test:", train.shape, test.shape)
-print("target dtype/missing:", train[TARGET].dtype, train[TARGET].isna().sum())
-print("duplicate rows:", train.duplicated().sum())
-print(train.dtypes.value_counts())
-print(train[TARGET].describe(include="all"))
+train = pd.DataFrame({
+    "vehicle_id": ["A", "B", "C"],
+    "weight": [1000., 1200., 1100.],
+    "speed": [40., 60., 50.],
+    "fuel_efficiency": [16., 12., 14.],
+})
+test = pd.DataFrame({
+    "vehicle_id": ["D", "E"],
+    "speed": [45., 55.],  # 일부러 train과 열 순서를 다르게 둠
+    "weight": [1050., 1150.],
+})
+TARGET = "fuel_efficiency"  # 변수 안에는 열 이름 문자열을 저장
+FEATURES = ["weight", "speed"]
 
-feature_cols = [c for c in train.columns if c != TARGET]
-missing_in_test = sorted(set(feature_cols) - set(test.columns))
-extra_in_test = sorted(set(test.columns) - set(feature_cols))
-print("missing/extra:", missing_in_test, extra_in_test)
+print(train.to_string(index=False))
+print("train/test:", train.shape, test.shape)
+print("정답:", train[TARGET].tolist())
+print("열별 빈칸:", train.isna().sum().to_dict())
+print("완전히 같은 중복 행:", int(train.duplicated().sum()))
+
+missing = [column for column in FEATURES if column not in test.columns]
+if missing:
+    raise ValueError(f"test에 필요한 열이 없습니다: {missing}")
+X_train = train[FEATURES]  # FEATURES에 적은 순서대로 두 열 선택
+X_test = test[FEATURES]    # 같은 열 순서로 맞춤
+y_train = train[TARGET]   # 정답 열 하나 선택
+print("입력 열 순서:", X_train.columns.tolist(), X_test.columns.tolist())
+print("X_train/X_test/y:", X_train.shape, X_test.shape, y_train.shape)
+assert X_train.columns.tolist() == X_test.columns.tolist()
 ```
 
-여기서 확인하는 것은 “데이터가 깨끗한가?”가 아니라 **문제 계약이 무엇인가?**다.
+주요 결과는 train/test가 `(3,4)`와 `(2,3)`, 정답 목록이 `[16.0,12.0,14.0]`, X_train/X_test/y가 `(3,2)`, `(2,2)`, `(3,)`이다. test에 정답 열이 없어 열 수가 하나 적은 것은 정상이다. 두 X의 열 순서는 모두 `['weight','speed']`다.
+
+코드를 한 줄씩 읽으면 다음과 같다.
+
+- `pd.DataFrame({...})`: 딕셔너리의 key를 열 이름, 리스트를 그 열의 값으로 삼아 표를 만든다. 각 리스트 길이는 같아야 한다.
+- `TARGET = "fuel_efficiency"`: 대문자는 설정값임을 눈에 띄게 쓰는 관례다. 대문자라서 특별한 기능이 생기지는 않는다.
+- `train[TARGET]`: TARGET 변수 안의 문자열을 열 이름으로 사용한다. `train["TARGET"]`은 문자 그대로 TARGET이라는 이름의 열을 찾으므로 다르다.
+- `train[FEATURES]`: 리스트에 적은 여러 열을 그 순서로 골라 2차원 표를 만든다. `train[TARGET]`는 한 열짜리 Series다.
+- `isna()`: 빈칸인 위치를 True로 표시한다. 그 뒤 `sum()`은 True를 1로 세어 열마다 빈칸 개수를 구한다.
+- `duplicated()`: 앞에 완전히 같은 행이 있었는지 표시한다. 같은 자동차 ID가 반복된다는 사실만으로 전체 행이 중복인 것은 아니다.
+- `assert 조건`: 조건이 거짓이면 멈춰 잘못된 가정을 알려 준다. 데이터를 자동으로 고치는 명령이 아니다.
+
+예를 들어 FEATURES가 `['weight','speed']`, test 열이 `['vehicle_id','speeed','weight']`라면 missing에는 `'speed'`가 남는다. **열 이름의 오타를 NaN으로 덮어 진행하지 말고 원인을 확인한다.** ID를 입력에서 제외한 것도 이 예제의 선택이지 모든 문제에서 ID 사용이 금지된다는 뜻은 아니다.
+
+익숙해진 뒤의 점검 순서는 **크기 → 열 이름·순서 → 자료형 → 빈칸·무한대 → 중복 → 정답의 의미**다. `head()`는 앞의 몇 행, `dtypes`는 열별 자료형, `info()`는 자료형과 비어 있지 않은 개수, `describe()`는 요약 통계를 보여 준다. 요약 통계를 보고도 단위·대상·시간은 문제 설명에서 확인해야 한다.
+
+여기서 확인하는 것은 단순히 “데이터가 깨끗한가?”가 아니라 **문제의 약속이 무엇인가?**다.
 
 - 행 하나가 무엇인가: 사람, 차량, 시점, 이미지?
 - 같은 개체가 여러 행인가?
@@ -317,74 +377,186 @@ print("missing/extra:", missing_in_test, extra_in_test)
 
 ### 3.3 수치형 유한성
 
-`NaN`과 `Inf`는 다르다. `fillna`만으로 `Inf`는 사라지지 않는다.
+“유한한 숫자”는 12.5나 -3처럼 일반적으로 계산할 수 있는 값을 뜻한다. **NaN은 값이 없거나 계산 결과가 정의되지 않은 상태, Inf는 양의 무한대, -Inf는 음의 무한대**다. 빈칸을 채우는 `fillna()`만으로 Inf가 없어지지는 않는다.
 
 ```python
-num_cols = train.select_dtypes(include=np.number).columns
-arr = train[num_cols].to_numpy(dtype=np.float64, copy=False)
-print("NaN:", np.isnan(arr).sum())
-print("Inf:", np.isinf(arr).sum())
+import numpy as np
+import pandas as pd
 
-# 필요할 때만 명시적으로 결측으로 바꾼다.
-train[num_cols] = train[num_cols].replace([np.inf, -np.inf], np.nan)
+# 학습용 입력 열 한 개. 정답 y가 아니다.
+speed = pd.Series([10., np.nan, np.inf, 30.], name="speed")
+arr = speed.to_numpy()  # 이름 붙은 pandas 열 -> 숫자 배열
+print("빈칸 위치:", speed.isna().tolist())
+print("무한대 위치:", np.isinf(arr).tolist())
+print("유한한 위치:", np.isfinite(arr).tolist())
+
+# 이 연습에서는 Inf를 센서 오류로 보고 결측으로 취급한다는 계약을 둔다.
+clean = speed.replace([np.inf, -np.inf], np.nan)
+train_median = clean.median()  # NaN을 제외한 10과 30의 중앙값 = 20
+filled = clean.fillna(train_median)
+print("중앙값:", train_median)
+print("처리 후:", filled.tolist())
+assert np.isfinite(filled.to_numpy()).all()
+
+# 새 데이터에는 새 중앙값을 구하지 않고 train에서 구한 20을 재사용한다.
+new_speed = pd.Series([np.nan, np.inf, 100.])
+new_clean = new_speed.replace([np.inf, -np.inf], np.nan)
+print("새 데이터:", new_clean.fillna(train_median).tolist())
 ```
 
-float32로 형변환한 뒤 매우 큰 값이 `Inf`가 될 수도 있으므로 제출 직전에 다시 검사한다.
+빈칸 위치는 `[False,True,False,False]`, 무한대 위치는 `[False,False,True,False]`, 유한한 위치는 `[True,False,False,True]`다. 처리 후 값은 `[10.0,20.0,20.0,30.0]`, 새 데이터는 `[20.0,20.0,100.0]`이 된다. 새 데이터에도 같은 Inf 처리 규칙을 적용하되, 채울 중앙값만 train에서 구한 값을 재사용한다.
+
+`replace([np.inf,-np.inf], np.nan)`는 양·음의 무한대만 빈칸으로 바꾼다. `median()`은 중앙값을 구하고, `fillna(train_median)`은 **비어 있는 위치만** 채운다. 이 순서와 판단을 생략하고 “에러를 없애기 위해 전부 0으로 바꾸기”를 하면 신호가 바뀔 수 있다.
+
+주의할 상황도 있다. 열 전체가 비어 있으면 중앙값도 NaN이므로 위 방법으로 해결되지 않는다. 그 열을 제외할지 상수로 채울지 문제와 데이터에 맞게 정한다. **정답 y의 빈칸을 입력 feature처럼 중앙값으로 채워 정답을 만들어 내면 안 된다.** 확인·제외·별도 처리 등 명세에 맞는 정책이 필요하다.
+
+실제 학습에서는 train/valid를 먼저 나눈 뒤 **학습 부분에서만** 중앙값을 구해 valid/test에 적용한다. 검증 데이터까지 이용해 미리 채우면 검증 과정에 정보가 새어 들어갈 수 있다. 또한 float32로 변환할 때 매우 큰 값이 Inf가 될 수 있으므로 변환·추론 후에도 다시 검사한다.
 
 ### 3.4 범주형 혼합 타입
 
-한 열에 숫자 `1`, 문자열 `'1'`, `None`, `pd.NA`가 섞이면 인코더가 예상과 다르게 동작한다. 명시적으로 string/object와 `np.nan`을 정리한다.
+범주형은 크기를 계산하는 숫자라기보다 종류를 나타내는 값이다. 차종 A·B·C, 생산 공장 이름 등이 예다. 인코더는 이런 종류를 모델이 사용할 숫자 표현으로 바꾸는 도구다.
+
+한 열에 숫자 `1`, 문자열 `'1'`, 빈칸 `None`, pandas의 결측 표시 `pd.NA`가 섞이면 인코더가 예상과 다르게 동작할 수 있다. **먼저 숫자 1과 문자열 '1'이 같은 종류를 뜻하는지 판단해야 한다.** 아래는 둘을 같은 종류로 합친다는 연습 계약이다.
 
 ```python
+import numpy as np
+import pandas as pd
+
 def normalize_category_missing(s):
-    obj = s.astype("string").astype(object)
-    return obj.where(pd.notna(obj), np.nan)
+    strings = s.astype("string")  # 값은 문자열로, 결측은 결측으로 유지
+    obj = strings.astype(object)  # np.nan을 담는 일반 객체 열로 변환
+    return obj.where(pd.notna(obj), np.nan)  # 비결측은 유지, 결측만 np.nan
+
+s = pd.Series([1, "1", None, pd.NA], dtype=object)
+out = normalize_category_missing(s)
+print("처리 후:", out.tolist())
+print("빈칸 개수:", int(out.isna().sum()))
+assert out.iloc[0] == out.iloc[1] == "1"
+assert out.isna().tolist() == [False, False, True, True]
 ```
 
-`astype(str)`만 쓰면 결측이 문자열 `'nan'`, `'<NA>'`가 되어 실제 범주로 학습될 수 있다.
+결과는 `['1','1',nan,nan]`, 빈칸은 2개다. `where(조건, 대체값)`은 조건이 True인 원래 값을 남기고 False인 곳만 바꾼다. `pd.notna(obj)`는 빈칸이 아닌 곳에 True를 준다.
+
+`astype(str)`의 Python `str`와 `astype("string")`의 pandas nullable string은 다르다. 전자는 결측을 `'None'`, `'nan'`, `'<NA>'` 같은 **문자**로 만들 수 있다. 겉으로 빈칸처럼 보여도 `isna()`에서 빈칸으로 세지 않을 수 있다는 뜻이다. 반대로 숫자 1과 문자 '1'이 원래 다른 종류라면 위 정규화를 그대로 쓰면 안 된다. 자료형 정리는 의미를 확인한 후에 한다.
 
 ### 3.5 merge와 groupby의 함정
 
-- `merge` 후 행 수가 늘면 key가 일대일이 아닐 수 있다.
-- `groupby().agg()`는 행 수와 index 구조를 바꾼다.
-- test 순서를 지켜야 하면 원래 행 번호를 보존한다.
+#### merge: 공통 이름표로 다른 표의 정보를 붙인다
+
+주행 기록에는 속도만 있고, 별도 차량 정보표에는 무게가 있다고 하자. 자동차 ID를 기준으로 찾아 붙이는 것이 `merge`다. 두 표를 연결할 때 쓰는 공통 열을 **key(키)**라고 부른다.
 
 ```python
-test_work = test.copy()
-test_work["__row_order__"] = np.arange(len(test_work))
+import numpy as np
+import pandas as pd
 
-merged = test_work.merge(meta, on="vehicle_id", how="left", validate="many_to_one")
+trips = pd.DataFrame({"vehicle_id": ["A", "B", "A"], "speed": [10, 20, 30]})
+meta = pd.DataFrame({"vehicle_id": ["A", "B"], "weight": [1000, 1500]})
+work = trips.copy()  # 원래 표를 보존
+work["__row_order__"] = np.arange(len(work))  # 0,1,2라는 원래 행 번호
+merged = work.merge(meta, on="vehicle_id", how="left", validate="many_to_one")
 merged = merged.sort_values("__row_order__", kind="stable")
-assert len(merged) == len(test)
+print(merged[["vehicle_id", "speed", "weight"]].to_string(index=False))
+assert len(merged) == len(trips)
+
+# 잘못된 정보표: A가 두 번 있어서 어느 무게를 붙일지 하나로 정해지지 않는다.
+bad_meta = pd.concat([meta, meta.iloc[[0]]], ignore_index=True)
+try:
+    work.merge(bad_meta, on="vehicle_id", how="left", validate="many_to_one")
+except pd.errors.MergeError:
+    print("정보표의 key 중복을 발견했습니다")
+else:
+    raise AssertionError("중복 검사가 작동하지 않았습니다")
 ```
 
-`validate="many_to_one"`는 meta key 중복을 조기에 잡는다.
+결과는 A·10·1000, B·20·1500, A·30·1000의 세 행이다. `how="left"`는 왼쪽 주행 기록을 기준으로 유지한다는 뜻이다. 오른쪽에 같은 key가 여러 개면 왼쪽 행이 여러 오른쪽 행과 짝지어져 **행 수가 늘 수 있다**. 따라서 left merge가 언제나 원래 행 수를 보장하는 것은 아니다.
+
+`validate="many_to_one"`은 “왼쪽 기록에는 A가 여러 번 나와도 되지만, 오른쪽 정보표의 A는 한 번이어야 한다”는 검사다. `one_to_one`이면 양쪽 모두 key가 고유해야 한다. 일치하는 오른쪽 key가 없으면 새로 붙인 열이 NaN이므로 병합 후 그 빈칸도 확인한다. 이 예제의 `__row_order__`는 새 작업용 이름이므로 실제 표에 이미 같은 이름이 있다면 다른 이름을 선택한다.
+
+#### groupby: 같은 이름표끼리 묶어서 계산한다
+
+`agg()`는 그룹을 요약한 **작은 표**를 만들고, `transform()`은 각 원래 행에 그룹 계산 결과를 붙일 수 있게 **원래 행 수로 돌려준다**.
+
+```python
+import pandas as pd
+
+trips = pd.DataFrame({"vehicle_id": ["A", "B", "A"], "speed": [10., 100., 30.]})
+summary = trips.groupby("vehicle_id", sort=False)["speed"].agg("mean")
+per_row_mean = trips.groupby("vehicle_id", sort=False)["speed"].transform("mean")
+with_mean = trips.assign(vehicle_mean=per_row_mean)
+print("그룹 요약:", summary.to_dict())
+print("행별 평균:", per_row_mean.tolist())
+print("행 수:", len(summary), len(with_mean))
+assert per_row_mean.index.equals(trips.index)
+```
+
+그룹 요약은 `{'A':20.0,'B':100.0}`이고 행 수는 2다. 각 원래 행에 대응하는 평균은 `[20.0,100.0,20.0]`이고 행 수는 3이다. A의 평균은 `(10+30)/2=20`, B는 기록이 하나이므로 평균 100이다. `assign(vehicle_mean=...)`은 계산한 열을 붙인 새 표를 만든다.
+
+요약 결과를 무턱대고 원래 표의 열에 대입하면 index가 A·B와 0·1·2처럼 달라 NaN이 들어갈 수 있다. 같은 행에 붙일 값이면 `transform`의 의미부터 확인한다. 그룹 key가 결측일 때 포함할지는 `dropna` 정책을 정한다. **이 전체 그룹 평균 예제는 연산 연습용이며, 미래 예측에서 그대로 쓰면 미래 기록을 포함할 수 있다.** 시계열 feature는 예측 시점에 이미 알고 있는 과거만 이용한다.
 
 ### 3.6 시간 정렬
 
-시계열은 문자열 정렬보다 datetime 변환이 먼저다. 같은 시간이 있을 때 재현 가능한 stable sort를 사용한다.
+날짜가 문자로 들어 있으면 먼저 `pd.to_datetime()`으로 날짜 자료형으로 바꾼다. `errors="raise"`는 해석할 수 없는 날짜를 만났을 때 멈추게 한다. 조용히 빈 날짜로 바꿔 계속하는 것보다 이 예제의 오류를 찾기 쉽다.
+
+다음 표는 1월 3일, 1일, 2일 순서로 주어졌다. 시간순 계산을 위해 정렬하더라도 제출은 처음 받은 행 순서여야 한다. **정렬한 표에 예측을 붙인 뒤, 표와 예측을 함께 되돌린다.**
 
 ```python
+import numpy as np
+import pandas as pd
+
+df = pd.DataFrame({
+    "vehicle_id": ["A", "A", "A"],
+    "timestamp": ["2026-01-03", "2026-01-01", "2026-01-02"],
+    "speed": [30., 10., 20.],
+})
 work = df.copy()
-work["timestamp"] = pd.to_datetime(work["timestamp"], errors="raise")
+work["timestamp"] = pd.to_datetime(work["timestamp"], format="%Y-%m-%d", errors="raise")
 work["__row_order__"] = np.arange(len(work))
 work = work.sort_values(
     ["vehicle_id", "timestamp", "__row_order__"], kind="stable"
 ).reset_index(drop=True)
+
+# 순서 연습을 위한 가짜 예측이다. 실제 예측 모델·공식 제출 예제가 아니다.
+work["prediction"] = work["speed"] / 10
+print("정렬 후 원래 행 번호:", work["__row_order__"].tolist())
+print("정렬 상태 예측:", work["prediction"].tolist())
+restored = work.sort_values("__row_order__", kind="stable")
+pred_original = restored["prediction"].to_numpy()
+print("제출할 원래 순서:", pred_original.tolist())
+assert pred_original.tolist() == [3., 1., 2.]
 ```
 
-정렬된 모델 입력과 제출 순서는 별개다. test를 정렬했다면 예측을 `__row_order__`로 반드시 복원한다.
+정렬 후 원래 행 번호는 `[1,2,0]`, 정렬 상태의 예측은 `[1.0,2.0,3.0]`, 원래 순서로 복원한 예측은 `[3.0,1.0,2.0]`이다.
+
+`np.arange(len(work))`는 0부터 행 수-1까지 원래 위치표를 만든다. `sort_values([...])`는 목록의 앞 열부터 우선순위를 적용한다. 같은 차량·시각이면 원래 행 번호가 마지막 순서를 정한다. `kind="stable"`은 동률인 값의 순서를 안정적으로 유지하도록 지정하는 옵션이다. `reset_index(drop=True)`는 화면의 index를 새로 붙일 뿐, 원래 순서로 복원하는 기능이 아니다. 원래 순서는 별도로 보관한 `__row_order__`가 기억한다.
+
+예측이 `[N,K]`인 다중출력 배열이라면 원래 행 번호의 정렬 인덱스로 **예측 배열의 첫 축을 통째로** 재배열한다. 열마다 독립적으로 값을 정렬하면 다른 샘플의 값이 섞인다. 또한 시간 정렬은 시간순 train/valid 분할과 다른 작업이다. 정렬만 했다고 누수가 해결되는 것은 아니다.
 
 ### 3.7 메모리 감각
 
-배열 메모리는 대략 `원소 수 × dtype byte`다. float64는 8 byte, float32는 4 byte다.
+메모리는 실행 중 숫자를 올려 두는 작업 공간이다. 배열 메모리는 대략 `원소 수 × 숫자 하나의 byte 수`다. float64는 숫자 하나에 8 byte, float32는 4 byte다. 같은 원소 수라면 float32가 절반을 사용하지만 표현 범위·정밀도도 달라지므로 무조건 바꾸지는 않는다.
+
+```python
+# 실제로 큰 배열을 만들지 않고 필요한 크기만 계산한다.
+rows, features = 500_000, 100
+bytes_needed = rows * features * 8  # float64
+print("byte:", bytes_needed)
+print("MiB:", round(bytes_needed / 1024**2, 1))
+```
+
+결과는 `400000000` byte, 약 `381.5` MiB다. MiB는 1024×1024 byte이고, GB는 10억 byte라는 표기를 구분한다. DataFrame은 index·문자열 등 추가 메모리도 사용하므로 실제 사용량이 단순 숫자 계산보다 클 수 있다.
 
 `1,000,000 × 20 × 23` float32 window를 모두 미리 만들면 약 `1.84GB`다. 복사본, gradient, 모델 activation까지 합치면 커널이 쉽게 다운된다. 큰 window는 lazy `Dataset`으로 인덱스만 저장한다.
 
 ### 3.8 미니 실습: 안전한 계약 검사기
 
+지금까지 수동으로 확인한 일부 약속을 함수로 묶어 보자. **이 함수는 데이터를 고치거나 학습하지 않고, 기본 구조를 검사한 뒤 사용할 열 이름을 돌려준다.** 이 연습의 계약은 “정답은 train에만 있고, ID는 제외하며, test에는 필요한 입력 열이 전부 있다”이다. 실제 시험에서 target 자리표시자 열을 제공하는 등 계약이 다르면 검사도 바꿔야 한다.
+
 ```python
+import pandas as pd
+
 def assert_frame_contract(train, test, target, drop_cols=()):
+    if not train.columns.is_unique or not test.columns.is_unique:
+        raise ValueError("열 이름이 중복되어 있습니다")
     if target not in train.columns:
         raise KeyError(f"target 누락: {target}")
     if target in test.columns:
@@ -397,12 +569,25 @@ def assert_frame_contract(train, test, target, drop_cols=()):
         raise KeyError(f"DROP_COLS 오타 가능: {unknown_drop}")
 
     features = [c for c in train.columns if c != target and c not in drop_cols]
+    if not features:
+        raise ValueError("사용할 feature가 없습니다")
     missing = sorted(set(features) - set(test.columns))
     if missing:
         raise KeyError(f"test feature 누락: {missing}")
     return features
+
+train = pd.DataFrame({"id": [1, 2], "speed": [40., 60.], "y": [16., 12.]})
+test = pd.DataFrame({"id": [3], "speed": [50.]})
+features = assert_frame_contract(train, test, target="y", drop_cols=("id",))
+print(features)  # ['speed']
+print(train[features].shape, test[features].shape)  # (2,1) (1,1)
 ```
 
+`drop_cols=("id",)`는 제외할 열 이름 하나가 들어 있는 tuple이다. `("id")`는 문자열이므로 끝의 쉼표를 빠뜨리지 않는다. 함수 안의 리스트 컴프리헨션은 “train의 각 열 c를 보되, 정답도 제외 열도 아닌 것만 남긴다”는 뜻이다. `set(features)-set(test.columns)`는 test에서 찾을 수 없는 열 이름을 골라내고, `sorted()`는 오류 메시지를 일정한 순서로 보여 준다.
+
+`raise KeyError(...)`는 필요한 이름을 못 찾았다고 멈추고, `raise ValueError(...)`는 값·구조의 약속이 어긋났다고 멈춘다. **검사 통과는 전처리 완료나 정확한 모델을 보장하지 않는다.** 단위·dtype·Inf·중복 행의 의미·범주 매핑·시간 누수·정답 범위는 추가로 검사해야 한다. test의 사용하지 않는 추가 열도 이 함수는 허용한다. 반환된 features로 실제 입력 열과 순서를 명시적으로 선택한다.
+
+공식 참고: [pandas merge의 연결 방식과 validate](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html), [groupby transform의 원래 index를 유지하는 결과](https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.SeriesGroupBy.transform.html).
 ### 3.9 실습문제
 
 1. `test.reindex(columns=train_features)`가 test의 실제 feature 누락을 조용히 숨길 수 있는 이유는?
@@ -411,19 +596,51 @@ def assert_frame_contract(train, test, target, drop_cols=()):
 4. `merge(..., validate="one_to_one")`가 실패했다. 가능한 데이터 문제 두 가지는?
 5. `pd.NA`를 범주형 imputer가 받을 `np.nan`으로 바꾸는 안전한 코드를 쓰라.
 
+#### 쉬운 확인문제부터 다시 풀기
+
+6. train에는 `id, speed, y`, test에는 `speed, id`가 있다. ID를 제외하면 X_train, X_test의 열은 무엇이고 y는 어디서 꺼내는가? test의 전체 열 순서가 달라도 괜찮은 조건은?
+7. 입력 `[10,NaN,Inf,30]`에 `fillna(0)`만 쓰면 무슨 문제가 남는가? Inf를 결측으로 취급하고 train 중앙값을 사용하면 결과는?
+8. 차량 기록의 ID가 `[A,B,A]`, 오른쪽 정보표의 ID가 `[A,A,B]`다. 검사 없이 left merge하면 몇 행이 되는가? 어떻게 조기에 막는가?
+9. A의 속도는 10·30, B의 속도는 100이다. `agg('mean')`와 `transform('mean')` 결과의 행 수와 값은 어떻게 다른가?
+10. 시간 정렬 후 원래 행 번호가 `[2,0,1]`, 그 순서의 예측이 `[9,7,8]`이다. 원래 순서의 예측을 쓰고 코드로 확인하라.
+
 #### 정답·해설
 
 1. 없는 열을 새로 만들고 전부 NaN으로 채우기 때문에, 오타나 잘못된 test schema가 오류 없이 진행된다. 먼저 집합 차이를 검사해야 한다.
 2. 정렬 전 `__row_order__`를 만들고 정렬·예측 후 그 번호로 stable sort한다. 1차원·다중출력 모두 되는 형태는 `order = sorted_df['__row_order__'].to_numpy(); pred_original = np.asarray(pred)[np.argsort(order, kind='stable')]`이다. `pd.Series(pred, ...)`는 `(N,D)` 예측에서 실패하므로 쓰지 않는다.
 3. `500000×100×8 = 400,000,000 byte`, 약 `381.5 MiB`다.
 4. 왼쪽 또는 오른쪽 key에 중복이 있거나, 둘 다 중복일 수 있다. key의 의미가 실제로 일대일이 아닌 설계 문제일 수도 있다.
-5. `obj=s.astype('string').astype(object); out=obj.where(pd.notna(obj), np.nan)`.
+5. `obj=s.astype('string').astype(object); out=obj.where(pd.notna(obj), np.nan)`. 단, 숫자 1과 문자열 '1'을 같은 범주로 취급해도 되는지 먼저 확인한다.
+6. 입력 열은 둘 다 `['speed']`, 정답은 `train['y']`다. 모델에 넣기 전에 같은 FEATURES 목록으로 양쪽 열을 같은 순서로 골라야 한다. test에 필요한 열이 있는지 먼저 검사한다.
+7. Inf가 그대로 남는다. Inf를 NaN으로 바꾼 뒤 유효한 10과 30에서 구한 중앙값 20으로 채우면 `[10,20,20,30]`이다. 정답 y를 이런 식으로 만들어 채워서는 안 된다.
+8. A 기록 두 행이 각각 오른쪽 A 두 행과 연결되어 4행, B가 1행이라 총 5행이다. `validate='many_to_one'`으로 오른쪽 key 중복을 검사하면 멈출 수 있다. 중복을 임의로 삭제하기 전에 정보표의 의미를 확인한다.
+9. agg는 A→20, B→100의 2행 요약이다. transform은 원래 `[A,B,A]` 각 행에 대응하는 `[20,100,20]`의 3개 값이다. 그룹 요약을 원래 표에 그냥 대입하면 index가 맞지 않을 수 있다.
+10. 원래 순서는 `[7,8,9]`다. 원래 행 번호 0이 가운데, 1이 마지막, 2가 처음에 있었기 때문이다. 아래는 한 출력·다중출력 모두 첫 축을 되돌리는 예다.
+
+```python
+import numpy as np
+
+order = np.array([2, 0, 1])
+pred_sorted = np.array([9, 7, 8])
+restore_index = np.argsort(order, kind="stable")
+pred_original = pred_sorted[restore_index]
+assert pred_original.tolist() == [7, 8, 9]
+
+multi_sorted = np.array([[9, 90], [7, 70], [8, 80]])
+multi_original = multi_sorted[restore_index]
+assert multi_original.tolist() == [[7, 70], [8, 80], [9, 90]]
+```
+
+틀렸다면 단순히 답만 외우지 말고, **3.2에서 입력·정답을 분리 → 3.3에서 빈칸과 Inf 구분 → 3.5에서 병합 전후 행 수 비교 → 3.6에서 예측 순서 복원** 중 어느 단계의 약속을 놓쳤는지 기록한다.
 
 ### 3.10 완료 기준
 
-- [ ] 임의 DataFrame에서 schema·결측·Inf·중복을 2분 안에 검사한다.
+- [ ] train·test·feature·target·ID를 내 말로 설명한다.
+- [ ] 작은 DataFrame에서 열 이름·자료형·결측·Inf·중복을 이유와 함께 검사한다. 2분 점검은 익숙해진 뒤 목표로 한다.
+- [ ] merge의 key 중복과 agg/transform의 행 수 차이를 작은 표로 설명한다.
 - [ ] 정렬 후 원래 test 순서를 복원할 수 있다.
 - [ ] window 메모리를 생성 전에 계산한다.
+- [ ] 쉬운 확인문제 6–10번을 해설 없이 풀고 원래 실습 1–5번에도 다시 도전했다.
 
 ---
 
@@ -3255,7 +3472,7 @@ assert spec_model(torch.zeros(1, 3, 40, 48)).shape == (1, 4)
 | BatchNorm(C) | shape 동일 | learnable `2C` + running stats |
 | ReLU/Pool/Dropout | 규칙에 따른 shape | 0 |
 | Embedding(V,D) | 입력 shape+`D` | `V×D` |
-| 단방향 LSTM | `[B,T,H]` | layer당 gate 4개 weight/bias |
+| 단방향 LSTM (`batch_first=True`) | sequence 출력 `[B,T,H]`, 여기서 H는 은닉 크기 | layer당 gate 4개 weight/bias |
 
 ### 26.10 splitter 선택·코드
 

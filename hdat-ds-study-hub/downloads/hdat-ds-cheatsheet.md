@@ -1,6 +1,6 @@
 # HDAT-DS 실기 오픈북 치트시트 — PyTorch 전용
 
-버전: 2026-09-07 · Astra 감사 반영<br>
+버전: 2026-09-08 · shape·broadcasting 기초 보강 (2026-09-07 Astra 감사 유지)<br>
 검색 키워드: `EDIT`, `binary`, `multiclass`, `multioutput`, `RMSLE`, `group`, `timeseries`, `window`, `CNN1D`, `GRU`, `LSTM`, `image`, `autoencoder`, `submission`, `hidden test`, `OOM`, `NaN`
 
 > 목표는 만능 모델이 아니라 **문제 유형을 2분 안에 분류하고, 유효한 baseline 제출 파일을 먼저 만든 뒤, 한 가지 개선 모델만 시도하는 것**이다. 실제 문제의 skeleton·함수명·변수명·파일명·출력 shape가 이 문서보다 항상 우선한다.
@@ -79,10 +79,43 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 - `CrossEntropyLoss` 앞에 softmax를 붙이지 않는다.
 - `BCEWithLogitsLoss` 앞에 sigmoid를 붙이지 않는다.
 - 회귀·BCE에서 output과 target shape를 완전히 같게 만든다. MSELoss는 `[B]`와 `[B,1]`을 broadcasting해 의도와 다른 비교를 할 수 있다. BCEWithLogitsLoss는 서로 다른 shape를 허용하지 않고 오류를 낸다.
-- 표형 입력은 `[N,F]`, sequence 입력은 `[N,T,F]`, PyTorch 이미지 입력은 `[N,C,H,W]`.
-- `Conv1d`는 `[B,C,L]`이므로 `[B,T,F] → [B,F,T]`로 바꾼다.
+- 표형 배치는 `[B,F]`, window로 묶은 sequence 배치는 `[B,T,F]`, PyTorch 이미지 배치는 `[B,C,H,W]`. 전체 샘플 수 N과 현재 배치 크기 B를 구분한다.
+- RNN/LSTM/GRU 입력 `[B,T,F]`는 `batch_first=True`일 때다. 기본값은 `[T,B,F]`이며 마지막 은닉 상태의 축 순서는 별도다.
+- `Conv1d`는 `[B,C,L]`이다. 특성 F를 채널, 시간 T를 길이로 쓰면 `x.permute(0,2,1)`로 `[B,T,F] → [B,F,T]`로 바꾼다. wrapper가 내부에서 바꾸면 중복 변환하지 않는다.
 - validation/test loader는 `shuffle=False`.
 - 추론은 `model.eval()`과 `torch.inference_mode()`.
+
+### shape·permute·broadcasting 빠른 복습
+
+처음 보는 기호라면 [입문 6강의 쉬운 설명과 13문제·해설](https://markshincuhk.github.io/hdat-ds-study-hub/start/06/)부터 읽는다. 이 링크는 온라인 강의이며, 이 절 자체의 요약은 내려받은 치트시트에서도 읽을 수 있다.
+
+| 구분 | 의미 | 실기에서 확인할 것 |
+|---|---|---|
+| shape | 숫자의 값이 아니라 각 축의 크기 | B=배치 샘플 수, F=특성, T=시간, C=채널, H/W=높이/너비 |
+| `[B,K]` logits | 샘플마다 클래스 점수 K개 | 아직 확률 아님; `argmax(dim=1)` 결과는 `[B]` |
+| `permute(0,2,1)` | 기존 축 0·2·1 순서로 배치 | `[B,T,F] → [B,F,T]`; reshape로 대체하지 않기 |
+| broadcasting | 계산할 때 같은 값을 여러 위치에 적용 | 오른쪽부터 크기가 같거나 한쪽이 1, 없는 왼쪽 축은 1 |
+| `[B,F] + [F]` | 특성별 값을 배치 전체에 적용 | `[1,F]`로 맞춰 읽기 |
+| `[B,T,F] + [1,T,1]` | 시간별 값을 모든 배치·특성에 적용 | `[T]`만 쓰면 마지막 F축과 비교됨 |
+| `[B,C,H,W] - [1,C,1,1]` | 이미지 채널별 평균 빼기 | `[C]`만 쓰면 마지막 W축과 비교됨 |
+| 회귀 `[B,1] - [B]` | `[B,B]`로 모든 짝을 비교하는 함정 | 한 출력이면 둘 다 `[B,1]` 또는 둘 다 `[B]`로 맞추기 |
+
+원본 시계열 CSV가 항상 `[B,T,F]`인 것은 아니다. `[전체 시점 수,F]`에서 window를 만든 뒤 배치로 묶은 형태인지 확인한다. broadcasting이 성공해도 의도한 축에 적용되었는지는 별도 확인해야 한다.
+
+```python
+import torch
+
+# 독립 실행 가능한 shape 검사 예제. 실제 문제에서는 데이터·출력 계약을 확인한다.
+pred = torch.tensor([[2.], [4.]])
+target = torch.tensor([3., 5.])
+assert (pred - target).shape == (2, 2)  # 에러 없이 잘못된 전체 짝 비교
+target = target.unsqueeze(1)           # 한 출력 회귀: [B] -> [B,1]
+assert pred.shape == target.shape
+assert (pred - target).square().mean().item() == 1.0
+assert pred[:1].squeeze(1).shape == (1,) # B=1에서도 배치 축 보존
+```
+
+다중출력 회귀라면 둘 다 `[B,K]`로 맞춘다. 정수 class index를 쓰는 CE는 logits `[B,K]`와 정답 `[B]`가 올바르므로 무조건 unsqueeze하지 않는다. 기호 C·K 등의 뜻은 각 절의 정의를 따른다.
 
 ## 3. Process: hidden test를 통과하는 법
 

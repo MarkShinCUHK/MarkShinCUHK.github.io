@@ -2048,6 +2048,72 @@ print("평균:", x.mean())
 - `reshape`, `transpose`의 역할을 구분한다.
 - broadcasting 가능 여부를 뒤쪽 축부터 판단한다.
 - view와 copy를 구분해 원본 변경을 통제한다.
+- `[B,T,F]`를 말로 읽고 PyTorch의 `permute`와 broadcasting을 구분한다.
+
+### 먼저 읽기: shape는 값이 아니라 배열의 크기 설명이다
+
+`[B,F]`를 처음 만났다면 모델 이름부터 외우지 말자. **텐서(tensor)는 숫자를 여러 축으로 배열한 것**이다. NumPy의 `ndarray`와 PyTorch의 `Tensor`는 서로 다른 자료형이지만, 둘 다 shape로 각 축의 크기를 읽는다. 아래 NumPy 기초 뒤에 나오는 PyTorch 예제는 `import torch`로 구분했다. 여기서는 모델을 학습하지 않으므로 GPU가 필요하지 않다.
+
+```python
+import numpy as np
+
+# 한 행은 자동차 한 대, 두 열은 온도와 속도다.
+x = np.array([[80., 60.], [90., 70.], [85., 50.]])
+print(x.shape)   # (3, 2): 자동차 3대, 각 자동차의 특성 2개
+print(x.ndim)    # 2: 축이 두 개
+print(x.size)    # 6: 숫자는 총 여섯 개
+```
+
+`(3,2)`는 값 3과 2가 들어 있다는 뜻이 아니다. **3행 × 2열로 숫자가 들어 있다는 설명**이다. 책의 `[3,2]`, NumPy의 `(3,2)`, PyTorch의 `torch.Size([3,2])`는 이 문맥에서 같은 모양을 가리킨다. 대괄호 shape 표기는 설명용이지, 텐서를 생성하는 코드가 아니다.
+
+| 기호 | 이름 | 문장으로 읽기 |
+|---|---|---|
+| B | Batch size | 한 번에 모델에 넣는 샘플 개수 |
+| F | Features | 샘플 하나 또는 한 시점의 특성 개수: 온도·압력·진동 등 |
+| T | Time steps | 한 기록 안의 시간 단계 수 |
+| C | Channels | 입력 채널 수: RGB 이미지라면 3 |
+| H, W | Height, Width | 이미지의 세로·가로 픽셀 수 |
+| K | Classes | 여기서는 분류할 클래스 수 |
+
+전체 데이터가 1,000개여도 32개씩 처리하면 보통 `B=32`다. 마지막 배치는 더 작을 수 있다. 이 교재에서는 전체 샘플 수를 `N`, 현재 배치 크기를 `B`로 구분한다. 문서에 따라 `N`을 배치 기호로 쓰기도 하므로 **글자 자체보다 그 축의 의미**를 확인한다. 또한 텐서는 축의 이름을 자동으로 알아내지 않는다. `[32,60,3]`만 보고 시간과 특성의 의미를 결정할 수는 없고, 데이터를 만든 과정과 문제 명세를 함께 읽어야 한다.
+
+### 모델별 shape를 한 문장으로 읽기
+
+| 사용하는 곳 | 모양과 예시 | 어떻게 읽는가 |
+|---|---|---|
+| 표형 MLP 입력 | `[B,F]` → `[32,5]` | 자동차 32대 × 자동차마다 특성 5개 |
+| window로 묶은 시계열 배치 | `[B,T,F]` → `[32,60,3]` | 주행 기록 32개 × 기록마다 60시점 × 시점마다 특성 3개 |
+| Conv1d 입력 | `[B,F,T]` → `[32,3,60]` | 특성 3개를 채널로 두고, 각 채널의 시간 60개를 따라 처리 |
+| RNN·LSTM·GRU 입력 | `[B,T,F]` → `[32,60,3]` | **`batch_first=True`일 때** 배치·시간·특성 순서 |
+| 이미지 Conv2d 입력 | `[B,C,H,W]` → `[32,3,64,64]` | RGB 이미지 32장 × 채널 3개 × 세로 64 × 가로 64 |
+| 샘플당 하나를 분류하는 출력 | `[B,K]` → `[32,3]` | 샘플 32개 × 정상·고장A·고장B에 대한 점수 3개 |
+
+MLP는 기본적인 신경망, Conv1d·Conv2d는 각각 한 축·두 축을 따라 패턴을 찾는 합성곱 층, RNN은 순서를 처리하는 신경망이다. 지금은 내부 수식보다 **어떤 순서로 숫자를 넣어야 하는지**에 집중한다. `Linear` 자체는 마지막 축에 적용되므로 모든 MLP가 반드시 2차원 입력만 받는다는 뜻은 아니다. 위 표는 샘플당 하나를 예측하는 기본 구성이다.
+
+**시계열 CSV 원본과 시계열 배치는 다르다.** 한 차량의 원본 기록은 `[전체 시점 수,F]`인 긴 표일 수 있다. 이를 과거 60개 시점씩 잘라 window(한 샘플)를 만든 뒤, 샘플 32개를 모으면 `[32,60,F]`다. 이미 window로 제공된 데이터에 다시 window를 만들지는 않는다. 여러 차량을 다룰 때는 차량 경계를 넘겨 묶지 않는다.
+
+**RGB 이미지 한 장은 숫자 표 세 장을 포갠 것**으로 생각하자. R·G·B 채널마다 `[H,W]` 표가 있다. PIL 이미지를 NumPy로 바꾸면 흔히 `[H,W,C]`, PyTorch Conv2d에 배치로 넣을 때는 `[B,C,H,W]`를 쓴다. PIL의 `image.size`는 `(W,H)` 순서라는 점도 다르다. 색 순서와 0–255/0–1 범위는 shape만으로 알 수 없다.
+
+**RNN의 조건:** `batch_first=True`가 없으면 기본 입력 순서는 `[T,B,F]`다. 이 옵션은 sequence 입력·출력에 적용되며, 마지막 은닉 상태 `h_n`과 LSTM의 `c_n`까지 배치 우선으로 바꾸지는 않는다. 그 상태들은 `[층 수 × 방향 수,B,은닉 크기]`다. 여기서 은닉 크기는 이미지 높이와 다른 개념이다.
+
+**logit은 확률이 아니라 모델이 내놓은 원점수**다. 음수도 가능하고 합이 1일 필요가 없다. 샘플마다 점수가 가장 큰 클래스 번호를 고르는 것이 `argmax(dim=1)`이다. `dim=1`은 이 예제에서 클래스 축이고, 번호는 0부터 시작한다.
+
+```python
+import torch
+
+# 열 순서: 정상(0), 고장A(1), 고장B(2)
+logits = torch.tensor([[2.1, -0.5, 0.8], [-1.0, 3.0, 0.5]])
+pred = logits.argmax(dim=1)
+probabilities = logits.softmax(dim=1)
+print(tuple(logits.shape))       # (2, 3)
+print(pred.tolist())             # [0, 1]
+print(tuple(pred.shape))         # (2,)
+assert torch.allclose(probabilities.sum(dim=1), torch.ones(2))
+```
+
+`softmax`는 클래스 점수들을 합이 1인 확률로 바꾸는 연산이다. 학습할 때 `CrossEntropyLoss`에는 변환 전 logits를 넣고, 제출이 클래스 번호인지 확률인지는 별도로 확인한다. **입력 shape 표와 출력 shape 표를 섞어서 외우지 않는다.**
+
+읽는 순서: 지금은 shape의 의미를 익히고, **5절에서 축 변경 → 6절에서 broadcasting → 10절에서 직접 풀이**로 확인한다. 모델의 자세한 구조는 본과정에서 배운다.
 
 ## 2. 2차원 indexing과 slicing
 
@@ -2258,7 +2324,7 @@ print(x.shape, "->", transposed.shape)
 (2, 3) -> (3, 2)
 ```
 
-3차원 이상에서는 바꾸고 싶은 축 순서를 명시한다. 시계열 `[B, T, F]`를 Conv1d 형식 `[B, F, T]`로 바꾸는 예다.
+3차원 이상에서는 바꾸고 싶은 축 순서를 명시한다. window로 묶은 시계열 `[B, T, F]`를 Conv1d 형식 `[B, F, T]`로 바꾸는 예다. Conv1d는 `[배치,채널,길이]`를 받으므로, 여기서는 특성 F를 채널로, 시간 T를 길이로 사용한다.
 
 ```python
 import numpy as np
@@ -2277,9 +2343,112 @@ print(conv1d_input.shape)
 (32, 5, 20)
 ```
 
+### PyTorch에서는 permute: 숫자 0, 2, 1의 뜻
+
+PyTorch에서 전체 축의 순서를 지정할 때는 `permute`를 쓴다. 축 번호는 0부터 시작한다. **`permute(0,2,1)`은 크기를 0·2·1로 바꾸라는 뜻이 아니라, 기존 축을 0번·2번·1번 순서로 놓으라는 뜻**이다.
+
+| 구분 | 첫 번째 축 | 두 번째 축 | 세 번째 축 |
+|---|---|---|---|
+| 기존 축 번호 | 0 | 1 | 2 |
+| 기존 의미 | B: 배치 | T: 시간 | F: 특성 |
+| 가져올 기존 축 번호 | 0 | 2 | 1 |
+| 변경 후 의미 | B: 배치 | F: 특성 | T: 시간 |
+
+아래는 B=1, T=3, F=2인 아주 작은 예다. 표는 배치의 첫 번째 샘플만 펼쳐 보인다.
+
+| 변경 전: 시간별 기록 | 특성 A | 특성 B |
+|---|---:|---:|
+| t1 | 1 | 10 |
+| t2 | 2 | 20 |
+| t3 | 3 | 30 |
+
+| 변경 후: 특성별 시간 기록 | t1 | t2 | t3 |
+|---|---:|---:|---:|
+| 특성 A | 1 | 2 | 3 |
+| 특성 B | 10 | 20 | 30 |
+
+```python
+import torch
+
+x = torch.tensor([[[1., 10.], [2., 20.], [3., 30.]]])
+conv_input = x.permute(0, 2, 1)
+wrong = x.reshape(1, 2, 3)
+print(tuple(x.shape), "->", tuple(conv_input.shape))
+print("permute:", conv_input.tolist())
+print("reshape:", wrong.tolist())
+assert conv_input[0, 0].tolist() == [1., 2., 3.]
+assert not torch.equal(conv_input, wrong)
+```
+
+예상 출력:
+
+```text
+(1, 3, 2) -> (1, 2, 3)
+permute: [[[1.0, 2.0, 3.0], [10.0, 20.0, 30.0]]]
+reshape: [[[1.0, 10.0, 2.0], [20.0, 3.0, 30.0]]]
+```
+
+두 결과는 shape가 같아도 값의 위치가 다르다. `reshape`는 이 예제에서 나열된 숫자를 세 개씩 다시 묶고, `permute`는 시간·특성의 대응을 유지한 채 축을 바꾼다. **축 교환이 필요한 상황에서 reshape로 크기만 맞추면 안 된다.** `permute`는 원본과 데이터를 공유하는 view이므로 값 복사가 필요하면 별도로 처리한다. NumPy의 `x.transpose(0,2,1)`에 대응하는 PyTorch 표현이 `x.permute(0,2,1)`이며, PyTorch의 `transpose(1,2)`는 두 축만 교환하는 API다. [PyTorch permute 문서](https://docs.pytorch.org/docs/2.7/generated/torch.permute.html)
+
 ## 6. broadcasting: 작은 배열을 맞춰 계산하기
 
-NumPy는 두 배열의 shape를 **오른쪽 축부터** 비교한다. 각 쌍이 같거나 둘 중 하나가 `1`이면 호환된다. 부족한 왼쪽 축에는 크기 1이 있다고 생각한다.
+### 하나의 숫자를 여러 위치에 적용하는 것부터
+
+Broadcasting은 **모양이 다른 배열끼리 원소별 계산을 할 때, 조건이 맞으면 같은 값을 여러 위치에 적용하는 규칙**이다. 축을 교환하는 permute와는 다른 개념이다. NumPy와 PyTorch의 일반적인 원소별 덧셈·뺄셈·곱셈에 같은 규칙이 적용된다. 행렬곱 `@`의 규칙과는 구분한다.
+
+```python
+import torch
+
+a = torch.tensor([1, 2, 3])
+print((a + 10).tolist())  # [11, 12, 13]
+```
+
+숫자 하나인 10을 각각의 원소에 더했다. `[10,10,10]`을 더한 것처럼 이해할 수 있지만, 반복된 입력을 실제로 모두 복사해서 만들 필요는 없다. **입력의 반복 적용이 효율적이라는 뜻이지, 큰 결과 배열도 메모리를 전혀 쓰지 않는다는 뜻은 아니다.**
+
+### 같은 숫자 표에서 permute와 비교하기
+
+앞 절의 첫 샘플 `[3,2]`에서 특성 A에 100, 특성 B에 1000을 더해 보자. 보정값은 `[100,1000]` 한 줄만 주지만 모든 시간에 적용된다.
+
+| 시간 | A에 적용되는 계산 | B에 적용되는 계산 |
+|---|---|---|
+| t1 | 1 + 100 = 101 | 10 + 1000 = 1010 |
+| t2 | 2 + 100 = 102 | 20 + 1000 = 1020 |
+| t3 | 3 + 100 = 103 | 30 + 1000 = 1030 |
+
+```python
+import torch
+
+x = torch.tensor([[1., 10.], [2., 20.], [3., 30.]])
+offset = torch.tensor([100., 1000.])
+result = x + offset
+print(result.tolist())
+print(tuple(x.shape), tuple(offset.shape), tuple(result.shape))
+```
+
+예상 출력:
+
+```text
+[[101.0, 1010.0], [102.0, 1020.0], [103.0, 1030.0]]
+(3, 2) (2,) (3, 2)
+```
+
+축 변경에서는 같은 여섯 값의 위치가 바뀌었다. 여기서는 시간·특성의 축 순서는 유지되고, 각 위치의 값에 보정값이 더해졌다.
+
+### 가능 여부는 오른쪽부터 검사한다
+
+NumPy와 PyTorch는 두 배열의 shape를 **오른쪽 축부터** 비교한다. 각 쌍이 같거나 둘 중 하나가 `1`이면 호환된다. 부족한 왼쪽 축에는 크기 1이 있다고 생각한다. 한쪽만 늘어나는 경우뿐 아니라 `[4,1] + [1,3] → [4,3]`처럼 양쪽의 크기 1인 축이 함께 확장되는 경우도 있다. [PyTorch broadcasting 규칙](https://docs.pytorch.org/docs/2.7/notes/broadcasting.html)
+
+```text
+데이터     [32, 5]
+보정값         [5]
+맞춰 읽기  [ 1, 5]
+
+오른쪽: 5와 5는 같다 → 가능
+왼쪽: 32와 1은 한쪽이 1이다 → 가능
+결과: [32, 5]
+```
+
+반면 `[32,5] + [3]`은 마지막 자리의 5와 3이 다르고 둘 다 1이 아니므로 불가능하다. 어떤 행·열에 적용하고 싶은지 결정한 뒤 shape를 맞춘다.
 
 ```python
 import numpy as np
@@ -2309,8 +2478,9 @@ shape 비교:
 
 ```text
 x              (2, 3)
-column_offset     (3)
+column_offset     (3,) → (1, 3)으로 맞춰 읽기
 오른쪽 축          3 == 3  → 가능
+왼쪽 축           2와 1   → 가능
 ```
 
 행마다 다른 값을 빼려면 `(2, 1)`이어야 한다.
@@ -2334,6 +2504,59 @@ offset shape: (2, 1)
 ```
 
 `(2, 3)`과 `(2,)`는 오른쪽 축 `3`과 `2`가 달라 broadcasting되지 않는다. 이럴 때 값을 억지로 반복하기 전에 어느 축에 적용하려던 값인지 생각하고 `[:, None]`으로 shape를 명확히 한다.
+
+### 실기 함정: [B,1]과 [B]는 같은 모양이 아니다
+
+회귀에서 예측값 네 개와 정답 네 개를 하나씩 짝지어 빼고 싶다고 하자. `[4,1] - [4]`는 오류 없이 `[4,4]`가 된다. 두 번째 입력을 `[1,4]`로 맞춰 보기 때문에 **각 예측이 모든 정답과 비교되는 16개 차이**가 만들어진다.
+
+```python
+import torch
+
+pred = torch.tensor([[10.], [20.], [30.], [40.]])  # [4, 1]
+target = torch.tensor([11., 19., 31., 39.])       # [4]
+wrong_error = pred - target
+wrong_mse = wrong_error.square().mean()
+
+target_column = target.unsqueeze(1)  # [4] -> [4, 1]
+correct_error = pred - target_column
+correct_mse = correct_error.square().mean()
+
+print("잘못된 비교:", tuple(wrong_error.shape), wrong_mse.item())
+print("올바른 비교:", tuple(correct_error.shape), correct_mse.item())
+print("샘플별 차이:", correct_error.squeeze(1).tolist())
+assert pred.shape == target_column.shape
+assert correct_mse.item() == 1.0
+```
+
+예상 출력:
+
+```text
+잘못된 비교: (4, 4) 241.0
+올바른 비교: (4, 1) 1.0
+샘플별 차이: [-1.0, 1.0, -1.0, 1.0]
+```
+
+`unsqueeze(1)`은 1번 위치에 크기 1인 축을 추가한다. 반대로 `pred.squeeze(1)`로 예측을 `[B]`로 맞추는 방법도 있다. 둘 중 **문제의 출력 계약에 맞는 한 가지 방법**을 고른다. 축 번호 없는 `squeeze()`는 B=1일 때 배치 축까지 지울 수 있어 피한다.
+
+이 예측과 정답을 그대로 `MSELoss`에 넣어도 경고와 함께 의도하지 않은 비교가 일어날 수 있다. 경고를 무시하지 말고 shape부터 맞춘다. `BCEWithLogitsLoss`는 같은 shape를 요구하며, 정수 class index를 쓰는 `CrossEntropyLoss`는 의도적으로 logits `[B,K]`, target `[B]`를 받는다. **모든 loss의 입력을 무조건 같은 shape로 만들라는 뜻은 아니다.**
+
+### 이미지에서의 응용: 채널별 값은 어느 축에 놓을까?
+
+이미지 배치 `[B,C,H,W]`에 채널별 값 `[C]`를 바로 더하면 마지막 W축과 비교된다. 실패할 수도 있고, W=C인 작은 이미지에서는 엉뚱한 축에 적용되어도 실행될 수 있다. 채널별 값을 `[1,C,1,1]`로 명시한다.
+
+```python
+import torch
+
+images = torch.zeros(2, 3, 4, 5)  # B=2, C=3, H=4, W=5
+channel_offset = torch.tensor([10., 20., 30.])
+result = images + channel_offset.reshape(1, 3, 1, 1)
+print(tuple(result.shape))        # (2, 3, 4, 5)
+print(result[0, :, 0, 0].tolist()) # [10.0, 20.0, 30.0]
+```
+
+여기서 reshape는 길이 3인 채널 값을 유지하며 크기 1인 축을 추가하므로 적절하다. 시계열의 시간·특성 두 축을 교환하려는 앞 절의 상황과 다르다. 이미지 정규화의 `(images-mean)/std`에서도 채널별 mean과 std를 같은 방식으로 맞춘다.
+
+마지막으로 말로 구분해 보자. **shape는 배열의 크기 설명, permute는 축 순서 변경, broadcasting은 계산할 때 값을 반복 적용하는 규칙**이다. 실전에서는 연산 전후 `print(x.shape)`로 예상과 실제를 확인한다.
 
 ## 7. view와 copy
 
@@ -2434,6 +2657,15 @@ print("열 추가:\n", column_joined, column_joined.shape)
 5. shape `(2, 3)` 배열에서 각 열의 평균을 빼 중심화하라. 결과의 열별 평균이 0에 가까운지 확인하라.
 6. `(2, 3, 4)`를 `(2, 4, 3)`으로 축 교환하라. reshape가 아닌 transpose를 사용한다.
 7. 배열 일부를 복사해 수정하고 원본이 변하지 않았음을 확인하라.
+
+### 추가 실습: shape를 읽고 PyTorch로 확인하기
+
+8. 전체 1,000개 샘플을 32개씩 처리한다. 이번 배치의 `B`는 무엇인가? `[32,60,3]`이 시계열 배치라는 계약일 때 각 축을 설명하고, RGB 이미지 `[8,3,64,64]`의 각 축도 읽어라. 원본 CSV가 항상 `[B,T,F]`인지 설명하라.
+9. `torch.arange(12).reshape(2,3,2)`를 `[B,T,F]` 입력으로 해석하라. Conv1d에 넣을 `[B,F,T]`로 바꾸고, `변경후[1,0,2] == 변경전[1,2,0]`인지 확인하라. 같은 크기로 reshape만 하면 왜 틀리는가?
+10. 다음 원소별 덧셈의 결과 shape 또는 실패 이유를 먼저 종이에 쓰고 확인하라: `[4,3]+[3]`, `[4,3]+[4]`, `[4,1]+[3]`, `[2,5,3]+[1,5,1]`. 마지막 식에서 두 번째 배열이 어느 축에 적용되는지도 설명하라.
+11. `pred=[[2.],[4.]]`, `target=[3.,5.]`의 원소별 제곱 오차 평균을 계산하라. 그냥 뺀 결과와 shape를 바로잡은 결과를 비교하고, B=1에서도 배치 축이 남는지 확인하라.
+12. `[2,3,4,5]` 이미지 배치에서 채널별 평균 `[0.1,0.2,0.3]`을 빼고 싶다. 평균의 shape를 무엇으로 바꿔야 하는가? `images-mean`을 그대로 쓰면 어느 축과 비교되는가?
+13. `logits=[[0.,2.,1.],[3.,0.,1.]]`의 클래스 번호와 출력 shape를 구하라. 같은 배치에 `RNN(input_size=3, hidden_size=4, batch_first=True)`로 길이 5의 시계열을 넣을 때 입력·sequence 출력·마지막 은닉 상태의 shape를 각각 예상하라. 층은 1개, 방향은 단방향이다.
 
 <details>
 <summary>입문 6강 정답·해설 펼치기</summary>
@@ -2537,6 +2769,107 @@ print("원본 보존")
 
 예상 마지막 출력: `원본 보존`.
 
+### 8번. 글자와 숫자 읽기
+
+이번 배치에는 샘플이 32개이므로 B=32다. `[32,60,3]`은 샘플 32개, 샘플마다 60시점, 시점마다 특성 3개다. `[8,3,64,64]`는 RGB 이미지 8장, 채널 3개, 세로·가로 각각 64픽셀이다. H·W가 같아도 뜻까지 같지는 않다. 원본 시계열 표는 `[전체 시점 수,F]`일 수 있고, window를 만들고 배치로 묶은 뒤 `[B,T,F]`가 된다. B는 배치의 개수가 아니라 **배치 안의 샘플 수**다.
+
+### 9번. shape뿐 아니라 값의 대응을 검사한다
+
+```python
+import torch
+
+x = torch.arange(12).reshape(2, 3, 2)
+y = x.permute(0, 2, 1)
+assert tuple(y.shape) == (2, 2, 3)
+assert y[1, 0, 2].item() == x[1, 2, 0].item() == 10
+assert not torch.equal(y, x.reshape(2, 2, 3))
+print(y.tolist())
+```
+
+정답은 `[[[0,2,4],[1,3,5]],[[6,8,10],[7,9,11]]]`이다. reshape는 이 예제에서 숫자를 읽는 순서대로 다시 묶기 때문에 특성별 시간 기록을 보존하지 못한다. 두 축의 크기가 우연히 같더라도 축의 의미가 다르면 교환은 여전히 필요할 수 있다.
+
+### 10번. 오른쪽부터 비교하기
+
+순서대로 `[4,3]`, **실패**, `[4,3]`, `[2,5,3]`이다. 두 번째는 마지막 축 3과 4가 맞지 않는다. 세 번째는 `[4,1]`과 `[1,3]`으로 맞춰 보면 양쪽이 확장된다. 네 번째는 시간 5개에 대한 값을 모든 배치와 특성에 적용한다.
+
+```python
+import torch
+
+assert (torch.zeros(4, 3) + torch.zeros(3)).shape == (4, 3)
+try:
+    torch.zeros(4, 3) + torch.zeros(4)
+except RuntimeError:
+    print("마지막 축 3과 4가 달라 실패: 예상된 오류")
+else:
+    raise AssertionError("호환되지 않는 shape가 통과했습니다")
+assert (torch.zeros(4, 1) + torch.zeros(3)).shape == (4, 3)
+assert (torch.zeros(2, 5, 3) + torch.zeros(1, 5, 1)).shape == (2, 5, 3)
+```
+
+시점별 값 `[T]`를 `[B,T,F]`에 바로 더하면 T가 아니라 마지막 F와 비교된다. T=F일 때는 실행되어도 특성별 값처럼 적용된다. 실행 성공만으로 의도한 계산인지 판단하지 않는다.
+
+### 11번. 조용히 틀리는 회귀 오차
+
+그냥 빼면 `[[-1,-3],[1,-1]]`이고 MSE는 `(1+9+1+1)/4=3`이다. 샘플끼리 짝지으면 차이는 `[[-1],[-1]]`, MSE는 1이다.
+
+```python
+import torch
+
+pred = torch.tensor([[2.], [4.]])
+target = torch.tensor([3., 5.])
+wrong = pred - target
+correct = pred - target.unsqueeze(1)
+assert tuple(wrong.shape) == (2, 2)
+assert wrong.square().mean().item() == 3.0
+assert tuple(correct.shape) == (2, 1)
+assert correct.square().mean().item() == 1.0
+
+# 마지막 배치에 샘플 하나만 남아도 [1]과 [1,1]을 명확히 구분한다.
+one_pred = pred[:1]
+one_target = target[:1].unsqueeze(1)
+assert one_pred.shape == one_target.shape == (1, 1)
+assert one_pred.squeeze(1).shape == (1,)
+assert one_pred.squeeze().shape == ()  # 모든 크기 1 축이 사라져 scalar가 됨
+```
+
+한 출력 회귀의 예제다. 다중출력 회귀에서는 예측과 정답을 둘 다 `[B,D]`로 맞춘다. 여기서 D는 예측할 연속값 정답 열의 개수이며, 앞에서 정의한 클래스 수 K와 다르다. class index를 쓰는 CE에서는 `[B,K]`와 `[B]`가 올바른 조합이므로 이 회귀 규칙을 그대로 적용하지 않는다.
+
+### 12번. 채널별 평균
+
+정답은 `[1,3,1,1]`이다. 배치·높이·너비에는 같은 값을 반복하고 채널에 따라 다른 평균을 뺀다. `[3]`을 그대로 쓰면 W=5와 비교되어 실패한다. W=3이면 실행될 수 있어 더 위험하다.
+
+```python
+import torch
+
+images = torch.ones(2, 3, 4, 5)
+mean = torch.tensor([0.1, 0.2, 0.3])
+centered = images - mean.reshape(1, 3, 1, 1)
+assert centered.shape == images.shape
+assert torch.allclose(centered[0, :, 0, 0], torch.tensor([0.9, 0.8, 0.7]))
+```
+
+### 13번. 분류 출력과 RNN 출력은 다르다
+
+클래스 번호는 `[1,0]`, shape는 `[2]`다. logits는 `[2,3]`이고 아직 확률이 아니다. RNN 입력은 `[2,5,3]`, sequence 출력은 `[2,5,4]`, 마지막 은닉 상태는 `[1,2,4]`다. 은닉 상태의 첫 1은 층 수 × 방향 수다.
+
+```python
+import torch
+
+logits = torch.tensor([[0., 2., 1.], [3., 0., 1.]])
+assert logits.argmax(dim=1).tolist() == [1, 0]
+
+rnn = torch.nn.RNN(input_size=3, hidden_size=4, batch_first=True)
+sequence_output, h_n = rnn(torch.zeros(2, 5, 3))
+assert sequence_output.shape == (2, 5, 4)
+assert h_n.shape == (1, 2, 4)
+
+default_rnn = torch.nn.RNN(input_size=3, hidden_size=4)
+default_output, _ = default_rnn(torch.zeros(5, 2, 3))  # [T,B,F]
+assert default_output.shape == (5, 2, 4)
+```
+
+sequence 출력은 각 시점의 내부 표현이지 자동으로 최종 클래스 점수가 되는 것은 아니다. 분류 문제에서는 문제 설계에 맞게 시점 선택·집계와 출력층을 추가한다.
+
 </details>
 
 ## 완료 기준
@@ -2546,7 +2879,11 @@ print("원본 보존")
 - [ ] reshape와 transpose를 말과 코드로 구분한다.
 - [ ] broadcasting 규칙을 shape의 오른쪽부터 검사한다.
 - [ ] 원본 보존이 필요할 때 `.copy()`를 명시한다.
-- [ ] 실습 7문제 중 6문제 이상을 정답 없이 풀었다.
+- [ ] 기존 NumPy 실습 1–7번 중 6문제 이상을 정답 없이 풀었다.
+- [ ] B·F·T·C·H·W·K와 전체 샘플 수 N을 구분한다.
+- [ ] permute(0,2,1)의 숫자가 기존 축 번호임을 설명하고 값의 대응을 확인한다.
+- [ ] RNN의 batch_first 조건과 logit/확률/클래스 번호를 구분한다.
+- [ ] 추가 실습 8–13번을 풀고, 특히 회귀 shape 함정 11번을 해설 없이 수정했다.
 
 ---
 

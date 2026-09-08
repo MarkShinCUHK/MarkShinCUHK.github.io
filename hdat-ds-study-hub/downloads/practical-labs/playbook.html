@@ -126,6 +126,9 @@ python pytorch-problem-starter.py --case binary --epochs 3
 <p>기존 긴 치트시트의 <code>fit(...) → model</code>과 다운로드 소스의 <code>train_torch_model(...) → (model, history)</code>는 다른 예제입니다. 새 가이드는 후자를 사용합니다. 기본 <code>score_fn=None</code>이면 validation loss 최소 모델, <code>score_fn</code>을 주면 전체 validation의 공식 지표로 선택합니다. AUC/F1/Accuracy는 <code>maximize=True</code>, RMSE/MAE/RMSLE는 <code>False</code>입니다.</p>
 <h3>5. 시험 규정은 별도로 확인하세요</h3>
 <p>이 파일의 다운로드·import가 시험에서 허용된다는 의미가 아닙니다. <a href="https://exam.hyundai-ngv.com/practice/13567">NGV 공식 안내</a>는 생성형 AI 활용을 금지합니다. “One-way only”는 오픈북 안내 문맥이며, 이것만으로 화면 이동·재진입 제한을 단정할 수 없습니다. 개인 파일·사이트 사용과 문항 이동은 해당 회차 안내를 확인하세요. 제공 skeleton·저장 셀이 이 문서보다 우선합니다.</p>
+<h3>6. B·T·F나 broadcasting이 낯설다면</h3>
+<p>모델 코드를 바꾸기 전에 <a href="https://markshincuhk.github.io/hdat-ds-study-hub/start/06/">입문 6강: shape·permute·broadcasting과 13문제 해설</a>을 읽으세요. <code>[B,T,F]</code>는 배치 안의 샘플 수·샘플의 시간 수·시점의 특성 수입니다. RNN은 <code>batch_first=True</code>일 때 이 순서를 쓰며, Conv1d는 보통 F와 T를 교환합니다. 단, 이 가이드의 CNN1D wrapper는 내부에서 교환하므로 입력을 또 바꾸지 않습니다.</p>
+<p>한 출력 회귀의 <code>[B,1]-[B]</code>는 <code>[B,B]</code>로 계산되는 함정이 있습니다. 두 shape를 먼저 적고 한 샘플씩 대응하는지 확인하세요. 축을 교환하는 permute, 크기를 다시 묶는 reshape, 계산할 때 값을 반복 적용하는 broadcasting은 서로 다릅니다. 기초 강의는 온라인 링크이며 요약은 내려받은 치트시트의 shape·loss 절에도 들어 있습니다.</p>
 <h2 id="recipe-01">01. Process · 선택 열 변환·결측·이상치</h2>
 <h3>문제 신호와 선택할 코드</h3>
 <p>“지정 열만 0~1”, “중앙값과 IQR”, “clip/제거/flag”가 보이면 모델을 학습하는 문제가 아니라 DataFrame 계약을 구현하는 문제입니다. Min-Max는 <code>minmax_selected</code>; clipping은 <code>fit_iqr_bounds</code>와 <code>apply_clip_bounds</code>를 사용합니다. <strong>clip은 값을 경계로 자르고, remove는 행을 지우고, flag는 표시 열을 만드는 것</strong>이므로 서로 대체할 수 없습니다.</p>
@@ -188,7 +191,7 @@ assert np.isclose(loss, np.log(4))
 <h3>문제 신호와 선택할 코드</h3>
 <p>“PIL crop”, “원 mode 유지”, “uint8 HWC를 float32 CHW로”를 구분합니다. 영역 자르기는 <code>crop_to_numpy(image, box)</code>. batch 배열을 PyTorch로 바꾸는 것은 <code>prepare_numpy_images(X, layout, divide_255)</code>입니다. 중앙 crop 함수는 <a href="https://hdat-ds-study-hub.clever-mule-1605.chatgpt.site/start/">32강 center_crop_array</a>에 있습니다.</p>
 <h3>바꿀 부분</h3>
-<p>PIL box는 <code>(left, upper, right, lower)</code>이고 right/lower는 제외 경계입니다. 이미지 크기는 PIL에서 <code>(W,H)</code>, 배열에서 <code>(H,W,C)</code>입니다. gray=1, RGB=3, RGBA=4 채널을 명세대로 유지하세요. 이미 0~1인 float를 다시 255로 나누지 않습니다.</p>
+<p>PIL box는 <code>(left, upper, right, lower)</code>이고 right/lower는 제외 경계입니다. 이미지 크기는 PIL에서 <code>(W,H)</code>, 일반적인 컬러 배열에서 <code>(H,W,C)</code>입니다. 일반적인 grayscale PIL 배열은 <code>(H,W)</code>로 채널 축이 없을 수 있습니다. gray=1, RGB=3, RGBA=4 채널을 명세대로 유지하세요. 이미 0~1인 float를 다시 255로 나누지 않습니다.</p>
 <pre><code class="language-python">import numpy as np
 from PIL import Image
 import hdat_templates as h
@@ -464,9 +467,9 @@ np.testing.assert_array_equal(reloaded, p)
 <td>source 내부 transpose와 중복하지 않기</td>
 </tr>
 <tr>
-<td>BCE/MSE shape 오류</td>
-<td>output과 y의 정확한 tuple</td>
-<td><code>[B,1]</code>로 일치, B=1까지 검사</td>
+<td>BCE/MSE shape 문제</td>
+<td>output과 y의 정확한 tuple; MSE는 오류 없이 틀릴 수도 있음</td>
+<td>한 출력 <code>[B,1]</code>, 다중출력 <code>[B,K]</code>처럼 정확히 일치; B=1도 검사</td>
 </tr>
 <tr>
 <td>CE 오류</td>

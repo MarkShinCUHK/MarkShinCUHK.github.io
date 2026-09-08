@@ -62,7 +62,7 @@ code { font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace; font-s
   <button onclick="window.print()">인쇄/PDF</button>
 </div>
 <main><h1 id="hdat-ds-pytorch">HDAT-DS 실기 오픈북 치트시트 — PyTorch 전용</h1>
-<p>버전: 2026-09-07 · Astra 감사 반영<br>
+<p>버전: 2026-09-08 · shape·broadcasting 기초 보강 (2026-09-07 Astra 감사 유지)<br>
 검색 키워드: <code>EDIT</code>, <code>binary</code>, <code>multiclass</code>, <code>multioutput</code>, <code>RMSLE</code>, <code>group</code>, <code>timeseries</code>, <code>window</code>, <code>CNN1D</code>, <code>GRU</code>, <code>LSTM</code>, <code>image</code>, <code>autoencoder</code>, <code>submission</code>, <code>hidden test</code>, <code>OOM</code>, <code>NaN</code></p>
 <blockquote>
 <p>목표는 만능 모델이 아니라 <strong>문제 유형을 2분 안에 분류하고, 유효한 baseline 제출 파일을 먼저 만든 뒤, 한 가지 개선 모델만 시도하는 것</strong>이다. 실제 문제의 skeleton·함수명·변수명·파일명·출력 shape가 이 문서보다 항상 우선한다.</p>
@@ -240,11 +240,76 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 <li><code>CrossEntropyLoss</code> 앞에 softmax를 붙이지 않는다.</li>
 <li><code>BCEWithLogitsLoss</code> 앞에 sigmoid를 붙이지 않는다.</li>
 <li>회귀·BCE에서 output과 target shape를 완전히 같게 만든다. MSELoss는 <code>[B]</code>와 <code>[B,1]</code>을 broadcasting해 의도와 다른 비교를 할 수 있다. BCEWithLogitsLoss는 서로 다른 shape를 허용하지 않고 오류를 낸다.</li>
-<li>표형 입력은 <code>[N,F]</code>, sequence 입력은 <code>[N,T,F]</code>, PyTorch 이미지 입력은 <code>[N,C,H,W]</code>.</li>
-<li><code>Conv1d</code>는 <code>[B,C,L]</code>이므로 <code>[B,T,F] → [B,F,T]</code>로 바꾼다.</li>
+<li>표형 배치는 <code>[B,F]</code>, window로 묶은 sequence 배치는 <code>[B,T,F]</code>, PyTorch 이미지 배치는 <code>[B,C,H,W]</code>. 전체 샘플 수 N과 현재 배치 크기 B를 구분한다.</li>
+<li>RNN/LSTM/GRU 입력 <code>[B,T,F]</code>는 <code>batch_first=True</code>일 때다. 기본값은 <code>[T,B,F]</code>이며 마지막 은닉 상태의 축 순서는 별도다.</li>
+<li><code>Conv1d</code>는 <code>[B,C,L]</code>이다. 특성 F를 채널, 시간 T를 길이로 쓰면 <code>x.permute(0,2,1)</code>로 <code>[B,T,F] → [B,F,T]</code>로 바꾼다. wrapper가 내부에서 바꾸면 중복 변환하지 않는다.</li>
 <li>validation/test loader는 <code>shuffle=False</code>.</li>
 <li>추론은 <code>model.eval()</code>과 <code>torch.inference_mode()</code>.</li>
 </ul>
+<h3 id="shape-basics">shape·permute·broadcasting 빠른 복습</h3>
+<p>처음 보는 기호라면 <a href="https://markshincuhk.github.io/hdat-ds-study-hub/start/06/">입문 6강의 쉬운 설명과 13문제·해설</a>부터 읽는다. 이 링크는 온라인 강의이며, 이 절 자체의 요약은 내려받은 치트시트에서도 읽을 수 있다.</p>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>의미</th>
+<th>실기에서 확인할 것</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>shape</td>
+<td>숫자의 값이 아니라 각 축의 크기</td>
+<td>B=배치 샘플 수, F=특성, T=시간, C=채널, H/W=높이/너비</td>
+</tr>
+<tr>
+<td><code>[B,K]</code> logits</td>
+<td>샘플마다 클래스 점수 K개</td>
+<td>아직 확률 아님; <code>argmax(dim=1)</code> 결과는 <code>[B]</code></td>
+</tr>
+<tr>
+<td><code>permute(0,2,1)</code></td>
+<td>기존 축 0·2·1 순서로 배치</td>
+<td><code>[B,T,F] → [B,F,T]</code>; reshape로 대체하지 않기</td>
+</tr>
+<tr>
+<td>broadcasting</td>
+<td>계산할 때 같은 값을 여러 위치에 적용</td>
+<td>오른쪽부터 크기가 같거나 한쪽이 1, 없는 왼쪽 축은 1</td>
+</tr>
+<tr>
+<td><code>[B,F] + [F]</code></td>
+<td>특성별 값을 배치 전체에 적용</td>
+<td><code>[1,F]</code>로 맞춰 읽기</td>
+</tr>
+<tr>
+<td><code>[B,T,F] + [1,T,1]</code></td>
+<td>시간별 값을 모든 배치·특성에 적용</td>
+<td><code>[T]</code>만 쓰면 마지막 F축과 비교됨</td>
+</tr>
+<tr>
+<td><code>[B,C,H,W] - [1,C,1,1]</code></td>
+<td>이미지 채널별 평균 빼기</td>
+<td><code>[C]</code>만 쓰면 마지막 W축과 비교됨</td>
+</tr>
+<tr>
+<td>회귀 <code>[B,1] - [B]</code></td>
+<td><code>[B,B]</code>로 모든 짝을 비교하는 함정</td>
+<td>한 출력이면 둘 다 <code>[B,1]</code> 또는 둘 다 <code>[B]</code>로 맞추기</td>
+</tr>
+</tbody></table>
+<p>원본 시계열 CSV가 항상 <code>[B,T,F]</code>인 것은 아니다. <code>[전체 시점 수,F]</code>에서 window를 만든 뒤 배치로 묶은 형태인지 확인한다. broadcasting이 성공해도 의도한 축에 적용되었는지는 별도 확인해야 한다.</p>
+<pre><code class="language-python">import torch
+
+# 독립 실행 가능한 shape 검사 예제. 실제 문제에서는 데이터·출력 계약을 확인한다.
+pred = torch.tensor([[2.], [4.]])
+target = torch.tensor([3., 5.])
+assert (pred - target).shape == (2, 2)  # 에러 없이 잘못된 전체 짝 비교
+target = target.unsqueeze(1)           # 한 출력 회귀: [B] -&gt; [B,1]
+assert pred.shape == target.shape
+assert (pred - target).square().mean().item() == 1.0
+assert pred[:1].squeeze(1).shape == (1,) # B=1에서도 배치 축 보존
+</code></pre>
+<p>다중출력 회귀라면 둘 다 <code>[B,K]</code>로 맞춘다. 정수 class index를 쓰는 CE는 logits <code>[B,K]</code>와 정답 <code>[B]</code>가 올바르므로 무조건 unsqueeze하지 않는다. 기호 C·K 등의 뜻은 각 절의 정의를 따른다.</p>
 <h2 id="3-process-hidden-test">3. Process: hidden test를 통과하는 법</h2>
 <h3 id="_1">계약 체크리스트</h3>
 <ul>

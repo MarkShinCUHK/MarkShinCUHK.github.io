@@ -49,6 +49,12 @@ python pytorch-problem-starter.py --case binary --epochs 3
 
 이 파일의 다운로드·import가 시험에서 허용된다는 의미가 아닙니다. [NGV 공식 안내](https://exam.hyundai-ngv.com/practice/13567)는 생성형 AI 활용을 금지합니다. “One-way only”는 오픈북 안내 문맥이며, 이것만으로 화면 이동·재진입 제한을 단정할 수 없습니다. 개인 파일·사이트 사용과 문항 이동은 해당 회차 안내를 확인하세요. 제공 skeleton·저장 셀이 이 문서보다 우선합니다.
 
+### 6. B·T·F나 broadcasting이 낯설다면
+
+모델 코드를 바꾸기 전에 [입문 6강: shape·permute·broadcasting과 13문제 해설](https://markshincuhk.github.io/hdat-ds-study-hub/start/06/)을 읽으세요. `[B,T,F]`는 배치 안의 샘플 수·샘플의 시간 수·시점의 특성 수입니다. RNN은 `batch_first=True`일 때 이 순서를 쓰며, Conv1d는 보통 F와 T를 교환합니다. 단, 이 가이드의 CNN1D wrapper는 내부에서 교환하므로 입력을 또 바꾸지 않습니다.
+
+한 출력 회귀의 `[B,1]-[B]`는 `[B,B]`로 계산되는 함정이 있습니다. 두 shape를 먼저 적고 한 샘플씩 대응하는지 확인하세요. 축을 교환하는 permute, 크기를 다시 묶는 reshape, 계산할 때 값을 반복 적용하는 broadcasting은 서로 다릅니다. 기초 강의는 온라인 링크이며 요약은 내려받은 치트시트의 shape·loss 절에도 들어 있습니다.
+
 ## 01. Process · 선택 열 변환·결측·이상치
 
 ### 문제 신호와 선택할 코드
@@ -147,7 +153,7 @@ binary F1은 `2TP/(2TP+FP+FN)`입니다. TP=2, FP=1, FN=3이면 0.5입니다. Ma
 
 ### 바꿀 부분
 
-PIL box는 `(left, upper, right, lower)`이고 right/lower는 제외 경계입니다. 이미지 크기는 PIL에서 `(W,H)`, 배열에서 `(H,W,C)`입니다. gray=1, RGB=3, RGBA=4 채널을 명세대로 유지하세요. 이미 0~1인 float를 다시 255로 나누지 않습니다.
+PIL box는 `(left, upper, right, lower)`이고 right/lower는 제외 경계입니다. 이미지 크기는 PIL에서 `(W,H)`, 일반적인 컬러 배열에서 `(H,W,C)`입니다. 일반적인 grayscale PIL 배열은 `(H,W)`로 채널 축이 없을 수 있습니다. gray=1, RGB=3, RGBA=4 채널을 명세대로 유지하세요. 이미 0~1인 float를 다시 255로 나누지 않습니다.
 
 ```python
 import numpy as np
@@ -494,7 +500,7 @@ np.testing.assert_array_equal(reloaded, p)
 | NameError/import 실패 | 파일 이름·앞 정의·같은 폴더 | `hdat_templates.py` 및 00번 의존 블록 확인 |
 | mat1/mat2 오류 | 전처리 후 F와 Linear in_features | 모델을 변환 후 feature 수로 생성 |
 | Conv channel 오류 | `[B,L,F]`/`[B,F,L]`, NHWC/NCHW | source 내부 transpose와 중복하지 않기 |
-| BCE/MSE shape 오류 | output과 y의 정확한 tuple | `[B,1]`로 일치, B=1까지 검사 |
+| BCE/MSE shape 문제 | output과 y의 정확한 tuple; MSE는 오류 없이 틀릴 수도 있음 | 한 출력 `[B,1]`, 다중출력 `[B,K]`처럼 정확히 일치; B=1도 검사 |
 | CE 오류 | y long, 0…C−1 | mapping·범위·마지막 softmax 제거 |
 | NaN/Inf | X/y/복원 값, loss, lr | 입력 유한값부터 검사하고 LR 낮추기 |
 | CUDA OOM | batch·모델·window 복사 | batch 절반, channel 축소, lazy window |
