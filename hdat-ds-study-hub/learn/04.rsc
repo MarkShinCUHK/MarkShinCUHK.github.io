@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/04","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/04":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/04":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","04"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/04","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/04"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/04"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/04","_N_T_/layout","_N_T_/learn/04","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/04"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/04","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/04":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/04":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","04"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/04","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/04"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/04"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/04","_N_T_/layout","_N_T_/learn/04","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/04"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -41,7 +41,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 24:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-04-1",{"children":[["$","a",null,{"href":"#visual-04-1","children":"먼저 떠올릴 장면"}],false]}],["$","li","visual-04-2",{"children":[["$","a",null,{"href":"#visual-04-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-04-1",{"children":["$","a",null,{"href":"#topic-04-1","children":"짧은 기호를 실제 칸으로 풀기"}]}],["$","li","topic-04-2",{"children":["$","a",null,{"href":"#topic-04-2","children":"가중치는 왜 출력 수만큼의 행을 가질까?"}]}]]}]]}]]}],["$","li","visual-04-3",{"children":[["$","a",null,{"href":"#visual-04-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-04-4",{"children":[["$","a",null,{"href":"#visual-04-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-04-3",{"children":["$","a",null,{"href":"#topic-04-3","children":"멀리 떨어져도 방향은 같을 수 있을까?"}]}],["$","li","topic-04-4",{"children":["$","a",null,{"href":"#topic-04-4","children":"공분산에서 새 좌표까지 한 단계씩 계산하기"}]}]]}]]}]]}],["$","li","visual-04-5",{"children":[["$","a",null,{"href":"#visual-04-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-04-5",{"children":["$","a",null,{"href":"#topic-04-5","children":"같은 열 두 개에서 가중치를 따로 정할 수 있을까?"}]}]]}]]}]]}],["$","li","visual-04-6",{"children":[["$","a",null,{"href":"#visual-04-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-04-6",{"children":["$","a",null,{"href":"#topic-04-6","children":"단위만 바꿨는데 PCA가 보는 방향은 왜 달라질까?"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-04","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-04-1",{"children":["$","a",null,{"href":"#theory-04-1","children":"행렬곱은 출력마다 내적을 반복한 계산이다"}]}],["$","li","theory-04-2",{"children":["$","a",null,{"href":"#theory-04-2","children":"길이와 방향을 따로 계산해야 코사인을 이해한다"}]}],["$","li","theory-04-3",{"children":["$","a",null,{"href":"#theory-04-3","children":"행렬의 계수는 열 수가 아니라 독립적인 방향 수다"}]}],["$","li","theory-04-4",{"children":["$","a",null,{"href":"#theory-04-4","children":"공분산 행렬의 각 칸을 직접 만들어 본다"}]}],["$","li","theory-04-5",{"children":["$","a",null,{"href":"#theory-04-5","children":"고유값에서 PCA 좌표까지 연결한다"}]}],["$","li","theory-04-6",{"children":["$","a",null,{"href":"#theory-04-6","children":"비지도 변환도 학습 데이터에서만 기준을 구한다"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","42-vector-matrix",{"children":["$","a",null,{"href":"#42-vector-matrix","children":"벡터와 행렬"}]}],["$","li","43",{"children":["$","a",null,{"href":"#43","children":"내적과 유사도"}]}],["$","li","44-norm",{"children":["$","a",null,{"href":"#44-norm","children":"노름과 정규화"}]}],["$","li","45-rank",{"children":["$","a",null,{"href":"#45-rank","children":"계수(rank)와 선형 종속"}]}],["$","li","46-pca",{"children":["$","a",null,{"href":"#46-pca","children":"고유값·고유벡터와 PCA"}]}],["$","li","47",{"children":["$","a",null,{"href":"#47","children":"손계산 예제"}]}],["$","li","48-pytorch",{"children":["$","a",null,{"href":"#48-pytorch","children":"PyTorch로 검산"}]}],["$","li","49",{"children":["$","a",null,{"href":"#49","children":"실습문제"}]}],["$","li","410",{"children":["$","a",null,{"href":"#410","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],["$","ol",null,{"children":[["$","li","visual-04-7",{"children":["$","a",null,{"href":"#visual-04-7","children":"스스로 확인하기"}]}],["$","li","visual-04-8",{"children":["$","a",null,{"href":"#visual-04-8","children":"정답과 이유"}]}],["$","li","visual-04-9",{"children":["$","a",null,{"href":"#visual-04-9","children":"더 읽을 공식 자료"}]}]]}]]]}]
 25:["$","$L2d",null,{}]
 26:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","벡터, 행렬, 텐서의 차원을 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"벡터, 행렬, 텐서의 차원을 설명한다."]}],["$","li","내적, 행렬곱, 전치, 노름을 계산한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"내적, 행렬곱, 전치, 노름을 계산한다."]}],["$","li","선형층과 합성곱을 행렬 연산으로 이해한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"선형층과 합성곱을 행렬 연산으로 이해한다."]}],["$","li","고유값·고유벡터와 PCA의 관계를 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"고유값·고유벡터와 PCA의 관계를 설명한다."]}]]}]]}]
-27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 2e:T55fa,<h3 id="visual-04-1">먼저 떠올릴 장면</h3>
 <p>신경망이 숫자를 “본다”는 말을 실제 계산으로 바꾸어 보자. 입력 두 개를 각각 정해진 비중으로 곱하고 더하면 출력 하나를 만들 수 있다. 다른 비중 한 묶음을 쓰면 또 다른 출력이 나온다. 이 비중을 가중치라고 하고, 입력이 모두 0이어도 기본으로 더하는 값을 편향이라고 한다. 지금은 가중치가 주어졌다고 가정하고 계산을 익힌다. 학습은 이후 정답과 비교하면서 바로 이 가중치와 편향을 조절하는 과정이다.</p>
 <p>학생의 수학·영어 점수 [3,4]를 순서대로 적으면 벡터가 된다. 수학에 2배, 영어에 1배의 비중을 두어 총점을 만들면 3×2+4×1=10이다. 여러 특성으로 여러 출력을 만드는 신경망의 선형층도 같은 계산을 반복한다. 선형대수는 이 반복 계산을 짧고 정확하게 적는 데 필요한 수학이다. 지금은 좌표 두 개로 그린 화살표와 작은 표부터 살펴보면 충분하다.</p>
@@ -107,41 +107,77 @@ assert np.allclose(np.outer(t, v), P)
 2a:["$","$L34",null,{"track":"learn","lesson":"04","goal":"벡터, 행렬, 텐서의 차원을 설명한다."}]
 2b:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"학습 마무리"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"끝까지 읽었다면 아래 완료 기준도 확인해 보세요. 직접 설명하거나 실행할 수 있는 항목을 표시하면 됩니다."}]]}],["$","$L35",null,{"lessonId":"04"}]]}]
 2c:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/03/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",3,". ","NumPy·pandas로 데이터 구조와 값 점검하기"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/05/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[5,". ","미분·역전파·최적화의 원리"," →"]}]]}]]}]
-36:T29e7,<h3 id="theory-04-1">1. 행렬곱은 출력마다 내적을 반복한 계산이다</h3>
+36:T3d11,<h3 id="theory-04-1">1. 행렬곱은 출력마다 내적을 반복한 계산이다</h3>
+<p>한 학생의 점수 두 개에서 총점 두 개를 만들려면 서로 다른 가중치 묶음 두 개가 필요하다. 같은 일을 아홉 학생에게 하면 학생마다 새 규칙을 만드는 것이 아니라 두 계산 규칙을 반복한다. 이 반복 구조에서 W의 크기와 배치 크기가 왜 독립인지 확인하자.</p>
 <p>한 학생의 두 과목 점수 x=[2,5]에서 두 종류 총점을 만들자. 첫 총점의 가중치는 [1,3], 둘째는 [−2,1]이다. 첫 결과는 2×1+5×3=17, 둘째는 2×(−2)+5×1=1이다. 같은 위치끼리 곱하여 더하는 이 계산이 내적이다. 출력마다 가중치 한 묶음이 필요하므로 입력 F개, 출력 O개면 가중치 숫자는 O×F개다. 출력마다 더하는 절편 b는 O개 더 필요하다.</p>
 <p>PyTorch Linear(F,O)는 가중치 W를 [O,F]로 저장한다. 샘플 B개를 행으로 쌓은 X:[B,F]의 각 행과 W의 각 행을 내적하려면 XWᵀ로 계산한다. 전치 T는 행과 열을 바꾸므로 Wᵀ:[F,O]이고, 가운데 축 길이 F가 같아 결과는 [B,O]다. b:[O]는 브로드캐스팅으로 모든 샘플에 출력별 절편을 똑같이 더한다. 배치 크기를 바꿔도 W와 b는 변하지 않는다. 샘플마다 별도 가중치를 저장하는 것이 아니라 모든 샘플에 같은 계산 규칙을 적용하기 때문이다.</p>
-<p>예를 들어 X:[9,4]와 Linear(4,3)이면 W:[3,4], b:[3], 출력 [9,3], 매개변수는 3×4+3=15개다. 행렬 원소별 곱과 행렬곱도 구분한다. [9,4]의 모든 숫자에 각각 다른 값을 곱하는 연산은 출력별 합을 자동으로 만들지 않는다. 수식의 각 칸을 <code>z[b,o]=Σ_f X[b,f]W[o,f]+b[o]</code>로 풀어 읽으면 어떤 축이 합쳐지고 어떤 축이 남는지 보인다. Σ_f는 f 위치를 모두 더하라는 뜻이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O04-01">4.9 실습문제 · 1번</a> · <a href="#question-V04-02">기초 확인 · 2번</a></p></details>
+<p>예를 들어 X:[9,4]와 Linear(4,3)이면 W:[3,4], b:[3], 출력 [9,3], 매개변수는 3×4+3=15개다. 행렬 원소별 곱과 행렬곱도 구분한다. [9,4]의 모든 숫자에 각각 다른 값을 곱하는 연산은 출력별 합을 자동으로 만들지 않는다. 수식의 각 칸을 <code>z[b,o]=Σ_f X[b,f]W[o,f]+b[o]</code>로 풀어 읽으면 어떤 축이 합쳐지고 어떤 축이 남는지 보인다. Σ_f는 f 위치를 모두 더하라는 뜻이다.</p>
+<p>원소 하나 z[b,o]를 풀어 읽으면 b번 샘플과 o번 출력의 관계가 보인다. 합 기호의 f만 사라지고 b·o는 남는다. 행렬곱의 가운데 축을 맞추는 규칙은 외울 도형이 아니라 입력별 곱합에 같은 F개 항이 필요해서 나온다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 출력 하나마다 입력 F개의 비중과 편향 하나가 필요하다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O04-01">4.9 실습문제 · 1번</a> · <a href="#question-V04-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-04-2">2. 길이와 방향을 따로 계산해야 코사인을 이해한다</h3>
+<p>두 차량의 센서 벡터가 [2,−1]과 [6,−3]이라면 진폭은 세 배지만 구성 비율은 같다. 진폭까지 보려면 거리, 구성 방향만 보려면 코사인이 적절할 수 있다. 먼저 길이를 계산한 뒤 그 크기를 나누어 없애는 이유를 살펴보자.</p>
 <p>벡터 x의 L1 노름은 절댓값 합, L2 노름은 제곱합의 제곱근이다. x=[−5,12]이면 L1=5+12=17, L2=√(25+144)=13이다. 음수 좌표가 있다고 길이가 음수가 되지는 않는다. L2의 제곱은 169이고 L2 자체는 13이므로 규제식에 제곱 표시가 있는지 확인한다. 유클리드 거리는 두 위치의 차이 벡터에 L2를 적용한 값이다.</p>
 <p>x와 u가 모두 영벡터가 아닐 때 코사인 유사도는 (x·u)/(||x||₂||u||₂)다. x=[2,−1], u=[6,−3]이면 내적은 12+3=15, 길이는 √5와 3√5이고 분모도 15이므로 유사도는 1이다. 값이 같지 않아도 방향이 같으면 1이다. u=[−6,3]으로 바꾸면 유사도는 −1이고 방향은 반대다. u=[1,2]라면 내적이 2−2=0이고 분모는 양수이므로 유사도는 0이며 두 방향은 직각이다.</p>
-<p>영벡터 [0,0]는 길이 0이라 코사인 공식의 분모가 0이다. 내적이 0이라는 사실만으로 “각도 90도”라고 말할 수 없다. 각도가 없는 벡터이기 때문이다. 라이브러리가 작은 양수 ε를 분모에 넣어 숫자를 반환하더라도 수학적 코사인의 정의역이 바뀌는 것은 아니다. 필기 보기에 코사인 1·0·−1의 의미가 나오면 먼저 두 벡터가 영벡터가 아니라는 전제를 둔다. 길이를 1로 맞추는 벡터 정규화와 열 평균을 0으로 만드는 표준화도 같은 작업이 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O04-02">4.9 실습문제 · 2번</a> · <a href="#question-O04-05">4.9 실습문제 · 5번</a> · <a href="#question-V04-01">기초 확인 · 1번</a></p></details>
+<p>영벡터 [0,0]는 길이 0이라 코사인 공식의 분모가 0이다. 내적이 0이라는 사실만으로 “각도 90도”라고 말할 수 없다. 각도가 없는 벡터이기 때문이다. 라이브러리가 작은 양수 ε를 분모에 넣어 숫자를 반환하더라도 수학적 코사인의 정의역이 바뀌는 것은 아니다. 필기 보기에 코사인 1·0·−1의 의미가 나오면 먼저 두 벡터가 영벡터가 아니라는 전제를 둔다. 길이를 1로 맞추는 벡터 정규화와 열 평균을 0으로 만드는 표준화도 같은 작업이 아니다.</p>
+<p>벡터 길이 정규화는 한 샘플의 여러 좌표를 묶어 계산한다. 열 표준화는 여러 샘플의 같은 특성을 묶어 평균·표준편차를 구한다. 계산하는 축과 보존하는 정보가 달라 두 단어를 같은 전처리로 읽지 않는다. 영벡터에서는 나눌 길이가 없어 별도 정의역 검사가 필요하다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 같은 방향은 같은 값이 아니며 영벡터에는 각도 해석을 적용하지 않는다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O04-02">4.9 실습문제 · 2번</a> · <a href="#question-O04-05">4.9 실습문제 · 5번</a> · <a href="#question-V04-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-04-3">3. 행렬의 계수는 열 수가 아니라 독립적인 방향 수다</h3>
+<p>매번 둘째 센서가 첫째의 두 배라면 둘째 센서를 별도로 기록해도 가능한 점들은 한 선에만 놓인다. 두 열이라는 저장 크기와 한 방향이라는 독립성은 다르다. 가중치를 해석하거나 압축할 때 필요한 것은 이 독립 방향의 수다.</p>
 <p>선형결합은 벡터마다 수를 곱한 뒤 더한 것이다. 어떤 열을 다른 열의 선형결합으로 만들 수 있다면 독립적인 방향은 늘어나지 않는다. 예를 들어 열 a=[1,2,3], b=[2,4,6]은 b=2a이므로 두 열을 놓아도 행렬의 계수(rank)는 1이다. c=[0,1,0]을 추가하면 c는 a의 배수가 아니므로 계수는 2가 된다. 행렬의 계수는 행 수와 열 수 중 작은 값을 넘지 않는다.</p>
 <p>회귀에서 동일한 두 열 x₁=x₂를 쓰면 예측식의 가중치 부분은 w₁x₁+w₂x₂=(w₁+w₂)x₁이다. (w₁,w₂)=(1,4)와 (2,3)은 같은 예측을 만든다. 중복 열이 있으면 데이터만으로 개별 가중치를 하나로 정할 수 없다. 정확히 중복되지 않고 거의 배수인 경우에도 데이터가 조금 바뀌면 계수가 크게 달라질 수 있다. 이것이 다중공선성에 따른 불안정성이다. 예측값이 비슷하다고 해서 개별 계수도 믿을 만하게 해석할 수 있는 것은 아니다.</p>
-<p>공분산을 구하려고 열 평균을 빼는 중심화를 하면 상수 열은 영벡터가 된다. 따라서 두 열이 같다는 이유만으로 전체 공분산 행렬의 계수가 반드시 1이라고 단정할 수는 없다. 그 두 열만 있고 값이 변하면 계수는 1, 두 열이 모두 상수이면 0이다. 다른 독립적인 열이 더 있으면 전체 계수는 그만큼 커질 수 있다. 중심화한 행렬은 각 열의 합이 0이므로 샘플이 N개이면 계수가 최대 N−1이다. 특성도 F개이므로 공분산 행렬의 유효 계수는 최대 min(F,N−1)이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O04-03">4.9 실습문제 · 3번</a> · <a href="#question-V04-03">기초 확인 · 3번</a></p></details>
+<p>공분산을 구하려고 열 평균을 빼는 중심화를 하면 상수 열은 영벡터가 된다. 따라서 두 열이 같다는 이유만으로 전체 공분산 행렬의 계수가 반드시 1이라고 단정할 수는 없다. 그 두 열만 있고 값이 변하면 계수는 1, 두 열이 모두 상수이면 0이다. 다른 독립적인 열이 더 있으면 전체 계수는 그만큼 커질 수 있다. 중심화한 행렬은 각 열의 합이 0이므로 샘플이 N개이면 계수가 최대 N−1이다. 특성도 F개이므로 공분산 행렬의 유효 계수는 최대 min(F,N−1)이다.</p>
+<p>동일한 두 열에서 w₁+w₂만 결정된다는 것은 예측이 반드시 실패한다는 뜻은 아니다. 개별 계수의 해석이 불안정하다는 말과 구분한다. 중심화를 하면 상수 방향이 사라지므로 원행렬 rank와 공분산 rank를 묻는 질문도 구별해야 한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> rank를 셀 때 열 수뿐 아니라 중심화 여부와 상수 여부도 본다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O04-03">4.9 실습문제 · 3번</a> · <a href="#question-V04-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-04-4">4. 공분산 행렬의 각 칸을 직접 만들어 본다</h3>
+<p>모든 센서 값에 100을 더해도 샘플들 사이의 퍼짐은 같다. 그런데 원래 값 제곱만 더하면 큰 수가 나오므로 중심 위치와 퍼짐을 분리해야 한다. 평균을 뺀 차이로 계산하는 것이 공분산 행렬의 출발점이다.</p>
 <p>세 샘플이 [1,2], [3,6], [5,10]이면 열 평균은 [3,6]이다. 평균을 뺀 행렬 X_c는 [−2,−4], [0,0], [2,4]다. 첫 열 제곱합은 4+0+4=8, 둘째 열 제곱합은 16+0+16=32, 두 열의 곱 합은 8+0+8=16이다. 모집단 방식 S=X_cᵀX_c/N을 쓰면 S=[[8/3,16/3],[16/3,32/3]]이다. 대각선 칸은 각 열의 분산, 양쪽 비대각선 칸은 두 열의 공분산이다.</p>
 <p>분산은 한 변수의 퍼짐이므로 음수가 아니다. 공분산은 한쪽이 올라갈 때 다른 쪽이 내려가면 음수가 될 수 있다. 상관계수는 공분산을 두 표준편차로 나눠 단위를 제거한 값이다. 위 두 열은 정확한 양의 배수라 상관은 1이다. 하지만 공분산 숫자는 16/3으로 1보다 크다. “공분산도 항상 −1과 1 사이”는 상관계수와 혼동한 보기다.</p>
-<p>표본분산을 추정하려고 분모 N−1을 쓰면 이 행렬의 각 값은 3/2배가 된다. 계산 전에 모집단 방식과 표본 방식 중 무엇을 쓸지 명시해야 한다. 두 방식에서 나타나는 방향은 같아도 수치 자체는 다르다. 또한 평균을 빼지 않은 XᵀX/N은 일반적으로 공분산이 아니다. 모든 값에 큰 상수를 더해도 퍼진 정도는 같아야 하는데, 중심화하지 않은 제곱합은 달라지기 때문이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O04-03">4.9 실습문제 · 3번</a> · <a href="#question-V04-03">기초 확인 · 3번</a></p></details>
+<p>표본분산을 추정하려고 분모 N−1을 쓰면 이 행렬의 각 값은 3/2배가 된다. 계산 전에 모집단 방식과 표본 방식 중 무엇을 쓸지 명시해야 한다. 두 방식에서 나타나는 방향은 같아도 수치 자체는 다르다. 또한 평균을 빼지 않은 XᵀX/N은 일반적으로 공분산이 아니다. 모든 값에 큰 상수를 더해도 퍼진 정도는 같아야 하는데, 중심화하지 않은 제곱합은 달라지기 때문이다.</p>
+<p>앞서 계산한 행렬의 오른쪽 위와 왼쪽 아래가 같은 것은 a×b=b×a이기 때문이다. 대각선은 같은 편차의 제곱이라 음수가 아니지만 비대각선은 곱의 부호에 따라 음수가 될 수 있다. 표본 분모로 바꾸면 행렬 전체가 같은 양수 배율로 커져 방향은 같고 고유값 규모는 달라진다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 중심화→같은 행의 편차 곱→합→선택한 분모 순서로 각 칸을 만든다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O04-03">4.9 실습문제 · 3번</a> · <a href="#question-V04-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-04-5">5. 고유값에서 PCA 좌표까지 연결한다</h3>
+<p>대각선으로 늘어진 점을 축 하나의 좌표로 나타내려면 그 축의 방향과 점의 위치를 따로 알아야 한다. 방향 v가 길이 1이면 점과 v의 내적으로 그 축에서의 위치를 계산할 수 있다. 고유값은 이 좌표들이 얼마나 퍼지는지를 알려 주므로 PCA의 압축 순서를 정하는 데 쓰인다.</p>
 <p>고유벡터 v는 영벡터가 아니면서 Sv=λv를 만족하는 방향이다. λ는 그 방향에 곱해진 배율이다. 위 S에 v₁=[1,2]/√5를 곱하면 (40/3)v₁이 되고, v₂=[−2,1]/√5를 곱하면 0이 된다. 두 방향의 내적은 (−2+2)/5=0이고 길이는 각각 1이다. 고유값 40/3과 0은 해당 방향의 분산이며 공분산의 전체 분산은 두 값의 합이다.</p>
 <p>첫 좌표는 중심화한 각 행과 v₁의 내적으로 구한다. [−2,−4]의 투영값은 (−2−8)/√5=−2√5이고 가운데는 0, 마지막은 2√5다. 이 세 수의 모집단 분산은 (20+0+20)/3=40/3으로 고유값과 같다. 첫 방향의 설명분산비는 (40/3)/(40/3+0)=1이다. 데이터가 한 직선 위에 있으므로 첫 좌표와 축을 알면 중심화한 원래 점을 복원할 수 있다.</p>
-<p>PCA가 분산을 100% 보존했다는 것은 입력 정보를 잃지 않았다는 뜻이지 정답 y를 완벽히 예측한다는 뜻은 아니다. 같은 입력에 잡음이 섞인 서로 다른 정답이 붙는다면 입력을 모두 보존해도 미래 정답을 전부 알 수는 없다. 모든 입력이 상수여서 총분산이 0이면 설명분산비의 분모도 0이므로 “0/0=100%”로 처리하지 않는다. PCA 축의 부호가 반대로 나와도 같은 직선을 나타내므로 이상이 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O04-03">4.9 실습문제 · 3번</a> · <a href="#question-V04-04">기초 확인 · 4번</a></p></details>
+<p>PCA가 분산을 100% 보존했다는 것은 입력 정보를 잃지 않았다는 뜻이지 정답 y를 완벽히 예측한다는 뜻은 아니다. 같은 입력에 잡음이 섞인 서로 다른 정답이 붙는다면 입력을 모두 보존해도 미래 정답을 전부 알 수는 없다. 모든 입력이 상수여서 총분산이 0이면 설명분산비의 분모도 0이므로 “0/0=100%”로 처리하지 않는다. PCA 축의 부호가 반대로 나와도 같은 직선을 나타내므로 이상이 아니다.</p>
+<p>좌표 t와 방향 v를 곱해 원래 점을 복원하는 단계까지 따라가야 압축의 의미가 완성된다. 앞의 예처럼 직선 위 점들은 한 축으로 복원되지만 수직 방향의 차이가 있는 일반 자료에서는 그 좌표를 버리는 만큼 정보가 사라진다. 고유벡터 부호가 바뀌면 t도 반대로 바뀌어 tv는 그대로다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 고유벡터는 새 방향, 투영값은 샘플 좌표, 고유값은 그 좌표의 분산이다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O04-03">4.9 실습문제 · 3번</a> · <a href="#question-V04-04">기초 확인 · 4번</a></p></details>
 <h3 id="theory-04-6">6. 비지도 변환도 학습 데이터에서만 기준을 구한다</h3>
+<p>시험 답 y를 보지 않았어도 시험용 입력들의 방향을 미리 보고 표현을 고르면 평가 자료가 준비 과정에 영향을 준다. PCA가 비지도라는 사실은 정답을 안 쓴다는 뜻이지 어떤 자료든 미리 사용해도 된다는 허가가 아니다.</p>
 <p>PCA는 정답을 보지 않지만 입력의 평균과 퍼진 정도를 사용한다. 검증 샘플까지 포함해 평균과 주성분을 정하면 검증용 분포 정보가 학습 입력의 좌표 변환에 영향을 준다. 따라서 데이터를 분할한 뒤 학습 데이터에서만 중심·척도·축을 정하고 검증 데이터에는 그대로 적용한다. 정답을 사용하지 않는 전처리에서도 데이터 누수는 생길 수 있다.</p>
 <p>스케일링도 문제에 맞게 적용한다. 미터와 원처럼 단위 크기가 크게 다르면 분산이 큰 특성이 PCA 방향에 지나치게 큰 영향을 줄 수 있다. 반면 모든 열의 단위가 같고 큰 변동 자체가 중요한 문제라면 표준화로 그 차이를 없애는 것이 항상 좋은 것은 아니다. 먼저 PCA는 입력 분산을, LDA는 정답 클래스의 분리를 기준으로 삼는다는 목적의 차이를 기억한다.</p>
-<p>행렬곱의 배열 규칙은 <a href="https://numpy.org/doc/stable/reference/generated/numpy.matmul.html" target="_blank" rel="noopener noreferrer">NumPy matmul</a>, 계수 배치는 <a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html" target="_blank" rel="noopener noreferrer">PyTorch Linear</a>, 중심화와 분산 방향은 <a href="https://scikit-learn.org/stable/modules/decomposition.html#pca" target="_blank" rel="noopener noreferrer">scikit-learn PCA</a>를 참고한다. 이 절의 작은 행렬과 수치는 독립적으로 구성한 학습 예다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O04-04">4.9 실습문제 · 4번</a></p></details>
+<p>행렬곱의 배열 규칙은 <a href="https://numpy.org/doc/stable/reference/generated/numpy.matmul.html" target="_blank" rel="noopener noreferrer">NumPy matmul</a>, 계수 배치는 <a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html" target="_blank" rel="noopener noreferrer">PyTorch Linear</a>, 중심화와 분산 방향은 <a href="https://scikit-learn.org/stable/modules/decomposition.html#pca" target="_blank" rel="noopener noreferrer">scikit-learn PCA</a>를 참고한다.</p>
+<p>이 절의 작은 행렬과 수치는 독립적으로 구성한 학습 예다.</p>
+<p>학습 기준을 정하는 시간→새 입력이 도착하는 시간→고정된 기준으로 변환하는 시간 순으로 생각한다. 새 입력이 도착할 때마다 전체 축을 다시 정하는 별도 문제를 명시하지 않았다면, 일반적인 검증에서는 학습에서 고정한 좌표계로 새 자료를 표현한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 비지도 변환에서도 fit의 자료 범위가 평가의 독립성을 결정한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O04-04">4.9 실습문제 · 4번</a></p></details>
 2f:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-04","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-04","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$36"}}]]}]
 30:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 31:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-37:T219f,
+37:T53f2,
 <span class="section-anchor" id="41" aria-hidden="true"></span>
+<p>여러 입력을 가중해 출력 하나를 만드는 계산을 먼저 손으로 익힌다. 그 계산을 샘플 수와 출력 수만큼 반복한 것이 행렬곱이다. 이어서 같은 정보를 두 열에 반복 저장한 경우를 살펴보면 왜 독립 방향과 PCA를 배우는지 연결된다.</p>
 
 <h3 id="42-vector-matrix">4.2 벡터와 행렬</h3>
+<p>학생의 두 점수 [2,5]를 비중 [3,1]로 합하면 2×3+5×1=11이다. 다른 비중 [1,−1]이면 2−5=−3이라는 다른 출력을 만든다. 숫자 하나는 스칼라, 순서 있는 숫자 묶음은 벡터, 여러 묶음을 행으로 쌓은 표는 행렬이다. 아래 수식은 이 “곱해서 더하기”를 모든 샘플과 출력에 반복하는 약속이다.</p>
 <p>벡터 <code>x ∈ R^F</code>는 한 샘플의 F개 특성, 행렬 <code>X ∈ R^(B×F)</code>는 B개 샘플을 행으로 쌓은 것이다. 선형층은</p>
 <p><code>Z = X W^T + b</code></p>
 <p>로 쓸 수 있다. <code>X:[B,F]</code>, <code>W:[O,F]</code>, <code>b:[O]</code>라면 <code>Z:[B,O]</code>다. PyTorch의 <code>nn.Linear(F,O)</code>는 가중치를 <code>[O,F]</code>로 저장하므로 수식에서 전치를 쓴다.</p>
+<p>ℝ 또는 R은 실수들의 집합이고 ∈는 그 집합에 속한다는 뜻이다. F는 입력 수, B는 함께 계산할 샘플 수, O는 출력 수다. W의 한 행에는 출력 하나에 사용할 입력별 비중 F개가 놓인다. 그래서 W는 [O,F]이고, b는 각 출력의 기본값 O개다. 모든 샘플이 같은 W와 b를 공유하므로 B가 커져도 매개변수 수 OF+O는 그대로다.</p>
+<p>전치 T는 행·열 교환이다. [B,F]와 [F,O]를 곱하면 가운데 F개 입력을 곱해 합산하고 B와 O가 남는다. 예를 들어 B=3,F=2,O=4이면 출력은 세 학생의 네 결과인 [3,4]다. +b는 2강의 브로드캐스팅으로 모든 학생에게 같은 출력별 기본값을 더한다.</p>
 <h3 id="43">4.3 내적과 유사도</h3>
+<p>[1,2]와 [2,4]는 좌표값도 원점까지 거리도 다르지만 같은 방향을 가리킨다. 반면 [1,2]와 [2,−1]은 서로 직각이다. “얼마나 큰가”를 포함할지 제외할지에 따라 비슷함의 기준도 달라져서 내적과 코사인을 나누어 배운다.</p>
 <p>내적 <code>x·w = Σ_i x_i w_i</code>는 같은 위치의 원소끼리 곱한 값을 모두 더한 것이다. 기하학적으로는 <code>x·w = ||x|| ||w|| cosθ</code>다. 코사인 유사도는 벡터의 크기를 제외하고 방향만 비교한다.</p>
 <ul>
 <li>내적이 양수: 두 벡터 사이의 각이 예각이다.</li>
@@ -149,16 +185,25 @@ assert np.allclose(np.outer(t, v), P)
 <li>음수: 두 벡터 사이의 각이 둔각이다.</li>
 </ul>
 <p>KNN의 유클리드 거리, SVM의 초평면, 어텐션의 쿼리와 키 사이 점수는 모두 내적이나 거리를 바탕으로 계산한다.</p>
+<p>Σ_i는 정해진 모든 위치 i의 항을 더하라는 뜻이다. x·w는 새 벡터가 아니라 숫자 하나이며, ||x||는 벡터 길이, θ는 두 벡터 사이 각이다. [1,2]·[2,4]=10, 길이 곱은 √5×√20=10이므로 코사인 유사도는 1이다. [1,2]·[2,−1]=0이므로 두 비영벡터는 직교한다.</p>
+<p>여기서 양수·0·음수의 각도 해석은 두 벡터의 길이가 0이 아닐 때 적용한다. [0,0]은 모든 벡터와 내적 0이지만 방향이 없어 각도를 정할 수 없다. 어텐션의 쿼리와 키는 나중에 배울 “찾는 정보와 비교할 정보”의 벡터이며, 지금은 그 점수에도 이 곱합이 쓰인다는 연결만 잡는다.</p>
 <h3 id="44-norm">4.4 노름과 정규화</h3>
+<p>원점에서 [−3,4]까지 갈 때 좌표축을 따라 가면 3+4=7, 직선으로 가면 √(9+16)=5다. 노름(norm)은 벡터의 크기를 재는 규칙이며, 어떤 규칙을 쓰느냐에 따라 7과 5가 모두 맞을 수 있다. 음수 좌표가 있어도 길이가 음수가 되어서는 안 된다.</p>
 <ul>
 <li>L1 노름: <code>||x||₁ = Σ|x_i|</code></li>
 <li>L2 노름: <code>||x||₂ = sqrt(Σx_i²)</code></li>
 <li>L2 노름의 제곱: 미분하기 쉬워 손실함수와 규제에 자주 사용한다.</li>
 </ul>
 <p>L1 규제는 0에서 그래프가 뾰족한 형태여서 일부 가중치를 정확히 0으로 만들기 쉽고, 특성을 선택하는 효과가 있다. L2 규제는 큰 가중치를 연속적으로 줄인다.</p>
+<p>L1의 |x_i|는 각 좌표의 절댓값, L2의 sqrt는 제곱근이다. L2의 제곱 25와 L2 5를 구별한다. 벡터를 길이 1로 정규화하려면 0이 아닌 벡터를 자기 L2 길이로 나눈다. [−3,4]/5=[−0.6,0.8]은 방향을 유지하며 길이만 1이 된다. 이는 열별 평균을 빼는 표준화와 다르다.</p>
+<p>규제는 예측 오차 외에 큰 가중치에도 비용을 주는 방법이다. L1에서 |w|는 0의 왼쪽과 오른쪽 기울기가 달라 정확히 0인 최적값을 만들 수 있다. L2의 w²는 매끄러워 보통 계수를 작게 축소한다. 이 문장을 지금 증명했다고 생각하지 말고, 9강의 계수 하나 계산에서 0이 이득인 조건까지 확인한다.</p>
 <h3 id="45-rank">4.5 계수(rank)와 선형 종속</h3>
+<p>두 센서가 매번 같은 수를 내면 두 번째 센서를 읽어도 새로운 방향의 정보는 늘지 않는다. 열 a=[1,2,3], b=[2,4,6]도 b=2a이므로 하나를 알면 다른 하나가 결정된다. 열 개수와 독립 정보 방향의 수를 따로 세기 위해 rank를 배운다.</p>
 <p>행렬의 계수(rank)는 서로 독립적인 열 방향의 수다. 완전히 중복된 특성을 추가해도 계수는 늘어나지 않는다. 다중공선성이 크면 선형회귀 계수가 불안정할 수 있다. PCA는 분산이 큰 방향부터 서로 직교하는 축을 선택해 데이터를 더 적은 차원의 좌표로 나타낸다.</p>
+<p>선형결합은 기존 열에 수를 곱해서 더하는 것이다. 한 열을 다른 열들의 선형결합으로 만들 수 있으면 선형 종속이다. 동일한 두 열의 회귀식 w₁x+w₂x=(w₁+w₂)x에서는 계수 (1,4)와 (2,3)이 같은 예측을 낸다. 자료만으로 개별 계수를 하나로 정할 수 없거나 거의 종속일 때 크게 흔들리는 현상이 다중공선성의 문제다.</p>
+<p>PCA에서 중요한 것은 중심화 후의 방향 수다. [7,7,7]은 평균 7을 빼면 [0,0,0]이므로 퍼짐이 없다. 같은 비상수 두 열은 한 방향으로 퍼지지만 같은 상수 두 열은 어느 방향으로도 퍼지지 않는다. 다른 독립 열이 추가된 전체 행렬에는 그 방향도 포함해 세어야 한다.</p>
 <h3 id="46-pca">4.6 고유값·고유벡터와 PCA</h3>
+<p>키와 몸무게가 함께 커지는 점들을 두 숫자로 저장하는 대신, 점들이 길게 늘어진 방향에서의 위치 하나로 표현할 수 있을까? PCA는 이렇게 입력의 큰 퍼짐을 남기려는 압축이다. 어떤 방향이 큰 퍼짐인지 찾으려면 평균에서 벗어난 값끼리 함께 움직이는 정도인 공분산을 먼저 모은다.</p>
 <p>정방행렬 <code>A</code>에 대해 <code>Av = λv</code>를 만족하는 <code>v</code>가 고유벡터, <code>λ</code>가 고유값이다. PCA에서는 중심화한 데이터의 공분산 행렬에서 구한 고유벡터가 주성분 방향이고, 고유값은 그 방향의 분산이다.</p>
 <p>PCA 순서:</p>
 <ol>
@@ -169,16 +214,27 @@ assert np.allclose(np.outer(t, v), P)
 <li>검증·평가 데이터에는 학습 데이터에서 구한 스케일러와 PCA를 그대로 적용한다.</li>
 </ol>
 <p>[함정] PCA는 정답을 사용하지 않는 비지도 특성 추출 방법이다. LDA는 클래스가 최대한 잘 분리되도록 차원을 줄이는 지도학습 방법이다.</p>
+<p>공분산 행렬은 열별 분산을 대각선에, 서로 다른 열의 공분산을 나머지 칸에 둔다. 고유벡터 v는 영벡터가 아니어야 하며 Av가 v의 배수로 남는 방향이다. λ는 그 배율이다. 일반 행렬의 고유값과 달리 공분산 행렬의 고유값은 음수가 아니고, 단위 고유벡터 방향으로 투영한 값의 분산에 해당한다.</p>
+<p>중심화는 열마다 학습 평균을 빼는 일이고, 표준화는 추가로 표준편차로 나누어 척도를 맞추는 일이다. 단위 차이가 큰 열에는 표준화를 검토하지만 같은 단위의 큰 변동 자체를 보존하려는 목적이라면 무조건 표준화하지 않는다. SVD는 데이터 행렬을 직접 분해해 같은 주성분 방향을 구하는 계산 도구다. 여기서는 이름보다 중심·축을 어느 자료에서 정했는지가 중요하다.</p>
+<blockquote>
+<p><strong>핵심 기억:</strong> PCA는 X의 퍼짐, LDA는 정답 클래스 구분을 기준으로 축을 찾는다. 둘 다 검증 자료에서 새 기준을 만들지 않는다.</p>
+</blockquote>
 <h3 id="47">4.7 손계산 예제</h3>
+<p>첫 예제에서는 가중치가 알려져 있으므로 학습 없이 예측만 계산한다. 음수 가중치는 그 입력이 커질 때 출력에 빼는 방향으로 기여한다는 뜻이다. 각 샘플에 같은 w와 b를 적용한다는 사실을 확인한 뒤, 다음 PCA 예제에서는 가중치 대신 새 좌표축을 찾아 본다.</p>
 <p><code>x=[1,2]</code>, <code>w=[3,-1]</code>, <code>b=0.5</code>라면 <code>x·w+b = 1×3 + 2×(-1) + 0.5 = 1.5</code>다.</p>
 <p>배치 <code>X=[[1,2],[0,-1]]</code>, 같은 <code>w,b</code>의 출력은 <code>[1.5, 1.5]</code>다.</p>
+<p>두 번째 샘플 [0,−1]에서는 0×3+(−1)×(−1)+0.5=1.5다. 입력은 달라도 하나의 출력으로 합치면 결과가 같을 수 있다. 선형층 계산이 입력을 모두 구별해 준다는 보장은 없다.</p>
 <h4 id="pca-2">2차원 PCA를 처음부터 손으로 계산하기</h4>
+<p>이 세 점을 종이에 찍으면 모두 y=x 대각선에 놓인다. x좌표만 알아도 y좌표를 알 수 있으니 독립 방향 하나로 줄일 가능성이 보인다. 계산은 그 직관을 “분산을 얼마나 남겼는가”라는 정확한 숫자로 바꾸기 위한 것이다.</p>
 <p>세 점 <code>(-1,-1), (0,0), (1,1)</code>을 생각하자. 두 열의 평균이 이미 0이므로 중심화해도 값은 같다. 모집단 공분산을 쓰면</p>
 <p><code>Σ = XᵀX/3 = [[2/3,2/3],[2/3,2/3]]</code>.</p>
 <p>고유값은 <code>4/3, 0</code>, 대응하는 단위 고유벡터는 각각</p>
 <p><code>v₁=(1/sqrt(2))[1,1]</code>, <code>v₂=(1/sqrt(2))[1,-1]</code>.</p>
 <p>첫 주성분 투영값 <code>Xv₁</code>은 <code>[-sqrt(2), 0, sqrt(2)]</code>이고, 설명분산비는 <code>(4/3)/(4/3+0)=1</code>, 즉 100%다. 두 특성이 담은 정보가 완전히 같으므로 손실 없이 1차원으로 줄일 수 있다. 표본 공분산을 구할 때처럼 <code>n-1</code>로 나누면 고유값의 크기는 <code>2,0</code>으로 바뀌지만 고유벡터와 설명분산비는 같다.</p>
+<p>첫 공분산 칸은 ((−1)²+0²+1²)/3=2/3이고 다른 열과의 칸은 ((−1)(−1)+0×0+1×1)/3=2/3이다. v₁의 두 성분을 1/√2로 정한 것은 길이 √(1/2+1/2)=1로 맞추기 위해서다. Σv₁의 각 성분은 (4/3)(1/√2)이므로 고유값이 4/3이다. v₂에서는 두 항이 서로 상쇄되어 0이 된다.</p>
+<p>첫 점을 v₁에 투영하면 −1/√2−1/√2=−√2다. 이 새 좌표에 방향 v₁을 곱하면 [−1,−1]로 되돌아온다. 모든 점이 그 축 위에 있기 때문에 손실 없이 복원할 수 있는 특수한 예다. 좌표 −√2의 음수는 방향의 반대쪽이라는 뜻이지 분산이 음수라는 뜻이 아니다. 축 부호를 반대로 선택하면 좌표 부호도 바뀌지만 복원과 설명분산비는 같다.</p>
 <h3 id="48-pytorch">4.8 PyTorch로 검산</h3>
+<p>손계산 1.5를 코드로 확인하자. 여기에는 optimizer나 backward가 없으므로 주어진 가중치를 조절하는 학습은 하지 않는다. 두 입력 행에 같은 계산을 반복했는지 확인하는 검산이다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-04-1">복사</button></div><pre id="code-04-1" tabindex="0" aria-label="4강 PYTHON 예시 1"><code class="language-python">import torch
 
 X = torch.tensor([[1., 2.], [0., -1.]])       # [B=2,F=2]
@@ -187,6 +243,7 @@ b = torch.tensor([0.5])                        # [O=1]
 Z = X @ W.T + b                                # [B=2,O=1]
 assert torch.allclose(Z[:, 0], torch.tensor([1.5, 1.5]))
 </code></pre></div>
+<p>torch.tensor는 Python 숫자 목록을 계산용 텐서로 만든다. X에는 두 샘플, W에는 출력 하나의 가중치 두 개, b에는 그 출력의 편향 하나가 있다. W.T는 [1,2] 가중치를 [2,1]로 세워 X의 각 행과 내적하게 한다. Z[:,0]은 결과의 유일한 출력 열을 꺼낸다. allclose는 소수 계산의 작은 오차를 허용하며 손계산과 가까운지 검사한다. 결과가 [2,1]이라는 것은 출력 하나가 샘플 두 개에 각각 붙었다는 뜻이다.</p>
 <h3 id="49">4.9 실습문제</h3>
 <ol>
 <li id="question-O04-01" data-question-id="O04-01"><code>X:[64,20]</code>, <code>Linear(20,7)</code>일 때 가중치, 편향, 출력 배열의 크기를 쓰라.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-04-1">행렬곱은 출력마다 내적을 반복한 계산이다</a></p></details></li>
@@ -196,19 +253,51 @@ assert torch.allclose(Z[:, 0], torch.tensor([1.5, 1.5]))
 <li id="question-O04-05" data-question-id="O04-05">두 벡터가 모두 영벡터가 아닐 때 코사인 유사도가 1, 0, -1이라는 것은 각각 무엇을 뜻하는가? 한쪽이 영벡터이면 같은 각도 해석을 적용할 수 있는가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-04-2">길이와 방향을 따로 계산해야 코사인을 이해한다</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_5"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li>가중치 <code>[7,20]</code>, 편향 <code>[7]</code>, 출력 <code>[64,7]</code>.</li>
-<li>L1은 7, L2는 5.</li>
-<li>두 열의 값이 서로 같고 상수가 아니라면 중심화 후 독립적인 방향이 하나이므로 공분산 행렬의 계수는 1이고, 양의 분산을 가진 PCA 방향도 1개다. 다른 고유값 하나는 0이다. 두 열이 모두 상수이면 중심화 후 값이 전부 0이므로 행렬의 계수와 양의 분산을 가진 방향의 수가 모두 0이다.</li>
-<li>검증·평가 데이터의 평균·분산·주성분 방향이 학습 데이터의 특성을 만드는 데 사용되므로, 검증용 정보가 학습에 섞인다.</li>
-<li>두 벡터 모두 영벡터가 아닐 때 각각 같은 방향, 직교, 반대 방향이다. 한쪽이 영벡터이면 길이 곱이 0이라 수학적 코사인 유사도와 각도가 정의되지 않는다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 입력의 샘플 수 B=64·특성 수 F=20·출력 수 O=7이다.</p>
+<p><strong>풀이:</strong> 출력 하나마다 입력 20개에 곱할 비중이 필요해 가중치는 7행·20열이다. 편향은 출력별 하나라 7개다. [64,20]@[20,7]에서 입력 축 20을 합산하여 [64,7]을 얻는다.</p>
+<p><strong>정답:</strong> 가중치 <code>[7,20]</code>, 편향 <code>[7]</code>, 출력 <code>[64,7]</code>.</p>
+<p><strong>왜?</strong> 모든 샘플이 출력별 같은 가중합 규칙을 공유한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 가중치를 [64,20]으로 두거나 [20,7] 저장이라고 쓰지 않는다. 후자는 곱셈에 쓰는 W의 전치 크기다.</p>
+<p><strong>한 줄 기억:</strong> Linear(F,O)는 W=[O,F], b=[O], 출력=[B,O].</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> L1과 L2의 정의 및 L2의 제곱인지 여부를 본다.</p>
+<p><strong>풀이:</strong> L1은 |3|+|4|=7이다. L2는 3²+4²=9+16=25를 구한 뒤 √25=5다.</p>
+<p><strong>정답:</strong> L1은 7, L2는 5.</p>
+<p><strong>왜?</strong> 두 규칙은 좌표별 절댓값 합과 피타고라스의 직선 길이라는 서로 다른 크기를 잰다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 25는 L2의 제곱이지 L2가 아니다. 좌표가 음수일 때도 절댓값·제곱으로 크기를 계산한다.</p>
+<p><strong>한 줄 기억:</strong> L1은 절댓값 합, L2는 제곱합의 제곱근.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 두 열만 있고 값이 동일하며 비상수라는 전제와 모두 상수인 대안을 구별한다.</p>
+<p><strong>풀이:</strong> 비상수 같은 열을 중심화하면 한 열이 다른 열과 같아 독립 방향 하나가 남는다. 두 열의 차이 방향으로는 퍼짐 0이다. 상수 두 열은 각 평균을 빼면 전부 0이 되어 남는 방향도 없다.</p>
+<p><strong>정답:</strong> 두 열의 값이 서로 같고 상수가 아니라면 중심화 후 독립적인 방향이 하나이므로 공분산 행렬의 계수는 1이고, 양의 분산을 가진 PCA 방향도 1개다. 다른 고유값 하나는 0이다. 두 열이 모두 상수이면 중심화 후 값이 전부 0이므로 행렬의 계수와 양의 분산을 가진 방향의 수가 모두 0이다.</p>
+<p><strong>왜?</strong> 공분산 행렬의 양의 고유값 수는 데이터가 실제로 퍼지는 독립 방향 수와 연결된다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 열이 두 개니 두 방향이라고 세지 않는다. 다른 독립 열이 더 있는 전체 행렬의 rank를 묻는 문제로 확대하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 같은 비상수 두 열은 방향 1개, 같은 상수 두 열은 0개다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> PCA는 y를 안 보지만 평균·분산·축을 입력 자료에서 학습한다.</p>
+<p><strong>풀이:</strong> 전체로 평균을 구하면 검증값이 중심을 바꾸고, 전체 공분산을 구하면 검증값이 방향을 바꾼다. 이 기준으로 학습 특성을 만들면 검증 정보가 학습 표현에 들어간다.</p>
+<p><strong>정답:</strong> 검증·평가 데이터의 평균·분산·주성분 방향이 학습 데이터의 특성을 만드는 데 사용되므로, 검증용 정보가 학습에 섞인다.</p>
+<p><strong>왜?</strong> 새 데이터에 대한 평가를 하려면 그 자료가 변환 기준을 만드는 과정에서도 제외되어야 한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 비지도라는 말은 정답을 안 쓴다는 뜻이지 검증 입력을 언제나 써도 된다는 뜻이 아니다.</p>
+<p><strong>한 줄 기억:</strong> PCA도 분할 후 train fit, valid/test transform이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 두 벡터가 모두 길이 0이 아닌지 먼저 확인한다.</p>
+<p><strong>풀이:</strong> 코사인은 내적을 두 길이의 곱으로 나눈 cosθ다. 1은 θ=0°, 0은 90°, −1은 180°다. 한쪽이 영벡터면 분모가 0이므로 이 계산을 할 수 없다.</p>
+<p><strong>정답:</strong> 두 벡터 모두 영벡터가 아닐 때 각각 같은 방향, 직교, 반대 방향이다. 한쪽이 영벡터이면 길이 곱이 0이라 수학적 코사인 유사도와 각도가 정의되지 않는다.</p>
+<p><strong>왜?</strong> 길이를 나누어 크기를 제거하고 방향 관계만 남긴 값이기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 코사인 1은 값이 같다는 뜻이 아니다. 영벡터와의 내적 0을 각도 90°로 해석하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 코사인 방향 해석 전에 영벡터가 아닌지 본다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="410">4.10 완료 기준</h3>
+<p>체크하기 전에 아래 행동을 해설 없이 직접 수행한다. 막힌 항목은 앞 절의 작은 예로 돌아가 입력 숫자를 바꾸어 다시 설명한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="04-1"><span><code>nn.Linear</code>의 모든 매개변수 배열의 크기를 계산한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="04-2"><span>L1·L2 노름과 코사인 유사도를 손으로 계산한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="04-3"><span>PCA와 LDA가 정답을 사용하는지 여부가 어떻게 다른지 설명한다.</span></label></li>
 </ul>
+<p>주어진 가중치로 계산했다면 다음에는 정답과의 오차를 줄이도록 그 가중치를 바꾸는 미분을 배운다. 공식을 가려도 작은 두 입력의 곱합·길이·투영을 말로 설명할 수 있는지 확인한다.</p>
 
 
 32:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$37"}}]

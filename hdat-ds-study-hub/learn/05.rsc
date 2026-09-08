@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/05","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/05":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/05":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","05"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/05","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/05"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/05"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/05","_N_T_/layout","_N_T_/learn/05","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/05"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/05","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/05":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/05":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","05"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/05","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/05"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/05"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/05","_N_T_/layout","_N_T_/learn/05","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/05"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -41,7 +41,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 24:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-05-1",{"children":[["$","a",null,{"href":"#visual-05-1","children":"먼저 떠올릴 장면"}],false]}],["$","li","visual-05-2",{"children":[["$","a",null,{"href":"#visual-05-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-05-1",{"children":["$","a",null,{"href":"#topic-05-1","children":"손실의 크기만 보고 가중치를 어느 쪽으로 바꿀 수 있을까?"}]}]]}]]}]]}],["$","li","visual-05-3",{"children":[["$","a",null,{"href":"#visual-05-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-05-4",{"children":[["$","a",null,{"href":"#visual-05-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-05-2",{"children":["$","a",null,{"href":"#topic-05-2","children":"내려가는 방향을 택했는데 왜 손실이 커질까?"}]}],["$","li","topic-05-3",{"children":["$","a",null,{"href":"#topic-05-3","children":"역전파를 네 개 손잡이의 영향으로 읽기"}]}]]}]]}]]}],["$","li","visual-05-5",{"children":[["$","a",null,{"href":"#visual-05-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-05-4",{"children":["$","a",null,{"href":"#topic-05-4","children":"에포크와 실제 가중치 갱신 횟수는 어떻게 다른가?"}]}]]}]]}]]}],["$","li","visual-05-6",{"children":[["$","a",null,{"href":"#visual-05-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-05-5",{"children":["$","a",null,{"href":"#topic-05-5","children":"작은 미분값은 여러 층을 지나면 어떻게 될까?"}]}],["$","li","topic-05-6",{"children":["$","a",null,{"href":"#topic-05-6","children":"L2 비용과 AdamW의 가중치 감쇠는 어디에 들어갈까?"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-05","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-05-1",{"children":["$","a",null,{"href":"#theory-05-1","children":"미분과 경사하강법은 현재 위치의 작은 변화를 다룬다"}]}],["$","li","theory-05-2",{"children":["$","a",null,{"href":"#theory-05-2","children":"연쇄법칙으로 각 계산의 미분을 곱하고, 여러 결과는 더한다"}]}],["$","li","theory-05-3",{"children":["$","a",null,{"href":"#theory-05-3","children":"앞층의 기울기에 활성함수의 미분이 곱해진다"}]}],["$","li","theory-05-4",{"children":["$","a",null,{"href":"#theory-05-4","children":"기울기 계산, 누적, 매개변수 갱신을 구분한다"}]}],["$","li","theory-05-5",{"children":["$","a",null,{"href":"#theory-05-5","children":"AdamW와 L2는 왜 적응형 갱신에서 달라지는가"}]}],["$","li","theory-05-6",{"children":["$","a",null,{"href":"#theory-05-6","children":"손실 곡선은 원인을 찾는 단서일 뿐 확정 근거는 아니다"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","52",{"children":["$","a",null,{"href":"#52","children":"미분은 작은 변화에 대한 반응을 나타낸다"}]}],["$","li","53",{"children":["$","a",null,{"href":"#53","children":"자주 쓰는 도함수"}]}],["$","li","54-chain-rule",{"children":["$","a",null,{"href":"#54-chain-rule","children":"연쇄법칙과 역전파"}]}],["$","li","55-pytorch-autograd",{"children":["$","a",null,{"href":"#55-pytorch-autograd","children":"PyTorch의 자동 미분"}]}],["$","li","56-batch",{"children":["$","a",null,{"href":"#56-batch","children":"한 번에 사용하는 데이터 크기에 따른 비교"}]}],["$","li","57-optimizer",{"children":["$","a",null,{"href":"#57-optimizer","children":"최적화 알고리즘의 핵심 원리"}]}],["$","li","58",{"children":["$","a",null,{"href":"#58","children":"학습곡선 진단"}]}],["$","li","59",{"children":["$","a",null,{"href":"#59","children":"실습문제"}]}],["$","li","510",{"children":["$","a",null,{"href":"#510","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],["$","ol",null,{"children":[["$","li","visual-05-7",{"children":["$","a",null,{"href":"#visual-05-7","children":"스스로 확인하기"}]}],["$","li","visual-05-8",{"children":["$","a",null,{"href":"#visual-05-8","children":"정답과 이유"}]}],["$","li","visual-05-9",{"children":["$","a",null,{"href":"#visual-05-9","children":"더 읽을 공식 자료"}]}]]}]]]}]
 25:["$","$L2d",null,{}]
 26:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","도함수와 기울기로 손실을 줄이는 방향을 찾을 수 있는 이유를 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"도함수와 기울기로 손실을 줄이는 방향을 찾을 수 있는 이유를 설명한다."]}],["$","li","연쇄법칙으로 2층 계산 그래프의 기울기를 구한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"연쇄법칙으로 2층 계산 그래프의 기울기를 구한다."]}],["$","li","배치 경사하강법, 확률적 경사하강법(SGD), 미니배치 방식의 차이를 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"배치 경사하강법, 확률적 경사하강법(SGD), 미니배치 방식의 차이를 설명한다."]}],["$","li","학습률이 너무 크거나 작을 때 학습곡선이 어떻게 나타나는지 판단한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"학습률이 너무 크거나 작을 때 학습곡선이 어떻게 나타나는지 판단한다."]}]]}]]}]
-27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 2e:T5cdd,<h3 id="visual-05-1">먼저 떠올릴 장면</h3>
 <p>이전 장의 선형층은 입력에 가중치를 곱해 예측을 만드는 계산이었다. 이제 “가중치 3을 왜 2.9로 바꾸는가?”에 답할 차례다. 입력 x와 실제 정답 y는 관측한 자료이므로 그대로 두고, 모델 안의 조절값 w·b를 바꾸어 예측이 정답에 가까워지게 한다. 손실이 작아지는 조절값을 찾는 과정을 최적화라고 한다. 학습 데이터의 손실을 낮추는 것과 새 데이터에서 잘 맞히는 것은 별개지만, 먼저 의도한 조절이 실제로 이루어져야 성능도 평가할 수 있다.</p>
 <p>샤워기 온도를 맞출 때 손잡이를 조금 돌려 보고 물이 얼마나 뜨거워지는지 관찰한다. 방향을 잘못 돌리면 더 뜨거워지고, 한 번에 너무 많이 돌리면 원하는 온도를 지나친다. 모델의 매개변수를 바꾸는 일도 비슷하다. 다만 수백만 개의 손잡이를 하나씩 시험할 수 없으므로 손실이 각 손잡이에 얼마나 민감한지 미분으로 계산한다. 여기서 손실은 예측이 정답과 얼마나 다른지 한 숫자로 나타낸 값이다.</p>
@@ -111,40 +111,78 @@ assert abs(after.item() - 3.3153125) &lt; 1e-5
 2a:["$","$L34",null,{"track":"learn","lesson":"05","goal":"도함수와 기울기로 손실을 줄이는 방향을 찾을 수 있는 이유를 설명한다."}]
 2b:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"학습 마무리"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"끝까지 읽었다면 아래 완료 기준도 확인해 보세요. 직접 설명하거나 실행할 수 있는 항목을 표시하면 됩니다."}]]}],["$","$L35",null,{"lessonId":"05"}]]}]
 2c:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/04/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",4,". ","선형대수: 모델의 배열 크기 계산하기"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/06/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[6,". ","확률·통계·정보이론"," →"]}]]}]]}]
-36:T2b95,<h3 id="theory-05-1">1. 미분과 경사하강법은 현재 위치의 작은 변화를 다룬다</h3>
+36:T3d68,<h3 id="theory-05-1">1. 미분과 경사하강법은 현재 위치의 작은 변화를 다룬다</h3>
+<p>손실 9라는 숫자만 알아서는 왼쪽으로 움직일지 오른쪽으로 움직일지 알 수 없다. 같은 높이의 곡선 양쪽에서는 내려가는 방향이 반대이기 때문이다. 아래에서는 아주 작은 변화의 실제 차이를 나눈 뒤 그 폭을 줄여 미분값이 어떻게 나오는지 확인한다.</p>
 <p>함수 f(w)=w²에서 w를 Δw만큼 바꾸면 변화량은 (w+Δw)²−w²=2wΔw+(Δw)²다. 이를 Δw로 나누면 2w+Δw이고, Δw가 0에 가까워지면 2w가 남는다. 이것이 미분 f'(w)=2w다. 미분값은 현재 위치에서 입력의 작은 변화에 비해 출력이 얼마나 변하는지 나타낸다. 여러 매개변수 중 하나에 대해서만 미분한 것이 편미분이고, 모든 편미분을 모은 벡터가 기울기(gradient) ∇L이다.</p>
 <p>경사하강 갱신 w_new=w−η∇L에서 η는 양수인 학습률이다. 기울기를 빼는 이유는 기울기가 현재 위치에서 함수값이 증가하는 방향을 나타내기 때문이다. 예를 들어 L(w)=(w−4)², w=1이면 미분은 2(1−4)=−6이다. η=0.2일 때 새 w=1−0.2×(−6)=2.2이고, 손실은 9에서 (2.2−4)²=3.24로 줄어든다. 음의 기울기를 빼므로 w는 커진다. 따라서 “손실을 줄이려면 항상 가중치를 작게 해야 한다”는 생각은 틀리다.</p>
-<p>같은 시작점에서 η=1.2이면 새 w=8.2이고, 손실은 17.64로 오히려 커진다. 이 이차함수에서는 오차 e=w−4가 갱신 후 e_new=(1−2η)e가 되므로 0&lt;η&lt;1일 때만 오차의 절댓값이 줄어든다. η=1이면 같은 폭으로 왕복하고 η&gt;1이면 폭이 커진다. 실제 복잡한 손실함수에서도 이 범위가 안전한 학습률이라는 뜻은 아니다. 갱신 폭을 키운다고 항상 더 빨리 학습하는 것은 아님을 보여 주는 계산이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O05-04">5.9 실습문제 · 4번</a> · <a href="#question-V05-01">기초 확인 · 1번</a> · <a href="#question-V05-04">기초 확인 · 4번</a></p></details>
+<p>같은 시작점에서 η=1.2이면 새 w=8.2이고, 손실은 17.64로 오히려 커진다. 이 이차함수에서는 오차 e=w−4가 갱신 후 e_new=(1−2η)e가 되므로 0&lt;η&lt;1일 때만 오차의 절댓값이 줄어든다. η=1이면 같은 폭으로 왕복하고 η&gt;1이면 폭이 커진다. 실제 복잡한 손실함수에서도 이 범위가 안전한 학습률이라는 뜻은 아니다. 갱신 폭을 키운다고 항상 더 빨리 학습하는 것은 아님을 보여 주는 계산이다.</p>
+<p>Δ는 변화량 표시이고 ∇는 여러 편미분을 모은 기울기 표시다. 모양이 비슷해도 역할이 다르다. 갱신 전 손실이 작아질 것으로 예측한 방향과 실제 갱신 후 손실을 비교하면 학습률의 역할까지 확인할 수 있다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 미분은 현재의 민감도이며 큰 이동의 성공을 보장하지 않는다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O05-04">5.9 실습문제 · 4번</a> · <a href="#question-V05-01">기초 확인 · 1번</a> · <a href="#question-V05-04">기초 확인 · 4번</a></p></details>
 <h3 id="theory-05-2">2. 연쇄법칙으로 각 계산의 미분을 곱하고, 여러 결과는 더한다</h3>
+<p>가중치가 예측에 직접 닿고 예측이 손실에 닿으면 두 변화율을 곱한다. 가중치가 여러 경로로 손실에 닿으면 경로별 영향을 더한다. 신경망이라는 이름이 없어도 합성함수와 합의 미분에서 같은 규칙을 쓴다.</p>
 <p>한 뉴런 z=wx+b, 예측 ŷ=z, 손실 L=(ŷ−y)²를 보자. y는 관측 정답이므로 미분에서 고정한다. 바깥 제곱의 미분은 ∂L/∂ŷ=2(ŷ−y)다. w를 바꾸면 ŷ가 x배 변하므로 ∂ŷ/∂w=x, b를 바꾸면 1배 변하므로 ∂ŷ/∂b=1이다. 따라서 ∂L/∂w=2(ŷ−y)x, ∂L/∂b=2(ŷ−y)다. 앞에 1/2가 있는 손실이면 2가 상쇄되고 배치 평균이면 개수로 나눈다는 조건까지 읽는다.</p>
 <p>새 예로 x=3, y=9, w=2, b=1이면 예측은 7, 오차는 −2, L=4다. 가중치에 대한 미분은 2×(−2)×3=−12이고, 절편에 대한 미분은 −4다. η=0.01로 동시에 갱신하면 w=2.12, b=1.04, 새 예측은 7.4, 새 손실은 2.56이다. 모든 미분은 갱신 전 w·b에서 계산한다. 한 가중치를 먼저 바꾼 뒤 새 값으로 다른 가중치의 미분을 구하면 같은 한 단계에서 구한 기울기가 아니다.</p>
-<p>같은 변수가 두 계산에 쓰이면 각 계산에서 구한 기울기를 더한다. L(w)=(2w−1)²+(w+2)²이면 첫 항의 미분은 2(2w−1)×2이고, 둘째 항의 미분은 2(w+2)×1이다. w=1에서 각각 4와 6이므로 전체 미분은 10이다. 더하기 노드에서는 어느 한쪽만 선택하지 않는다. 역전파는 각 계산의 미분을 저장하고 재사용하며, 같은 매개변수에 대한 기울기를 합산하는 알고리즘이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O05-01">5.9 실습문제 · 1번</a> · <a href="#question-V05-02">기초 확인 · 2번</a></p></details>
+<p>같은 변수가 두 계산에 쓰이면 각 계산에서 구한 기울기를 더한다. L(w)=(2w−1)²+(w+2)²이면 첫 항의 미분은 2(2w−1)×2이고, 둘째 항의 미분은 2(w+2)×1이다. w=1에서 각각 4와 6이므로 전체 미분은 10이다. 더하기 노드에서는 어느 한쪽만 선택하지 않는다. 역전파는 각 계산의 미분을 저장하고 재사용하며, 같은 매개변수에 대한 기울기를 합산하는 알고리즘이다.</p>
+<p>정답 y와 입력 x는 이 매개변수 미분에서 고정한다. 손실의 앞 계수 1/2와 평균의 1/N을 빠뜨리면 모든 기울기의 크기가 달라진다. 가중치마다 옛 값에서 계산한 기울기를 한 묶음으로 적용해야 같은 경사하강 스텝이다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 한 경로에서는 곱하고 같은 변수로 모이는 경로에서는 더한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O05-01">5.9 실습문제 · 1번</a> · <a href="#question-V05-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-05-3">3. 앞층의 기울기에 활성함수의 미분이 곱해진다</h3>
+<p>입력을 조금 바꾸어도 중간 함수의 출력이 거의 변하지 않으면, 앞쪽 가중치가 마지막 손실을 바꾸는 힘도 약해진다. ReLU의 음수 구간과 시그모이드의 포화 구간은 서로 다른 모양으로 이런 현상을 만든다.</p>
 <p>ReLU(a)=max(0,a)는 a&gt;0일 때 미분이 1이고, a&lt;0일 때는 0이다. a=0에서는 수학적으로 미분할 수 없으며 구현에서 사용할 값을 정한다. 계산이 x→a→ReLU→예측→손실로 이어지면 앞층의 기울기에 ReLU의 미분이 곱해진다. a가 음수이면 이 계산을 통해 구한 앞층 기울기는 0이다. 다른 우회 계산이 있다면 그쪽에서 구한 기울기까지 0이라는 뜻은 아니다.</p>
 <p>시그모이드 σ(a)=1/(1+e^(−a))의 미분은 σ(a)(1−σ(a))다. 확률 p=σ(a)라고 놓으면 p(1−p)=1/4−(p−1/2)²이므로 최댓값은 1/4이다. 포화 영역에서 p≈0 또는 p≈1이면 미분은 거의 0이다. 가중치가 모두 1이고 시그모이드 다섯 개를 차례로 거치는 단순한 계산에서는 활성함수 미분의 곱이 최대 (1/4)^5=1/1024가 된다. 실제 전체 기울기는 가중치와 분기에도 영향을 받지만, 여러 층을 거칠 때 기울기가 사라지기 쉬운 이유를 알 수 있다.</p>
-<p>시그모이드 출력은 항상 양수이므로 0을 중심으로 분포하지 않는다. 한 표본에서 같은 다음 뉴런으로 들어가는 가중치의 기울기들은 공통 오차 신호에 양수 입력을 곱하므로 같은 부호가 되기 쉽다. 이 때문에 좌표별 최적화에서 지그재그로 움직일 수 있다. 다만 여러 표본과 뉴런에서 합산한 기울기까지 같은 부호라고 단정해서는 안 된다. 이는 포화와는 다른 한계다. 그렇다고 시그모이드가 항상 나쁜 것은 아니다. 이진 확률 출력이나 LSTM의 게이트 조절에는 적절한 역할이 있다. 은닉층에서 불리한 이유와 확률 변환에 유용한 이유를 구분한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O05-03">5.9 실습문제 · 3번</a> · <a href="#question-V05-02">기초 확인 · 2번</a></p></details>
+<p>시그모이드 출력은 항상 양수이므로 0을 중심으로 분포하지 않는다. 한 표본에서 같은 다음 뉴런으로 들어가는 가중치의 기울기들은 공통 오차 신호에 양수 입력을 곱하므로 같은 부호가 되기 쉽다. 이 때문에 좌표별 최적화에서 지그재그로 움직일 수 있다. 다만 여러 표본과 뉴런에서 합산한 기울기까지 같은 부호라고 단정해서는 안 된다. 이는 포화와는 다른 한계다. 그렇다고 시그모이드가 항상 나쁜 것은 아니다. 이진 확률 출력이나 LSTM의 게이트 조절에는 적절한 역할이 있다. 은닉층에서 불리한 이유와 확률 변환에 유용한 이유를 구분한다.</p>
+<p>시그모이드 0.99에서의 미분 0.0099와 0.5에서의 0.25를 먼저 비교하면 왜 “층이 깊어서 작아진다” 앞에 활성함수의 입력 영역도 확인해야 하는지 보인다. 실제 신경망의 미분에는 가중치 곱과 다른 경로도 있어 활성함수 미분만으로 전체 크기를 확정하지 않는다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 활성함수의 출력 범위와 그 미분이 큰 구간을 함께 기억한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O05-03">5.9 실습문제 · 3번</a> · <a href="#question-V05-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-05-4">4. 기울기 계산, 누적, 매개변수 갱신을 구분한다</h3>
+<p>길 안내가 생겼다고 사람이 실제로 움직인 것은 아니다. 마찬가지로 기울기를 구한 것과 가중치를 바꾼 것은 다르다. 아래 세 명령은 이전 안내 지우기, 새 안내 계산하기, 실제 이동하기를 각각 맡는다.</p>
 <p>PyTorch의 backward는 매개변수 값을 바꾸지 않고 .grad에 미분값을 더한다. optimizer.step은 실제 매개변수를 갱신하고, zero_grad는 이전 기울기를 지운다. 이전 배치의 기울기가 3이고 다음 기울기가 −1이면 초기화하지 않았을 때 저장값은 2다. 다음 배치만 이용해 갱신하려면 −1을 써야 하므로 갱신 방향까지 달라질 수 있다. zero_grad가 모델 가중치를 0으로 만드는 명령은 아니라는 점을 구분한다.</p>
 <p>여러 미니배치의 기울기를 의도적으로 누적해 큰 배치처럼 갱신할 수는 있다. 이때는 여러 배치를 처리한 후 한 번 갱신하고 평균 손실의 크기도 맞춰야 한다. 샘플 수가 다른 두 배치의 평균을 같은 비중으로 더하면 전체 샘플의 평균과 다를 수 있다. 반면 배치마다 step을 실행하면서 zero_grad만 빠뜨리는 것은 일반적으로 의도한 기울기 누적 학습이 아니다.</p>
-<p>전체 학습 데이터를 한 번 훑는 단위는 에포크(epoch)이고, 매개변수를 한 번 갱신하는 단위는 스텝(step)이다. 데이터 23개를 배치 크기 5로 처리하고 마지막 배치를 버리지 않으면 한 에포크는 5스텝이며 마지막 배치는 3개다. SGD라는 최적화 알고리즘을 쓴다고 배치 크기가 반드시 1인 것은 아니다. 전체 데이터·한 샘플·작은 묶음 중 무엇으로 기울기를 구하는지와, 어떤 공식으로 매개변수를 갱신하는지는 따로 구분한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O05-02">5.9 실습문제 · 2번</a> · <a href="#question-V05-03">기초 확인 · 3번</a></p></details>
+<p>전체 학습 데이터를 한 번 훑는 단위는 에포크(epoch)이고, 매개변수를 한 번 갱신하는 단위는 스텝(step)이다. 데이터 23개를 배치 크기 5로 처리하고 마지막 배치를 버리지 않으면 한 에포크는 5스텝이며 마지막 배치는 3개다. SGD라는 최적화 알고리즘을 쓴다고 배치 크기가 반드시 1인 것은 아니다. 전체 데이터·한 샘플·작은 묶음 중 무엇으로 기울기를 구하는지와, 어떤 공식으로 매개변수를 갱신하는지는 따로 구분한다.</p>
+<p>평균 손실을 여러 배치에 누적할 때 각 배치 크기가 같다면 묶음 수로 나누는 방법이 가능하지만, 마지막 배치가 작으면 샘플 수 가중을 확인한다. 일부러 누적한다고 선언했더라도 step을 언제 호출하는지와 손실의 스케일이 맞아야 의도한 큰 배치 학습이 된다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> zero_grad는 기록 초기화, backward는 미분 누적, step은 값 갱신이다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O05-02">5.9 실습문제 · 2번</a> · <a href="#question-V05-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-05-5">5. AdamW와 L2는 왜 적응형 갱신에서 달라지는가</h3>
+<p>가중치 2를 조금 줄이고 싶을 때 그 감소량을 기울기의 일부로 넣을 수도, 기울기 갱신과 별도로 뺄 수도 있다. 단순 덧셈만 있으면 같아 보이지만 중간에 값별 나눗셈과 이동평균이 끼면 적용 순서가 중요해진다.</p>
 <p>손실에 L2 규제항 (λ/2)||w||²를 더하면 기울기는 g+λw가 된다. g는 원래 데이터 손실의 기울기이고 λ는 규제 강도다. 모멘텀이나 적응형 크기 조절이 없는 기본 SGD에서는 w_new=w−η(g+λw)=(1−ηλ)w−ηg이므로, 가중치를 직접 일정 비율로 줄이는 가중치 감쇠와 같아질 수 있다. 이 등식은 계수와 갱신 조건이 같을 때 성립한다.</p>
-<p>Adam은 기울기와 기울기 제곱의 이동평균으로 갱신 방향과 매개변수별 갱신 폭을 조절한다. 따라서 기울기에 L2 규제항을 더하면 λw도 이동평균과 적응형 분모의 영향을 받는다. AdamW는 가중치를 줄이는 처리를 데이터 기울기의 적응형 계산과 분리한다. 단순화한 한 좌표 예에서 w=2, g=0, η=0.1, λ=0.2이고 적응형 분모를 4로 고정하자. 기울기 안에 L2를 넣으면 감소량은 0.1×(0+0.2×2)/4=0.01이지만, 분리한 감쇠의 감소량은 0.1×0.2×2=0.04다. 이 계산은 Adam 전체를 재현한 것이 아니라 분모가 적용되는 위치의 차이를 보여 주는 비교다.</p>
-<p>따라서 “AdamW는 Adam의 이름만 바꾼 것”이나 “Adam에 L2를 넣으면 언제나 AdamW와 같다”는 설명은 틀리다. 반대로 어떤 설정에서도 두 결과가 반드시 다르다고 주장하는 것도 지나치다. λ=0이면 감쇠 차이는 없다. 가중치와 편향·정규화 계수에 같은 감쇠를 적용할지도 구현 설정에서 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O05-05">5.9 실습문제 · 5번</a></p></details>
+<p>Adam은 기울기와 기울기 제곱의 이동평균으로 갱신 방향과 매개변수별 갱신 폭을 조절한다. 따라서 기울기에 L2 규제항을 더하면 λw도 이동평균과 적응형 분모의 영향을 받는다. AdamW는 가중치를 줄이는 처리를 데이터 기울기의 적응형 계산과 분리한다. 단순화한 한 좌표 예에서 w=2, g=0, η=0.1, λ=0.2이고 적응형 분모를 4로 고정하자. 기울기 안에 L2를 넣으면 감소량은 0.1×(0+0.2×2)/4=0.01이지만, 분리한 감쇠의 감소량은 0.1×0.2×2=0.04다.</p>
+<p>이 계산은 Adam 전체를 재현한 것이 아니라 분모가 적용되는 위치의 차이를 보여 주는 비교다.</p>
+<p>따라서 “AdamW는 Adam의 이름만 바꾼 것”이나 “Adam에 L2를 넣으면 언제나 AdamW와 같다”는 설명은 틀리다. 반대로 어떤 설정에서도 두 결과가 반드시 다르다고 주장하는 것도 지나치다. λ=0이면 감쇠 차이는 없다. 가중치와 편향·정규화 계수에 같은 감쇠를 적용할지도 구현 설정에서 확인한다.</p>
+<p>앞서 분모 4를 고정한 예는 Adam의 모멘트·편향 보정을 모두 계산한 예가 아니라 두 항의 위치만 분리해 비교한 것이다. 이 제한을 명시해야 단순화를 실제 API 출력과 혼동하지 않는다. λ=0이면 비교할 감쇠 항이 없다는 경계조건도 함께 확인한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 적응형 연산의 안에서 L2를 더하는 것과 밖에서 감쇠하는 것은 일반적으로 다르다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O05-05">5.9 실습문제 · 5번</a></p></details>
 <h3 id="theory-05-6">6. 손실 곡선은 원인을 찾는 단서일 뿐 확정 근거는 아니다</h3>
+<p>학습 손실이 한 번도 바뀌지 않았다고 곧바로 학습률을 키우면, 사실은 미분 연결이 끊긴 문제를 해결하지 못한다. “이 관찰이 어떤 원인들과 양립하는가”를 먼저 생각하고 원인을 가를 검사를 한 가지씩 선택한다.</p>
 <p>학습률이 너무 크면 손실이 진동하거나 발산하고 NaN이 생길 수 있다. 너무 작으면 제한된 갱신 횟수 동안 손실이 거의 변하지 않을 수 있다. 하지만 손실이 그대로라면 detach로 계산 그래프를 끊었거나 최적화 알고리즘에 매개변수를 등록하지 않았을 수도 있다. NaN도 입력의 Inf, 0으로 나누는 연산, 로그의 정의역 위반 때문에 생길 수 있다. 먼저 작은 입력의 NaN·무한대 여부, 예측·정답 배열의 크기, 손실에서 매개변수까지 미분이 이어지는지, .grad가 있는지 확인한다.</p>
-<p>학습·검증 손실이 모두 높으면 모델의 표현력, 학습량, 입력 정보를 살피고, 학습 손실만 낮으면 과적합과 데이터 분할 차이를 검토한다. 그래프만 보고 원인을 하나로 확정하지 말고 한 번에 한 변수만 바꾸어 비교한다. <a href="https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html" target="_blank" rel="noopener noreferrer">PyTorch autograd</a>와 <a href="https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html" target="_blank" rel="noopener noreferrer">optimization tutorial</a>은 기울기 계산과 갱신의 구분을 설명한다. 가중치 감쇠를 분리하는 공식 정의는 <a href="https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html" target="_blank" rel="noopener noreferrer">AdamW</a>를 참고한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O05-04">5.9 실습문제 · 4번</a></p></details>
+<p>학습·검증 손실이 모두 높으면 모델의 표현력, 학습량, 입력 정보를 살피고, 학습 손실만 낮으면 과적합과 데이터 분할 차이를 검토한다. 그래프만 보고 원인을 하나로 확정하지 말고 한 번에 한 변수만 바꾸어 비교한다.</p>
+<p><a href="https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html" target="_blank" rel="noopener noreferrer">PyTorch autograd</a>와 <a href="https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html" target="_blank" rel="noopener noreferrer">optimization tutorial</a>은 기울기 계산과 갱신의 구분을 설명한다.</p>
+<p>가중치 감쇠를 분리하는 공식 정의는 <a href="https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html" target="_blank" rel="noopener noreferrer">AdamW</a>를 참고한다.</p>
+<p>진단 기록에는 관찰한 첫 NaN 위치, 입력·출력 크기, .grad 존재, 호출한 갱신 횟수를 남긴다. 여러 설정을 동시에 바꾸면 손실이 좋아져도 어느 가정이 맞았는지 알 수 없다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 손실 곡선은 가설의 출발점이며 작은 검사로 원인을 확인한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O05-04">5.9 실습문제 · 4번</a></p></details>
 2f:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-05","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-05","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$36"}}]]}]
 30:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 31:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-37:T28a0,
+37:T6268,
 <span class="section-anchor" id="51" aria-hidden="true"></span>
+<p>앞 강의는 정해진 가중치로 출력을 계산했다. 이번에는 예측이 틀렸을 때 어떤 가중치를 어느 방향으로 얼마나 바꿀지 다룬다. 손실은 틀린 정도를 한 숫자로 만든 값, 미분은 그 손실의 민감도, 최적화는 민감도를 이용해 가중치를 조절하는 절차다.</p>
 
 <h3 id="52">5.2 미분은 작은 변화에 대한 반응을 나타낸다</h3>
+<p>손실이 L(w)=(w−3)²이고 현재 w=1이면 손실은 4다. w를 1.01로 올리면 손실은 3.9601로 줄어든다. 현재 위치에서 w가 커질수록 손실이 줄어드는 쪽임을 작은 변화로 알 수 있다. 모든 가중치를 하나씩 시험하기는 비싸므로 이 민감도를 미분으로 계산한다.</p>
 <p><code>dy/dx</code>는 x가 아주 조금 변할 때 y가 얼마나, 어느 방향으로 변하는지 나타낸다. 다변수 함수 <code>L(w₁,…,w_d)</code>의 기울기(gradient) <code>∇L</code>은 각 변수의 편미분을 모은 벡터이며, 함수값이 가장 가파르게 증가하는 방향을 나타낸다. 따라서 경사하강법은</p>
 <p><code>w ← w - η ∇L(w)</code></p>
 <p>와 같이 값을 갱신한다. <code>η</code>는 학습률이다.</p>
+<p>dL/dw는 L을 w로 나누라는 뜻이 아니라 w의 아주 작은 변화에 대한 L의 변화율이다. 여러 가중치 중 하나만 움직이고 나머지를 고정하면 편미분 ∂L/∂w_i라 쓴다. ∇는 이 값들을 모았다는 기호다. 위 예의 미분은 2(w−3)=−4이고 η=0.1이면 새 w=1−0.1(−4)=1.4, 손실은 2.56이다. 가중치가 커졌는데 손실은 줄었다.</p>
+<p>η=1.5이면 새 w=7로 지나쳐 손실 16이 된다. 미분은 현재 근처의 정보이지 멀리 이동한 뒤에도 유지되는 경사 지도가 아니다. 따라서 기울기를 빼는 방향이 맞아도 학습률이 너무 크면 발산할 수 있다.</p>
 <h3 id="53">5.3 자주 쓰는 도함수</h3>
+<p>신경망은 곱·합뿐 아니라 값을 구부리는 활성함수를 이어 붙인다. 앞 계산의 변화가 다음 계산으로 얼마나 전달될지 알려면 각각의 도함수가 필요하다. x²에서 x=3일 때 기울기 6은 x를 0.01 올리면 출력이 약 0.06 늘어난다는 뜻이다. 아래 표도 각 함수를 같은 방식의 민감도로 읽는다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="5강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
 <thead>
 <tr>
@@ -178,7 +216,10 @@ assert abs(after.item() - 3.3153125) &lt; 1e-5
 </tr>
 </tbody></table></div>
 <p>ReLU는 0에서 미분이 정의되지 않지만 구현에서는 사용할 값을 정해 둔다. 시그모이드와 tanh는 입력의 절댓값이 큰 영역에서 기울기가 거의 0이 되어 기울기 소실이 생길 수 있다.</p>
+<p>exp(x)는 e의 x제곱, log(x)는 여기서 자연로그이며 x&gt;0에서만 미분식 1/x를 쓴다. 시그모이드 σ는 입력을 0과 1 사이로, tanh는 −1과 1 사이로 바꾼다. ReLU는 양수면 그대로, 음수면 0을 내므로 음수 구간에서는 입력을 조금 바꾸어도 출력이 그대로다.</p>
+<p>시그모이드 출력 p=0.5이면 미분 p(1−p)=0.25지만 p=0.99이면 0.0099다. 양 끝에 가까워 변화에 거의 반응하지 않는 상태가 포화다. 이 작은 미분이 여러 층에서 곱해지면 앞층의 조절 신호가 약해진다. 또한 시그모이드 출력은 항상 양수라 0 중심이 아니다. 한 표본의 다음 뉴런 가중치들은 공통 오차 신호에 양수 입력을 곱하여 기울기 부호가 같아지기 쉬워 지그재그 갱신을 유발할 수 있다. 이는 포화와 다른 이유이며, 이진 확률 출력으로 시그모이드를 쓰지 말라는 뜻은 아니다.</p>
 <h3 id="54-chain-rule">5.4 연쇄법칙과 역전파</h3>
+<p>w를 조금 바꾸면 예측이 변하고, 예측이 변하면 손실이 변한다. 앞뒤 두 변화율을 곱해야 w가 손실에 미치는 영향을 알 수 있다. 예를 들어 x=3이면 w를 0.01 올릴 때 예측이 0.03 늘므로 예측의 w에 대한 민감도는 3이다. 이 연결을 계산하는 규칙이 연쇄법칙이다.</p>
 <p><code>z = wx+b</code>, <code>ŷ = z</code>이고 <code>L=(ŷ-y)²</code>라면</p>
 <ul>
 <li><code>∂L/∂ŷ = 2(ŷ-y)</code></li>
@@ -187,7 +228,10 @@ assert abs(after.item() - 3.3153125) &lt; 1e-5
 <li><code>∂L/∂b = 2(ŷ-y)</code></li>
 </ul>
 <p>역전파는 출력에서 시작해 연쇄법칙으로 각 매개변수의 기울기를 구하는 알고리즘이다. 이때 이미 계산한 기울기를 재사용한다. 최적화 알고리즘은 이렇게 구한 기울기로 매개변수를 갱신한다.</p>
+<p>ŷ는 예측, y는 고정한 실제 정답, w는 입력에 곱하는 가중치, b는 더하는 편향이다. 손실 L에는 1/2가 없으므로 제곱을 미분한 2가 남는다. 편향은 입력과 곱하지 않고 그대로 더해지므로 예측의 b에 대한 미분은 1이다. 여러 샘플의 평균 손실이면 각 샘플의 기울기를 더한 뒤 샘플 수로 나눈다.</p>
+<p>역전파는 값을 바꾸는 명령이 아니라 뒤에서부터 민감도를 전달해 필요한 미분을 재사용하는 계산이다. 같은 가중치가 두 갈래 계산에 쓰이면 갈래 안에서는 미분을 곱하고, 두 갈래의 기여는 더한다. 실제 가중치를 바꾸는 일은 이후 optimizer가 맡는다.</p>
 <h4 id="2">2층 계산 그래프를 처음부터 손으로 계산하기</h4>
+<p>층이 두 개여도 원리는 달라지지 않는다. a는 첫 가중합, h는 활성함수를 통과한 중간값, w₁·b₁과 w₂·b₂는 각각 첫째·둘째 계산의 조절값이다. 아래첨자 1·2는 층 이름이며 제곱이 아니다. 먼저 왼쪽에서 오른쪽으로 실제 값을 채우고, 그 값을 고정해 반대 방향의 미분을 구한다.</p>
 <p>숫자 하나인 입력 <code>x=2</code>, 정답 <code>y=1</code>에 대해</p>
 <p><code>a=w₁x+b₁</code>, <code>h=ReLU(a)</code>, <code>ŷ=w₂h+b₂</code>, <code>L=0.5(ŷ-y)²</code></p>
 <p>라고 하자. <code>w₁=1,b₁=0,w₂=3,b₂=0</code>이면 순전파 결과는 <code>a=2,h=2,ŷ=6,L=12.5</code>다.</p>
@@ -200,7 +244,10 @@ assert abs(after.item() - 3.3153125) &lt; 1e-5
 <li><code>dL/dw₁ = (dL/da)x = 30</code>, <code>dL/db₁=15</code></li>
 </ul>
 <p>이 예제를 값만 바꾸어 손으로 다시 풀 수 있어야 한다.</p>
+<p>손실 앞의 0.5가 제곱 미분에서 나오는 2를 지워 dL/dŷ=5가 된다. w₂의 변화는 h=2배로 예측에 전달되어 5×2=10이고, h의 변화는 w₂=3배로 전달되어 5×3=15다. a=2는 ReLU의 양수 구간이라 미분 1을 곱한다. 마지막으로 w₁의 변화는 x=2배이므로 15×2=30이다. b₁·b₂는 각각의 합에 직접 더해져 해당 지점의 미분을 그대로 받는다.</p>
+<p>η=0.01로 옛 기울기를 모두 사용해 동시에 갱신하면 (w₁,b₁,w₂,b₂)=(0.7,−0.15,2.9,−0.05)다. 새 a=1.25, 새 예측=3.575, 새 손실=3.3153125로 줄어든다. 계산 도중 w₂부터 바꾸고 새 w₂로 앞층을 미분하면 같은 시점의 기울기 벡터가 아니므로 섞지 않는다.</p>
 <h3 id="55-pytorch-autograd">5.5 PyTorch의 자동 미분</h3>
+<p>방금 한 연쇄법칙을 컴퓨터가 기록하고 수행하도록 해 보자. 코드를 실행하기 전 예측 6.5가 정답 8보다 작다는 것을 확인한다. x=3이 양수이므로 w나 b를 조금 늘리면 예측이 정답 쪽으로 움직이고, 두 기울기는 음수가 나올 것으로 예상할 수 있다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-05-1">복사</button></div><pre id="code-05-1" tabindex="0" aria-label="5강 PYTHON 예시 1"><code class="language-python">import torch
 
 w = torch.tensor(2.0, requires_grad=True)
@@ -215,7 +262,10 @@ print(w.grad.item(), b.grad.item())  # -9.0, -3.0
 </code></pre></div>
 <p>손으로 계산하면 <code>2(6.5-8)×3=-9</code>이고, 편향의 기울기는 <code>2(6.5-8)=-3</code>이다.</p>
 <p>학습을 한 단계 진행할 때마다 <code>optimizer.zero_grad()</code>가 필요한 이유는 PyTorch가 기본적으로 기울기를 <strong>누적</strong>하기 때문이다.</p>
+<p>requires_grad=True는 w·b가 손실에 미치는 미분을 기록하라는 설정이다. pred와 loss는 숫자를 계산하며 동시에 연결 관계를 만든다. loss.backward()는 그 연결을 거슬러 w.grad와 b.grad에 미분을 더한다. item()은 텐서 안 숫자 하나를 꺼내 표시한다. 출력 −9·−3은 새 w·b 값이 아니라 민감도다. 이 코드에는 optimizer.step이 없어 w=2와 b=0.5는 아직 바뀌지 않는다.</p>
+<p>다음 배치의 기울기가 −2라면 이전 −9를 지우지 않을 경우 −11이 저장된다. 현재 배치의 −2만으로 갱신하려면 이전 기록을 비워야 한다. 의도적으로 누적할 때는 여러 배치의 샘플 수와 평균 손실 비중까지 맞추고 한 번 갱신한다. zero_grad는 가중치를 0으로 만드는 명령이 아니다.</p>
 <h3 id="56-batch">5.6 한 번에 사용하는 데이터 크기에 따른 비교</h3>
+<p>자료가 100개일 때 모든 오차를 보고 한 번 움직일 수도, 한 사례마다 움직일 수도, 20개씩 묶어 다섯 번 움직일 수도 있다. 어떤 표본으로 기울기를 추정할지에 따라 계산 비용과 흔들림이 달라진다. 아래 방식은 갱신 공식의 이름과 별도로 구분해야 한다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="5강 표 2, 좌우로 스크롤할 수 있습니다"><table data-table="2">
 <thead>
 <tr>
@@ -245,7 +295,9 @@ print(w.grad.item(), b.grad.item())  # -9.0, -3.0
 </tr>
 </tbody></table></div>
 <p>시험에서는 “SGD”가 최적화 알고리즘의 종류를 가리킬 때도 있고, 한 샘플씩 학습하는 방식을 가리킬 때도 있으므로 문맥을 확인한다.</p>
+<p>미니배치의 샘플이 우연히 어려운 사례에 치우치면 그 배치 손실과 기울기는 달라진다. 작은 배치의 곡선이 흔들려도 매번 잘못 학습한 것은 아니다. 큰 배치는 방향 추정이 안정적일 수 있지만 메모리와 한 번의 계산 시간이 커진다. 데이터 23개를 5개씩 나누면 [5,5,5,5,3]이고 마지막을 버리지 않을 때 한 에포크는 다섯 스텝이다. 평균 배치 손실을 전체 손실로 보고하려면 마지막 3개도 샘플 수에 맞게 가중한다. SGD optimizer를 쓴다는 것과 배치 크기 1을 쓴다는 것은 같지 않다.</p>
 <h3 id="57-optimizer">5.7 최적화 알고리즘의 핵심 원리</h3>
+<p>기울기가 가로로는 번갈아 흔들리고 세로로는 꾸준히 내려간다면, 현재 신호만 볼 때 지그재그로 이동할 수 있다. 과거 방향을 조금 기억하면 공통 방향은 남고 왕복 성분은 줄어든다. 또 어떤 가중치는 매번 기울기가 매우 크고 다른 가중치는 작다면, 같은 학습률로 두 가중치를 조절하는 것이 비효율적일 수 있다. 아래 방법은 이런 서로 다른 문제를 보완한다.</p>
 <ul>
 <li>모멘텀: 과거 기울기가 가리킨 방향을 누적해 진동을 줄이고, 손실이 줄어드는 골짜기를 따라 빠르게 이동한다.</li>
 <li>RMSprop: 각 매개변수에서 최근 기울기 제곱이 얼마나 컸는지에 따라 갱신 폭을 조절한다.</li>
@@ -253,7 +305,13 @@ print(w.grad.item(), b.grad.item())  # -9.0, -3.0
 <li>AdamW: 가중치 감쇠를 기울기에 더하는 L2 규제항과 분리해 적용한다.</li>
 </ul>
 <p>Adam이 언제나 새로운 데이터에서 가장 좋은 성능을 내는 것은 아니다. 다만 제한된 시간에 기준 모델을 만들 때 안정적으로 선택할 수 있는 기본 알고리즘이다.</p>
+<p>모멘트라는 말이 낯설면 1차는 기울기의 평균 방향, 2차는 기울기 제곱의 평균 크기로 읽는다. 이동평균은 최근 값을 더 반영하면서 이전 기록을 일부 남기는 계산이다. Adam은 두 기록으로 방향과 가중치별 갱신 폭을 정하고 초기 기록이 0에서 시작한 영향을 보정한다.</p>
+<p>L2 비용 (λ/2)w²를 손실에 더하면 기울기에 λw가 더해진다. Adam에 이를 넣으면 그 항도 이동평균과 적응형 분모에 들어간다. AdamW는 가중치 감소를 이 계산 바깥에서 적용한다. 단순 비교로 w=2,η=0.1,λ=0.2,분모=4라면 안에서 감소하는 양은 0.01, 밖에서 감소하는 양은 0.04다. 이는 위치 차이를 보이는 예이지 Adam의 전체 갱신을 재현한 수치는 아니다.</p>
+<blockquote>
+<p><strong>핵심 기억:</strong> 최적화 알고리즘은 기울기를 계산하는 법이 아니라 계산한 기울기를 이용해 움직이는 법이다.</p>
+</blockquote>
 <h3 id="58">5.8 학습곡선 진단</h3>
+<p>손실 곡선은 건강검진의 한 수치처럼 문제를 의심하게 해 주지만 원인을 하나로 확정하지는 않는다. 학습률을 높인 뒤 NaN이 생겼다면 학습률을 의심할 수 있지만, 처음 입력부터 Inf였을 수도 있다. 아래 표는 증상에서 “먼저 검사할 것”으로 이동하는 순서다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="5강 표 3, 좌우로 스크롤할 수 있습니다"><table data-table="3">
 <thead>
 <tr>
@@ -288,6 +346,8 @@ print(w.grad.item(), b.grad.item())  # -9.0, -3.0
 <td><code>.grad</code>와 출력에서 손실까지 미분이 이어지는지 확인</td>
 </tr>
 </tbody></table></div>
+<p>먼저 작은 배치에서 입력·예측·손실이 유한한지, 예측과 정답의 크기·순서가 맞는지 확인한다. 이어 .grad가 존재하는지, optimizer에 필요한 매개변수가 등록되어 있는지, step이 실행되는지 본다. detach는 텐서를 미분 연결에서 떼는 연산이므로 손실에 이르는 길을 잘못 끊으면 값은 있어도 기울기는 오지 않는다.</p>
+<p>학습 손실만 낮을 때는 학습 자료를 외웠는지뿐 아니라 검증 자료가 다른 차량·시기라 더 어려운지도 본다. 한 번에 학습률·모델·분할을 모두 바꾸면 어느 변경이 원인이었는지 알기 어렵다. 작은 재현 예에서 한 조건씩 바꾸며 원인을 좁힌다.</p>
 <h3 id="59">5.9 실습문제</h3>
 <ol>
 <li id="question-O05-01" data-question-id="O05-01">예측 ŷ=wx+b, 손실 L=(ŷ−y)²인 한 샘플에서 x=2, y=5, w=1, b=0이다. dL/dw와 dL/db를 구하라.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-05-2">연쇄법칙으로 각 계산의 미분을 곱하고, 여러 결과는 더한다</a></p></details></li>
@@ -297,19 +357,51 @@ print(w.grad.item(), b.grad.item())  # -9.0, -3.0
 <li id="question-O05-05" data-question-id="O05-05">AdamW와 Adam에 L2 규제를 더한 방식의 핵심 차이는?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-05-5">AdamW와 L2는 왜 적응형 갱신에서 달라지는가</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_6"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li>예측값은 2이고 오차는 -3이므로 <code>dL/dw=2×(-3)×2=-12</code>, <code>dL/db=-6</code>.</li>
-<li>이전 배치의 기울기에 현재 기울기가 더해져, 현재 미니배치만으로 갱신하려던 의도와 달라진다. 기울기를 여러 배치에 걸쳐 누적하려는 경우만 예외다.</li>
-<li>|x|가 크면 미분값이 0에 가까워 기울기 소실이 생기며, 출력이 0을 중심으로 분포하지 않아 최적화에 불리할 수 있다.</li>
-<li>너무 크면 손실값이 진동하거나 발산하고 NaN이 생길 수 있다. 너무 작으면 손실이 천천히 줄거나 정해진 학습 횟수 안에 거의 학습하지 못한다.</li>
-<li>AdamW는 가중치 감쇠를 적응형 기울기 갱신과 분리해 매개변수에 직접 적용한다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 손실에 1/2나 평균 계수가 없으며 x·y는 고정된 한 샘플이다.</p>
+<p><strong>풀이:</strong> ŷ=1×2+0=2, 오차 ŷ−y=−3이다. 손실의 예측에 대한 미분은 2×(−3)=−6이다. 예측의 w에 대한 미분 x=2를 곱해 −12, b에 대한 미분 1을 곱해 −6이다.</p>
+<p><strong>정답:</strong> 예측값은 2이고 오차는 -3이므로 <code>dL/dw=2×(-3)×2=-12</code>, <code>dL/db=-6</code>.</p>
+<p><strong>왜?</strong> w의 변화는 x배 증폭되어 예측으로 전달되고 b의 변화는 그대로 더해지므로 연쇄법칙의 마지막 계수가 다르다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 0.5(ŷ−y)²로 착각해 2를 빼거나 정답−예측의 오차 정의를 중간에 섞지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 바깥 제곱의 미분에 예측의 w·b 민감도를 각각 곱한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 두 배치를 각각 갱신하려는 일반 학습인지 의도적 누적인지 구분한다.</p>
+<p><strong>풀이:</strong> 첫 배치 기울기 g₁이 .grad에 저장된 뒤 초기화하지 않으면 다음 backward가 g₂를 더해 g₁+g₂가 된다. 다음 배치만의 갱신을 의도했다면 g₂와 다른 값·방향을 쓸 수 있다.</p>
+<p><strong>정답:</strong> 이전 배치의 기울기에 현재 기울기가 더해져, 현재 미니배치만으로 갱신하려던 의도와 달라진다. 기울기를 여러 배치에 걸쳐 누적하려는 경우만 예외다.</p>
+<p><strong>왜?</strong> PyTorch의 backward는 기존 기울기를 교체하는 대신 누적하는 기본 동작을 하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> zero_grad는 가중치를 지우는 명령이 아니다. 의도적으로 여러 배치를 누적한다면 손실 스케일·샘플 수·step 시점을 함께 맞춘다.</p>
+<p><strong>한 줄 기억:</strong> 새 배치만으로 갱신할 때는 이전 기울기를 먼저 비운다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 은닉층에서의 두 한계를 묻고 이진 확률 출력 전체를 금지하라는 질문은 아니다.</p>
+<p><strong>풀이:</strong> 첫째 p(1−p)는 p=0.99에서 0.0099처럼 작고 여러 층에서 반복 곱해져 앞층 신호가 약해진다. 둘째 출력이 항상 양수라 0 중심이 아니고 한 샘플의 다음 가중치 기울기 부호가 같아지기 쉬워 최적화를 어렵게 할 수 있다.</p>
+<p><strong>정답:</strong> |x|가 크면 미분값이 0에 가까워 기울기 소실이 생기며, 출력이 0을 중심으로 분포하지 않아 최적화에 불리할 수 있다.</p>
+<p><strong>왜?</strong> 포화는 입력 변화가 전달되지 않는 문제이고 비영 중심 출력은 갱신 방향의 효율에 영향을 주는 별도 문제다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 두 이유를 모두 기울기 소실이라고 반복하지 않는다. 실제 전체 기울기는 가중치·배치·다른 경로에도 영향을 받는다.</p>
+<p><strong>한 줄 기억:</strong> 시그모이드 은닉층은 포화 미분과 0 중심이 아닌 출력을 구별해 기억한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 학습률은 기울기에 곱하는 갱신 폭이며 현재 기울기는 국소 정보다.</p>
+<p><strong>풀이:</strong> 너무 크면 감소 방향을 향해도 골짜기를 지나 반대편 더 높은 곳으로 갈 수 있어 진동·발산한다. 너무 작으면 매번 이동이 적어 제한된 스텝에서 손실이 거의 안 줄 수 있다.</p>
+<p><strong>정답:</strong> 너무 크면 손실값이 진동하거나 발산하고 NaN이 생길 수 있다. 너무 작으면 손실이 천천히 줄거나 정해진 학습 횟수 안에 거의 학습하지 못한다.</p>
+<p><strong>왜?</strong> 같은 현재 기울기에서도 실제 이동량은 η에 비례하며 먼 위치에서는 경사가 달라질 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> NaN이나 정체를 학습률 하나로 확정하지 않는다. 입력 Inf·0 나눗셈·detach·누락 step도 검사한다.</p>
+<p><strong>한 줄 기억:</strong> 큰 학습률은 불안정 위험, 작은 학습률은 느린 진전의 위험이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> L2 항이 적응형 기울기 계산 안에 들어가는지 가중치에 별도로 적용되는지 본다.</p>
+<p><strong>풀이:</strong> L2 비용 (λ/2)w²의 미분 λw는 원기울기 g에 더해져 Adam의 모멘트·분모 계산을 거친다. AdamW는 이 통계와 분리해 가중치를 감쇠한다. 같은 λ라도 적용 위치가 달라 일반적으로 결과가 다르다.</p>
+<p><strong>정답:</strong> AdamW는 가중치 감쇠를 적응형 기울기 갱신과 분리해 매개변수에 직접 적용한다.</p>
+<p><strong>왜?</strong> 적응형 크기 조절이 규제 기울기까지 바꾸는 방식과 고정된 비중으로 직접 감소시키는 방식은 같지 않다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 기본 SGD의 w−η(g+λw) 등식을 그대로 Adam에 일반화하지 않는다. λ=0 같은 특수 조건에서 차이가 없을 수 있다.</p>
+<p><strong>한 줄 기억:</strong> AdamW의 핵심은 가중치 감쇠를 적응형 기울기 갱신에서 분리하는 것이다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="510">5.10 완료 기준</h3>
+<p>체크하기 전에 아래 행동을 해설 없이 직접 수행한다. 막힌 항목은 앞 절의 작은 예로 돌아가 입력 숫자를 바꾸어 다시 설명한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="05-1"><span>선형 뉴런 하나의 기울기를 손으로 계산한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="05-2"><span><code>zero_grad → forward → loss → backward → step</code> 순서를 외웠다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="05-3"><span>학습곡선의 다섯 가지 증상에 대해 가장 먼저 할 조치를 말할 수 있다.</span></label></li>
 </ul>
+<p>기울기로 학습하는 절차를 이해했다면 다음에는 어떤 오차를 손실로 삼는지 확률적 이유를 배운다. 명령 순서만 암기하지 말고 각 단계 직후 w와 .grad 중 무엇이 바뀌는지 설명한다.</p>
 
 
 32:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$37"}}]

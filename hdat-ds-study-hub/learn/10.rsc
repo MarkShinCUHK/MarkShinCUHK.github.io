@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/10","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/10":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/10":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","10"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/10","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/10"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/10"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/10","_N_T_/layout","_N_T_/learn/10","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/10"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/10","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/10":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/10":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","10"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/10","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/10"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/10"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/10","_N_T_/layout","_N_T_/learn/10","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/10"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -42,7 +42,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 25:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-10-1",{"children":[["$","a",null,{"href":"#visual-10-1","children":"먼저 떠올릴 장면"}],false]}],["$","li","visual-10-2",{"children":[["$","a",null,{"href":"#visual-10-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-10-1",{"children":["$","a",null,{"href":"#topic-10-1","children":"변환 전 점수 0은 왜 확률 0.5가 될까?"}]}],["$","li","topic-10-2",{"children":["$","a",null,{"href":"#topic-10-2","children":"가까운 관측의 정답을 모으면 어떻게 예측이 될까?"}]}]]}]]}]]}],["$","li","visual-10-3",{"children":[["$","a",null,{"href":"#visual-10-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-10-4",{"children":[["$","a",null,{"href":"#visual-10-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-10-3",{"children":["$","a",null,{"href":"#topic-10-3","children":"직선을 구하는 공식의 분자·분모 읽기"}]}]]}]]}]]}],["$","li","visual-10-5",{"children":[["$","a",null,{"href":"#visual-10-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-10-4",{"children":["$","a",null,{"href":"#topic-10-4","children":"손실함수 앞에 시그모이드를 한 번 더 붙이면 무엇이 달라질까?"}]}],["$","li","topic-10-5",{"children":["$","a",null,{"href":"#topic-10-5","children":"MinMax가 KNN의 이웃을 바꾸는 이유와 바꾸지 않는 경우"}]}]]}]]}]]}],["$","li","visual-10-6",{"children":[["$","a",null,{"href":"#visual-10-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-10-6",{"children":["$","a",null,{"href":"#topic-10-6","children":"차종 번호 0·1·2를 거리로 써도 될까?"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-10","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-10-1",{"children":["$","a",null,{"href":"#theory-10-1","children":"선형모델의 ‘선형’은 입력보다 계수에 관한 말이다"}]}],["$","li","theory-10-2",{"children":["$","a",null,{"href":"#theory-10-2","children":"Ridge 규제를 강화하면 편향과 분산은 왜 달라지는가"}]}],["$","li","theory-10-3",{"children":["$","a",null,{"href":"#theory-10-3","children":"로그 오즈에서 확률 변환식을 유도한다"}]}],["$","li","theory-10-4",{"children":["$","a",null,{"href":"#theory-10-4","children":"BCEWithLogitsLoss는 입력을 확률로 해석하지 않는다"}]}],["$","li","theory-10-5",{"children":["$","a",null,{"href":"#theory-10-5","children":"KNN은 거리 계산 방법과 이웃 수로 복잡도를 조절한다"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","102",{"children":["$","a",null,{"href":"#102","children":"선형회귀"}]}],["$","li","103",{"children":["$","a",null,{"href":"#103","children":"로지스틱회귀"}]}],["$","li","104-knn",{"children":["$","a",null,{"href":"#104-knn","children":"KNN"}]}],["$","li","105-distance",{"children":["$","a",null,{"href":"#105-distance","children":"거리의 종류"}]}],["$","li","106-pytorch",{"children":["$","a",null,{"href":"#106-pytorch","children":"PyTorch 최소 구현"}]}],["$","li","107",{"children":["$","a",null,{"href":"#107","children":"실습문제"}]}],["$","li","108",{"children":["$","a",null,{"href":"#108","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],["$","ol",null,{"children":[["$","li","visual-10-7",{"children":["$","a",null,{"href":"#visual-10-7","children":"스스로 확인하기"}]}],["$","li","visual-10-8",{"children":["$","a",null,{"href":"#visual-10-8","children":"정답과 이유"}]}],["$","li","visual-10-9",{"children":["$","a",null,{"href":"#visual-10-9","children":"더 읽을 공식 자료"}]}]]}]]]}]
 26:["$","$L2e",null,{}]
 27:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","회귀와 분류에서 선형식이 맡는 역할을 구분한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"회귀와 분류에서 선형식이 맡는 역할을 구분한다."]}],["$","li","MSE, BCE와 우도의 관계를 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"MSE, BCE와 우도의 관계를 설명한다."]}],["$","li","KNN의 이웃 수 k, 거리, 척도가 결과에 미치는 영향을 예측한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"KNN의 이웃 수 k, 거리, 척도가 결과에 미치는 영향을 예측한다."]}],["$","li","단순한 기준 모델이 시험 풀이에 유용한 이유를 이해한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"단순한 기준 모델이 시험 풀이에 유용한 이유를 이해한다."]}]]}]]}]
-28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 2f:T6283,<h3 id="visual-10-1">먼저 떠올릴 장면</h3>
 <p>같은 표에서도 무엇을 정답으로 삼는지에 따라 계산 결과의 뜻이 달라진다. 공부 시간 x=3에 예측 70을 내면 점수 회귀일 수 있다. 예측 0.7을 내면 합격 가능성 70%일 수 있고, 마지막에 기준 0.5와 비교해 합격=1로 결정할 수 있다. 70점, 0.7이라는 확률, 1이라는 클래스 번호는 서로 교환해 쓸 수 없다. 먼저 출력의 의미를 정한 뒤 모델을 고르자.</p>
 <p>공부 시간에서 시험 점수를 예측하고 싶다면 시간에 비례해 점수가 증가하는 직선을 먼저 그릴 수 있다. 같은 시간으로 합격 여부를 예측한다면 출력은 제한 없는 점수가 아니라 0과 1 사이 확률이어야 한다. 한편 직선 모양을 가정하지 않고 비슷한 시간을 공부한 이웃들의 결과를 참고할 수도 있다. 세 접근은 단순하지만 예측의 종류, 함수 모양, 학습과 추론 비용이 서로 다르다.</p>
@@ -113,35 +113,63 @@ assert prediction == 1
 2b:["$","$L35",null,{"track":"learn","lesson":"10","goal":"회귀와 분류에서 선형식이 맡는 역할을 구분한다."}]
 2c:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"학습 마무리"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"끝까지 읽었다면 아래 완료 기준도 확인해 보세요. 직접 설명하거나 실행할 수 있는 항목을 표시하면 됩니다."}]]}],["$","$L36",null,{"lessonId":"10"}]]}]
 2d:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/09/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",9,". ","특성 만들기·선택·추출"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/11/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[11,". ","결정트리·앙상블·SVM"," →"]}]]}]]}]
-37:T29aa,<h3 id="theory-10-1">1. 선형모델의 ‘선형’은 입력보다 계수에 관한 말이다</h3>
+37:T3928,<h3 id="theory-10-1">1. 선형모델의 ‘선형’은 입력보다 계수에 관한 말이다</h3>
+<p>U자 모양인 관측을 직선 하나로 맞출 수 없어도 원래 입력의 제곱을 새 열로 주면 단순한 가중합으로 곡선을 나타낼 수 있다. 그래서 “선형”이라는 말을 어느 대상에 관한 말로 쓰는지 먼저 확인해야 한다.</p>
 <p>선형회귀 ŷ=wᵀx+b에서 w는 계수, b는 절편, x는 입력 특성 벡터다. “계수에 선형”이란 고정된 특성들에 각 계수를 곱하여 더한다는 뜻이다. 원래 입력 t에서 x=[t,t²]를 만들면 ŷ=w₁t+w₂t²+b는 t에 대해 곡선이지만 계수 w₁·w₂·b에 대해서는 여전히 선형이다. 반면 sin(wt)처럼 계수 자체가 비선형 함수 안에 들어가는 모형은 이 의미의 선형모형이 아니다.</p>
 <p>예를 들어 ŷ=2t²−t+3에서 t=0,1,2의 예측은 3,4,9다. t²를 미리 특성으로 넣어 곡선을 나타낸 것이지, 선형층이 임의의 비선형 관계를 자동으로 찾은 것은 아니다. 상호작용 x₁x₂도 새 열로 만들면 계수와 선형으로 결합할 수 있다. 다만 특성 종류를 늘리면 과적합 위험, 계산 비용, 해석의 용이성이 달라지므로 검증 결과로 비교한다.</p>
-<p>잔차를 관측값에서 예측값을 뺀 r_i=y_i−ŷ_i로 정의하면 MSE는 Σr_i²/N이다. 관측 y=[2,5,7], 예측 [3,4,8]이면 잔차는 [−1,1,−1]이고 MSE=1이다. 양·음의 오차를 그대로 평균하면 서로 상쇄될 수 있어 크기를 제곱하며, 큰 오차 하나는 훨씬 크게 반영된다. 예측선과 점의 세로 차이를 재는 것이지 점에서 선까지의 수직 최단거리를 재는 문제는 아니다. 실제 데이터 범위 밖을 예측하는 외삽에는 선형·다항 모델 모두 별도의 위험이 있다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-05">10.7 실습문제 · 5번</a> · <a href="#question-V10-04">기초 확인 · 4번</a></p></details>
+<p>잔차를 관측값에서 예측값을 뺀 r_i=y_i−ŷ_i로 정의하면 MSE는 Σr_i²/N이다. 관측 y=[2,5,7], 예측 [3,4,8]이면 잔차는 [−1,1,−1]이고 MSE=1이다. 양·음의 오차를 그대로 평균하면 서로 상쇄될 수 있어 크기를 제곱하며, 큰 오차 하나는 훨씬 크게 반영된다. 예측선과 점의 세로 차이를 재는 것이지 점에서 선까지의 수직 최단거리를 재는 문제는 아니다. 실제 데이터 범위 밖을 예측하는 외삽에는 선형·다항 모델 모두 별도의 위험이 있다.</p>
+<p>잔차 r_i는 여기서 실제−예측으로 정의했지만 손실을 설명할 때 예측−실제를 쓰는 자료도 있다. 제곱하면 MSE는 같지만 미분 부호를 전개할 때 정의를 섞지 않는다. 학습 범위 밖 외삽은 곡선이 관측 밖에서 급격히 커질 수 있어 별도로 점검한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 입력을 비선형 변환해도 계수가 고정 특성에 곱해 더해지면 선형모형이다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-05">10.7 실습문제 · 5번</a> · <a href="#question-V10-04">기초 확인 · 4번</a></p></details>
 <h3 id="theory-10-2">2. Ridge 규제를 강화하면 편향과 분산은 왜 달라지는가</h3>
+<p>학습 표를 조금 바꾸자 회귀 계수가 2와 4 사이에서 흔들린다면 변동을 줄이고 싶다. 그러나 계수를 작게 잡아 두면 실제로 필요한 큰 효과까지 약해질 수 있다. Ridge는 이 안정성의 이득과 치우침의 비용을 바꾸는 선택이다.</p>
 <p>Ridge는 데이터 손실에 계수의 L2 규제항을 더한다. 원리를 살펴보기 위해 계수 하나의 목적함수를 J(w)=0.5(w−a)²+(λ/2)w²로 두자. a는 규제하지 않았을 때의 계수 후보이고 λ≥0은 규제 강도다. 미분은 w−a+λw이며, 이를 0으로 놓으면 (1+λ)w=a이므로 w=a/(1+λ)다. λ가 클수록 계수는 0에 가까워지고, a의 작은 변동도 1/(1+λ)배로 줄어든다. 실제 다변수 회귀에서는 특성 간 상관도 작용하지만, 이 식으로 계수를 축소하는 효과를 이해할 수 있다.</p>
 <p>참 계수가 3이고 서로 다른 학습 집합에서 a가 2와 4로 나왔다고 하자. 규제하지 않으면 계수 평균은 3, 편향은 0, 분산은 (1+1)/2=1이다. λ=1이면 추정값은 1과 2, 평균은 1.5, 편향은 −1.5, 분산은 (0.25+0.25)/2=0.25다. 변동은 줄었지만 평균이 참값에서 멀어졌다. 이 예에서는 총 제곱오차가 오히려 커질 수 있다. 규제는 무조건 성능을 높이는 방법이 아니라 편향과 분산 사이를 절충하는 방법이다.</p>
-<p>규제가 매우 강하면 필요한 관계까지 충분히 반영하지 못해 학습·검증 성능이 모두 낮은 과소적합이 생길 수 있다. 다만 이 경향이 모든 데이터와 지표에서 정확히 한 방향으로만 나타난다는 정리는 아니다. 절편을 규제하지 않는 일반 설정에서는 계수가 0에 가까워도 절편이 남아 평균에 가까운 상수를 예측할 수 있다. 선형층의 절편 b를 뜻하는 bias와 통계적 편향을 뜻하는 bias도 구분한다. Lasso는 L1을, Elastic Net은 L1과 L2를 함께 사용한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-01">10.7 실습문제 · 1번</a> · <a href="#question-V10-03">기초 확인 · 3번</a></p></details>
+<p>규제가 매우 강하면 필요한 관계까지 충분히 반영하지 못해 학습·검증 성능이 모두 낮은 과소적합이 생길 수 있다. 다만 이 경향이 모든 데이터와 지표에서 정확히 한 방향으로만 나타난다는 정리는 아니다. 절편을 규제하지 않는 일반 설정에서는 계수가 0에 가까워도 절편이 남아 평균에 가까운 상수를 예측할 수 있다. 선형층의 절편 b를 뜻하는 bias와 통계적 편향을 뜻하는 bias도 구분한다. Lasso는 L1을, Elastic Net은 L1과 L2를 함께 사용한다.</p>
+<p>위 계산에서 a는 실제 정답이 아니라 규제가 없을 때 자료가 제안하는 계수 후보다. 1/(1+λ)배로 축소하면 a의 변동도 같은 비율로 작아지지만 평균 추정은 0 쪽으로 이동한다. 편향과 분산을 각각 계산해야 “규제를 키우면 무조건 좋아진다”는 단정을 피한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 계수 축소는 변동을 줄일 수 있지만 필요한 관계도 약화시킬 수 있다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-01">10.7 실습문제 · 1번</a> · <a href="#question-V10-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-10-3">3. 로그 오즈에서 확률 변환식을 유도한다</h3>
+<p>고장 가능성이 정상의 네 배라면 고장 비율은 4/5이지 확률 4가 아니다. 이 가능성의 비율을 오즈라 하고, 로그 오즈는 제한 없는 실수 점수로 표현할 수 있다. 선형식의 출력을 확률로 연결하기 위해 이 과정을 거꾸로 푼다.</p>
 <p>확률 p가 0과 1 사이이면 오즈는 p/(1−p)이고, 변환 전 점수(logit) z는 그 자연로그 ln(p/(1−p))다. 양변에 지수를 취하면 e^z=p/(1−p)다. p를 정리하면 e^z(1−p)=p, e^z=p(1+e^z)이므로 p=e^z/(1+e^z)=1/(1+e^(−z))다. 이것이 시그모이드다. z=0이면 e^0=1이므로 p=1/2다. 변환 전 점수 0은 확률 0이 아니라 두 클래스의 확률이 같은 경계 점수다.</p>
 <p>예를 들어 z=ln4이면 p=4/5=0.8이고, z=−ln4이면 p=1/5=0.2다. 로지스틱회귀는 z=wᵀx+b를 학습하므로 변환 전 점수는 선형식이고 확률은 S자 곡선으로 나타난다. 클래스를 정할 기준 확률이 0.5이면 z=0이 경계이지만, 0.8이면 z=ln4가 기준이다. 어느 확률부터 양성으로 판정할지는 오류 비용과 평가 지표에 따라 결정하며, 모델의 확률 출력과는 구분한다.</p>
-<p>이진 BCE=−[y ln p+(1−y)ln(1−p)]는 y=1이면 −ln p, y=0이면 −ln(1−p)를 사용한다. p=0.8일 때 y=1이면 약 0.22314, y=0이면 약 1.60944다. 같은 확률을 예측해도 정답이 무엇인지에 따라 손실이 달라진다. 한쪽 확률만 출력하므로 다른 쪽은 1−p다. 다중분류는 서로 배타적인 클래스 K개의 변환 전 점수를 소프트맥스로 확률 K개로 바꾸며, 샘플마다 확률의 합은 1이다. 다중 레이블 분류는 여러 레이블이 동시에 참일 수 있으므로 이런 배타적인 합 제약과 다르다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-03">10.7 실습문제 · 3번</a> · <a href="#question-V10-01">기초 확인 · 1번</a></p></details>
+<p>이진 BCE=−[y ln p+(1−y)ln(1−p)]는 y=1이면 −ln p, y=0이면 −ln(1−p)를 사용한다. p=0.8일 때 y=1이면 약 0.22314, y=0이면 약 1.60944다. 같은 확률을 예측해도 정답이 무엇인지에 따라 손실이 달라진다. 한쪽 확률만 출력하므로 다른 쪽은 1−p다. 다중분류는 서로 배타적인 클래스 K개의 변환 전 점수를 소프트맥스로 확률 K개로 바꾸며, 샘플마다 확률의 합은 1이다. 다중 레이블 분류는 여러 레이블이 동시에 참일 수 있으므로 이런 배타적인 합 제약과 다르다.</p>
+<p>확률 0.5를 양성 판정 문턱으로 택했다는 것은 의사결정 규칙이며 모델 출력 확률의 정의와 별개다. 오경보 비용이 달라 문턱을 바꾸어도 시그모이드 함수 자체가 바뀌는 것은 아니다. 이진분류의 한 확률과 다중분류 K개 확률의 합 제약도 구분한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> logit은 로그 오즈, sigmoid는 이를 확률로 되돌리는 함수다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-03">10.7 실습문제 · 3번</a> · <a href="#question-V10-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-10-4">4. BCEWithLogitsLoss는 입력을 확률로 해석하지 않는다</h3>
+<p>손실함수가 “원점수”를 받겠다고 약속했는데 이미 확률로 바꾼 값을 넣으면, 화면상 0과 1 사이 숫자라 좋아 보여도 다른 문제를 계산한다. 같은 데이터와 모델에서도 손실 입력의 의미 하나가 목적함수를 바꾼다.</p>
 <p>PyTorch BCEWithLogitsLoss는 변환 전 점수 z를 받아 시그모이드와 로그 계산을 안정적으로 결합한다. 모델에서 시그모이드를 적용한 p를 넘기면, 이 손실함수는 p를 확률이 아니라 새 변환 전 점수로 처리해 sigmoid(p)를 계산한다. 예를 들어 원래 z=ln4≈1.38629, p=0.8이다. 올바른 확률은 0.8인데 p를 변환 전 점수로 넣으면 sigmoid(0.8)≈0.68997을 사용한다. y=1일 때 손실은 약 0.22314에서 약 0.37110으로 바뀐다.</p>
 <p>더 극단적으로 z가 매우 음수여서 p≈0이어도, p를 다시 변환 전 점수로 넣으면 실제 계산에 쓰이는 확률은 sigmoid(0)=0.5 근처다. z가 매우 양수여서 p≈1이면 다시 적용한 값은 sigmoid(1)≈0.731이다. 확률 0 근처를 제대로 나타낼 수도 없는 다른 계산이 된다. 따라서 단순히 연산을 한 번 더 하는 문제가 아니라 목적함수와 기울기가 바뀌는 문제다.</p>
-<p>학습할 때는 변환 전 점수를 그대로 손실함수에 넣고, 확률이 필요한 출력·평가 단계에서 시그모이드를 적용한다. BCEWithLogitsLoss의 예측과 정답은 배열 크기가 같아야 하며 정답은 0·1의 실수값으로 맞춘다. 다중분류 CrossEntropyLoss에 일반적인 정수 정답을 넣는 경우 예측은 [B,K], 정답은 [B]이고 클래스 번호는 0부터 K−1이다. 다중분류에서도 모델의 순전파에 소프트맥스를 중복 적용하지 않는다. 실제 제출이 확률인지 클래스인지 확인해 필요한 마지막 변환만 한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-04">10.7 실습문제 · 4번</a> · <a href="#question-V10-02">기초 확인 · 2번</a></p></details>
+<p>학습할 때는 변환 전 점수를 그대로 손실함수에 넣고, 확률이 필요한 출력·평가 단계에서 시그모이드를 적용한다. BCEWithLogitsLoss의 예측과 정답은 배열 크기가 같아야 하며 정답은 0·1의 실수값으로 맞춘다. 다중분류 CrossEntropyLoss에 일반적인 정수 정답을 넣는 경우 예측은 [B,K], 정답은 [B]이고 클래스 번호는 0부터 K−1이다. 다중분류에서도 모델의 순전파에 소프트맥스를 중복 적용하지 않는다. 실제 제출이 확률인지 클래스인지 확인해 필요한 마지막 변환만 한다.</p>
+<p>결합 손실의 수치 안정성은 아주 큰 양·음 점수에서 시그모이드 확률을 먼저 만들고 로그를 취할 때의 반올림 문제를 줄인다. 단순 중복 연산 비용만이 아니라 기울기와 표현 가능한 유효 확률 범위도 달라진다는 앞 계산을 확인한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 학습 손실에는 logits, 확률이 필요한 출력 단계에는 sigmoid를 쓴다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-04">10.7 실습문제 · 4번</a> · <a href="#question-V10-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-10-5">5. KNN은 거리 계산 방법과 이웃 수로 복잡도를 조절한다</h3>
+<p>새 집에 가까운 집 한 채의 가격과 가까운 세 채의 평균은 다른 예측을 만든다. 먼저 어떤 집이 가까운지 계산하고 그 다음 가격·종류를 어떻게 합칠지 정한다. KNN은 이 두 결정을 k와 거리·가중 방식으로 명시하는 모델이다.</p>
 <p>KNN은 새 입력 주변의 학습 샘플 k개를 고른다. 회귀는 평균, 분류는 다수 투표 또는 거리 가중 결합을 쓸 수 있다. 질의 q=(1,1)과 A=(2,1), B=(1,3), C=(4,1)의 유클리드 거리는 1·2·3이다. 정답 클래스가 [1,0,0]이면 k=1은 1, k=3은 0을 예측한다. 회귀 정답 [12,18,27]이면 k=3 평균은 57/3=19다. 이웃 선택과 정답 결합은 별도 단계다.</p>
 <p>k=1이면 관측 잡음 한 점에도 예측이 바뀌기 쉽다. 학습 샘플 자체를 예측할 때는 자기 자신이 거리 0인 이웃이므로 학습 점수가 높은 것도 자연스럽다. 하지만 새 데이터에서도 좋다는 보장은 아니다. k가 매우 크면 서로 다른 영역의 데이터를 섞어 가까운 주변의 특성을 놓칠 수 있고, 모든 샘플을 이웃으로 쓰는 회귀는 어디서나 전체 평균을 예측한다. 따라서 작은 k는 높은 분산, 큰 k는 높은 편향의 경향과 연결해 이해한다.</p>
 <p>거리 √Σ_j(x_j−q_j)²에서는 단위가 큰 열의 차이가 제곱되어 지나치게 큰 영향을 줄 수 있다. 예를 들어 한 열의 차이가 0.2, 다른 열의 차이가 200이면 제곱항은 0.04와 40000이다. 모델이 중요도를 학습한 것이 아니라 단위 때문에 비교 결과가 달라진 것이다. 학습 데이터로 구한 스케일러를 검증·평가 데이터에도 적용한다. 불필요한 고차원 축이 많으면 차이가 누적되어 가까운 점과 먼 점의 구분이 약해질 수 있지만, 모든 고차원 KNN이 반드시 실패한다는 뜻은 아니다.</p>
 <p>KNN은 복잡한 계수를 구하지 않아도 데이터를 저장하고 예측할 때 비교하는 비용이 든다. 같은 거리에 있는 점, k번째 이웃과 거리가 같은 점, 투표수가 같은 클래스, 거리 0인 중복점을 어떻게 처리할지도 확인한다. k는 학습 샘플 수를 넘을 수 없으며, 이웃 수·거리·가중 방식은 검증으로 정한다. 분류 클래스의 번호를 회귀처럼 평균해 0.67을 하나의 종류로 사용해서는 안 된다.</p>
-<p>모델과 규제는 <a href="https://scikit-learn.org/stable/modules/linear_model.html" target="_blank" rel="noopener noreferrer">scikit-learn linear models</a>, 이웃 선택은 <a href="https://scikit-learn.org/stable/modules/neighbors.html" target="_blank" rel="noopener noreferrer">nearest neighbors</a>, 결합 손실함수가 요구하는 입력 조건은 <a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html" target="_blank" rel="noopener noreferrer">PyTorch BCEWithLogitsLoss</a>를 참고한다. 작은 수치 계산은 정의를 확인하는 예제이며 실제 모델의 성능 비교가 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-02">10.7 실습문제 · 2번</a> · <a href="#question-V10-03">기초 확인 · 3번</a></p></details>
+<p>모델과 규제는 <a href="https://scikit-learn.org/stable/modules/linear_model.html" target="_blank" rel="noopener noreferrer">scikit-learn linear models</a>, 이웃 선택은 <a href="https://scikit-learn.org/stable/modules/neighbors.html" target="_blank" rel="noopener noreferrer">nearest neighbors</a>, 결합 손실함수가 요구하는 입력 조건은 <a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html" target="_blank" rel="noopener noreferrer">PyTorch BCEWithLogitsLoss</a>를 참고한다.</p>
+<p>작은 수치 계산은 정의를 확인하는 예제이며 실제 모델의 성능 비교가 아니다.</p>
+<p>k를 바꾸는 것은 단순 계산량 변경이 아니라 얼마나 좁은 주변을 믿을지 바꾸는 선택이다. 분류 번호를 평균해 0.67이라는 새 종류를 만들지 않으며, 회귀는 평균값 자체가 유효한 연속 출력일 수 있다. 이웃 동률과 k≤학습 수 조건을 확인하고 스케일러는 학습 자료로만 맞춘다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 이웃 선택은 거리, 예측 결합은 정답 종류와 k가 결정한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O10-02">10.7 실습문제 · 2번</a> · <a href="#question-V10-03">기초 확인 · 3번</a></p></details>
 30:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-10","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-10","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$37"}}]]}]
 31:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 32:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-38:T1a04,
+38:T484a,
 <span class="section-anchor" id="101" aria-hidden="true"></span>
+<p>연비처럼 크기를 예측하는 식과 고장처럼 종류를 예측하는 식은 같은 가중합에서 출발할 수 있다. 다만 출력을 해석하고 손실을 계산하는 방식은 달라진다. 이어서 가중치를 학습하지 않고 비슷한 사례를 찾는 KNN과 비교한다.</p>
 
 <h3 id="102">10.2 선형회귀</h3>
+<p>사용 연수 t가 1년이면 수리비 3, 2년이면 5, 3년이면 7이라고 하자. 각 t에 2를 곱하고 1을 더하는 ŷ=2t+1로 설명할 수 있다. 실제 자료는 딱 맞지 않으므로 예측과 실제 차이를 모아 가장 작은 오차를 만드는 계수를 찾는다.</p>
 <p>예측식은 <code>ŷ = wᵀx + b</code>이며, MSE <code>L=(1/n)Σ(ŷ-y)²</code>를 최소화한다. 선형이라는 말은 특성과 계수가 선형으로 결합된다는 뜻이지, 원본 특성만 써야 한다는 뜻은 아니다. <code>x²</code>, 특성 간 곱, 로그 변환한 특성을 입력으로 만들어도 매개변수에 대해서는 여전히 선형이다.</p>
 <p>장점:</p>
 <ul>
@@ -155,12 +183,20 @@ assert prediction == 1
 <li>이상치와 다중공선성에 민감할 수 있음</li>
 </ul>
 <p>Ridge는 L2, Lasso는 L1, Elastic Net은 둘을 결합한다.</p>
+<p>ŷ는 예측, x는 입력 묶음, w는 각 입력의 비중, b는 기본값, n은 사례 수다. y=[2,5,7]에 예측 [3,4,8]이면 차이는 [1,−1,1]이고 MSE=(1+1+1)/3=1이다. 그대로 더하면 양·음이 상쇄되므로 제곱하고, 큰 오차는 더 크게 벌한다. 6강의 동일 고정 분산 가우시안 우도에서 유도되는 손실과 같다.</p>
+<p>선형의 기준은 계수다. 입력을 [t,t²]로 만들면 w₁t+w₂t²+b는 t에 대해 곡선이어도 계수는 각각 고정된 열에 곱해 더한다. 두 입력의 곱도 새 열로 제공하면 상호작용을 표현할 수 있다. 단순 선형층이 그 열을 스스로 만들지는 않는다.</p>
+<p>Ridge는 계수 제곱합, Lasso는 절댓값 합, Elastic Net은 둘을 비용에 넣는다. 규제가 크면 표본의 우연에 맞춘 큰 계수를 줄여 분산을 낮출 수 있지만 실제 관계까지 약하게 만들어 편향을 높일 수 있다. 지나치면 새 자료뿐 아니라 학습 자료도 못 맞히는 과소적합이 된다. 절편을 규제하지 않는 설정에서는 가중치가 작아져도 출력 전체가 0이 되는 것은 아니다.</p>
 <h3 id="103">10.3 로지스틱회귀</h3>
+<p>정상인지 고장인지 맞히는데 직선식이 −3이나 5를 출력하면 확률로 바로 읽을 수 없다. 가중합은 어느 쪽을 얼마나 지지하는지 나타내는 점수로 두고, 0과 1 사이 확률로 변환한다. 예컨대 점수 ln3이면 지수값이 3이고 양성 오즈가 3:1이라 확률은 3/4다.</p>
 <p>이진분류의 변환 전 점수(logit)는 <code>z=wᵀx+b</code>이고, 확률은 <code>σ(z)</code>다. 두 클래스를 나누는 결정 경계는 <code>z=0</code>, 즉 확률이 0.5인 지점이다. BCE는</p>
 <p><code>-[y log p + (1-y)log(1-p)]</code>.</p>
 <p>PyTorch에서는 수치 안정성을 위해 시그모이드와 BCE를 합친 <code>BCEWithLogitsLoss</code>를 쓴다. 모델의 순전파에는 시그모이드를 붙이지 않는다.</p>
 <p>다중분류는 클래스별 변환 전 점수와 소프트맥스를 사용한다. <code>CrossEntropyLoss</code>는 로그 소프트맥스와 음의 로그우도를 한꺼번에 계산한다.</p>
+<p>오즈는 p/(1−p), logit z는 그 자연로그다. e^z=p/(1−p)를 p로 풀면 p=1/(1+e^(−z))인 시그모이드가 된다. z가 0이면 e^0=1이라 p=1/2다. z=0이 결정 경계라는 설명은 판정 확률을 0.5로 택했을 때이며 다른 문턱을 쓰면 경계 점수도 달라진다.</p>
+<p>BCE의 y는 0 또는 1, p는 양성 확률이다. y=1이면 (1−y)항이 사라져 −log p, y=0이면 −log(1−p)다. p=0.8에서 정답 1이면 약 0.223, 정답 0이면 약 1.609로 자신 있게 틀린 경우 더 큰 비용을 낸다.</p>
+<p>BCEWithLogitsLoss는 점수를 받아 시그모이드와 로그를 안정적으로 계산한다. 확률 0.8을 미리 넣으면 다시 점수 0.8로 해석해 약 0.690을 유효 확률로 사용하므로 다른 손실이 된다. 다중분류의 소프트맥스는 K개 점수를 합이 1인 확률로 바꾸고, CrossEntropyLoss도 그 변환을 포함한 계산을 한다. 학습 시 원점수를 손실에, 확률이 필요한 예측 시점에만 확률 변환을 적용한다.</p>
 <h3 id="104-knn">10.4 KNN</h3>
+<p>처음 보는 집의 가격을 알고 싶다면 주변의 비슷한 집 몇 채 가격을 참고할 수 있다. KNN은 이 생각을 “입력 공간에서 가까운 학습 사례 k개를 찾고 그 정답을 결합한다”는 규칙으로 만든다. 가까움은 지리적 위치일 수도 있지만 여기서는 선택한 특성들의 거리다.</p>
 <p>새 샘플과 가까운 이웃 k개를 찾아 분류는 투표로, 회귀는 평균으로 예측한다. 학습 단계는 거의 없지만 예측할 때 전체 학습 데이터와 거리를 계산하므로 느릴 수 있다.</p>
 <p>이웃 수 k의 영향:</p>
 <ul>
@@ -168,7 +204,11 @@ assert prediction == 1
 <li>너무 큼: 결정 경계가 지나치게 매끄러워지고 편향이 높아지며 소수 클래스를 무시할 수 있다.</li>
 </ul>
 <p>거리는 특성의 척도에 매우 민감하다. 고차원에서는 점 사이의 거리가 서로 비슷해지는 차원의 저주가 생긴다.</p>
+<p>새 점 q=(1,1)에서 A=(2,1),B=(1,3),C=(4,1)의 거리는 1·2·3이다. 클래스가 [1,0,0]이면 k=1은 첫 이웃의 1, k=3은 다수인 0을 택한다. 연속 정답 [12,18,27]이면 세 이웃 평균은 19다. <strong>이웃을 고르는 단계와 그 정답을 합치는 단계는 별개</strong>다. 가까운 이웃에 더 큰 비중을 주는 거리 가중 방식도 있다.</p>
+<p>k=1은 가장 가까운 한 점의 잡음에 민감하고, 모든 점을 이웃으로 쓰면 어디서나 전체 평균·다수 클래스를 내는 지나치게 단순한 예측이 된다. 학습 샘플 자체는 자기 자신이 거리 0인 이웃이므로 높은 학습 점수가 새 자료 성능을 보장하지 않는다. k는 학습 샘플 수 이하여야 하며 동률·중복·가중 정책도 확인한다.</p>
+<p>고차원에서는 불필요한 축의 차이까지 누적되어 가까운 점과 먼 점의 차이가 흐려질 수 있다. 입력 수를 줄이고 척도를 맞추는 이유지만, 모든 고차원 문제에 KNN이 실패한다는 뜻은 아니다. 데이터 저장과 예측 시 비교 비용도 있어 “학습이 간단하니 실행 비용도 0”은 아니다.</p>
 <h3 id="105-distance">10.5 거리의 종류</h3>
+<p>두 위치 [1,2]와 [4,6]의 차이는 [−3,−4]다. 직선거리면 √(9+16)=5, 좌표축을 따라 이동한 길이면 3+4=7이다. 어떤 유사한 사례를 고를지에 따라 거리의 정의가 달라지며, 아래 식의 y는 정답이 아니라 <strong>비교할 두 번째 위치 벡터</strong>다.</p>
 <ul>
 <li>유클리드 거리: <code>sqrt(Σ(x_i-y_i)²)</code></li>
 <li>맨해튼 거리: <code>Σ|x_i-y_i|</code></li>
@@ -176,7 +216,10 @@ assert prediction == 1
 <li>마할라노비스 거리: 공분산을 이용해 척도와 상관관계를 고려한다.</li>
 <li>코사인 거리: 크기보다 방향을 중심으로 비교한다.</li>
 </ul>
+<p>민코프스키는 (Σ|x_i−y_i|^p)^(1/p)로 쓰며 p=1은 맨해튼, p=2는 유클리드다. 마할라노비스는 √((x−y)ᵀS⁻¹(x−y))처럼 공분산 S로 척도와 중복 방향을 조정한다. S가 역행렬을 가질 조건이나 안정화 처리가 필요해 이름만 바꾸어 항상 사용할 수 있는 것은 아니다.</p>
+<p>코사인 거리는 흔히 1−코사인 유사도로 정의한다. 영벡터에서는 원래 각도 정의가 없으며, 이 값은 유클리드 거리와 달리 일반적으로 삼각부등식을 만족하는 metric은 아니다. [1,2]와 [2,4]는 유클리드 거리 √5지만 코사인 기반 차이는 0이므로, 크기를 버려도 되는 문제인지 먼저 판단한다.</p>
 <h3 id="106-pytorch">10.6 PyTorch 최소 구현</h3>
+<p>회귀와 로지스틱회귀의 코드가 비슷한 이유는 둘 다 마지막 입력 축에 가중합을 만들기 때문이다. 차이는 이 출력 뒤에 어떤 손실을 연결하고, 예측 결과를 어떻게 해석하느냐에 있다. 아래 클래스 정의만으로 학습까지 끝나지는 않는다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-10-1">복사</button></div><pre id="code-10-1" tabindex="0" aria-label="10강 PYTHON 예시 1"><code class="language-python">import torch
 import torch.nn as nn
 
@@ -196,6 +239,8 @@ class LogisticRegressor(nn.Module):
     def forward(self, x):
         return self.head(x)  # logits, sigmoid 없음
 </code></pre></div>
+<p>nn.Module을 상속하면 가중치 보관·학습 모드 같은 PyTorch 모델 기능을 이용한다. super().<strong>init</strong>()은 그 기본 초기화다. self.head=nn.Linear는 입력 특성 수만큼 가중치를 가진 출력층을 등록하고, forward는 x가 들어왔을 때 실행할 가중합을 정한다. 회귀의 n_outputs는 예측할 숫자 개수이며 입력 [B,F]는 [B,n_outputs]가 된다. 로지스틱회귀의 출력은 [B,1] 원점수다.</p>
+<p>모델 밖에서 회귀는 MSE, 이진분류는 BCEWithLogitsLoss 등 목적에 맞는 손실을 정하고, zero_grad→순전파→손실→backward→step으로 학습한다. 이진 정답도 예측과 같은 [B,1] 실수 배열로 맞춘다. 이 클래스 뒤에 시그모이드를 무조건 붙이지 않는 이유는 10.3의 결합 손실 입력 조건 때문이다.</p>
 <h3 id="107">10.7 실습문제</h3>
 <ol>
 <li id="question-O10-01" data-question-id="O10-01">Ridge의 규제 강도를 너무 크게 하면 편향과 분산은 어떻게 변하는가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-10-2">Ridge 규제를 강화하면 편향과 분산은 왜 달라지는가</a></p></details></li>
@@ -205,19 +250,51 @@ class LogisticRegressor(nn.Module):
 <li id="question-O10-05" data-question-id="O10-05">선형모델에 비선형으로 변환한 특성을 사용할 수 있는 예를 하나 쓰라.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-10-1">선형모델의 ‘선형’은 입력보다 계수에 관한 말이다</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_11"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li>일반적으로 편향은 증가하고 분산은 감소한다. 지나치면 과소적합이 된다.</li>
-<li>값의 범위가 큰 특성이 거리 계산에 지나치게 큰 영향을 미친다. 스케일링이 필요하다.</li>
-<li><code>σ(0)=0.5</code>.</li>
-<li>손실함수 내부의 시그모이드와 중복 적용되고, 두 계산을 수치적으로 안정되게 결합한 이점도 잃는다.</li>
-<li><code>x</code>와 <code>x²</code>를 입력하면 <code>w1 x + w2 x² + b</code>라는 곡선을 나타낼 수 있지만, 매개변수에 대해서는 선형이다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> Ridge는 L2 계수 비용이며 “너무 크게”라는 과도한 규제를 묻는다.</p>
+<p><strong>풀이:</strong> 한 계수 예 J=0.5(w−a)²+(λ/2)w²를 미분하면 w=a/(1+λ)다. λ를 키우면 a의 표본 변동이 줄어 안정적이지만 참 계수가 0이 아니면 추정 평균이 참값에서 멀어질 수 있다.</p>
+<p><strong>정답:</strong> 일반적으로 편향은 증가하고 분산은 감소한다. 지나치면 과소적합이 된다.</p>
+<p><strong>왜?</strong> 가중치의 자유로운 변화를 막으면 우연한 표본에 대한 민감도와 실제 관계를 표현할 힘이 함께 줄기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 모든 데이터·지표에서 단조 변화하는 보편 정리나 규제 강화가 성능 개선 보장은 아니다. bias는 여기서 통계적 편향이지 절편 b가 아니다.</p>
+<p><strong>한 줄 기억:</strong> 과도한 Ridge는 대체로 분산을 낮추고 편향·과소적합 위험을 높인다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 두 특성의 값 범위가 10만 배 다르고 KNN은 거리로 이웃을 고른다.</p>
+<p><strong>풀이:</strong> 작은 열의 차이 0.5와 큰 열의 차이 50000을 제곱하면 0.25와 2500000000이다. 실제 중요도와 무관하게 둘째 항이 거리 대부분을 결정한다. train으로 스케일 기준을 정해 두 자료에 같이 적용한다.</p>
+<p><strong>정답:</strong> 값의 범위가 큰 특성이 거리 계산에 지나치게 큰 영향을 미친다. 스케일링이 필요하다.</p>
+<p><strong>왜?</strong> 거리 공식이 각 특성 차이를 같은 계산 방식으로 더하므로 단위가 큰 열에 수치적 가중치가 생긴다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 값이 큰 특성이 반드시 더 중요한 것은 아니다. test에서 별도로 fit하거나 y를 스케일링한 것으로 입력 거리 문제가 해결되지 않는다.</p>
+<p><strong>한 줄 기억:</strong> KNN의 척도는 어떤 사례가 가까운지를 바꾼다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 0은 확률이 아니라 시그모이드에 넣기 전 logit이다.</p>
+<p><strong>풀이:</strong> σ(z)=1/(1+e^(−z))에서 z=0이면 e^0=1이다. 따라서 1/(1+1)=1/2다. 로그 오즈 0이면 오즈 1이라 두 클래스 가능성이 같다.</p>
+<p><strong>정답:</strong> <code>σ(0)=0.5</code>.</p>
+<p><strong>왜?</strong> 시그모이드는 제한 없는 점수를 확률로 바꾸며 0을 가운데 0.5로 보낸다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 점수 0을 확률 0이라고 읽지 않는다. 0.5가 경계라는 것은 판정 문턱을 0.5로 정한 조건이다.</p>
+<p><strong>한 줄 기억:</strong> logit 0은 확률 0.5다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 손실함수 이름에 WithLogits가 있고 입력은 원점수여야 한다.</p>
+<p><strong>풀이:</strong> 원점수 ln4를 시그모이드로 바꾸면 0.8이다. 이를 다시 BCEWithLogitsLoss에 넣으면 함수가 점수 0.8로 읽어 σ(0.8)≈0.690으로 계산한다. 원래 0.8을 쓰는 손실과 다른 값·기울기가 된다.</p>
+<p><strong>정답:</strong> 손실함수 내부의 시그모이드와 중복 적용되고, 두 계산을 수치적으로 안정되게 결합한 이점도 잃는다.</p>
+<p><strong>왜?</strong> 결합 손실이 이미 시그모이드와 로그를 안정적으로 처리하도록 설계되었기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 단순히 연산 한 번이 낭비되는 정도가 아니다. 유효 확률 범위와 목적함수가 바뀐다. 확률이 필요한 추론 단계의 sigmoid와 혼동하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> BCEWithLogitsLoss 앞에는 sigmoid를 중복해서 붙이지 않는다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 선형의 대상은 원래 입력의 모양보다 계수의 결합 방식이다.</p>
+<p><strong>풀이:</strong> 원래 입력 t에서 두 특성 x₁=t,x₂=t²를 미리 만든다. 모델은 w₁x₁+w₂x₂+b로 계산한다. t=2일 때 [2,4]가 입력이며 계수마다 고정된 특성을 곱해 더한다.</p>
+<p><strong>정답:</strong> <code>x</code>와 <code>x²</code>를 입력하면 <code>w1 x + w2 x² + b</code>라는 곡선을 나타낼 수 있지만, 매개변수에 대해서는 선형이다.</p>
+<p><strong>왜?</strong> 특성 변환이 비선형이어도 학습할 계수 자체는 제곱·지수 안에 들어가지 않기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 선형층만 두었다고 t²를 자동 생성하지 않는다. sin(wt)처럼 계수가 비선형 함수 안에 들어간 형태는 같은 의미의 선형모형이 아니다.</p>
+<p><strong>한 줄 기억:</strong> t와 t²를 입력으로 주면 입력에 대한 곡선도 계수에는 선형이다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="108">10.8 완료 기준</h3>
+<p>체크하기 전에 아래 행동을 해설 없이 직접 수행한다. 막힌 항목은 앞 절의 작은 예로 돌아가 입력 숫자를 바꾸어 다시 설명한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="10-1"><span>회귀·이진분류·다중분류에 맞는 출력과 손실함수를 구분한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="10-2"><span>k 변화에 따른 편향과 분산의 변화를 설명한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="10-3"><span>빠른 선형 기준 모델을 5분 안에 만든다.</span></label></li>
 </ul>
+<p>회귀 수치·분류 점수·확률·클래스 번호를 구별했다면 다음에는 조건으로 나누는 트리와 마진을 쓰는 SVM을 배운다. 기준 모델 5분 목표는 직접 실행이 익숙해진 뒤의 연습 속도이지 이해의 출발 조건이 아니다.</p>
 
 
 33:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$38"}}]

@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/30","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/30":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/30":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","30"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/30","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/30"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/30"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/30","_N_T_/layout","_N_T_/learn/30","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/30"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/30","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/30":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/30":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","30"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/30","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/30"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/30"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/30","_N_T_/layout","_N_T_/learn/30","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/30"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -43,7 +43,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 26:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-30-1",{"children":[["$","a",null,{"href":"#visual-30-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-30-1",{"children":["$","a",null,{"href":"#topic-30-1","children":"예측과 제출의 차이"}]}],["$","li","topic-30-2",{"children":["$","a",null,{"href":"#topic-30-2","children":"완료해야 할 결과를 먼저 손으로 적기"}]}]]}]]}]]}],["$","li","visual-30-2",{"children":[["$","a",null,{"href":"#visual-30-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-30-3",{"children":["$","a",null,{"href":"#topic-30-3","children":"오류 이름은 원인을 좁히는 첫 표지다"}]}],["$","li","topic-30-4",{"children":["$","a",null,{"href":"#topic-30-4","children":"디버깅의 기본 용어"}]}]]}]]}]]}],["$","li","visual-30-3",{"children":[["$","a",null,{"href":"#visual-30-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-30-4",{"children":[["$","a",null,{"href":"#visual-30-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-30-5",{"children":["$","a",null,{"href":"#topic-30-5","children":"실행돼도 잘못된 계산"}]}],["$","li","topic-30-6",{"children":["$","a",null,{"href":"#topic-30-6","children":"브로드캐스팅 표의 네 칸을 직접 만들기"}]}]]}]]}]]}],["$","li","visual-30-5",{"children":[["$","a",null,{"href":"#visual-30-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",4,"개"]}],["$","ul",null,{"children":[["$","li","topic-30-7",{"children":["$","a",null,{"href":"#topic-30-7","children":"실패 지점의 두 입력만 남겨 보기"}]}],["$","li","topic-30-8",{"children":["$","a",null,{"href":"#topic-30-8","children":"서로 대신하지 못하는 완료 상태"}]}],["$","li","topic-30-9",{"children":["$","a",null,{"href":"#topic-30-9","children":"작은 재현과 시간 운영"}]}],["$","li","topic-30-10",{"children":["$","a",null,{"href":"#topic-30-10","children":"시간 계획을 측정값으로 계산하기"}]}]]}]]}]]}],["$","li","visual-30-6",{"children":[["$","a",null,{"href":"#visual-30-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-30-11",{"children":["$","a",null,{"href":"#topic-30-11","children":"값·형식·실행 상태"}]}],["$","li","topic-30-12",{"children":["$","a",null,{"href":"#topic-30-12","children":"재실행에서만 드러나는 오류도 있다"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-30","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-30-1",{"children":["$","a",null,{"href":"#theory-30-1","children":"배열 크기·자료형·대응 관계를 각각 검사하기"}]}],["$","li","theory-30-2",{"children":["$","a",null,{"href":"#theory-30-2","children":"브로드캐스팅은 오류 없이 잘못된 손실을 만들 수 있다"}]}],["$","li","theory-30-3",{"children":["$","a",null,{"href":"#theory-30-3","children":"자료형 변환 전후에 유한값을 검사하는 이유"}]}],["$","li","theory-30-4",{"children":["$","a",null,{"href":"#theory-30-4","children":"오류 메시지를 최소 재현으로 바꾸기"}]}],["$","li","theory-30-5",{"children":["$","a",null,{"href":"#theory-30-5","children":"파일·노트북·제출은 별개의 상태다"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","302",{"children":["$","a",null,{"href":"#302","children":"절대 규칙"}]}],["$","li","303-prediction",{"children":["$","a",null,{"href":"#303-prediction","children":"예측값의 제출 조건 검사"}]}],["$","li","304-npy",{"children":["$","a",null,{"href":"#304-npy","children":"NPY"}]}],["$","li","305-csv",{"children":["$","a",null,{"href":"#305-csv","children":"CSV"}]}],["$","li","306",{"children":["$","a",null,{"href":"#306","children":"오류 진단 순서"}]}],["$","li","307",{"children":["$","a",null,{"href":"#307","children":"시간 부족 축소 순서"}]}],["$","li","308-30",{"children":["$","a",null,{"href":"#308-30","children":"최종 30초 체크"}]}],["$","li","309",{"children":["$","a",null,{"href":"#309","children":"실습문제"}]}],["$","li","3010",{"children":["$","a",null,{"href":"#3010","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],["$","ol",null,{"children":[["$","li","visual-30-7",{"children":["$","a",null,{"href":"#visual-30-7","children":"스스로 확인하기"}]}],["$","li","visual-30-8",{"children":["$","a",null,{"href":"#visual-30-8","children":"정답과 이유"}]}],["$","li","visual-30-9",{"children":["$","a",null,{"href":"#visual-30-9","children":"더 읽을 공식 자료"}]}]]}]]]}]
 27:["$","$L2f",null,{}]
 28:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","제공된 기본 코드(skeleton)와 저장 셀을 보존한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"제공된 기본 코드(skeleton)와 저장 셀을 보존한다."]}],["$","li","예측값의 배열 크기·원소 자료형·유한성·행 순서를 검사한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"예측값의 배열 크기·원소 자료형·유한성·행 순서를 검사한다."]}],["$","li","NPY/CSV를 다시 읽어 검증한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"NPY/CSV를 다시 읽어 검증한다."]}],["$","li","메모리 부족(OOM), NaN, 배열 크기 오류를 우선순위대로 해결한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"메모리 부족(OOM), NaN, 배열 크기 오류를 우선순위대로 해결한다."]}]]}]]}]
-29:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+29:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 30:T5a77,<h3 id="visual-30-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-30-1">예측과 제출의 차이</h4>
 <p>학습이 끝나고 예측값도 화면에 보인다. 그런데 저장한 파일을 열어 보니 테스트 두 행의 예측이 한 긴 벡터로 펼쳐져 있다. 이 상태는 모델 문제일까, 제출 문제일까? 디버깅의 첫 질문은 “어디가 틀렸나”보다 “어느 단계에서 요구한 결과와 처음 달라졌나”다. 입력, 모델 출력, 평가지표, 저장 배열을 차례로 확인하면 오류 범위를 좁힐 수 있다.</p>
@@ -168,29 +168,38 @@ print("reload 확인:", loaded.shape, loaded.dtype)
 2c:["$","$L36",null,{"track":"learn","lesson":"30","goal":"제공된 기본 코드(skeleton)와 저장 셀을 보존한다."}]
 2d:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"학습 마무리"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"끝까지 읽었다면 아래 완료 기준도 확인해 보세요. 직접 설명하거나 실행할 수 있는 항목을 표시하면 됩니다."}]]}],["$","$L37",null,{"lessonId":"30"}]]}]
 2e:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/29/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",29,". ","이미지·이상탐지 Problem 풀이"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/31/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[31,". ","필기 모의고사 1회 — 20문항 50분"," →"]}]]}]]}]
-38:T1e34,<h3 id="theory-30-1">1. 배열 크기·자료형·대응 관계를 각각 검사하기</h3>
+38:T294c,<h3 id="theory-30-1">1. 배열 크기·자료형·대응 관계를 각각 검사하기</h3>
+<p>택배 상자가 두 개이고 내용물이 숫자라는 확인만으로 올바른 수신자에게 보냈다고 할 수는 없다. 제출 배열도 행 수·자료형이 맞는 것과 각 행이 맞는 대상인 것은 별개다. 아래에서 ID [B,A]를 [A,B]로 바꿨다면 예측도 같은 순서로 바뀌어야 한다. <strong>몇 개를 저장했는지, 어떤 종류의 값인지, 누구의 어떤 예측인지</strong>를 각각 검사한다. 모양을 억지로 맞추는 reshape는 잘못된 대응을 고쳐 주지 않는다.</p>
 <p>배열 크기는 행과 열의 개수, 자료형은 숫자를 저장하는 방식, 각 위치의 의미는 어떤 샘플의 어떤 예측 대상에 대응하는지를 나타낸다. [N,D]에서 N은 제출 대상 수, D는 대상마다 예측할 출력 수다. N×D개 원소가 있다는 이유만으로 배열 크기를 임의로 바꿔도 되는 것은 아니다. 예측 [120,2]를 길이 240으로 펼치면 120개 샘플의 두 물리량을 240개 샘플의 한 물리량으로 잘못 해석하게 된다.</p>
 <p>손계산 A: 두 샘플의 ID가 [B,A]이고 예측이 [[10,100],[20,200]]이면 B의 두 값은 10과 100이다. ID를 [A,B]로 정렬한 뒤 예측을 그대로 두면 배열 크기, 자료형, 유한값 검사를 모두 통과해도 예측 대상이 뒤바뀐다. 행 순서는 별도의 ID나 원래 위치로 확인해야 한다. 정확히 [N,1]을 요구하면 [N]도 같다고 가정하지 않는다. 제출 파일의 형식 검사와 모델의 예측 성능 평가는 서로 독립적이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O30-01">30.9 실습문제 · 1번</a> · <a href="#question-V30-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-30-2">2. 브로드캐스팅은 오류 없이 잘못된 손실을 만들 수 있다</h3>
+<p>모든 예측이 정답과 같은데도 손실이 8이라면 학습을 더 하기 전에 비교한 짝부터 확인한다. [2,1] 예측과 [2] 정답을 빼면 첫 예측이 첫 정답뿐 아니라 둘째 정답과도 비교될 수 있다. 아래에서는 <strong>맞는 두 쌍</strong>과 브로드캐스팅으로 생긴 <strong>네 조합</strong>을 직접 써 본다. 다만 CE처럼 원래부터 점수 배열과 클래스 번호 배열의 모양이 다른 손실도 있으므로 “항상 같은 shape”라는 새 규칙으로 일반화하지 않는다.</p>
 <p>두 배열을 연산할 때 NumPy와 PyTorch는 뒤축부터 크기를 비교한다. 같거나 한쪽이 1이면 확장한다. [B,1]과 [B]는 두 번째를 [1,B]로 읽어 [B,B] 결과가 된다. 의도한 비교는 같은 샘플끼리의 B쌍이지만, 실제로는 서로 다른 샘플까지 포함한 B²쌍을 비교한다.</p>
 <p>손계산 B: 예측이 [[2],[6]], 정답이 [2,6]이면 올바른 MSE는 0이다. 하지만 둘을 빼면 [[0,−4],[4,0]]이고 제곱 평균은 (0+16+16+0)/4=8이다. 둘 다 [B,1] 또는 둘 다 [B]로 맞춘 다음 손실을 계산해야 한다. 이미 전체 평균을 낸 뒤 배열 크기를 바꿔도 잘못 계산한 손실은 복구되지 않는다. 클래스 인덱스를 쓰는 CE는 예측 [B,K]·정답 [B]라는 별도의 입력 조건을 따르므로 모든 손실함수에 같은 크기의 배열을 강제해서도 안 된다.</p>
 <p>B=1에서는 인자 없는 squeeze가 배치 축까지 없애는지 확인한다. [1,1]을 스칼라로 바꿀 수 있기 때문이다. 배치 크기 2에서 통과한 코드가 마지막 작은 배치에서만 실패할 수 있으므로 B=1과 B=2를 둘 다 테스트한다. <a href="https://numpy.org/doc/stable/user/basics.broadcasting.html" target="_blank" rel="noopener noreferrer">NumPy 브로드캐스팅</a>의 규칙을 기억하되, 자동 확장이 연산의 의미까지 보장하지는 않는다는 점을 더 중요하게 기억한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-V30-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-30-3">3. 자료형 변환 전후에 유한값을 검사하는 이유</h3>
+<p>큰 컵에 담긴 물을 작은 컵으로 옮기면 이전에 잘 담겼다는 사실만으로 넘치지 않는다고 할 수 없다. 수치 자료형도 표현할 수 있는 범위가 다르다. float64에서 유한한 10⁴⁰이 float32에서는 Inf가 될 수 있으므로 <strong>검사 → 변환 → 다시 검사</strong>가 필요하다. NaN이나 Inf를 무조건 0으로 바꾸면 원인이 숨겨지고 예측의 의미도 바뀔 수 있다. 어떤 계산에서 처음 잘못된 값이 생겼는지 추적하는 것이 먼저다.</p>
 <p>NaN은 정상적인 실수 결과가 아니며 Inf는 무한대를 나타낸다. 0으로 나누기, 허용 범위를 벗어난 로그 계산, 큰 지수값, 표현 범위가 넓은 자료형에서 좁은 자료형으로의 변환 등이 원인이다. float32는 무한히 큰 수를 저장할 수 없으므로 예를 들어 유한한 float64 값 10⁴⁰을 float32로 바꾸면 Inf가 될 수 있다. 따라서 변환 전의 유한값 검사를 통과했다고 변환 후에도 유한하다고 추론할 수 없다.</p>
-<p>자료형은 표현 범위뿐 아니라 값의 역할에도 맞아야 한다. CE의 클래스 인덱스는 정수이고 회귀 정답은 실수다. 숫자로 보이는 문자열 배열은 자료형이 object나 문자열일 수 있으므로 수치 모델에 넣는 입력과는 다르다. CSV의 빈 문자열은 pandas의 기본 읽기 규칙에 따라 NaN이 될 수 있으므로 문자열 라벨도 다시 읽은 뒤 결측값을 검사한다. 빈 문자열을 유효한 라벨로 허용하는 문제라면 읽기·쓰기 규칙을 명세에 맞춰 고정해야 하며 무조건 0으로 대체하지 않는다. 숫자 표현 방식은 <a href="https://numpy.org/doc/stable/reference/arrays.dtypes.html" target="_blank" rel="noopener noreferrer">NumPy 자료형 문서</a>에서 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O30-02">30.9 실습문제 · 2번</a> · <a href="#question-O30-03">30.9 실습문제 · 3번</a></p></details>
+<p>자료형은 표현 범위뿐 아니라 값의 역할에도 맞아야 한다. CE의 클래스 인덱스는 정수이고 회귀 정답은 실수다. 숫자로 보이는 문자열 배열은 자료형이 object나 문자열일 수 있으므로 수치 모델에 넣는 입력과는 다르다. CSV의 빈 문자열은 pandas의 기본 읽기 규칙에 따라 NaN이 될 수 있으므로 문자열 라벨도 다시 읽은 뒤 결측값을 검사한다. 빈 문자열을 유효한 라벨로 허용하는 문제라면 읽기·쓰기 규칙을 명세에 맞춰 고정해야 하며 무조건 0으로 대체하지 않는다.</p>
+<p>숫자 표현 방식은 <a href="https://numpy.org/doc/stable/reference/arrays.dtypes.html" target="_blank" rel="noopener noreferrer">NumPy 자료형 문서</a>에서 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O30-02">30.9 실습문제 · 2번</a> · <a href="#question-O30-03">30.9 실습문제 · 3번</a></p></details>
 <h3 id="theory-30-4">4. 오류 메시지를 최소 재현으로 바꾸기</h3>
+<p>수만 행으로 된 학습이 실패했다면 같은 오류를 만드는 표본 두 개부터 남겨 보자. 입력·정답·출력의 shape와 dtype을 출력하면 큰 프로그램에서도 모델에 들어가는 조건을 눈으로 확인할 수 있다. 그 작은 입력에서 <strong>처음으로 기대와 달라지는 단계</strong>를 찾는 것이 최소 재현의 목적이다. 이미 입력에 NaN이 있는데 학습률만 낮추거나, 행렬 크기가 틀렸는데 옵티마이저를 바꾸는 것은 원인에 닿지 못한다.</p>
 <p>행렬곱 오류가 나면 Linear 직전의 마지막 차원과 in_features를 비교한다. Conv1D/RNN 오류에서는 시간 축과 특성 축이 바뀌었는지 확인한다. BCE의 정답 크기 오류에서는 예측과 정답의 배열 크기를, CE의 Long 오류에서는 정답 자료형과 클래스 범위를 먼저 살펴본다. 입력에 NaN이 있다면 학습률을 낮춰도 입력 문제는 해결되지 않는다. 입력→출력→손실→기울기 순서로 값이 유한한지 검사해 처음으로 NaN이나 Inf가 생긴 지점을 찾는다.</p>
 <p>메모리 부족(OOM)은 배치나 모델뿐 아니라 모든 입력 구간을 중복 복사하거나, 매 배치에서 계산 그래프에 연결된 손실을 목록에 보관할 때도 발생한다. 반면 학습 시간이 길다고 배치 크기를 줄이면 무조건 빨라지는 것은 아니다. 이미 검증한 모델을 남기고 탐색을 중지할 조건을 정해야 한다. AUC를 계산할 데이터에 한 클래스만 있다면 다른 평가지표의 값으로 임의 대체하지 말고, 분할된 데이터의 클래스와 그룹 구성을 점검한다.</p>
 <h3 id="theory-30-5">5. 파일·노트북·제출은 별개의 상태다</h3>
-<p>NPY는 배열 크기와 원소의 자료형을 보관한다. 저장 후 np.load로 읽어 배열 크기, 자료형, 값, 유한값 여부를 다시 비교한다. CSV는 열 이름, 행 수, 문자와 숫자를 읽는 방식까지 확인한다. 다시 읽기 검사를 통과해도 제출할 파일명을 잘못 골랐다면 문제가 해결된 것은 아니다. <a href="https://numpy.org/doc/stable/reference/generated/numpy.save.html" target="_blank" rel="noopener noreferrer">NumPy save</a>와 <a href="https://numpy.org/doc/stable/reference/generated/numpy.load.html" target="_blank" rel="noopener noreferrer">load</a>는 파일을 저장하고 읽는 도구이지 시험 시스템의 제출 버튼을 대신하는 기능이 아니다.</p>
+<p>메모리에 예측 배열이 있는 상태, 디스크에 파일이 저장된 상태, 시험 시스템에 그 파일이 전달된 상태는 서로 다르다. 각각 다음 단계로 넘어갔는지 확인해야 한다. 저장 뒤 다시 읽기는 파일의 값을 확인하지만 어느 파일을 최종 제출했는지까지 알려 주지는 않는다. <strong>예측 → 형식·대응 검사 → 저장 → 재로딩 → 실제 제출 확인</strong>을 끝내야 작업이 완료된다. 남은 시간에 새 모델이 완주할 수 없다면 이미 검증한 결과를 이 순서로 마무리한다.</p>
+<p>NPY는 배열 크기와 원소의 자료형을 보관한다. 저장 후 np.load로 읽어 배열 크기, 자료형, 값, 유한값 여부를 다시 비교한다. CSV는 열 이름, 행 수, 문자와 숫자를 읽는 방식까지 확인한다. 다시 읽기 검사를 통과해도 제출할 파일명을 잘못 골랐다면 문제가 해결된 것은 아니다.</p>
+<p><a href="https://numpy.org/doc/stable/reference/generated/numpy.save.html" target="_blank" rel="noopener noreferrer">NumPy save</a>와 <a href="https://numpy.org/doc/stable/reference/generated/numpy.load.html" target="_blank" rel="noopener noreferrer">load</a>는 파일을 저장하고 읽는 도구이지 시험 시스템의 제출 버튼을 대신하는 기능이 아니다.</p>
 <p>커널은 메모리의 변수와 모델을 가진 실행 상태다. 재시작하면 저장하지 않은 변수·가중치·진행 결과를 잃을 수 있다. 필요한 코드와 검증된 예측을 저장하고 당일 공식 절차와 감독관 안내를 따른다. 시간이 12분 남았는데 새 모델의 학습만 18분이라면 끝낼 수 없는 계획이다. 기존 최적 모델로 예측·검사·저장·제출 확인을 하는 것이 타당하다. “마지막 7분”은 교재의 운영 목표이지 공식 배점이 아니다. 필기에서는 왜 그 행동이 필요한지, 즉 구조가 틀린 파일은 성능을 평가할 수 없다는 원인을 설명한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O30-04">30.9 실습문제 · 4번</a> · <a href="#question-O30-05">30.9 실습문제 · 5번</a> · <a href="#question-V30-03">기초 확인 · 3번</a></p></details>
 31:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-30","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-30","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$38"}}]]}]
 32:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 33:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-39:T29e2,
+39:T56fd,
 <span class="section-anchor" id="301" aria-hidden="true"></span>
+<p>검증 점수가 좋았는데 파일이 읽히지 않으면 그 점수를 제출한 것이 아니다. 이번 강의는 메모리의 예측→파일→재읽기→노트북 저장→실제 제출이라는 서로 다른 상태를 확인한다. 모델 개선과 별개의 완료 절차다.</p>
 
 <h3 id="302">30.2 절대 규칙</h3>
+<p>함수 이름·저장 셀·파일명은 평가 시스템이 결과를 찾는 연결점이다. 이름을 보기 좋게 바꾸어도 시스템은 원래 이름을 호출할 수 있다. 아래 원칙은 원 교재가 기록한 운영 조건이며 이번 개편에서 현재 회차 규정을 새로 확인했다는 뜻은 아니다. 당일 공식 안내와 감독관 지시를 우선한다.</p>
 <ol>
 <li>제공된 변수명·파일명·저장 셀을 임의로 바꾸지 않는다.</li>
 <li>코드 수정 후 <code>Ctrl+S</code>로 저장하고 <code>Autosaved</code>를 확인한다. 기존 저장 셀을 실행해 예측 파일을 검사한 뒤 다시 저장한다.</li>
@@ -200,7 +209,10 @@ print("reload 확인:", loaded.shape, loaded.dtype)
 <li>보조 코드 전체를 가져오거나 완성된 처리 코드를 수정 없이 복사하지 않고, 필요한 블록만 사용한다.</li>
 <li>코드 실행과 모델 학습 시간도 170분에 포함되며, 실행 지연만으로 시험시간이 연장되지 않는다는 공식 운영 조건을 전제로 각 작업에 시간 상한을 정한다.</li>
 </ol>
+<p>Ctrl+S는 노트북 문서를, np.save는 배열 파일을 저장한다. 제출 버튼은 별도의 서버 상태를 바꾼다. 셋 중 하나의 성공이 나머지 성공을 증명하지 않는다. 화면에 함수 코드를 고쳐도 셀을 다시 실행하지 않으면 메모리에는 이전 함수가 남는다. 따라서 제공된 셀을 지키고 필요한 부분을 실행·저장·제출 확인한다.</p>
+<p>계산 중 대기한 시간도 170 분 안의 시간이다. 모델 학습 18 분·예측 3 분·파일검사 2 분이 필요하면 남은 20 분에 다 끝낼 수 없다. 첫 유효 파일을 먼저 보존하면 개선이 실패하거나 중단돼도 돌아갈 결과가 있다. 네트워크·Autosave 오류는 임의 우회 대신 공식 절차로 도움을 요청한다.</p>
 <h3 id="303-prediction">30.3 예측값의 제출 조건 검사</h3>
+<p>[200,2]와[400]은 원소 400개가 같지만 서로 다른 예측이다. 전자는 200 명에게 두 값을, 후자는 400 명에게 한 값을 준다. 배열을 검사할 때 숫자 총수보다 축별 의미가 먼저다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-30-1">복사</button></div><pre id="code-30-1" tabindex="0" aria-label="30강 PYTHON 예시 1"><code class="language-python">def validate_prediction(pred, expected_shape, name="prediction"):
     arr = np.asarray(pred)
     if arr.shape != tuple(expected_shape):
@@ -213,7 +225,10 @@ print("reload 확인:", loaded.shape, loaded.dtype)
     return arr
 </code></pre></div>
 <p>문제에서 원소 자료형을 지정했을 때만 변환한다. float32로 변환한 뒤 오버플로가 발생할 수 있으므로 다시 검사한다.</p>
+<p>np.asarray는 예측을 검사할 배열 형태로 읽는다. shape의 tuple 비교는 정확한 크기를 요구한다. np.issubdtype는 숫자 저장형인지, isfinite는 NaN/Inf가 없는지 확인한다. 오류 위치 일부를 보여 주면 전체 예측을 출력하지 않고 어디서 깨졌는지 찾을 수 있다.</p>
+<p>정해진 dtype으로 바꾸는 단계가 필요하면 변환 뒤에도 finite를 다시 검사한다. 유한한 float64의 10^40은 float32 표현 범위를 넘어 Inf가 될 수 있다. 이 함수가 shape·dtype·유한성을 통과시켜도 ID 순서·클래스 열 대응·원단위까지 자동 검증하지는 않는다.</p>
 <h3 id="304-npy">30.4 NPY</h3>
+<p>저장 명령이 오류 없이 끝났다는 것은 지금 검사한 배열이 요구 파일로 정확히 복구된다는 뜻까지는 아니다. 아래는 개인 연습용 NPY 왕복 검사이며 실제 제공된 저장 셀을 교체하라는 지시가 아니다.</p>
 <p>아래는 개인 연습에서 저장 원리를 확인하는 코드다. 실제 답안의 기존 저장 셀을 교체하지 말고, 그 셀이 참조하는 변수에 검증된 예측을 연결한다. 변수·파일명·대소문자·경로·Notebook 이름은 당일 스켈레톤 그대로 둔다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-30-2">복사</button></div><pre id="code-30-2" tabindex="0" aria-label="30강 PYTHON 예시 2"><code class="language-python">pred = validate_prediction(pred, (len(test), OUT_DIM))
 path = "Submission_problem.npy"
@@ -226,7 +241,10 @@ if loaded.dtype != pred.dtype or not np.array_equal(loaded, pred):
 print(path, loaded.shape, loaded.dtype)
 </code></pre></div>
 <p><code>(N,)</code>이 요구되는데 <code>(N,1)</code>로 저장하거나 그 반대는 채점 실패가 될 수 있다. 공식 지시의 배열 크기를 그대로 따른다.</p>
+<p>validate_prediction은 저장 직전 조건을 확인한다. np.save(...,allow_pickle=False)는 객체 직렬화에 의존하지 않는 수치 배열 저장, np.load의 같은 옵션은 이를 다시 읽는 작업이다. reloaded의 shape·dtype·array_equal을 각각 검사하면 값이 같아 보여도 저장형이 달라졌는지까지 구분한다.</p>
+<p>NPY 파일 확장자·경로가 기대한 것인지도 확인한다. np.save가 문자열 경로의 확장자를 처리하는 동작 때문에 자신이 다시 읽는 경로와 실제 파일을 일치시켜야 한다. 이 왕복은 파일 검사이며 시험 시스템의 제출 버튼을 누른 상태와는 별개다.</p>
 <h3 id="305-csv">30.5 CSV</h3>
+<p>CSV는 배열뿐 아니라 열 이름·행 수·문자 해석 규칙을 함께 가진다. 샘플 제출의 ID 열을 보존한 복사본에 요구 예측열만 넣으면 행 대응을 유지하기 쉽다. 단, 샘플 제출과 테스트 행의 순서가 같은지도 먼저 확인한다.</p>
 <p>제출 예시 파일(sample submission)이 있으면 복사한 뒤 정답 열만 채운다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-30-3">복사</button></div><pre id="code-30-3" tabindex="0" aria-label="30강 PYTHON 예시 3"><code class="language-python">submission = sample_submission.copy()
 if not submission.columns.is_unique:
@@ -260,7 +278,10 @@ numeric_after = loaded[PRED_COLS].select_dtypes(include=["number"])
 if numeric_after.shape[1] and not np.isfinite(numeric_after.to_numpy()).all():
     raise IOError("CSV reload target Inf")
 </code></pre></div>
+<p>열 중복과 예측열 존재 검사는 잘못된 열에 넣는 일을 막는다. 단일 출력에서는 [N] 또는[N,1]을 허용하는 이 예제 조건 안에서 reshape 하고, 다중 출력은 정확한[N,D]만 받는다. .loc로 지정 열만 대입하고 to_csv(index=False)로 임의의 행 인덱스 열이 추가되는 것을 막는다.</p>
+<p>read_csv 후 열 목록·순서·행 수·결측·수치 유한성을 다시 확인한다. 빈 문자열 라벨은 기본 읽기에서 NaN으로 해석될 수 있다. CSV는 숫자 텍스트의 왕복이라 NPY처럼 항상 비트 단위로 동일하다고 가정하지 않으며 명세에 맞는 값·허용 정밀도를 확인한다. 결측을 무조건 0으로 바꾸면 빈 라벨 문제를 숨길 뿐 해결하지 못한다.</p>
 <h3 id="306">30.6 오류 진단 순서</h3>
+<p>오류 메시지를 긴 프로그램 전체의 실패로 읽기보다 처음 달라진 조건을 찾는 단서로 읽는다. 예를 들어 Linear가 20개 입력을 기대하는데 18개가 들어오면 optimizer를 바꾸어도 행렬곱 오류는 그대로다.</p>
 <p><code>mat1 and mat2 shapes cannot be multiplied</code>:</p>
 <ol>
 <li>모델에 넣기 직전 입력의 배열 크기</li>
@@ -287,7 +308,10 @@ if numeric_after.shape[1] and not np.isfinite(numeric_after.to_numpy()).all():
 <ul>
 <li>분할별 클래스를 확인하고 계층화 분할이나 그룹 분할의 난수 시드를 검토한다. 평가지표를 임의로 바꾸지 않는다.</li>
 </ul>
+<p>matmul은 Linear 직전 마지막 축과 in_features를 비교한다. target Long 오류는 클래스 인덱스 CE의 정답 dtype, BCE size 오류는 예측·정답 shape를 본다. loss NaN은 입력→출력→손실→기울기 중 처음 유한하지 않게 된 곳을 찾아야 한다. 입력 자체의 Inf에 학습률만 낮추는 처방은 맞지 않는다.</p>
+<p>OOM은 큰 윈도 복사본·배치·가중치·남은 그래프 참조를 줄이는 문제다. AUC 한 클래스 오류는 두 집단 순위를 비교할 자료가 없다는 뜻이므로 폴드 구성·그룹을 점검한다. 편한 숫자가 필요하다고 다른 지표를 AUC 대신 보고하거나 테스트 정답으로 분할을 고치지 않는다.</p>
 <h3 id="307">30.7 시간 부족 축소 순서</h3>
+<p>남은 시간이 10 분이고 새로운 후보 한 번이 12 분이면 기대 점수가 좋아도 완료할 수 없다. 시간 절약은 계산 상한을 넘기기 전에 실행할 수 있는 단계만 남기는 선택이다.</p>
 <ol>
 <li>탐색 중지</li>
 <li>최적 체크포인트와 첫 제출 파일 보존</li>
@@ -298,7 +322,10 @@ if numeric_after.shape[1] and not np.isfinite(numeric_after.to_numpy()).all():
 <li>증강이나 복잡한 특성 처리 제거</li>
 <li>제출 검증 시간 7분은 지킨다</li>
 </ol>
+<p>새 탐색 중지→검증 최고 상태 보존→필요한 최종 예측·재읽기로 이어 간다. 에포크·후보 수·CV 횟수·복잡한 증강을 줄이면 반복 계산이 감소한다. 배치 크기 감소는 메모리를 줄이지만 같은 샘플 수를 더 많은 배치로 나누어 실행 시간이 늘 수도 있다. 이 목록에서 batch 축소는 OOM 대응 효과와 속도 효과를 구별해 적용한다.</p>
+<p>마지막 7 분은 교재의 연습 목표다. 파일을 만들 시간뿐 아니라 잘못된 shape나 역변환을 발견했을 때 다시 예측할 최소 여유도 필요하므로 자신의 실제 저장·검사 시간을 기록한다.</p>
 <h3 id="308-30">30.8 최종 30초 체크</h3>
+<p>완료 체크는 ‘했을 것 같다’가 아니라 확인한 증거를 찾는 행동이다. 파일 존재·재읽기 성공·노트북 저장 표시·두 영역 제출 상태를 별도로 확인한다. 마지막 30 초 목록은 앞선 검사를 처음 시작하는 시간이 아니라 이미 완료한 결과를 재확인하는 순서다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="30-1"><span>Process 제출 버튼</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="30-2"><span>Problem 제출 버튼</span></label></li>
@@ -309,6 +336,7 @@ if numeric_after.shape[1] and not np.isfinite(numeric_after.to_numpy()).all():
 <li class="check-item"><label><input type="checkbox" data-check-id="30-7"><span>Ctrl+S</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="30-8"><span>오류·자동 저장·커널 문제는 감독관에게 즉시 알림</span></label></li>
 </ul>
+<p>두 샘플 ID가[B,A]라면 예측 첫 행도 B 인지 확인한다. 분류 확률 열 2가 어떤 클래스인지, 회귀 예측이 원래 단위인지, float32 변환 뒤 유한한지 각각 근거를 남긴다. 문제 발생 시 종료 뒤 임의 수정하지 말고 당일 공식 안내·감독관 절차를 따른다.</p>
 <h3 id="309">30.9 실습문제</h3>
 <ol>
 <li id="question-O30-01" data-question-id="O30-01">예측값 <code>(200,2)</code>를 단일 정답 열을 가진 CSV 400행에 펼쳐서 넣으면 왜 위험한가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-30-1">배열 크기·자료형·대응 관계를 각각 검사하기</a></p></details></li>
@@ -318,19 +346,51 @@ if numeric_after.shape[1] and not np.isfinite(numeric_after.to_numpy()).all():
 <li id="question-O30-05" data-question-id="O30-05">커널을 재시작하기 전에 해야 할 일은 무엇인가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-30-5">파일·노트북·제출은 별개의 상태다</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_31"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li>우연히 원소 수가 같더라도 샘플과 정답의 대응 구조가 깨진 잘못된 제출이다. 먼저 허용되는 배열 크기를 명확히 정한다.</li>
-<li>매우 큰 float64 값은 float32로 변환할 때 오버플로가 발생해 Inf가 될 수 있다.</li>
-<li>pandas가 NaN으로 읽을 수 있으므로 모든 정답 열의 결측 여부를 검사한다.</li>
-<li>제출 형식이 잘못되면 모델 성능과 무관하게 채점이 불가능하거나 크게 감점될 수 있다.</li>
-<li>Ctrl+S로 코드 저장하고 공식 절차·감독관 안내를 따른다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 샘플 200개에서 각각 값 2개를 출력하는 경우와 샘플 400개에서 각각 값 1개를 출력하는 경우는 축의 의미가 다르다.</p>
+<p><strong>풀이:</strong> 행 0의[a,b]를 펼치면 새 행 0에는 a, 새 행 1에는 b가 들어가 같은 샘플의 둘째 출력이 다른 샘플의 정답과 비교된다. 원소가 400개라는 총수만 일치한다.</p>
+<p><strong>정답:</strong> 우연히 원소 수가 같더라도 샘플과 정답의 대응 구조가 깨진 잘못된 제출이다. 먼저 허용되는 배열 크기를 명확히 정한다.</p>
+<p><strong>왜?</strong> 채점 대응은 원소 개수가 아니라 샘플 행·정답 열의 의미로 정해지기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> reshape나 flatten은 틀린 출력 목적을 고쳐 주지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 같은 원소 수여도 같은 예측 배열은 아니다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 표현 범위가 넓은 float64에서 float32로 바꾸는 상황을 포함한다.</p>
+<p><strong>풀이:</strong> 10^40은 float64에서 유한하지만 float32의 범위를 넘어 Inf가 될 수 있다. 변환 전 검사로 입력 문제를, 변환 후 검사로 새 overflow를 찾는다.</p>
+<p><strong>정답:</strong> 매우 큰 float64 값은 float32로 변환할 때 오버플로가 발생해 Inf가 될 수 있다.</p>
+<p><strong>왜?</strong> 자료형 변환은 숫자의 표현 범위를 바꾸기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 변환 전 finite 통과가 변환 후 값을 보장하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 숫자형 변환 전후에 finite를 각각 본다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> CSV는 텍스트를 읽는 규칙으로 라벨 값을 복구한다.</p>
+<p><strong>풀이:</strong> pandas 기본 read_csv는 빈 필드를 결측으로 해석할 수 있으므로 빈 문자열 라벨이 NaN이 될 수 있다. 재읽은 정답 열에 isna 검사를 한다.</p>
+<p><strong>정답:</strong> pandas가 NaN으로 읽을 수 있으므로 모든 정답 열의 결측 여부를 검사한다.</p>
+<p><strong>왜?</strong> 텍스트 저장과 읽기의 결측 표현 약속이 개입하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 문자열 라벨이므로 isfinite를 직접 적용하면 된다고 생각하지 않는다. 빈 라벨 허용 정책은 명세대로 정한다.</p>
+<p><strong>한 줄 기억:</strong> CSV 라벨도 재읽은 뒤 결측 여부를 본다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 검증 성능과 제출 파일 유효성은 다른 완료 조건이다.</p>
+<p><strong>풀이:</strong> 마지막 검사에서 잘못된 shape·dtype·NaN·행 순서·역변환·파일명을 찾고 고친다. 형식이 잘못되면 예측 성능을 제대로 평가할 수 없으므로 작은 점수 개선보다 완료 가능성이 우선이다.</p>
+<p><strong>정답:</strong> 제출 형식이 잘못되면 모델 성능과 무관하게 채점이 불가능하거나 크게 감점될 수 있다.</p>
+<p><strong>왜?</strong> 평가 시스템이 요구한 결과를 읽고 대상에 맞춰야 점수도 계산할 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 7 분 자체가 공식 배점·합격 조건이라는 뜻은 아니다. 교재의 운영 목표다.</p>
+<p><strong>한 줄 기억:</strong> 마지막에는 새 성능보다 유효한 제출을 확정한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 커널은 실행 메모리의 변수·모델을 가지고 있다.</p>
+<p><strong>풀이:</strong> 코드와 노트북을 Ctrl+S로 저장하고 검증한 예측·필요 가중치를 정해진 파일로 보존한다. 오류 원인·재실행 순서를 기록하고 당일 공식 규정과 감독관 절차를 따른다.</p>
+<p><strong>정답:</strong> Ctrl+S로 코드 저장하고 공식 절차·감독관 안내를 따른다.</p>
+<p><strong>왜?</strong> 재시작하면 저장하지 않은 상태가 사라지고 화면 코드만으로 최고 모델이 남는 것은 아니기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 재시작으로 모든 오류가 해결되거나 파일 저장까지 자동되는 것은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 재시작 전 문서·유효 결과·공식 절차를 확인한다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="3010">30.10 완료 기준</h3>
+<p>아래 항목은 읽은 기억이 아니라 해설을 가린 실제 수행으로 확인한다. 작은 입력의 예상값·배열 크기·유한성·원본 보존을 먼저 적고 실행 결과와 비교한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="30-9"><span>NPY/CSV를 저장한 뒤 다시 읽어 검사한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="30-10"><span>여섯 오류 유형을 2분 안에 진단한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="30-11"><span>마지막 7분을 반드시 확보한다.</span></label></li>
 </ul>
+<p>막힌 항목은 해당 절의 작은 예로 돌아가 숫자나 크기를 바꾸어 다시 계산한다. 지표까지 만들었다면 마지막에는 요구한 순서·단위의 파일을 저장하고 다시 읽어 확인한다. 이 완료 목표는 자체 연습 기준이며 공식 합격 판정을 뜻하지 않는다.</p>
 
 
 34:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$39"}}]

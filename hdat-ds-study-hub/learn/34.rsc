@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/34","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/34":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/34":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","34"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/34","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/34"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/34"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/34","_N_T_/layout","_N_T_/learn/34","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/34"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/34","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/34":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/34":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","34"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/34","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/34"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/34"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/34","_N_T_/layout","_N_T_/learn/34","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/34"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -41,7 +41,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 24:["$","li","34",{"data-current":true,"children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/34/","children":["34",". ","21일 학습 계획·최종 암기표·준비 상태 점검"]}]}]
 25:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-34-1",{"children":[["$","a",null,{"href":"#visual-34-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-34-1",{"children":["$","a",null,{"href":"#topic-34-1","children":"진도와 수행 능력의 차이"}]}],["$","li","topic-34-2",{"children":["$","a",null,{"href":"#topic-34-2","children":"마지막 날에도 ‘왜 틀렸는가’에서 시작하기"}]}]]}]]}]]}],["$","li","visual-34-2",{"children":[["$","a",null,{"href":"#visual-34-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-34-3",{"children":["$","a",null,{"href":"#topic-34-3","children":"‘혼자 했다’를 확인할 작은 증거 정하기"}]}],["$","li","topic-34-4",{"children":["$","a",null,{"href":"#topic-34-4","children":"회상·재현·전이"}]}]]}]]}]]}],["$","li","visual-34-3",{"children":[["$","a",null,{"href":"#visual-34-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-34-4",{"children":[["$","a",null,{"href":"#visual-34-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-34-5",{"children":["$","a",null,{"href":"#topic-34-5","children":"시간·출력·오류율 계산"}]}],["$","li","topic-34-6",{"children":["$","a",null,{"href":"#topic-34-6","children":"계획과 계산을 검산 가능한 단위로 바꾸기"}]}]]}]]}]]}],["$","li","visual-34-5",{"children":[["$","a",null,{"href":"#visual-34-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",4,"개"]}],["$","ul",null,{"children":[["$","li","topic-34-7",{"children":["$","a",null,{"href":"#topic-34-7","children":"하나의 기초가 어디에 다시 나타나는지 연결하기"}]}],["$","li","topic-34-8",{"children":["$","a",null,{"href":"#topic-34-8","children":"준비 상태를 구분하는 증거"}]}],["$","li","topic-34-9",{"children":["$","a",null,{"href":"#topic-34-9","children":"21일 계획을 산출물로"}]}],["$","li","topic-34-10",{"children":["$","a",null,{"href":"#topic-34-10","children":"암기표 옆에 한 문장의 이유와 작은 반례 남기기"}]}]]}]]}]]}],["$","li","visual-34-6",{"children":[["$","a",null,{"href":"#visual-34-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-34-11",{"children":["$","a",null,{"href":"#topic-34-11","children":"복습 목표의 해석"}]}],["$","li","topic-34-12",{"children":["$","a",null,{"href":"#topic-34-12","children":"다음 공부를 ‘새 모델 추가’로 자동 결정하지 않기"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-34","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-34-1",{"children":["$","a",null,{"href":"#theory-34-1","children":"자기설명 12문항은 암기한 용어보다 원인과 반례를 묻는다"}]}],["$","li","theory-34-2",{"children":["$","a",null,{"href":"#theory-34-2","children":"출력 조건·지표·제출을 한 예제로 연결하기"}]}],["$","li","theory-34-3",{"children":["$","a",null,{"href":"#theory-34-3","children":"CNN 공식과 학습·평가 모드를 말로 유도하기"}]}],["$","li","theory-34-4",{"children":["$","a",null,{"href":"#theory-34-4","children":"RNN·어텐션·생성 모델의 비교 기준을 고정하기"}]}],["$","li","theory-34-5",{"children":["$","a",null,{"href":"#theory-34-5","children":"읽기·재현·변형·완료를 서로 다른 기록으로 남기기"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","341",{"children":["$","a",null,{"href":"#341","children":"하루 고정 루틴"}]}],["$","li","342-21",{"children":["$","a",null,{"href":"#342-21","children":"21일 순서"}]}],["$","li","343",{"children":["$","a",null,{"href":"#343","children":"활성함수 암기표"}]}],["$","li","344-loss",{"children":["$","a",null,{"href":"#344-loss","children":"출력·loss 암기표"}]}],["$","li","345-optimizer",{"children":["$","a",null,{"href":"#345-optimizer","children":"optimizer 암기표"}]}],["$","li","346",{"children":["$","a",null,{"href":"#346","children":"모델 비교 암기표"}]}],["$","li","347-split",{"children":["$","a",null,{"href":"#347-split","children":"split 암기표"}]}],["$","li","348-cnnrnnattention",{"children":["$","a",null,{"href":"#348-cnnrnnattention","children":"CNN/RNN/Attention 공식"}]}],["$","li","349-8",{"children":["$","a",null,{"href":"#349-8","children":"실기 시작 8줄"}]}],["$","li","3410",{"children":["$","a",null,{"href":"#3410","children":"합격 준비 상태 체크"}]}],["$","li","3411",{"children":["$","a",null,{"href":"#3411","children":"최종 자기설명 시험"}]}],["$","li","3412",{"children":["$","a",null,{"href":"#3412","children":"자료 연결"}]}],["$","li","3413",{"children":["$","a",null,{"href":"#3413","children":"공식 범위 대조표"}]}],"$L30"]}],"$L31","$L32"]]}]
 26:["$","$L33",null,{}]
-27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 34:T5682,<h3 id="visual-34-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-34-1">진도와 수행 능력의 차이</h4>
 <p>21일 동안 강의 제목에 모두 체크했는데 빈 화면에서 CNN의 출력 크기를 계산하거나 예측 파일을 만들지 못할 수 있다. 반대로 끝낸 강의 수가 적어도 자신이 자주 틀리는 배열 크기·검증·저장 문제를 스스로 고치는 능력은 크게 늘 수 있다. 마지막 강의는 계획표의 진도와 실제로 혼자 해낼 수 있는 능력을 구분해 다음에 무엇을 공부할지 정하는 시간이다.</p>
@@ -157,30 +157,40 @@ for i in order:
 30:["$","li","3414",{"children":["$","a",null,{"href":"#3414","children":"출처와 사용 주의"}]}]
 31:["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}]
 32:["$","ol",null,{"children":[["$","li","visual-34-7",{"children":["$","a",null,{"href":"#visual-34-7","children":"스스로 확인하기"}]}],["$","li","visual-34-8",{"children":["$","a",null,{"href":"#visual-34-8","children":"정답과 이유"}]}],["$","li","visual-34-9",{"children":["$","a",null,{"href":"#visual-34-9","children":"더 읽을 공식 자료"}]}]]}]
-3c:T2a78,<h3 id="theory-34-1">1. 자기설명 12문항은 암기한 용어보다 원인과 반례를 묻는다</h3>
+3c:T3572,<h3 id="theory-34-1">1. 자기설명 12문항은 암기한 용어보다 원인과 반례를 묻는다</h3>
+<p>“데이터 누수 때문에”라는 답만으로는 어떤 정보가 어디로 들어갔는지 알 수 없다. 학습 평균 4를 써야 하는데 검증값을 포함해 평균 7로 바뀌었다는 작은 사례를 들면 원인이 구체적이 된다. 마지막 점검에서는 <strong>이름 → 원인 → 작은 계산 → 틀린 적용의 반례</strong>까지 말해 보자. 21일이라는 기간이나 모의고사 목표 점수는 학습 계획의 예시일 뿐, 이해가 자동으로 완성되는 기한이나 공식 합격선이 아니다.</p>
 <p>마지막 자기설명은 한 문장을 외워 말하는 시험이 아니다. ‘정의→이유→작은 예→실패 조건’의 네 부분으로 답하면 이해 여부를 알 수 있다. 예를 들어 척도 변환기를 학습 폴드에만 적합하는 이유는 검증 데이터의 분포로 규칙을 학습하면 아직 보지 않은 자료에 대한 독립적인 평가가 아니게 되기 때문이다. 평균 하나만 미리 사용해도 입력 변환 기준이 달라진다. y를 직접 보지 않았다는 이유만으로 누수가 없다고 답하면 충분하지 않다.</p>
-<p>분할 방법을 선택할 때도 이름보다 평가 데이터에서 무엇이 새로운지를 묻는다. 독립적인 행은 무작위·층화 분할, 새 사람이나 차량은 그룹 분할, 같은 대상의 미래는 시간 분할을 기본 출발점으로 삼는다. 서로 겹치는 입력 구간에서는 정답이 언제 알려지는지까지 확인한다. 손계산 A: 예측 간격이 6이고 첫 검증 예측의 기준 시점이 50이면 정답 시점 49까지는 알려져 있지만, 입력 끝 시점이 49인 학습 샘플의 정답 시점 55는 아직 미래다. 입력에 과거 관측 47이 겹치는 것과 미래 정답 55를 학습하는 것은 다르다. 이를 구분해 설명해야 그룹, 시간, 입력 구간에 관한 질문을 함께 이해할 수 있다.</p>
+<p>분할 방법을 선택할 때도 이름보다 평가 데이터에서 무엇이 새로운지를 묻는다. 독립적인 행은 무작위·층화 분할, 새 사람이나 차량은 그룹 분할, 같은 대상의 미래는 시간 분할을 기본 출발점으로 삼는다. 서로 겹치는 입력 구간에서는 정답이 언제 알려지는지까지 확인한다. 손계산 A: 예측 간격이 6이고 첫 검증 예측의 기준 시점이 50이면 정답 시점 49까지는 알려져 있지만, 입력 끝 시점이 49인 학습 샘플의 정답 시점 55는 아직 미래다. 입력에 과거 관측 47이 겹치는 것과 미래 정답 55를 학습하는 것은 다르다.</p>
+<p>이를 구분해 설명해야 그룹, 시간, 입력 구간에 관한 질문을 함께 이해할 수 있다.</p>
 <p>21일은 학습 설계 예시이며 개인의 기초에 따라 더 오래 걸릴 수 있다. 16/20 같은 목표도 자체 진단이지 공식 합격선이 아니다. 이해 없이 진도 숫자를 맞추기보다 아래 원리를 독립적으로 계산한 기록을 남긴다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O34-01">34.11 최종 자기설명 시험 · 1번</a> · <a href="#question-O34-03">34.11 최종 자기설명 시험 · 3번</a> · <a href="#question-O34-11">34.11 최종 자기설명 시험 · 11번</a></p></details>
 <h3 id="theory-34-2">2. 출력 조건·지표·제출을 한 예제로 연결하기</h3>
-<p>회귀의 D개 출력은 크기가 [B,D]인 실수 배열이다. 이진분류는 변환 전 점수와 크기가 같은 0·1 실수형 정답을 사용한다. 단일정답 K개 클래스 분류는 크기가 [B,K]인 변환 전 점수와 크기가 [B]인 long 정답을, 다중라벨 분류는 크기가 [B,K]인 변환 전 점수와 같은 크기의 0·1 실수형 정답을 사용하는 것이 기본이다. BCEWithLogits와 CE는 내부의 확률 변환을 고려한 수치적으로 안정적인 손실함수이므로 모델 끝에 시그모이드나 소프트맥스를 임의로 중복 적용하지 않는다. 회귀 예측 [B,1]과 정답 [B]를 연산하면 브로드캐스팅으로 [B,B]가 되어 모든 샘플 쌍을 비교할 수 있다. [2,1]과 [2]에서 차이가 [[0,−1],[1,0]]이면 원래 완벽한 두 예측도 MSE 0.5로 왜곡된다.</p>
+<p>이진분류의 logit 0은 확률 0이 아니라 sigmoid를 거친 확률 0.5다. 이 값에 어떤 임계값을 적용하느냐에 따라 최종 라벨이 정해진다. <strong>학습 손실에 넣을 값, 지표를 계산할 값, 파일에 저장할 값</strong>이 서로 다를 수 있다는 점을 끝까지 연결하자. 아래 회귀의 shape 오류와 분류의 macro 평균 예는 앞 단계의 숫자가 맞아도 다음 단계에서 해석을 잘못하면 전체 결과가 틀어질 수 있음을 보여 준다.</p>
+<p>회귀의 D개 출력은 크기가 [B,D]인 실수 배열이다. 이진분류는 변환 전 점수와 크기가 같은 0·1 실수형 정답을 사용한다. 단일정답 K개 클래스 분류는 크기가 [B,K]인 변환 전 점수와 크기가 [B]인 long 정답을, 다중라벨 분류는 크기가 [B,K]인 변환 전 점수와 같은 크기의 0·1 실수형 정답을 사용하는 것이 기본이다. BCEWithLogits와 CE는 내부의 확률 변환을 고려한 수치적으로 안정적인 손실함수이므로 모델 끝에 시그모이드나 소프트맥스를 임의로 중복 적용하지 않는다.</p>
+<p>회귀 예측 [B,1]과 정답 [B]를 연산하면 브로드캐스팅으로 [B,B]가 되어 모든 샘플 쌍을 비교할 수 있다. [2,1]과 [2]에서 차이가 [[0,−1],[1,0]]이면 원래 완벽한 두 예측도 MSE 0.5로 왜곡된다.</p>
 <p>Macro-F1은 임계값으로 결정한 라벨을 사용해 클래스별 F1을 구하고 같은 가중치로 평균한다. ROC-AUC는 여러 임계값에 걸쳐 점수의 순위를 평가한다. 하나가 좋다고 다른 하나도 반드시 최고는 아니다. TP=9,FP=3,FN=6이면 P=.75,R=.6,F1=18/27=2/3이다. 음성 클래스의 F1도 따로 계산해야 Macro-F1이 되며 양성 F1 하나만을 매크로 평균이라고 부르지 않는다.</p>
 <p>제출 직전에는 배열 크기, 자료형, 유한값 여부, 행 순서, 출력 열의 의미, 원래 단위, 파일명, 다시 읽은 결과를 확인한다. 배열을 펼쳐 원소 수만 맞추지 않는다. 저장한 배열의 순서가 대상 ID와 맞는지, 원래 클래스 대응표로 라벨을 복원했는지도 본다. 모델 평가 완료와 파일 검증 완료, 노트북 저장과 실제 제출은 서로 다른 상태다. <a href="https://numpy.org/doc/stable/reference/generated/numpy.load.html" target="_blank" rel="noopener noreferrer">NumPy load 문서</a>의 다시 읽기는 이 확인 중 파일 단계만 돕는다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 4개</summary><p><a href="#question-O34-02">34.11 최종 자기설명 시험 · 2번</a> · <a href="#question-O34-04">34.11 최종 자기설명 시험 · 4번</a> · <a href="#question-O34-05">34.11 최종 자기설명 시험 · 5번</a> · <a href="#question-O34-12">34.11 최종 자기설명 시험 · 12번</a></p></details>
 <h3 id="theory-34-3">3. CNN 공식과 학습·평가 모드를 말로 유도하기</h3>
+<p>출력 크기 공식을 잊었다면 커널을 처음 놓는 위치와 마지막으로 놓을 수 있는 위치부터 센다. 파라미터 공식을 잊었다면 필터 하나의 연결 수에 필터 수를 곱하고 편향 여부를 확인한다. <strong>공식을 재구성할 출발점을 알고 있는지</strong>가 암기와 이해를 가른다. 학습·평가 모드도 이름만 외우지 말고 현재 배치 통계인지 저장 통계인지, 무작위 제거가 켜졌는지, 미분 기록은 별도로 켰는지를 각각 설명한다.</p>
 <p>합성곱 출력 크기는 커널이 들어갈 수 있는 시작 위치의 개수다. 유효 커널 폭 K_eff=D(K−1)+1을 먼저 구하고 O=floor((I+2P−K_eff)/S)+1을 계산한다. 손계산 B: 입력 길이가 13이고 K가 3, P가 1, S가 2, D가 1이면 O=floor(12/2)+1=7이다. Ci=4,Co=6,G=2인 3×3 Conv의 편향 포함 파라미터 수는 6×2×9+6=114다. 출력 위치가 많아져도 커널을 공유하므로 파라미터 수는 입력 H/W와 관계없다. 풀링은 공간 크기를 바꾸지만 학습 파라미터는 없다.</p>
-<p>BN은 학습 모드에서 배치 통계를 사용하고 누적 통계를 갱신한다. track_running_stats=True인 평가 모드에서는 저장한 누적 통계로 정규화한다. γ와 β는 채널마다 학습하므로 총 2C개다. Dropout은 학습 모드에서 값을 무작위로 제거하고 크기를 보정하며, 일반적인 평가 모드에서는 입력을 그대로 통과시킨다. model.eval()이 자동으로 autograd를 끄지는 않으므로 inference_mode와 함께 사용하는 이유를 설명한다. 백본 동결도 파라미터 갱신을 막는 설정이며 BN 상태는 따로 관리해야 할 수 있다. <a href="https://docs.pytorch.org/docs/2.7/generated/torch.nn.BatchNorm1d.html" target="_blank" rel="noopener noreferrer">PyTorch BatchNorm</a>의 설정 조건을 함께 밝혀 답한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O34-06">34.11 최종 자기설명 시험 · 6번</a> · <a href="#question-O34-07">34.11 최종 자기설명 시험 · 7번</a></p></details>
+<p>BN은 학습 모드에서 배치 통계를 사용하고 누적 통계를 갱신한다. track_running_stats=True인 평가 모드에서는 저장한 누적 통계로 정규화한다. γ와 β는 채널마다 학습하므로 총 2C개다. Dropout은 학습 모드에서 값을 무작위로 제거하고 크기를 보정하며, 일반적인 평가 모드에서는 입력을 그대로 통과시킨다. model.eval()이 자동으로 autograd를 끄지는 않으므로 inference_mode와 함께 사용하는 이유를 설명한다. 백본 동결도 파라미터 갱신을 막는 설정이며 BN 상태는 따로 관리해야 할 수 있다.</p>
+<p><a href="https://docs.pytorch.org/docs/2.7/generated/torch.nn.BatchNorm1d.html" target="_blank" rel="noopener noreferrer">PyTorch BatchNorm</a>의 설정 조건을 함께 밝혀 답한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O34-06">34.11 최종 자기설명 시험 · 6번</a> · <a href="#question-O34-07">34.11 최종 자기설명 시험 · 7번</a></p></details>
 <h3 id="theory-34-4">4. RNN·어텐션·생성 모델의 비교 기준을 고정하기</h3>
-<p>LSTM의 셀 상태는 c_t=f_t⊙c_prev+i_t⊙g_t이고 은닉 상태는 o_t⊙tanh(c_t)다. 망각·입력·출력 게이트가 각각 과거 셀 상태, 새 후보값, 외부 출력을 조절한다는 순서로 설명한다. GRU는 별도의 셀 상태 없이 갱신 게이트와 초기화 게이트로 은닉 상태를 갱신한다. 두 모델 중 하나가 모든 데이터에서 반드시 더 낫다는 보장은 없다. batch_first를 사용한 시점별 출력과 은닉 상태의 축 순서가 다르다는 점도 32강의 2층 예로 다시 확인한다.</p>
+<p>서로 다른 모델을 비교할 때는 모두에게 같은 질문을 던지자. 무엇을 입력받고, 어떤 중간 상태를 만들고, 무엇을 출력하며, 어떤 손실로 배우는가? RNN의 상태, 어텐션의 가중치, VAE의 잠재분포는 모두 숫자이지만 같은 역할이 아니다. 아래에서는 <strong>게이트가 조절하는 값과 어텐션이 합치는 값</strong>, 생성 모델의 학습 목표를 구분한다. 이름만 말할 수 있다면 작은 입력 하나에서 결과를 계산하는 단계로 돌아가자.</p>
+<p>LSTM의 셀 상태는 c_t=f_t⊙c_prev+i_t⊙g_t이고 은닉 상태는 o_t⊙tanh(c_t)다. 망각·입력·출력 게이트가 각각 과거 셀 상태, 새 후보값, 외부 출력을 조절한다는 순서로 설명한다. GRU는 별도의 셀 상태 없이 갱신 게이트와 리셋 게이트로 은닉 상태를 갱신한다. 두 모델 중 하나가 모든 데이터에서 반드시 더 낫다는 보장은 없다. batch_first를 사용한 시점별 출력과 은닉 상태의 축 순서가 다르다는 점도 32강의 2층 예로 다시 확인한다.</p>
 <p>어텐션은 쿼리와 키의 내적으로 관련도 점수를 구하고, 키 축에 소프트맥스를 적용해 얻은 가중치로 값 벡터들을 합한다. √d_k로 나누는 연산은 차원에 따라 커지는 점수 크기를 조절하고, 위치 정보는 순서를 알려 주며, 마스크는 참조하면 안 되는 위치를 차단한다. 세 장치는 서로 대체하지 않는다. score[0,log2],value[3,12]이면 weight[1/3,2/3]이고 가중합은 9다. ‘중요한 곳에 집중한다’는 한 문장만 말할 수 있고 이 계산을 하지 못한다면 이론 복습이 더 필요하다.</p>
-<p>AE는 입력 복원, VAE는 확률적 잠재분포와 복원에 대한 음의 로그우도·KL, GAN은 생성기와 판별기의 경쟁적 교대 학습이라는 목적을 기준으로 비교한다. VAE의 logvar는 표준편차가 아니며 std=exp(logvar/2)다. KL이 0이라는 것은 사전분포와 같다는 뜻이지 샘플 값이 0이라는 뜻은 아니다. GAN의 D 학습 단계에서 detach는 G로 이어지는 그래프만 끊는다. G 학습 단계에서는 D를 통과한 미분이 필요하다. AE 오차가 클수록 이상으로 보는 것은 정상 분포를 잘 복원한다는 가정에 기반하며, 완벽한 탐지를 보장하지는 않는다. 같은 생성 모델이라는 이름보다 이런 차이가 필기 선택지를 판단하는 기준이 된다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O34-08">34.11 최종 자기설명 시험 · 8번</a> · <a href="#question-O34-09">34.11 최종 자기설명 시험 · 9번</a> · <a href="#question-O34-10">34.11 최종 자기설명 시험 · 10번</a></p></details>
+<p>AE는 입력 복원, VAE는 확률적 잠재분포와 복원에 대한 음의 로그우도·KL, GAN은 생성기와 판별기의 경쟁적 교대 학습이라는 목적을 기준으로 비교한다. VAE의 logvar는 표준편차가 아니며 std=exp(logvar/2)다. KL이 0이라는 것은 사전분포와 같다는 뜻이지 샘플 값이 0이라는 뜻은 아니다. GAN의 D 학습 단계에서 detach는 G로 이어지는 그래프만 끊는다. G 학습 단계에서는 D를 통과한 미분이 필요하다. AE 오차가 클수록 이상으로 보는 것은 정상 분포를 잘 복원한다는 가정에 기반하며, 완벽한 탐지를 보장하지는 않는다.</p>
+<p>같은 생성 모델이라는 이름보다 이런 차이가 필기 선택지를 판단하는 기준이 된다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O34-08">34.11 최종 자기설명 시험 · 8번</a> · <a href="#question-O34-09">34.11 최종 자기설명 시험 · 9번</a> · <a href="#question-O34-10">34.11 최종 자기설명 시험 · 10번</a></p></details>
 <h3 id="theory-34-5">5. 읽기·재현·변형·완료를 서로 다른 기록으로 남기기</h3>
+<p>해설을 보며 따라 한 상태와 빈 화면에서 다시 만든 상태를 같은 완료로 표시하지 말자. 첫 번째는 이해의 출발점이고 두 번째는 기억과 적용을 확인하는 단계다. 거기에 B=1, 새로운 범주, 다른 예측 간격 같은 조건을 바꾸어 통과하면 <strong>변형된 문제에도 적용할 수 있는지</strong> 점검할 수 있다. 아래의 오답 기록은 많이 틀린 분야만 찾는 것이 아니라 반복되는 원인이 수식·축·단위·제출 중 어디에 있는지 찾기 위한 것이다.</p>
 <p>MLP 코드를 따라 입력했다면 다음에는 코드를 가리고 문제 유형(TASK), 배열 크기, 손실함수부터 새로 적는다. B=1·2로 테스트하고 특성 수와 클래스 수를 바꿔 연결해 본다. 배열 크기 문제의 오류가 2/4이고 평가지표 문제의 오류가 2/10이면 개수는 같아도 오류율은 50%·20%다. 다만 네 문제와 열 문제는 작은 표본이고 난이도도 다르므로 오류율만으로 절대적인 우선순위를 정하지 않는다. 어떤 공통 원인이 여러 문제를 설명하는지 살펴보고 최소 반례를 만든다.</p>
 <p>식을 몰라서 문제를 풀지 못했다면 이론으로, 식은 알지만 축을 틀렸다면 작은 배열 크기 예제로, 파일을 만들지 못했다면 저장하고 다시 읽는 단계로 돌아간다. 평가지표까지만 계산한 모의고사는 ‘평가 완료·제출 검증 미완료’로 기록한다. 다음날 새 모델을 추가하기보다 남은 단계를 먼저 끝낸다. 정답을 본 뒤 이해한 듯한 느낌과 빈 화면에서 독립적으로 푼 결과를 서로 다른 완료 상태로 기록해야 실제 약점에 맞춰 공부 순서를 정할 수 있다.</p>
 <p>각 필기 오답에는 조건·사용한 정의·계산·틀린 선지의 수정 이유를 기록한다. 답안 번호만 적지 않는다. 34강은 설명·손계산·구현·시간 제한 수행을 연결하는 점검 단계다. 아직 설명하지 못하는 내용이 있으면 관련 강의로 돌아가 복습한다. <a href="https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html" target="_blank" rel="noopener noreferrer">PyTorch 학습 루프</a>도 마지막에는 복사 없이 각 줄의 역할을 설명해 본다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-V34-01">기초 확인 · 1번</a> · <a href="#question-V34-02">기초 확인 · 2번</a> · <a href="#question-V34-03">기초 확인 · 3번</a></p></details>
 35:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-34","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-34","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3c"}}]]}]
 36:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 37:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-3d:T4df2,
+3d:Ta765,
 <h3 id="341">34.1 하루 고정 루틴</h3>
+<p>책을 읽을 때 이해되는 느낌과 빈 화면에서 재현하는 능력은 다르다. 전날 답을 가리고 다시 계산한 결과가 오늘 복습의 출발점이다. 하루 시간은 개인 기초에 맞추되 읽기·손계산·구현·검증을 서로 다른 기록으로 남긴다.</p>
 <p>하루 3~5시간 기준:</p>
 <ol>
 <li>20분: 전날 오답을 책 없이 다시 풀기</li>
@@ -191,7 +201,9 @@ for i in order:
 <li>5분: 오픈북에는 필요한 최소 블록만 표시</li>
 </ol>
 <p>읽는 시간보다 <strong>빈 화면에서 재현하는 시간</strong>이 길어야 한다.</p>
+<p>원문의 3부터 5시간은 계획 범위다. 최소 시간은 20+60+60+30+15+5=190분, 최대를 모두 쓰면 350분으로 5시간 50분이라 매일 모든 최대치를 동시에 실행하는 고정 시간표는 아니다. 시간이 부족하면 오늘의 핵심 과제 하나를 끝까지 수행하고 어려운 개념은 다음날 보강한다. 코드를 입력한 뒤 입력 숫자·차원·NaN 조건을 바꾸는 변형 테스트가 재현 여부를 보여 준다.</p>
 <h3 id="342-21">34.2 21일 순서</h3>
+<p>21일 표의 산출물은 진도 확인 도장보다 ‘무엇을 혼자 할 수 있게 되었나’의 증거다. 예를 들어 손계산지는 공식 복사본이 아니라 새로운 숫자의 계산이고 제출은 파일을 다시 읽어 통과한 결과다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="34강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
 <thead>
 <tr>
@@ -307,7 +319,9 @@ for i in order:
 </tr>
 </tbody></table></div>
 <p>시간이 부족해도 13강 검증, 14강 평가지표, 21강 윈도, 26강 Process, 30강 제출은 생략하지 않는다. Transformer/VAE/GAN은 구현 반복 횟수를 줄이되 개념은 범위에서 빼지 않는다.</p>
+<p>1일차 배열 축이 불안정하면 CNN에서 같은 오류가 커지고, 검증을 건너뛰면 이후 모든 모델 비교가 흔들린다. 그래서 13강·14강·21강·26강·30강은 짧게 공부하더라도 핵심 실습을 생략하지 않는다. 21일은 보장 기간이 아니며 먼저 막힌 선수 내용을 보완해야 한다. Transformer·VAE·GAN의 구현 반복을 줄여도 목적·기호·손실·입력 조건을 말로 설명하는 목표는 남긴다.</p>
 <h3 id="343">34.3 활성함수 암기표</h3>
+<p>활성함수는 가중합을 어떤 값으로 바꿀지 정한다. 입력−2·0·2에 대해 음수도 남기는지,0을 어디로 보내는지, 큰 값에서 변화가 작아지는지를 비교하며 표를 읽는다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="34강 표 2, 좌우로 스크롤할 수 있습니다"><table data-table="2">
 <thead>
 <tr>
@@ -354,7 +368,10 @@ for i in order:
 <td>상호 배타적인 다중분류</td>
 </tr>
 </tbody></table></div>
+<p>sigmoid는 0을 0.5로, tanh는 0을 0으로, ReLU는 음수를 0으로 보낸다. 포화는 입력이 더 커져도 출력이 상한·하한 근처에서 거의 변하지 않아 미분이 작아지는 현상이다. LeakyReLU는 음수에 작은 양의 기울기를 남기고 GELU의 Φ는 표준정규 누적분포함수라 xΦ(x)로 부드럽게 값을 조절한다.</p>
+<p>표의 ‘0 중심’은 출력 평균이 모든 데이터에서 정확히 0이라는 보장이 아니다. LeakyReLU·GELU는 tanh처럼 홀함수가 아니며 ‘대체로’라는 표현은 음수 출력도 가능하다는 정성적 메모로 읽는다. softmax의 각 확률은 유한 logits·둘 이상 클래스의 수학적 경우 0과 1 사이이고 합 1이다. 클래스가 하나면 정확히 1이며 컴퓨터 극단값에서는 0·1처럼 반올림될 수 있다.</p>
 <h3 id="344-loss">34.4 출력·loss 암기표</h3>
+<p>출력 열 수를 고르기 전 그 열이 물리량인지 서로 배타적인 종류인지 동시에 참일 수 있는 항목인지 정한다. 한 샘플에 두 고장 유형이 함께 있으면 다중라벨이고 하나만 고르면 다중분류다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="34강 표 3, 좌우로 스크롤할 수 있습니다"><table data-table="3">
 <thead>
 <tr>
@@ -394,7 +411,9 @@ for i in order:
 <td>라벨별 시그모이드</td>
 </tr>
 </tbody></table></div>
+<p>B는 배치, D는 연속 출력 수, K는 클래스·라벨 수다. CE는 클래스 인덱스 방식의 long[B], BCEWithLogits는 logits와 같은 크기의 실수 0·1을 기본으로 쓴다. WithLogits/CE 앞에서 확률 변환을 중복하지 않는다. 변환 열은 학습 손실의 입력과 최종 예측 해석을 구분한 안내다. CE의 argmax는 logits에서도 같은 순위라 가능하지만 확률 자체가 필요하면 softmax를 계산한다. 회귀는 출력 단위·역변환을 확인한다.</p>
 <h3 id="345-optimizer">34.5 optimizer 암기표</h3>
+<p>가중치 w를 줄여야 하는 기울기가 연속해서 1,1,1이라면 현재값만 보는 SGD와 과거 방향을 모으는 Momentum은 다음 이동량이 다르다. optimizer 표는 기억하는 상태가 어떤 문제를 완화하는지 읽는 표다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="34강 표 4, 좌우로 스크롤할 수 있습니다"><table data-table="4">
 <thead>
 <tr>
@@ -429,7 +448,10 @@ for i in order:
 <td>실기의 안정적인 기본 선택</td>
 </tr>
 </tbody></table></div>
+<p>기울기 g는 손실이 늘어나는 방향이므로 기본 갱신은 w←w−ηg다. v←βv+g라는 Momentum 정의에서 β=0.9, v 처음 0이면 v는 1,1.9,2.71로 같은 방향을 누적한다. RMSprop은 제곱 기울기 평균으로 좌표별 크기를 조절한다. Adam은 방향과 제곱 크기의 두 평균, 처음 0에서 출발한 편향 보정을 쓴다.</p>
+<p>AdamW는 가중치 감쇠를 Adam의 적응적 기울기 변환과 분리한다. optimizer를 바꾸어도 잘못된 정답 축·누수·Inf 입력은 해결되지 않는다. 표의 안정적 기본 선택은 연습 출발점이며 모든 데이터의 최고 성능을 보장하지 않는다.</p>
 <h3 id="346">34.6 모델 비교 암기표</h3>
+<p>모델을 비교할 때 ‘복잡하다’가 아니라 어떤 관계를 쉽게 표현하는지 묻는다. 같은 검증에서 단순 모델보다 나아졌는지, 그 개선에 시간·메모리가 얼마나 들었는지를 함께 기록한다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="34강 표 5, 좌우로 스크롤할 수 있습니다"><table data-table="5">
 <thead>
 <tr>
@@ -499,7 +521,10 @@ for i in order:
 <td>불안정한 학습·모드 붕괴</td>
 </tr>
 </tbody></table></div>
+<p>Linear는 가중합, KNN은 이웃, Tree는 순서 기준 분할, RF는 여러 트리 결합이라는 서로 다른 계산이다. CNN은 국소 패턴을 공유하고 RNN은 순차 상태를 갱신하며 Transformer는 시점끼리 점수·가중합을 만든다. 기본 밀집 자기어텐션의 T×T 점수 때문에 T² 비용이 생기며 모든 변형 구조가 동일한 비용이라는 뜻은 아니다.</p>
+<p>AE·VAE·GAN은 각각 복원·확률적 잠재표현·경쟁적 생성이라는 목표의 차이다. ‘선명한 GAN’과 ‘흐린 VAE’는 흔한 경향이지 어떤 구조·데이터에서도 고정된 품질 순위가 아니다. 표의 함정 하나를 작은 반례로 설명할 수 있어야 선택 기준이 된다.</p>
 <h3 id="347-split">34.7 split 암기표</h3>
+<p>검증은 실제로 예측할 때 모르는 것이 무엇인지를 흉내 낸다. 같은 차량의 미래가 미지인지, 새 차량 자체가 미지인지에 따라 훈련과 검증 사이에 끊어야 할 연결이 다르다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="34강 표 6, 좌우로 스크롤할 수 있습니다"><table data-table="6">
 <thead>
 <tr>
@@ -529,7 +554,10 @@ for i in order:
 <td>윈도를 무작위로 섞어 분할하지 않음, 정답·미래 정보 누수 없음; 예측 때 이미 관측 가능한 과거 기록의 중복은 허용될 수 있음</td>
 </tr>
 </tbody></table></div>
+<p>독립 행이면 무작위, 클래스 비율 보존이면 층화, 새 차량이면 그룹, 미래이면 시간순 분할을 출발점으로 삼는다. 그룹 ID를 특성에서 빼도 같은 그룹이 양쪽에 남으면 그룹 일반화 검증은 아니다. 중첩 윈도에서는 end·target·정답 공개 시점으로 실제 사용 가능한 정보를 따진다.</p>
+<p>‘최대 훈련 시간≤최소 검증 시간’의 시간은 입력인지 정답인지 밝혀야 한다. 예측 간격 H가 있으면 입력은 과거여도 훈련 정답은 첫 검증 기준보다 미래일 수 있다. 반대로 이미 볼 수 있는 과거 센서가 입력에 겹치는 것 자체는 항상 누수가 아니다.</p>
 <h3 id="348-cnnrnnattention">34.8 CNN/RNN/Attention 공식</h3>
+<p>공식을 읽을 때 글자 하나마다 실제 배열의 어떤 축이나 값인지 붙인다. I는 입력 공간 길이, K는 커널, P는 양쪽 padding, S는 이동 간격, D는 dilation이다. 먼저 작은 정수 예를 계산한 뒤 외운 식과 대조한다.</p>
 <p>Convolution output:</p>
 <p><code>floor((in + 2P - D(K-1) - 1)/S + 1)</code></p>
 <p>Conv2d parameter:</p>
@@ -538,7 +566,10 @@ for i in order:
 <p><code>c_t = f_t⊙c_{t-1} + i_t⊙g_t</code>, <code>h_t=o_t⊙tanh(c_t)</code></p>
 <p>Attention:</p>
 <p><code>softmax(QKᵀ/sqrt(d_k))V</code></p>
+<p>합성곱은 유효 커널 D(K−1)+1이 padding 후 I+2P에 들어갈 시작 위치를 S 간격으로 센다. I=9, K=3, P=1, S=2, D=1이면 floor((11−3)/2)+1=5다. Co는 출력 채널, Ci는 입력 채널이며 매개변수는 연결된 커널 원소와 bias를 센다. Ci=2, Co=4, k=3, bias=True이면 4×2×9+4=76개다.</p>
+<p>LSTM의 f, i, o는 이전 기억 유지·새 후보 추가·출력 반영 게이트이고 g는 새 후보, c는 셀 상태, h는 외부 은닉 출력이다. c_prev=2, f=.5, i=.2, g=1이면 c=1.2다. Attention의 Q는 찾을 내용, K는 비교 키, V는 모을 값, d_k는 키 차원이다. 점수 [0, ln2], 값 [3,12]이면 가중치 [1/3,2/3], 결과 9다. 기호를 쓸 수 있어도 이 계산을 못 하면 해당 강의 예제로 돌아간다.</p>
 <h3 id="349-8">34.9 실기 시작 8줄</h3>
+<p>실기 시작 메모는 모델 후보보다 앞에 둔다. 한 행이 차량 전체인지 한 시점인지, 출력 3개가 세 클래스인지 세 물리량인지 먼저 적어야 잘못된 도구를 빠르게 잘 실행하는 일을 피한다.</p>
 <ol>
 <li>한 행/샘플의 의미</li>
 <li><code>X_train/y_train/X_test</code> 배열 크기·원소 자료형</li>
@@ -549,7 +580,9 @@ for i in order:
 <li>파일명·원소 자료형·저장 셀</li>
 <li>첫 기준 모델의 완료 목표 시각</li>
 </ol>
+<p>예시로 ‘한 행=차량 운행구간, 목표=고장 0/1, 테스트=새 차량, 지표=Macro-F1 최대화, 파일=(N, ) 라벨’이라고 적으면 group split·BCE·문턱·정수 라벨 복원으로 이어진다. 같은 메모에서 목표가 연비 3개면 손실과 출력은 회귀 [N,3]로 바뀐다. 첫 기준 모델 목표 시각도 학습 시작이 아니라 파일 재읽기 통과 시각으로 정한다.</p>
 <h3 id="3410">34.10 합격 준비 상태 체크</h3>
+<p>체크박스는 실제 수행 결과로만 채운다. 설명을 보고 고른 답, 복사한 함수, 메모리에만 있는 예측은 각각 독립 응시·직접 구현·유효 제출과 구분한다. 표에 있는 수치는 자체 복습 목표이지 현재 회차의 공식 합격 기준이 아니다.</p>
 <p>아래 수치는 자체 복습 목표이며 공식 합격선이 아니다. 공식 커트라인과 세부 채점 기준은 비공개다.</p>
 <p>필기:</p>
 <ul>
@@ -577,6 +610,7 @@ for i in order:
 <li class="check-item"><label><input type="checkbox" data-check-id="34-13"><span>마지막 7분과 Ctrl+S 습관</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="34-14"><span>당시 공식 오픈북·부정행위 규정 재확인</span></label></li>
 </ul>
+<p>필기는 새 50분 회차 기록 3개, Process는 일반·경계·원본 보존 테스트, Problem은 각 과제의 재읽기 통과 파일을 남긴다. ‘baseline 60부터 65분’과 ‘마지막 7분’은 자신의 실측 소요 시간을 관리할 목표다. 부족하면 어려운 후보 추가를 줄이고 첫 유효 파일과 제출 절차를 먼저 반복한다. 허용 자료·검색·도구 규정은 시험 직전에 해당 회차 공식 안내로 다시 확인한다.</p>
 <h3 id="3411">34.11 최종 자기설명 시험</h3>
 <p>아래 12개를 각각 30초 안에 말하지 못하면 해당 강의로 돌아간다.</p>
 <ol>
@@ -593,16 +627,103 @@ for i in order:
 <li id="question-O34-11" data-question-id="O34-11">중첩 윈도에서 발생하는 누수를 어떻게 막는가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-34-1">자기설명 12문항은 암기한 용어보다 원인과 반례를 묻는다</a></p></details></li>
 <li id="question-O34-12" data-question-id="O34-12">제출 직전 무엇을 검사하는가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-34-2">출력 조건·지표·제출을 한 예제로 연결하기</a></p></details></li>
 </ol>
+<p><strong>자기설명 1 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> fit은 통계를 배우는 과정이며 검증은 아직 보지 않은 자료처럼 남겨야 한다.</p>
+<p><strong>풀이:</strong> 훈련 [0,2] 평균은 1, 검증 100까지 합친 평균은 34다. 전체 평균으로 변환하면 train 행만 학습하더라도 검증 분포로 입력 기준을 바꾼 것이다.</p>
+<p><strong>정답:</strong> train으로만 fit하고 valid/test에는 같은 통계를 transform한다.</p>
+<p><strong>왜?</strong> 전처리도 예측 규칙을 학습하는 일부이기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> y를 직접 보지 않은 PCA·인코더도 검증 X를 배우면 정보 사용이 생긴다.</p>
+<p><strong>한 줄 기억:</strong> 전처리의 기준도 train에서만 배운다.</p>
+<p><strong>자기설명 2 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 회귀에서 샘플별 오차를 구하려는 상황이다.</p>
+<p><strong>풀이:</strong> pred[[2], [6]]와 y[2,6]를 빼면 뒤 축 정렬로 [[0, −4], [4,0]]인 [2,2]가 될 수 있다. 올바른 같은 샘플 오차는 둘 다 0이다.</p>
+<p><strong>정답:</strong> 회귀에서는 둘 다 [B] 또는 둘 다 [B,1]로 같게 맞추고 loss 직전에 shape를 검사한다.</p>
+<p><strong>왜?</strong> [B]를 [1, B]로 자동 확장하면 서로 다른 샘플의 모든 조합을 비교하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> CE는 logits[B, K]·정답 [B]라는 별도 계약이므로 모든 손실에 같은 shape를 강제하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 자동 확장은 값의 대응까지 보장하지 않는다.</p>
+<p><strong>자기설명 3 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 테스트에서 새로운 것이 대상인지 시간인지 확인한다.</p>
+<p><strong>풀이:</strong> 새 차량이면 vehicle_id 집합을 나누고 교집합 0을 검사한다. 같은 차량의 미래면 과거 훈련·미래 검증으로 나누고 정답 공개 시점까지 확인한다.</p>
+<p><strong>정답:</strong> 새 집단은 그룹 분할, 미래는 시간 분할을 출발점으로 삼고 둘 다 새로운 문제면 두 조건을 검토한다.</p>
+<p><strong>왜?</strong> 검증이 실제 예측 순간의 모르는 정보를 재현해야 하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 무조건 그룹·시간을 둘 다 강제하거나 ID 열 제거만으로 그룹 분할을 대신하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 실제 테스트에서 무엇이 새로운지로 분할을 고른다.</p>
+<p><strong>자기설명 4 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 확정 라벨의 성능과 점수 순위의 성능을 구별한다.</p>
+<p><strong>풀이:</strong> 문턱으로 0·1 라벨을 정한 뒤 각 클래스 F1을 구해 같은 비중으로 평균하면 Macro-F1이다. ROC-AUC는 연속 점수에서 양성이 음성보다 높게 놓이는 순위를 여러 문턱에 걸쳐 평가한다.</p>
+<p><strong>정답:</strong> Macro-F1은 한 판정 규칙의 클래스별 균형, ROC-AUC는 점수의 순위 분리다.</p>
+<p><strong>왜?</strong> F1의 TP·FP·FN은 문턱에 따라 변하고 AUC는 특정 문턱 하나를 고르는 값이 아니기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 양성 F1 하나를 Macro-F1이라 부르거나 높은 AUC가 최적 threshold를 자동 제공한다고 하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> F1은 판정, ROC-AUC는 순위를 본다.</p>
+<p><strong>자기설명 5 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 기본 단일 정답 CE와 이진·다중라벨 BCE 입력 계약을 구분한다.</p>
+<p><strong>풀이:</strong> 이진은 float logits[B,1]과 float형 0·1 정답 [B,1], 다중라벨은 둘 다 [B, K]다. 단일 정답 K 분류 CE는 float logits[B, K]와 long 인덱스 [B]다.</p>
+<p><strong>정답:</strong> BCEWithLogits는 logits와 같은 크기의 실수 정답, 기본 CE는 클래스 축 점수와 각 행의 정수 정답 위치를 받는다.</p>
+<p><strong>왜?</strong> 한 개 정답 위치를 고르는 손실과 여러 독립적인 이진 정답을 맞히는 손실의 목적이 다르기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 손실 앞 sigmoid·softmax를 중복하지 않는다. CE의 확률 정답 지원까지 불가능하다고 일반화하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 과제의 정답 방식에 맞춰 shape·dtype·확률 변환을 정한다.</p>
+<p><strong>자기설명 6 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 공간 출력과 학습 파라미터는 서로 다른 계산이다.</p>
+<p><strong>풀이:</strong> 유효 커널 D(K−1)+1을 구하고 O=floor((I+2P−유효 커널)/S)+1을 가로·세로에 적용한다. 파라미터는 Co×(Ci/groups)×Kh×Kw와 필요 bias Co를 더한다. 예로 Ci=2, Co=4, k=3, bias=True이면 76개다.</p>
+<p><strong>정답:</strong> 출력은 커널 시작 위치 수, 매개변수는 공유 연결 가중치 +bias 수다.</p>
+<p><strong>왜?</strong> 한 커널을 여러 위치에서 재사용하므로 출력 위치마다 별도 학습값이 생기지 않는다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> H/W나 배치 수를 파라미터 수에 곱하지 않고 groups나 bias 조건을 빠뜨리지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 위치 수와 공유 가중치 수를 따로 센다.</p>
+<p><strong>자기설명 7 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> BN은 track_running_stats=True라는 조건을 명시하고 Dropout은 일반 모드를 가정한다.</p>
+<p><strong>풀이:</strong> BN은 train에서 배치 통계를 쓰며 누적 상태를 갱신하고 eval에서 누적 통계를 쓴다. Dropout은 train에서 일부 값을 0으로 하고 남은 값을 1/(1−p) 보정하며 eval에서는 통과시킨다.</p>
+<p><strong>정답:</strong> 검증에는 model.eval()과 미분 기록을 끄는 inference_mode를 역할을 구분해 함께 사용한다.</p>
+<p><strong>왜?</strong> 학습 때의 규제·통계 갱신과 고정된 평가 동작이 서로 다르기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> eval이 자동으로 autograd를 끄거나 가중치 동결이 BN 상태를 자동 고정하는 것은 아니다.</p>
+<p><strong>한 줄 기억:</strong> train/eval 동작과 미분 기록은 별개다.</p>
+<p><strong>자기설명 8 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> LSTM의 셀 기억 c와 은닉 출력 h를 나누고 GRU와 비교한다.</p>
+<p><strong>풀이:</strong> LSTM은 f로 이전 c를 남기고 i로 후보 g를 더해 c를 갱신하며 o로 tanh(c)를 조절해 h를 낸다. GRU는 별도 c 없이 갱신·초기화 게이트로 h를 갱신한다.</p>
+<p><strong>정답:</strong> LSTM은 망각·입력·출력 게이트와 셀 상태, GRU는 갱신·초기화 게이트와 하나의 은닉 상태가 핵심 차이다.</p>
+<p><strong>왜?</strong> 시간 정보를 보존·추가하는 경로를 서로 다르게 설계했기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 어느 하나가 항상 더 좋거나 항상 더 빠르다고 모든 구조·자료에 단정하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 게이트 이름보다 어떤 상태를 얼마나 남기는지 말한다.</p>
+<p><strong>자기설명 9 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 점수 규모·순서 정보·참조 허용 범위의 세 문제를 구분한다.</p>
+<p><strong>풀이:</strong> √d_k로 나누어 차원 증가에 따른 내적 분산·softmax 포화를 완화한다. 위치 표현으로 내용이 어느 순서에 있는지 알린다. 인과 마스크로 예측 시점의 미래 키를 차단한다.</p>
+<p><strong>정답:</strong> 스케일 조정은 점수 안정화, 위치 정보는 순서 구별, 마스크는 금지 정보 참조 방지다.</p>
+<p><strong>왜?</strong> 내적·내용 가중합만으로 세 조건이 자동 해결되지 않기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 위치 정보를 넣었다고 미래가 가려지거나 √d_k 나눗셈이 시퀀스 길이를 줄이는 것은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 규모·위치·허용 정보는 서로 다른 장치로 다룬다.</p>
+<p><strong>자기설명 10 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 세 모델의 입력·목적·비교 대상을 고정해 답한다.</p>
+<p><strong>풀이:</strong> AE는 x→z→x_hat에서 복원 손실을 줄인다. VAE는 q(z|x)의 분포에서 재매개화 표본을 뽑아 복원 음의 로그 우도와 사전 KL을 줄인다. GAN은 D의 진짜 1·가짜 0 판별과 G의 가짜를 진짜처럼 만드는 경쟁을 교대한다.</p>
+<p><strong>정답:</strong> AE는 입력 복원, VAE는 확률적 잠재 변수의 생성 모형, GAN은 G/D 경쟁적 생성이다.</p>
+<p><strong>왜?</strong> 같은 이미지 출력이어도 학습에 쓰는 목표 신호가 다르기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> VAE의 KL을 픽셀 오차로 보거나 D를 디코더라고 하지 않는다. GAN loss 하나로 다양성을 보장하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 모델 목적과 손실의 두 비교 대상을 명시한다.</p>
+<p><strong>자기설명 11 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 겹친 입력뿐 아니라 각 윈도 정답이 언제 공개되는지 본다.</p>
+<p><strong>풀이:</strong> 그룹 안에서 윈도를 만들고 end·target·정답 구간 끝을 저장한다. 첫 검증 예측 기준 전에 훈련 답이 알려지게 시간 분할·필요 gap을 설계한다. 예로 H=6, valid 첫 end=50에서 train 끝 49의 답 55는 아직 미래다.</p>
+<p><strong>정답:</strong> 중첩 윈도 무작위 분할을 피하고 그룹·시간·정답 가용성 기준으로 분리하며 전처리도 train에만 fit한다.</p>
+<p><strong>왜?</strong> 비슷한 윈도와 미래 답이 양쪽에 섞이면 실제로 모를 정보를 학습해 검증을 쉽게 만들 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 예측 때 이미 알 수 있는 과거 입력 47의 중복과 미래 답 55의 사용은 다르다. 모든 입력 중복을 금지하는 고정 gap이 보편 정답은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 실제 예측 순간에 알 수 있던 정보만 허용한다.</p>
+<p><strong>자기설명 12 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 예측 내용·파일·노트북·제출 상태를 따로 확인한다.</p>
+<p><strong>풀이:</strong> shape·dtype·finite·행 순서·출력 열/클래스 대응·원래 단위를 검사하고 요구 파일명으로 저장한다. 재읽기 후 조건을 다시 비교하고 필요 셀 실행·Ctrl+S·두 영역 제출 상태를 확인한다.</p>
+<p><strong>정답:</strong> 요구 파일이 유효하게 읽히며 같은 대상·같은 의미의 예측이고 문서 저장과 실제 제출까지 완료되어야 한다.</p>
+<p><strong>왜?</strong> 모델 점수만으로 평가 시스템이 요구 결과를 받았는지 보장할 수 없기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 파일 저장 성공을 제출 완료로 취급하거나 마지막에 원소 수만 맞춰 flatten하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 다시 읽은 파일과 실제 제출 상태까지 확인한다.</p>
 <h3 id="3412">34.12 자료 연결</h3>
+<p>자료 연결은 모르는 코드를 그대로 가져올 목록이 아니라 이해한 원리의 정확한 문법을 다시 찾는 색인이다. 먼저 어떤 입력·출력·손실이 필요한지 정하고 그 부분의 최소 코드만 확인한다.</p>
+
       <ul class="resource-links">
         <li><a href="../../cheatsheet.html">시험 전에 내려받아 쓰는 PyTorch 오픈북 치트시트</a></li>
         <li><a href="../../resources/">실습 코드·전체 오프라인 학습 팩</a></li>
         <li><a href="../../learn/">34강 전체 커리큘럼</a></li>
       </ul>
     
-
-
+<p>공개 사이트와 외부 링크는 <strong>시험 전 학습용</strong>이다. 실제 시험 중 허용되는 사이트·검색·개인 자료의 범위는 해당 회차 공식 규정과 감독관 안내를 다시 확인한다.</p>
+<p>치트시트는 API 형식, 템플릿은 재사용 구조, learn/resources는 개념·출처, 학습 계획은 일정 조절에 쓴다. 공개 페이지에 접속된다는 사실과 시험 중 허용된다는 사실은 다르다. 다운로드한 버전·모델 출력 조건·저장 셀을 당일 지시와 대조하고 금지된 수단을 우회해 사용하지 않는다.</p>
 <h3 id="3413">34.13 공식 범위 대조표</h3>
+<p>범주 대조표는 빠뜨린 주제를 찾는 지도다. 한 줄이 끝났다는 것은 그 범주의 용어를 읽었다는 뜻보다 관련 원리·계산·구현을 설명할 수 있다는 뜻이어야 한다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="34강 표 7, 좌우로 스크롤할 수 있습니다"><table data-table="7">
 <thead>
 <tr>
@@ -671,10 +792,13 @@ for i in order:
 <td>10–15, 27–29</td>
 </tr>
 </tbody></table></div>
+<p>예를 들어 검증 전략은 13강 이름을 아는 데 그치지 않고 21강의 정답 시점·26강 분할 검사·27강의 새 차량을 연결한다. 수학적 원리는 모델마다 따로 외운 식이 아니라 가중합→손실→미분→갱신으로 이어진다. 표의 공식 범주 연결은 원 교재 기록을 보존했으며 이 개편이 최신 시험 범위의 별도 확인을 대신하지 않는다.</p>
 <h3 id="3414">34.14 출처와 사용 주의</h3>
+<p>개념 참고와 시험 규정의 출처를 구분한다. 학부 공개 노트·공식 API는 수학과 도구를 설명하지만 시험 허용 도구·시간·제출 절차는 해당 회차 공식 안내만이 정한다. 아래 원 출처와 사용 주의를 함께 유지한다.</p>
 <p>시험 구성·공개 범위·환경·응시 규정은 <a href="https://hdat.gitbook.io/2026-hdat-ds" target="_blank" rel="noreferrer noopener">2026 HDAT-DS 공식 매뉴얼</a>과 <a href="https://exam.hyundai-ngv.com/practice/13567" target="_blank" rel="noreferrer noopener">HDAT-DS 공식 연습문제 페이지</a>를 우선했다. 공식 연습문제는 저작권 보호 자료이므로 본 교재는 원문을 재수록하지 않고 같은 능력을 연습하는 독자 문제를 만들었다.</p>
 <p>사용자가 제공한 2025 교육자료는 개념 범위와 학습 순서를 대조하는 참고로 사용했다. “작년 출제자 제작”이라는 전언은 공개 근거로 확인되지 않았으므로 사실로 단정하지 않는다. 교육자료의 오래된 API, 빈 코드, 잘못된 설명은 교정해 사용했다.</p>
 <p>시험 당일에는 이 교재보다 해당 회차의 문제 지시·제공된 기본 코드·공식 규정·감독관 안내가 항상 우선한다.</p>
+<p>이 교재의 작은 데이터·모의 문제는 학습용 자체 제작이고 공식 비공개 문항을 예측한 것이 아니다. 출처에서 확인한 사실, 교육자료의 과거 설명, 확인하지 못한 전언을 구분하면 잘못된 확신을 피할 수 있다. 마지막에는 문제 지시와 기본 코드가 무엇을 요구하는지 읽고 그 요구를 자신의 말로 설명한다.</p>
 
 
 <h2 id="_32">끝까지 공부한 뒤</h2>

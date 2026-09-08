@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/08","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/08":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/08":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","08"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/08","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/08"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/08"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/08","_N_T_/layout","_N_T_/learn/08","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/08"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/08","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/08":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/08":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","08"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/08","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/08"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/08"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/08","_N_T_/layout","_N_T_/learn/08","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/08"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -41,7 +41,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 24:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-08-1",{"children":[["$","a",null,{"href":"#visual-08-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-08-1",{"children":["$","a",null,{"href":"#topic-08-1","children":"모델에 표를 넣기 전에 무엇을 바꿔야 할까?"}]}]]}]]}]]}],["$","li","visual-08-2",{"children":[["$","a",null,{"href":"#visual-08-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",5,"개"]}],["$","ul",null,{"children":[["$","li","topic-08-2",{"children":["$","a",null,{"href":"#topic-08-2","children":"숫자로 적혀 있어도 수치형 데이터는 아닐 수 있다"}]}],["$","li","topic-08-3",{"children":["$","a",null,{"href":"#topic-08-3","children":"학습 데이터 기준: 먼저 자를 만들고 같은 자로 잰다"}]}],["$","li","topic-08-4",{"children":["$","a",null,{"href":"#topic-08-4","children":"스케일링·표준화·정규화는 어떤 관계일까?"}]}],["$","li","topic-08-5",{"children":["$","a",null,{"href":"#topic-08-5","children":"결측값은 0도 아니고 이상치도 아니다"}]}],["$","li","topic-08-6",{"children":["$","a",null,{"href":"#topic-08-6","children":"이상치는 존재하는 값 중에서 유난히 떨어진 값이다"}]}]]}]]}]]}],["$","li","visual-08-3",{"children":[["$","a",null,{"href":"#visual-08-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-08-4",{"children":[["$","a",null,{"href":"#visual-08-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",3,"개"]}],["$","ul",null,{"children":[["$","li","topic-08-7",{"children":["$","a",null,{"href":"#topic-08-7","children":"“학습 [0,5,10], 평가 [15]”라는 문제를 문장부터 풀기"}]}],["$","li","topic-08-8",{"children":["$","a",null,{"href":"#topic-08-8","children":"빈칸이 있어도 기준을 구하는 순서는 같다"}]}],["$","li","topic-08-9",{"children":["$","a",null,{"href":"#topic-08-9","children":"이상치 경계도 한 줄씩 계산한다"}]}]]}]]}]]}],["$","li","visual-08-5",{"children":[["$","a",null,{"href":"#visual-08-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",3,"개"]}],["$","ul",null,{"children":[["$","li","topic-08-10",{"children":["$","a",null,{"href":"#topic-08-10","children":"KNN과 무슨 관계인가: ‘가깝다’를 숫자로 정하기"}]}],["$","li","topic-08-11",{"children":["$","a",null,{"href":"#topic-08-11","children":"신경망은 가중치를 배우는데도 왜 도움이 될까?"}]}],["$","li","topic-08-12",{"children":["$","a",null,{"href":"#topic-08-12","children":"범주형 입력은 번호가 아니라 뜻을 보존해야 한다"}]}]]}]]}]]}],["$","li","visual-08-6",{"children":[["$","a",null,{"href":"#visual-08-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",3,"개"]}],["$","ul",null,{"children":[["$","li","topic-08-13",{"children":["$","a",null,{"href":"#topic-08-13","children":"상수 열도 스케일링하는가? 분모가 0이면 어떻게 하나?"}]}],["$","li","topic-08-14",{"children":["$","a",null,{"href":"#topic-08-14","children":"과거 값으로 채우면 언제 안전한가?"}]}],["$","li","topic-08-15",{"children":["$","a",null,{"href":"#topic-08-15","children":"증강은 정답이 유지되는 변화만 쓴다"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-08","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-08-1",{"children":["$","a",null,{"href":"#theory-08-1","children":"결측값을 채워도 그 원인까지 해결되는 것은 아니다"}]}],["$","li","theory-08-2",{"children":["$","a",null,{"href":"#theory-08-2","children":"fit으로 기준을 구하고 transform으로 재사용한다"}]}],["$","li","theory-08-3",{"children":["$","a",null,{"href":"#theory-08-3","children":"단위가 거리 계산에 미치는 영향과 트리의 차이"}]}],["$","li","theory-08-4",{"children":["$","a",null,{"href":"#theory-08-4","children":"타깃 인코딩에 현재 행의 정답이 섞이지 않게 한다"}]}],["$","li","theory-08-5",{"children":["$","a",null,{"href":"#theory-08-5","children":"미지 범주 번호와 임베딩 인덱스를 구분한다"}]}],["$","li","theory-08-6",{"children":["$","a",null,{"href":"#theory-08-6","children":"전방 채우기와 증강은 예측 시점에 쓸 수 있는 정보로 판단한다"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","82",{"children":["$","a",null,{"href":"#82","children":"결측의 세 유형"}]}],["$","li","83",{"children":["$","a",null,{"href":"#83","children":"이상치"}]}],["$","li","84",{"children":["$","a",null,{"href":"#84","children":"스케일링 공식"}]}],["$","li","85-min-max",{"children":["$","a",null,{"href":"#85-min-max","children":"상수 열의 최소–최대 정규화"}]}],["$","li","86",{"children":["$","a",null,{"href":"#86","children":"범주형 인코딩"}]}],["$","li","87",{"children":["$","a",null,{"href":"#87","children":"데이터 증강"}]}],["$","li","88-train-only-fit",{"children":["$","a",null,{"href":"#88-train-only-fit","children":"학습 데이터에서만 전처리 기준을 구하는 코드"}]}],"$L32","$L33"]}],"$L34","$L35"]]}]
 25:["$","$L36",null,{}]
 26:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","결측값이 생기는 원인과 처리 방법을 구분한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"결측값이 생기는 원인과 처리 방법을 구분한다."]}],["$","li","표준화와 최소–최대 정규화를 계산한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"표준화와 최소–최대 정규화를 계산한다."]}],["$","li","범주형 인코딩에서 처음 보는 범주나 고유 범주가 많은 경우를 처리한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"범주형 인코딩에서 처음 보는 범주나 고유 범주가 많은 경우를 처리한다."]}],["$","li","데이터에서 기준을 구하는 모든 전처리는 분할 후 학습 데이터로만 학습한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"데이터에서 기준을 구하는 모든 전처리는 분할 후 학습 데이터로만 학습한다."]}]]}]]}]
-27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 37:T8309,<h3 id="visual-08-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-08-1">모델에 표를 넣기 전에 무엇을 바꿔야 할까?</h4>
 <p>자동차의 고장 여부를 예측한다고 하자. 표의 한 행은 자동차 한 대이고, 열에는 주행거리·온도·차종이 있다. 고장 여부는 맞혀야 할 정답이고, 나머지는 예측에 사용할 입력이다. 사람은 빈 온도 칸을 보고 “측정하지 못했구나”, 차종의 ‘세단’을 보고 “종류 이름이구나”라고 이해한다. 하지만 보통의 신경망은 숫자를 곱하고 더하므로 빈칸이나 글자를 그대로 넣을 수 없다. 주행거리가 km인지 m인지도 숫자만 보고 알아내지 못한다.</p>
@@ -256,36 +256,69 @@ assert np.allclose(valid_mm.ravel(), [0.5, 1.5])
 33:["$","li","810",{"children":["$","a",null,{"href":"#810","children":"완료 기준"}]}]
 34:["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}]
 35:["$","ol",null,{"children":[["$","li","visual-08-7",{"children":["$","a",null,{"href":"#visual-08-7","children":"스스로 확인하기"}]}],["$","li","visual-08-8",{"children":["$","a",null,{"href":"#visual-08-8","children":"정답과 이유"}]}],["$","li","visual-08-9",{"children":["$","a",null,{"href":"#visual-08-9","children":"더 읽을 공식 자료"}]}]]}]
-3f:T2c33,<h3 id="theory-08-1">1. 결측값을 채워도 그 원인까지 해결되는 것은 아니다</h3>
+3f:T3f4f,<h3 id="theory-08-1">1. 결측값을 채워도 그 원인까지 해결되는 것은 아니다</h3>
+<p>온도 센서가 고온일 때 멈춘다면 빈칸 행에 정상 온도를 채워 넣는 것만으로 고온 기록을 복구할 수 없다. 빈칸이 왜 생겼는지에 대한 가정이 삭제·대치 결과의 해석을 바꾼다. 아래에서는 관측 여부를 별도 변수로 두어 그 관계를 정확히 구분한다.</p>
 <p>결측 여부를 R이라고 하자. R=1은 값이 관측되었음을, R=0은 비어 있음을 뜻한다. MCAR는 결측 여부가 관측된 값과 관측되지 않은 값 모두에 무관하다는 가정이다. MAR는 다른 관측 정보를 알고 나면 결측값 자체가 결측 확률에 추가 영향을 주지 않는다는 가정이다. MNAR는 관측된 정보만으로 설명되지 않고 빠진 값 등에 의존하는 경우다. 결측 여부와 어떤 열이 관련된다고 곧바로 MAR라고 확정할 수는 없다. MAR는 그 정보를 조건으로 고려한 뒤에도 남는 의존성이 있는지에 대한 가정이기 때문이다.</p>
-<p>센서가 과열 상태에서 멈춘다면 빈칸 자체가 고장 신호일 수 있다. 모든 빈칸을 중앙값으로 바꾸기만 하면 “측정이 없었다”는 정보가 사라진다. 결측 표시 특성은 원래 비어 있던 곳을 1로 나타내는 별도 열이다. 다만 값을 대치하거나 결측 표시를 추가해도 원래 정보를 완전히 복구할 수는 없다. 열 전체가 결측이면 중앙값도 정의되지 않으므로 상수로 채우기, 열 제거, 추가 확인 중 별도 방법을 정한다. 이 설명은 입력 특성에 관한 것이며, 결측 정답을 임의로 만들어 채우라는 뜻은 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-V08-03">기초 확인 · 3번</a></p></details>
+<p>센서가 과열 상태에서 멈춘다면 빈칸 자체가 고장 신호일 수 있다. 모든 빈칸을 중앙값으로 바꾸기만 하면 “측정이 없었다”는 정보가 사라진다. 결측 표시 특성은 원래 비어 있던 곳을 1로 나타내는 별도 열이다. 다만 값을 대치하거나 결측 표시를 추가해도 원래 정보를 완전히 복구할 수는 없다. 열 전체가 결측이면 중앙값도 정의되지 않으므로 상수로 채우기, 열 제거, 추가 확인 중 별도 방법을 정한다. 이 설명은 입력 특성에 관한 것이며, 결측 정답을 임의로 만들어 채우라는 뜻은 아니다.</p>
+<p>R=1을 관측으로 정했으므로 이 절의 결측 표시 특성은 1−R이다. 기호 약속이 문서마다 반대일 수도 있어 정의를 먼저 확인한다. 기종과 결측이 관련된다는 사실만으로 MAR를 입증한 것은 아니며, 기종을 같게 놓은 뒤 빠진 온도 자체와의 관계가 남는지가 핵심이다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 대치는 계산을 가능하게 하지만 결측 원인이나 잃은 정보를 완전히 복구하지 않는다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-V08-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-08-2">2. fit으로 기준을 구하고 transform으로 재사용한다</h3>
+<p>같은 14라는 값을 학습 때는 큰 값으로, 평가 때는 그 표의 평균이라 0으로 바꾸면 모델은 동일한 의미를 읽을 수 없다. 학습에서는 자를 만들고 이후에는 같은 자로 잰다는 순서를 실제 숫자로 확인하자.</p>
 <p>학습값 [2,6,10]의 평균 μ는 6, 모집단 분산은 (16+0+16)/3=32/3, 표준편차 σ=√(32/3)다. 표준화 (x−μ)/σ의 결과는 [−√(3/2),0,√(3/2)]다. 새 값 14는 (14−6)/σ=√6≈2.449다. 새 데이터에서 평균을 다시 구해 0으로 만들면 모델을 학습할 때와 변환 기준이 달라진다. 이것이 기준을 구하는 fit과 기준을 적용하는 transform을 구분하는 이유다.</p>
 <p>같은 학습값의 최소–최대 정규화는 a=2,b=10을 써 (x−2)/(10−2)로 계산한다. 학습 결과는 [0,0.5,1], 새 값 14는 1.5, 새 값 −2는 −0.5가 된다. 0과 1은 학습 데이터의 최솟값과 최댓값을 변환한 값이지, 모든 미래 값이 반드시 들어가야 할 범위가 아니다. 1보다 큰 값을 제한하면 14와 18이 모두 1이 되어 차이가 사라지므로, 문제의 요구나 검증 근거 없이 제한하지 않는다.</p>
-<p>학습 상수 열 [9,9,9]는 표준편차가 0이고 최소–최대 정규화의 분모도 0이다. 분모를 1로 대체하면 학습값은 0, 새 값 11은 2로 나타낼 수 있다. 반면 주어진 표에서 상수 열의 유효값을 모두 0으로 바꾸라는 작은 함수 문제는 다른 요구다. 학습값과 새 값을 각각 어떻게 처리할지 함께 정의해야 한다. 표준화가 모든 값을 정규분포로 만드는 것도 아니다. 평균과 표준편차를 바꾸어도 여러 봉우리나 비대칭 모양은 남을 수 있다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 4개</summary><p><a href="#question-O08-01">8.9 실습문제 · 1번</a> · <a href="#question-V08-01">기초 확인 · 1번</a> · <a href="#question-V08-02">기초 확인 · 2번</a> · <a href="#question-V08-03">기초 확인 · 3번</a></p></details>
+<p>학습 상수 열 [9,9,9]는 표준편차가 0이고 최소–최대 정규화의 분모도 0이다. 분모를 1로 대체하면 학습값은 0, 새 값 11은 2로 나타낼 수 있다. 반면 주어진 표에서 상수 열의 유효값을 모두 0으로 바꾸라는 작은 함수 문제는 다른 요구다. 학습값과 새 값을 각각 어떻게 처리할지 함께 정의해야 한다. 표준화가 모든 값을 정규분포로 만드는 것도 아니다. 평균과 표준편차를 바꾸어도 여러 봉우리나 비대칭 모양은 남을 수 있다.</p>
+<p>fit은 μ·σ 또는 최솟값·최댓값 같은 규칙을 저장하고 transform은 그 규칙을 적용한다. Min-Max의 범위 밖 값은 학습 범위 바깥의 위치라는 정상적인 결과다. 상수 열에서는 분모 0을 어떻게 처리하고 새 값은 어떻게 표현할지도 계약으로 정한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 같은 원래 값은 학습 때 만든 같은 좌표계로 변환한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 4개</summary><p><a href="#question-O08-01">8.9 실습문제 · 1번</a> · <a href="#question-V08-01">기초 확인 · 1번</a> · <a href="#question-V08-02">기초 확인 · 2번</a> · <a href="#question-V08-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-08-3">3. 단위가 거리 계산에 미치는 영향과 트리의 차이</h3>
-<p>예측할 점 [0,0]에서 이웃 A=[0.9,100], B=[0.1,200]까지의 유클리드 거리 제곱은 각각 0.81+10000, 0.01+40000이다. 둘째 특성의 단위 때문에 첫 특성의 차이는 거의 반영되지 않아 A가 더 가깝게 계산된다. 둘째 축을 1000으로 나누면 A의 거리 제곱은 0.81+0.01=0.82, B는 0.01+0.04=0.05이므로 이번에는 B가 더 가깝다. 척도는 어떤 대상을 비슷하다고 판단할지에 직접 영향을 준다. 여기서 1000은 원리를 보여 주기 위해 정한 배율이며, 실제 기준은 학습 데이터와 단위의 의미를 고려해 정한다.</p>
+<p>거리 기반 모델이 A를 더 가깝다고 골랐는데 숫자 단위만 바꾸자 B를 골랐다면, 모델이 현실의 중요성을 알아낸 것이 아니라 좌표의 단위에 영향을 받은 것이다. 아래 예제는 실제 이웃 순위가 뒤집히는 계산과 순서 기반 트리를 대비한다.</p>
+<p>예측할 점 [0,0]에서 이웃 A=[0.9,100], B=[0.1,200]까지의 유클리드 거리 제곱은 각각 0.81+10000, 0.01+40000이다. 둘째 특성의 단위 때문에 첫 특성의 차이는 거의 반영되지 않아 A가 더 가깝게 계산된다. 둘째 축을 1000으로 나누면 A의 거리 제곱은 0.81+0.01=0.82, B는 0.01+0.04=0.05이므로 이번에는 B가 더 가깝다. 척도는 어떤 대상을 비슷하다고 판단할지에 직접 영향을 준다.</p>
+<p>여기서 1000은 원리를 보여 주기 위해 정한 배율이며, 실제 기준은 학습 데이터와 단위의 의미를 고려해 정한다.</p>
 <p>KNN과 RBF SVM은 거리를 핵심으로 쓰고 PCA는 분산을 사용하므로 단위의 영향을 크게 받는다. 트리는 x_j≤t처럼 값의 순서에 따라 샘플을 나눈다. x를 2x+3으로 바꾸고 기준값도 2t+3으로 옮기면 같은 샘플 집합을 나눌 수 있다. 따라서 양의 선형 스케일링은 일반적인 축 정렬 트리의 핵심 분할을 바꾸지 않는다. 다만 값을 제한해 서로 다른 값을 같게 만들거나 반올림으로 순서를 잃으면 같은 논리가 성립하지 않는다.</p>
-<p>IQR로 이상치 경계를 구하는 것은 표준화와 목적이 다르다. Q1=6,Q3=14이면 IQR=8, 하한은 6−12=−6, 상한은 14+12=26이다. 30은 경계 밖이므로 확인할 후보이지만 고장 신호일 수 있어 자동으로 삭제해서는 안 된다. 중앙값과 IQR을 쓰는 RobustScaler는 극단값에 덜 영향받는 기준으로 스케일링할 뿐, 이상치를 제거하지는 않는다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O08-02">8.9 실습문제 · 2번</a></p></details>
+<p>IQR로 이상치 경계를 구하는 것은 표준화와 목적이 다르다. Q1=6,Q3=14이면 IQR=8, 하한은 6−12=−6, 상한은 14+12=26이다. 30은 경계 밖이므로 확인할 후보이지만 고장 신호일 수 있어 자동으로 삭제해서는 안 된다. 중앙값과 IQR을 쓰는 RobustScaler는 극단값에 덜 영향받는 기준으로 스케일링할 뿐, 이상치를 제거하지는 않는다.</p>
+<p>스케일링 후에는 어떤 열의 차이를 얼마로 볼지에 관한 가정이 달라진다. 무조건 모든 열을 같은 단위로 만들라는 명령이 아니라 부적절한 수치 단위의 지배를 점검하는 것이다. RobustScaler를 써도 큰 값은 그대로 남을 수 있고, 이상치 경계 계산도 삭제와는 다른 결정이다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 거리는 척도를 읽고 트리는 주로 순서를 읽는다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O08-02">8.9 실습문제 · 2번</a></p></details>
 <h3 id="theory-08-4">4. 타깃 인코딩에 현재 행의 정답이 섞이지 않게 한다</h3>
+<p>행마다 다른 고객 ID를 고객별 정답 평균으로 바꾸면 그 평균은 자기 정답 하나뿐이다. 새 고객을 예측해야 하는데 학습 입력에 답을 그대로 붙인 셈이다. 이 위험을 막으려면 외부 검증 분할 외에 학습 행의 인코딩을 만드는 내부 경계도 필요하다.</p>
 <p>학습 범주 A의 두 관측 행에서 정답이 0·1이면 전체 평균은 0.5다. 각 행에 자기 정답을 포함한 통계를 붙이면 그 행의 정답이 입력에 영향을 준다. 특히 범주가 행마다 고유하면 범주 평균이 바로 정답이 되어 입력에 정답이 그대로 들어간다. 따라서 학습 행의 인코딩값은 해당 행이 속한 내부 묶음을 제외한 다른 학습 묶음에서 계산한다. 이를 교차 적합(out-of-fold 또는 cross-fitting)이라고 부른다.</p>
 <p>예를 들어 내부 묶음 1의 범주 A 정답이 [0,0], 묶음 2의 A 정답이 [1,1]이면 묶음 1의 행에는 묶음 2의 평균 1을, 묶음 2의 행에는 묶음 1의 평균 0을 붙인다. 전체 평균 0.5와 다르다고 오류인 것은 아니다. 자신의 묶음에 속한 정답을 제외한 결과다. 최종 외부 검증·평가 데이터에는 외부 학습 데이터 전체의 A 평균 0.5를 적용한다. 외부 검증 정답은 어느 단계의 평균에도 들어가지 않는다.</p>
-<p>내부 분할도 실제 평가 상황을 따라야 한다. 미래 예측 문제에서 임의로 나눈 묶음의 미래 정답을 과거 행의 인코딩에 쓰면 여전히 누수가 생긴다. 새 범주나 표본이 적은 범주에는 전체 학습 평균과 섞는 평활화 등을 사용할 수 있지만, 그 전체 평균도 허용된 학습 데이터에서만 구해야 한다. 전처리 Pipeline 안에 넣었다는 이유만으로 모든 인코더가 학습 데이터를 자동으로 교차 적합한다고 가정하지 말고, 해당 구현의 fit_transform 동작을 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O08-03">8.9 실습문제 · 3번</a></p></details>
+<p>내부 분할도 실제 평가 상황을 따라야 한다. 미래 예측 문제에서 임의로 나눈 묶음의 미래 정답을 과거 행의 인코딩에 쓰면 여전히 누수가 생긴다. 새 범주나 표본이 적은 범주에는 전체 학습 평균과 섞는 평활화 등을 사용할 수 있지만, 그 전체 평균도 허용된 학습 데이터에서만 구해야 한다. 전처리 Pipeline 안에 넣었다는 이유만으로 모든 인코더가 학습 데이터를 자동으로 교차 적합한다고 가정하지 말고, 해당 구현의 fit_transform 동작을 확인한다.</p>
+<p>“자기 행 제외”가 핵심이지만 실제 구현에서는 자기 내부 묶음을 통째로 제외하는 방식이 흔하다. 외부 검증은 어느 내부 평균에도 정답을 제공하지 않는다. 범주별 표본이 적으면 추정이 불안정해 학습 전체 평균과 섞는 평활화를 검토하되 그 평균의 자료 범위도 지킨다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 학습 행은 자기 묶음 밖 통계, 외부 검증은 외부 학습 통계로 표현한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O08-03">8.9 실습문제 · 3번</a></p></details>
 <h3 id="theory-08-5">5. 미지 범주 번호와 임베딩 인덱스를 구분한다</h3>
+<p>-1을 “처음 보는 종류”라는 이름표로 정하는 것과 배열의 -1번 행을 읽는 것은 다르다. 인코딩 번호가 다음 도구에서 어떤 역할로 사용되는지 확인하지 않으면 의미는 맞아도 실행이 실패할 수 있다.</p>
 <p>순서형 인코딩에서 알려진 범주를 A→0,B→1,C→2, 처음 보는 범주를 −1로 정한다면 −1이 기존 번호와 충돌하지 않아야 한다. 다만 수치형 모델은 이 번호에 크기가 있다고 해석해 실제로 없는 순서를 반영할 수 있다. 원-핫 인코딩은 종류별로 열을 따로 두므로 숫자 간 거리를 직접 부여하지 않지만 차원이 커진다.</p>
-<p>PyTorch Embedding은 번호를 벡터 표의 행 인덱스로 사용한다. num_embeddings=4이면 유효한 인덱스는 0·1·2·3이며 −1은 아니다. 처음 보는 범주에 0을 남겨 두고 알려진 세 종류를 1·2·3으로 옮기면 모든 입력이 범위 안에 들어간다. 임베딩 입력은 정수 인덱스여야 하며 학습·검증·평가 데이터에 같은 대응표를 사용한다. 미지 범주 벡터가 실제로 학습되었는지는 별개의 문제다. 범위 오류를 없앴다고 새 범주의 의미까지 학습한 것은 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O08-05">8.9 실습문제 · 5번</a></p></details>
+<p>PyTorch Embedding은 번호를 벡터 표의 행 인덱스로 사용한다. num_embeddings=4이면 유효한 인덱스는 0·1·2·3이며 −1은 아니다. 처음 보는 범주에 0을 남겨 두고 알려진 세 종류를 1·2·3으로 옮기면 모든 입력이 범위 안에 들어간다. 임베딩 입력은 정수 인덱스여야 하며 학습·검증·평가 데이터에 같은 대응표를 사용한다. 미지 범주 벡터가 실제로 학습되었는지는 별개의 문제다. 범위 오류를 없앴다고 새 범주의 의미까지 학습한 것은 아니다.</p>
+<p>Embedding에서 0은 자동으로 모든 미지 범주의 의미를 이해하는 값이 아니라 우리가 남겨 둔 주소다. 그 행 벡터를 실제로 학습할 데이터가 있었는지도 따로 봐야 한다. 학습·검증에서 서로 다른 대응표를 새로 만들면 같은 번호가 다른 종류를 가리킬 수 있다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 범주 번호의 의미·충돌·다음 도구의 주소 범위를 따로 검사한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O08-05">8.9 실습문제 · 5번</a></p></details>
 <h3 id="theory-08-6">6. 전방 채우기와 증강은 예측 시점에 쓸 수 있는 정보로 판단한다</h3>
+<p>같은 과거 값 채우기라도 지금 관측을 받았는지 여부에 따라 합법적인 입력과 미래 누수가 갈린다. 파일에서 앞 행이라는 이유만으로 과거 정보라고 볼 수 없고, 뒤집은 이미지가 같은 정답을 갖는지도 별도 조건이 필요하다.</p>
 <p>시각 1에 차량 A의 센서 값 5를 관측하고 시각 2는 결측이라고 하자. 시각 2를 예측할 때 시각 1의 기록을 실제로 사용할 수 있다면, 앞선 값 5로 빈칸을 채우는 것은 과거 정보를 이용하는 처리다. 분할 전에 일괄 실행했다는 코드 위치만으로 누수라고 확정할 수는 없다. 중요한 것은 채운 값이 어디에서 왔는지다. 시간 순서가 뒤섞여 미래 관측을 앞 행에 전달하거나, 차량을 구분하지 않아 A의 마지막 값을 B의 첫 빈칸에 넣으면 잘못된 처리다.</p>
 <p>시각 5에서 미래 6·7·8을 한꺼번에 예측한다면 아직 얻지 못한 시각 6의 관측값을 7의 예측에 써서는 안 된다. 반면 매 시각 새 관측값을 받은 뒤 다음 시각을 예측하는 방식이라면 6의 관측을 받은 후 7의 예측에 활용할 수 있다. 같은 전방 채우기도 예측을 시작하는 시점과 관측값의 사용 가능 여부에 따라 판단이 달라진다. 뒤의 값으로 채우기와 양방향 보간은 미래 관측을 쓰기 쉬우므로 더욱 분명하게 확인한다.</p>
 <p>증강은 입력을 바꾸되 정답의 의미를 유지하거나 정답도 올바르게 변환하는 학습 절차다. 왼쪽·오른쪽 고장을 구별하는 그림을 뒤집으면서 정답을 그대로 두면 서로 모순되는 학습 사례가 된다. 시계열을 이동하면서 미래 사건의 기준 시점을 그대로 두어도 입력과 정답의 대응이 어긋날 수 있다. 무작위 증강은 학습 데이터에 적용하고, 검증 데이터는 같은 입력에서 항상 같은 결과가 나오는 변환으로 비교한다. 데이터 수를 늘리려는 목적이 있어도 모든 변환을 사용할 수 있는 것은 아니다.</p>
-<p>스케일링과 범주 인코딩은 <a href="https://scikit-learn.org/stable/modules/preprocessing.html" target="_blank" rel="noopener noreferrer">scikit-learn preprocessing</a>, 타깃 인코딩의 내부 분할은 <a href="https://scikit-learn.org/stable/auto_examples/preprocessing/plot_target_encoder_cross_val.html" target="_blank" rel="noopener noreferrer">Target Encoder cross-fitting 예제</a>, 처리 기준을 학습할 데이터의 범위는 <a href="https://scikit-learn.org/stable/common_pitfalls.html#data-leakage" target="_blank" rel="noopener noreferrer">common pitfalls</a>를 참고한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O08-04">8.9 실습문제 · 4번</a> · <a href="#question-V08-04">기초 확인 · 4번</a></p></details>
+<p>스케일링과 범주 인코딩은 <a href="https://scikit-learn.org/stable/modules/preprocessing.html" target="_blank" rel="noopener noreferrer">scikit-learn preprocessing</a>, 타깃 인코딩의 내부 분할은 <a href="https://scikit-learn.org/stable/auto_examples/preprocessing/plot_target_encoder_cross_val.html" target="_blank" rel="noopener noreferrer">Target Encoder cross-fitting 예제</a>, 처리 기준을 학습할 데이터의 범위는 <a href="https://scikit-learn.org/stable/common_pitfalls.html#data-leakage" target="_blank" rel="noopener noreferrer">common pitfalls</a>를 참고한다.</p>
+<p>시간 순서→개체 구분→예측 시작 시각→사용 가능한 마지막 관측 순서로 정보를 검사한다. 미래 여러 시점을 한꺼번에 예측할 때에는 아직 받은 적 없는 중간 실제값을 사용할 수 없다. 증강에서도 변환 후 정답과의 대응을 같은 방식으로 추적한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 변환을 언제 실행했는지보다 어떤 정보로 어떤 정답을 학습했는지를 본다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O08-04">8.9 실습문제 · 4번</a> · <a href="#question-V08-04">기초 확인 · 4번</a></p></details>
 38:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-08","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-08","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3f"}}]]}]
 39:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 3a:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-40:T3c6a,
+40:T7717,
 <span class="section-anchor" id="81" aria-hidden="true"></span>
+<p>빈칸을 채우고, 숫자의 단위를 맞추고, 종류를 숫자로 표현하는 일은 서로 다른 문제다. 이 강의에서는 각 변환이 무엇을 바꾸는지 먼저 손으로 계산한 뒤, 학습에서 정한 규칙을 새 자료에도 같은 방식으로 쓰는 코드를 읽는다.</p>
 
 <h3 id="82">8.2 결측의 세 유형</h3>
+<p>빈칸 10개를 발견해도 바로 삭제할지 채울지는 정해지지 않는다. 고온에서만 센서가 멈췄다면 빈칸 행을 삭제하는 순간 중요한 고온 상태가 학습에서 사라질 수 있다. 결측률이라는 숫자와 결측이 생긴 과정은 함께 봐야 한다.</p>
 <p>결측은 값이 0이라는 뜻이 아니라 <strong>측정값을 모른다</strong>는 뜻이다. 온도 <code>[20, 빈칸, 30]</code>에서 빈칸을 25로 채우더라도 실제 온도가 25였다고 확인한 것은 아니다. 모델이 계산할 수 있도록 추정값을 넣는 것이다. 그 전에 왜 값이 비었는지 생각해야 한다. 무작위 전송 실패와 고온 때문에 센서가 멈춘 경우는 같은 빈칸이어도 의미가 다르다.</p>
 <ul>
 <li>MCAR: 결측 여부가 관측된 값이나 관측되지 않은 값과 무관하다.</li>
@@ -324,7 +357,10 @@ assert np.allclose(valid_mm.ravel(), [0.5, 1.5])
 </tr>
 </tbody></table></div>
 <p>[함정] 전체 데이터의 평균으로 결측값을 채우거나 미래 값을 과거의 빈칸에 채우면 데이터 누수가 생긴다.</p>
+<p>결측 여부를 R로 적어 R=1이면 관측, R=0이면 결측이라고 하자. MCAR는 모든 관련 값과 R이 무관하다는 강한 가정이다. MAR는 이미 관측한 센서 기종 등을 같게 놓고 나면 빠진 온도 자체와 R의 추가 관계가 없다는 가정이다. MNAR는 그 조건을 맞춰도 실제 온도에 따른 누락이 남는 경우다. 약어만 보고 분류하기보다 “무엇을 조건으로 고정했는가”를 적는다.</p>
+<p>결측 표시 열은 원래 빈칸이면 1, 아니면 0을 남긴다. [20,빈칸,30]을 [20,25,30]으로 채우며 표시 [0,1,0]을 함께 주면 측정이 없었다는 사실은 보존된다. 하지만 실제 빠진 온도를 알게 된 것은 아니다. 전부 결측인 열에는 중앙값을 계산할 근거도 없으므로 명세에 따라 별도 정책이 필요하다.</p>
 <h3 id="83">8.3 이상치</h3>
+<p>큰 값이 관측되었다는 사실과 그 값이 틀렸다는 사실을 구별하자. 같은 100도라도 센서 단위가 바뀐 오류일 수도, 실제 과열을 잡아야 하는 핵심 신호일 수도 있다. 아래 경계는 조사할 후보를 찾는 규칙이며 삭제 허가증이 아니다.</p>
 <p>이상치는 값이 비어 있는 상태가 아니라 다른 관측과 유난히 떨어진 <strong>실제 기록값</strong>이다. <code>[10,12,14]</code>의 평균은 12지만 100을 추가하면 평균은 34가 된다. 극단값은 평균이나 제곱오차를 크게 바꿀 수 있다. 그렇다고 값이 크다는 사실만으로 오류라고 단정할 수 없다. 단위 오류인지 실제 과열인지 측정 과정을 먼저 확인한다.</p>
 <p>IQR은 <code>Q3−Q1</code>이다. 하한 <code>Q1−1.5×IQR</code>보다 작거나 상한 <code>Q3+1.5×IQR</code>보다 큰 값을 이상치로 표시한다. 예를 들어 Q1=10, Q3=14이면 IQR=4이고, 경계는 4와 20이다. 경계값 자체는 이상치로 표시하지 않는다. 다만 “통계적 극단값”과 “오류”는 다르다. 고장 예측에서 극단적인 센서 값은 가장 중요한 신호일 수 있다.</p>
 <p>선택지:</p>
@@ -338,7 +374,10 @@ assert np.allclose(valid_mm.ravel(), [0.5, 1.5])
 <li>정상 데이터를 기준으로 학습한 이상탐지 모델 사용</li>
 </ul>
 <p>행을 삭제하면 정답 분포가 달라지고 학습 데이터가 평가 대상을 충분히 대표하지 못할 수 있으므로 신중해야 한다.</p>
+<p>Q1·Q3는 정렬된 값의 아래 25%·위 75% 위치를 요약한 사분위수다. 경계 4·20인 예에서 20은 경계 위가 아니므로 표시하지 않고 21은 후보로 표시한다. 표본이 작을 때 사분위수 계산법에 따라 값이 달라질 수 있으므로 사용한 도구의 정의를 확인한다.</p>
+<p>log1p는 ln(1+x)로 큰 양수의 차이를 눌러 표현하지만 x&gt;−1에서만 실수로 정의된다. RobustScaler는 중앙값과 IQR로 기준을 정해 극단값의 기준 왜곡을 줄이는 도구이지 이상치를 지우는 도구가 아니다. 후버 손실은 작은 오차에는 제곱, 큰 오차에는 선형에 가까운 비용을 주어 큰 오차 하나의 영향을 완화한다. 어느 처리든 검증 조건과 평가 지표를 유지해 비교한다.</p>
 <h3 id="84">8.4 스케일링 공식</h3>
+<p>스케일링은 새로운 측정 정보를 추가하지 않고 숫자를 재는 기준을 바꾸는 작업이다. “10만큼 차이”가 작은지 큰지는 단위와 학습 범위를 알아야 한다. 먼저 아래 최소–최대 예제로 시작점과 한 단위를 정한 뒤 표준화와 비교하자.</p>
 <p>학습 입력 한 열이 <code>[0,5,10]</code>이라고 하자. 학습 최솟값 0을 시작점, 학습 범위 10을 한 단위로 삼으면 각각 0, 0.5, 1이 된다. 새 입력 15도 같은 기준으로 재면 <code>(15−0)/10=1.5</code>다. 이것이 최소–최대 정규화이며 스케일링의 한 방법이다. 아래 x는 새로 바꿀 원래 값, μ_train·σ_train은 학습 평균·표준편차, min_train·max_train은 학습 최솟값·최댓값이다. z와 x'는 변환 결과다.</p>
 <p>표준화:</p>
 <p><code>z = (x - μ_train) / σ_train</code></p>
@@ -346,8 +385,12 @@ assert np.allclose(valid_mm.ravel(), [0.5, 1.5])
 <p><code>x' = (x - min_train) / (max_train - min_train)</code></p>
 <p>로버스트 스케일링은 중앙값과 IQR을 사용한다. 거리 기반 모델인 KNN·SVM, PCA, 선형모델, 신경망은 특성의 척도에 영향을 크게 받는다. 결정트리는 값의 순서에 따라 기준값으로 나누므로 보통 척도의 영향을 덜 받는다.</p>
 <p>[함정] 평가 데이터의 값이 학습 데이터의 범위를 벗어나면 최소–최대 정규화 결과가 0보다 작거나 1보다 클 수 있다. 이것은 오류가 아니다. 명세가 요구하지 않으면 값을 임의로 제한하지 않는다.</p>
+<p>표준화도 숫자를 대입해 보자. 학습값 [2,4,6]이면 평균 4, 모집단 표준편차 √(8/3)≈1.633이다. 학습값은 약 [−1.225,0,1.225], 새 값 8은 (8−4)/1.633≈2.449다. 표준화는 학습 평균을 0, 표준편차를 1로 맞추며 모든 값을 0과 1 사이로 넣거나 정규분포로 바꾸는 것이 아니다. 최소–최대 방식은 학습 양 끝을 0·1로 맞춘다.</p>
+<p>KNN 거리에서 두 열의 차이가 0.2와 20000이면 제곱 항은 0.04와 4억이다. 두 번째 열이 중요하다고 학습해서가 아니라 단위 때문에 거의 혼자 거리를 결정한다. 트리는 x≤기준값으로 나누므로 x와 기준값을 같은 양의 배율로 바꾸면 같은 행을 나눌 수 있다. 다만 값 제한이나 반올림으로 다른 값들을 같게 만들면 이 성질이 깨질 수 있다.</p>
 <h3 id="85-min-max">8.5 상수 열의 최소–최대 정규화</h3>
-<p>상수 열은 <code>[7,7,7]</code>처럼 모든 관측값이 같은 열이다. <code>max=min</code>이므로 원래 식이 <code>0/0</code>이 되어 정의되지 않는다. 아래 함수는 <strong>입력으로 받은 표를 그 표의 최솟값·최댓값으로 변환하는 작은 함수 문제</strong>다. 상수 열에서는 유효값을 0으로, 기존 결측은 그대로 두는 정책을 구현했다. 학습 기준을 저장해 별도 평가 표에 재사용하는 스케일러가 아니므로, 학습·평가 표에 이 함수를 각각 호출하는 전처리로 사용하지 않는다. 별도 스케일러에서 분모를 1로 두는 정책이라면 학습 7은 0이지만 새 9는 2가 될 수 있어, 모든 유효값을 0으로 만드는 정책과 결과가 다르다.</p>
+<p>상수 열을 특별 처리하는 이유는 관측들이 같은 상태라서 학습 자료 안에서 상대적인 위치를 정할 범위가 없기 때문이다. [7,7,7]에 일반 공식을 대입하면 각 분자도 0, 분모도 0이다. 숫자를 임의로 만들기보다 문제에서 요구한 상수·결측 정책을 먼저 읽는다.</p>
+<p>상수 열은 <code>[7,7,7]</code>처럼 모든 관측값이 같은 열이다. <code>max=min</code>이므로 원래 식이 <code>0/0</code>이 되어 정의되지 않는다. 아래 함수는 <strong>입력으로 받은 표를 그 표의 최솟값·최댓값으로 변환하는 작은 함수 문제</strong>다. 상수 열에서는 유효값을 0으로, 기존 결측은 그대로 두는 정책을 구현했다. 학습 기준을 저장해 별도 평가 표에 재사용하는 스케일러가 아니므로, 학습·평가 표에 이 함수를 각각 호출하는 전처리로 사용하지 않는다.</p>
+<p>별도 스케일러에서 분모를 1로 두는 정책이라면 학습 7은 0이지만 새 9는 2가 될 수 있어, 모든 유효값을 0으로 만드는 정책과 결과가 다르다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-08-1">복사</button></div><pre id="code-08-1" tabindex="0" aria-label="8강 PYTHON 예시 1"><code class="language-python">def minmax_selected(df, columns):
     out = df.copy()
     for c in columns:
@@ -360,7 +403,10 @@ assert np.allclose(valid_mm.ravel(), [0.5, 1.5])
         out[c] = s.where(s.isna(), 0.0) if hi == lo else (s - lo) / (hi - lo)
     return out
 </code></pre></div>
+<p>out=df.copy()는 원본을 지키고, 선택 열을 순회하며 없는 이름은 KeyError로 알린다. min(skipna=True)·max(skipna=True)는 실제 관측값으로만 경계를 정한다. 전부 빈칸이면 둘 중 하나가 NaN이므로 continue로 그 열을 그대로 둔다. 나머지는 s.where(s.isna(),0.0)가 빈칸을 남기며 상수 유효값을 0으로 만든다.</p>
+<p>입력이 [7,빈칸,7]이면 [0,빈칸,0]이고, 전부 빈칸이면 그대로다. 빈 columns라면 복사본만 반환한다. 이 함수는 앞의 예제에서 pandas를 pd로 가져왔다는 전제가 있으며 단독 새 노트북이라면 필요한 import를 준비해야 한다. 학습·평가 표를 각각 이 함수로 변환하면 각각 다른 경계를 구하므로 실제 머신러닝 스케일러와 역할이 다르다.</p>
 <h3 id="86">8.6 범주형 인코딩</h3>
+<p>숫자의 크기를 조절하기 전에 원래 숫자에 크기 의미가 있는지 봐야 한다. '소형·중형·대형'에는 순서가 있지만 '서울·부산·대전'의 번호에는 자연스러운 크기가 없다. 같은 0·1·2 표현이라도 모델이 거리와 순서를 읽는 방식에 따라 적절성이 달라진다.</p>
 <p>차종 ‘세단·SUV·트럭’은 크기가 아니라 종류를 뜻한다. 0·1·2로 번호만 붙여 거리 계산에 쓰면 세단과 트럭이 세단과 SUV보다 두 배 멀다고 취급할 수 있다. 원-핫 인코딩은 <code>[1,0,0]</code>, <code>[0,1,0]</code>, <code>[0,0,1]</code>처럼 종류마다 표시 열을 만든다. 숫자의 단위를 바꾸는 <strong>스케일링</strong>과 종류의 표현을 정하는 <strong>인코딩</strong>은 목적이 다르다. 보통 수치 열과 범주 열을 별도로 처리한 다음 같은 행끼리 합쳐 모델에 넣는다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="8강 표 2, 좌우로 스크롤할 수 있습니다"><table data-table="2">
 <thead>
@@ -397,7 +443,11 @@ assert np.allclose(valid_mm.ravel(), [0.5, 1.5])
 </tr>
 </tbody></table></div>
 <p>다중분류의 정답을 숫자로 바꾸는 일은 입력 특성에 순서형 인코딩을 적용하는 것과 다르다. 정답을 <code>0..K-1</code>로 바꿔 학습하고, 예측 후에는 원래 문자열로 복원한다.</p>
+<p>원-핫은 종류 수만큼 표시 열을 만들므로 세 종류를 서로 같은 방식으로 구별한다. 순서형은 한 열만 쓰지만 범주 간 순서·간격을 수치 모델이 읽을 수 있다. 빈도 인코딩은 학습에서 A가 8번, B가 2번이면 0.8·0.2 같은 빈도로 바꾼다. 정답은 안 쓰지만 빈도가 같은 서로 다른 범주를 구별하지 못할 수 있다.</p>
+<p>타깃 인코딩에서 범주가 행마다 고유하면 자기 정답 평균이 바로 자기 정답이다. 학습 표 안을 다시 묶음으로 나누어 각 행이 속한 묶음 밖의 정답으로 통계를 구하는 교차 적합이 필요한 이유다. 검증·평가에는 외부 학습 자료에서 구한 통계만 적용한다. 시간 문제에서는 내부 묶음도 미래 정답을 과거에 주지 않게 구성한다.</p>
+<p>임베딩은 범주 번호를 주소로 사용해 학습 가능한 숫자 벡터 표의 행을 꺼내는 방법이다. 미지 범주 번호 -1은 그 표의 유효 주소가 아니므로 미지=0·기존=1부터처럼 다시 배정한다. num_embeddings=4이면 주소는 0·1·2·3이고 정수 자료형이어야 한다. 오류가 없어져도 미지 범주의 실제 특성까지 학습되었다는 뜻은 아니다.</p>
 <h3 id="87">8.7 데이터 증강</h3>
+<p>정상 차량의 사진을 조금 밝게 바꾸어도 정상이라는 답이 같다면 모델이 밝기 변화에 덜 흔들리도록 연습시킬 수 있다. 그러나 왼쪽 고장 사진을 뒤집으면 오른쪽 고장이 되므로 같은 정답을 붙일 수 없다. 증강은 입력을 바꾸는 기술보다 <strong>어떤 의미가 보존되는가</strong>를 정하는 일이 먼저다.</p>
 <p>데이터를 증강해도 정답은 달라지지 않아야 한다.</p>
 <ul>
 <li>이미지: 자르기, 뒤집기, 색상 변화, 작은 회전. 좌우를 바꾸면 의미가 달라지는 분야에서는 뒤집기를 사용하지 않는다.</li>
@@ -405,7 +455,10 @@ assert np.allclose(valid_mm.ravel(), [0.5, 1.5])
 <li>표형: 무작정 잡음을 넣기보다는 규제를 적용하고 검증하는 것부터 시작하는 편이 안전하다.</li>
 </ul>
 <p>무작위 증강은 학습 데이터에만 적용하고, 검증·평가 데이터에는 같은 입력에서 항상 같은 결과가 나오는 변환을 사용한다.</p>
+<p>시계열도 값을 조금 흔들었을 때 사건 종류는 유지될 수 있지만, 사건 발생 시각을 예측한다면 시간 이동에 맞춰 정답 시각도 바꾸어야 할 수 있다. 원문의 “정답은 달라지지 않아야 한다”는 조건은 정답을 그대로 사용하는 일반 증강을 말한다. 위치·시각 정답이 있는 작업에서는 입력과 함께 정답을 올바르게 변환하는 확장도 가능하지만 임의로 섞어서는 안 된다.</p>
+<p>검증에서 매번 다른 무작위 변환을 쓰면 모델 변경 때문인지 입력 변경 때문인지 점수 차이를 구별하기 어렵다. 그래서 기본 검증·평가는 결정적인 변환으로 비교하고 무작위 증강은 학습에 둔다. “자료 수가 늘었다”는 숫자만으로 독립적인 새로운 실제 관측을 확보한 것과 같다고 보지 않는다.</p>
 <h3 id="88-train-only-fit">8.8 학습 데이터에서만 전처리 기준을 구하는 코드</h3>
+<p>이제 수치 열과 범주 열의 서로 다른 처리 규칙을 묶는다. X_train은 학습 부분의 입력 표, X_valid는 모델 선택용 검증 표, X_test는 최종 예측할 표다. num_cols·cat_cols에는 실제 열 이름 목록이 들어 있어야 하고, 세 표는 같은 특성 의미와 순서를 가져야 한다. 아래는 데이터 생성부터 포함한 독립 실행 예가 아니라 이 준비가 끝난 뒤의 전처리 조각이다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-08-2">복사</button></div><pre id="code-08-2" tabindex="0" aria-label="8강 PYTHON 예시 2"><code class="language-python">from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
@@ -429,6 +482,9 @@ Xva = preprocess.transform(X_valid)
 Xte = preprocess.transform(X_test)
 </code></pre></div>
 <p>PyTorch MLP에 넘길 때 원-핫 인코딩한 희소 배열이 너무 크면 일반 배열로 바꾸는 과정에서 메모리가 부족할 수 있다. 고유 범주 수를 줄이거나 순서형 인코딩, 빈도 인코딩, 임베딩을 검토한다.</p>
+<p>numeric_pipe의 imputer는 학습 열의 중앙값으로 빈칸을 채우고 add_indicator는 학습에서 결측이 있었던 특성의 결측 표시를 추가한다. 다음 scaler는 그 출력의 평균·표준편차로 척도를 맞춘다. 범주 쪽은 최빈값으로 대치한 다음 원-핫 표현으로 바꾼다. handle_unknown="ignore"는 미지 범주가 들어오면 그 범주의 원-핫 부분을 모두 0으로 표현해 오류를 피하게 한다.</p>
+<p>Pipeline은 앞 단계의 결과를 다음 단계에 전달하고 ColumnTransformer는 수치 열·범주 열에 다른 절차를 적용한 뒤 같은 행끼리 합친다. fit_transform은 X_train으로 대치값·척도·범주 목록을 정하고 변환한다. transform은 저장된 모든 기준을 X_valid·X_test에 적용한다. 새 자료에서 fit을 다시 하면 같은 값이 다른 좌표나 범주 열로 표현될 수 있다.</p>
+<p>희소 배열은 대부분 0인 원-핫 값에서 0이 아닌 부분 중심으로 저장해 공간을 아끼는 형식이다. 일반 밀집 배열로 바꾸면 행 수×전체 범주 열 수만큼 공간이 필요하다. 자료형·배열 크기·메모리도 확인한 뒤 PyTorch 입력을 만든다. <a href="https://scikit-learn.org/1.5/modules/preprocessing.html" target="_blank" rel="noreferrer noopener">scikit-learn 전처리 안내</a>에서 실제 실행 버전의 옵션 조건을 함께 확인한다.</p>
 <h3 id="89">8.9 실습문제</h3>
 <ol>
 <li id="question-O08-01" data-question-id="O08-01">학습 데이터 <code>[0,5,10]</code>, 평가 데이터 <code>[15]</code>에 학습 데이터 기준의 최소–최대 정규화를 적용하면 평가 데이터의 값은 얼마인가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-08-2">fit으로 기준을 구하고 transform으로 재사용한다</a></p></details></li>
@@ -438,19 +494,51 @@ Xte = preprocess.transform(X_test)
 <li id="question-O08-05" data-question-id="O08-05">평가 데이터에만 있는 범주를 순서형 인코딩으로 -1에 배정할 때, 이 번호의 의미와 기존 번호와의 충돌 여부에서 무엇을 확인해야 하는가? 이어서 PyTorch Embedding에 넣는다면 어떤 추가 변환과 범위 검사가 필요한가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-08-5">미지 범주 번호와 임베딩 인덱스를 구분한다</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_9"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li><code>(15-0)/(10-0)=1.5</code>.</li>
-<li>KNN이다. 거리 계산이 특성의 단위에 직접 영향을 받는다.</li>
-<li>각 학습 행은 그 행의 정답을 제외한 다른 학습 묶음에서 구한 통계로 인코딩한다. 검증·평가 데이터에는 학습 데이터에서 구한 통계를 쓴다.</li>
-<li>시간 정렬이 잘못되어 미래 값을 전달하거나, 다른 개체의 값을 넘기거나, 예측을 시작하는 시점에 아직 관측할 수 없는 값을 사용하면 누수 또는 잘못된 특성 처리가 된다. 같은 개체에서 실제로 이용할 수 있는 과거 값만 전달했다면, 분할 전에 실행했다는 이유만으로 항상 누수인 것은 아니다. 여러 미래 시점을 한꺼번에 예측하는 경우와 새 관측값을 순차적으로 받으며 예측하는 경우는 이용 가능한 정보가 다르다는 점도 구분한다.</li>
-<li>처음 보는 범주에 배정한 -1이 기존 범주 번호와 충돌하지 않는지, 수치형 모델이 이를 어떤 순서나 거리로 해석하는지 확인한다. 임베딩을 쓴다면 -1을 직접 넣지 않고 처음 보는 범주는 0, 기존 범주는 1부터 시작하는 유효한 인덱스로 바꾼다. 자료형이 정수인지, 0 ≤ index &lt; num_embeddings인지도 검사한다. 모든 모델에 임베딩의 인덱스 범위 조건이 필요한 것은 아니다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 평가값이 아니라 학습값의 최솟값 0·최댓값 10으로 기준을 만든다.</p>
+<p><strong>풀이:</strong> 분모는 10−0=10, 새 값의 학습 최소부터 차이는 15−0=15다. 15/10=1.5이므로 학습 범위의 한 배 반 위치다.</p>
+<p><strong>정답:</strong> <code>(15-0)/(10-0)=1.5</code>.</p>
+<p><strong>왜?</strong> 0·1은 학습 양 끝의 새 좌표이지 미래 값의 강제 경계가 아니기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 평가값 하나로 다시 fit해 0으로 만들거나 임의로 1에 잘라 넣지 않는다. 값 제한은 별도 명세·검증 판단이다.</p>
+<p><strong>한 줄 기억:</strong> Min-Max의 새 값은 train 범위 밖이면 0 미만·1 초과도 가능하다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> KNN은 거리, 트리는 단일 특성의 기준값 비교를 사용한다.</p>
+<p><strong>풀이:</strong> 두 특성 차이가 0.2와 200이면 거리 제곱 항은 0.04와 40000이다. 둘째 단위가 거리를 지배한다. 트리는 x≤t를 x′=ax+b, t′=at+b(a&gt;0)로 바꾸어도 같은 행을 나눌 수 있다.</p>
+<p><strong>정답:</strong> KNN이다. 거리 계산이 특성의 단위에 직접 영향을 받는다.</p>
+<p><strong>왜?</strong> 거리의 실제 크기는 척도에 따라 달라지지만 보통 트리의 분할 순서는 양의 선형 스케일링에서 유지된다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 트리가 어떤 전처리에도 불변이거나 문자열·결측을 언제나 직접 받는다는 뜻은 아니다. clipping은 값의 구분을 없앨 수 있다.</p>
+<p><strong>한 줄 기억:</strong> KNN은 단위가 이웃을 바꾸므로 스케일링이 더 중요하다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 학습 행 자신의 정답이 해당 행 입력을 만드는 통계에 들어가면 안 된다.</p>
+<p><strong>풀이:</strong> 외부 train을 내부 묶음으로 나눈다. 한 묶음의 행을 변환할 때 나머지 train 묶음에서 범주 평균을 구한다. 모든 학습 행을 이런 교차 적합으로 만든다. 외부 valid/test에는 외부 train 전체 통계를 적용한다.</p>
+<p><strong>정답:</strong> 각 학습 행은 그 행의 정답을 제외한 다른 학습 묶음에서 구한 통계로 인코딩한다. 검증·평가 데이터에는 학습 데이터에서 구한 통계를 쓴다.</p>
+<p><strong>왜?</strong> 자기 정답이 평균에 들어가면 특히 고유 범주에서 입력이 답 자체가 되어 실제 새 사례에서 불가능한 예측을 학습하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> Pipeline에 넣었다고 모든 인코더가 자동 OOF인 것은 아니다. 시간·그룹 문제의 내부 분할도 정보 가용성을 지켜야 한다.</p>
+<p><strong>한 줄 기억:</strong> 학습 인코딩은 자기 묶음 밖 정답으로, 검증 인코딩은 외부 학습 정답으로 만든다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 채울 값의 실제 출처·개체·관측 시각과 예측 시작 시각을 확인한다.</p>
+<p><strong>풀이:</strong> 시간이 뒤섞이면 미래 관측이 앞 행에 전달될 수 있고, 그룹을 안 나누면 다른 차량 값이 넘어간다. t5에서 t6·t7을 일괄 예측할 때 t6 실제 관측을 t7에 쓰면 아직 모르는 정보를 사용한다. 반대로 t6을 받은 뒤 t7을 예측하는 순차 조건이면 사용할 수 있다.</p>
+<p><strong>정답:</strong> 시간 정렬이 잘못되어 미래 값을 전달하거나, 다른 개체의 값을 넘기거나, 예측을 시작하는 시점에 아직 관측할 수 없는 값을 사용하면 누수 또는 잘못된 특성 처리가 된다. 같은 개체에서 실제로 이용할 수 있는 과거 값만 전달했다면, 분할 전에 실행했다는 이유만으로 항상 누수인 것은 아니다. 여러 미래 시점을 한꺼번에 예측하는 경우와 새 관측값을 순차적으로 받으며 예측하는 경우는 이용 가능한 정보가 다르다는 점도 구분한다.</p>
+<p><strong>왜?</strong> 누수 판단은 코드의 분할 전후 위치보다 실제 예측 때 동일 입력을 만들 수 있는지에 달렸다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 분할 전에 ffill했다는 사실만으로 항상 누수라 하지 않는다. 다른 개체의 값 전달은 누수 또는 잘못된 특성 처리로 따로 구분한다.</p>
+<p><strong>한 줄 기억:</strong> ffill은 같은 개체의 실제로 이용 가능한 과거 값만 전달해야 한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> -1은 미지 범주 표현이며 이후 모델이 순서형 숫자로 쓰는지 임베딩 주소로 쓰는지 구별한다.</p>
+<p><strong>풀이:</strong> 기존 범주에 -1이 없는지 확인한다. 임베딩으로 넘기면 미지를 0, 기존 0·1·2를 1·2·3으로 옮기는 같은 대응표를 만든다. num_embeddings=4라면 입력 모두 정수 0 이상 4 미만인지 검사한다.</p>
+<p><strong>정답:</strong> 처음 보는 범주에 배정한 -1이 기존 범주 번호와 충돌하지 않는지, 수치형 모델이 이를 어떤 순서나 거리로 해석하는지 확인한다. 임베딩을 쓴다면 -1을 직접 넣지 않고 처음 보는 범주는 0, 기존 범주는 1부터 시작하는 유효한 인덱스로 바꾼다. 자료형이 정수인지, 0 ≤ index &lt; num_embeddings인지도 검사한다. 모든 모델에 임베딩의 인덱스 범위 조건이 필요한 것은 아니다.</p>
+<p><strong>왜?</strong> 일반 숫자 코드는 의미를 표현하지만 Embedding은 실제 벡터 표의 행 주소로 사용하여 음수 주소를 허용하지 않기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> -1을 Python 리스트의 뒤에서 첫 위치처럼 해석하지 않는다. 미지 주소를 마련했다고 미지 범주의 의미까지 잘 학습한 것은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 범주 의미·번호 충돌·임베딩 유효 주소를 각각 확인한다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="810">8.10 완료 기준</h3>
+<p>체크하기 전에 아래 행동을 해설 없이 직접 수행한다. 막힌 항목은 앞 절의 작은 예로 돌아가 입력 숫자를 바꾸어 다시 설명한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="08-1"><span>상수 열, 전부 결측인 열, 처음 보는 범주를 포함한 테스트를 만들어 비공개 테스트에 대비한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="08-2"><span>분할 후 학습 데이터로만 스케일러를 학습하는 코드를 빈 화면에서 쓴다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="08-3"><span>증강 후에도 정답이 유지되는지 설명한다.</span></label></li>
 </ul>
+<p>학습 기준을 새 입력에도 재사용할 수 있다면 다음에는 모델에게 줄 특성을 새로 만들거나 줄인다. 각 처리 뒤에 값·축·정의역·시간 가용성을 한 가지씩 확인한다.</p>
 
 
 3b:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$40"}}]

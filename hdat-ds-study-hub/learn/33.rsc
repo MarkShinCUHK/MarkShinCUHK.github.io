@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/33","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/33":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/33":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","33"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/33","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/33"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/33"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/33","_N_T_/layout","_N_T_/learn/33","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/33"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/33","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/33":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/33":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","33"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/33","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/33"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/33"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/33","_N_T_/layout","_N_T_/learn/33","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/33"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -42,7 +42,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 25:["$","li","34",{"data-current":false,"children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/34/","children":["34",". ","21일 학습 계획·최종 암기표·준비 상태 점검"]}]}]
 26:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-33-1",{"children":[["$","a",null,{"href":"#visual-33-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-33-1",{"children":["$","a",null,{"href":"#topic-33-1","children":"종합 모의의 예측 목표"}]}],["$","li","topic-33-2",{"children":["$","a",null,{"href":"#topic-33-2","children":"문제 첫 문장을 실행할 자료 구조로 바꾸기"}]}]]}]]}]]}],["$","li","visual-33-2",{"children":[["$","a",null,{"href":"#visual-33-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-33-3",{"children":["$","a",null,{"href":"#topic-33-3","children":"원시 정답의 빈칸과 윈도의 시작을 나누어 보기"}]}],["$","li","topic-33-4",{"children":["$","a",null,{"href":"#topic-33-4","children":"단위와 정답 생성"}]}]]}]]}]]}],["$","li","visual-33-3",{"children":[["$","a",null,{"href":"#visual-33-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-33-4",{"children":[["$","a",null,{"href":"#visual-33-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-33-5",{"children":["$","a",null,{"href":"#topic-33-5","children":"941개 샘플과 한 예측"}]}],["$","li","topic-33-6",{"children":["$","a",null,{"href":"#topic-33-6","children":"개수와 세 출력 계산을 한 번 더 펼치기"}]}]]}]]}]]}],["$","li","visual-33-5",{"children":[["$","a",null,{"href":"#visual-33-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",4,"개"]}],["$","ul",null,{"children":[["$","li","topic-33-7",{"children":["$","a",null,{"href":"#topic-33-7","children":"분할 경계는 모델이 사용할 수 있는 정보의 경계다"}]}],["$","li","topic-33-8",{"children":["$","a",null,{"href":"#topic-33-8","children":"비슷한 이름의 지표도 계산 순서가 다르다"}]}],["$","li","topic-33-9",{"children":["$","a",null,{"href":"#topic-33-9","children":"기준 모델에서 CNN으로"}]}],["$","li","topic-33-10",{"children":["$","a",null,{"href":"#topic-33-10","children":"기준 모델은 더 큰 모델을 평가할 질문을 만든다"}]}]]}]]}]]}],["$","li","visual-33-6",{"children":[["$","a",null,{"href":"#visual-33-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-33-11",{"children":["$","a",null,{"href":"#topic-33-11","children":"경계·재학습·제출 조건"}]}],["$","li","topic-33-12",{"children":["$","a",null,{"href":"#topic-33-12","children":"학습 손실과 제출 지표를 따로 기록하는 이유"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-33","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-33-1",{"children":["$","a",null,{"href":"#theory-33-1","children":"차량 센서 다중출력 회귀의 입력·정답 시점"}]}],["$","li","theory-33-2",{"children":["$","a",null,{"href":"#theory-33-2","children":"%·85%는 입력 구간의 비율이 아니라 원본 시계열의 분할 위치다"}]}],["$","li","theory-33-3",{"children":["$","a",null,{"href":"#theory-33-3","children":"다중출력 MSE와 정답의 역변환이 모델 선택을 바꾼다"}]}],["$","li","theory-33-4",{"children":["$","a",null,{"href":"#theory-33-4","children":"CNN 비교·체크포인트·제출까지 하나의 실험으로 기록하기"}]}],["$","li","theory-33-5",{"children":["$","a",null,{"href":"#theory-33-5","children":"통합 Process의 결측 보고서·그룹 통계·시차값"}]}],["$","li","theory-33-6",{"children":["$","a",null,{"href":"#theory-33-6","children":"통합 Process의 F1·클래스 가중치·RGB·명세에 맞는 CNN"}]}],["$","li","theory-33-7",{"children":["$","a",null,{"href":"#theory-33-7","children":"별도 통합 Problem인 새 차량 고장 분류의 이론 연결"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","331",{"children":["$","a",null,{"href":"#331","children":"문제"}]}],["$","li","332",{"children":["$","a",null,{"href":"#332","children":"데이터 생성 셀"}]}],["$","li","333",{"children":["$","a",null,{"href":"#333","children":"응시자 과제"}]}],["$","li","3311",{"children":["$","a",null,{"href":"#3311","children":"채점 기준"}]}],["$","li","3312-a-group",{"children":["$","a",null,{"href":"#3312-a-group","children":"확장 모의 A — group 일반화"}]}],["$","li","3313-b-event",{"children":["$","a",null,{"href":"#3313-b-event","children":"확장 모의 B — 불균형 event 분류"}]}],["$","li","3314",{"children":["$","a",null,{"href":"#3314","children":"회고 질문"}]}],["$","li","3315-process-8-problem-1-170",{"children":["$","a",null,{"href":"#3315-process-8-problem-1-170","children":"통합 모의고사 — Process 8 + Problem 1, 총 170분"}]}],["$","li","3316-problem",{"children":"$L32"}],"$L33"]}],"$L34","$L35"]]}]
 27:["$","$L36",null,{}]
-28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 37:T5810,<h3 id="visual-33-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-33-1">종합 모의의 예측 목표</h4>
 <p>센서 12개가 달린 차량에서 최근 20개 관측을 읽고 40개 샘플 뒤의 세 연속값을 예측한다. 익숙한 모델 이름은 많지만 처음 주어진 것은 <code>X_raw</code>, <code>y_raw</code>라는 배열뿐이다. 종합 모의고사는 배열의 시점과 정답이 올바르게 대응하는지 확인하고, 검증으로 성능을 확인할 수 있는 모델을 만든 뒤, 마지막 예측 파일까지 혼자 완성하는 연습이다.</p>
@@ -183,37 +183,51 @@ print("valid MSE:", base_mse, linear_mse, "output:", loaded.shape)
 33:["$","li","3318",{"children":["$","a",null,{"href":"#3318","children":"통합 모의 채점표"}]}]
 34:["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}]
 35:["$","ol",null,{"children":[["$","li","visual-33-7",{"children":["$","a",null,{"href":"#visual-33-7","children":"스스로 확인하기"}]}],["$","li","visual-33-8",{"children":["$","a",null,{"href":"#visual-33-8","children":"정답과 이유"}]}],["$","li","visual-33-9",{"children":["$","a",null,{"href":"#visual-33-9","children":"더 읽을 공식 자료"}]}]]}]
-3f:T3dee,<h3 id="theory-33-1">1. 차량 센서 다중출력 회귀의 입력·정답 시점</h3>
+3f:T4d5e,<h3 id="theory-33-1">1. 차량 센서 다중출력 회귀의 입력·정답 시점</h3>
+<p>이번에는 별개로 배운 단계들을 하나의 과제에서 연결한다. 한 입력은 센서 12개를 20번 관측한 구간이고, 한 정답은 40표본 뒤의 연속값 세 개다. <strong>입력 구간 하나와 정답 행 하나가 정확히 짝을 이루는지</strong>가 출발점이다. 데이터 생성기가 그렇게 짝을 만든 자체 연습 문제이지 실제 차량에 반드시 적용되는 법칙은 아니다. 아래 작은 T=200 예에서 첫 짝과 마지막 짝을 확인한 뒤 큰 모의 자료로 옮긴다.</p>
 <p>이 모의고사의 중심 문제는 100Hz로 기록한 차량 센서 12개에서 과거 관측 20개를 사용해, 마지막 관측으로부터 40샘플 뒤의 연속값 3개를 예측하는 것이다. B는 배치 크기, L=20은 입력 길이, F=12는 입력 특성 수, D=3은 연속값 출력 수다. 입력 [B,20,12]와 정답 [B,3]의 첫 축은 같은 샘플을 가리켜야 한다. 세 클래스 분류가 아니므로 마지막에 소프트맥스를 붙이지 않는다.</p>
 <p>데이터 생성기는 끝 시점 e의 센서 조합을 y[e+40]에 저장한다. 이는 과거 입력으로 예측할 수 있는 합성 데이터를 만들기 위한 자체 설정이지 실제 차량의 물리 법칙이 아니다. 앞의 40개 y는 아직 정의하지 않았으므로 NaN이다. NaN이 있다는 이유로 전체를 0으로 채우면 존재하지 않는 정답을 학습하게 된다. 유효한 입력 끝 인덱스 e와 정답 인덱스 e+40을 골라 해당 정답만 사용한다.</p>
 <p>손계산 A: 작은 예로 따로 검산하기 위해 T=200,L=8,H=12라고 하자. 가능한 e는 7부터 187까지이고 정답 인덱스는 19부터 199까지이므로 181개다. e=7의 입력은 X[0:8], 정답은 y[19]이고 e=187은 X[180:188]와 y[199]다. [B,L,F]로 쌓을 때 원본 시점 수 T와 배치 크기를 혼동하지 않는다. 이 작은 인덱스 테스트를 통과한 뒤 원래 모의고사의 L=20,H=40으로 바꾼다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 5개</summary><p><a href="#question-O33-01">33.1 문제</a> · <a href="#question-O33-02">33.3 응시자 과제 · 1번</a> · <a href="#question-O33-04">33.3 응시자 과제 · 3번</a> · <a href="#question-O33-12">33.14 회고 질문 · 2번</a> · <a href="#question-V33-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-33-2">2. 70%·85%는 입력 구간의 비율이 아니라 원본 시계열의 분할 위치다</h3>
+<p>원본 시간선을 70%에서 자르는 것과, 이미 만든 모든 창의 앞 70%를 고르는 것은 같은 작업이 아니다. 창에는 입력을 모으는 길이와 미래 정답까지의 간격이 있어 경계 주변 일부를 제외할 수 있다. 아래 예에서는 <strong>학습에 사용한 마지막 정답과 다음 단계의 첫 예측 시점</strong>을 비교한다. 시점 169의 정답까지 보고 모델을 고른 뒤 시점 158에서의 예측을 평가하면 당시 몰랐던 답이 선택에 사용된 셈이기 때문이다.</p>
 <p>원본 시계열에서 cut₁과 cut₂를 정하고, 학습 데이터는 target&lt;cut₁, 검증 데이터는 end≥cut₁이면서 target&lt;cut₂, 평가 데이터는 end≥cut₂로 두자. 그러면 모든 학습 정답은 첫 검증 예측의 기준 시점 전에, 모든 검증 정답은 첫 평가 예측의 기준 시점 전에 알려진다. 중간에 제외되는 구간은 예측 간격 때문에 생기며, 처음에 필요한 입력 길이와 마지막 예측 간격도 샘플 수를 줄인다. 원본 경계를 70/15/15로 나눴다고 최종 입력 구간 수가 같은 비율이 되는 것은 아니다.</p>
-<p>위의 작은 T=200 예에서 cut₁=140,cut₂=170이면 학습 정답 인덱스 19부터 139까지는 121개, 검증 입력 끝 인덱스 140부터 157까지는 18개, 평가 입력 끝 인덱스 170부터 187까지는 18개다. 경계에 있는 정답 인덱스 140부터 151과 170부터 181은 각각 12개씩 제외되므로 121+18+18+24=181이다. 검증 정답을 169까지 보고 모델을 골랐는데 평가 정답 인덱스를 170부터 시작하면, 첫 평가 예측의 기준 시점은 158이므로 아직 알려지지 않은 검증 정답까지 사용한 셈이다. 따라서 모델을 고정하는 이 설계에서는 평가 예측의 기준 시점을 170부터 둔다.</p>
+<p>위의 작은 T=200 예에서 cut₁=140,cut₂=170이면 학습 정답 인덱스 19부터 139까지는 121개, 검증 입력 끝 인덱스 140부터 157까지는 18개, 평가 입력 끝 인덱스 170부터 187까지는 18개다. 경계에 있는 정답 인덱스 140부터 151과 170부터 181은 각각 12개씩 제외되므로 121+18+18+24=181이다. 검증 정답을 169까지 보고 모델을 골랐는데 평가 정답 인덱스를 170부터 시작하면, 첫 평가 예측의 기준 시점은 158이므로 아직 알려지지 않은 검증 정답까지 사용한 셈이다.</p>
+<p>따라서 모델을 고정하는 이 설계에서는 평가 예측의 기준 시점을 170부터 둔다.</p>
 <p>실제 모의고사에서는 첫 유효 정답 인덱스, 각 구간의 마지막 정답 인덱스, 다음 구간의 첫 예측 기준 시점을 출력해 검산한다. 단순히 학습 최대시간≤검증 최소시간이라고 한 줄만 쓰기보다 무엇의 시간인지 표시해야 한다. 이미 관측할 수 있는 과거 기록을 검증 입력에 다시 사용하는 것은 허용될 수 있다. 새 차량을 예측하는 과제라면 시간 조건 외에 그룹 경계도 검토한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 4개</summary><p><a href="#question-O33-01">33.1 문제</a> · <a href="#question-O33-03">33.3 응시자 과제 · 2번</a> · <a href="#question-O33-13">33.14 회고 질문 · 3번</a> · <a href="#question-V33-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-33-3">3. 다중출력 MSE와 정답의 역변환이 모델 선택을 바꾼다</h3>
+<p>세 출력의 단위가 다르면 큰 단위의 오차가 제곱합에 더 크게 들어갈 수 있다. 표준화는 각 오차를 그 출력의 표준편차로 나누므로 학습에서 출력별 상대 비중을 바꾼다. 아래 A·B 예는 <strong>표준화 손실로 좋은 모델과 공식 원단위 지표로 좋은 모델이 다를 수 있음</strong>을 보여 준다. 모델 선택 단계에서는 예측을 되돌린 뒤 지시된 지표를 계산해야 하며, 여러 출력의 제곱근을 언제 취하는지도 고정해야 한다.</p>
 <p>전체 MSE는 ΣᵢΣⱼ(ŷᵢⱼ−yᵢⱼ)²/(ND)다. 결측값과 별도의 가중치가 없으면 출력마다 평균을 낸 뒤 같은 가중치로 평균해도 값이 같다. 그러나 출력별 RMSE의 평균은 제곱근을 먼저 적용하므로 전체 RMSE와 다르다. 손계산 B: 두 샘플의 오차가 각각 [2,0,4], [0,2,4]이면 제곱합은 40, 원소는 6개이므로 MSE=20/3≈6.667, 전체 RMSE≈2.582다. 출력별 RMSE는 [√2,√2,4]이고 평균은 약 2.276이다.</p>
-<p>정답을 표준점수로 변환해 학습하면 출력 j의 변환된 오차는 원래 단위의 오차를 sⱼ로 나눈 값이다. 여기서 sⱼ는 양수인 척도 변환값이다. 정답이 상수이면 표준편차가 0이므로 이 모의고사의 StandardScaler처럼 scale=1로 두는 고정 규칙을 사용해 0으로 나누지 않는다. 따라서 변환된 MSE는 원래 단위의 제곱오차를 sⱼ²로 나눈, 가중치가 다른 손실이다. 두 축의 s가 1과 10인 상황에서 후보 A의 원래 단위 오차가 [2,0], 후보 B가 [0,3]이면 원래 단위의 MSE는 A=2,B=4.5로 A가 낫다. 하지만 변환된 MSE는 A=2,B=0.045로 B를 고른다. 이 때문에 체크포인트는 에포크마다 예측을 역변환한 뒤 계산한 공식 원래 단위의 MSE로 선택한다.</p>
+<p>정답을 표준점수로 변환해 학습하면 출력 j의 변환된 오차는 원래 단위의 오차를 sⱼ로 나눈 값이다. 여기서 sⱼ는 양수인 척도 변환값이다. 정답이 상수이면 표준편차가 0이므로 이 모의고사의 StandardScaler처럼 scale=1로 두는 고정 규칙을 사용해 0으로 나누지 않는다. 따라서 변환된 MSE는 원래 단위의 제곱오차를 sⱼ²로 나눈, 가중치가 다른 손실이다. 두 축의 s가 1과 10인 상황에서 후보 A의 원래 단위 오차가 [2,0], 후보 B가 [0,3]이면 원래 단위의 MSE는 A=2,B=4.5로 A가 낫다.</p>
+<p>하지만 변환된 MSE는 A=2,B=0.045로 B를 고른다. 이 때문에 체크포인트는 에포크마다 예측을 역변환한 뒤 계산한 공식 원래 단위의 MSE로 선택한다.</p>
 <p>전처리는 학습 입력 구간으로만 적합한다. 겹치는 구간을 펼쳐 적합하면 같은 원본 시점이 통계에 여러 번 포함되므로 반복 횟수가 많은 시점에 더 큰 가중치를 주게 된다. 이 모의고사는 그 방식을 명시하지만, 원본 학습 시점을 한 번씩만 사용해 적합하는 설계와 통계가 완전히 같다고 말하지 않는다. 검증·평가 데이터에는 고정된 통계로 transform만 적용한다. 학습 정답의 평균을 쓰는 기준 예측도 검증 데이터를 보지 않고 만들어 첫 유효 NPY 파일을 먼저 확보한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 6개</summary><p><a href="#question-O33-01">33.1 문제</a> · <a href="#question-O33-05">33.3 응시자 과제 · 4번</a> · <a href="#question-O33-06">33.3 응시자 과제 · 5번</a> · <a href="#question-O33-07">33.3 응시자 과제 · 6번</a> · <a href="#question-O33-14">33.14 회고 질문 · 4번</a> · <a href="#question-V33-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-33-4">4. CNN 비교·체크포인트·제출까지 하나의 실험으로 기록하기</h3>
+<p>CNN을 만들었다는 사실보다 기준 모델보다 무엇이 얼마나 좋아졌는지가 중요하다. 전역 평균은 여러 시간 위치를 같은 방식으로 모으므로 마지막 값이 특별히 중요한 문제에서는 더 단순한 모델이 유리할 수 있다. 아래에서는 <strong>모델 선택의 근거와 최종 파일의 유효성</strong>을 하나의 실험 기록에 남긴다. 최저 검증 손실 숫자만 기록하고 실제 가중치를 보존하지 않으면 그 시점의 예측을 다시 만들 수 없다.</p>
 <p>CNN1D에 넣기 전 permute로 [B,L,F]를 [B,F,L]로 바꾼다. 예시의 Conv→ReLU→Conv→ReLU는 위치별 특징을 만들고, AdaptiveAvgPool1d(1)은 길이 축을 평균해 [B,C,1]로 만든다. Flatten(1)과 Linear는 이를 크기가 [B,3]인 회귀 출력으로 바꾼다. 전역 평균은 모든 위치를 요약하지만 마지막 위치를 특별히 강조하지는 않는다. 따라서 마지막 센서값이 중요한 합성 데이터 생성식에서는 마지막 값만 쓰거나 입력을 펼치는 간단한 후보의 성능이 좋을 수도 있다.</p>
-<p>CNN이 평균 기준 예측보다 못하면 입력 구간과 손실 계산이 맞는지, 원래 단위의 평가지표로 비교했는지, 선택한 특성 표현이 목표에 적합한지 확인한다. best_state는 실제 복사본으로 저장하고 선택한 시점의 가중치를 불러온다. 평가용 DataLoader는 원래 순서대로 예측하고, 정답의 척도 변환을 되돌린 뒤 크기가 [N_test,3]인지와 값이 숫자형이고 유한한지 확인한다. 저장 후 다시 읽어 배열 크기, 자료형, 값을 대조한다. 첫 유효 파일을 확보한 시각은 학습 종료 시각이 아니라 이 검사를 처음 통과한 시각으로 기록한다. 모델을 더 학습하다가 시간 상한을 넘기면 기준 모델로 돌아갈 수 있다.</p>
-<p>회고에는 첫 유효 파일까지 걸린 시간, 가장 오래 걸린 오류를 재현하는 최소 입력, 분할이 실제 사용 조건을 반영하는지, CNN의 개선 정도와 비용, 제출 검증 시간을 기록한다. 이 다섯 항목을 기록하라는 것이지 특정 모델이 무조건 이겨야 한다거나 몇 분 안에 끝내면 공식적으로 합격한다는 뜻은 아니다. <a href="https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html" target="_blank" rel="noopener noreferrer">PyTorch 기본 학습 흐름</a>과 <a href="https://numpy.org/doc/stable/reference/generated/numpy.save.html" target="_blank" rel="noopener noreferrer">NumPy NPY 저장</a>을 각 단계의 원리와 연결한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 11개</summary><p><a href="#question-O33-01">33.1 문제</a> · <a href="#question-O33-06">33.3 응시자 과제 · 5번</a> · <a href="#question-O33-07">33.3 응시자 과제 · 6번</a> · <a href="#question-O33-08">33.3 응시자 과제 · 7번</a> · <a href="#question-O33-09">33.3 응시자 과제 · 8번</a> · <a href="#question-O33-10">33.3 응시자 과제 · 9번</a> · <a href="#question-O33-11">33.14 회고 질문 · 1번</a> · <a href="#question-O33-12">33.14 회고 질문 · 2번</a> · <a href="#question-O33-14">33.14 회고 질문 · 4번</a> · <a href="#question-O33-15">33.14 회고 질문 · 5번</a> · <a href="#question-O33-23">통합 Process 8 — NPY 저장 조건</a></p></details>
+<p>CNN이 평균 기준 예측보다 못하면 입력 구간과 손실 계산이 맞는지, 원래 단위의 평가지표로 비교했는지, 선택한 특성 표현이 목표에 적합한지 확인한다. best_state는 실제 복사본으로 저장하고 선택한 시점의 가중치를 불러온다. 평가용 DataLoader는 원래 순서대로 예측하고, 정답의 척도 변환을 되돌린 뒤 크기가 [N_test,3]인지와 값이 숫자형이고 유한한지 확인한다. 저장 후 다시 읽어 배열 크기, 자료형, 값을 대조한다. 첫 유효 파일을 확보한 시각은 학습 종료 시각이 아니라 이 검사를 처음 통과한 시각으로 기록한다.</p>
+<p>모델을 더 학습하다가 시간 상한을 넘기면 기준 모델로 돌아갈 수 있다.</p>
+<p>회고에는 첫 유효 파일까지 걸린 시간, 가장 오래 걸린 오류를 재현하는 최소 입력, 분할이 실제 사용 조건을 반영하는지, CNN의 개선 정도와 비용, 제출 검증 시간을 기록한다. 이 다섯 항목을 기록하라는 것이지 특정 모델이 무조건 이겨야 한다거나 몇 분 안에 끝내면 공식적으로 합격한다는 뜻은 아니다.</p>
+<p><a href="https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html" target="_blank" rel="noopener noreferrer">PyTorch 기본 학습 흐름</a>과 <a href="https://numpy.org/doc/stable/reference/generated/numpy.save.html" target="_blank" rel="noopener noreferrer">NumPy NPY 저장</a>을 각 단계의 원리와 연결한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 11개</summary><p><a href="#question-O33-01">33.1 문제</a> · <a href="#question-O33-06">33.3 응시자 과제 · 5번</a> · <a href="#question-O33-07">33.3 응시자 과제 · 6번</a> · <a href="#question-O33-08">33.3 응시자 과제 · 7번</a> · <a href="#question-O33-09">33.3 응시자 과제 · 8번</a> · <a href="#question-O33-10">33.3 응시자 과제 · 9번</a> · <a href="#question-O33-11">33.14 회고 질문 · 1번</a> · <a href="#question-O33-12">33.14 회고 질문 · 2번</a> · <a href="#question-O33-14">33.14 회고 질문 · 4번</a> · <a href="#question-O33-15">33.14 회고 질문 · 5번</a> · <a href="#question-O33-23">통합 Process 8 — NPY 저장 조건</a></p></details>
 <h3 id="theory-33-5">5. 통합 Process의 결측 보고서·그룹 통계·시차값</h3>
-<p>통합 8문제는 명세 구현을 연습하는 별도 과제이며 차량 센서 회귀의 출력 목표를 바꾸지는 않는다. missing_count는 열마다 NaN의 개수, missing_rate는 그 수/N, nunique_with_missing은 NaN을 하나의 종류로 포함한 고유값 수다. 행 수가 N=0이면 비율을 계산할 수 없으므로 이 모의고사에서는 missing_rate를 0으로 정의한다. 보고서는 원본 열마다 한 행을 만들고 원래 열 이름을 인덱스로 사용한다. 반환 열 순서는 dtype,missing_count,missing_rate,nunique_with_missing으로 고정한다. 원본 자료의 행 인덱스가 연속적이지 않아도 열 통계는 유지한다.</p>
+<p>같은 표라도 열별 보고서는 원본 열마다 한 행, 그룹별 변환은 원본 행마다 결과 하나, 시차값은 같은 그룹의 과거 행에서 가져온 값이다. <strong>무엇 하나당 출력 하나를 만드는지</strong> 먼저 정하면 반환 모양과 인덱스를 판단하기 쉽다. 아래에서 transform은 그룹 통계를 각 원래 행에 되돌리는 역할이고, shift는 정렬된 시간 순서의 이전 값을 옮기는 역할이다. NaN을 세는 것과 NaN을 0으로 바꾸는 것도 서로 다른 명세다.</p>
+<p>통합 8문제는 명세 구현을 연습하는 별도 과제이며 차량 센서 회귀의 출력 목표를 바꾸지는 않는다. missing_count는 열마다 NaN의 개수, missing_rate는 그 수/N, nunique_with_missing은 NaN을 하나의 종류로 포함한 고유값 수다. 행 수가 N=0이면 비율을 계산할 수 없으므로 이 모의고사에서는 missing_rate를 0으로 정의한다. 보고서는 원본 열마다 한 행을 만들고 원래 열 이름을 인덱스로 사용한다.</p>
+<p>반환 열 순서는 dtype,missing_count,missing_rate,nunique_with_missing으로 고정한다. 원본 자료의 행 인덱스가 연속적이지 않아도 열 통계는 유지한다.</p>
 <p>그룹별 표준점수는 각 그룹의 유효값 평균 μ_g와 모집단 표준편차 s_g를 사용해 (x−μ_g)/s_g로 계산한다. 그룹 A의 값이 [2,6], 그룹 B의 값이 [10,10]이고 NaN 하나가 있다면 A는 [−1,1], B의 유효값은 [0,0]이 되며 NaN은 그대로 NaN이다. groupby.transform은 결과를 원래 각 행에 대응시키는 도구이므로 그룹별 요약만 반환하는 agg와 다르다. 상수일 때 0으로 만드는 규칙을 적용하면서 NaN까지 덮어쓰지 않는다.</p>
 <p>과거 시차값은 이동 평균보다 단순하게, 정렬된 그룹에서 lag칸 전의 값을 가져온다. lag=2이고 값이 [3,8,12,20]이면 결과는 [NaN,NaN,3,8]이다. 그룹, 시간, 원래 위치 순으로 정렬한 뒤 결과를 원래 위치로 되돌린다. 같은 시각, NaN, 임시 열 이름의 충돌에 대한 처리 규칙은 32강과 같은 방식으로 문제에서 정하고 구현한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O33-16">통합 Process 1 — 결측 보고서</a> · <a href="#question-O33-17">통합 Process 2 — Group Z-score</a> · <a href="#question-O33-19">통합 Process 4 — Causal Lag</a></p></details>
 <h3 id="theory-33-6">6. 통합 Process의 F1·클래스 가중치·RGB·명세에 맞는 CNN</h3>
+<p>여러 함수를 하나의 답안에 넣더라도 각 반환값의 뜻은 따로 적는다. F1은 평가 숫자 하나, 클래스 가중치는 클래스별 비중, RGB 변환은 이미지 텐서 하나, CNN은 지정한 구조다. 균형 가중치는 <strong>클래스별 개수에 가중치를 곱한 총합이 같아지도록</strong> 만드는 계산이며 모든 샘플에 같은 가중치를 주는 것이 아니다. 아래에서는 각 함수가 받는 자료형·축·0분모 조건을 확인하고 수식이 맞아도 반환 종류를 틀릴 수 있음을 점검한다.</p>
 <p>이진 F1은 크기가 같은 두 1차원 배열의 0·1 값을 불리언 비교하여 TP·FP·FN을 센다. TP=6,FP=2,FN=3이면 P=6/8,R=6/9,F1=12/17다. 어느 분모가 0이면 이 모의고사에서는 해당 정밀도·재현율과 F1을 0으로 정한다. 지표를 계산할 때 확률을 임계값과 비교하지 않고 바로 bool로 바꾸면 0이 아닌 모든 확률을 양성으로 판정하는 오류가 생긴다.</p>
 <p>균형 클래스 가중치(balanced class weight)는 전체 샘플이 N개이고 클래스가 C개일 때 w_c=N/(C×count_c)다. 각 클래스의 총가중치 count_c×w_c=N/C를 같게 만드는 정의다. N=12,C=3,count=[6,3,3]이면 weight=[2/3,4/3,4/3]이다. 누락된 클래스가 있으면 분모가 0이 되므로 명시된 ValueError를 발생시킨다. BCE의 pos_weight=N_negative/N_positive는 양성 손실 항의 상대 가중치이며, 이 C차원 클래스 가중치와 같은 값이 아니다.</p>
-<p>RGB 정규화 함수는 uint8 HWC를 float32 CHW로 바꾸고 x/255에 mean/std를 적용한 텐서 하나를 반환한다. 크기가 [C,1,1]인 mean/std는 브로드캐스팅을 통해 해당 채널의 모든 위치에 적용된다. 원본 텐서와 정규화 텐서 두 개를 튜플로 반환하라는 요구가 아니다. std는 유한한 양수로 이루어져야 하며 길이는 3이어야 한다. 명세에 맞는 CNN 블록에서는 커널 개수×연결된 입력 채널 수×커널 면적으로 Conv 파라미터 수를 세고, bias=False이면 편향을 더하지 않는다. BN은 2Co개, ReLU·Pool은 0개다. Pool은 공간 크기만 줄이고 출력 채널 수는 보존한다. 마지막 save_checked_npy도 텐서 학습과는 별개로 배열 크기, 자료형, 유한값 여부, 다시 읽은 결과를 검증하는 함수다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 5개</summary><p><a href="#question-O33-18">통합 Process 3 — Binary F1</a> · <a href="#question-O33-20">통합 Process 5 — RGB Normalize</a> · <a href="#question-O33-21">통합 Process 6 — 정확한 CNN Block</a> · <a href="#question-O33-22">통합 Process 7 — Class Weight</a> · <a href="#question-O33-23">통합 Process 8 — NPY 저장 조건</a></p></details>
+<p>RGB 정규화 함수는 uint8 HWC를 float32 CHW로 바꾸고 x/255에 mean/std를 적용한 텐서 하나를 반환한다. 크기가 [C,1,1]인 mean/std는 브로드캐스팅을 통해 해당 채널의 모든 위치에 적용된다. 원본 텐서와 정규화 텐서 두 개를 튜플로 반환하라는 요구가 아니다. std는 유한한 양수로 이루어져야 하며 길이는 3이어야 한다. 명세에 맞는 CNN 블록에서는 커널 개수×연결된 입력 채널 수×커널 면적으로 Conv 파라미터 수를 세고, bias=False이면 편향을 더하지 않는다.</p>
+<p>BN은 2Co개, ReLU·Pool은 0개다. Pool은 공간 크기만 줄이고 출력 채널 수는 보존한다. 마지막 save_checked_npy도 텐서 학습과는 별개로 배열 크기, 자료형, 유한값 여부, 다시 읽은 결과를 검증하는 함수다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 5개</summary><p><a href="#question-O33-18">통합 Process 3 — Binary F1</a> · <a href="#question-O33-20">통합 Process 5 — RGB Normalize</a> · <a href="#question-O33-21">통합 Process 6 — 정확한 CNN Block</a> · <a href="#question-O33-22">통합 Process 7 — Class Weight</a> · <a href="#question-O33-23">통합 Process 8 — NPY 저장 조건</a></p></details>
 <h3 id="theory-33-7">7. 별도 통합 Problem인 새 차량 고장 분류의 이론 연결</h3>
+<p>앞의 센서 과제는 연속값 세 개를 맞혔지만 이 과제는 새 차량의 고장 여부 하나를 맞힌다. 같은 33강에 있다고 같은 헤드와 지표를 그대로 쓰지 않는다. <strong>입력 표 한 행, 새로 만날 대상, 정답의 종류, 평가 지표, 제출값</strong>을 새로 적자. 여기서는 처음 보는 차량에 대한 성능을 확인하므로 차량 단위 분할이 필요하고, BCE로 학습한 logit은 최종 라벨을 만들기 전에 확률과 임계값 판정을 거친다.</p>
 <p>동봉한 full-mock-tabular.py로 생성하는 통합 Problem은 본문의 다중출력 회귀와 다른 연습이다. 한 행은 차량 운행 구간이며 정답은 고장 여부 0·1이고, 평가 데이터에는 처음 보는 차량이 나온다. 따라서 vehicle_id를 기준으로 그룹 분할하고 ID는 특성에서 제외한다. 결측값 대체기, 범주 인코더, 척도 변환기는 학습 폴드에만 적합한다. 크기가 [B,1]인 변환 전 점수와 크기가 [B,1]인 float 정답을 BCEWithLogitsLoss에 넣고 학습 데이터의 클래스별 개수로 pos_weight를 정한다.</p>
-<p>검증에서는 시그모이드 확률을 각 임계값 후보와 비교해 라벨로 바꾼 뒤 Macro-F1을 비교한다. 크기가 (N,)인 예측 라벨을 요구하면 [N,1] 크기의 확률을 그대로 저장하지 않는다. 전체 학습 데이터로 재학습할 때는 구조, 에포크 수, 전처리, 임계값 적용 방식을 검증에서 고정한 뒤 새 모델을 사용한다. [N,3] 회귀와 [N] 이진 라벨을 혼동하지 않도록 문제 첫머리에 TASK·METRIC·OUTPUT을 각각 다시 적는다. 시간이 부족하면 새 탐색을 멈추고 검증한 후보나 첫 기준 모델로 정확한 NPY 파일을 만든다. 실기 운영과 필기에서 묻는 손실, 분할, 평가지표의 차이가 이 통합 실습에서 함께 드러난다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O33-24">33.16 통합 Problem — 새 차량 고장 분류</a></p></details>
+<p>검증에서는 시그모이드 확률을 각 임계값 후보와 비교해 라벨로 바꾼 뒤 Macro-F1을 비교한다. 크기가 (N,)인 예측 라벨을 요구하면 [N,1] 크기의 확률을 그대로 저장하지 않는다. 전체 학습 데이터로 재학습할 때는 구조, 에포크 수, 전처리, 임계값 적용 방식을 검증에서 고정한 뒤 새 모델을 사용한다. [N,3] 회귀와 [N] 이진 라벨을 혼동하지 않도록 문제 첫머리에 TASK·METRIC·OUTPUT을 각각 다시 적는다. 시간이 부족하면 새 탐색을 멈추고 검증한 후보나 첫 기준 모델로 정확한 NPY 파일을 만든다.</p>
+<p>실기 운영과 필기에서 묻는 손실, 분할, 평가지표의 차이가 이 통합 실습에서 함께 드러난다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O33-24">33.16 통합 Problem — 새 차량 고장 분류</a></p></details>
 38:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-33","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-33","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3f"}}]]}]
 39:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 3a:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-40:T871c,
+40:T128a3,
 <span id="question-O33-01" data-question-id="O33-01" class="section-anchor"></span><h3 id="331">33.1 문제</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-1">차량 센서 다중출력 회귀의 입력·정답 시점</a> · <a href="#theory-33-2">70%·85%는 입력 구간의 비율이 아니라 원본 시계열의 분할 위치다</a> · <a href="#theory-33-3">다중출력 MSE와 정답의 역변환이 모델 선택을 바꾼다</a> · <a href="#theory-33-4">CNN 비교·체크포인트·제출까지 하나의 실험으로 기록하기</a></p></details>
 <p>아래 생성기로 만든 100Hz 차량 센서 시계열이 있다.</p>
 <ul>
@@ -229,6 +243,7 @@ print("valid MSE:", base_mse, linear_mse, "output:", loaded.shape)
 </ul>
 <p>목표는 170분 안에 Process 문제도 풀면서 이 Problem의 학습·검증·제출까지 마칠 수 있는 풀이를 익히는 것이다.</p>
 <h3 id="332">33.2 데이터 생성 셀</h3>
+<p>생성식을 아는 연습 데이터로 인덱스의 정답을 먼저 검산한다. 100Hz는 한 샘플 간격 0.01초이므로 이 모의의 관례에서 0.2초는 20개 입력,0.4초 뒤는 40칸 뒤 정답이다. LOOKBACK과 HORIZON은 서로 교환할 수 없다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-1">복사</button></div><pre id="code-33-1" tabindex="0" aria-label="33강 PYTHON 예시 1"><code class="language-python">import copy
 import random
 import time
@@ -270,6 +285,8 @@ X_raw, y_raw = generate_mock_series(horizon=HORIZON)
 print(X_raw.shape, y_raw.shape)
 </code></pre></div>
 <p><code>y[e+HORIZON]</code>은 입력의 마지막 시점 <code>e</code>의 센서 조합에 잡음을 더해 만들었으므로 학습 가능하다. 실제 시험에서는 이런 생성식을 알 수 없으며 EDA와 검증 결과로 판단한다.</p>
+<p>SEED를 여러 난수 도구에 설정해 반복 실험을 비교하기 쉽게 하고 DEVICE는 사용 가능한 계산 장치를 정한다. X는 float32 잡음으로 시작하고 이후 이전 값의 0.90배와 6번 채널의 계절 성분을 더해 시간 관계를 만든다. seasonal은 sin으로 만든 반복 신호다.</p>
+<p>y를 NaN으로 먼저 채운 뒤 src=X[:-40]의 각 행을 40칸 뒤 정답에 저장한다. 첫 40행은 정의되지 않은 정답이고 첫 유효 정답행 40은 X[0]에서 생긴다. 그러나 20개 입력을 갖춘 첫 학습 윈도는 끝 19, 정답 59이므로 ‘처음 유효한 y’와 ‘첫 사용 윈도 y’는 다르다. y의 세 열은 서로 다른 센서 결합에 잡음을 더한 연속값이다. 이 합성식은 실제 차량의 물리 법칙이 아니며 현실 과제에서는 알 수 없는 정답 생성식을 입력 특성으로 사용하면 안 된다.</p>
 <h3 id="333">33.3 응시자 과제</h3>
 <ol>
 <li id="question-O33-02" data-question-id="O33-02"><code>X_raw</code>, <code>y_raw</code>의 배열 크기·원소 자료형·유한성과 첫 유효 정답을 확인한다.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-1">차량 센서 다중출력 회귀의 입력·정답 시점</a></p></details></li>
@@ -282,7 +299,7 @@ print(X_raw.shape, y_raw.shape)
 <li id="question-O33-09" data-question-id="O33-09"><code>Submission_problem.npy</code> 를 저장한 뒤 다시 읽어 검사한다.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-4">CNN 비교·체크포인트·제출까지 하나의 실험으로 기록하기</a></p></details></li>
 <li id="question-O33-10" data-question-id="O33-10">첫 유효 파일까지 걸린 시간을 기록한다.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-4">CNN 비교·체크포인트·제출까지 하나의 실험으로 기록하기</a></p></details></li>
 </ol>
-<details class="answer-panel" id="334-1-target-index-window"><summary>33.4 정답 1 — 정답 인덱스와 입력 구간 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-2">복사</button></div><pre id="code-33-2" tabindex="0" aria-label="33강 PYTHON 예시 2"><code class="language-python">n = len(X_raw)
+<details class="answer-panel" id="334-1-target-index-window"><summary>33.4 정답 1 — 정답 인덱스와 입력 구간 보기</summary><div class="answer-body"><p><strong>코드의 조건:</strong> 입력 끝 e와 정답 e+40을 따로 적고, 첫 검증 예측을 시작할 때 모든 훈련 정답이 이미 알려졌는지 확인한다. 단순히 윈도 수를 70/15/15로 자르는 문제가 아니다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-2">복사</button></div><pre id="code-33-2" tabindex="0" aria-label="33강 PYTHON 예시 2"><code class="language-python">n = len(X_raw)
 train_target_cut = int(n * 0.70)
 valid_target_cut = int(n * 0.85)
 
@@ -314,10 +331,35 @@ assert test_end[0] &gt;= valid_target_cut
 assert train_end[-1] + HORIZON &lt; valid_end[0]
 assert valid_end[-1] + HORIZON &lt; test_end[0]
 print(X_train.shape, X_valid.shape, X_test.shape)
-</code></pre></div><p>실제 Problem에서는 테스트 정답이 없다. 여기서는 모의 종료 후 일반화 점수를 검산하기 위해 <code>y_test_hidden</code>을 보관한다. 모델 선택에는 사용하지 않는다.</p></div></details>
+</code></pre></div><p>실제 Problem에서는 테스트 정답이 없다. 여기서는 모의 종료 후 일반화 점수를 검산하기 위해 <code>y_test_hidden</code>을 보관한다. 모델 선택에는 사용하지 않는다.</p><p><strong>코드의 흐름:</strong> n=30,000이면 경계는 21,000과 25,500이다. 가능한 e는 19부터 29,959까지 29,941개다. 훈련은 target&lt;21,000이므로 e=19부터 20,959까지 20,941개, 검증은 e≥21,000이면서 target&lt;25,500이므로 e=21,000부터 25,459까지 4,460개, 테스트는 e=25,500부터 29,959까지 4,460개다. 두 경계에서 40개씩 제외해 20,941+4,460+4,460+80=29,941이다.</p><p><strong>코드의 결과:</strong> 위 코드의 X_train·X_valid·X_test는 각각 [20941,20,12]·[4460,20,12]·[4460,20,12]이고 y는 각각의 행 수×3이다. materialize의 슬라이스 끝 e+1은 제외되므로 입력은 정확히 20행이다. np.stack은 윈도 축을 새로 만들고 astype은 float32로 맞춘다. shape·finite 검사는 끝 인덱스 계산과 유효 정답 선택이 맞는지 검산한다.</p><p><strong>작동 이유:</strong> train 마지막 정답 20,999는 valid 첫 예측 기준 21,000보다 과거이고 valid 마지막 정답 25,499는 test 첫 기준 25,500보다 과거다. 모델·선택을 고정할 때 미래 답을 쓰지 않게 한다. <strong>코드 주의:</strong> 검증 입력의 일부 과거 관측이 학습과 겹치는 것은 그때 이미 볼 수 있다면 가능하다. 숨겨 둔 테스트 y를 생성했다는 이유로 모델 선택에 써서는 안 된다. <strong>코드 기억:</strong> 입력 끝·정답 시점·정답 공개 시점의 세 조건으로 나눈다.</p><p><strong>응시자 과제 1 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 원시 입력과 정답의 shape·dtype·NaN 위치를 각각 검사한다.</p><p><strong>풀이:</strong> 기본 n=30,000, F=12라 X_raw는 [30000,12], y_raw는 [30000,3]다. 생성식은 y[40:]에만 값을 넣으므로 첫 40행은 NaN이고 첫 유효 정답은 40번이다. 길이 20 입력을 갖춘 첫 윈도의 정답은 19+40=59번이다.</p><p><strong>정답:</strong> 두 배열은 float32이다. 생성된 X의 값은 모두 유한하고, y는 앞 40개 행을 제외한 구간이 유효하다. 원본 y 전체에 대한 finite 검사가 실패하는 것은 이 설정의 의도된 결과다.</p><p><strong>왜?</strong> 아직 정의하지 않은 미래 정답을 NaN으로 표시했기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> NaN을 전부 0으로 채우거나 첫 유효 y의 40번을 첫 20개 입력 윈도 정답으로 잘못 연결하지 않는다.</p><p><strong>한 줄 기억:</strong> 첫 유효 정답 40과 첫 사용 윈도 정답 59를 구별한다.</p><p><strong>응시자 과제 2 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 70%·85%는 원시 시계열의 경계이고 이전 구간 답이 다음 예측 기준보다 먼저 알려져야 한다.</p><p><strong>풀이:</strong> 경계 21,000·25,500에서 train target&lt;21,000, valid end≥21,000이면서 target&lt;25,500, test end≥25,500으로 고른다. 총 가능 29,941 윈도 중 두 경계 40개씩 80개를 제외한다.</p><p><strong>정답:</strong> train 20,941개·valid 4,460개·test 4,460개다. 훈련 마지막 target=20,999 &lt; valid 첫 end=21,000, valid 마지막 target=25,499 &lt; test 첫 end=25,500이다.</p><p><strong>왜?</strong> 정답이 40칸 뒤에 확정되므로 입력 끝만 경계 이전이라고 모든 훈련 답이 알려진 것은 아니기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 최종 샘플 비율을 정확히 70/15/15 라고 보고하지 않는다.과거 입력 일부가 겹치는 것 자체를 무조건 누수로 보지도 않는다.</p><p><strong>한 줄 기억:</strong> 분할 비율보다 예측 순간의 정답 가용성을 보장한다.</p><p><strong>응시자 과제 3 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> Python 슬라이스 끝은 제외되며 L=20, H=40이다.</p><p><strong>풀이:</strong> 첫 e=19에서 입력 X[0:20], 정답 y[59]다. 마지막 e=29,959에서는 X[29940:29960], 정답 y[29999]다. 각 입력에 20행·12열, 각 정답에 값 3개이 있는지 stack 후 검사한다.</p><p><strong>정답:</strong> 입력 윈도는 X[e−19:e+1], 정답은 y[e+40]이며 배치가 N개면 [N,20,12]와 [N,3]이다.</p><p><strong>왜?</strong> 첫 위치부터 마지막 입력까지 20개를 포함하고 마지막 관측에서 40칸 뒤를 지정하기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> e+1을 포함되는 입력으로 읽거나 H를 입력 시작에서 더하지 않는다.</p><p><strong>한 줄 기억:</strong> 입력은 끝 e까지, 정답은 그 끝에서 H 뒤다.</p></div></details>
 
 
-<details class="answer-panel" id="335-2-train-only-scaling"><summary>33.5 정답 2 — train-only scaling 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-3">복사</button></div><pre id="code-33-3" tabindex="0" aria-label="33강 PYTHON 예시 3"><code class="language-python">n_features = X_train.shape[-1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="answer-panel" id="335-2-train-only-scaling"><summary>33.5 정답 2 — train-only scaling 보기</summary><div class="answer-body"><p><strong>코드의 조건:</strong> X의 마지막 축 12가 센서이며 y의 마지막 축 3이 연속 출력이다. 학습에서 구할 입력 통계와 정답 통계를 서로 다른 스케일러에 저장한다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-3">복사</button></div><pre id="code-33-3" tabindex="0" aria-label="33강 PYTHON 예시 3"><code class="language-python">n_features = X_train.shape[-1]
 x_scaler = StandardScaler()
 X_train_s = x_scaler.fit_transform(X_train.reshape(-1, n_features)).reshape(X_train.shape)
 X_valid_s = x_scaler.transform(X_valid.reshape(-1, n_features)).reshape(X_valid.shape)
@@ -330,10 +372,21 @@ y_valid_s = y_scaler.transform(y_valid).astype(np.float32)
 X_train_s = X_train_s.astype(np.float32)
 X_valid_s = X_valid_s.astype(np.float32)
 X_test_s = X_test_s.astype(np.float32)
-</code></pre></div><p>정답 스케일링은 필수가 아니지만 출력 세 축의 척도가 다를 때 학습을 안정시키는 데 도움이 된다. 다만 표준화한 MSE는 축마다 다른 가중치를 주는 셈이므로 공식 지표인 원래 단위의 MSE와 같지 않을 수 있다. 표준화한 값으로 학습 손실을 계산하더라도, 체크포인트와 최종 모델은 매 학습 회차마다 역변환한 뒤 계산한 공식 MSE로 선택한다.</p></div></details>
+</code></pre></div><p>정답 스케일링은 필수가 아니지만 출력 세 축의 척도가 다를 때 학습을 안정시키는 데 도움이 된다. 다만 표준화한 MSE는 축마다 다른 가중치를 주는 셈이므로 공식 지표인 원래 단위의 MSE와 같지 않을 수 있다. 표준화한 값으로 학습 손실을 계산하더라도, 체크포인트와 최종 모델은 매 학습 회차마다 역변환한 뒤 계산한 공식 MSE로 선택한다.</p><p><strong>코드의 흐름:</strong> X_train.reshape(−1,12)는 모든 훈련 윈도의 모든 시점을 12열 표로 쌓는다. fit_transform은 이 표에서 평균·표준편차를 구해 변환하고 reshape로 원래 [B,20,12]에 돌린다. 검증·테스트는 transform만 한다. y_scaler는 훈련 정답의 3열에서만 기준을 구하며 모델 출력은 나중에 이 기준으로 역변환한다.</p><p><strong>코드의 결과:</strong> 훈련 전처리 규칙으로 바꾼 X_train_s·X_valid_s·X_test_s와 y_train_s·y_valid_s를 사용하고, 모델 비교는 inverse_transform 후 원래 단위 MSE로 한다. <strong>작동 이유:</strong> 표준화 오차는 원래 오차를 각 출력의 표준편차로 나눈 값이므로 축별 가중치가 달라진다. s=[1,10]에서 원래 오차 [0,3]의 표준화 제곱 평균은 0.045지만 원래 단위 MSE는 4.5다.</p><p><strong>코드 주의:</strong> 겹치는 훈련 윈도를 펼치면 같은 원시 관측이 반복 포함되어 통계에 반복 횟수만큼 가중된다. 이 모의는 그 방식을 명시했으며 원시 시점 한 번씩의 통계와 같다고 단정하지 않는다. 검증 y를 넣어 새 평균을 만들지 않는다. <strong>코드 기억:</strong> 훈련에서 기준을 정하고 공식 단위로 선택한다.</p><p><strong>응시자 과제 4 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 학습할 통계의 자료 범위는 훈련 윈도뿐이다.</p><p><strong>풀이:</strong> X_train을 [−1,12]로 펴 센서별 통계를 fit하고 원래 모양으로 돌린다. valid/test에는 고정 통계로 transform한다. y_scaler는 y_train의 3열에 별도로 fit한다.</p><p><strong>정답:</strong> x_scaler와 y_scaler 모두 train-only이며 검증·테스트에서 새 평균·표준편차를 구하지 않는다.</p><p><strong>왜?</strong> 전처리 통계도 모델의 입력·손실 기준을 학습하는 일부이기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 중첩 윈도에서 원시 시점의 반복 횟수에 따라 통계의 비중이 달라질 수 있다. 원시 시점을 한 번씩 쓰는 통계와 같다고 단정하지 않는다.</p><p><strong>한 줄 기억:</strong> 학습 범위를 고정한 fit과 재사용 transform을 구분한다.</p></div></details>
 
 
-<details class="answer-panel" id="336-3-baseline"><summary>33.6 정답 3 — baseline 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-4">복사</button></div><pre id="code-33-4" tabindex="0" aria-label="33강 PYTHON 예시 4"><code class="language-python">def mse(y_true, y_pred):
+
+
+
+
+
+
+
+
+
+
+
+<details class="answer-panel" id="336-3-baseline"><summary>33.6 정답 3 — baseline 보기</summary><div class="answer-body"><p><strong>코드의 조건:</strong> MSE 기준의 상수 예측은 훈련 정답의 출력별 평균이며 테스트 정답은 쓰지 않는다. 첫 파일 시간은 저장하고 다시 읽어 검사를 통과한 때다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-4">복사</button></div><pre id="code-33-4" tabindex="0" aria-label="33강 PYTHON 예시 4"><code class="language-python">def mse(y_true, y_pred):
     y_true = np.asarray(y_true)
     y_pred = np.asarray(y_pred)
     if y_true.shape != y_pred.shape:
@@ -358,10 +411,28 @@ print("first valid submission seconds:", first_valid_seconds)
 
 # 이 synthetic 문제의 target 생성상 last sensor 조합을 모른다고 가정한다.
 # 문제 의미가 일치하는 경우에만 last-value baseline을 추가한다.
-</code></pre></div><p>첫 테스트 제출 파일은 훈련 정답의 평균으로도 만들 수 있다. 성능은 낮지만 제출 형식을 검증할 수 있다.</p></div></details>
+</code></pre></div><p>첫 테스트 제출 파일은 훈련 정답의 평균으로도 만들 수 있다. 성능은 낮지만 제출 형식을 검증할 수 있다.</p><p><strong>코드의 흐름:</strong> mean(axis=0, keepdims=True)는 [1,3] 평균 행을 만들고 repeat는 검증·테스트 행 수만큼 같은 행을 반복한다. mse 함수의 shape 검사는 서로 다른 샘플이 브로드캐스팅으로 비교되는 것을 막는다. 테스트 [4460,3]를 finite 검사하고 저장·재읽기·array_equal을 통과시킨다. monotonic의 두 시각 차이를 초로 기록한다.</p><p><strong>코드의 결과:</strong> 평균 baseline의 검증 MSE와 유효한 Submission_problem.npy, first_valid_seconds를 먼저 확보한다. 정확한 점수와 소요 시간은 실제 실행 결과로 기록하며 여기서 임의 숫자를 정답처럼 제시하지 않는다. <strong>작동 이유:</strong> 상수 c의 제곱오차합을 미분하면 2Nc−2Σy 라서 평균에서 최솟값이다. 더 중요한 것은 이후 학습 실패에도 제출 가능한 결과와 비교 기준이 남는다는 점이다.</p><p><strong>코드 주의:</strong> 정답 생성식의 마지막 센서 조합을 안다는 이유로 현실에서도 같은 조합을 알고 있다고 가정하지 않는다. <strong>코드 기억:</strong> 성능 개선 전, train 평균으로도 유효 파일 한 개를 만든다.</p><p><strong>응시자 과제 5 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 빠른 기준을 동일한 검증 MSE와 제출 형식으로 평가한다.</p><p><strong>풀이:</strong> 훈련 정답 3열 평균을 [1,3]으로 구해 각 검증 행과 테스트 행에 반복한다. shape를 맞추고 검증 MSE를 계산한 뒤 테스트 파일을 저장·재읽기한다. 입력을 펼친 Linear·MLP도 같은 분할에서 비교할 수 있다.</p><p><strong>정답:</strong> 예제는 train 평균 baseline의 실제 검증 MSE와 유효 테스트 파일을 먼저 남긴다. 수치 점수는 실행 결과다.</p><p><strong>왜?</strong> MSE의 상수 최적 예측이 훈련 평균이고 이후 후보의 이득을 비교할 기준이 되기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 검증 평균이나 알려진 합성식을 직접 이용해 기준 점수를 부풀리지 않는다.</p><p><strong>한 줄 기억:</strong> 가장 간단한 합법적 기준도 저장까지 완성한다.</p><p><strong>응시자 과제 9 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 시간의 시작은 problem_start이고 끝은 첫 유효 파일의 재읽기 검사 통과다.</p><p><strong>풀이:</strong> 데이터 생성 전 monotonic 시각을 저장하고 baseline NPY를 저장·읽기·비교한 직후 시각 차이를 초로 계산한다. 분으로 보고할 때 60으로 나눈다.</p><p><strong>정답:</strong> first_valid_seconds 또는 first_valid_seconds/60의 실제 실행 값을 기록한다. 미리 정해진 정답 시간은 없다.</p><p><strong>왜?</strong> 전처리·기준 예측·저장까지 필요한 전체 초기 비용을 알아야 170분 운영을 개선할 수 있다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 모델을 선언한 시각·학습을 시작한 시각·메모리에 예측을 만든 시각은 유효 파일 완료가 아니다.</p><p><strong>한 줄 기억:</strong> 첫 파일 시간은 재읽기 통과 시각이다.</p></div></details>
 
 
-<details class="answer-panel" id="337-4-dataloader-cnn1d"><summary>33.7 정답 4 — DataLoader와 CNN1D 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-5">복사</button></div><pre id="code-33-5" tabindex="0" aria-label="33강 PYTHON 예시 5"><code class="language-python">train_ds = TensorDataset(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="answer-panel" id="337-4-dataloader-cnn1d"><summary>33.7 정답 4 — DataLoader와 CNN1D 보기</summary><div class="answer-body"><p><strong>코드의 조건:</strong> 입력은 [B,20,12]지만 Conv1d는 [B, 채널, 길이]를 받는다. 정답은 세 연속값이므로 마지막은 실수 3개를 내며 softmax를 붙이지 않는다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-5">복사</button></div><pre id="code-33-5" tabindex="0" aria-label="33강 PYTHON 예시 5"><code class="language-python">train_ds = TensorDataset(
     torch.from_numpy(X_train_s),
     torch.from_numpy(y_train_s),
 )
@@ -399,9 +470,12 @@ class MockCNN1D(nn.Module):
 
 model = MockCNN1D(n_features).to(DEVICE)
 assert model(torch.zeros(2, LOOKBACK, n_features, device=DEVICE)).shape == (2, 3)
-</code></pre></div></div></details>
+</code></pre></div><p><strong>코드의 흐름:</strong> TensorDataset은 같은 행의 입력·정답을 짝짓고 train_loader만 shuffle 한다. test_ds는 입력만 담은 항목 1개인 튜플이므로 예측 함수에서 batch[0]을 꺼낸다. permute(0,2,1) 뒤 [B,12,20], 첫 Conv 뒤 [B,64,20], 둘째도 [B,64,20], AdaptiveAvgPool 뒤 [B,64,1], Flatten 뒤 [B,64], Linear64→32→3 뒤 [B,3]이다.</p><p><strong>코드의 결과:</strong> 제시한 MockCNN1D의 더미 입력 [2,20,12]는 [2,3]을 반환한다. <strong>작동 이유:</strong> 국소 커널의 가중치를 위치마다 공유해 시간 패턴을 찾고 공간 평균으로 고정 폭 특징을 만든다. <strong>코드 주의:</strong> reshape로 축을 바꾸면 센서·시간 값 대응이 섞일 수 있다. 전역 평균은 마지막 시점을 특별히 강조하지 않으므로 이 생성식에서는 flatten/마지막값 모델보다 불리할 수도 있다. <strong>코드 기억:</strong> 축은 permute로, 출력은 회귀 3개로 맞춘다.</p></div></details>
 
-<details class="answer-panel" id="338-5"><summary>33.8 정답 5 — 시간 제한 학습 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-6">복사</button></div><pre id="code-33-6" tabindex="0" aria-label="33강 PYTHON 예시 6"><code class="language-python">criterion = nn.MSELoss()
+
+
+
+<details class="answer-panel" id="338-5"><summary>33.8 정답 5 — 시간 제한 학습 보기</summary><div class="answer-body"><p><strong>코드의 조건:</strong> 학습 손실은 표준화 MSE지만 최적 상태는 원래 단위 검증 MSE로 고른다. 40에포크·patience=5·120초는 이 예제의 학습 상한 설정이며 전체 170분 안에서 사용한다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-6">복사</button></div><pre id="code-33-6" tabindex="0" aria-label="33강 PYTHON 예시 6"><code class="language-python">criterion = nn.MSELoss()
 optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
 
 best_metric = float("inf")
@@ -459,9 +533,20 @@ if best_state is None:
     raise RuntimeError("best checkpoint 없음")
 model.load_state_dict(best_state)
 model.to(DEVICE)
-</code></pre></div></div></details>
+</code></pre></div><p><strong>코드의 흐름:</strong> train() 뒤 각 배치에서 zero_grad→순전파→MSE→finite 검사→backward→기울기 norm을 5로 제한→AdamW step을 실행한다. 배치 평균 loss에 len(xb)를 곱해 합치고 전체 샘플 수로 나누므로 작은 마지막 배치도 정확히 가중된다. eval과 inference_mode로 검증하고 순서대로 모은 예측을 역변환한 뒤 공식 MSE를 계산한다.</p><p><strong>코드의 결과:</strong> 개선이 1e−6보다 클 때 best_metric과 실제 가중치 복사본 best_state를 저장하고, 개선 없는 5회 또는 시간 조건에서 중지한 뒤 그 상태를 복원한다. 정확한 최고 에포크·점수는 실행 기록이다. <strong>작동 이유:</strong> 마지막 에포크가 최고가 아닐 수 있고 단순한 참조 저장은 뒤 갱신에 따라 바뀔 수 있어 deepcopy 한 CPU 상태가 필요하다.</p><p><strong>코드 주의:</strong> 시간 검사는 에포크가 끝난 뒤 있으므로 120초의 엄격한 실시간 차단이 아니다. 한 에포크·검증 시간이 길면 상한을 넘겨 돌아올 수 있어 작은 시험 실행으로 시간을 재고 전체 예산에서 여유를 둔다. best_state가 없으면 임의 최종 모델을 쓰지 않고 오류를 확인한다. <strong>코드 기억:</strong> 원래 단위 점수의 최고 가중치를 실제 복사해 돌아간다.</p><p><strong>응시자 과제 6 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> CNN 출력 3개와 y의 3개 연속 값이 같은 shape여야 하며 평가는 원래 단위 MSE다.</p><p><strong>풀이:</strong> 입력을 [B,12,20]으로 바꿔 두 Conv와 평균 풀링·Linear를 통과시킨다. train만 갱신하고 매회 valid 예측을 역변환해 최고 가중치를 복사한다. 에포크·patience·시간 상한에서 멈추고 최고 상태를 복원한다.</p><p><strong>정답:</strong> cnn_valid_mse와 baseline_valid_mse를 동일한 y_valid에서 원래 단위로 비교한다. 어느 모델이 더 좋은지는 실행 결과다.</p><p><strong>왜?</strong> 같은 분할·단위·지표로 비교해야 모델 변화의 효과를 판단할 수 있다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 표준화 loss만으로 checkpoint를 고르지 않는다. 120초 확인은 에포크 끝이므로 엄격한 실시간 중지는 아니다.</p><p><strong>한 줄 기억:</strong> 원래 단위 valid로 CNN과 baseline을 비교한다.</p></div></details>
 
-<details class="answer-panel" id="339-6-validation"><summary>33.9 정답 6 — validation 원 단위 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-7">복사</button></div><pre id="code-33-7" tabindex="0" aria-label="33강 PYTHON 예시 7"><code class="language-python">def predict_scaled(model, loader, device):
+
+
+
+
+
+
+
+
+
+
+
+<details class="answer-panel" id="339-6-validation"><summary>33.9 정답 6 — validation 원 단위 보기</summary><div class="answer-body"><p><strong>코드의 조건:</strong> 불러온 최고 모델의 출력은 아직 표준화 좌표다. 검증 정답 y_valid는 원래 단위이므로 두 값을 그대로 빼면 단위가 다르다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-7">복사</button></div><pre id="code-33-7" tabindex="0" aria-label="33강 PYTHON 예시 7"><code class="language-python">def predict_scaled(model, loader, device):
     model.eval()
     chunks = []
     with torch.inference_mode():
@@ -481,9 +566,12 @@ valid_pred = y_scaler.inverse_transform(valid_pred_s)
 cnn_valid_mse = mse(y_valid, valid_pred)
 print("CNN valid MSE:", cnn_valid_mse)
 print("output RMSE:", np.sqrt(np.mean((y_valid - valid_pred) ** 2, axis=0)))
-</code></pre></div></div></details>
+</code></pre></div><p><strong>코드의 흐름:</strong> predict_scaled는 eval·inference_mode에서 입력을 같은 장치의 float32로 옮기고 배치 예측을 CPU 배열로 모은다. 빈 loader는 concatenate 할 자료가 없어 명시적으로 거절한다. shuffle=False라서 concatenate 뒤의 행이 원래 y_valid 순서다. inverse_transform 후 mse를 계산하고 axis=0의 제곱평균·제곱근으로 출력별 RMSE를 진단한다.</p><p><strong>코드의 결과:</strong> cnn_valid_mse는 원래 단위 전체 MSE이고 output RMSE는 3개 출력의 별도 진단값이다. <strong>작동 이유:</strong> 학습을 위한 척도와 공식 평가 단위가 달라질 수 있으므로 비교 전에 되돌려야 한다. <strong>코드 주의:</strong> 출력별 RMSE의 평균은 전체 MSE나 전체 RMSE와 일반적으로 같지 않다. <strong>코드 기억:</strong> 역변환→같은 순서·크기 확인→공식 지표 순서다.</p></div></details>
 
-<details class="answer-panel" id="3310-7-test"><summary>33.10 정답 7 — test 저장 보기</summary><div class="answer-body"><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-8">복사</button></div><pre id="code-33-8" tabindex="0" aria-label="33강 PYTHON 예시 8"><code class="language-python">cnn_test_pred_s = predict_scaled(model, test_loader, DEVICE)
+
+
+
+<details class="answer-panel" id="3310-7-test"><summary>33.10 정답 7 — test 저장 보기</summary><div class="answer-body"><p><strong>코드의 조건:</strong> 최종 모델 선택에 허용된 값은 검증 MSE다. CNN을 학습했다는 이유로 평균 기준보다 나쁜 결과를 반드시 제출할 필요는 없다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-8">복사</button></div><pre id="code-33-8" tabindex="0" aria-label="33강 PYTHON 예시 8"><code class="language-python">cnn_test_pred_s = predict_scaled(model, test_loader, DEVICE)
 cnn_test_pred = y_scaler.inverse_transform(cnn_test_pred_s)
 
 if cnn_valid_mse &lt; baseline_valid_mse:
@@ -507,11 +595,36 @@ if reloaded.shape != expected_shape or not np.array_equal(reloaded, test_pred):
     raise IOError("저장/reload 불일치")
 print(output_path, reloaded.shape, reloaded.dtype)
 </code></pre></div><p>연습이 끝난 뒤에만 숨겨 둔 테스트 정답으로 MSE를 확인한다.</p><div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-33-9">복사</button></div><pre id="code-33-9" tabindex="0" aria-label="33강 PYTHON 예시 9"><code class="language-python">print("hidden test MSE (연습 채점용):", mse(y_test_hidden, test_pred))
-</code></pre></div></div></details>
+</code></pre></div><p><strong>코드의 흐름:</strong> CNN 테스트 예측을 원래 단위로 돌리고 cnn_valid_mse&lt;baseline_valid_mse일 때만 CNN 결과를 택한다. 동점이면 코드상 평균 기준이다. 선택 배열의 [4460,3]과 유한성을 검사하고 같은 파일에 저장한 뒤 shape·array_equal로 재읽기를 확인한다. dtype도 함께 출력하여 제출 명세와 대조한다.</p><p><strong>코드의 결과:</strong> 검증에서 선택한 후보의 테스트 순서 [4460,3] 원래 단위 유한 수치 배열이 Submission_problem.npy에 저장된다. <strong>작동 이유:</strong> 더 복잡한 모델이 항상 낫지 않으며 최종 테스트 정답으로 고르면 독립 평가가 아니게 된다. <strong>코드 주의:</strong> 마지막 hidden test MSE는 연습 종료 후 채점용이다. 그 점수를 보고 다시 후보·문턱·전처리를 바꾸면 테스트를 검증으로 쓴 것이다. <strong>코드 기억:</strong> valid로 고르고 test는 고정한 선택을 평가한다.</p><p><strong>전체 Problem 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 100Hz·센서 12개·20개 과거·40개 뒤·연속 출력 3개·시간순 검증·원래 단위 MSE·테스트 순서 NPY가 한 계약이다.</p><p><strong>풀이:</strong> 33.2에서 유효값과 시점을 확인하고 33.4에서 end/target 기준으로 나눈다. 33.5의 train-only scaling 뒤 33.6의 평균 baseline 파일을 먼저 확보한다. 33.7–33.9에서 CNN을 학습·복원·원래 단위 검증하고 33.10에서 검증 우수 후보를 선택해 재읽기한다.</p><p><strong>정답:</strong> 정확한 테스트 출력은 [4460,3]의 원래 단위 유한 수치 배열이며 파일명은 Submission_problem.npy다. 최고 점수·실행 시간은 실행 로그의 실제 값으로 보고한다.</p><p><strong>왜?</strong> 모델 품질·미래 정보 제한·샘플 대응·파일 유효성이 모두 맞아야 요구한 예측이 완료되기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 정답 3개를 세 클래스라고 보거나 숨긴 테스트 정답으로 후보를 선택하지 않는다. 170분 안의 Process와 제출 시간까지 남겨야 한다.</p><p><strong>한 줄 기억:</strong> 시점·학습·검증·파일의 계약을 한 경로로 끝낸다.</p><p><strong>응시자 과제 7 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 선택에 쓰는 것은 검증 점수이고 테스트 정답은 숨긴다.</p><p><strong>풀이:</strong> CNN 최고 상태로 shuffle=False의 test loader를 예측하고 y_scaler로 역변환한다. CNN MSE가 기준보다 작으면 CNN, 아니면 보존한 기준 예측을 택한다.</p><p><strong>정답:</strong> test_pred는 선택된 모델의 [4460,3] 원래 단위 예측이며 원래 테스트 윈도 순서다.</p><p><strong>왜?</strong> 검증에서 일반화 가능성을 비교한 규칙을 테스트에 고정 적용해야 하기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> CNN을 학습했으니 무조건 CNN을 내거나 hidden test MSE로 다시 고르지 않는다.</p><p><strong>한 줄 기억:</strong> valid로 선택하고 test에는 고정한 모델만 적용한다.</p><p><strong>응시자 과제 8 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 파일명·정확한 [N_test,3]·유한 수치·원래 단위·행 순서·재읽기 계약이다.</p><p><strong>풀이:</strong> 저장 전 shape와 finite를 확인하고 np.save(..., allow_pickle=False)를 호출한다. 같은 경로를 np.load로 읽어 shape·dtype·값을 대조한다. 코드의 array_equal과 출력 dtype에 더해 명세상 dtype도 확인한다.</p><p><strong>정답:</strong> Submission_problem.npy를 다시 읽은 배열이 검증한 test_pred의 모양·자료형·값과 같아야 한다.</p><p><strong>왜?</strong> 메모리의 올바른 예측이 실제 요구 파일로 남았는지 검증해야 하기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 파일 저장 성공이 노트북 저장·실제 제출 성공을 대신하지 않는다.</p><p><strong>한 줄 기억:</strong> 예측 검사는 파일을 다시 읽은 뒤에도 반복한다.</p></div></details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <h3 id="3311">33.11 채점 기준</h3>
+<p>점수표는 모델 품질과 파이프라인의 유효성을 따로 확인한다. 윈도·누수·단위·파일이 틀리면 좋은 CNN 학습 곡선으로 보완되지 않는다. 각 0 점 조건을 만들 최소 반례가 무엇인지 말해 본다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="33강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
 <thead>
 <tr>
@@ -552,7 +665,9 @@ print(output_path, reloaded.shape, reloaded.dtype)
 </tr>
 </tbody></table></div>
 <p>합격 조건은 점수와 별개로 <code>Submission_problem.npy</code>가 유효해야 한다.</p>
+<p>입력 마지막 e와 정답 e+H가 바뀐 경우, train/valid를 합쳐 scaler를 fit한 경우, 예측 3열을 flatten한 경우는 서로 다른 실패다. 각 조건은 별도 assertion·로그로 검사한다. 이 자체 채점표는 공식 배점이 아니며 유효 파일 조건은 점수 합과 별도의 연습 완료 조건이다.</p>
 <h3 id="3312-a-group">33.12 확장 모의 A — group 일반화</h3>
+<p>차량마다 기준 진동이 다르면 같은 차량의 다른 행을 본 모델은 그 기준을 외울 수 있다. 새 차량을 테스트로 두는 이 확장은 단순 미래 예측과 달리 집단 일반화를 평가한다.</p>
 <p>차량마다 다른 오프셋과 잡음을 가진 데이터를 생성하고 처음 보는 차량을 테스트 대상으로 둔다.</p>
 <ul>
 <li>한 윈도에 서로 다른 그룹의 관측이 들어가지 않게 한다.</li>
@@ -560,7 +675,13 @@ print(output_path, reloaded.shape, reloaded.dtype)
 <li>차량 ID를 특성으로 사용하는 모델과 제외한 모델을 비교한다.</li>
 <li>처음 보는 차량에서의 성능을 해석한다.</li>
 </ul>
+<p><strong>조건과 풀이:</strong> 각 차량 안에서만 시간순 윈도를 만들고 차량 ID 집합을 train/valid로 나눈다. 교집합이 0인지 검사하고 같은 분할에서 ID 포함·제외 후보를 비교한다.</p>
+<p><strong>정답의 형태:</strong> 실제 검증 점수와 새 차량의 실패 사례를 기록한다. 고정된 숫자 정답은 없다.</p>
+<p><strong>판단 근거:</strong> 학습한 차량 고유값과 모든 차량에 공통인 관계를 분리해 봐야 한다.</p>
+<p><strong>헷갈림:</strong> ID 열을 빼는 것만으로 같은 차량 행이 양쪽에 남는 누수가 해결되지 않는다.</p>
+<p><strong>확장 과제 핵심:</strong> 새 차량 문제는 차량을 나누고 그 안에서만 윈도를 만든다.</p>
 <h3 id="3313-b-event">33.13 확장 모의 B — 불균형 event 분류</h3>
+<p>‘50개 뒤 값 하나’와 ‘향후 50개 안에 한 번이라도 사건 발생’은 정답을 읽는 구간이 다르다. 후자는 e+1부터 e+50까지를 보고 라벨을 정하므로 마지막 시점까지 관측해야 답이 확정된다.</p>
 <p>정답을 “향후 50개 샘플 안에 임계값을 넘는 사건 발생 여부”로 바꾼다.</p>
 <ul>
 <li>시간적 선후 관계에 맞춰 라벨을 생성한다.</li>
@@ -569,6 +690,11 @@ print(output_path, reloaded.shape, reloaded.dtype)
 <li>임계값은 검증자료에서 선택한다.</li>
 <li>같은 사건에 인접한 윈도가 훈련·검증 양쪽에 섞이지 않게 분리한다.</li>
 </ul>
+<p><strong>조건과 풀이:</strong> 각 예측 기준 e의 미래 사건 구간을 명시하고 그 안 최댓값 등이 임계값을 넘는지 0·1 라벨을 만든다. 같은 사건을 가리키는 이웃 윈도가 분할 양쪽에 섞이지 않게 시간·사건 그룹과 정답 공개 시점을 확인한다. pos_weight는 훈련 음성/양성 개수에서 정한다.</p>
+<p><strong>정답의 형태:</strong> 검증 Macro-F1·PR-AUC와 선택한 문턱, 고정 문턱의 테스트 라벨을 기록한다.</p>
+<p><strong>판단 근거:</strong> 점수 순위와 실제 경보 결정은 다르며 놓친 사건과 오경보의 균형이 필요하다.</p>
+<p><strong>헷갈림:</strong> BCE에 확정 라벨 예측을 넣어 학습하거나 테스트에서 문턱을 고르지 않는다.</p>
+<p><strong>확장 과제 핵심:</strong> 미래 구간 라벨은 그 구간 끝까지의 정보 가용성으로 분리한다.</p>
 <h3 id="3314">33.14 회고 질문</h3>
 <ol>
 <li id="question-O33-11" data-question-id="O33-11">첫 유효 파일까지 몇 분 걸렸는가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-4">CNN 비교·체크포인트·제출까지 하나의 실험으로 기록하기</a></p></details></li>
@@ -577,7 +703,43 @@ print(output_path, reloaded.shape, reloaded.dtype)
 <li id="question-O33-14" data-question-id="O33-14">CNN1D가 기준 모델보다 나았는가? 아니라면 왜인가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-3">다중출력 MSE와 정답의 역변환이 모델 선택을 바꾼다</a> · <a href="#theory-33-4">CNN 비교·체크포인트·제출까지 하나의 실험으로 기록하기</a></p></details></li>
 <li id="question-O33-15" data-question-id="O33-15">마지막 7분을 확보했는가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-4">CNN 비교·체크포인트·제출까지 하나의 실험으로 기록하기</a></p></details></li>
 </ol>
+<p><strong>회고 1 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 자신의 실제 시작 시각과 첫 재읽기 검사 통과 시각의 로그를 사용한다.</p>
+<p><strong>풀이:</strong> 종료 초 −시작 초를 구하고 60으로 나누어 분으로 기록한다. 예컨대 차이가 780초였던 별도 연습은 13분이다. 실제 이번 기록이 없으면 미측정이라고 적고 다음 응시에 측정한다.</p>
+<p><strong>정답:</strong> 본인이 측정한 분 수와 첫 파일 검사 통과 여부가 답이다.</p>
+<p><strong>왜?</strong> 개선 후보 수보다 먼저 초기 완료 경로가 어디서 오래 걸렸는지 알아야 하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 예시 13분을 자신의 실행 시간처럼 보고하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 시간 회고에는 실제 로그를 쓴다.</p>
+<p><strong>회고 2 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 가장 오래 해결한 배열 크기 오류 하나의 실제 기록을 고른다.</p>
+<p><strong>풀이:</strong> 기대 shape·실제 shape·처음 달라진 줄·최소 입력·수정 assertion을 적는다. 예로 [B, L, F]를 permute하지 않아 Conv가 L을 채널로 본 오류라면 [B, F, L] 변환을 검증한다.</p>
+<p><strong>정답:</strong> 자신의 오류와 재현·수정 근거를 기록한다. 오류가 없었다면 확인한 축 테스트와 0분이라고 적는다.</p>
+<p><strong>왜?</strong> 비슷한 오류가 다음 과제에서 반복될 때 원인을 빠르게 확인할 수 있게 하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 일반 오류 예시를 실제로 겪었다고 꾸며 쓰지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 오류 회고는 최소 재현과 검증 조건을 남긴다.</p>
+<p><strong>회고 3 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 실제 테스트가 같은 시계열의 미래인지 새 차량인지 먼저 정한다.</p>
+<p><strong>풀이:</strong> 본 모의는 앞 구간 답이 뒤 구간 예측 기준 전에 알려지게 end/target 경계를 검사한다. 새 차량 확장에서는 그룹 교집합도 0이어야 한다. 자신의 분할 로그를 조건과 대조한다.</p>
+<p><strong>정답:</strong> 재현했는지 여부와 train 마지막 target·valid 첫 end 등 근거를 답한다.</p>
+<p><strong>왜?</strong> 검증 점수는 실제 사용 때 모르는 정보가 같은 조건일 때 해석할 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 단순히 시간순으로 정렬했다거나 ID 열을 지웠다는 사실만으로 충분하지 않다.</p>
+<p><strong>한 줄 기억:</strong> 실제 예측 순간의 정보 조건을 검증에서 재현한다.</p>
+<p><strong>회고 4 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 두 모델이 같은 y_valid·원래 단위 MSE로 비교되었는지 확인한다.</p>
+<p><strong>풀이:</strong> CNN MSE−baseline MSE를 계산한다. 음수면 개선이다. 개선이 없으면 인덱스·역변환·출력축·과적합을 점검하고 전역 평균이 마지막 값 정보를 약하게 만드는지 검토한다.</p>
+<p><strong>정답:</strong> 실제 두 점수와 개선 여부, 확인한 원인 또는 아직 확인하지 못한 가설을 구분해 기록한다.</p>
+<p><strong>왜?</strong> 모델 복잡성이 성능을 보장하지 않으며 실행 오류와 목표에 맞지 않는 표현을 구별해야 하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 원인을 실험 없이 단정하거나 테스트 점수로 두 모델을 고르지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 같은 검증의 차이를 계산하고 원인은 근거와 가설로 나눈다.</p>
+<p><strong>회고 5 해설</strong></p>
+<p><strong>먼저 무엇을 봐야 하나?</strong> 170분 타이머에서 최종 검증을 시작한 실제 시각을 사용한다.</p>
+<p><strong>풀이:</strong> 시작 후 163분 이전에 최종 검사 구간에 들어왔는지 확인한다. 노트북 저장·파일 재읽기·두 영역 제출 확인까지 마쳤는지도 적는다. 부족했다면 중지할 탐색 조건을 다음 계획에 넣는다.</p>
+<p><strong>정답:</strong> 실제로 확보한 분 수와 완료한 검사 항목이 답이다. 7분은 교재의 자체 운영 목표다.</p>
+<p><strong>왜?</strong> 파일 오류를 발견했을 때 고칠 여유가 있어야 높은 검증 점수도 유효하게 제출할 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 7분을 남겼다고 자동으로 모든 검사가 끝난 것은 아니고 공식 배점이라는 뜻도 아니다.</p>
+<p><strong>한 줄 기억:</strong> 남은 시간과 제출 검사 완료를 함께 기록한다.</p>
 <h3 id="3315-process-8-problem-1-170">33.15 통합 모의고사 — Process 8 + Problem 1, 총 170분</h3>
+<p>회귀 모의와 별도로 아래 통합 세트는 32 강의 명세 구현 능력과 표 데이터 고장 분류를 170분 안에 함께 사용한다. 새 타이머 한 개를 사용하고 첫 파일까지의 누적시간을 기록한다. 답안을 보며 따라 쓴 시간은 독립 응시 기록과 구분한다.</p>
 <p>32강과 33강을 따로 푸는 것만으로는 두 영역에 제한된 시간을 나누어 쓰는 상황을 훈련할 수 없다. 다음 세트는 답안을 보지 않고 <strong>한 번의 170분 타이머</strong>로 연속 응시한다.</p>
 <p>권장 시간:</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="33강 표 2, 좌우로 스크롤할 수 있습니다"><table data-table="2">
@@ -612,14 +774,17 @@ print(output_path, reloaded.shape, reloaded.dtype)
 <td>양쪽 reload·Ctrl+S·제출 확인</td>
 </tr>
 </tbody></table></div>
+<p>시간표는 7+50+13+72+18+10=170분이다. 57분에 Problem으로 옮겨 13분 안에 첫 baseline 파일을 만드는 목표이며, 남은 18분은 보류 Process로 돌아온다. 70분부터 142분의 MLP·threshold는 뒤 통합 분류 Problem을 가리킨다. 앞의 센서 회귀에 분류 threshold를 붙이라는 뜻이 아니다. 아래 8 문제는 원문만 보고 먼저 풀고 33.17 해설은 응시 후 확인한다.</p>
 <span id="question-O33-16" data-question-id="O33-16" class="section-anchor"></span><h4 id="process-1">통합 Process 1 — 결측 보고서</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-5">통합 Process의 결측 보고서·그룹 통계·시차값</a></p></details>
-<p>missing_report(df)를 구현하라. 입력은 열 이름이 유일한 DataFrame이다. 원래 열 이름을 인덱스로 갖는 DataFrame을 원래 열 순서로 반환하고, 반환 열 순서는 dtype, missing_count, missing_rate, nunique_with_missing으로 한다. dtype에는 원래 열의 dtype 객체를 기록하고 missing_rate=missing_count/행 수로 계산하되 행이 0개이면 0.0으로 정의한다. nunique_with_missing은 NaN을 하나의 고유값으로 센다. 입력의 비연속 인덱스를 처리하고 원본을 변경하지 않는다.</p>
+<p>missing_report(df)를 구현하라. 입력은 열 이름이 유일한 DataFrame이다. 원래 열 이름을 인덱스로 갖는 DataFrame을 원래 열 순서로 반환하고, 반환 열 순서는 dtype, missing_count, missing_rate, nunique_with_missing으로 한다. dtype에는 원래 열의 dtype 객체를 기록하고 missing_rate=missing_count/행 수로 계산하되 행이 0개이면 0.0으로 정의한다. nunique_with_missing은 NaN을 하나의 고유값으로 센다.</p>
+<p>입력의 비연속 인덱스를 처리하고 원본을 변경하지 않는다.</p>
 <span id="question-O33-17" data-question-id="O33-17" class="section-anchor"></span><h4 id="process-2-group-z-score">통합 Process 2 — Group Z-score</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-5">통합 Process의 결측 보고서·그룹 통계·시차값</a></p></details>
 <p>group_zscore(df, group_col, value_col)을 구현하라. group_col은 결측이 없고 value_col은 유한 수치 또는 NaN이다. value_col을 각 group의 유효값에서 구한 모집단 평균·표준편차(std, ddof=0)로 표준화한 DataFrame 복사본을 반환한다. std=0인 유효값은 0, 기존 NaN과 전부 NaN인 group은 NaN을 유지하고 미지정 열은 보존한다. 원래 인덱스와 행 순서를 지킨다.</p>
 <span id="question-O33-18" data-question-id="O33-18" class="section-anchor"></span><h4 id="process-3-binary-f1">통합 Process 3 — Binary F1</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-6">통합 Process의 F1·클래스 가중치·RGB·명세에 맞는 CNN</a></p></details>
 <p>NumPy만으로 <code>binary_f1(y_true, y_pred)</code>를 작성하라. 두 배열은 같은 1차원 크기와 <code>{0,1}</code> 값이어야 한다. 정밀도 또는 재현율의 분모가 0이면 해당 값과 F1을 0으로 정의한다.</p>
 <span id="question-O33-19" data-question-id="O33-19" class="section-anchor"></span><h4 id="process-4-causal-lag">통합 Process 4 — Causal Lag</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-5">통합 Process의 결측 보고서·그룹 통계·시차값</a></p></details>
-<p>add_lag(df, group_col, time_col, value_col, lag=1)을 구현하라. group/time에는 결측이 없고 time은 비교 가능한 숫자 또는 datetime이다. group/time/원래 위치 순으로 안정 정렬한 뒤 group 내부에서 value_col을 lag행 이동해 value_col + '_lag'라는 새 열에 추가한다. time 값이 같은 앞 행도 이전 관측으로 정의한다. 새 열은 입력에 없다고 가정한다. 원래 행 순서·인덱스·나머지 열을 보존하며 입력을 변경하지 않는다. lag는 bool을 제외한 1 이상 정수다.</p>
+<p>add_lag(df, group_col, time_col, value_col, lag=1)을 구현하라. group/time에는 결측이 없고 time은 비교 가능한 숫자 또는 datetime이다. group/time/원래 위치 순으로 안정 정렬한 뒤 group 내부에서 value_col을 lag행 이동해 value_col + '_lag'라는 새 열에 추가한다. time 값이 같은 앞 행도 이전 관측으로 정의한다. 새 열은 입력에 없다고 가정한다. 원래 행 순서·인덱스·나머지 열을 보존하며 입력을 변경하지 않는다.</p>
+<p>lag는 bool을 제외한 1 이상 정수다.</p>
 <span id="question-O33-20" data-question-id="O33-20" class="section-anchor"></span><h4 id="process-5-rgb-normalize">통합 Process 5 — RGB Normalize</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-6">통합 Process의 F1·클래스 가중치·RGB·명세에 맞는 CNN</a></p></details>
 <p>normalize_rgb(image, mean, std)를 구현하라. image는 H&gt;=1,W&gt;=1인 uint8 NumPy 배열 (H,W,3)이고 mean/std는 길이 3의 유한 실수 배열이며 std&gt;0이다. image를 float32로 바꾸어 255로 나누고 HWC에서 CHW로 축을 옮긴 뒤 채널별 (x-mean)/std를 적용한 float32 PyTorch 텐서 하나를 반환한다. 입력 image를 변경하지 않는다.</p>
 <span id="question-O33-21" data-question-id="O33-21" class="section-anchor"></span><h4 id="process-6-cnn-block">통합 Process 6 — 정확한 CNN Block</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-33-6">통합 Process의 F1·클래스 가중치·RGB·명세에 맞는 CNN</a></p></details>
@@ -650,7 +815,7 @@ print(output_path, reloaded.shape, reloaded.dtype)
 <li>훈련자료 전체로 재학습한 뒤 테스트 라벨을 예측한다.</li>
 <li>요구사항에 맞는 파일을 저장하고 다시 읽어 검사한다.</li>
 </ol>
-<details class="answer-panel" id="3317-process"><summary>33.17 통합 Process 정답 핵심 보기</summary><div class="answer-body"><p>실제 응시 후 확인한다.</p><ol>
+<details class="answer-panel" id="3317-process"><summary>33.17 통합 Process 정답 핵심 보기</summary><div class="answer-body"><p>각 답의 수식뿐 아니라 허용 입력·원본 보존·반환 모양을 함께 확인한다. 다음 해설은 통합 Process의 원래 8개 핵심 답을 보존하고 최소 예와 실패 조건을 연결한다.</p><p>실제 응시 후 확인한다.</p><ol>
 <li>df.isna().sum(), missing_count/len(df)(행이 0개이면 missing_rate=0.0), nunique(dropna=False)를 원 열 이름 index로 조립한다. 반환 열 순서는 dtype, missing_count, missing_rate, nunique_with_missing이다.</li>
 <li><code>groupby.transform('mean')</code>, 모집단 표준편차를 사용한다. 표준편차가 0인 위치를 처리할 때 NaN을 덮어쓰지 않는다.</li>
 <li>TP/FP/FN을 불리언 비교 결과의 합으로 세고 <code>2PR/(P+R)</code>의 분모가 0인 경우를 처리한다.</li>
@@ -659,10 +824,75 @@ print(output_path, reloaded.shape, reloaded.dtype)
 <li>출력은 <code>(B,8,16,16)</code>. Conv 매개변수 <code>8×3×3×3=216</code>, BN 학습 매개변수 16, 총 232.</li>
 <li><code>np.bincount(y,minlength=C)</code> 후 개수가 0인 클래스 검사, <code>N/(C*count)</code>.</li>
 <li>변환 뒤에도 유한성 검사, 저장 뒤 <code>np.load(...,allow_pickle=False)</code>와 <code>np.array_equal</code>.</li>
-</ol></div></details>
+</ol><p><strong>통합 Process 1 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 원래 열 이름이 보고서의 인덱스이며 반환 열 순서는 dtype, missing_count, missing_rate, nunique_with_missing이다.</p><p><strong>풀이:</strong> 각 열의 dtype 객체, isna().sum(), 행 수로 나눈 결측률, nunique(dropna=False)를 원 열 순서로 조립한다. 열 a=[1, NaN,1]이면 결측 수 1, 비율 1/3, 결측 포함 고유값 수 2다. 0행이면 비율을 0.0으로 정한다.</p><p><strong>정답:</strong> 명시한 4열 순서와 원 열 이름 인덱스의 새 DataFrame을 반환하고 입력은 변경하지 않는다. 원래 dtype 객체를 문자열로 바꾸지 않는다.</p><p><strong>왜?</strong> 행별 변환이 아니라 각 열의 상태를 요약하는 보고서이기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 원자료의 행 인덱스를 보고서 인덱스로 쓰거나 NaN을 고유값에서 빼지 않는다.</p><p><strong>한 줄 기억:</strong> 원래 열마다 한 행의 결측 보고서를 만든다.</p><p><strong>통합 Process 2 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 그룹 내부 유효값의 모집단 평균·표준편차 ddof=0이며 원래 행과 NaN을 보존한다.</p><p><strong>풀이:</strong> copy 후 groupby.transform으로 각 행의 그룹 평균과 std를 만든다. A 값 [2,6]은 평균 4·표준편차 2라 [−1,1], B 값 [10,10, NaN]은 std=0이라 [0,0, NaN]이다. 유효 상수 위치만 0으로 대체한다.</p><p><strong>정답:</strong> value_col만 그룹 zscore로 바꾼 복사본이며 행 순서·인덱스·다른 열은 그대로다. 전체 NaN 그룹은 NaN이다.</p><p><strong>왜?</strong> 그룹마다 다른 위치·척도를 자기 그룹 기준으로 맞추기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> pandas 기본 std의 ddof=1을 그대로 쓰거나 std=0 처리에서 NaN까지 0으로 덮지 않는다.</p><p><strong>한 줄 기억:</strong> 그룹 통계를 원래 행에 대응시키고 NaN은 남긴다.</p><p><strong>통합 Process 3 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 두 입력은 같은 1차원 크기의 0·1 라벨이며 분모 0 정책을 지킨다.</p><p><strong>풀이:</strong> (true==1)&amp;(pred==1)을 TP, (true==0)&amp;(pred==1)을 FP, (true==1)&amp;(pred==0)을 FN으로 세고 P=TP/(TP+FP), R=TP/(TP+FN)을 구한다. TP=6, FP=2, FN=3이면 F1=12/17이다. 분모 0이면 정의한 0을 반환한다.</p><p><strong>정답:</strong> 이진 양성 F1 스칼라를 반환한다. 양성 F1 하나는 Macro-F1이 아니다.</p><p><strong>왜?</strong> F1은 경보 신뢰도와 실제 양성 검출률의 조화 평균이기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 확률을 그대로 bool로 바꾸면 0 아닌 값이 전부 1이 된다. 명세 라벨 0·1을 검사하고 없는 분모에 임의 1을 넣지 않는다.</p><p><strong>한 줄 기억:</strong> 0·1 비교로 TP·FP·FN을 세고 0분모 정책을 지킨다.</p><p><strong>통합 Process 4 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> lag는 bool 제외 1 이상 정수, group/time 결측 없음, 같은 시각 앞 행은 과거라는 조건이다.</p><p><strong>풀이:</strong> 충돌 없는 원래 위치 임시 열을 보관하고 group/time/위치로 안정 정렬한다. 그룹 안 value를 shift(lag) 한 새 열을 만들고 원래 위치 순서·인덱스를 복원한다. lag=2에서 [3,8,12,20]은 [NaN, NaN,3,8]이다.</p><p><strong>정답:</strong> value_col+"_lag"를 추가한 DataFrame 복사본을 원래 순서로 반환한다.</p><p><strong>왜?</strong> 이전 행의 값을 현재 행 특성에 대응시키면서 다른 그룹의 마지막 값이 새 그룹에 들어오지 않게 한다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 그룹화 전에 전체 shift하면 그룹 경계를 넘을 수 있다. 원래 인덱스 이름을 유일 위치로 가정하지 않는다.</p><p><strong>한 줄 기억:</strong> 그룹 안에서만 이동하고 원래 위치로 돌아간다.</p><p><strong>통합 Process 5 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> uint8[H, W,3], 유한한 길이 3 mean/std, 양의 std, 원본 불변, float32 텐서 하나 반환이다.</p><p><strong>풀이:</strong> 형식을 검사한 후 float32로 바꿔 255로 나누고 permute(2,0,1)로 CHW를 만든다. mean/std를 [3,1,1]로 두어 채널별 표준화한다. RGB[51,102,153], mean=[.1, .2, .3], std=[.2, .4, .6]이면 정규화 픽셀은 [.5, .5, .5]다.</p><p><strong>정답:</strong> float32[3, H, W] Tensor 하나를 반환한다. 원래 image는 변경하지 않는다.</p><p><strong>왜?</strong> 범위·축·채널별 기준을 모델이 받는 형식으로 맞추기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> uint8 원본에 제자리 나눗셈을 하거나 정규화 텐서와 원본을 튜플로 함께 반환하지 않는다.</p><p><strong>한 줄 기억:</strong> float32·255 나눗셈·CHW·채널 기준을 차례로 적용한다.</p><p><strong>통합 Process 6 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> Conv의 채널 3→8, k=3, p=1, bias=False, BN(8), ReLU, MaxPool(2)만 순서대로 사용한다.</p><p><strong>풀이:</strong> Conv는 공간 크기 32를 유지해 [B,8,32,32]를 만들고, BN·ReLU 뒤에도 크기는 같다. Pool(2) 뒤에는 [B,8,16,16]이다. 가중치 8×3×3×3=216개와 편향 0개에 BN의 γ 8개 + β 8개 = 16개를 더한다.</p><p><strong>정답:</strong> 출력(B,8,16,16), 총 232개 학습 매개변수다. 별도 검산 식은 assert block(torch.zeros(2,3,32,32)).shape == (2,8,16,16)처럼 B=2로 확인할 수 있다.</p><p><strong>왜?</strong> 커널은 위치 공유, BN은 채널별 학습값 두 개, Pool은 공간만 줄이는 무매개변수 연산이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> bias=False를 놓쳐 8개를 더하지 않고 running 통계도 학습 매개변수에 포함하지 않는다.</p><p><strong>한 줄 기억:</strong> 공간 축·bias·BN 두 학습값을 따로 센다.</p><p><strong>통합 Process 7 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 비어 있지 않은 1차원 정수 y, 양의 정수 C, bool 제외,0≤y&lt;C, 모든 클래스 존재다.</p><p><strong>풀이:</strong> 입력 조건을 검사하고 bincount(y, minlength=C)로 클래스 0부터 C−1까지의 개수를 센다. 표본이 0개인 클래스가 있으면 거절하고 N/(C×count)를 구한다. N=12, C=3, count=[6,3,3]이면 [2/3,4/3,4/3]이다.</p><p><strong>정답:</strong> 클래스 순서 shape(C, ) float32 Tensor를 반환하며 누락 클래스·잘못된 입력은 ValueError다.</p><p><strong>왜?</strong> count_c×weight_c=N/C로 각 클래스 총 가중치를 같게 만드는 정의이기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 실제 등장 순서대로 가중치를 정렬하거나 BCE의 pos_weight=음성/양성과 같은 값으로 취급하지 않는다.</p><p><strong>한 줄 기억:</strong> 클래스 0부터 C−1의 총 가중치를 N/C로 맞춘다.</p><p><strong>통합 Process 8 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 정확한(n_rows, n_outputs) 수치형 유한 배열을 저장하고 shape·dtype·값을 왕복 검사한다.</p><p><strong>풀이:</strong> asarray 후 tuple shape와 수치형·finite를 검사한다. 필요한 형 변환이 명세에 있다면 변환 뒤 finite도 확인한다. allow_pickle=False로 save와 load를 하고 reloaded.shape·dtype·array_equal을 비교한다.</p><p><strong>정답:</strong> 요구 경로에 검증한 배열이 동일하게 읽히는 NPY를 남긴다. 반환값이 따로 명시되지 않았으므로 임의 필수 튜플을 추가하지 않는다.</p><p><strong>왜?</strong> 메모리의 예측과 파일의 실제 내용이 같아야 다음 단계가 안전하게 읽을 수 있기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> shape를 억지 reshape로 맞추지 않는다. np.save의 확장자 처리와 다시 읽을 경로도 일치시킨다.</p><p><strong>한 줄 기억:</strong> 정확한 배열 계약을 확인한 뒤 저장·재읽기를 대조한다.</p><p><strong>통합 Problem 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 새 차량의 고장을 0·1로 분류하며 지표는 Macro-F1, 출력은 (N, ) 크기의 라벨이다. 앞의 센서 회귀에서 사용한 [N,3]과 다르다.</p><p><strong>풀이:</strong> vehicle_id로 group 분할하고 특성에서는 제외한다. train 폴드에서 대체·인코딩·scaling을 fit해 빠른 기준 파일을 만든다. MLP의 [B,1]logits와 float[B,1] 정답을 BCEWithLogits에 넣고 train 음성/양성 개수로 pos_weight를 정한다. valid 확률의 문턱 후보별 Macro-F1을 비교한다. 설정·에포크·문턱 방식을 고정해 전체 훈련으로 새로 학습한 뒤 test 확률을 0·1 라벨 [N]로 바꾸어 NPY를 저장·재읽기한다.</p><p><strong>정답:</strong> 그룹 교집합 0·train-only 전처리·검증 선택 문턱·원 테스트 순서의 유한 0·1 라벨(N, ) 파일이 완료 결과다. 실제 최적 문턱·점수·시간은 실행 로그로 남긴다.</p><p><strong>왜?</strong> 테스트의 새 집단 조건을 재현하고 확률을 요구 지표의 확정 라벨로 바꿔야 하기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 테스트를 보며 문턱을 다시 고르거나 회귀 파일의 shape를 재사용하지 않는다. 전체 재학습으로 점수 분포가 바뀔 수 있어 문턱 안정성은 검증 계획에서 고려한다.</p><p><strong>한 줄 기억:</strong> 새 차량 그룹 분할 →train 전처리 →BCE 학습 →valid 문턱 →라벨 파일이다.</p></div></details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <h3 id="3318">33.18 통합 모의 채점표</h3>
+<p>통합 채점은 두 영역을 모두 끝냈는지와 누수 없이 비교했는지를 함께 본다. Process 일반 24점·경계 16점, Problem 분할 15점·baseline 10점·MLP 15점·최종 제출 20점은 합 100점이다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="33강 표 3, 좌우로 스크롤할 수 있습니다"><table data-table="3">
 <thead>
 <tr>
@@ -710,6 +940,7 @@ print(output_path, reloaded.shape, reloaded.dtype)
 <li>마지막 7분 미확보</li>
 <li>보조 코드 전체를 수정 없이 복사해 문제의 요구사항을 설명하지 못함</li>
 </ul>
+<p>70분 전에 NPY가 있다는 것은 모델 학습을 시작했다는 뜻이 아니라 저장·재읽기가 가능한 첫 유효 파일이 있다는 뜻이다. 8문항 중 6개 일반 테스트와 경계 통과는 서로 다른 기준이다. 점수와 별개 재응시 조건은 시간 운영·제출·독립 수행 습관을 확인하는 자체 목표이며 공식 합격선을 말하는 것이 아니다. 실패 조건 하나를 골라 다음 모의 전에 최소 반례와 재검사 절차를 완성한다.</p>
 
 
 3b:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$40"}}]

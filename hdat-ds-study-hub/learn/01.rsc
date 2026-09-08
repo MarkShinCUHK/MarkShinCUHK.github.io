@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/01","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/01":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/01":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","01"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/01","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/01"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/01"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/01","_N_T_/layout","_N_T_/learn/01","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/01"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/01","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/01":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/01":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","01"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/01","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/01"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/01"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/01","_N_T_/layout","_N_T_/learn/01","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/01"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -42,7 +42,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 25:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-01-1",{"children":[["$","a",null,{"href":"#visual-01-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-01-1",{"children":["$","a",null,{"href":"#topic-01-1","children":"무엇을 입력으로 주고 무엇을 맞히려는가?"}]}]]}]]}]]}],["$","li","visual-01-2",{"children":[["$","a",null,{"href":"#visual-01-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-01-2",{"children":["$","a",null,{"href":"#topic-01-2","children":"한 행에서 문제의 종류까지 연결하기"}]}]]}]]}]]}],["$","li","visual-01-3",{"children":[["$","a",null,{"href":"#visual-01-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-01-4",{"children":[["$","a",null,{"href":"#visual-01-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-01-3",{"children":["$","a",null,{"href":"#topic-01-3","children":"학습·검증·최종 예측을 같은 말로 읽지 않기"}]}],["$","li","topic-01-4",{"children":["$","a",null,{"href":"#topic-01-4","children":"소요 시간과 종료 시각은 어떻게 다른가?"}]}]]}]]}]]}],["$","li","visual-01-5",{"children":[["$","a",null,{"href":"#visual-01-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-01-5",{"children":["$","a",null,{"href":"#topic-01-5","children":"값이 맞아도 명세를 어기면 왜 오답인가?"}]}]]}]]}]]}],["$","li","visual-01-6",{"children":[["$","a",null,{"href":"#visual-01-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-01-6",{"children":["$","a",null,{"href":"#topic-01-6","children":"낮은 기준 점수와 올바른 제출 파일이 왜 필요한가?"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-01","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-01-1",{"children":["$","a",null,{"href":"#theory-01-1","children":"문제를 읽을 때 먼저 구분할 다섯 가지"}]}],["$","li","theory-01-2",{"children":["$","a",null,{"href":"#theory-01-2","children":"예측 성능과 명세 준수는 별도로 확인한다"}]}],["$","li","theory-01-3",{"children":["$","a",null,{"href":"#theory-01-3","children":"걸리는 시간과 시작부터 계산한 종료 시각을 구분한다"}]}],["$","li","theory-01-4",{"children":["$","a",null,{"href":"#theory-01-4","children":"오픈북과 이론 공부의 역할을 분리한다"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","12",{"children":["$","a",null,{"href":"#12","children":"시험 구조"}]}],["$","li","13",{"children":["$","a",null,{"href":"#13","children":"공식 범위를 학습 묶음으로 바꾸기"}]}],["$","li","13a",{"children":["$","a",null,{"href":"#13a","children":"학습 방식의 큰 분류"}]}],["$","li","14",{"children":["$","a",null,{"href":"#14","children":"오픈북의 정확한 의미"}]}],["$","li","15-170",{"children":["$","a",null,{"href":"#15-170","children":"170분 기본 운영안"}]}],["$","li","16",{"children":["$","a",null,{"href":"#16","children":"확인문제"}]}],["$","li","17",{"children":["$","a",null,{"href":"#17","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],["$","ol",null,{"children":[["$","li","visual-01-7",{"children":["$","a",null,{"href":"#visual-01-7","children":"스스로 확인하기"}]}],["$","li","visual-01-8",{"children":["$","a",null,{"href":"#visual-01-8","children":"정답과 이유"}]}],["$","li","visual-01-9",{"children":["$","a",null,{"href":"#visual-01-9","children":"더 읽을 공식 자료"}]}]]}]]]}]
 26:["$","$L2e",null,{}]
 27:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","시험의 세 영역이 각각 무엇을 평가하는지 한 문장으로 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"시험의 세 영역이 각각 무엇을 평가하는지 한 문장으로 설명한다."]}],["$","li","공식 범위를 10개 학습 묶음으로 분류한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"공식 범위를 10개 학습 묶음으로 분류한다."]}],["$","li","실기 170분 동안 Process와 Problem을 모두 제출하는 시간표를 만든다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"실기 170분 동안 Process와 Problem을 모두 제출하는 시간표를 만든다."]}],["$","li","오픈북이 허용하는 것과 허용하지 않는 것을 구분한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"오픈북이 허용하는 것과 허용하지 않는 것을 구분한다."]}]]}]]}]
-28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 2f:T509e,<h3 id="visual-01-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-01-1">무엇을 입력으로 주고 무엇을 맞히려는가?</h4>
 <p>정비소에서 차량의 다음 달 수리비를 미리 알고 싶다고 하자. 사람이 “오래되고 많이 달린 차는 수리비가 클 것 같다”고 추측하는 대신, 과거 차량의 기록에서 계산 규칙을 찾는 것이 이번 학습의 출발점이다. 과거 표에는 사용 연수·주행거리·실제 수리비가 있고, 앞으로 예측할 차량에는 사용 연수·주행거리만 있다. 아직 발생하지 않은 수리비를 입력으로 줄 수 없으므로, 이미 아는 정보와 앞으로 맞힐 정보를 먼저 나누어야 한다.</p>
@@ -100,30 +100,54 @@ assert ends.tolist() == [8, 55, 65, 125, 150, 163, 170]
 2b:["$","$L35",null,{"track":"learn","lesson":"01","goal":"시험의 세 영역이 각각 무엇을 평가하는지 한 문장으로 설명한다."}]
 2c:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"학습 마무리"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"끝까지 읽었다면 아래 완료 기준도 확인해 보세요. 직접 설명하거나 실행할 수 있는 항목을 표시하면 됩니다."}]]}],["$","$L36",null,{"lessonId":"01"}]]}]
 2d:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","span",null,{}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/02/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[2,". ","Python·Jupyter와 배열 크기 읽기"," →"]}]]}]]}]
-37:T1fb7,<h3 id="theory-01-1">1. 문제를 읽을 때 먼저 구분할 다섯 가지</h3>
+37:T2e5b,<h3 id="theory-01-1">1. 문제를 읽을 때 먼저 구분할 다섯 가지</h3>
+<p>차량 사용 연수 2년·주행거리 3만 km로 수리비를 예상해 18만 원을 냈고, 나중에 실제 수리비가 20만 원이었다고 하자. 이 한 문장에는 이미 아는 재료, 아직 모르는 결과, 모델이 만든 추정, 두 값의 비교가 따로 들어 있다. 이 구분 없이 모델 이름부터 고르면 정답을 입력에 넣거나 종류 번호를 금액처럼 평균하는 착오가 생긴다. 아래에서는 이 작은 작업을 다섯 질문으로 나눈다.</p>
 <p>머신러닝 문제를 처음 보면 알고리즘 이름부터 찾기 쉽다. 하지만 무엇을 학습해야 하는지 판단하려면 입력, 정답, 출력, 평가, 사용 상황의 다섯 가지를 먼저 확인해야 한다. 입력 X는 모델이 실제로 예측할 때 받을 정보다. 정답 y는 맞히려는 결과다. 출력 ŷ는 모델이 만든 추정값이며, 정답 y 위에 모자 모양 기호를 붙여 구별한다. 평가는 출력이 얼마나 맞았는지 재는 규칙이다. 사용 상황은 새로운 차량을 예측할지, 같은 차량의 미래를 예측할지와 같은 조건을 뜻한다.</p>
-<p>종류를 숫자 0·1·2로 저장해도 숫자 사이의 거리 자체가 정답의 의미는 아니다. 정상·경고·고장에 붙인 번호를 바꾸어도 세 종류를 구분하는 문제라는 점은 같다. 반대로 배터리 잔여 수명 10시간과 20시간은 수치 차이 자체에 의미가 있으므로 회귀 문제다. 여러 종류 중 하나만 고르는 다중분류와, 한 차량에 누유·소음·진동이 동시에 있을 수 있는 다중 레이블 분류도 구분한다. 지도학습은 입력과 정답의 쌍으로 학습하고, 비지도학습은 별도 정답 없이 구조를 찾는다. 자기지도학습은 원자료의 일부를 숨기거나 다음 부분을 정답으로 삼아 입력과 정답의 쌍을 만든다.</p>
-<p>예를 들어 차량 240대의 사용 연수·주행거리로 다음 달 수리비를 예측한다면 샘플 수는 N=240, 입력 특성 수는 F=2이며 정답은 차량마다 금액 하나다. 40대씩 계산하면 배치 크기는 B=40이고, 한 배치 X의 크기는 [40,2]다. 출력은 차량별 금액 40개다. 같은 표에서 수리비를 사용하지 않고 비슷한 차량을 세 묶음으로 나누면 군집화 문제가 된다. 열 개수나 숫자 저장 형식이 같다고 두 작업을 같은 것으로 볼 수는 없다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-V01-01">기초 확인 · 1번</a></p></details>
+<p>종류를 숫자 0·1·2로 저장해도 숫자 사이의 거리 자체가 정답의 의미는 아니다. 정상·경고·고장에 붙인 번호를 바꾸어도 세 종류를 구분하는 문제라는 점은 같다. 반대로 배터리 잔여 수명 10시간과 20시간은 수치 차이 자체에 의미가 있으므로 회귀 문제다. 여러 종류 중 하나만 고르는 다중분류와, 한 차량에 누유·소음·진동이 동시에 있을 수 있는 다중 레이블 분류도 구분한다. 지도학습은 입력과 정답의 쌍으로 학습하고, 비지도학습은 별도 정답 없이 구조를 찾는다.</p>
+<p>자기지도학습은 원자료의 일부를 숨기거나 다음 부분을 정답으로 삼아 입력과 정답의 쌍을 만든다.</p>
+<p>예를 들어 차량 240대의 사용 연수·주행거리로 다음 달 수리비를 예측한다면 샘플 수는 N=240, 입력 특성 수는 F=2이며 정답은 차량마다 금액 하나다. 40대씩 계산하면 배치 크기는 B=40이고, 한 배치 X의 크기는 [40,2]다. 출력은 차량별 금액 40개다. 같은 표에서 수리비를 사용하지 않고 비슷한 차량을 세 묶음으로 나누면 군집화 문제가 된다. 열 개수나 숫자 저장 형식이 같다고 두 작업을 같은 것으로 볼 수는 없다.</p>
+<p><strong>다음 행동으로 연결하기.</strong> 문제를 읽고 한 줄로 “X의 한 행은 무엇, y는 무엇, 출력 하나의 의미와 단위는 무엇”을 적는다. 종류 번호를 바꾸어도 의미가 그대로라면 보통 범주이고, 10을 20으로 바꿀 때 두 배라는 의미가 있다면 측정량일 수 있다. 판단은 자료형만 아니라 문제의 정의로 한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 입력·정답·예측은 같은 숫자로 저장되어도 역할이 다르다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-V01-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-01-2">2. 예측 성능과 명세 준수는 별도로 확인한다</h3>
+<p>함수가 변환 결과 [0,0.5,1]을 정확히 계산했지만, 원본 표까지 덮어썼다고 하자. 숫자만 보면 성공인데 함수를 호출한 다음 코드가 원래 값을 쓰려 하면 실패한다. 그래서 프로그래밍 문제에는 “무엇을 계산했나”와 “어떤 약속을 지켰나”라는 두 검사가 필요하다.</p>
 <p>명세는 프로그램의 입력·출력과 동작에 관한 요구사항이다. 예를 들어 “지정한 열만 변환하고, 입력은 바꾸지 않고, 같은 행 순서의 새 표를 반환한다”는 서로 다른 세 조건이다. 예측 성능이 좋은 함수를 만들었어도 지정하지 않은 열을 바꾸면 이 문제의 답이 아니다. 반환은 호출한 곳에 값을 전달하는 일이고, 화면 출력은 값을 표시하는 일이므로 print만 하는 함수는 반환 조건을 충족하지 못할 수 있다.</p>
 <p>작은 기능을 구현하는 문제에서도 공개 예시에 없는 입력을 넣었을 때 정해진 동작이 유지되어야 한다. 빈 열 목록, 상수 열, 결측값, 배치 크기 1은 특이한 장난 입력이 아니라 함수가 처리해야 할 범위를 확인하는 사례다. “빈 목록이면 아무 일도 하지 않는다”는 말도 원본 객체를 돌려주는지, 값이 같은 복사본을 돌려주는지에 따라 뜻이 달라진다. 함수를 호출한 쪽에서 나중에 결과를 수정할 수 있으므로 원본 보존 요구가 있다면 복사 여부를 분명히 한다.</p>
-<p>예를 들어 12행을 예측해야 하는데 병합 후 14행이 되었다면 모델 점수보다 예측값과 대상 행의 대응부터 바로잡아야 한다. 예측 파일에서는 최소한 행 수, 행 순서, 출력 열 수와 순서, 수치 자료형, NaN·무한대가 없는지 여부, 지정 파일명을 확인해야 한다. NaN은 비어 있거나 정의되지 않은 값이고 Inf는 무한대다. 파일이 저장되었다고 이 조건들이 맞는 것은 아니므로 다시 읽어 검사한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 4개</summary><p><a href="#question-O01-01">1.6 확인문제 · 1번</a> · <a href="#question-O01-02">1.6 확인문제 · 2번</a> · <a href="#question-V01-03">기초 확인 · 3번</a> · <a href="#question-V01-04">기초 확인 · 4번</a></p></details>
+<p>예를 들어 12행을 예측해야 하는데 병합 후 14행이 되었다면 모델 점수보다 예측값과 대상 행의 대응부터 바로잡아야 한다. 예측 파일에서는 최소한 행 수, 행 순서, 출력 열 수와 순서, 수치 자료형, NaN·무한대가 없는지 여부, 지정 파일명을 확인해야 한다. NaN은 비어 있거나 정의되지 않은 값이고 Inf는 무한대다. 파일이 저장되었다고 이 조건들이 맞는 것은 아니므로 다시 읽어 검사한다.</p>
+<p>예측 파일도 같은 원리다. 차량 순서 A·B에 대응하는 값 [10,30]을 [30,10]으로 내면 숫자 집합은 같아도 다른 답이다. 반환값 확인에는 값 비교, 객체 확인에는 원본과 다른 새 객체인지, 부작용 확인에는 호출 전후 원본이 같은지를 사용한다. 공개 예제 하나의 통과로 이 세 조건을 한꺼번에 확인했다고 보지 않는다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 반환·원본 보존·행 대응은 성능과 별도로 검사한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 4개</summary><p><a href="#question-O01-01">1.6 확인문제 · 1번</a> · <a href="#question-O01-02">1.6 확인문제 · 2번</a> · <a href="#question-V01-03">기초 확인 · 3번</a> · <a href="#question-V01-04">기초 확인 · 4번</a></p></details>
 <h3 id="theory-01-3">3. 걸리는 시간과 시작부터 계산한 종료 시각을 구분한다</h3>
+<p>“모델에 15분을 쓴다”와 “시작 50분 뒤에 모델을 끝낸다”는 다른 정보다. 앞 작업들이 35분 걸렸다면 두 표현이 같은 일정이 되지만, 시작이 달라지면 종료도 달라진다. 먼저 시간을 길이로 나누고 앞에서부터 누적해 시각으로 바꾸어 보자.</p>
 <p>필기 연습 시간이 36분, 문항 수가 12개이고 마지막 검토에 6분을 남긴다고 하자. 전체 평균은 36÷12=3분이다. 첫 풀이에 쓸 시간은 36−6=30분이므로 첫 풀이 평균은 30÷12=2.5분이다. 둘 다 맞는 계산이지만 분자와 분모에 넣은 값이 다르다. 평균은 문항마다 반드시 지켜야 할 제한 시간이 아니다. 쉬운 문항에서 아낀 시간을 어려운 문항에 쓰되, 전체 검토 시간을 남기도록 계획할 때 쓰는 기준이다.</p>
 <p>실기 연습 시간 100분을 읽기 7분, 작은 기능 구현 28분, 첫 모델·파일 만들기 15분, 개선 35분, 검증·저장 15분으로 나누면 합은 100분이다. 첫 파일을 만드는 목표 시각은 시작부터 7+28+15=50분이다. 한 번 학습에 3분 걸리는 후보 6개를 비교하면 18분이 지나므로 개선 구간에는 분석·수정 시간 17분만 남는다. 사람이 코드를 입력하지 않고 기다리는 동안에도 모델 실행 시간은 계속 흐른다.</p>
-<p>이 교재의 170분 표에서는 첫 기준 모델을 만드는 구간이 55–65분이다. 따라서 표를 그대로 따르면 첫 파일을 만드는 목표는 약 65분이다. 다른 곳의 “60분 안”과 같은 숫자로 외우면 안 된다. 이는 권장 연습 계획일 뿐, 공식적으로 그 시각까지 파일을 만들라는 채점 조건은 아니다. 공식 운영 시간과 허용 자료는 응시 회차 안내에서 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O01-02">1.6 확인문제 · 2번</a> · <a href="#question-O01-04">1.6 확인문제 · 4번</a> · <a href="#question-V01-02">기초 확인 · 2번</a></p></details>
+<p>이 교재의 170분 표에서는 첫 기준 모델을 만드는 구간이 55–65분이다. 따라서 표를 그대로 따르면 첫 파일을 만드는 목표는 약 65분이다. 다른 곳의 “60분 안”과 같은 숫자로 외우면 안 된다. 이는 권장 연습 계획일 뿐, 공식적으로 그 시각까지 파일을 만들라는 채점 조건은 아니다. 공식 운영 시간과 허용 자료는 응시 회차 안내에서 확인한다.</p>
+<p>계산에서 단위를 끝까지 붙인다. 2.5분의 소수 0.5는 50초가 아니라 0.5×60=30초다. 평균을 넘긴 문항이 하나 있다고 계획 실패는 아니지만 남은 총시간을 다시 계산해야 한다. 코드 실행·학습 대기도 흐르는 시간이며 마지막 저장·검사에 남길 시간은 처음부터 제외한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 소요 시간은 구간의 길이, 종료 시각은 앞 구간까지 더한 누적합이다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O01-02">1.6 확인문제 · 2번</a> · <a href="#question-O01-04">1.6 확인문제 · 4번</a> · <a href="#question-V01-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-01-4">4. 오픈북과 이론 공부의 역할을 분리한다</h3>
+<p>MSE라는 공식을 검색해서 찾았어도 서로 다른 차량의 예측과 정답을 빼면 틀린 문제를 정확하게 계산하게 된다. 공식의 모양과 적용할 조건을 함께 알아야 검색 결과를 사용할 수 있다. 오픈북은 이 조건 판단까지 대신해 주지 않는다.</p>
 <p>오픈북으로 공식을 찾아도 그 공식의 가정을 모르면 적용할 수 있는지 판단하기 어렵다. MSE라는 이름을 찾는 것과 각 예측을 올바른 정답에 대응시켜 오차를 계산하는 것은 다르다. PCA 코드를 찾는 것과 검증 데이터로 학습하면 안 되는 이유를 설명하는 것도 다르다. 평소에는 정의를 내 말로 설명하고, 새 숫자로 계산하며, 틀린 보기에 반례를 드는 연습을 한다. 제한 시간 연습에서는 이미 이해한 공식과 코드가 있는 곳을 빠르게 찾는다.</p>
 <p>학습용 공개 사이트에 접속할 수 있다는 것과 시험 중 사용이 허용된다는 것은 별개다. 생성형 AI, 외부 통신, GitHub, 개인 파일의 허용 여부는 회차별 규정에 따른다. 이 교재가 공개되어 있다는 이유로 시험 중 접속해도 된다고 추정하지 않는다. 단순한 기준 모델을 만드는 것도 목표를 낮춘다는 뜻은 아니다. 데이터 처리부터 제출까지 모두 수행할 수 있는지, 복잡한 모델이 실제로 더 나은지 확인할 비교 기준을 마련하는 일이다.</p>
-<p>학습 파이프라인의 역할은 <a href="https://scikit-learn.org/stable/getting_started.html" target="_blank" rel="noopener noreferrer">scikit-learn Getting Started</a>, 데이터 처리부터 모델 학습까지의 과정은 <a href="https://docs.pytorch.org/tutorials/beginner/basics/intro.html" target="_blank" rel="noopener noreferrer">PyTorch Learn the Basics</a>를 참고한다. 두 자료는 학습 도구의 사용법을 설명하며, HDAT 운영 규정의 근거는 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O01-03">1.6 확인문제 · 3번</a></p></details>
+<p>학습 파이프라인의 역할은 <a href="https://scikit-learn.org/stable/getting_started.html" target="_blank" rel="noopener noreferrer">scikit-learn Getting Started</a>, 데이터 처리부터 모델 학습까지의 과정은 <a href="https://docs.pytorch.org/tutorials/beginner/basics/intro.html" target="_blank" rel="noopener noreferrer">PyTorch Learn the Basics</a>를 참고한다. 두 자료는 학습 도구의 사용법을 설명하며, HDAT 운영 규정의 근거는 아니다.</p>
+<p>독학에서는 예제를 읽은 뒤 같은 숫자를 외우기보다 입력을 하나 바꿔 결과를 설명한다. 제출 순서를 바꾸면 무엇이 깨지는지, 같은 값만 있는 열에서는 왜 별도 처리가 필요한지 말할 수 있다면 원리를 이해한 것이다. 시험 당일 허용 범위는 실제 회차 안내의 문제이며 이론 교재의 공개 여부로 추정하지 않는다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 평소에는 적용 이유를 배우고 제한 시간에는 허용된 자료로 기억을 확인한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O01-03">1.6 확인문제 · 3번</a></p></details>
 30:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-01","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-01","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$37"}}]]}]
 31:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 32:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-38:T2b0c,
+38:T58d0,
 <span class="section-anchor" id="11" aria-hidden="true"></span>
-
+<p>이 교재로 하고 싶은 일은 “과거 차량 기록에서 규칙을 배워, 아직 결과를 모르는 차량을 예측하기”다. 입력을 읽고, 규칙을 만들고, 새 차량에도 통하는지 확인하고, 결과를 맞는 순서로 저장해야 끝난다. 이번 강의는 그 일을 시험의 세 영역과 연결해 학습 순서를 정한다. 아래 목표는 지금 즉시 외울 목록이 아니라 공부한 뒤 해 볼 행동이다.</p>
+<p>이 강의를 마치면 다음을 할 수 있어야 한다.</p>
 
 <h3 id="12">1.2 시험 구조</h3>
+<p>차량 A의 무게·속도를 보고 연비를 예상한다고 하자. 무게·속도는 이미 아는 입력 정보인 특성(feature), 실제 연비는 맞히려는 정답(target), 예측 규칙은 모델(model)이다. 모델의 숫자를 정답과 비교하며 조절하는 일을 학습이라 한다. 규칙의 뜻을 설명하는 일, 요구한 함수를 만드는 일, 데이터에서 제출까지 연결하는 일은 서로 다르다. 이 차이가 아래 세 시험 영역을 따로 준비하는 이유다.</p>
+<p>아래 운영 수치·버전은 원 교재가 기록한 2026 안내 기준을 보존한 것이다. 이 개편에서 현재 응시 회차의 규정을 새로 확인했다는 뜻은 아니다. 실제 일정·허용 도구·설치 버전은 응시 회차의 공식 안내를 우선한다.</p>
 <p>2026 공식 안내와 공개 연습자료를 기준으로 한 구조는 다음과 같다. 회차별 세부 시각과 규정은 시험 직전에 공식 매뉴얼에서 다시 확인한다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="1강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
 <thead>
@@ -156,7 +180,13 @@ assert ends.tolist() == [8, 55, 65, 125, 150, 163, 170]
 <p>공식 운영상 코드 실행과 모델 학습에 걸리는 시간도 실기 170분에 포함되며, 실행이나 학습이 지연되어도 시간이 연장되지 않는다. 따라서 전체 데이터를 반복 학습하는 횟수(epoch), 성능이 나아지지 않아도 기다릴 횟수(patience), 데이터 크기, 실제 경과 시간의 상한까지 정해 두어야 한다.</p>
 <p>필기는 한 문제에 평균 2분 30초를 쓸 수 있다. 긴 수식 유도보다는 <strong>정의, 값의 변화 방향, 출력 범위, 배열 크기(shape), 장단점</strong>을 빠르게 판단해야 한다. Process는 코드가 짧아도 함수명, 반환형, 원본 보존 여부, 경계조건을 틀리면 공개 예시에 없는 입력을 처리하지 못할 수 있다. Problem은 가장 복잡한 모델을 만드는 것보다 <strong>제출 조건에 맞는 예측 파일을 먼저 만드는 능력</strong>이 중요하다.</p>
 <p>2026 공식 FAQ가 안내한 주요 버전은 NumPy 1.26.4, pandas 2.2.3, scikit-learn 1.5.2, PyTorch 2.7.0(CUDA 11.8)이다. torchvision은 PyTorch와 호환되는 버전으로 안내된다. 시험 직전 공식 FAQ를 다시 확인하고, 패키지를 추가로 설치하지 않아도 주요 풀이 코드를 실행할 수 있도록 준비한다. 이 교재의 딥러닝 코드는 PyTorch만 사용한다.</p>
+<p><strong>같은 예측 문제라도 검사는 두 번 한다.</strong> “20만 원을 예측했다”는 값의 내용이고, “차량 A의 출력으로 실수 하나를 반환했다”는 명세다. 명세는 입력·출력·동작을 정한 요구사항이다. 함수가 화면에 20을 출력했어도 반환값이 없거나 B 차량 위치에 저장했다면 요구한 결과가 아니다. 빈 입력, 마지막 작은 배치, 같은 값만 있는 열에서도 명세가 유지되는지 확인한다.</p>
+<p>학습 자료를 한 번 모두 훑는 단위가 에포크(epoch), 개선이 없어도 더 기다리는 횟수 설정이 patience다. 한 에포크가 3분이면 20에포크는 계산만 약 60분이다. “학습 중이니 기다리자”도 시간 예산을 쓰는 선택이다. 작은 기준 모델로 읽기부터 저장까지 먼저 확인하면, 이후 성능이 낮은 원인과 제출 오류를 분리해 고칠 수 있다.</p>
+<blockquote>
+<p><strong>핵심 기억:</strong> 개념 이해, 명세 준수, 유효한 제출은 연결되지만 서로 대신하지 않는다.</p>
+</blockquote>
 <h3 id="13">1.3 공식 범위를 학습 묶음으로 바꾸기</h3>
+<p>공식 범위를 이름순으로 외우면 왜 배열 다음에 행렬곱을 배우는지 연결이 보이지 않는다. 자동차 표의 열을 준비하려면 데이터 처리, 여러 열을 한 예측으로 합치려면 수학과 모델, 새 자동차에도 통하는지 보려면 검증이 필요하다. 아래 표를 “내가 지금 어느 일을 배우는가”를 찾는 지도처럼 읽자.</p>
 <p>공식 공개 범위를 공부할 내용에 따라 다시 묶으면 다음과 같다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="1강 표 2, 좌우로 스크롤할 수 있습니다"><table data-table="2">
 <thead>
@@ -223,7 +253,12 @@ assert ends.tolist() == [8, 55, 65, 125, 150, 163, 170]
 </tr>
 </tbody></table></div>
 <p>강화학습은 제공 교육자료에 포함되어 있으나 현재 공개된 핵심 출제범위를 기준으로 보면 학습 우선순위가 낮다. 시간이 부족하면 본 교재의 내용을 먼저 공부한다.</p>
+<p>학습 목표의 “10개 묶음”은 수학 원리부터 생성·응용까지의 학습 내용 열 묶음을 가리킨다. 표에는 이를 실행하는 시험 실행 묶음이 추가되어 총 11행이 있다. 열 개와 열한 개가 서로 다른 시험 범위를 뜻하는 것은 아니다. 예를 들어 4강의 행렬곱은 10강의 선형회귀와 16강 이후의 신경망에 함께 쓰이고, 8강의 학습 데이터에서만 기준을 구하는 원리는 뒤의 모든 검증에 다시 쓰인다.</p>
+<blockquote>
+<p><strong>핵심 기억:</strong> 장을 하나 끝냈다면 이름뿐 아니라 “이 개념을 다음 어디에 쓰는가”를 한 가지 연결한다.</p>
+</blockquote>
 <h3 id="13a">1.3A 학습 방식의 큰 분류</h3>
+<p>사용 연수 [1,3,5]와 수리비 [10,20,40]을 짝지어 새 수리비를 맞히면 입력과 답을 모두 보고 배운다. 수리비 없이 비슷한 차량끼리 묶으면 구조만 찾는다. 과거 기록의 마지막 값을 잠시 가리고 맞히게 하면 데이터 안에서 연습 답을 만든다. 이처럼 학습 방식은 알고리즘이 복잡한지보다 <strong>어디에서 답이나 평가 신호를 얻는지</strong>로 먼저 구분한다.</p>
 <ul>
 <li>지도학습: 입력과 정답의 쌍 <code>(x,y)</code>를 이용해 정답을 예측하도록 학습한다. 예측할 값이 연속값이면 회귀, 서로 배타적인 범주이면 분류, 여러 범주에 동시에 속할 수 있으면 다중 레이블 분류다.</li>
 <li>비지도학습: 정답을 따로 주지 않고 데이터의 구조나 특징을 찾는다. 군집화, PCA, 오토인코더를 이용한 특징 학습이 대표적이다.</li>
@@ -231,7 +266,13 @@ assert ends.tolist() == [8, 55, 65, 125, 150, 163, 170]
 <li>강화학습: 학습 주체인 에이전트가 현재 상태에서 행동을 선택하고, 누적 보상을 최대화하도록 학습한다. 현재 공개된 핵심 출제범위를 고려하면 학습 우선순위는 낮다.</li>
 </ul>
 <p>전통적 머신러닝은 사람이 만든 특성(feature)과 비교적 얕은 모델을 쓰는 경우가 많다. 딥러닝은 여러 층을 거치며 입력의 특징을 찾는 과정부터 최종 예측까지 함께 학습한다. 데이터 종류와 규모에 따라 전통적 머신러닝이 더 나을 수 있으므로 “딥러닝이 항상 더 좋다”고 생각하지 않는다.</p>
+<p>소문자 x는 차량 한 대의 입력 묶음, y는 그 차량의 정답이다. 대문자 X는 여러 차량의 입력을 쌓은 표로 자주 쓴다. 회귀의 출력 20과 분류의 번호 2는 모두 숫자지만 전자는 크기, 후자는 종류 이름이다. 정상=0·고장=1이라 번호를 붙였다고 고장이 정상보다 1만큼 크다는 뜻은 아니다. 누유·소음이 동시에 참일 수 있으면 한 종류만 선택하는 다중분류와 달리 다중 레이블이다.</p>
+<p>강화학습의 에이전트는 행동을 선택하는 주체, 상태는 현재 관찰 정보, 보상은 행동 결과에 붙는 점수다. 지금 보상 하나만 키우는 것이 아니라 앞으로 이어지는 보상도 함께 고려한다. 딥러닝과 지도학습은 같은 분류축이 아니다. 딥러닝 모델로 지도학습도 자기지도학습도 할 수 있다.</p>
+<blockquote>
+<p><strong>흔한 오해:</strong> 딥러닝이라는 이름 자체가 데이터 부족이나 잘못된 정답을 해결해 주지는 않는다.</p>
+</blockquote>
 <h3 id="14">1.4 오픈북의 정확한 의미</h3>
+<p>운전법을 이해한 사람은 낯선 계기판의 버튼 위치를 설명서에서 찾을 수 있다. 하지만 설명서만 열 수 있다고 도로 상황을 판단할 수 있는 것은 아니다. 코드 검색도 같다. 예측 확률을 요구하는 문제에서 클래스 번호 코드를 찾았다면, 차이를 이해해야 잘못된 출력을 피한다. 이 절은 공부와 시험 중 확인을 분리하는 기준이다.</p>
 <p>실기는 공식 안내가 허용한 범위의 단방향 검색만 이용하고, GitHub·Colab·Kaggle·Notion, 생성형 AI·AI 검색요약, 메신저·메일·협업 서비스 등 금지 수단은 사용하지 않는다. 개인 로컬 자료의 허용 여부도 회차별 규정과 감독관 안내를 확인하며, 데이터는 제공 IDE 밖으로 내려받아 처리하지 않는다.</p>
 <p>오픈북은 모르는 내용을 시험 중에 새로 공부하라는 뜻이 아니다. 다음처럼 이미 공부한 내용을 빠르게 찾아 확인하는 데 활용한다.</p>
 <ul>
@@ -241,7 +282,12 @@ assert ends.tolist() == [8, 55, 65, 125, 150, 163, 170]
 <li>자주 쓰는 모델 뼈대</li>
 <li>예측 배열의 크기·NaN·파일명을 검사하는 코드</li>
 </ul>
+<p>평소에는 공식을 작은 숫자로 직접 계산하고 코드를 처음부터 재현한다. 제한 시간 연습에서는 이미 이해한 자료를 찾는 속도를 연습한다. 개인 메모·공개 사이트·검색 서비스가 기술적으로 접속된다는 사실과 시험에서 허용된다는 사실은 다르다. 이 교재가 금지 수단을 대신 허용해 줄 수는 없다.</p>
+<blockquote>
+<p><strong>핵심 기억:</strong> 이해는 시험 전에 만들고, 시험 중 확인은 해당 회차가 허용한 수단으로만 한다.</p>
+</blockquote>
 <h3 id="15-170">1.5 170분 기본 운영안</h3>
+<p>먼저 실행 가능한 결과를 만들어야 남은 시간이 모델 개선에 쓰이는지 제출 오류 해결에 쓰이는지 알 수 있다. 기준 모델은 다른 후보와 비교할 단순한 첫 모델이다. 예를 들어 모든 차량에 학습 수리비 평균을 내는 모델이라도 파일의 이름·행 수·순서를 검증하는 데 쓸 수 있다. 아래 시각은 시작부터 누적한 목표이며 구간의 소요 시간과 다르다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="1강 표 3, 좌우로 스크롤할 수 있습니다"><table data-table="3">
 <thead>
 <tr>
@@ -287,6 +333,8 @@ assert ends.tolist() == [8, 55, 65, 125, 150, 163, 170]
 </tr>
 </tbody></table></div>
 <p>상황에 따라 바꿀 수 있지만, <strong>Problem 첫 제출 파일을 끝까지 미루지 않는다.</strong></p>
+<p>0분부터 8분까지는 8분, 8분부터 55분까지는 47분, 다음 첫 모델 구간은 10분이다. 그래서 첫 파일 목표 시각은 8+47+10=65분이다. 개선 구간 60분 중 후보 학습 네 번에 각각 5분이 들면 20분을 쓰고, 수정·분석에는 40분만 남는다. 실제 모델이 예상보다 느리면 에포크·후보 수를 줄이거나 기준 모델로 돌아갈 여유가 필요하다.</p>
+<p>마지막에는 파일을 다시 읽는다. 저장 명령이 성공했어도 정렬된 순서가 그대로 나갔거나 숫자에 NaN이 남을 수 있다. NaN은 없거나 정의되지 않은 수치, Inf는 무한대이며 일반적인 예측 파일에서는 따로 확인해야 한다. 두 제출 영역을 모두 저장·제출했는지 확인하는 시간도 학습 시간이 아니라 전체 수행 시간에 포함된다.</p>
 <h3 id="16">1.6 확인문제</h3>
 <ol>
 <li id="question-O01-01" data-question-id="O01-01">Process에서 성능이 아니라 명세 준수가 중요한 이유를 두 가지 쓰라.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-01-2">예측 성능과 명세 준수는 별도로 확인한다</a></p></details></li>
@@ -295,18 +343,44 @@ assert ends.tolist() == [8, 55, 65, 125, 150, 163, 170]
 <li id="question-O01-04" data-question-id="O01-04">필기 한 문항에 평균 몇 분을 쓸 수 있는가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-01-3">걸리는 시간과 시작부터 계산한 종료 시각을 구분한다</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_2"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li>함수명·반환형·배열 크기·경계조건이 명세와 다르면 공개 예시에 없는 입력을 처리하지 못할 수 있고, 더 좋아 보이는 구현이라도 요구한 동작과 다르면 오답이 될 수 있기 때문이다.</li>
-<li>최소한 실행 가능한 기준 모델과 요구된 이름·배열 크기·행 순서에 맞는 예측 파일이다. 약 65분은 본문 연습 계획에서 시험 시작부터 계산한 목표 시각이며 공식 채점 조건이 아니다.</li>
-<li>시험 전에 충분히 학습하고, 시험 중에는 해당 회차 공식 안내가 허용한 검색·자료 범위에서만 짧은 공식·코드 조각을 찾는다.</li>
-<li><code>50 / 20 = 2.5분</code>, 즉 2분 30초다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 작은 기능을 요구한 Process이며 이유를 두 가지 묻는다. 명세와 예측 성능을 구분한다.</p>
+<p><strong>풀이:</strong> 첫째, 호출하는 쪽은 정확한 함수명·반환형·크기를 기대한다. 둘째, 빈 입력·상수 열 같은 공개되지 않은 조건에서도 요구 동작이 유지되어야 한다. 예를 들어 변환값은 맞아도 원본까지 바꾸면 원본 보존 조건을 어긴다.</p>
+<p><strong>정답:</strong> 함수명·반환형·배열 크기·경계조건이 명세와 다르면 공개 예시에 없는 입력을 처리하지 못할 수 있고, 더 좋아 보이는 구현이라도 요구한 동작과 다르면 오답이 될 수 있기 때문이다.</p>
+<p><strong>왜?</strong> 주어진 함수는 더 큰 채점·실행 절차 안에서 호출되므로 그 연결 약속과 입력별 동작이 모두 맞아야 한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 실행 성공·화면 출력·높은 점수는 반환과 부작용 검사를 대신하지 못한다. 더 좋은 모델로 바꾸어도 지정 구조와 다르면 요구에 대한 답이 아니다.</p>
+<p><strong>한 줄 기억:</strong> Process는 원하는 것보다 명세가 요구한 것을 정확히 구현한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 약 65분은 시험 시작부터의 시각이고 문제는 산출물과 공식 조건 여부를 함께 묻는다.</p>
+<p><strong>풀이:</strong> 표의 앞 구간은 8분+47분+10분=65분이다. 마지막 10분 구간에서 단순 모델을 실행하고 실제 제출 형식의 첫 파일을 만든다. 파일의 이름·행 수·출력 크기·행 대응을 확인해 이후 개선의 기준으로 둔다.</p>
+<p><strong>정답:</strong> 최소한 실행 가능한 기준 모델과 요구된 이름·배열 크기·행 순서에 맞는 예측 파일이다. 약 65분은 본문 연습 계획에서 시험 시작부터 계산한 목표 시각이며 공식 채점 조건이 아니다.</p>
+<p><strong>왜?</strong> 초기 파일이 있어야 데이터 읽기부터 저장까지 연결되는지 알 수 있고 남은 시간에 모델을 바꿔 비교할 수 있다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 첫 모델에 65분을 쓴다는 뜻도, 65분 제출이 공식 채점 요건이라는 뜻도 아니다. 파일을 만들었다고 성능까지 충분하다는 뜻도 아니다.</p>
+<p><strong>한 줄 기억:</strong> 65분은 이 연습표의 첫 파일 목표 시각이며 공식 중간 마감이 아니다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 생성형 AI 금지는 시험 중 조건이며, 시험 전 학습 자료 사용과 다르다.</p>
+<p><strong>풀이:</strong> 시험 전에는 예제를 계산하고 코드를 스스로 재현한다. 시험 중에는 해당 회차의 허용 검색·개인 자료·사이트 조건을 확인한 범위에서만 이미 이해한 항목을 조회한다.</p>
+<p><strong>정답:</strong> 시험 전에 충분히 학습하고, 시험 중에는 해당 회차 공식 안내가 허용한 검색·자료 범위에서만 짧은 공식·코드 조각을 찾는다.</p>
+<p><strong>왜?</strong> 자료의 공개 여부가 시험 규정을 바꾸지는 않으며 도구를 사용할 수 있어도 적용 조건 판단은 본인이 해야 한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 오픈북을 모든 사이트·AI·개인 파일 허용으로 확대하지 않는다. 이 교재도 시험 중 접근 가능 여부를 대신 승인하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 공부는 미리 하고 시험 중 조회는 회차별 허용 범위만 따른다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 전체 필기 시간 50분, 문항 수 20이며 별도 검토 시간을 빼라는 조건은 없다.</p>
+<p><strong>풀이:</strong> 전체 평균은 50분÷20문항=2.5분/문항이다. 소수 0.5분에 60초/분을 곱하면 30초다.</p>
+<p><strong>정답:</strong> <code>50 / 20 = 2.5분</code>, 즉 2분 30초다.</p>
+<p><strong>왜?</strong> 전체 시간을 같은 문항 수로 나눈 평균이므로 두 수의 단위를 함께 계산한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 0.5분을 50초로 읽지 않는다. 모든 문제를 정확히 2분 30초 안에 끝내라는 개별 제한도 아니다.</p>
+<p><strong>한 줄 기억:</strong> 전체 평균은 시간÷문항 수, 분의 소수는 60을 곱해 초로 바꾼다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="17">1.7 완료 기준</h3>
+<p>체크하기 전에 아래 행동을 해설 없이 직접 수행한다. 막힌 항목은 앞 절의 작은 예로 돌아가 입력 숫자를 바꾸어 다시 설명한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="01-1"><span>세 영역을 시간·문항 수와 함께 말할 수 있다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="01-2"><span>공식 범위 10개 묶음을 보지 않고 적을 수 있다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="01-3"><span>나만의 170분 계획을 종이에 썼다.</span></label></li>
 </ul>
+<p>이제 시험의 결과물이 무엇인지 알았다면 다음 강의에서 그 결과를 담는 배열의 축과 자료형을 읽는다. 시간표는 자신의 실제 소요 시간으로 수정하되 제출 검사 구간은 따로 남긴다.</p>
 
 
 33:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$38"}}]

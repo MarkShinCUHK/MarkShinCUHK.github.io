@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/25","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/25":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/25":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","25"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/25","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/25"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/25"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/25","_N_T_/layout","_N_T_/learn/25","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/25"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/25","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/25":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/25":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","25"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/25","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/25"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/25"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/25","_N_T_/layout","_N_T_/learn/25","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/25"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -43,7 +43,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 26:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-25-1",{"children":[["$","a",null,{"href":"#visual-25-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-25-1",{"children":["$","a",null,{"href":"#topic-25-1","children":"두 생성 장면"}]}],["$","li","topic-25-2",{"children":["$","a",null,{"href":"#topic-25-2","children":"‘새것을 만든다’는 목표가 왜 다른 구조로 이어지는가"}]}]]}]]}]]}],["$","li","visual-25-2",{"children":[["$","a",null,{"href":"#visual-25-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-25-3",{"children":["$","a",null,{"href":"#topic-25-3","children":"분포를 출력한다는 말은 숫자를 안 낸다는 뜻이 아니다"}]}],["$","li","topic-25-4",{"children":["$","a",null,{"href":"#topic-25-4","children":"확률적 표현과 학습 용어"}]}]]}]]}]]}],["$","li","visual-25-3",{"children":[["$","a",null,{"href":"#visual-25-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-25-4",{"children":[["$","a",null,{"href":"#visual-25-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-25-5",{"children":["$","a",null,{"href":"#topic-25-5","children":"잠재값과 손실 검산"}]}],["$","li","topic-25-6",{"children":["$","a",null,{"href":"#topic-25-6","children":"생략된 계산을 원래 단위까지 펼치기"}]}]]}]]}]]}],["$","li","visual-25-5",{"children":[["$","a",null,{"href":"#visual-25-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",4,"개"]}],["$","ul",null,{"children":[["$","li","topic-25-7",{"children":["$","a",null,{"href":"#topic-25-7","children":"미분의 길과 갱신의 대상을 따로 따라가기"}]}],["$","li","topic-25-8",{"children":["$","a",null,{"href":"#topic-25-8","children":"같은 생성 모델이라는 이름 아래의 차이"}]}],["$","li","topic-25-9",{"children":["$","a",null,{"href":"#topic-25-9","children":"필기·최소 구현으로 옮기기"}]}],["$","li","topic-25-10",{"children":["$","a",null,{"href":"#topic-25-10","children":"ELBO의 부호와 두 KL을 한 줄씩 이해하기"}]}]]}]]}]]}],["$","li","visual-25-6",{"children":[["$","a",null,{"href":"#visual-25-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-25-11",{"children":["$","a",null,{"href":"#topic-25-11","children":"손실 숫자를 해석하는 조건"}]}],["$","li","topic-25-12",{"children":["$","a",null,{"href":"#topic-25-12","children":"로짓·판별 확률·라벨을 마지막으로 분리하기"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-25","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-25-1",{"children":["$","a",null,{"href":"#theory-25-1","children":"분포·조건부 확률·로그를 먼저 읽기"}]}],["$","li","theory-25-2",{"children":["$","a",null,{"href":"#theory-25-2","children":"ELBO를 최대화하면 왜 복원항과 KL이 나오는가"}]}],["$","li","theory-25-3",{"children":["$","a",null,{"href":"#theory-25-3","children":"평균·분산·로그분산과 재매개화를 손으로 계산하기"}]}],["$","li","theory-25-4",{"children":["$","a",null,{"href":"#theory-25-4","children":"복원 손실의 관측모형과 사후분포 붕괴"}]}],["$","li","theory-25-5",{"children":["$","a",null,{"href":"#theory-25-5","children":"GAN은 한 손실을 함께 낮추는 두 모델이 아니다"}]}],["$","li","theory-25-6",{"children":["$","a",null,{"href":"#theory-25-6","children":"그래프 분리와 가중치 갱신을 구분해 교대 학습 이해하기"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","252-vae",{"children":["$","a",null,{"href":"#252-vae","children":"VAE"}]}],["$","li","253-vae-loss-elbo",{"children":["$","a",null,{"href":"#253-vae-loss-elbo","children":"VAE 손실과 ELBO"}]}],["$","li","254-vae",{"children":["$","a",null,{"href":"#254-vae","children":"최소 VAE"}]}],["$","li","255-gan",{"children":["$","a",null,{"href":"#255-gan","children":"GAN"}]}],["$","li","256",{"children":["$","a",null,{"href":"#256","children":"최소 구조"}]}],["$","li","257",{"children":["$","a",null,{"href":"#257","children":"교대 학습의 갱신 규칙"}]}],["$","li","258-gan",{"children":["$","a",null,{"href":"#258-gan","children":"GAN 실패 형태"}]}],["$","li","259",{"children":["$","a",null,{"href":"#259","children":"비교표"}]}],["$","li","2510",{"children":["$","a",null,{"href":"#2510","children":"실습문제"}]}],["$","li","2511",{"children":["$","a",null,{"href":"#2511","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],["$","ol",null,{"children":[["$","li","visual-25-7",{"children":["$","a",null,{"href":"#visual-25-7","children":"스스로 확인하기"}]}],["$","li","visual-25-8",{"children":"$L31"}],"$L32"]}]]]}]
 27:["$","$L33",null,{}]
 28:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","결정론적(deterministic) AE와 VAE의 잠재변수 표현 차이를 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"결정론적(deterministic) AE와 VAE의 잠재변수 표현 차이를 설명한다."]}],["$","li","재매개화 기법(reparameterization trick)과 KL 항을 구현한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"재매개화 기법(reparameterization trick)과 KL 항을 구현한다."]}],["$","li","GAN의 생성기(generator)와 판별기(discriminator)의 목적 및 교대 학습을 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"GAN의 생성기(generator)와 판별기(discriminator)의 목적 및 교대 학습을 설명한다."]}],["$","li","VAE/GAN을 시험 범위 개념·최소 구현 수준으로 대비한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"VAE/GAN을 시험 범위 개념·최소 구현 수준으로 대비한다."]}]]}]]}]
-29:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+29:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 34:T58f5,<h3 id="visual-25-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-25-1">두 생성 장면</h4>
 <p>자동차 계기판 이미지를 생성하는 두 방법을 생각해 보자. 한 방법은 이미지를 잠재분포로 요약한 뒤, 그 분포에서 뽑은 값으로 이미지를 복원한다. 비슷한 잠재값에서도 조금씩 다른 이미지를 만들 수 있다는 점이 VAE를 이해하는 출발점이다. 다른 방법은 이미지를 만드는 생성기와 실제 자료인지 구분하는 판별기를 번갈아 학습시킨다. 이것이 GAN의 두 역할이다.</p>
@@ -173,12 +173,15 @@ assert torch.isfinite(lg)
 30:["$","li","visual-25-9",{"children":["$","a",null,{"href":"#visual-25-9","children":"더 읽을 공식 자료"}]}]
 31:["$","a",null,{"href":"#visual-25-8","children":"정답과 이유"}]
 32:["$","li","visual-25-9",{"children":["$","a",null,{"href":"#visual-25-9","children":"더 읽을 공식 자료"}]}]
-3c:T2a6d,<h3 id="theory-25-1">1. 분포·조건부 확률·로그를 먼저 읽기</h3>
+3c:T3741,<h3 id="theory-25-1">1. 분포·조건부 확률·로그를 먼저 읽기</h3>
+<p>보통 AE가 입력을 잠재점 하나로 보낸다면, VAE의 인코더는 “이 근처의 잠재값들이 가능하다”는 분포를 보낸다. 분포는 값 하나가 아니라 <strong>어떤 값이 얼마나 자주 나올지</strong> 나타내는 규칙이다. 같은 평균이라도 분산이 크면 더 넓게 흩어진 값을 뽑는다. 아래의 q(z|x)는 입력을 본 뒤의 추정, p(z)는 보기 전의 기준, p(x|z)는 잠재값에서 관측을 만드는 규칙이다. 세로줄의 왼쪽과 오른쪽 역할부터 구분하자.</p>
 <p>AE가 입력 하나를 잠재점 하나로 바꾼다면, VAE는 입력 x에서 잠재변수 z가 있을 법한 분포 qφ(z|x)를 만든다. 세로줄은 “x가 주어졌을 때”, φ는 인코더 가중치다. 사전분포 p(z)는 입력을 보기 전에 정해 둔 잠재 분포다. 디코더 pθ(x|z)는 잠재값 z에서 어떤 관측 x가 나올지의 확률모형이며 θ는 디코더 가중치다. 확률은 사건이 일어날 가능성을 나타낸다. 연속분포의 확률밀도는 구간에 대해 적분해야 확률을 얻을 수 있으므로 확률과 밀도를 같게 취급하지 않는다.</p>
 <p>생성할 때는 먼저 p(z)에서 z를 뽑고 디코더로 관측값을 만든다. 학습 중 x에서 z를 추정하는 방향은 그 반대다. 베이즈 규칙은 pθ(z|x)=pθ(x|z)p(z)/pθ(x)다. 분모 pθ(x)=∫pθ(x|z)p(z)dz는 모든 가능한 잠재값에 걸쳐 적분한 값이므로 큰 비선형 모델에서는 계산하기 어렵다. 그래서 직접 계산하기 어려운 실제 사후분포를 인코더 qφ(z|x)로 근사한다. 이는 ‘VAE가 정규분포 그림만 생성한다’는 뜻이 아니다. 잠재공간에서 정규분포처럼 계산하기 쉬운 종류의 분포를 사용한다는 뜻이다.</p>
 <p>로그는 곱을 합으로 바꾼다. log(ab)=log a+log b이며, 자연로그를 쓰면 log 1=0이다. 정답에 높은 확률을 주는 모형은 −log p(x)가 작다. 예를 들어 확률 0.6의 음의 로그는 약 0.511, 0.1은 약 2.303이다. 드문 정답이라고 취급할수록 벌점이 크다. 이 방향을 알아야 복원 우도와 손실의 부호를 혼동하지 않는다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O25-03">25.10 실습문제 · 3번</a></p></details>
 <h3 id="theory-25-2">2. ELBO를 최대화하면 왜 복원항과 KL이 나오는가</h3>
-<p>KL(q∥p)=E_q[log q−log p]는 q에서 자주 나오는 값을 p가 얼마나 다르게 설명하는지를 재는 비음수 양이다. 두 분포가 같으면 0이지만 일반적인 거리처럼 대칭은 아니다. 필요한 기대값이 존재하고 q가 양의 질량을 둔 곳에서 p가 0이면 무한대가 될 수 있다. KL의 두 인자를 임의로 뒤집으면 다른 목적이 된다. KL의 성질과 하한을 사용하는 기본 추론은 <a href="https://ermongroup.github.io/cs228-notes/inference/variational/" target="_blank" rel="noopener noreferrer">Stanford CS228 변분 추론 강의 노트</a>에서 더 읽을 수 있다.</p>
+<p>직접 계산하기 어려운 목표 대신 그보다 크지 않은 값을 계산하고 높이는 전략을 생각하자. ELBO는 이런 <strong>계산 가능한 하한</strong>이다. 아래 식은 “실제 목표 = 하한 + 0 이상인 차이” 형태로 정리된다. 차이가 0이면 하한과 목표가 같고, 차이가 남아 있으면 하한이 더 작다. 최대화할 식의 부호를 바꾸면 최소화할 손실이 되므로, 복원 로그우도 앞의 음수와 KL 앞의 양수를 외우기 전에 이 방향 전환을 확인한다.</p>
+<p>KL(q∥p)=E_q[log q−log p]는 q에서 자주 나오는 값을 p가 얼마나 다르게 설명하는지를 재는 비음수 양이다. 두 분포가 같으면 0이지만 일반적인 거리처럼 대칭은 아니다. 필요한 기대값이 존재하고 q가 양의 질량을 둔 곳에서 p가 0이면 무한대가 될 수 있다. KL의 두 인자를 임의로 뒤집으면 다른 목적이 된다.</p>
+<p>KL의 성질과 하한을 사용하는 기본 추론은 <a href="https://ermongroup.github.io/cs228-notes/inference/variational/" target="_blank" rel="noopener noreferrer">Stanford CS228 변분 추론 강의 노트</a>에서 더 읽을 수 있다.</p>
 <p>학습에서 최대화하려는 log pθ(x)를 바로 계산하기 어려워 다음 항등식을 쓴다. 먼저 진짜 사후분포를 향한 KL에 베이즈 규칙을 대입하면 다음과 같다.</p>
 <ol>
 <li>KL(qφ(z|x)∥pθ(z|x)) = E_q[log qφ(z|x)−log pθ(x|z)−log p(z)+log pθ(x)].</li>
@@ -188,34 +191,47 @@ assert torch.isfinite(lg)
 </ol>
 <p>서로 다른 분포 쌍을 비교하는 두 KL을 구분하자. 하한과 실제 로그우도 사이의 차이는 실제 사후분포 pθ(z|x)와 비교한 KL이고, 구현 손실에 나타나는 규제 항은 사전분포 p(z)와 비교한 KL이다. 유도와 재매개화는 <a href="https://arxiv.org/html/1312.6114v11" target="_blank" rel="noopener noreferrer">Auto-Encoding Variational Bayes 원 논문</a>에서 확인할 수 있다. 아래 계산은 이 원리를 설명하기 위해 만든 예다.</p>
 <h3 id="theory-25-3">3. 평균·분산·로그분산과 재매개화를 손으로 계산하기</h3>
+<p>분산이 9라면 표준편차는 3이다. 인코더가 출력한 값이 log 9라면 이를 지수함수로 되돌려야 분산 9를 얻고, 절반에 지수함수를 적용해야 표준편차 3을 얻는다. <strong>logvar·variance·std는 서로 다른 숫자</strong>다. 아래 재매개화는 평균에 표준편차만큼 조절한 잡음을 더해 표본을 만드는 계산이다. 잡음을 없애는 대신 잡음과 학습 가능한 평균·분산의 역할을 분리해 미분할 수 있게 한다.</p>
 <p>대각 가우시안에서 각 잠재 차원 j는 평균 μⱼ와 분산 σⱼ²를 가진다. 분산을 직접 출력하면 음수가 될 수 있으므로 실수 vⱼ=log σⱼ²를 출력한다. 분산은 exp(vⱼ), 표준편차는 exp(vⱼ/2)다. 표준정규 잡음 ε를 따로 뽑으면 z=μ+exp(v/2)⊙ε로 샘플을 만든다. ⊙는 같은 위치끼리의 곱이다. 잡음 값이 고정된 한 번의 계산에서는 ∂z/∂μ=1, ∂z/∂v=(1/2)exp(v/2)ε가 되어 인코더까지 기울기를 전달할 수 있다. 재매개화는 무작위성을 없애는 기술이 아니라 무작위성을 만드는 잡음을 가중치와 분리하는 기술이다.</p>
 <p>손계산 A: μ=2, v=log 9, ε=−1/3이면 σ=3이고 z=2+3×(−1/3)=1이다. 디코더가 예시로 x̂=2z라고 하고 원본 x=3이면 제곱 복원 오차는 1이다. 표준정규 사전분포에 대한 한 차원 KL은 0.5(μ²+σ²−1−log σ²)이므로 0.5(4+9−1−log9)=약 4.901이다. 복원항을 이 예시의 제곱오차로 정의하고 β=0.2라면 총손실은 약 1.980이다. β를 바꾸면 같은 예측에도 총손실이 달라지므로 서로 다른 β의 총손실만 직접 비교해 복원 품질을 판단하지 않는다.</p>
 <p>KL 공식은 가우시안 로그밀도 차이의 기대값을 구하면 얻어진다. q의 평균이 μ이고 분산이 σ²이므로 E_q[(z−μ)²]=σ², E_q[z²]=μ²+σ²다. 정규분포 로그밀도의 정규화 상수와 제곱항을 빼면 0.5(μ²+σ²−1−log σ²)가 남고, 독립 차원은 합한다. μ=0과 σ²=1을 대입해 0이 되는지 검산한다. 평균이 0인 분포의 샘플이 매번 0이라는 뜻은 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 5개</summary><p><a href="#question-O25-01">25.10 실습문제 · 1번</a> · <a href="#question-O25-02">25.10 실습문제 · 2번</a> · <a href="#question-O25-03">25.10 실습문제 · 3번</a> · <a href="#question-V25-01">기초 확인 · 1번</a> · <a href="#question-V25-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-25-4">4. 복원 손실의 관측모형과 사후분포 붕괴</h3>
+<p>같은 복원 오차라도 픽셀 100개의 합과 10,000개의 합은 규모가 다르다. 여기에 KL을 같은 비중으로 더하면 해상도를 바꾼 것만으로 두 목표의 균형이 달라질 수 있다. 먼저 <strong>복원항은 어떤 관측을 가정하며 어느 축을 합·평균하는가</strong>를 적는다. 또 잠재분포가 기준 분포와 같아져 KL이 0이어도 디코더가 입력별 정보를 전혀 사용하지 않는다면 좋은 결과라고 단정할 수 없다. 손실의 두 항과 실제 출력을 따로 확인해야 한다.</p>
 <p>연속값 x에 대해 디코더의 관측모형을 고정 분산 σx²인 가우시안으로 두면 복원에 대한 음의 로그우도는 상수를 제외하고 Σ(x−x̂)²/(2σx²)다. 따라서 MSE를 쓰려면 이 비례계수와 합·평균 계산 방식의 관계를 알아야 한다. 0 또는 1인 이진 관측의 베르누이(Bernoulli) 모형에는 BCE가 자연스럽다. 입력이 단지 0–1로 정규화됐다는 것과 실제 이진 관측이라는 것은 다르다.</p>
 <p>복원항은 픽셀 합으로 계산하면서 KL은 배치 평균으로 계산할 수도 있지만 합·평균 계산 방식을 일관되게 유지해야 한다. 해상도를 4배로 늘리고 복원합만 커지면 KL의 상대 비중은 줄어든다. 반대로 KL 항의 비중이 크거나 디코더가 z 없이도 데이터를 잘 설명하면 q가 사전분포에 가까워지고 디코더가 z를 거의 무시하는 사후분포 붕괴(posterior collapse)가 발생할 수 있다. KL이 0이라고 언제나 좋은 생성 모델인 것도, KL을 무조건 키워야 하는 것도 아니다. 두 항과 실제 복원·생성 결과를 분리해 평가한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-V25-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-25-5">5. GAN은 한 손실을 함께 낮추는 두 모델이 아니다</h3>
-<p>G는 잡음에서 가짜 자료를 만들고 D는 입력이 진짜라는 확률을 추정한다. 원래의 경쟁적 학습에서는 D가 V=E_real log D(x)+E_z log(1−D(G(z)))를 크게, G가 작게 만드는 미니맥스(minimax) 목표를 사용한다. 구현에서 D 손실은 −V이므로 진짜 목표 1과 가짜 목표 0의 BCE를 더해 최소화한다. G에는 학습 초기의 약한 기울기 문제를 완화하기 위해 −E_z log D(G(z))라는 비포화 손실을 흔히 쓴다. “D와 G가 같은 정답 라벨을 보고 같은 목표를 최소화한다”는 설명은 두 모델의 역할 차이를 놓친 것이다. <a href="https://arxiv.org/html/1406.2661v1" target="_blank" rel="noopener noreferrer">GAN 원 논문</a>의 원래 목적함수와 이 구현의 목적함수를 구분한다.</p>
+<p>가짜를 만드는 G와 진짜·가짜를 구별하는 D는 같은 숫자를 정답으로 삼지 않는다. D에게 가짜의 목표는 0이지만, G는 자신이 만든 자료에 D가 높은 진짜 점수를 주도록 바뀐다. 따라서 손실 두 개가 동시에 내려가야만 학습 성공이라는 기준도 적절하지 않다. 아래 예에서 D가 가짜에 주는 확률 0.3을 고정하고 <strong>누구의 가중치를 바꾸며, 어떤 답을 유도하려는지</strong>를 구분해 각 로그 손실을 계산하자.</p>
+<p>G는 잡음에서 가짜 자료를 만들고 D는 입력이 진짜라는 확률을 추정한다. 원래의 경쟁적 학습에서는 D가 V=E_real log D(x)+E_z log(1−D(G(z)))를 크게, G가 작게 만드는 미니맥스(minimax) 목표를 사용한다. 구현에서 D 손실은 −V이므로 진짜 목표 1과 가짜 목표 0의 BCE를 더해 최소화한다. G에는 학습 초기의 약한 기울기 문제를 완화하기 위해 −E_z log D(G(z))라는 비포화 손실을 흔히 쓴다. “D와 G가 같은 정답 라벨을 보고 같은 목표를 최소화한다”는 설명은 두 모델의 역할 차이를 놓친 것이다.</p>
+<p><a href="https://arxiv.org/html/1406.2661v1" target="_blank" rel="noopener noreferrer">GAN 원 논문</a>의 원래 목적함수와 이 구현의 목적함수를 구분한다.</p>
 <p>손계산 B: 고정된 D가 진짜에 0.9, 가짜에 0.3을 준다면 두 항 합 D 손실은 −log0.9−log0.7≈0.462다. G의 비포화 손실은 −log0.3≈1.204다. D가 고정된 상태에서 G가 생성한 가짜 샘플의 판별 확률을 0.6으로 올렸다면 G 손실은 약 0.511로 줄어든다. 그러나 학습 중 D도 변하므로 손실이 낮다는 것만으로 여러 종류의 사실적인 샘플을 만든다고 결론내릴 수 없다. 서로 다른 잡음이 거의 같은 이미지만 만드는 모드 붕괴(mode collapse)는 품질과 다양성이 별개임을 보여 준다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O25-05">25.10 실습문제 · 5번</a></p></details>
 <h3 id="theory-25-6">6. 그래프 분리와 가중치 갱신을 구분해 교대 학습 이해하기</h3>
+<p>G → 가짜 자료 → D → 손실의 연결을 먼저 그린다. D만 학습할 때는 가짜 자료의 값은 필요하지만 G까지 거슬러 수정할 필요는 없다. G를 학습할 때는 D를 통과한 손실의 변화가 G까지 돌아와야 한다. <strong>D의 가중치를 바꾸지 않는 것과 D를 통과하는 미분을 끊는 것은 다르다.</strong> 아래 detach는 특정 위치에서 뒤쪽 연결을 끊는 명령이므로 두 단계에 기계적으로 똑같이 붙이지 않는다.</p>
 <p>D 단계에서는 G(z).detach()를 D에 넣는다. 가짜 값은 그대로지만 G까지 이어지는 계산 그래프가 끊긴다. D는 자신의 가중치에 대한 미분으로 갱신하고 이 단계에서는 G의 기울기를 계산할 필요가 없다. G 단계에서는 D를 통과한 미분이 G에 도달해야 하므로 D(G(z))나 G(z)를 detach하면 안 된다. D의 가중치를 갱신하지 않는 것과 D의 입력에 대한 미분을 없애는 것은 다른 행동이다.</p>
 <p>D의 마지막 층이 변환 전 점수(logit) a를 내고 BCEWithLogitsLoss를 쓰면 손실함수가 시그모이드와 BCE를 수치적으로 안정되게 묶어 계산한다. sigmoid(a)를 다시 넣으면 이미 확률인 값을 새로운 변환 전 점수로 해석해 의도와 다른 손실을 계산한다. 마지막에는 AE의 입력 복원, VAE의 확률적 잠재변수와 복원·KL, GAN의 G·D 간 경쟁적 교대 학습이 목적 면에서 어떻게 다른지 스스로 설명해 본다. 단순한 모델의 손실이 0인지 외우기보다 어떤 확률, 학습 단계, 분모를 묻는지 파악하는 것이 필기 대비에 중요하다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O25-04">25.10 실습문제 · 4번</a> · <a href="#question-V25-02">기초 확인 · 2번</a></p></details>
 35:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-25","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-25","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3c"}}]]}]
 36:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 37:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-3d:T2285,
+3d:T532e,
 <span class="section-anchor" id="251" aria-hidden="true"></span>
+<p>AE의 빈 잠재 위치에서 새 샘플을 뽑으면 좋은 자료가 나올까? 복원만 학습해서는 그 위치를 어떻게 채울지 정해지지 않는다. VAE는 뽑아 쓸 분포를 배우고, GAN은 만든 자료를 진짜와 구별하는 상대와 경쟁한다. 두 방법의 손실을 같은 숫자로 읽지 않는 것이 목표다.</p>
 
 <h3 id="252-vae">25.2 VAE</h3>
+<p>한 입력을 항상 잠재값 2로 바꾸는 대신 평균 2·표준편차 3인 분포로 보내 보자. 표준정규 잡음 ε가 −1이면 z=−1, ε가 0이면 z=2다. 입력은 같아도 잠재 표본은 달라질 수 있다. 평균·퍼짐을 출력하는 모델이므로 확률적이라는 말이 숫자를 출력하지 않는다는 뜻은 아니다.</p>
 <p>인코더는 잠재벡터 하나가 아니라 근사 사후분포(approximate posterior) <code>q(z|x)</code>의 <code>μ</code>와 <code>log σ²</code>를 출력한다. 표본은 다음과 같이 뽑는다.</p>
 <p><code>z = μ + σ ⊙ ε</code>, <code>ε~N(0,I)</code>.</p>
 <p>무작위 표본 추출을 계산 그래프에 그대로 넣으면 표본 추출에 쓰인 매개변수에 대한 기울기를 구하기 어렵다. 잡음 ε를 매개변수와 독립적으로 뽑고, μ와 σ의 미분 가능한 변환으로 표본을 만드는 재매개화 기법을 사용한다.</p>
+<p>q(z|x)의 세로줄은 ‘입력 x가 주어졌을 때’다. μ는 중심, σ²는 분산, σ는 표준편차다. 코드가 내는 logvar는 v=logσ²이므로 σ=exp(v/2)다. v를 표준편차로 바로 곱하면 안 된다. ⊙는 같은 위치끼리 곱하고 ε는 가중치와 독립인 표준정규 잡음이다.</p>
+<p>잡음 값을 일단 고정하면 z=μ+σε는 μ와 σ에 대해 미분 가능한 식이다. μ를 조금 올리면 z도 같은 만큼 올라간다. 이 계산 경로로 디코더 손실의 미분이 인코더까지 전달된다. 재매개화는 무작위성을 없애는 것이 아니라 잡음 추출과 학습 변수의 계산을 분리하는 것이다.</p>
 <h3 id="253-vae-loss-elbo">25.3 VAE 손실과 ELBO</h3>
+<p>입력은 잘 복원하지만 잠재분포가 생성 때 뽑을 분포와 전혀 다르면 새 샘플 만들기가 어렵다. 그래서 복원 비용과 분포가 어긋난 비용을 더한다. 두 항이 각각 무엇을 비교하는지 먼저 구분한다.</p>
 <p><code>loss = reconstruction loss + β KL(q(z|x) || p(z))</code>.</p>
 <p>표준정규 사전분포(standard normal prior)에 대한 대각 가우시안 분포의 KL은 다음과 같다.</p>
 <p><code>KL = -0.5 Σ(1 + logvar - μ² - exp(logvar))</code>.</p>
 <p>복원항은 관측 데이터를 잘 설명하도록 하고, KL 항은 잠재분포를 사전분포에 가깝게 만들어 표본을 뽑아 생성에 사용할 수 있는 연속 공간을 학습하게 한다. KL 항의 비중이 너무 크면 디코더가 z를 무시하는 사후분포 붕괴(posterior collapse)가 생길 수 있다.</p>
+<p>KL(q∥p)는 두 분포의 차이에 붙는 비음수 벌점이고 일반 거리처럼 대칭은 아니다. 여기서는 입력을 보고 만든 대각 가우시안 q를 표준정규 사전분포 p=N(0,I)에 가깝게 한다. I는 차원별 분산 1이고 서로 독립인 공분산 행렬을 뜻한다. 한 차원 μ=1,v=0이면 KL=0.5(1+1−1−0)=0.5다. μ=0,v=0이면 0이지만 잠재 표본 z까지 항상 0은 아니다.</p>
+<p>β는 KL에 곱하는 비중이다. 복원항 2, KL 0.5라면 β=1의 총손실은 2.5, β=4는 4다. 같은 복원인데 합산 점수가 달라지므로 서로 다른 β의 총손실만으로 품질을 비교하지 않는다. 확률모형에서는 복원 음의 로그우도와 KL의 합이 음의 ELBO에 연결된다. ELBO는 계산하기 어려운 로그우도의 하한이며 자세한 부호·기호 유도는 이론 25 강 2 절에서 확인한다. 지나친 규제나 강한 디코더가 잠재정보를 무시하게 만드는 사후분포 붕괴도 두 항을 나눠 관찰해야 찾을 수 있다.</p>
 <h3 id="254-vae">25.4 최소 VAE</h3>
+<p>다음 구현을 입력→두 분포 매개변수→표본→복원→두 손실의 순서로 읽는다. input_dim=4, latent_dim=2라면 한 배치 [B,4]가 μ와 logvar 각각 [B,2]를 만들고 최종 복원은 다시 [B,4]다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-25-1">복사</button></div><pre id="code-25-1" tabindex="0" aria-label="25강 PYTHON 예시 1"><code class="language-python">class VAE(nn.Module):
     def __init__(self, input_dim, latent=8, hidden=64):
         super().__init__()
@@ -242,12 +258,18 @@ def vae_loss(recon, x, mu, logvar, beta=1.0):
     kl = -0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp()) / x.shape[0]
     return recon_loss + beta * kl, recon_loss, kl
 </code></pre></div>
+<p>enc는 공통 특징을 만들고 mu/logvar 두 출력층은 같은 특징에서 서로 다른 수를 예측한다. reparameterize의 exp(0.5*logvar)는 표준편차, randn_like는 같은 모양의 표준정규 잡음을 만든다. forward가 세 값을 반환하는 이유는 복원값은 복원 손실에, μ·logvar는 KL에 각각 필요하기 때문이다.</p>
+<p>vae_loss의 reduction='sum'은 입력 원소의 복원 제곱오차를 모두 더한다. 이후 배치 크기로 나누므로 ‘샘플 안 원소 합, 샘플 간 평균’이다. KL도 잠재 차원과 배치를 합한 뒤 B로 나눠 같은 배치 평균 단위로 맞춘다. 입력 원소가 두 배이면 복원합의 규모가 달라질 수 있어 β의 상대 효과도 바뀐다. 연속값 MSE는 고정 분산 가우시안 관측모형의 음의 로그우도에 비례하며, 정확한 계수·합/평균 선택은 그 가정과 함께 읽는다.</p>
 <h3 id="255-gan">25.5 GAN</h3>
+<p>가짜 계기판을 만드는 G와 진짜인지 판별하는 D가 있다고 하자. D는 실제 사진에 1, 생성 사진에 0을 맞히려 하고, G는 자신이 만든 사진에 D가 1을 주게 하려 한다. 정답은 같지 않고 각자 어떤 가중치를 바꿀지도 다르다.</p>
 <p>생성기 G는 잡음 z에서 가짜 샘플을 만들고, 판별기 D는 실제 샘플과 가짜 샘플을 구분한다. 두 모델은 서로 대립하는 목표로 학습한다.</p>
 <p>원래의 미니맥스(minimax) 목적함수:</p>
 <p><code>min_G max_D E_real[log D(x)] + E_z[log(1-D(G(z)))]</code>.</p>
 <p>실전에서는 생성기의 기울기가 약해지는 것을 피하려 비포화 손실(non-saturating loss) <code>-log D(G(z))</code>를 흔히 쓴다.</p>
+<p>E는 여러 샘플에서의 평균적인 값을 뜻한다. x는 진짜 자료, z는 생성기의 잡음, D(G(z))는 가짜를 진짜라고 보는 확률이다. 원래 식에서 D는 두 로그항의 합을 최대화하고 G는 최소화하는 미니맥스 게임을 한다. 구현에서는 D의 부호를 뒤집어 최소화하고, G는 초기에 약해지는 기울기를 완화하려고 −logD(G(z)) 비포화 손실을 흔히 쓴다.</p>
+<p>D가 가짜에 0.2를 주면 G 손실은 −log0.2≈1.609, 0.6으로 올리면 약 0.511이다. 고정한 D 안에서는 가짜를 더 진짜처럼 만든 방향이다. 하지만 상대 D도 계속 바뀌므로 이 손실의 감소만으로 실제 품질과 다양성을 보장하지는 않는다.</p>
 <h3 id="256">25.6 최소 구조</h3>
+<p>G는 잡음 길이를 데이터 길이로 바꾸고 D는 데이터 길이를 진짜/가짜 점수 하나로 바꾼다. 아래의 data_dim이 같아야 G 출력과 실제 자료를 동일한 D 입력으로 비교할 수 있다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-25-2">복사</button></div><pre id="code-25-2" tabindex="0" aria-label="25강 PYTHON 예시 2"><code class="language-python">class Generator(nn.Module):
     def __init__(self, noise_dim, data_dim, hidden=128):
         super().__init__()
@@ -271,13 +293,18 @@ class Discriminator(nn.Module):
         return self.net(x)  # logits, sigmoid 없음
 </code></pre></div>
 <p><code>BCEWithLogitsLoss</code>를 쓰므로 D에 sigmoid를 넣지 않는다.</p>
+<p>Linear와 LeakyReLU를 번갈아 놓는다. LeakyReLU(0.2)는 음수도 0.2 배 통과시켜 음수 구간에서 작은 미분을 남긴다. G의 마지막 층은 생성 데이터의 원소 수, D의 마지막 Linear는 판정용 logit 한 개다. logit은 음수·양수 모두 가능한 변환 전 점수이지 이미 0과 1 사이 확률이 아니다. BCEWithLogitsLoss가 시그모이드와 로그를 합쳐 안정적으로 계산하므로 D 뒤에 시그모이드를 덧붙이지 않는다. 데이터 범위를 제한할 출력 활성함수는 이 예제 명세와 실제 데이터에 따라 별도로 결정한다.</p>
 <h3 id="257">25.7 교대 학습의 갱신 규칙</h3>
+<p>한 번의 교대 학습은 ‘D를 고치는 단계’와 ‘G를 고치는 단계’로 나눈다. 가짜 자료의 값 자체는 D 학습에 필요하지만 그 단계에서 G까지 역전파할 필요는 없다. 이것이 detach가 붙는 위치를 정한다.</p>
 <ol>
 <li>D 단계: 실제 샘플의 라벨은 1, <code>G(z).detach()</code>로 만든 가짜 샘플의 라벨은 0으로 두고 D를 갱신한다.</li>
 <li>G 단계: 새로 생성한 가짜 샘플을 D가 실제 샘플, 즉 라벨 1로 판정하도록 G를 갱신한다.</li>
 </ol>
 <p>G 단계에서는 D의 매개변수까지 갱신하지 않는다. D 단계의 가짜 샘플에 detach를 적용하지 않으면 이 단계에서 필요하지 않은 G의 계산 그래프와 기울기까지 계산하게 된다.</p>
+<p>D 단계는 D의 기울기를 비우고 실제 1·가짜 0 손실을 계산해 backward 한 뒤 D optimizer만 갱신한다. 가짜 값의 detach는 G로 이어지는 기록만 끊고 D의 미분은 남긴다. G 단계는 G의 기울기를 비우고 새 가짜를 D에 넣어 목표 1 손실을 역전파한 뒤 G optimizer만 갱신한다.</p>
+<p>G 단계에서 D의 가중치를 고정해도 D의 입력에 대한 미분은 필요하다. D 계산 전체를 inference_mode로 감싸거나 G(z)를 detach 하면 G로 갈 학습 신호까지 끊는다. ‘가중치를 바꾸지 않는다’와 ‘그 함수를 통과하는 미분을 없앤다’는 서로 다르다.</p>
 <h3 id="258-gan">25.8 GAN 실패 형태</h3>
+<p>계기판 숫자 종류가 열 가지인데 G가 그럴듯한 한 종류만 계속 만든다면 사진 한 장은 좋아도 다양성은 실패다. 이것이 모드 붕괴다. 앞 장의 과적합처럼 결과와 실패 조건을 관찰해야지 손실이 내려갔다는 이유만으로 완료하지 않는다.</p>
 <ul>
 <li>모드 붕괴(mode collapse): G가 일부 패턴만 생성한다.</li>
 <li>학습이 진동하거나 수렴하지 않는다.</li>
@@ -285,7 +312,9 @@ class Discriminator(nn.Module):
 <li>생성 품질이 손실값과 직접 대응하지 않는다.</li>
 </ul>
 <p>따라서 GAN은 실기 Problem의 첫 모델로 쓰기보다, 공식 필기 범위의 구조·손실 개념과 Process의 최소 구현에 대비하는 용도로 학습한다.</p>
+<p>같은 잡음 묶음을 고정해 에포크별 생성 결과를 비교하고, 다른 잡음들 사이 결과도 비교한다. 첫 비교는 학습 변화, 둘째는 다양성을 본다. D가 너무 강하면 원래 포화형 G 손실의 기울기가 약해질 수 있지만 D를 무조건 약하게 만드는 것이 보편 해결은 아니다. 구조·학습률·갱신 비율에 따라 서로 따라가는 균형이 달라진다. 제한 시간 Problem에서는 정답과 지표가 직접 주어진 회귀·분류의 빠른 기준 모델부터 확보하고 GAN은 과제 목적이 요구할 때 사용한다.</p>
 <h3 id="259">25.9 비교표</h3>
+<p>표를 외우기 전에 각 모델의 학습 목표를 한 문장으로 만든다. AE는 같은 입력을 복원한다. VAE는 입력을 설명할 잠재분포와 생성에 쓸 분포를 연결한다. GAN은 생성한 자료를 구별하는 두 모델의 경쟁을 사용한다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="25강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
 <thead>
 <tr>
@@ -314,6 +343,7 @@ class Discriminator(nn.Module):
 <td>생성기·판별기의 적대적 손실</td>
 </tr>
 </tbody></table></div>
+<p>새 입력의 복원 이상 점수가 필요하면 AE의 샘플별 오차가 직접 연결된다. 새로운 표본 생성이 목적이면 잠재분포에서 뽑는 VAE나 잡음에서 만드는 GAN의 생성 경로를 본다. VAE의 KL을 GAN의 판별 손실로, GAN의 D를 AE의 디코더로 읽지 않는다. 같은 출력 이미지라도 그것을 만드는 입력과 비교 대상이 다르다.</p>
 <h3 id="2510">25.10 실습문제</h3>
 <ol>
 <li id="question-O25-01" data-question-id="O25-01"><code>logvar=0</code>이면 표준편차는?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-25-3">평균·분산·로그분산과 재매개화를 손으로 계산하기</a></p></details></li>
@@ -323,22 +353,51 @@ class Discriminator(nn.Module):
 <li id="question-O25-05" data-question-id="O25-05">GAN의 손실이 낮으면 생성 샘플의 품질이 반드시 좋은가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-25-5">GAN은 한 손실을 함께 낮추는 두 모델이 아니다</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_26"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li><code>exp(0.5×0)=1</code>.</li>
-<li><ol start="0">
-<li></li>
-</ol>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> logvar는 v=logσ²이며 표준편차 σ를 묻는다.</p>
+<p><strong>풀이:</strong> v=0→σ² =exp0=1→σ=√1=1이다. 코드의 exp(0.5v)에 넣어도 exp0=1이다.</p>
+<p><strong>정답:</strong> <code>exp(0.5×0)=1</code>.</p>
+<p><strong>왜?</strong> 로그의 역함수는 지수이고 표준편차는 분산의 양의 제곱근이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> logvar=0을 분산 0이나 표준편차 0으로 읽지 않는다.</p>
+<p><strong>한 줄 기억:</strong> std는 exp(logvar/2)다.</p>
 </li>
-<li>무작위 표본 추출을 μ와 σ에 대해 미분 가능한 변환으로 나타내어 인코더까지 기울기를 전달하기 위해서다.</li>
-<li>D만 갱신하는 단계에서 G의 계산 그래프와 기울기까지 계산하지 않기 위해서다.</li>
-<li>아니다. 생성기와 판별기의 균형 및 모드 붕괴 문제 때문에 손실만으로 품질을 보장할 수 없다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 사전분포는 N(0,I)이고, q의 각 차원에서 μ=0, v=0이다.</p>
+<p><strong>풀이:</strong> KL=0.5Σ(μ² +expv−1−v)에 넣으면 각 항 0+1−1−0=0이라 합도 0이다.</p>
+<p><strong>정답:</strong> 0.</p>
+<p><strong>왜?</strong> q와 p의 평균·분산이 같아 같은 가우시안 분포이기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> KL=0은 뽑은 z가 항상 0이라는 뜻이 아니다. 표준정규에서 매번 표본을 뽑는다.</p>
+<p><strong>한 줄 기억:</strong> 분포가 같으면 KL=0이고, 표본이 항상 0인 것은 아니다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 학습할 μ·σ와 독립적인 잡음 ε를 구분해야 하는 이유를 묻는다.</p>
+<p><strong>풀이:</strong> ε를 뽑은 뒤 z=μ+σε로 표현한다. 한 번의 계산에서 ε를 고정하면 ∂z/∂μ=1, ∂z/∂σ=ε로 디코더 손실을 인코더까지 미분할 수 있다.</p>
+<p><strong>정답:</strong> 무작위 표본 추출을 μ와 σ에 대해 미분 가능한 변환으로 나타내어 인코더까지 기울기를 전달하기 위해서다.</p>
+<p><strong>왜?</strong> 샘플링의 무작위 부분을 분리하고 학습 변수는 미분 가능한 계산 경로에 남기기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 무작위성을 제거하는 것도, 평균만 디코더에 넣는 것도 아니다.</p>
+<p><strong>한 줄 기억:</strong> 잡음은 따로 뽑고 학습 변수의 경로는 미분 가능하게 남긴다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 이번 단계의 갱신 대상은 D이고 G는 아니다.</p>
+<p><strong>풀이:</strong> 가짜 값 G(z)는 D의 입력으로 쓰되 detach로 G 이전 그래프를 끊는다. D의 실제 1·가짜 0 손실은 D 매개변수에 미분되어 D만 갱신한다.</p>
+<p><strong>정답:</strong> D만 갱신하는 단계에서 G의 계산 그래프와 기울기까지 계산하지 않기 위해서다.</p>
+<p><strong>왜?</strong> D 훈련에 필요 없는 G 기울기 계산을 차단하기 위해서다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> detach가 D의 미분까지 끊는 것은 아니다. G 학습 단계에 같이 넣으면 필요한 G 기울기를 잃는다.</p>
+<p><strong>한 줄 기억:</strong> D 단계는 가짜 값만 빌리고 G 경로는 끊는다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> GAN은 상대 D도 변하는 게임이며 품질과 다양성이 별개다.</p>
+<p><strong>풀이:</strong> 여러 잡음이 모두 한 종류의 그럴듯한 그림만 만들면 모드 붕괴다. 한 판별 손실이 낮아도 다양한 실제 분포를 덮지 못하므로 고정 잡음의 변화와 여러 잡음 결과를 함께 확인한다.</p>
+<p><strong>정답:</strong> 아니다. 생성기와 판별기의 균형 및 모드 붕괴 문제 때문에 손실만으로 품질을 보장할 수 없다.</p>
+<p><strong>왜?</strong> 손실은 현재 상대에 대한 목표값이지 모든 시각적 품질·분포 다양성의 완전한 척도가 아니다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 서로 다른 D나 학습 단계의 손실 숫자만 단순 비교하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> GAN은 손실·품질·다양성을 따로 본다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="2511">25.11 완료 기준</h3>
+<p>아래 항목은 읽은 기억이 아니라 해설을 가린 실제 수행으로 확인한다. 작은 입력의 예상값·배열 크기·유한성·원본 보존을 먼저 적고 실행 결과와 비교한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="25-1"><span>VAE 손실의 두 항과 재매개화를 설명한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="25-2"><span>GAN의 D/G 단계별 라벨과 detach 적용 위치를 설명한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="25-3"><span>AE/VAE/GAN을 비교한다.</span></label></li>
 </ul>
+<p>막힌 항목은 해당 절의 작은 예로 돌아가 숫자나 크기를 바꾸어 다시 계산한다. 지표까지 만들었다면 마지막에는 요구한 순서·단위의 파일을 저장하고 다시 읽어 확인한다. 이 완료 목표는 자체 연습 기준이며 공식 합격 판정을 뜻하지 않는다.</p>
 
 
 38:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$3d"}}]

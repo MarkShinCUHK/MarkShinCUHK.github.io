@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/27","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/27":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/27":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","27"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/27","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/27"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/27"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/27","_N_T_/layout","_N_T_/learn/27","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/27"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/27","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/27":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/27":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","27"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/27","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/27"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/27"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/27","_N_T_/layout","_N_T_/learn/27","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/27"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -44,7 +44,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 27:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-27-1",{"children":[["$","a",null,{"href":"#visual-27-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-27-1",{"children":["$","a",null,{"href":"#topic-27-1","children":"예측 파일에서 거꾸로 보기"}]}],["$","li","topic-27-2",{"children":["$","a",null,{"href":"#topic-27-2","children":"표 한 행을 문장으로 바꾸면 입력과 정답이 나뉜다"}]}]]}]]}]]}],["$","li","visual-27-2",{"children":[["$","a",null,{"href":"#visual-27-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",4,"개"]}],["$","ul",null,{"children":[["$","li","topic-27-3",{"children":["$","a",null,{"href":"#topic-27-3","children":"fit과 transform을 ‘고정한 자’로 이해하기"}]}],["$","li","topic-27-4",{"children":["$","a",null,{"href":"#topic-27-4","children":"모델·전처리의 용어"}]}],["$","li","topic-27-5",{"children":["$","a",null,{"href":"#topic-27-5","children":"검증 결과는 가중치를 고르는 두 번째 정보다"}]}],["$","li","topic-27-6",{"children":["$","a",null,{"href":"#topic-27-6","children":"입력과 정답의 범주는 다른 자리다"}]}]]}]]}]]}],["$","li","visual-27-3",{"children":[["$","a",null,{"href":"#visual-27-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-27-4",{"children":[["$","a",null,{"href":"#visual-27-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-27-7",{"children":["$","a",null,{"href":"#topic-27-7","children":"작은 회귀 문제의 완결"}]}],["$","li","topic-27-8",{"children":["$","a",null,{"href":"#topic-27-8","children":"코드의 표준화와 직선 예측을 연결하기"}]}]]}]]}]]}],["$","li","visual-27-5",{"children":[["$","a",null,{"href":"#visual-27-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-27-9",{"children":["$","a",null,{"href":"#topic-27-9","children":"표 데이터로 확장하기"}]}],["$","li","topic-27-10",{"children":["$","a",null,{"href":"#topic-27-10","children":"실제 표의 결측과 범주는 모델 앞에서 해결한다"}]}]]}]]}]]}],["$","li","visual-27-6",{"children":[["$","a",null,{"href":"#visual-27-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-27-11",{"children":["$","a",null,{"href":"#topic-27-11","children":"같은 규칙·단위로 비교하기"}]}],["$","li","topic-27-12",{"children":["$","a",null,{"href":"#topic-27-12","children":"역변환 하나가 모델 순위를 바꿀 수 있다"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-27","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-27-1",{"children":["$","a",null,{"href":"#theory-27-1","children":"문제의 네 가지 예측 목적을 먼저 구별하기"}]}],["$","li","theory-27-2",{"children":["$","a",null,{"href":"#theory-27-2","children":"MSE 기준 예측에서 최적의 상수가 평균인 이유"}]}],["$","li","theory-27-3",{"children":["$","a",null,{"href":"#theory-27-3","children":"전처리 학습에 검증자료를 사용하면 안 되는 이유"}]}],["$","li","theory-27-4",{"children":["$","a",null,{"href":"#theory-27-4","children":"정답의 척도 변환은 지표의 단위와 가중치를 바꾼다"}]}],["$","li","theory-27-5",{"children":["$","a",null,{"href":"#theory-27-5","children":"클래스 대응표·임계값·체크포인트의 역할"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","272",{"children":["$","a",null,{"href":"#272","children":"첫 셀: 요구사항 정리"}]}],["$","li","273-10-eda-split",{"children":["$","a",null,{"href":"#273-10-eda-split","children":"10분 EDA와 데이터 분할 결정"}]}],["$","li","274-baseline",{"children":["$","a",null,{"href":"#274-baseline","children":"기준 모델의 역할"}]}],["$","li","275-pytorch-dense-bridge",{"children":["$","a",null,{"href":"#275-pytorch-dense-bridge","children":"희소 배열을 PyTorch MLP 입력으로 변환하기"}]}],["$","li","276-task-label",{"children":["$","a",null,{"href":"#276-task-label","children":"과제 유형별 라벨 처리"}]}],["$","li","277-mlp",{"children":["$","a",null,{"href":"#277-mlp","children":"MLP 선택"}]}],["$","li","278-validation",{"children":["$","a",null,{"href":"#278-validation","children":"validation→전체 재학습"}]}],["$","li","279",{"children":["$","a",null,{"href":"#279","children":"오류 분석"}]}],["$","li","2710",{"children":["$","a",null,{"href":"#2710","children":"원본 연습: 차량 효율 회귀"}]}],["$","li","2711",{"children":["$","a",null,{"href":"#2711","children":"실습문제"}]}],["$","li","2712",{"children":["$","a",null,{"href":"#2712","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],"$L31"]]}]
 28:["$","$L32",null,{}]
 29:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","10분 안에 과제 유형, 평가지표, 데이터 분할 방법, 제출 형식을 확정한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"10분 안에 과제 유형, 평가지표, 데이터 분할 방법, 제출 형식을 확정한다."]}],["$","li","표 형태의 데이터의 기준 모델(baseline)로 첫 유효 제출 파일을 만든다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"표 형태의 데이터의 기준 모델(baseline)로 첫 유효 제출 파일을 만든다."]}],["$","li","PyTorch MLP를 같은 검증자료에서 비교한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"PyTorch MLP를 같은 검증자료에서 비교한다."]}],["$","li","회귀·이진분류·다중분류·다중라벨 분류(multilabel)·다중출력 문제를 구별해 구현한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"회귀·이진분류·다중분류·다중라벨 분류(multilabel)·다중출력 문제를 구별해 구현한다."]}]]}]]}]
-2a:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+2a:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 33:T554d,<h3 id="visual-27-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-27-1">예측 파일에서 거꾸로 보기</h4>
 <p>표를 받아서 모델을 학습했는데 예측 파일에 어느 차량의 결과인지 알 수 없다면 문제를 다 푼 것일까? Problem형 과제의 결과는 손실곡선 하나가 아니라 처음 입력한 각 행에 올바른 예측값을 연결한 제출 파일이다. 입력 열 선택, 훈련과 검증 분리, 모델 선택, 단위 복원, 파일 저장 중 하나라도 잘못되면 좋은 모델도 제대로 평가할 수 없다.</p>
@@ -166,20 +166,27 @@ print(round(baseline_mse, 3), valid_mse, loaded.tolist())
 2f:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/26/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",26,". ","Process형 실전: 경계조건까지 명세대로 구현하기"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/28/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[28,". ","시계열 Problem 끝까지 풀기"," →"]}]]}]]}]
 30:["$","ol",null,{"children":[["$","li","visual-27-7",{"children":["$","a",null,{"href":"#visual-27-7","children":"스스로 확인하기"}]}],["$","li","visual-27-8",{"children":["$","a",null,{"href":"#visual-27-8","children":"정답과 이유"}]}],["$","li","visual-27-9",{"children":["$","a",null,{"href":"#visual-27-9","children":"더 읽을 공식 자료"}]}]]}]
 31:["$","ol",null,{"children":[["$","li","visual-27-7",{"children":["$","a",null,{"href":"#visual-27-7","children":"스스로 확인하기"}]}],["$","li","visual-27-8",{"children":["$","a",null,{"href":"#visual-27-8","children":"정답과 이유"}]}],["$","li","visual-27-9",{"children":["$","a",null,{"href":"#visual-27-9","children":"더 읽을 공식 자료"}]}]]}]
-3b:T22e0,<h3 id="theory-27-1">1. 문제의 네 가지 예측 목적을 먼저 구별하기</h3>
-<p>회귀는 연속값을 예측한다. 물리량이 D개이면 예측과 정답 모두 크기가 [B,D]인 실수 배열이다. 이진분류는 두 상태 중 하나를 고른다. 하나의 변환 전 점수(logit)와 같은 크기의 0·1 실수형 정답을 BCEWithLogitsLoss에 넣을 수 있다. 다중분류는 K개 중 하나를 선택하므로 크기가 [B,K]인 변환 전 점수와 크기가 [B]인 정수 클래스 인덱스를 CrossEntropyLoss에 넣는다. 다중라벨 분류(multilabel)는 K개 항목의 해당 여부를 동시에 예측한다. 한 샘플이 여러 항목에 해당할 수 있으므로 크기가 [B,K]인 변환 전 점수와 크기가 [B,K]인 0·1 실수형 정답을 BCE 계열 손실함수에 넣는다.</p>
+3b:T2df6,<h3 id="theory-27-1">1. 문제의 네 가지 예측 목적을 먼저 구별하기</h3>
+<p>출력 숫자가 세 개라고 세 클래스 분류인 것은 아니다. [온도,압력,속도]의 세 측정값일 수도, 세 고장 종류가 각각 있는지 묻는 세 개의 예·아니오 답일 수도 있다. <strong>한 표본의 정답을 한국어로 먼저 말한 뒤</strong> 출력의 크기·자료형·손실을 정하자. 아래 네 과제는 같은 표 데이터를 사용하더라도 마지막 출력의 의미가 다르다. 따라서 다른 예제의 마지막 층과 loss를 따로따로 복사하지 말고 한 묶음의 조건으로 선택한다.</p>
+<p>회귀는 연속값을 예측한다. 물리량이 D개이면 예측과 정답 모두 크기가 [B,D]인 실수 배열이다. 이진분류는 두 상태 중 하나를 고른다. 하나의 변환 전 점수(logit)와 같은 크기의 0·1 실수형 정답을 BCEWithLogitsLoss에 넣을 수 있다. 다중분류는 K개 중 하나를 선택하므로 크기가 [B,K]인 변환 전 점수와 크기가 [B]인 정수 클래스 인덱스를 CrossEntropyLoss에 넣는다. 다중라벨 분류(multilabel)는 K개 항목의 해당 여부를 동시에 예측한다.</p>
+<p>한 샘플이 여러 항목에 해당할 수 있으므로 크기가 [B,K]인 변환 전 점수와 크기가 [B,K]인 0·1 실수형 정답을 BCE 계열 손실함수에 넣는다.</p>
 <p>예측 배열의 크기가 [B,3]이라는 사실만으로 회귀인지 세 클래스 분류인지 알 수 없다. [온도,압력,진동]은 세 연속값 출력이고 [정상,과열,누출]은 서로 배타적인 분류일 수 있다. 회귀에 소프트맥스를 붙이면 모든 값이 양수이고 합이 1이어야 하므로 예측 범위를 부적절하게 제한한다. 다중분류에 시그모이드를 독립적으로 적용하면 합이 1인 단일정답 확률이라는 의미가 사라진다. CE는 확률값 정답 방식도 지원하지만 이 교재의 기본 문제는 클래스 인덱스 방식을 사용하므로 두 입력 조건을 섞지 않는다.</p>
 <h3 id="theory-27-2">2. MSE 기준 예측에서 최적의 상수가 평균인 이유</h3>
+<p>모델 없이 모든 차량에 같은 금액을 예측해도 비교 기준을 만들 수 있다. 아무 값이나 고르기보다 학습 정답의 제곱오차를 가장 작게 만드는 상수를 찾으면 평균이 나온다. 아래 [1,5,9]에서 5를 예측하면 오차가 [-4,0,4]이고, 어느 방향으로 조금 옮겨도 전체 제곱오차는 늘어난다. <strong>기준값은 학습 정답에서 정하고 성능은 검증 정답에서 계산한다.</strong> 검증 평균을 사용하면 기준 모델에도 평가 답을 미리 가르친 셈이다.</p>
 <p>아무 입력도 보지 않는 회귀 모델이 항상 c를 출력한다고 하자. 학습 정답 y₁,…,yN의 제곱오차합은 S(c)=Σ(yᵢ−c)²다. c로 미분하면 S′(c)=2Σ(c−yᵢ)=2Nc−2Σyᵢ다. 이를 0으로 만드는 c는 학습 정답의 평균이다. 두 번째 미분은 2N&gt;0이므로 이때 최솟값을 갖는다. MSE를 비교할 기준 예측으로 평균을 사용하는 이유다. MAE에서는 중앙값이 기준이 된다.</p>
 <p>손계산 A: 학습 정답이 [1,5,9]면 평균은 5다. 검증 정답 [7,11]에서 예측 [5,5]의 오차는 [−2,−6], 제곱은 [4,36], MSE는 20, RMSE는 √20≈4.472다. 검증 정답까지 넣어 평균을 개선하면 평가에 쓸 답으로 규칙을 학습한 것이므로 누수다. 후보 모델이 같은 검증 데이터에서 RMSE 3을 얻었다면 개선된 것이다. 하지만 데이터 분할을 바꾸었다면 모델의 효과와 평가 난이도의 변화가 섞인다.</p>
 <p>빠르게 학습할 수 있는 기준 모델(baseline)은 비교 기준을 제공하고 전처리→예측→지표 계산→저장이 끝까지 실행되는지 확인하는 데 쓰인다. 모델이 복잡해진 뒤 문제가 생겨도 처음 검증한 파일로 돌아갈 수 있다. 표 형태의 데이터에서 특성 간 관계가 임계값이나 범주의 조합으로 주로 결정된다면 트리가 작은 MLP보다 유리할 수도 있다. MLP 점수가 낮다는 사실만으로 오류가 있다고 단정하지 않는다. 배열 크기, 손실함수, 누수 여부를 먼저 확인할 신호로 받아들인다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O27-01">27.11 실습문제 · 1번</a> · <a href="#question-O27-05">27.11 실습문제 · 5번</a> · <a href="#question-V27-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-27-3">3. 전처리 학습에 검증자료를 사용하면 안 되는 이유</h3>
-<p>fit은 데이터에서 통계를 추정하거나 범주 목록을 만드는 작업이다. transform은 고정된 규칙을 적용한다. 결측값을 대체할 중앙값, 평균·표준편차, 원-핫 인코딩의 범주, 선택할 특성 목록은 학습 데이터에서 정하고 검증 데이터와 평가 데이터에 그대로 적용한다. y를 직접 쓰지 않은 전처리도 검증 데이터의 분포에 맞춰 규칙을 골랐다면 독립적인 검증으로 볼 수 없다. <a href="https://scikit-learn.org/stable/common_pitfalls.html#data-leakage" target="_blank" rel="noopener noreferrer">scikit-learn의 누수 설명</a>이 이 원칙을 예시로 보여 준다.</p>
+<p>시험지를 받기 전에 만든 변환 기준을 새 자료에 적용하는 상황을 떠올리자. 학습 평균으로 빈 칸을 채우는 규칙, 학습에서 본 범주를 번호로 바꾸는 규칙도 모델을 쓰기 위한 준비의 일부다. 새 자료를 보고 그 기준을 다시 고르면 처음 정한 모델과 다른 절차를 평가하게 된다. <strong>fit으로 기준을 정하는 시점과 transform으로 적용하는 시점</strong>을 나눈 뒤, 새 범주가 나왔을 때도 미리 정한 처리 규칙이 작동하는지 확인한다.</p>
+<p>fit은 데이터에서 통계를 추정하거나 범주 목록을 만드는 작업이다. transform은 고정된 규칙을 적용한다. 결측값을 대체할 중앙값, 평균·표준편차, 원-핫 인코딩의 범주, 선택할 특성 목록은 학습 데이터에서 정하고 검증 데이터와 평가 데이터에 그대로 적용한다. y를 직접 쓰지 않은 전처리도 검증 데이터의 분포에 맞춰 규칙을 골랐다면 독립적인 검증으로 볼 수 없다.</p>
+<p><a href="https://scikit-learn.org/stable/common_pitfalls.html#data-leakage" target="_blank" rel="noopener noreferrer">scikit-learn의 누수 설명</a>이 이 원칙을 예시로 보여 준다.</p>
 <p>같은 차량이 반복 등장하고 평가 데이터에는 새 차량이 나오면 차량 단위로 분할해야 한다. 행이 독립적이라고 주어진 연습에서만 무작위 분할을 기본으로 쓴다. 그룹 분할과 시간 분할을 무조건 동시에 적용하는 것은 아니다. 같은 차량의 미래를 예측하는지 새 차량을 예측하는지 실제 사용 조건부터 정한다. 검증 데이터에만 등장하는 범주가 생길 수 있으므로 이를 처리할 인코딩 규칙은 학습 단계에서 정한다. 검증 정답 자체가 학습 데이터에 없는 클래스라면 모델의 출력 조건과 분할 설계를 별도로 검토해야 한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O27-04">27.11 실습문제 · 4번</a></p></details>
 <h3 id="theory-27-4">4. 정답의 척도 변환은 지표의 단위와 가중치를 바꾼다</h3>
+<p>온도의 표준화 오차 0.4와 실제 온도 오차 2도는 같은 예측을 다른 단위로 표현한 것일 수 있다. 변환할 때 표준편차 5로 나눴다면 돌아올 때는 5를 곱한다. 여러 출력의 표준편차가 다르면 각각 다른 비율로 오차를 줄여 본 셈이므로 모델의 우열까지 달라질 수 있다. 아래에서는 <strong>학습을 편하게 만드는 단위와 시험이 점수를 매기는 단위</strong>를 구분하고, 최종 비교 전에 원래 단위로 돌려놓는다.</p>
 <p>학습 정답의 평균 μ와 표준편차 s를 사용해 y′=(y−μ)/s로 학습하면 예측을 원래 단위로 되돌리는 식은 ŷ=s ŷ′+μ다. 오차에 적용하면 ŷ−y=s(ŷ′−y′)이므로 단일 출력의 RMSE는 |s|배가 된다. 표준화된 값의 RMSE를 그대로 보고하면 문제에서 요구하는 물리 단위로 평가한 것이 아니다.</p>
 <p>손계산 B: μ=40, s=5이고 검증 데이터의 표준화된 정답이 [0,2], 예측이 [0.4,1.6]이라고 하자. 표준화된 오차는 [0.4,−0.4]이므로 RMSE는 0.4다. 원래 단위의 정답은 [40,50], 예측은 [42,48]이므로 RMSE는 2다. 두 출력의 s가 각각 2와 20이면 표준화된 MSE의 각 축은 원래 단위의 제곱오차를 4와 400으로 나눈 셈이다. 따라서 원래 단위에서 중요도가 같은 공식 평가지표와 표준화된 학습 손실이 서로 다른 모델을 더 좋다고 판단할 수 있다. 최종 모델은 지시된 원래 단위의 평가지표로 선택한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O27-03">27.11 실습문제 · 3번</a></p></details>
 <h3 id="theory-27-5">5. 클래스 대응표·임계값·체크포인트의 역할</h3>
+<p>예측 2가 ‘sport’라는 뜻인지 ‘eco’라는 뜻인지는 대응표가 결정한다. 확률 0.6에 경보를 울릴지는 임계값이 결정하고, 어느 학습 시점의 모델을 사용할지는 체크포인트가 결정한다. 셋 모두 예측을 재현하는 데 필요한 정보다. 아래에서는 <strong>가중치만 저장하면 나머지 규칙도 자동으로 보존된다</strong>고 생각하지 않는다. 입력 행의 순서와 확률 열의 순서도 서로 다른 대응 관계이므로 각각 되돌릴 근거를 남긴다.</p>
 <p>클래스 대응표를 {eco:0, normal:1, sport:2}로 고정했다면 확률의 열 0은 eco다. 검증 데이터에서 등장 순서대로 새 대응표를 만들면 열의 의미가 바뀔 수 있다. 인덱스 2를 예측했으면 원래 라벨 sport로 복원하고, 확률을 제출한다면 이 대응표의 열 순서를 유지한다. 이진분류에서는 양성 라벨을 명시하고 시그모이드 확률을 임계값과 비교한다. 임계값은 모델 가중치는 아니지만 검증 데이터로 선택한 규칙이므로 평가 데이터에서 다시 고치지 않는다.</p>
 <p>체크포인트(checkpoint)는 학습 중 특정 시점의 가중치를 실제로 복사해 저장한 것이다. 에포크별 검증값이 [9,4,7]이면 두 번째 상태를 써야 한다. 마지막 가중치를 가리키는 참조만 저장하면 ‘두 번째가 최적’이라는 숫자 기록과 실제 모델이 달라진다. 전체 학습 데이터로 재학습할 때는 검증에서 구조, 에포크 수, 임계값 적용 방식을 먼저 고정하고 전처리와 모델을 새로 학습한다. 전체 자료로 재학습하면 가중치가 달라지므로 앞서 고른 임계값이 새 모델에서도 안정적으로 작동한다고 보장할 수 없다. 임계값의 안정성도 검증 계획에서 고려해야 한다.</p>
 <p>행 순서도 별도로 지켜야 할 요구사항이다. 평가 대상 ID를 정렬했다면 예측을 원래 ID 순서로 되돌린다. 두 행을 바꾸어도 배열 크기 [2,1]과 자료형 float32는 같으므로 형식 검사만으로는 발견하지 못한다. 클래스별 출력 열의 대응표와 샘플 행 순서를 각각 보존해야 한다.</p>
@@ -187,10 +194,12 @@ print(round(baseline_mse, 3), valid_mse, loaded.tolist())
 34:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-27","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-27","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3b"}}]]}]
 35:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 36:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-3c:T2d45,
+3c:T65de,
 <span class="section-anchor" id="271" aria-hidden="true"></span>
+<p>표 한 행에서 연비를 예측하든 고장 여부를 예측하든 파일 읽기부터 제출까지 이어져야 한다. 이번 강의는 모델 이름을 먼저 고르지 않고 목표·분할·출력 조건을 고정한 뒤 가장 단순한 모델로 한 바퀴 끝내는 연습이다.</p>
 
 <h3 id="272">27.2 첫 셀: 요구사항 정리</h3>
+<p>[B,3] 출력만 보고 세 클래스 문제라고 판단할 수는 없다. 온도·압력·진동 세 값을 맞히면 회귀이고 정상·과열·누유 중 하나를 고르면 분류다. 다음 설정은 데이터 설명을 실행 가능한 조건으로 옮겨 적는 메모다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-27-1">복사</button></div><pre id="code-27-1" tabindex="0" aria-label="27강 PYTHON 예시 1"><code class="language-python">TASK = "regression"       # regression/binary/multiclass/multilabel
 TARGET_COLS = ["target"]
 ID_COLS = ["id"]
@@ -209,7 +218,10 @@ print("target/id/drop:", TARGET_COLS, ID_COLS, DROP_COLS)
 <li>원래 클래스 라벨과 출력 열 순서는 무엇인가?</li>
 <li>파일명, 원소 자료형, 저장 셀은 무엇인가?</li>
 </ul>
+<p>TASK는 정답의 종류, TARGET_COLS는 맞힐 열, ID_COLS는 샘플 대응에 쓰는 열, DROP_COLS는 사용하지 않을 열이다. METRIC은 낮춰야 하는 오차인지 높여야 하는 점수인지까지 적는다. EXPECTED_OUTPUTS=1은 각 행의 정답 한 개이지 테스트 행 수가 1이라는 뜻은 아니다. None인 행 수는 아직 확인하지 않았다는 표시이므로 제출 전 실제 길이로 확정한다.</p>
+<p>원본 라벨이 '정상'·'고장'인데 파일은 정수를 요구하는지 문자열을 요구하는지 별도 확인한다. 공식 저장 셀이 제공되면 그 변수·파일명·셀 구조도 명세다. 모델의 실수 예측값이 준비되었다고 제출 조건이 자동으로 맞는 것은 아니다.</p>
 <h3 id="273-10-eda-split">27.3 10분 EDA와 데이터 분할 결정</h3>
+<p>모델을 돌리기 전에는 ‘왜 이 행들이 모였을까’를 살핀다. 한 차량의 짧은 구간이 여러 행이면 행들이 독립이라는 가정이 깨진다. 정답 열처럼 보이는 수치가 사실 운행 후 확정된 점수라면 예측 순간 사용할 수 없는 정보일 수 있다.</p>
 <ol>
 <li>배열 크기, 열 구성·자료형, 정답의 결측 여부</li>
 <li>한 행의 의미와 그룹·시간 정보의 유무</li>
@@ -218,7 +230,10 @@ print("target/id/drop:", TARGET_COLS, ID_COLS, DROP_COLS)
 <li>공식 평가지표</li>
 </ol>
 <p>그 뒤 데이터 분할을 고정한다. 모델마다 분할을 바꾸면 성능을 공정하게 비교할 수 없다.</p>
+<p>EDA는 자료의 구조·분포·오류 후보를 탐색하는 작업이다. shape와 dtype은 형식, 결측률·범위는 값, group·time은 생성 과정의 단서다. 타깃별 개수를 세어 작은 클래스가 분할 뒤 사라지지 않는지 확인한다. ID는 행 대응에 필요할 수 있지만 고유 번호를 외우면 새 ID의 성능은 별개다.</p>
+<p>처음 정한 검증 집합에서 기준 모델과 후보를 비교한다. 모델을 바꿀 때마다 우연히 쉬운 검증으로 바꾸면 성능 차이가 모델 개선인지 알 수 없다. 테스트 분포를 보고 전처리 통계나 선택 규칙을 새로 맞추는 것은 별도 허용 지시가 없으면 피한다.</p>
 <h3 id="274-baseline">27.4 기준 모델의 역할</h3>
+<p>입력 없이 훈련 정답 평균만 내는 회귀도 기준 예측이 된다. 훈련 y=[2,4,6]이면 항상 4를 예측한다. 새 모델이 같은 검증에서 이보다 나아졌는지 비교하고, 동시에 출력 길이·저장 형식이 맞는지 처음부터 확인할 수 있다.</p>
 <p>기준 모델은 다음 세 가지를 확인하는 데 쓰인다.</p>
 <ul>
 <li>전처리와 데이터 처리가 요구사항대로 실행되는가?</li>
@@ -226,7 +241,10 @@ print("target/id/drop:", TARGET_COLS, ID_COLS, DROP_COLS)
 <li>제출 파일이 생성되는가?</li>
 </ul>
 <p>표 형태의 데이터에서는 선형모델이나 ExtraTrees 같은 빠른 기준 모델이 PyTorch MLP보다 성능이 좋을 수 있다. 이 교재에서는 딥러닝 학습에 PyTorch만 사용하지만, 고전적인 기준 모델은 scikit-learn으로 빠르게 구현할 수 있다.</p>
+<p>MSE의 상수 최적값이 평균인 이유는 Σ(y−c)²를 c로 미분하면 2Nc−2Σy가 되어 평균에서 0이 되기 때문이다. 단순 모델은 성능 비교 기준, 끝까지 실행되는 파이프라인 점검, 시간이 부족할 때 돌아갈 유효 파일이라는 세 역할을 한다.</p>
+<p>표의 관계가 임계값·범주 조합 중심이면 트리가 MLP보다 빠르고 좋을 수 있다. MLP가 졌다고 무조건 버그는 아니지만 shape·정답 대응·손실·학습 모드·검증 분할을 확인한 뒤 모델 적합성으로 해석한다. 복잡성은 성능 보증서가 아니다.</p>
 <h3 id="275-pytorch-dense-bridge">27.5 희소 배열을 PyTorch MLP 입력으로 변환하기</h3>
+<p>원-핫 인코딩은 대부분 0인 큰 표를 만들 수 있다. 희소 배열은 주로 0이 아닌 값만 저장하지만 MLP 입력용 밀집 배열은 모든 칸을 저장한다. 10,000 행×2,000 열의 float32만 해도 80,000,000 바이트가 필요하다.</p>
 <p>희소행렬을 MLP 입력용 밀집 배열로 바꿀 때 필요한 메모리를 먼저 계산한다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-27-2">복사</button></div><pre id="code-27-2" tabindex="0" aria-label="27강 PYTHON 예시 2"><code class="language-python">def to_float32_dense(x, max_gib=2.0):
     budget = int(max_gib * (1024 ** 3))
@@ -248,7 +266,10 @@ print("target/id/drop:", TARGET_COLS, ID_COLS, DROP_COLS)
     return x
 </code></pre></div>
 <p>원-핫 인코딩(one-hot encoding) 결과가 너무 크면 고유값이 많은 범주형 특성의 처리 방식을 바꾼다.</p>
+<p>output_bytes는 행×열×4 바이트를 계산한다. GiB는 1024³바이트다. 희소 입력이면 먼저 float32로 바꾼 뒤 toarray로 밀집화해 큰 float64 밀집 중간본을 피한다. 이미 밀집이면 자료형 또는 메모리 연속성이 다를 때 추가 복사본이 필요한지 계산한다. asarray(...,order='C')는 행 중심 연속 저장을 요구한다.</p>
+<p>이 검사는 메모리 사용의 일부를 미리 거절하는 안전장치이지 전체 프로세스의 최고 사용량을 보장하는 측정기는 아니다. 특히 희소 분기에는 기존 희소 배열, 형변환 복사본, 이후 Tensor·모델·기울기 메모리가 따로 든다. 반환 전 finite 검사는 밀집화가 결측·무한값을 해결해 주지 않는다는 점을 확인한다.</p>
 <h3 id="276-task-label">27.6 과제 유형별 라벨 처리</h3>
+<p>모델이 클래스 2를 예측해도 원래 이름이 무엇인지 정해 두지 않으면 제출할 수 없다. 학습 자료에서 만든 순서가 [eco,normal,sport]라면 열 2는 sport이고, 검증에서 처음 본 순서로 새 표를 만들면 뜻이 바뀐다.</p>
 <p>이진분류의 원래 라벨이 <code>['normal','fault']</code>면 어느 라벨을 양성 클래스로 사용할지 명시한다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-27-3">복사</button></div><pre id="code-27-3" tabindex="0" aria-label="27강 PYTHON 예시 3"><code class="language-python">POSITIVE_LABEL = "fault"
 y_bin = (train[TARGET_COLS[0]].to_numpy() == POSITIVE_LABEL).astype(np.float32)
@@ -260,7 +281,10 @@ idx_to_class = np.asarray(classes)
 y_idx = train[TARGET_COLS[0]].map(class_to_idx).to_numpy(dtype=np.int64)
 </code></pre></div>
 <p>예측 라벨은 <code>idx_to_class[pred_idx]</code>로 복원한다. 확률 열의 순서는 <code>classes</code> 순서다.</p>
+<p>이진 코드의 POSITIVE_LABEL은 어떤 상태를 1로 볼지 명시한다. 비교 결과를 float32로 바꾸는 것은 BCE가 실수형 0·1 정답을 받기 때문이다. 다중분류는 classes를 한 번 고정하고 class_to_idx로 0부터 K−1 정수를 만든다. idx_to_class는 예측 인덱스를 원래 라벨로 되돌리는 역방향 대응이다.</p>
+<p>정수 클래스 번호의 크기는 중요도의 크기가 아니다. 확률 제출은 열 순서가 classes와 맞는지, 라벨 제출은 argmax 뒤 역대응이 필요한지 확인한다. 검증에 학습하지 않은 정답 클래스가 있다면 무작정 새 번호를 넣지 말고 분할·클래스 정의부터 점검한다.</p>
 <h3 id="277-mlp">27.7 MLP 선택</h3>
+<p>같은 은닉층 뒤에 무엇을 붙일지는 출력의 의미가 정한다. 연비 1개는 실수 1개, 고장 여부는 logit1개, 서로 배타적인 차종 4개는 logit4 개다. 숫자 개수뿐 아니라 손실 입력까지 함께 정해야 한다.</p>
 <ul>
 <li>회귀: 출력 D개, MSE/Huber 손실</li>
 <li>이진분류: 출력 1개, BCEWithLogits 손실</li>
@@ -268,7 +292,10 @@ y_idx = train[TARGET_COLS[0]].map(class_to_idx).to_numpy(dtype=np.int64)
 <li>다중라벨 분류: 출력 K개, BCEWithLogits 손실</li>
 </ul>
 <p>은닉층 크기 <code>(128,64)</code>부터 시작하고 드롭아웃 비율은 0~0.2로 둔다. 특성 수와 데이터 크기에 맞게 모델을 줄이고 학습 시간의 상한을 정한다.</p>
+<p>B는 배치 사례 수,D는 연속 출력 수,K는 클래스나 라벨 수다. 회귀는 예측·정답 [B,D]의 실수를 맞춘다. 이진은 [B,1] logits와 같은 크기의 실수 0·1을 BCEWithLogits에, 다중분류는 [B,K] logits와 [B] long 인덱스를 CE에 넣는다. 다중라벨은 한 행에 여러 1이 가능해 [B,K] 실수 정답과 독립 BCE를 쓴다.</p>
+<p>hidden128·64와 Dropout0부터 0.2는 시작 후보이지 보편 정답이 아니다. Dropout은 학습 중 일부 활성값을 끄는 규제로 검증에서 꺼야 한다. 같은 검증과 시간 상한에서 한 번에 한 설정을 바꾸며 모델 끝의 확률 변환을 손실에 중복하지 않는다.</p>
 <h3 id="278-validation">27.8 validation→전체 재학습</h3>
+<p>검증은 구조와 학습 횟수를 고르는 리허설이고, 전체 재학습은 그 선택을 고정한 뒤 사용할 훈련자료를 늘리는 단계다. 검증에서 3에포크가 좋았다고 정했다면 전체자료에서 새 모델을 3에포크 학습하는 식으로 계획을 먼저 확정한다.</p>
 <p>검증자료로 전처리, 모델, 학습 반복 횟수(epoch), 임계값을 선택한다. 최종 재학습은 다음 순서로 진행한다.</p>
 <ol>
 <li>훈련자료 전체로 전처리 규칙을 새로 학습한다.</li>
@@ -278,7 +305,10 @@ y_idx = train[TARGET_COLS[0]].map(class_to_idx).to_numpy(dtype=np.int64)
 <li>제출 파일을 검증한다.</li>
 </ol>
 <p>전체 재학습에는 조기 종료(early stopping)에 사용할 검증자료가 없으므로, 앞서 검증 성능이 가장 좋았던 반복 횟수를 사용하거나 작은 검증 구간을 남길 수 있다. 시간과 점수의 안정성을 고려해 선택한다.</p>
+<p>전처리와 모델을 새로 fit 하되 테스트에는 transform과 예측만 한다. 검증을 모두 학습에 합쳤다면 독립적인 early stopping 기준이 사라지므로 테스트 점수로 중지 시점을 고르지 않는다. 정한 에포크 수를 쓰거나 검증 계획에서 작은 내부 검증을 남기는 방식을 미리 선택한다.</p>
+<p>전체 학습으로 점수 분포가 달라지면 앞서 고른 분류 임계값이 완전히 같은 성능을 내리라는 보장은 없다. 교차검증 예측으로 문턱의 안정성을 보는 등 검증 단계에서 처리하고 테스트 라벨·분포를 보고 사후 조정하지 않는다. 회귀는 y_scaler 역변환 후 공식 단위로 파일을 만든다.</p>
 <h3 id="279">27.9 오류 분석</h3>
+<p>전체 점수 하나가 나빠도 원인은 다를 수 있다. 특정 차량에서만 큰 오차라면 그룹 차이, 모든 예측이 일정하게 낮으면 단위·역변환·편향 문제, 학습만 좋으면 과적합을 의심한다. 오류 분석은 새 모델을 무작정 늘리는 대신 다음 실험 하나를 정하기 위한 것이다.</p>
 <p>회귀:</p>
 <ul>
 <li>절대오차가 큰 행</li>
@@ -293,7 +323,10 @@ y_idx = train[TARGET_COLS[0]].map(class_to_idx).to_numpy(dtype=np.int64)
 <li>그룹별·시간대별·범주별 성능</li>
 </ul>
 <p>오류 분석 후 한 번에 한 변경만 한다.</p>
+<p>회귀 잔차는 실제값과 예측 차이이며 부호 정의를 먼저 고정한다. 그룹별 RMSE·잔차 평균은 크기와 한쪽 치우침을 나눠 본다. 분류 혼동행렬은 어떤 클래스가 무엇으로 바뀌는지 세고, 높은 확률로 틀린 사례는 라벨 대응·누수·전처리 오류를 찾는 단서다.</p>
+<p>분석한 같은 검증에 너무 많은 수정을 반복하면 선택이 그 자료에 과적합될 수 있다. 변경 이유·설정·평가지표·시간을 남기고 한 번에 하나를 바꾸면 무엇이 개선에 기여했는지 설명할 수 있다.</p>
 <h3 id="2710">27.10 원본 연습: 차량 효율 회귀</h3>
+<p>실제 파일의 복잡성 전에 정답이 어떻게 만들어졌는지 아는 작은 표로 전체 흐름을 연습한다. 생성식이 있는 합성 데이터는 모델이 배울 관계가 존재하는지 확인하기 좋지만 그 관계가 실제 연비 법칙이라는 뜻은 아니다.</p>
 <p>다음과 같이 합성 데이터 문제를 직접 만든다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-27-5">복사</button></div><pre id="code-27-5" tabindex="0" aria-label="27강 PYTHON 예시 5"><code class="language-python">rng = np.random.default_rng(42)
 n = 6000
@@ -316,6 +349,8 @@ toy = pd.DataFrame({"speed": speed, "weight": weight, "temp": temp, "mode": mode
 <li>예측값 <code>(N,1)</code>과 <code>(N,)</code> 제출 형식을 비교한다.</li>
 </ol>
 <p>불균형 이진분류를 데이터 생성부터 그룹 분할, PyTorch MLP 학습, 임계값 선택, 전체 재학습, NPY 재읽기까지 실행하는 모범 실습은 같은 폴더의 <code>full-mock-tabular.py</code>에 있다. 먼저 <code>--generate-only</code>로 훈련·테스트 자료만 만든 뒤 혼자 풀고, 그다음 기본 실행 결과와 비교한다.</p>
+<p>rng는 재현 가능한 난수 생성기다. speed·weight·temperature는 각 분포에서 뽑고 clip은 음수 속도·지나치게 작은 무게처럼 이 예제에서 허용하지 않는 값을 제한한다. mode는 범주와 비율을 가진다. mode_effect는 같은 입력에서도 운전 모드에 따라 기본 연비가 바뀌도록 만든다. fuel 식에는 weight×speed 상호작용, 높은 온도에서만 작동하는 제곱항, 모드 효과와 잡음이 합쳐져 있다.</p>
+<p>먼저 행이 독립이라는 현재 조건에서 80/20 분할과 RMSE를 고정한다. 중앙값 대체·원-핫·스케일링은 train에만 적합한다. 그룹 효과를 추가하는 과제는 새 차량에 일반화하도록 상황을 바꾸는 것이므로 그룹 분할과 행 분할의 차이를 비교한다. 5% 결측은 가릴 위치와 난수를 기록하고 대체기가 NaN을 처리했는지 확인한다. 마지막 [N,1] 대 [N] 검사는 예측과 정답을 맞춰 잘못된 [N,N] 비교가 생기지 않게 한다. 생성 전용 명령은 파일만 만들며 뒤의 학습·평가·제출 과제를 대신 수행하지 않는다.</p>
 <h3 id="2711">27.11 실습문제</h3>
 <ol>
 <li id="question-O27-01" data-question-id="O27-01">MLP의 성능이 트리 기준 모델보다 낮으면 반드시 코딩 오류인가?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-27-2">MSE 기준 예측에서 최적의 상수가 평균인 이유</a></p></details></li>
@@ -325,19 +360,51 @@ toy = pd.DataFrame({"speed": speed, "weight": weight, "temp": temp, "mode": mode
 <li id="question-O27-05" data-question-id="O27-05">첫 baseline을 빨리 저장해야 하는 이유 세 가지는?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-27-2">MSE 기준 예측에서 최적의 상수가 평균인 이유</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_28"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li>아니다. 표 형태의 데이터에서는 트리 앙상블이 더 강할 수 있다. 배열 크기와 손실함수를 확인한 뒤 검증 결과에 따라 판단한다.</li>
-<li>학습 때 고정한 라벨 인코더 또는 클래스 목록의 순서를 따른다.</li>
-<li>정답을 표준화한 단위에서의 RMSE를 측정하므로 공식 평가 단위와 다르다.</li>
-<li>안 된다. 테스트 정보가 모델 선택에 유출된다.</li>
-<li>처리 과정·평가지표·제출 형식을 검증하고, 시간이 부족해도 제출할 결과를 확보하며, 이후 개선을 비교할 기준을 남기기 위해서다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 같은 검증에서 MLP가 트리보다 낮은 성능을 보인 사실만 주어졌다.</p>
+<p><strong>풀이:</strong> 먼저 shape·정답 대응·loss·스케일링·학습 루프를 검사한다. 정상이라면 표 데이터 관계와 표본 수·튜닝·시간에 따라 트리가 더 적합한 결과일 수 있다.</p>
+<p><strong>정답:</strong> 아니다. 표 형태의 데이터에서는 트리 앙상블이 더 강할 수 있다. 배열 크기와 손실함수를 확인한 뒤 검증 결과에 따라 판단한다.</p>
+<p><strong>왜?</strong> 모델마다 쉽게 표현하는 관계와 필요한 학습량이 다르기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 복잡한 신경망이 반드시 모든 표 자료에서 이기는 것은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 낮은 점수는 점검 신호이지 버그의 증명은 아니다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 확률 열은 학습 때 고정한 클래스 인덱스 순서를 따른다.</p>
+<p><strong>풀이:</strong> classes·class_to_idx를 확인해 열 j가 어떤 라벨인지 읽는다. sklearn 모델이면 classes_도 확인한다. 같은 대응으로 valid/test를 해석하고 라벨 제출 시 역대응한다.</p>
+<p><strong>정답:</strong> 학습 때 고정한 라벨 인코더 또는 클래스 목록의 순서를 따른다.</p>
+<p><strong>왜?</strong> 출력 노드 j는 학습 중 그 클래스 정답과 연결되어 학습했기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 검증에서 새 등장 순서로 대응표를 만들면 열의 뜻이 바뀐다.</p>
+<p><strong>한 줄 기억:</strong> 확률 열의 이름은 훈련 클래스 대응표에 있다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 정답과 예측을 모두 표준화 공간에서 비교했는지, 한쪽만 원단위인지 나눈다.</p>
+<p><strong>풀이:</strong> 둘 다 표준화했다면 표준화 단위의 RMSE다. μ=40, s=5일 때 표준화 오차 0.4는 원단위 오차 2다. 예측만 표준화하고 원래 y와 비교하면 단위가 섞인 잘못된 지표다.</p>
+<p><strong>정답:</strong> 정답을 표준화한 단위에서의 RMSE를 측정하므로 공식 평가 단위와 다르다.</p>
+<p><strong>왜?</strong> y=sy′+μ이므로 오차도 s배가 되고 지표의 단위가 달라지기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 표준화 점수를 원래 단위 점수처럼 보고하지 않는다. 다중 출력의 s가 다르면 가중치도 달라진다.</p>
+<p><strong>한 줄 기억:</strong> 공식 RMSE는 정답과 예측을 같은 원단위로 맞춘 뒤 계산한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 임계값은 검증으로 선택한 평가 규칙이며 테스트에서 다시 학습하지 않는다.</p>
+<p><strong>풀이:</strong> 검증 단계에서 구조·에포크·문턱 적용 방식을 정하고 전체 훈련 재학습 후 고정 규칙을 적용한다. 테스트 분포를 보고 경보 수가 그럴듯하게 문턱을 조정하는 것도 선택이다.</p>
+<p><strong>정답:</strong> 안 된다. 테스트 정보가 모델 선택에 유출된다.</p>
+<p><strong>왜?</strong> 평가 자료의 분포에 맞춰 규칙을 고르면 독립적인 새 자료 평가가 아니기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 재학습 가중치가 달라져 문턱 성능이 달라질 수 있어도 테스트를 사용할 권한이 생기는 것은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 전체 재학습 뒤에도 test에서 문턱을 고르지 않는다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> baseline은 낮은 성능의 숫자 하나가 아니라 완료된 예측 경로다.</p>
+<p><strong>풀이:</strong> 첫째 전처리·metric·shape·저장이 끝까지 연결되는지 검사한다. 둘째 이후 실패에도 돌아갈 유효 파일을 남긴다. 셋째 같은 검증에서 후보의 추가 개선을 비교한다.</p>
+<p><strong>정답:</strong> 처리 과정·평가지표·제출 형식을 검증하고, 시간이 부족해도 제출할 결과를 확보하며, 이후 개선을 비교할 기준을 남기기 위해서다.</p>
+<p><strong>왜?</strong> 모델 개선과 형식 오류를 분리하고 시간이 끝나도 완료 결과를 남길 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 학습을 시작한 시각이나 지표만 출력한 상태는 첫 유효 파일 완료가 아니다.</p>
+<p><strong>한 줄 기억:</strong> baseline은 검사 경로·비상 파일·성능 비교 기준이다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="2712">27.12 완료 기준</h3>
+<p>아래 항목은 읽은 기억이 아니라 해설을 가린 실제 수행으로 확인한다. 작은 입력의 예상값·배열 크기·유한성·원본 보존을 먼저 적고 실행 결과와 비교한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="27-1"><span>네 가지 과제 유형의 출력을 10분 안에 구성한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="27-2"><span>기준 모델→MLP→전체 재학습→제출을 한 번 끝까지 실행한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="27-3"><span>원래 라벨과 정답 단위로 복원해 지표를 계산하고 제출한다.</span></label></li>
 </ul>
+<p>막힌 항목은 해당 절의 작은 예로 돌아가 숫자나 크기를 바꾸어 다시 계산한다. 지표까지 만들었다면 마지막에는 요구한 순서·단위의 파일을 저장하고 다시 읽어 확인한다. 이 완료 목표는 자체 연습 기준이며 공식 합격 판정을 뜻하지 않는다.</p>
 
 
 37:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$3c"}}]

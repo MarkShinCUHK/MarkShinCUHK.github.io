@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/31","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/31":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/31":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","31"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/31","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/31"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/31"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/31","_N_T_/layout","_N_T_/learn/31","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/31"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/31","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/31":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/31":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","31"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/31","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/31"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/31"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/31","_N_T_/layout","_N_T_/learn/31","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/31"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -41,7 +41,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 24:["$","li","34",{"data-current":false,"children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/34/","children":["34",". ","21일 학습 계획·최종 암기표·준비 상태 점검"]}]}]
 25:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-31-1",{"children":[["$","a",null,{"href":"#visual-31-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-31-1",{"children":["$","a",null,{"href":"#topic-31-1","children":"모의고사의 사용 목적"}]}],["$","li","topic-31-2",{"children":["$","a",null,{"href":"#topic-31-2","children":"답을 고르기 전에 문제를 한 문장으로 다시 말하기"}]}]]}]]}]]}],["$","li","visual-31-2",{"children":[["$","a",null,{"href":"#visual-31-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-31-3",{"children":["$","a",null,{"href":"#topic-31-3","children":"소거는 ‘틀려 보인다’가 아니라 실패한 조건을 찾는 일이다"}]}],["$","li","topic-31-4",{"children":["$","a",null,{"href":"#topic-31-4","children":"조건과 반례"}]}]]}]]}]]}],["$","li","visual-31-3",{"children":[["$","a",null,{"href":"#visual-31-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-31-4",{"children":[["$","a",null,{"href":"#visual-31-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",4,"개"]}],["$","ul",null,{"children":[["$","li","topic-31-5",{"children":["$","a",null,{"href":"#topic-31-5","children":"수식의 분모가 어떤 집단인지 먼저 표시하기"}]}],["$","li","topic-31-6",{"children":["$","a",null,{"href":"#topic-31-6","children":"같은 TP에서 다른 질문이 나온다"}]}],["$","li","topic-31-7",{"children":["$","a",null,{"href":"#topic-31-7","children":"분류·지표·CNN 검산"}]}],["$","li","topic-31-8",{"children":["$","a",null,{"href":"#topic-31-8","children":"계산 세 개를 중간 결과로 검산하기"}]}]]}]]}]]}],["$","li","visual-31-5",{"children":[["$","a",null,{"href":"#visual-31-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-31-9",{"children":["$","a",null,{"href":"#topic-31-9","children":"전 범위로 옮기는 풀이법"}]}],["$","li","topic-31-10",{"children":["$","a",null,{"href":"#topic-31-10","children":"지표 방향과 학습 종류를 같은 자료에서 비교하기"}]}]]}]]}]]}],["$","li","visual-31-6",{"children":[["$","a",null,{"href":"#visual-31-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-31-11",{"children":["$","a",null,{"href":"#topic-31-11","children":"숫자를 해석하는 범위"}]}],["$","li","topic-31-12",{"children":["$","a",null,{"href":"#topic-31-12","children":"같은 평균처럼 보이지만 다른 가중치를 검사하기"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-31","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-31-1",{"children":["$","a",null,{"href":"#theory-31-1","children":"통계·조건부 확률·불순도를 연결해 이해하기"}]}],["$","li","theory-31-2",{"children":["$","a",null,{"href":"#theory-31-2","children":"학습 종류·분할·누수·탐색에서 사용할 자료 구분하기"}]}],["$","li","theory-31-3",{"children":["$","a",null,{"href":"#theory-31-3","children":"고전 모델의 복잡도가 변하는 이유"}]}],["$","li","theory-31-4",{"children":["$","a",null,{"href":"#theory-31-4","children":"PCA·LDA·군집은 무엇을 최적화하는가"}]}],["$","li","theory-31-5",{"children":["$","a",null,{"href":"#theory-31-5","children":"지표는 분모와 집계 순서를 묻는다"}]}],["$","li","theory-31-6",{"children":["$","a",null,{"href":"#theory-31-6","children":"텐서·손실·미분·최적화를 연결해 이해하기"}]}],["$","li","theory-31-7",{"children":["$","a",null,{"href":"#theory-31-7","children":"학습·평가 모드의 차이와 데이터 증강·전이학습"}]}],["$","li","theory-31-8",{"children":["$","a",null,{"href":"#theory-31-8","children":"CNN·풀링·Linear·잔차 연결의 크기와 파라미터"}]}],["$","li","theory-31-9",{"children":["$","a",null,{"href":"#theory-31-9","children":"RNN의 상태와 입력 구간의 시점을 분리하기"}]}],["$","li","theory-31-10",{"children":["$","a",null,{"href":"#theory-31-10","children":"어텐션의 분모·위치 정보·마스크는 역할이 다르다"}]}],["$","li","theory-31-11",{"children":["$","a",null,{"href":"#theory-31-11","children":"AE·VAE·GAN의 목적을 비교해 선지를 판단하기"}]}],["$","li","theory-31-12",{"children":["$","a",null,{"href":"#theory-31-12","children":"문항을 새 문제처럼 푸는 운영 원칙"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","311",{"children":["$","a",null,{"href":"#311","children":"응시 방법"}]}],["$","li","312",{"children":["$","a",null,{"href":"#312","children":"문제"}]}],["$","li","315",{"children":["$","a",null,{"href":"#315","children":"진단"}]}],["$","li","316-2-ml",{"children":["$","a",null,{"href":"#316-2-ml","children":"필기 모의고사 2회 — 고전 ML·데이터·검증 중심"}]}],"$L30"]}],"$L31","$L32"]]}]
 26:["$","$L33",null,{}]
-27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 34:T5007,<h3 id="visual-31-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-31-1">모의고사의 사용 목적</h4>
 <p>정답지를 보면 이해되는데 혼자 풀면 두 선택지가 비슷해 보일 때가 있다. 이런 상태에서는 같은 설명을 한 번 더 읽는 것보다 두 선택지를 가르는 조건을 적는 연습이 필요하다. 필기 모의고사의 목적은 기억한 문장 수를 세는 것이 아니라 제한 시간에 조건을 읽고 근거를 선택하는 능력을 확인하는 데 있다.</p>
@@ -158,61 +158,84 @@ print(round(ce, 3), round(f1, 3), out_len)
 30:["$","li","317-3",{"children":["$","a",null,{"href":"#317-3","children":"필기 모의고사 3회 — 계산·전 범위 혼합"}]}]
 31:["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}]
 32:["$","ol",null,{"children":[["$","li","visual-31-7",{"children":["$","a",null,{"href":"#visual-31-7","children":"스스로 확인하기"}]}],["$","li","visual-31-8",{"children":["$","a",null,{"href":"#visual-31-8","children":"정답과 이유"}]}],["$","li","visual-31-9",{"children":["$","a",null,{"href":"#visual-31-9","children":"더 읽을 공식 자료"}]}]]}]
-3c:T721e,<h3 id="theory-31-1">1. 통계·조건부 확률·불순도를 연결해 이해하기</h3>
+3c:T8c16,<h3 id="theory-31-1">1. 통계·조건부 확률·불순도를 연결해 이해하기</h3>
+<p>공식의 이름을 맞히는 것보다 <strong>분모에 들어갈 집단과 로그의 밑</strong>을 먼저 찾는 연습을 하자. 분산은 평균에서 떨어진 정도를, 조건부확률은 특정 집단 안의 비율을, 불순도는 여러 라벨이 섞인 정도를 묻는다. 아래의 고장 경보 문제에서는 처음의 1,000대 전체가 아니라 경보가 난 140대를 새 분모로 삼는다. 세 주제 모두 어떤 대상을 기준으로 숫자를 모았는지 알면 계산의 출발점을 잡을 수 있다.</p>
 <p>이 절은 뒤의 1·2·3회 총 60문항을 풀기 전 읽는 개념 복습이다. 정답 번호가 아니라 다른 숫자에서도 계산할 원리를 익힌다. 평균 μ는 합을 개수 N으로 나눈 값이고, 모집단 분산은 Σ(xᵢ−μ)²/N이다. 표본 분산은 N−1로 나누므로 문제의 “모집단”을 놓치면 다른 수를 얻는다. [1,4,7]의 평균은 4, 제곱편차합은 18, 모집단 분산은 6이다. √6은 분산이 아니라 표준편차다.</p>
 <p>베이즈 문제에서는 조건 방향을 구분한다. P(경보|고장)은 고장인 차량들 안에서 경보가 난 비율이고 P(고장|경보)는 경보가 발생한 차량들 안에서 실제 고장인 비율이다. 손계산 A: 1,000대 중 고장 50대, 고장 검출률 90%, 정상 오경보율 10%라면 진짜 경보는 45대, 가짜 경보는 950×0.1=95대다. 경보 후 실제 고장 비율은 45/(45+95)=약 32.14%다. 90%라는 검출률을 그대로 답하면 분모를 고장 집단에서 경보 집단으로 바꾸지 않았다.</p>
 <p>엔트로피 H=−Σpₖlog₂pₖ는 라벨 불확실성이다. p가 0인 항은 극한으로 0이라 정의한다. [0.25,0.75]에서는 H=약 0.811비트이며 [1,0]은 0이다. 이진 50:50은 1비트로 최대다. Gini는 1−Σpₖ²이므로 [0.25,0.75]에서 1−(0.0625+0.5625)=0.375다. 둘 다 순수 노드에서 0이지만 같은 수식이 아니다. 의사결정나무는 분할 전 불순도와 자식 노드의 표본 수 가중 불순도를 비교한다. 가중치 없이 자식 노드 평균을 내면 작은 노드와 큰 노드를 같은 비중으로 취급하는 다른 기준이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 4개</summary><p><a href="#question-O31-03">3번. 정보이론</a> · <a href="#question-O31-28">2회-8번</a> · <a href="#question-O31-41">3회-1번</a> · <a href="#question-O31-42">3회-2번</a></p></details>
 <h3 id="theory-31-2">2. 학습 종류·분할·누수·탐색에서 사용할 자료 구분하기</h3>
+<p>필기 보기에서 “정답을 쓰지 않는다”는 말이 나오면 무엇을 주장하는지 확인한다. 비지도 방법이라는 뜻일 수 있지만 검증 입력을 마음대로 써도 된다는 허가는 아니다. 또 여러 모델 중 최고점을 고르는 행동도 검증 자료를 사용하는 선택 과정이다. 아래의 각 방법 옆에 <strong>입력 X, 정답 y, 학습 자료, 검증 자료 중 무엇으로 기준을 정하는가</strong>를 적어 보자. Pipeline이라는 도구 이름보다 실제 fit 범위가 누수 판단의 근거다.</p>
 <p>지도학습은 입력과 명시적인 정답의 관계를 배운다. 비지도학습은 정답 없이 입력의 구조를 찾고, 강화학습은 행동이 이후 보상과 상태에 영향을 주는 순차 의사결정 문제를 다룬다. 회귀는 지도학습의 한 종류이지 별개의 세 번째 큰 갈래가 아니다. PCA나 군집화는 비지도학습이어도 검증 데이터의 X 분포에 적합하면 독립적인 평가에 쓸 정보를 미리 학습한 셈이다.</p>
 <p>평가 데이터에 새 차량이 나오면 같은 차량의 행을 양쪽에 섞는 무작위 분할은 평가를 지나치게 쉽게 만들 수 있으므로 그룹 분할을 쓴다. 독립적인 분류 행에서 클래스 비율을 유지하려면 층화 분할을 사용한다. 처음 보는 차량을 예측하는 것과 같은 차량의 미래를 예측하는 것은 다른 문제다. Pipeline은 학습 폴드에서 결측값 대체기, 척도 변환기, 모델을 적합하고 검증 데이터에는 같은 변환을 적용하도록 연결한다. 전체 데이터에 적합한 뒤 이미 변환된 값을 Pipeline에 넣는다고 이전 누수가 사라지지는 않는다.</p>
-<p>타깃 인코딩(target encoding)은 범주별 정답 평균 같은 통계로 범주를 숫자로 바꾸는 방법이다. 자기 행의 y나 검증 데이터의 y가 통계에 들어가면 정답이 입력에 누설될 수 있다. 학습 행은 자신이 속한 내부 폴드를 제외한 통계로 변환하는 교차 적합(cross-fitting)을 고려하고, 검증 데이터에는 학습 데이터에서 구한 통계를 적용한다. SMOTE는 가까운 소수 클래스 샘플 사이에서 새 샘플을 합성하는 재표집 방법이다. 분할 전에 수행하면 합성 과정에 검증 정보가 들어가거나 서로 관련된 합성 샘플이 양쪽에 들어갈 수 있으므로 학습 폴드 안에서만 적용한다. <a href="https://scikit-learn.org/stable/modules/preprocessing.html#target-encoder" target="_blank" rel="noopener noreferrer">TargetEncoder 설명</a>, <a href="https://imbalanced-learn.org/stable/common_pitfalls.html" target="_blank" rel="noopener noreferrer">재표집 누수 사례</a>를 참고한다.</p>
-<p>하이퍼파라미터 탐색도 검증 데이터를 이용한 선택이다. 격자 탐색은 정해진 값의 조합을 모두 살펴보고, RandomizedSearch는 정한 분포에서 조합을 뽑는다. 중요한 설정이 일부뿐이고 탐색 자원이 적으면 무작위 탐색이 그 설정의 더 다양한 값을 평가할 수 있다. 항상 더 좋다는 보장은 없으며, 평가 점수를 보고 수동으로 고르는 방법이 대안은 아니다. <a href="https://scikit-learn.org/stable/modules/grid_search.html#randomized-parameter-optimization" target="_blank" rel="noopener noreferrer">scikit-learn 탐색 문서</a>를 기준으로 비교한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 8개</summary><p><a href="#question-O31-02">2번. 전처리 누수</a> · <a href="#question-O31-04">4번. Validation</a> · <a href="#question-O31-21">2회-1번</a> · <a href="#question-O31-22">2회-2번</a> · <a href="#question-O31-36">2회-16번</a> · <a href="#question-O31-37">2회-17번</a> · <a href="#question-O31-39">2회-19번</a> · <a href="#question-O31-40">2회-20번</a></p></details>
+<p>타깃 인코딩(target encoding)은 범주별 정답 평균 같은 통계로 범주를 숫자로 바꾸는 방법이다. 자기 행의 y나 검증 데이터의 y가 통계에 들어가면 정답이 입력에 누설될 수 있다. 학습 행은 자신이 속한 내부 폴드를 제외한 통계로 변환하는 교차 적합(cross-fitting)을 고려하고, 검증 데이터에는 학습 데이터에서 구한 통계를 적용한다. SMOTE는 가까운 소수 클래스 샘플 사이에서 새 샘플을 합성하는 재표집 방법이다.</p>
+<p>분할 전에 수행하면 합성 과정에 검증 정보가 들어가거나 서로 관련된 합성 샘플이 양쪽에 들어갈 수 있으므로 학습 폴드 안에서만 적용한다. <a href="https://scikit-learn.org/stable/modules/preprocessing.html#target-encoder" target="_blank" rel="noopener noreferrer">TargetEncoder 설명</a>, <a href="https://imbalanced-learn.org/stable/common_pitfalls.html" target="_blank" rel="noopener noreferrer">재표집 누수 사례</a>를 참고한다.</p>
+<p>하이퍼파라미터 탐색도 검증 데이터를 이용한 선택이다. 격자 탐색은 정해진 값의 조합을 모두 살펴보고, RandomizedSearch는 정한 분포에서 조합을 뽑는다. 중요한 설정이 일부뿐이고 탐색 자원이 적으면 무작위 탐색이 그 설정의 더 다양한 값을 평가할 수 있다. 항상 더 좋다는 보장은 없으며, 평가 점수를 보고 수동으로 고르는 방법이 대안은 아니다.</p>
+<p><a href="https://scikit-learn.org/stable/modules/grid_search.html#randomized-parameter-optimization" target="_blank" rel="noopener noreferrer">scikit-learn 탐색 문서</a>를 기준으로 비교한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 8개</summary><p><a href="#question-O31-02">2번. 전처리 누수</a> · <a href="#question-O31-04">4번. Validation</a> · <a href="#question-O31-21">2회-1번</a> · <a href="#question-O31-22">2회-2번</a> · <a href="#question-O31-36">2회-16번</a> · <a href="#question-O31-37">2회-17번</a> · <a href="#question-O31-39">2회-19번</a> · <a href="#question-O31-40">2회-20번</a></p></details>
 <h3 id="theory-31-3">3. 고전 모델의 복잡도가 변하는 이유</h3>
+<p>하이퍼파라미터를 모두 “커지면 복잡해진다”로 외우면 반대로 답하기 쉽다. Ridge의 λ는 큰 가중치를 막는 벌점, KNN의 k는 함께 평균낼 이웃 수, SVM의 C는 마진 위반 비용이다. <strong>그 숫자가 무엇을 늘리거나 제한하는지</strong>부터 읽어야 한다. 아래에서는 같은 ‘편향’도 통계적 편향인지 Linear의 편향 b인지 구분하고, 배깅의 여러 모델 평균과 부스팅의 순차 보완을 다른 학습 과정으로 읽는다.</p>
 <p>Ridge는 제곱오차에 λΣwⱼ²를 더한다. λ가 커지면 큰 계수에 더 큰 비용을 부과하여 가중치를 줄이고 표현력을 제한한다. 여기서 ‘편향 증가’는 보통 추정의 편향, 즉 지나치게 단순한 가정으로 생기는 오차를 말한다. Linear의 절편 b가 반드시 증가한다는 뜻은 아니다. L1은 λΣ|wⱼ|이며 0에서 뾰족하므로 일부 계수가 정확히 0이 될 수 있다. 학습 과정 안에서 특성이 선택되므로 내장형 특성 선택(embedded selection)에 해당하며, 기존 열을 조합하는 PCA와는 다르다.</p>
 <p>로지스틱 회귀는 변환 전 점수인 로짓 z=log(p/(1−p))를 선형으로 예측한다. 승산(odds)은 p/(1−p)=exp z이고 p=odds/(1+odds)다. z=log5이면 odds=5, p=5/6이다. 승산은 1을 넘을 수 있지만 확률은 넘을 수 없다. ‘회귀’라는 이름이 붙어 있어도 기본 목적은 분류다. <a href="https://scikit-learn.org/stable/modules/linear_model.html" target="_blank" rel="noopener noreferrer">선형모델 공식 문서</a>에서 목적함수를 정리한다.</p>
 <p>KNN은 가까운 k개 이웃의 값을 평균하거나 이웃의 라벨로 투표한다. k=1은 한 관측의 잡음에도 민감하고, 큰 k는 넓게 평균해 흔들림을 줄이지만 국소 구조를 놓칠 수 있다. 일반적으로 분산은 감소하고 편향은 증가하는 방향이며 모든 데이터에서 엄격히 단조라는 보장은 없다. 거리를 쓰므로 특성 스케일과 고차원의 거리 구별 문제는 k만 키워 해결되지 않는다. <a href="https://scikit-learn.org/stable/modules/neighbors.html" target="_blank" rel="noopener noreferrer">최근접 이웃 설명</a>을 참고한다.</p>
 <p>RBF SVM의 커널은 exp(−γ‖x−x′‖²)다. γ가 크면 조금 떨어진 점의 영향도 빠르게 작아져 국소적인 결정 경계를 만들 수 있다. C가 크면 학습 데이터에서 마진을 위반하는 경우에 큰 벌점을 주므로 이를 맞추려는 경향이 강해진다. 둘 다 지나치게 크면 결정 경계가 복잡해지고 과적합 위험이 커질 수 있다. C를 학습률이나 클래스 수로 읽지 않는다. <a href="https://scikit-learn.org/stable/modules/svm.html" target="_blank" rel="noopener noreferrer">SVM 공식 설명</a>에서 입력 척도와 하이퍼파라미터를 함께 확인한다.</p>
-<p>일반적인 임계값 기반 결정트리는 x≤t라는 순서에 따라 분할하므로 엄격한 단조 척도 변환 뒤에도 대응하는 분할이 가능하다. 이것이 표준화가 필수는 아닌 핵심 이유이며, ‘정답을 사용하지 않기 때문’이 아니다. 랜덤 포레스트(RF)는 부트스트랩 샘플과 무작위 특성 선택을 이용해 여러 나무를 만들고 평균이나 투표를 구하여 서로 비슷한 오류가 생기는 것을 줄이려 한다. 그래디언트 부스팅은 이전 예측의 오류 방향, 더 일반적으로는 손실의 음의 기울기를 따라 다음 모델이 순차적으로 보완한다. 제곱오차에서 이 방향은 잔차와 연결된다. 배깅의 병렬 평균과 부스팅의 순차 보완을 혼동하지 않는다. <a href="https://scikit-learn.org/stable/modules/ensemble.html" target="_blank" rel="noopener noreferrer">앙상블 공식 문서</a>를 참고한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 8개</summary><p><a href="#question-O31-23">2회-3번</a> · <a href="#question-O31-24">2회-4번</a> · <a href="#question-O31-25">2회-5번</a> · <a href="#question-O31-26">2회-6번</a> · <a href="#question-O31-27">2회-7번</a> · <a href="#question-O31-29">2회-9번</a> · <a href="#question-O31-30">2회-10번</a> · <a href="#question-O31-31">2회-11번</a></p></details>
+<p>일반적인 임계값 기반 결정트리는 x≤t라는 순서에 따라 분할하므로 엄격한 단조 척도 변환 뒤에도 대응하는 분할이 가능하다. 이것이 표준화가 필수는 아닌 핵심 이유이며, ‘정답을 사용하지 않기 때문’이 아니다. 랜덤 포레스트(RF)는 부트스트랩 샘플과 무작위 특성 선택을 이용해 여러 나무를 만들고 평균이나 투표를 구하여 서로 비슷한 오류가 생기는 것을 줄이려 한다. 그래디언트 부스팅은 이전 예측의 오류 방향, 더 일반적으로는 손실의 음의 기울기를 따라 다음 모델이 순차적으로 보완한다. 제곱오차에서 이 방향은 잔차와 연결된다.</p>
+<p>배깅의 병렬 평균과 부스팅의 순차 보완을 혼동하지 않는다. <a href="https://scikit-learn.org/stable/modules/ensemble.html" target="_blank" rel="noopener noreferrer">앙상블 공식 문서</a>를 참고한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 8개</summary><p><a href="#question-O31-23">2회-3번</a> · <a href="#question-O31-24">2회-4번</a> · <a href="#question-O31-25">2회-5번</a> · <a href="#question-O31-26">2회-6번</a> · <a href="#question-O31-27">2회-7번</a> · <a href="#question-O31-29">2회-9번</a> · <a href="#question-O31-30">2회-10번</a> · <a href="#question-O31-31">2회-11번</a></p></details>
 <h3 id="theory-31-4">4. PCA·LDA·군집은 무엇을 최적화하는가</h3>
-<p>PCA는 중심화된 X가 가장 크게 퍼진 단위 방향을 찾고, 다음에는 앞 축과 직교하는 방향을 찾는다. 새 좌표는 원래 특성의 선형 조합이므로 특성 추출에 해당한다. y를 보지 않으므로 클래스 간 분리가 최대가 된다는 보장은 없고, 척도가 큰 특성이 전체 분산에 큰 영향을 줄 수 있다. LDA는 클래스 평균을 구별하는 데 유용한 방향을 찾으며 F개 특성과 C개 클래스에서 판별 차원의 상한은 min(F,C−1)이다. 각 클래스 평균에서 전체 평균을 뺀 C개 벡터는 가중합이 0이므로 독립적인 방향이 C−1개를 넘지 못한다. F=9,C=3이면 최대 2개다. <a href="https://scikit-learn.org/stable/modules/decomposition.html#pca" target="_blank" rel="noopener noreferrer">PCA</a>, <a href="https://scikit-learn.org/stable/modules/lda_qda.html" target="_blank" rel="noopener noreferrer">LDA</a>의 목표를 비교한다.</p>
+<p>입력을 두 좌표로 줄인 결과와 각 행에 군집 번호 하나를 붙인 결과는 서로 다른 종류의 출력이다. PCA는 입력의 퍼짐을, LDA는 정답 클래스의 구별을, 군집화는 입력끼리의 묶음을 기준으로 삼는다. <strong>정답 y를 쓰는가, 새 좌표를 만드는가, 이름표를 붙이는가</strong>라는 세 질문으로 먼저 나누자. 아래의 군집 중심 5는 대표 위치이며 클래스 번호 5가 아니다. 최적화하려는 대상과 출력의 의미를 함께 기억한다.</p>
+<p>PCA는 중심화된 X가 가장 크게 퍼진 단위 방향을 찾고, 다음에는 앞 축과 직교하는 방향을 찾는다. 새 좌표는 원래 특성의 선형 조합이므로 특성 추출에 해당한다. y를 보지 않으므로 클래스 간 분리가 최대가 된다는 보장은 없고, 척도가 큰 특성이 전체 분산에 큰 영향을 줄 수 있다. LDA는 클래스 평균을 구별하는 데 유용한 방향을 찾으며 F개 특성과 C개 클래스에서 판별 차원의 상한은 min(F,C−1)이다. 각 클래스 평균에서 전체 평균을 뺀 C개 벡터는 가중합이 0이므로 독립적인 방향이 C−1개를 넘지 못한다. F=9,C=3이면 최대 2개다.</p>
+<p><a href="https://scikit-learn.org/stable/modules/decomposition.html#pca" target="_blank" rel="noopener noreferrer">PCA</a>, <a href="https://scikit-learn.org/stable/modules/lda_qda.html" target="_blank" rel="noopener noreferrer">LDA</a>의 목표를 비교한다.</p>
 <p>K-means는 각 점을 가장 가까운 중심에 배정한 뒤 군집 안 제곱거리합을 최소화하는 중심으로 바꾼다. 그 중심은 평균이다. 1차원 군집의 점 [2,5,8]이면 중심 5이고, 중심 m에 대한 Σ(x−m)²의 미분을 0으로 놓아 유도할 수 있다. 군집 중심은 정답 클래스의 평균이나 데이터의 가장 먼 점이 아니다.</p>
-<p>DBSCAN은 eps 이내의 이웃과 min_samples를 이용해 밀집한 핵심점(core point)을 찾고, 밀도로 연결된 점들을 따라 군집을 확장하면서 잡음을 구별한다. 군집 수 k를 미리 고정하지 않고 굽은 형태도 찾을 수 있다. 그러나 eps는 거리 단위이므로 척도 변환에 민감하고, 밀도가 서로 다르거나 차원이 높은 데이터에서 항상 잘 작동하지는 않는다. 군집 번호는 임의의 이름이므로 클래스 0·1의 의미에 자동으로 대응하지 않는다. <a href="https://scikit-learn.org/stable/modules/clustering.html" target="_blank" rel="noopener noreferrer">군집 공식 문서</a>에서 중심점 기반 방법과 밀도 기반 방법을 구분한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 5개</summary><p><a href="#question-O31-31">2회-11번</a> · <a href="#question-O31-32">2회-12번</a> · <a href="#question-O31-33">2회-13번</a> · <a href="#question-O31-34">2회-14번</a> · <a href="#question-O31-35">2회-15번</a></p></details>
+<p>DBSCAN은 eps 이내의 이웃과 min_samples를 이용해 밀집한 핵심점(core point)을 찾고, 밀도로 연결된 점들을 따라 군집을 확장하면서 잡음을 구별한다. 군집 수 k를 미리 고정하지 않고 굽은 형태도 찾을 수 있다. 그러나 eps는 거리 단위이므로 척도 변환에 민감하고, 밀도가 서로 다르거나 차원이 높은 데이터에서 항상 잘 작동하지는 않는다. 군집 번호는 임의의 이름이므로 클래스 0·1의 의미에 자동으로 대응하지 않는다.</p>
+<p><a href="https://scikit-learn.org/stable/modules/clustering.html" target="_blank" rel="noopener noreferrer">군집 공식 문서</a>에서 중심점 기반 방법과 밀도 기반 방법을 구분한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 5개</summary><p><a href="#question-O31-31">2회-11번</a> · <a href="#question-O31-32">2회-12번</a> · <a href="#question-O31-33">2회-13번</a> · <a href="#question-O31-34">2회-14번</a> · <a href="#question-O31-35">2회-15번</a></p></details>
 <h3 id="theory-31-5">5. 지표는 분모와 집계 순서를 묻는다</h3>
+<p>오차가 -2와 -5이면 “음수니까 좋은 예측”이라는 뜻이 아니라 정답보다 작게 예측했다는 뜻이다. 절댓값을 취하면 MAE, 제곱한 뒤 평균하면 MSE, 그 평균에 제곱근을 취하면 RMSE다. 분류에서도 경보를 기준으로 나누는지 실제 양성을 기준으로 나누는지에 따라 정밀도·재현율이 달라진다. 아래 계산에서는 <strong>오차의 부호, 평균을 내는 대상, 마지막 변환 순서</strong>를 별도로 적어 이름이 비슷한 지표를 구분한다.</p>
 <p>MSE는 제곱오차의 평균이고 RMSE는 그 제곱근이다. 오차가 [−2,−5]면 MSE=(4+25)/2=14.5, RMSE=√14.5≈3.808이다. MSE의 단위는 정답 단위의 제곱이고 RMSE는 원래 단위다. MAE는 절댓값의 평균이므로 같은 예에서 3.5다. 일반적인 RMSLE는 √mean((log(1+ŷ)−log(1+y))²)이며 이 모의고사에서는 y와 ŷ가 음수가 아니어야 한다는 입력 조건을 사용한다. 수학함수 log1p 자체는 −1보다 큰 일부 음수에서도 정의되지만 평가지표가 허용하는 입력은 별개다.</p>
 <p>TP는 실제 양성을 양성으로, FP는 실제 음성을 양성으로, FN은 실제 양성을 음성으로 예측한 수다. precision=TP/(TP+FP)는 경보의 신뢰도, recall=TP/(TP+FN)은 실제 양성을 얼마나 찾았는지다. F1은 두 비율의 조화평균이며 2TP/(2TP+FP+FN)로 계산할 수도 있다. 손계산 B: TP=12,FP=4,FN=8이면 P=12/16=0.75,R=12/20=0.6,F1=24/36=2/3이다. 단순 산술평균 0.675가 아니다. 0분모는 문제에서 지정한 정책을 따른다.</p>
-<p>Macro-F1은 클래스마다 F1을 계산한 뒤 클래스 수로 나눈다. 샘플 수가 많은 정상 클래스와 적은 고장 클래스에도 같은 가중치를 주므로, 다수 클래스의 높은 성능에 소수 클래스의 낮은 성능이 가려지는 일을 줄인다. ROC-AUC는 확정 라벨이 아니라 점수의 순위가 두 클래스를 얼마나 잘 구분하는지 여러 임계값에 걸쳐 평가한다. 고장이 2%일 때 모두 정상이라고 예측하면 정확도는 98%지만 고장 재현율은 0이다. 다만 Macro-F1 하나로 모든 비용 조건을 설명할 수는 없다. <a href="https://scikit-learn.org/stable/modules/model_evaluation.html" target="_blank" rel="noopener noreferrer">평가지표 공식 문서</a>의 평균 계산 방식과 입력 조건을 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 6개</summary><p><a href="#question-O31-05">5번. 불균형 metric</a> · <a href="#question-O31-38">2회-18번</a> · <a href="#question-O31-45">3회-5번</a> · <a href="#question-O31-46">3회-6번</a> · <a href="#question-O31-47">3회-7번</a> · <a href="#question-V31-02">기초 확인 · 2번</a></p></details>
+<p>Macro-F1은 클래스마다 F1을 계산한 뒤 클래스 수로 나눈다. 샘플 수가 많은 정상 클래스와 적은 고장 클래스에도 같은 가중치를 주므로, 다수 클래스의 높은 성능에 소수 클래스의 낮은 성능이 가려지는 일을 줄인다. ROC-AUC는 확정 라벨이 아니라 점수의 순위가 두 클래스를 얼마나 잘 구분하는지 여러 임계값에 걸쳐 평가한다. 고장이 2%일 때 모두 정상이라고 예측하면 정확도는 98%지만 고장 재현율은 0이다. 다만 Macro-F1 하나로 모든 비용 조건을 설명할 수는 없다.</p>
+<p><a href="https://scikit-learn.org/stable/modules/model_evaluation.html" target="_blank" rel="noopener noreferrer">평가지표 공식 문서</a>의 평균 계산 방식과 입력 조건을 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 6개</summary><p><a href="#question-O31-05">5번. 불균형 metric</a> · <a href="#question-O31-38">2회-18번</a> · <a href="#question-O31-45">3회-5번</a> · <a href="#question-O31-46">3회-6번</a> · <a href="#question-O31-47">3회-7번</a> · <a href="#question-V31-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-31-6">6. 텐서·손실·미분·최적화를 연결해 이해하기</h3>
+<p>학습의 한 단계는 배열을 받아 점수를 계산하고, 정답과 비교해 손실을 만들고, 가중치에 대한 기울기를 구한 뒤 갱신하는 과정이다. 어느 단계의 숫자인지를 잃으면 확률을 logit으로 다시 넣거나 기울기의 부호를 반대로 적용할 수 있다. 아래 식을 <strong>입력 → 점수 → 손실 → 기울기 → 새 가중치</strong>로 한 줄씩 적자. 브로드캐스팅 규칙은 계산을 가능하게 해 줄 뿐, 같은 표본끼리 비교했는지까지 보장하지 않는다.</p>
 <p>크기가 [B,T,F]인 배열에 특성별 편향을 더할 때는 [F]를 오른쪽 축에 맞추고 생략된 앞축은 1로 읽는다. [B]와 [B,1]을 빼면 [B,B]의 모든 조합을 비교할 수 있으므로 회귀에서는 같은 샘플의 예측과 정답을 직접 맞춘다. 클래스 인덱스를 쓰는 CE의 예측은 크기가 [B,K]인 변환 전 점수이고 정답은 크기가 [B]인 long 배열이다. 소프트맥스 확률을 다시 CE의 변환 전 점수로 넣으면 정답 확률 계산이 달라진다. 다중라벨 분류는 한 행에 여러 정답이 가능하므로 크기가 [B,K]인 실수형 0·1 정답과 BCEWithLogits를 쓴다.</p>
 <p>소프트맥스는 지수값의 비율이다. [0,log4]라면 [1,4]를 합 5로 나누므로 [0.2,0.8]이다. K개 변환 전 점수가 모두 같으면 확률은 각각 1/K이고 CE는 logK다. 점수의 공통값이 0이라고 손실까지 0인 것은 아니다. 시그모이드는 σ(z)=1/(1+e^(−z))이며 출력 범위는 (0,1)이다. tanh는 원점 대칭이고 출력 범위는 (−1,1)이며, ReLU는 max(0,z)로 음수에서 0이다. tanh가 원점을 지나는 S자 모양이고 양 끝에서 포화한다는 조건을 정의와 연결한다.</p>
-<p>역전파는 연결된 함수의 미분을 곱한다. ŷ=wx, L=(ŷ−y)²이면 dL/dw=2(ŷ−y)x다. x=3,w=2,y=4에서 ŷ=6, dL/dw=2×2×3=12다. 학습률 0.05인 SGD의 갱신은 w_new=2−0.05×12=1.4다. 기울기의 부호와 갱신식의 뺄셈을 따로 확인한다. 모멘텀을 v_t=βv_(t−1)+g_t, w_t=w_(t−1)−ηv_t로 정의하면 같은 방향의 기울기는 누적되고, 부호가 번갈아 바뀌는 방향의 기울기는 상쇄될 수 있다. 이는 검증 손실을 직접 미분하는 것이 아니다. RMSprop은 제곱 기울기의 평균으로 크기를 조절하고 Adam은 1·2차 모멘트와 초기 편향 보정을 함께 사용한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 8개</summary><p><a href="#question-O31-01">1번. Broadcasting</a> · <a href="#question-O31-06">6번. 손실함수의 입력 조건</a> · <a href="#question-O31-07">7번. 역전파</a> · <a href="#question-O31-08">8번. Optimizer</a> · <a href="#question-O31-20">20번. GAN</a> · <a href="#question-O31-44">3회-4번</a> · <a href="#question-O31-59">3회-19번</a> · <a href="#question-V31-01">기초 확인 · 1번</a></p></details>
+<p>역전파는 연결된 함수의 미분을 곱한다. ŷ=wx, L=(ŷ−y)²이면 dL/dw=2(ŷ−y)x다. x=3,w=2,y=4에서 ŷ=6, dL/dw=2×2×3=12다. 학습률 0.05인 SGD의 갱신은 w_new=2−0.05×12=1.4다. 기울기의 부호와 갱신식의 뺄셈을 따로 확인한다. 모멘텀을 v_t=βv_(t−1)+g_t, w_t=w_(t−1)−ηv_t로 정의하면 같은 방향의 기울기는 누적되고, 부호가 번갈아 바뀌는 방향의 기울기는 상쇄될 수 있다. 이는 검증 손실을 직접 미분하는 것이 아니다.</p>
+<p>RMSprop은 제곱 기울기의 평균으로 크기를 조절하고 Adam은 1·2차 모멘트와 초기 편향 보정을 함께 사용한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 8개</summary><p><a href="#question-O31-01">1번. Broadcasting</a> · <a href="#question-O31-06">6번. 손실함수의 입력 조건</a> · <a href="#question-O31-07">7번. 역전파</a> · <a href="#question-O31-08">8번. Optimizer</a> · <a href="#question-O31-20">20번. GAN</a> · <a href="#question-O31-44">3회-4번</a> · <a href="#question-O31-59">3회-19번</a> · <a href="#question-V31-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-31-7">7. 학습·평가 모드의 차이와 데이터 증강·전이학습</h3>
-<p>BatchNorm의 γ·β는 채널마다 학습하는 크기 조절값과 이동값이다. affine=True이면 C채널에서 2C개이고 누적 평균·분산은 별도의 상태다. track_running_stats=True일 때 학습 모드는 배치 통계를 쓰면서 누적 통계를 갱신하고, 평가 모드는 저장된 누적 통계를 쓴다. False 설정에도 같은 설명을 그대로 적용하지 않는다. Dropout은 학습 모드에서 일부 활성화 값을 0으로 만들고 남은 값을 1/(1−p)로 보정한다. 일반적인 평가 모드에서는 그대로 통과시킨다. eval은 이러한 동작 모드를 정하는 것이며, 미분 기록을 끄는 inference_mode와 같은 기능이 아니다. <a href="https://docs.pytorch.org/docs/2.7/generated/torch.nn.Dropout.html" target="_blank" rel="noopener noreferrer">Dropout 공식 문서</a>를 참고한다.</p>
+<p>같은 모델과 같은 입력인데 출력이 달라졌다면 가중치만 비교하지 말고 실행 모드도 확인한다. Dropout의 무작위 제거와 BatchNorm이 사용하는 통계는 train/eval에 따라 달라질 수 있다. 미분 기록을 끄는 것만으로 이 동작이 평가 모드로 바뀌지는 않는다. 아래에서는 <strong>동작 모드, 미분 기록, 가중치 동결, 검증 입력 변형</strong>을 각각 별도의 선택으로 읽는다. ‘모델을 고정했다’라는 한 표현에 네 의미를 섞지 않는다.</p>
+<p>BatchNorm의 γ·β는 채널마다 학습하는 크기 조절값과 이동값이다. affine=True이면 C채널에서 2C개이고 누적 평균·분산은 별도의 상태다. track_running_stats=True일 때 학습 모드는 배치 통계를 쓰면서 누적 통계를 갱신하고, 평가 모드는 저장된 누적 통계를 쓴다. False 설정에도 같은 설명을 그대로 적용하지 않는다. Dropout은 학습 모드에서 일부 활성화 값을 0으로 만들고 남은 값을 1/(1−p)로 보정한다. 일반적인 평가 모드에서는 그대로 통과시킨다.</p>
+<p>eval은 이러한 동작 모드를 정하는 것이며, 미분 기록을 끄는 inference_mode와 같은 기능이 아니다. <a href="https://docs.pytorch.org/docs/2.7/generated/torch.nn.Dropout.html" target="_blank" rel="noopener noreferrer">Dropout 공식 문서</a>를 참고한다.</p>
 <p>학습 데이터 증강은 정답의 의미를 유지해야 한다. 검증·평가 데이터를 매번 다르게 무작위로 자르면 성능 비교에 추가 변동이 생기므로 보통 고정된 크기 조절과 정규화를 사용한다. 사전학습 이미지 모델에서 백본이 학습한 특징을 재사용하고 새 클래스 수에 맞춘 헤드부터 학습하면 작은 데이터에서 빠르게 시작할 수 있다. 동결은 가중치 갱신을 막는 것이며 BN의 누적 통계를 자동으로 고정하는 것과는 다르다. 필요하면 백본의 실행 모드도 명시한다. 검증 입력에 정답 정보를 붙이는 것은 전이학습이 아니라 누수다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 4개</summary><p><a href="#question-O31-09">9번. Batch Normalization</a> · <a href="#question-O31-17">17번. 전이학습</a> · <a href="#question-O31-48">3회-8번</a> · <a href="#question-O31-50">3회-10번</a></p></details>
 <h3 id="theory-31-8">8. CNN·풀링·Linear·잔차 연결의 크기와 파라미터</h3>
+<p>층을 통과할 때마다 바뀌는 배열 크기를 적고, 그와 별도로 학습할 숫자 개수를 센다. 풀링은 출력 크기를 바꾸어도 학습 가중치는 없고, 1×1 합성곱은 공간 창이 작아도 채널을 섞는 가중치가 있다. 잔차 덧셈에서는 <strong>두 경로가 같은 의미의 위치에서 만나는지</strong>까지 확인한다. 아래의 채널 24→48과 공간 28→14는 다른 변화이므로 우회 경로에서 두 조건을 모두 맞춰야 한다.</p>
 <p>유효 커널 폭은 D(K−1)+1이므로 한 공간축의 출력 크기는 floor((I+2P−D(K−1)−1)/S)+1이다. 입력 길이가 31이고 K=3,P=1,S=2,D=1이면 floor((31+2−3)/2)+1=16이다. 입력 길이를 보폭으로 단순히 나누는 것이 아니라 커널이 들어갈 수 있는 시작 위치의 개수를 세어야 한다. MaxPool2d(2,2)는 같은 식으로 공간 크기를 줄이고 채널은 유지하며 학습 파라미터가 없다.</p>
 <p>기본 Conv2d의 파라미터 수는 Co×Ci×Kh×Kw+(bias가 있으면 Co)다. Ci=2,Co=7,K=3이면 126+7=133개다. 입력 H/W가 커져 출력 원소 수와 계산량이 늘어도 공유 커널의 파라미터 수는 같다. Linear(I,O)의 파라미터 수는 I×O+O이며 [B,I]를 [B,O]로 바꾼다. I=6,O=4이면 28개다. bias=False라면 마지막 O를 빼야 한다.</p>
 <p>잔차 연결은 F(x)+shortcut(x)처럼 같은 위치의 값을 더한다. 입력 크기가 [B,24,28,28]이고 주 연산 부분의 출력 크기가 [B,48,14,14]이면 우회 연결의 출력도 같은 크기여야 한다. 1×1 합성곱으로 채널 수를 24→48로, 보폭 2로 공간 크기를 28→14로 맞출 수 있다. 풀링만으로는 채널 수를 24에서 48로 늘리지 못하고 시그모이드는 축 크기를 바꾸지 않는다. 투영은 배열 크기만 억지로 바꾸는 것이 아니라 가중치를 학습해 두 출력의 크기를 맞추는 변환이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 6개</summary><p><a href="#question-O31-10">10번. CNN 출력 크기</a> · <a href="#question-O31-11">11번. CNN parameter</a> · <a href="#question-O31-16">16번. ResNet</a> · <a href="#question-O31-43">3회-3번</a> · <a href="#question-O31-49">3회-9번</a> · <a href="#question-O31-58">3회-18번</a></p></details>
 <h3 id="theory-31-9">9. RNN의 상태와 입력 구간의 시점을 분리하기</h3>
-<p>단방향 GRU에서 batch_first=True이고 입력 크기가 [B,T,F], 은닉 상태 크기가 H이면 시점별 출력 크기는 [B,T,H]다. H는 입력 특성 F개를 변환한 은닉 표현의 크기이지 시간 길이 T를 줄이는 옵션이 아니다. 다대일 헤드는 마지막 시점의 [B,H]를 골라 [B,K]로 바꾼다. LSTM은 은닉 상태 h 외에 셀 상태 c를 가지며 c_t=f_t⊙c_(t−1)+i_t⊙g_t, h_t=o_t⊙tanh(c_t)로 갱신한다. 망각 게이트 f는 이전 셀 상태를 얼마나 남길지, 입력 게이트 i는 새 후보값 g를 얼마나 더할지, 출력 게이트 o는 셀 상태를 출력에 얼마나 반영할지 정한다. GRU는 별도의 c 없이 갱신 게이트와 초기화 게이트로 은닉 상태를 갱신한다.</p>
+<p>이 절의 H는 문맥에 따라 은닉 크기 또는 예측 간격으로 쓰이므로 각 식을 읽기 전에 뜻을 다시 적는다. 은닉 크기를 32로 늘리는 것은 요약 상태의 숫자를 늘리는 것이지 32시점 뒤를 예측한다는 뜻이 아니다. 반대로 예측 간격은 어떤 행의 정답을 붙이는지를 정한다. <strong>모델 내부의 상태 모양과 데이터의 시간 대응</strong>을 분리해야 같은 문항에서 RNN 출력 크기와 구간 수를 함께 계산할 수 있다.</p>
+<p>단방향 GRU에서 batch_first=True이고 입력 크기가 [B,T,F], 은닉 상태 크기가 H이면 시점별 출력 크기는 [B,T,H]다. H는 입력 특성 F개를 변환한 은닉 표현의 크기이지 시간 길이 T를 줄이는 옵션이 아니다. 다대일 헤드는 마지막 시점의 [B,H]를 골라 [B,K]로 바꾼다. LSTM은 은닉 상태 h 외에 셀 상태 c를 가지며 c_t=f_t⊙c_(t−1)+i_t⊙g_t, h_t=o_t⊙tanh(c_t)로 갱신한다.</p>
+<p>망각 게이트 f는 이전 셀 상태를 얼마나 남길지, 입력 게이트 i는 새 후보값 g를 얼마나 더할지, 출력 게이트 o는 셀 상태를 출력에 얼마나 반영할지 정한다. GRU는 별도의 c 없이 갱신 게이트와 리셋 게이트로 은닉 상태를 갱신한다.</p>
 <p>수치 예로 c_prev=2,f=0.7,i=0.4,g=0.5이면 새 셀 상태는 1.4+0.2=1.6이다. 망각 게이트가 클래스 확률을 정규화하거나 학습률을 줄이는 장치라는 선택지는 게이트가 조절하는 대상을 잘못 설명한 것이다. <a href="https://docs.pytorch.org/docs/2.7/generated/torch.nn.LSTM.html" target="_blank" rel="noopener noreferrer">PyTorch LSTM</a>의 식과 배열 크기를 확인한다.</p>
 <p>미래 시점 하나를 정답으로 삼는 입력 구간에서 끝 인덱스 e는 L−1≤e≤T−H−1이므로 보폭이 1일 때 구간 수는 T−L−H+1이다. T=100,L=8,H=12이면 81개이며 첫 정답 인덱스는 19, 마지막은 99다. target_idx≥cut이면 검증 데이터로 배정하는 규칙에서는 경계와 같은 정답 인덱스도 검증 데이터에 들어간다. 그러나 이는 단순한 배정 규칙일 뿐 전체 분할에 누수가 없다는 증거는 아니다. 첫 검증 예측의 기준 시점에 학습 정답이 이미 알려졌는지 추가로 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 5개</summary><p><a href="#question-O31-12">12번. LSTM</a> · <a href="#question-O31-13">13번. RNN shape</a> · <a href="#question-O31-51">3회-11번</a> · <a href="#question-O31-52">3회-12번</a> · <a href="#question-O31-53">3회-13번</a></p></details>
 <h3 id="theory-31-10">10. 어텐션의 분모·위치 정보·마스크는 역할이 다르다</h3>
-<p>어텐션에서 쿼리(query) Q는 어떤 정보를 찾을지 나타내는 벡터, 키(key) K는 쿼리와 비교할 벡터, 값(value) V는 가중합으로 모을 정보다. score=QKᵀ/√d_k, weight=softmax(score), 결과=weight V다. 쿼리 한 행에 소프트맥스를 적용하면 모든 키에 대한 가중치의 합이 1이 된다. 각 q,k 성분이 독립이고 평균이 0, 분산이 1이라는 근사 가정에서 d_k개 곱의 합인 내적의 분산은 d_k다. √d_k로 나누면 분산이 1 수준이 되어 차원이 커질 때 소프트맥스가 과도하게 포화하는 것을 완화한다. 시퀀스 길이를 줄이는 연산은 아니다.</p>
+<p>점수를 안정적인 규모로 만드는 일, 순서를 알려 주는 일, 금지된 정보를 막는 일은 서로 다르다. 제곱근으로 나누었다고 미래가 가려지지 않고, 위치 벡터를 더했다고 점수의 규모가 자동으로 고정되지 않는다. 아래 손계산에서는 먼저 점수에서 비중을 만들고 그 비중으로 10과 20을 모은다. <strong>가중치의 합은 1이지만 결과값 16은 확률이 아니다.</strong> 차단할 키가 생기면 남은 키 사이에서 비중을 다시 계산한다.</p>
+<p>어텐션에서 쿼리(query) Q는 어떤 정보를 찾을지 나타내는 벡터, 키(key) K는 쿼리와 비교할 벡터, 값(value) V는 가중합으로 모을 정보다. score=QKᵀ/√d_k, weight=softmax(score), 결과=weight V다. 쿼리 한 행에 소프트맥스를 적용하면 모든 키에 대한 가중치의 합이 1이 된다. 각 q,k 성분이 독립이고 평균이 0, 분산이 1이라는 근사 가정에서 d_k개 곱의 합인 내적의 분산은 d_k다. √d_k로 나누면 분산이 1 수준이 되어 차원이 커질 때 소프트맥스가 과도하게 포화하는 것을 완화한다.</p>
+<p>시퀀스 길이를 줄이는 연산은 아니다.</p>
 <p>순서 정보가 없는 기본 자기 어텐션은 입력 순서를 바꾸면 출력 순서도 그에 맞게 바뀌는 구조다. 내용만으로는 ‘첫 번째’와 ‘두 번째’의 차이를 명시하기 어려우므로 위치 정보를 넣는다. 인과적 마스크는 미래의 키를 차단하는 별도 장치이며 위치 정보를 주었다고 미래 정보 참조가 저절로 막히지는 않는다. 마스크로 차단한 점수는 소프트맥스 계산에 기여하지 않게 처리한다. 모든 키가 차단된 행에는 별도로 주의해야 한다. 이 구조는 <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer">Attention Is All You Need</a>를 참고한다.</p>
 <p>설명용 예에서 score=[log2,log3], value=[10,20]이면 weight=[0.4,0.6]이고 출력은 0.4×10+0.6×20=16이다. 점수, 가중치, 값 벡터를 같은 숫자로 읽지 않는다. 미래에 해당하는 두 번째 키를 차단하면 첫 값 10만 남는다. 실제 구현의 불리언 마스크에서 True가 ‘허용’인지 ‘차단’인지는 API마다 다르므로 명시된 도구의 규칙을 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O31-14">14번. Attention</a> · <a href="#question-O31-15">15번. Transformer</a> · <a href="#question-O31-54">3회-14번</a></p></details>
 <h3 id="theory-31-11">11. AE·VAE·GAN의 목적을 비교해 선지를 판단하기</h3>
+<p>이름 세 개를 먼저 외우기보다 무엇을 입력받아 무엇과 비교하는지 그려 보자. AE는 입력과 복원값을 비교하고, VAE는 복원뿐 아니라 잠재분포의 조건도 학습하며, GAN은 진짜·가짜를 둘러싼 두 모델의 다른 목표를 번갈아 학습한다. 아래에서 <strong>잠재값, 잠재분포, 복원 오차, 판별 점수</strong>를 서로 바꾸어 읽지 않는다. 특히 분포의 평균이 0이라는 말과 실제로 뽑은 표본이 0이라는 말은 다르다.</p>
 <p>AE는 x→z→x̂로 입력을 복원하는 모델이다. 정상 데이터 위주로 학습했다면 샘플별 복원 오차가 큰 것을 이상 후보로 본다. 임계값은 정상 검증 데이터나 라벨이 있는 검증 데이터로 정한다. 잠재벡터 크기만으로 이상 여부를 결정하지는 않으며, 이상 데이터도 잘 복원할 수 있다. 24강의 점수와 임계값 구분을 다시 적용한다.</p>
 <p>VAE는 q(z|x)의 μ와 logvar를 출력한다. 표준편차는 exp(logvar/2), 재매개화는 z=μ+σ⊙ε다. 표준정규 사전분포에 대한 KL은 0.5Σ(μ²+exp(logvar)−1−logvar)다. μ=0,logvar=0이면 사후분포가 사전분포와 같아 KL은 0이지만, z는 표준정규 잡음으로 뽑으므로 매번 0은 아니다. KL은 근사 사후분포를 사전분포에 가깝게 만드는 규제 항이지 출력을 확정 클래스 라벨로 바꾸는 연산이 아니다. 복원 항과 ELBO 유도는 25강에서 단계별로 복습한다.</p>
 <p>GAN의 D는 진짜와 가짜를 구분하고 G는 가짜가 진짜로 보이도록 학습한다. BCEWithLogitsLoss를 쓰는 D는 보통 변환 전 점수 하나를 반환하며 시그모이드를 중복 적용하지 않는다. D를 학습하는 단계에서 G(z).detach()는 값은 사용하되 G까지 이어지는 그래프를 끊는다. G를 학습하는 단계에서는 D를 통과한 기울기가 G에 도달해야 하므로 같은 detach를 넣으면 학습에 필요한 연결이 끊긴다. 손실값 하나만으로 모드 붕괴 여부나 생성 결과의 다양성까지 판단할 수 없다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 6개</summary><p><a href="#question-O31-18">18번. Autoencoder 이상탐지</a> · <a href="#question-O31-19">19번. VAE</a> · <a href="#question-O31-20">20번. GAN</a> · <a href="#question-O31-55">3회-15번</a> · <a href="#question-O31-56">3회-16번</a> · <a href="#question-O31-57">3회-17번</a></p></details>
 <h3 id="theory-31-12">12. 60문항을 새 문제처럼 푸는 운영 원칙</h3>
+<p>답을 기억해서 바로 고르는 것과 조건을 읽고 근거를 세워 고르는 것을 구분하자. 같은 문제를 두 번째 풀 때는 숫자 하나나 조건 하나를 바꿔 답이 어떻게 달라지는지 설명한다. 예를 들어 bias=True를 False로 바꾸면 출력 크기는 같고 파라미터 수만 줄 수 있다. <strong>정답 번호보다 변하지 않는 원리와 바뀐 조건의 효과</strong>를 기록하면 같은 모의고사도 이해를 확인하는 연습으로 사용할 수 있다.</p>
 <p>위 절을 읽은 뒤 각 회차를 독립적으로 응시한다. 풀이 전에 질문이 정의·계산·비교 중 무엇을 묻는지 표시한다. 학습·평가 모드, 편향, 팽창률, 사전분포, 예측 간격 중 어떤 조건이 주어졌는지도 확인한다. 답을 고른 뒤 다른 선택지 하나가 왜 틀렸는지 원리로 설명한다. 모르는 문제를 표시하고 넘어가는 것은 개념 학습을 생략하는 것이 아니라 한 회차에 사용할 시간을 관리하는 행동이다.</p>
 <p>첫 순회 예산이 32분이고 앞 4문항에 각각 3분을 썼다면 20분이 남는다. 남은 16문항의 평균은 1.25분이다. 전체 50분/20문항=2.5분과 다르다. 뒤의 검토 시간을 포함한 평균을 각 문항의 고정 사용 시간으로 해석하면 보류 문제를 돌아볼 예산이 사라진다. 실제 시험의 시간 규정은 당일 안내를 우선한다.</p>
 <p>요구하는 출력은 [N,3]인데 모델이 [N]을 냈다면, 행마다 세 정답이 무엇을 의미하는지 확인하고 헤드의 출력 수부터 수정한다. 원소를 반복하거나 파일명만 바꾸는 것으로는 모델의 잘못된 출력 의미를 바로잡을 수 없다. 같은 문제를 외워 맞힌 점수는 새로운 조건에도 적용할 수 있다는 근거가 아니므로 위 손계산의 입력, 차원, 비율을 바꿔 다시 풀어 본다. 31강의 모의고사는 세 회차를 통해 약점을 찾는 자체 제작 학습 자료이며 공식 합격선이나 미공개 문항을 재현한 것이 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O31-60">3회-20번</a> · <a href="#question-V31-03">기초 확인 · 3번</a></p></details>
 35:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-31","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-31","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3c"}}]]}]
 36:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 37:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-3d:Ta879,
+3d:T14ab4,
 <h3 id="311">31.1 응시 방법</h3>
+<p>이 장은 새 개념을 처음 외우는 구간이 아니라 배운 원리를 제한 시간에 독립적으로 꺼내 쓰는 평가다. 먼저 필기 이론 31강의 다른 숫자 예제로 복습한 뒤 아래 정답표를 가리고 응시한다.</p>
 <ul>
 <li>타이머 50분을 켠다.</li>
 <li>교재·검색 없이 푼다.</li>
@@ -221,7 +244,9 @@ print(round(ce, 3), round(f1, 3), out_len)
 <li>답을 바꾸기 전 “처음 답이 틀렸다는 구체적 근거”를 적는다.</li>
 </ul>
 <p>아래 문항은 공식 문제와 무관한 독자 제작 문제다.</p>
+<p>35+10+5=50분이다. 전체 평균 50/20=2.5분과 첫 순회 평균 35/20=1.75분은 다르다. 90초가 지나도 접근법이 없으면 조건과 보류 표시를 남기고 넘어가야 검토 예산이 남는다. 답을 바꿀 근거는 ‘불안하다’가 아니라 ‘bias=False를 놓쳤다’처럼 원문 조건이나 계산으로 적는다.</p>
 <h3 id="312">31.2 문제</h3>
+<p>선지를 보기 전 질문을 정의·계산·비교 중 하나로 표시한다. 계산 문제는 기호 뜻과 단위를, 구조 문제는 입력·출력·학습/평가 조건을 먼저 적는다. 이 절에는 풀이 힌트를 섞지 않았으므로 실제 50분 응시에는 문제와 타이머만 사용한다.</p>
 <span id="question-O31-01" data-question-id="O31-01" class="section-anchor"></span><h4 id="1-broadcasting">1번. Broadcasting</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-31-6">텐서·손실·미분·최적화를 연결해 이해하기</a></p></details>
 <p><code>x</code>의 크기가 <code>(16, 20, 8)</code>일 때 오류 없이 특성별 편향(bias)을 더하기에 가장 적절한 편향 배열의 크기는?</p>
 <p>① <code>(16,)</code> ② <code>(20,)</code> ③ <code>(8,)</code> ④ <code>(16,20)</code></p>
@@ -282,7 +307,7 @@ print(round(ce, 3), round(f1, 3), out_len)
 <span id="question-O31-20" data-question-id="O31-20" class="section-anchor"></span><h4 id="20-gan">20번. GAN</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-31-6">텐서·손실·미분·최적화를 연결해 이해하기</a> · <a href="#theory-31-11">AE·VAE·GAN의 목적을 비교해 선지를 판단하기</a></p></details>
 <p><code>BCEWithLogitsLoss</code>를 사용하는 판별기의 마지막 층로 가장 적절한 것은?</p>
 <p>① Linear로 로짓 1개를 출력하며 시그모이드는 넣지 않는다.<br>② Linear 뒤에 클래스 10개의 소프트맥스를 둔다.<br>③ ReLU만 사용, 출력 없음<br>④ 시그모이드를 두 번 적용한다.</p>
-<details class="answer-panel" id="313"><summary>31.3 정답표 보기</summary><div class="answer-body"><div class="table-scroll" role="region" tabindex="0" aria-label="31강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
+<details class="answer-panel" id="313"><summary>31.3 정답표 보기</summary><div class="answer-body"><p>먼저 확정한 답을 기록한 뒤 표를 연다. 정답 개수는 진단의 출발점이고, 틀린 이유를 설명할 수 있는지는 별도 기록이다. 우연히 맞히거나 답 번호를 기억한 문항도 ‘근거 설명 가능’으로 자동 처리하지 않는다.</p><div class="table-scroll" role="region" tabindex="0" aria-label="31강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
 <thead>
 <tr>
 <th>문항</th>
@@ -343,30 +368,153 @@ print(round(ce, 3), round(f1, 3), out_len)
 </tbody></table></div></div></details>
 
 
-<details class="answer-panel" id="314"><summary>31.4 상세 해설 보기</summary><div class="answer-body"><ol>
-<li>브로드캐스팅은 뒤쪽 축부터 맞춘다. 특성에 해당하는 마지막 축 크기 8에는 편향 배열 <code>(8,)</code>가 맞는다.</li>
-<li>훈련 폴드에서 구한 통계만 검증자료에 적용하는 ③이 올바르다. 나머지는 전처리를 학습할 때 검증 정보를 사용한다.</li>
-<li>50:50이면 불확실성이 최대이고, 한 클래스만 있는 순수 노드의 엔트로피는 0이다.</li>
-<li>테스트 대상이 새 차량이므로 차량 단위 그룹 분할이 실제 예측 조건을 재현한다.</li>
-<li>Macro-F1은 두 클래스의 F1에 같은 가중치를 준다. 정확도는 모든 샘플을 정상으로 예측해도 99%다.</li>
-<li>CE는 변환하지 않은 로짓과 long 정수형 클래스 인덱스 정답으로 손실을 안정적으로 계산한다.</li>
-<li>pred=2, error=-3. <code>2×error×x=2×(-3)×2=-12</code>.</li>
-<li>모멘텀의 누적 갱신량(velocity)은 과거 기울기 방향을 누적한다.</li>
-<li>이 문항의 설정에서 평가 모드의 BN은 학습 중 누적한 통계를 사용한다.</li>
-<li><code>floor((64+4-4-1)/2+1)=32</code>.</li>
-<li><code>10×3×3×3+10=280</code>.</li>
-<li>망각 게이트가 <code>c_{t-1}</code>의 유지 비율을 조절한다.</li>
-<li>batch_first 설정의 시퀀스 출력은 <code>[B,T,H]=[8,15,32]</code>다.</li>
-<li>내적의 분산이 커져 소프트맥스가 거의 원-핫 벡터처럼 포화하는 것을 완화한다.</li>
-<li>순서 표현을 별도로 넣어야 위치를 구분한다.</li>
-<li>1×1 합성곱과 적절한 보폭으로 채널 수와 공간 크기를 맞춘다.</li>
-<li>새 출력층부터 학습하면 작은 데이터에서 안정적이고 빠르게 시작할 수 있다. 이후 일부 층의 고정을 풀고 함께 학습한다.</li>
-<li>정상 샘플은 잘 복원하고 이상 샘플은 복원 오차가 크다는 일반적인 가정에 따른다.</li>
-<li>KL은 잠재 사후분포가 사전분포에 가까워지도록 규제해 표본을 뽑아 생성에 사용할 수 있는 공간을 학습하게 한다.</li>
-<li>손실함수가 시그모이드 계산까지 포함하므로 판별기는 변환하지 않은 로짓 하나를 반환한다.</li>
+
+<details class="answer-panel" id="314"><summary>31.4 상세 해설 보기</summary><div class="answer-body"><p>각 해설은 원래 정답을 유지하면서 조건→계산 또는 논리→답→근본 이유→오해→기억 순서로 읽는다. 틀린 선지 하나를 참인 문장으로 고쳐 보면 정의를 다른 문제에도 적용할 수 있는지 확인할 수 있다.</p><ol>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 마지막 축 8이 특성이고 편향은 특성마다 하나다.</p>
+<p><strong>풀이:</strong> [8]을 [1,1,8]로 읽으면 [16,20,8]의 앞 두 축으로 확장된다.</p>
+<p><strong>정답:</strong> ③ (8,) — 브로드캐스팅은 뒤쪽 축부터 맞춘다. 특성에 해당하는 마지막 축 크기 8에는 편향 배열 <code>(8,)</code>가 맞는다.</p>
+<p><strong>왜?</strong> 브로드캐스팅은 오른쪽 축부터 같거나 1인 크기를 맞춘다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> (16,)은 배치 이름이 같아도 오른쪽 8과 충돌한다.</p>
+<p><strong>한 줄 기억:</strong> 특성 편향은 마지막 특성 축에 맞춘다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 전처리의 fit 자료가 검증을 포함하는지 본다.</p>
+<p><strong>풀이:</strong> ③은 분할 후 train 중앙값만 배워 valid에 적용한다. ①의 scaler·②의 PCA·④의 SMOTE는 분할 전에 검증 정보까지 사용한다.</p>
+<p><strong>정답:</strong> ③ — 훈련 폴드에서 구한 통계만 검증자료에 적용하는 ③이 올바르다. 나머지는 전처리를 학습할 때 검증 정보를 사용한다.</p>
+<p><strong>왜?</strong> 정답을 안 쓰는 PCA라도 검증 X 분포를 배웠다면 독립 평가가 아니다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 전체에 fit한 결과를 나중에 나눠도 누수가 소급해서 사라지지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 분할 후 train에서 fit,valid에는 적용만 한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 엔트로피이며 이진 비율의 변화다.</p>
+<p><strong>풀이:</strong> 밑 2에서 −.5log₂.5−.5log₂.5=1이다. 순수 [1,0]은 −1log₂1=0이고 0 항은 극한 0이다.</p>
+<p><strong>정답:</strong> ② 최대에서 0으로 감소 — 50:50이면 불확실성이 최대이고, 한 클래스만 있는 순수 노드의 엔트로피는 0이다.</p>
+<p><strong>왜?</strong> 라벨을 확실히 알면 남은 불확실성이 없기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> Gini 식의 제곱을 대신 넣지 않는다. 다른 로그밑도 최대 →0 방향은 같다.</p>
+<p><strong>한 줄 기억:</strong> 반반은 불확실, 순수는 0이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 처음 보는 차량이 테스트 대상이며 차량당 여러 행이다.</p>
+<p><strong>풀이:</strong> vehicle_id 집합을 나누어 한 차량의 모든 행을 같은 쪽에 둔다. 훈련·검증 차량 교집합 0을 검사한다.</p>
+<p><strong>정답:</strong> ③ 차량 단위 그룹 분할 — 테스트 대상이 새 차량이므로 차량 단위 그룹 분할이 실제 예측 조건을 재현한다.</p>
+<p><strong>왜?</strong> 같은 차량을 미리 아는 이득 없이 새 집단 일반화를 재현한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 계층화는 클래스 비율을 맞출 뿐 차량 중복을 막지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 새 차량은 차량을 나누어 검증한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 고장 1%의 소수 클래스 성능이 드러나야 한다.</p>
+<p><strong>풀이:</strong> 모두 정상 예측이면 accuracy=99%지만 고장 recall=0이다. Macro-F1은 정상·고장 F1을 각각 구해 1/2씩 반영한다.</p>
+<p><strong>정답:</strong> ② Macro-F1 — Macro-F1은 두 클래스의 F1에 같은 가중치를 준다. 정확도는 모든 샘플을 정상으로 예측해도 99%다.</p>
+<p><strong>왜?</strong> 표본 수가 많은 정상 점수가 고장 실패를 완전히 가리지 않게 한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> Macro-F1은 양성 F1 하나도,ROC-AUC도 아니다.</p>
+<p><strong>한 줄 기억:</strong> 불균형에서는 클래스별 실패를 드러내는 집계를 본다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 4개 중 하나이며 기본 클래스 인덱스 CE다.</p>
+<p><strong>풀이:</strong> 각 샘플에 4개의 logits[B,4], 그중 정답 위치 하나 [B]long을 준다.</p>
+<p><strong>정답:</strong> ③ — CE는 변환하지 않은 로짓과 long 정수형 클래스 인덱스 정답으로 손실을 안정적으로 계산한다.</p>
+<p><strong>왜?</strong> CE가 내부의 log-softmax 계산으로 정답 위치의 손실을 만든다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 확률 정답 방식도 지원하지만 ②의 ‘만 가능’은 틀렸다. 출력 softmax도 중복하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> CE 기본은 logits[B,K]와 long[B]다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> loss는 평균 계수 없는 단일 제곱오차다.</p>
+<p><strong>풀이:</strong> pred=1×2=2,error=2−5=−3이다. 연쇄법칙으로 2×(−3)×2=−12다.</p>
+<p><strong>정답:</strong> ① −12 — pred=2, error=-3. <code>2×error×x=2×(-3)×2=-12</code>.</p>
+<p><strong>왜?</strong> loss의 pred 미분과 pred의 w 미분을 곱한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> −6에서 멈추면 x=2라는 마지막 미분을 빠뜨린다.</p>
+<p><strong>한 줄 기억:</strong> 제곱오차의 w 미분은 2× 오차 × 입력이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 과거 기울기 정보를 남기는 optimizer의 역할이다.</p>
+<p><strong>풀이:</strong> v=βv_prev+g로 누적한다. β=0.9이고 g가 1, 1이면 v는 1, 1.9다. 부호가 반대인 기울기는 일부 상쇄된다.</p>
+<p><strong>정답:</strong> ② — 모멘텀의 누적 갱신량(velocity)은 과거 기울기 방향을 누적한다.</p>
+<p><strong>왜?</strong> 같은 방향의 움직임을 모으고 진동을 완화하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 검증 손실을 역전파해 선택하는 방법이 아니다.</p>
+<p><strong>한 줄 기억:</strong> Momentum은 과거 방향을 누적한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> track_running_stats=True이고 eval 모드다.</p>
+<p><strong>풀이:</strong> 학습에서 모은 running_mean·running_var를 평가 정규화에 사용하고 γ·β를 적용한다.</p>
+<p><strong>정답:</strong> ② — 이 문항의 설정에서 평가 모드의 BN은 학습 중 누적한 통계를 사용한다.</p>
+<p><strong>왜?</strong> 평가 배치 구성에 따라 새 기준을 학습하지 않고 저장한 상태로 처리한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> False 설정에는 같은 설명이 적용되지 않는다. eval은 미분 기록 끄기와도 다르다.</p>
+<p><strong>한 줄 기억:</strong> 해당 설정의 eval BN은 누적 통계를 쓴다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> I=64, K=5, P=2, S=2, D=1을 각각 식에 넣는다.</p>
+<p><strong>풀이:</strong> 유효 커널 =1×(5−1)+1=5, 패딩 후 68이다. floor((68−5)/2)+1=floor(31.5)+1=32다.</p>
+<p><strong>정답:</strong> ③32 — <code>floor((64+4-4-1)/2+1)=32</code>.</p>
+<p><strong>왜?</strong> 커널이 들어갈 시작 위치 0,2,…,62의 개수를 센다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 패딩을 한쪽 2만 더하거나 반올림하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 유효 커널·양쪽 패딩·내림·첫 위치 1을 센다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> Conv의 채널 3→10, 커널 크기 3, bias=True다.</p>
+<p><strong>풀이:</strong> 출력마다 3×3×3=27개의 가중치가 필요하다. 출력 채널이 10개라 가중치 270개이고, 편향 10개를 더해 280이다.</p>
+<p><strong>정답:</strong> ②280 — <code>10×3×3×3+10=280</code>.</p>
+<p><strong>왜?</strong> 한 출력 채널의 커널과 편향을 모든 공간 위치에서 공유한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 입력 높이·너비나 배치 수를 곱하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> Conv는 커널 수 +bias를 센다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 망각 게이트가 곱해지는 대상은 이전 셀 상태다.</p>
+<p><strong>풀이:</strong> c_t=f_t⊙c_prev+i_t⊙g_t에서 f가 0이면 이전 기억을 지우고 1이면 그대로 남긴다.</p>
+<p><strong>정답:</strong> ② — 망각 게이트가 <code>c_{t-1}</code>의 유지 비율을 조절한다.</p>
+<p><strong>왜?</strong> f는 과거 기억의 성분별 유지 비율이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 클래스 확률이나 학습률을 조절하는 값이 아니다.</p>
+<p><strong>한 줄 기억:</strong> forget는 이전 c를 얼마나 남길지 정한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 단방향 1층,batch_first=True의 시퀀스 출력이다.</p>
+<p><strong>풀이:</strong> B=8·T=15는 유지되고 입력 F=6이 은닉 크기 H=32로 바뀌어 [8,15,32]다.</p>
+<p><strong>정답:</strong> ③ — batch_first 설정의 시퀀스 출력은 <code>[B,T,H]=[8,15,32]</code>다.</p>
+<p><strong>왜?</strong> 각 시점마다 32개 은닉 표현을 반환하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 마지막 시점만 고른 [8,32]나 hidden의 [1,8,32]와 구별한다.</p>
+<p><strong>한 줄 기억:</strong> 시퀀스 출력은 [B,T,H]다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 키 차원 d_k에 따른 내적의 크기를 조절한다.</p>
+<p><strong>풀이:</strong> 독립·평균 0·분산 1의 성분 근사에서 d_k개 곱합의 분산은 d_k다. √d_k로 나누면 분산이 1 수준이 된다.</p>
+<p><strong>정답:</strong> ② — 내적의 분산이 커져 소프트맥스가 거의 원-핫 벡터처럼 포화하는 것을 완화한다.</p>
+<p><strong>왜?</strong> 점수가 지나치게 커져 softmax가 한 곳에 포화되는 현상을 완화한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 시점 수나 value 차원을 줄이는 연산이 아니다.</p>
+<p><strong>한 줄 기억:</strong> 어텐션 나눗셈은 점수 규모를 조절한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 내용만 비교하는 기본 자기 어텐션에 순서 표현이 없다.</p>
+<p><strong>풀이:</strong> 두 토큰의 순서를 바꾸면 위치 표시 없는 구조의 출력도 그에 맞춰 바뀌므로 첫째·둘째라는 역할을 명시하려고 위치 정보를 더한다.</p>
+<p><strong>정답:</strong> ② — 순서 표현을 별도로 넣어야 위치를 구분한다.</p>
+<p><strong>왜?</strong> 같은 내용이라도 어디에 놓였는지 구별할 정보가 필요하다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 위치 정보를 넣었다고 미래 참조가 막히는 것은 아니다. 마스크는 별도다.</p>
+<p><strong>한 줄 기억:</strong> 위치 정보는 순서를 알려 준다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 덧셈 직전 두 가지의 채널·공간 크기를 맞춰야 한다.</p>
+<p><strong>풀이:</strong> 1×1Conv로 채널 수를 바꾸고 필요한 stride로 공간 해상도를 맞춘 뒤 같은 위치끼리 더한다.</p>
+<p><strong>정답:</strong> ② — 1×1 합성곱과 적절한 보폭으로 채널 수와 공간 크기를 맞춘다.</p>
+<p><strong>왜?</strong> 잔차 덧셈의 두 피연산자는 의미가 맞는 같은 크기의 특징이어야 한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> sigmoid나 loss 변경은 축 크기를 바꾸지 않는다.</p>
+<p><strong>한 줄 기억:</strong> projection은 더할 특징의 크기를 맞춘다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 새 이미지가 적고 사전 학습 특징을 재사용할 수 있다.</p>
+<p><strong>풀이:</strong> 기존 head를 새 K 출력층으로 교체하고 backbone 가중치를 고정해 head부터 학습한다. 그 후 일부 층을 작은 학습률로 풀어 비교할 수 있다.</p>
+<p><strong>정답:</strong> ② — 새 출력층부터 학습하면 작은 데이터에서 안정적이고 빠르게 시작할 수 있다. 이후 일부 층의 고정을 풀고 함께 학습한다.</p>
+<p><strong>왜?</strong> 이미 배운 시각 특징을 활용해 적은 자료에서 빠르게 출발한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 동결이 BN 누적 상태까지 자동 고정하지는 않는다. 검증 랜덤 crop은 별도 문제다.</p>
+<p><strong>한 줄 기억:</strong> 작은 자료의 전이 학습은 새 head부터 검증한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 정상으로 훈련한 AE의 일반적인 점수 방향이다.</p>
+<p><strong>풀이:</strong> 새 샘플별 복원 제곱오차를 구해 정상 또는 라벨 검증으로 정한 τ와 비교한다. s&gt;τ이면 이상이다.</p>
+<p><strong>정답:</strong> ② — 정상 샘플은 잘 복원하고 이상 샘플은 복원 오차가 크다는 일반적인 가정에 따른다.</p>
+<p><strong>왜?</strong> 정상 관계는 잘 복원하고 낯선 관계는 어려울 것이라는 가정을 쓴다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 이상도 잘 복원할 수 있어 반드시 성립하는 법칙은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 정상 AE의 큰 복원 오차를 이상 후보로 검증한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 구현 KL은 근사 사후 q(z|x)와 사전 p(z)를 비교한다.</p>
+<p><strong>풀이:</strong> 복원 목표에 KL(q∥p)를 더하면 입력별 잠재 분포가 생성할 때 뽑을 사전 분포와 너무 다르게 흩어지지 않도록 규제한다.</p>
+<p><strong>정답:</strong> ② — KL은 잠재 사후분포가 사전분포에 가까워지도록 규제해 표본을 뽑아 생성에 사용할 수 있는 공간을 학습하게 한다.</p>
+<p><strong>왜?</strong> 복원뿐 아니라 생성에 쓸 잠재 공간을 구성하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> ELBO 간격의 진짜 사후 대비 KL과 구현의 사전 규제 KL은 분포 쌍이 다르다.</p>
+<p><strong>한 줄 기억:</strong> VAE의 KL은 q를 p에 가깝게 규제한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 손실에 WithLogits라는 입력 조건이 명시됐다.</p>
+<p><strong>풀이:</strong> D 마지막 Linear에서 진짜/가짜 logit 한 개를 반환한다. 손실 함수가 sigmoid와 BCE를 합쳐 계산한다.</p>
+<p><strong>정답:</strong> ① — 손실함수가 시그모이드 계산까지 포함하므로 판별기는 변환하지 않은 로짓 하나를 반환한다.</p>
+<p><strong>왜?</strong> 중복 확률 변환 없이 안정적인 로그 손실을 만들기 위해서다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> sigmoid 확률을 다시 logit으로 넣으면 다른 확률을 사용한다.</p>
+<p><strong>한 줄 기억:</strong> WithLogits 앞에는 원점수 하나를 준다.</p>
+</li>
 </ol></div></details>
 
+
 <h3 id="315">31.5 진단</h3>
+<p>점수 구간은 이 교재의 자체 복습 신호이며 공식 합격 판정이 아니다. 예를 들어 모르는 내용 2개와 문제 오독 2개는 오답 4개로 같아도 다음 행동이 다르다. 전자는 개념 예제로, 후자는 조건 표시 습관으로 돌아간다.</p>
 <ul>
 <li>18~20개: 필기 기본 완성. 시간 단축과 함정 반복</li>
 <li>15~17개: 취약 영역 2개를 찾아 해당 강의 재학습</li>
@@ -374,7 +522,9 @@ print(round(ce, 3), round(f1, 3), out_len)
 <li>11개 이하: 모의 반복보다 이론 순서 학습을 먼저</li>
 </ul>
 <p>오답은 <code>몰랐음 / 계산실수 / 문제오독 / 시간부족</code> 네 종류로 분류한다. 같은 실수를 방지할 행동까지 적는다.</p>
+<p>계산 실수라면 틀린 중간 계산 한 줄을, 시간 부족이라면 어느 문항에서 몇 분을 썼는지 적는다. 다음날 같은 답 번호를 외워 고르기보다 입력 숫자·축·부등호를 바꾸어 다시 푼다. 원문의 18부터 20개,15부터 17개 등 구간은 분류 기준이지 점수만으로 모든 과목 이해를 보장하는 기준이 아니다.</p>
 <h3 id="316-2-ml">31.6 필기 모의고사 2회 — 고전 ML·데이터·검증 중심</h3>
+<p>두 번째 회차는 고전 모델·전처리·분할에서 무엇을 학습하고 무엇을 평가하는지 묻는다. 1회와 별도 50분 기록을 만들고, 이전 회차에서 잘 봤다는 이유로 fit 위치나 목적함수의 조건을 생략하지 않는다.</p>
 <p>새 타이머 50분으로 응시한다. 1회 답을 외운 점수와 섞지 않는다.</p>
 <span id="question-O31-21" data-question-id="O31-21" class="section-anchor"></span><h4 id="2-1">2회-1번</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-31-2">학습 종류·분할·누수·탐색에서 사용할 자료 구분하기</a></p></details>
 <p>명시적인 정답 없이 데이터의 구조를 찾는 학습은? ① 지도학습 ② 비지도학습 ③ 강화학습 ④ 회귀만 해당</p>
@@ -467,10 +617,154 @@ print(round(ce, 3), round(f1, 3), out_len)
 </tr>
 </tbody></table></div><ol>
 <li>비지도학습은 정답 없이 구조를 찾는다. 2. Pipeline을 각 훈련 폴드 안에서 학습한다. 3. 트리는 단조변환 전후에 대응하는 순서 기준 분할을 할 수 있다. 4. L2는 가중치를 줄여 과소적합을 일으킬 수 있다. 5. odds=<code>e^logit=3</code>, <code>p=3/(1+3)</code>. 6. k를 늘리면 더 넓은 이웃을 평균해 예측이 매끄러워진다. 7. 큰 C/gamma는 복잡도를 높인다. 8. <code>1-(.64+.04)=.32</code>. 9. RF는 배깅 계열이다. 10. 부스팅은 앞 모델을 순차적으로 보완한다. 11. 학습 모델 내부의 L1 선택이다. 12. PCA는 정답을 사용하지 않는다. 13. <code>min(F,C-1)=min(8,4)=4</code>. 14. 해당 군집에 배정된 점들의 평균이다. 15. 밀도로 연결된 군집과 잡음을 찾을 수 있다. 16. 계층화 분할을 사용한다. 17. 자기 폴드를 제외한 통계가 필요한 이유다. 18. RMSE. 19. 무작위 탐색은 중요한 차원의 다양한 값을 탐색할 수 있다. 20. 재표집은 훈련 폴드 안에서만 적용한다.</li>
+</ol><p><strong>문항별 상세 해설 — 답안 확인 후 복습</strong></p><ol>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 입력에는 명시적 정답이 없고 구조를 찾는다.</p>
+<p><strong>풀이:</strong> 비슷한 자료끼리 군집을 만들거나 분산 방향으로 요약하면 y와의 예측 오차 없이 X의 관계를 배운다.</p>
+<p><strong>정답:</strong> ②비지도 학습</p>
+<p><strong>왜?</strong> 학습 구분은 답이나 평가 신호의 출처로 정한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 회귀는 연속 정답을 쓰는 지도 학습이다.</p>
+<p><strong>한 줄 기억:</strong> 정답 없이 구조를 찾으면 비지도다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 각 검증 폴드의 중앙값이 학습에 들어가지 않아야 한다.</p>
+<p><strong>풀이:</strong> Pipeline 전체를 훈련 폴드에서 fit하고 검증에는 transform·predict만 한다. 다른 폴드로 바뀌면 그 훈련 부분에서 다시 fit한다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 대체기·모델을 한 학습 단위로 묶어 누락 없이 폴드 안에서 학습한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 전체에 미리 fit한 배열을 Pipeline에 넣어도 이전 누수는 남는다.</p>
+<p><strong>한 줄 기억:</strong> 전처리와 모델을 폴드 안의 한 경로로 학습한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 트리는 특성 값의 순서에 대응하는 임계값으로 분할한다.</p>
+<p><strong>풀이:</strong> [10,20,30]을 15로 자르는 결과는 10으로 나눈 [1,2,3]을 1.5로 자른 결과와 같다.</p>
+<p><strong>정답:</strong> ①</p>
+<p><strong>왜?</strong> 엄격히 증가하는 변환은 샘플 순서를 보존해 대응 분할이 가능하다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 비미분 모델이라서 거리 척도가 무조건 안 중요한 것은 아니다. KNN도 비미분이지만 척도가 중요하다.</p>
+<p><strong>한 줄 기억:</strong> 트리의 핵심은 단위보다 순서 분할이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> λ는 L2 벌점의 세기, 편향은 절편 b가 아닌 추정 편향이다.</p>
+<p><strong>풀이:</strong> 목표에 λΣw²가 있으므로 λ를 크게 하면 큰 계수가 비싸져 작아진다. 실제 관계까지 약화되면 단순한 예측의 편향이 커질 수 있다.</p>
+<p><strong>정답:</strong> ①</p>
+<p><strong>왜?</strong> 변동을 줄이는 대신 표현력을 제한하는 절충이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> L2가 항상 정확한 0을 만드는 L1 선택과 같다고 보지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 큰 L2는 계수를 줄이고 과소적합 위험을 늘린다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> logit=ln(odds)이므로 먼저 지수로 되돌린다.</p>
+<p><strong>풀이:</strong> odds=exp(ln3)=3,p/(1−p)=3에서 p=3−3p,4p=3,p=.75다.</p>
+<p><strong>정답:</strong> ①</p>
+<p><strong>왜?</strong> odds는 양성과 음성 가능성의 비이고 확률은 전체 비중이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> odds=3은 가능하지만 확률 3은 불가능하다.</p>
+<p><strong>한 줄 기억:</strong> odds=e^z,p=odds/(1+odds)다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> k는 평균·투표할 이웃의 개수다.</p>
+<p><strong>풀이:</strong> k=1은 한 관측 잡음에 민감하다. k가 커지면 넓은 이웃을 결합해 국소 흔들림을 줄이지만 작은 지역 차이를 놓친다.</p>
+<p><strong>정답:</strong> ②분산 감소·편향 증가</p>
+<p><strong>왜?</strong> 더 넓게 평균하는 평활 효과 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 모든 데이터에서 엄격히 단조이거나 척도 문제가 사라진다는 뜻은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 큰 k는 매끄럽지만 세부 차이를 놓칠 수 있다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> C와 γ의 역할은 각각 위반 비용과 거리의 영향 범위다.</p>
+<p><strong>풀이:</strong> 큰 C는 훈련 위반을 강하게 벌하고 큰 γ는 exp(−γdistance²)를 빠르게 줄여 좁은 주변만 영향을 준다. 함께 크면 국소 잡음까지 맞춘 경계가 가능하다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 강한 훈련 적합과 국소 표현이 겹치면 과적합 위험이 커진다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> C를 클래스 수나 학습률로 읽지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 큰 C·γ는 복잡한 경계를 검증해야 한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> Gini=1−클래스 비율 제곱합이다.</p>
+<p><strong>풀이:</strong> 0.8² =.64,0.2² =.04, 합.68,1−.68=.32다.</p>
+<p><strong>정답:</strong> ②.32</p>
+<p><strong>왜?</strong> 같은 종류끼리 쏠린 정도를 제곱합으로 재고 1에서 뺀다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 0.8×0.2=.16에서 멈추면 두 방향 섞임을 빠뜨린다.</p>
+<p><strong>한 줄 기억:</strong> Gini는 1−Σp²다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 여러 트리를 서로 덜 비슷하게 만들어 결합하는 방법이다.</p>
+<p><strong>풀이:</strong> 복원 추출한 부트스트랩 표본과 분할 후보 특성의 무작위 선택으로 다른 트리를 학습하고 회귀는 평균·분류는 표결/확률 결합을 한다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 오류의 상관이 낮으면 결합해 개별 트리의 변동을 줄이기 쉽다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> RF는 앞 모델 잔차를 순차 학습하는 부스팅과 다르다.</p>
+<p><strong>한 줄 기억:</strong> RF는 무작위화한 트리의 결합이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 다음 모델이 앞 모델의 예측에 의존하는지 본다.</p>
+<p><strong>풀이:</strong> 현재 예측의 손실 음의 기울기를 계산해 다음 약한 모델이 그 방향을 보완한다. 제곱오차에서는 잔차와 연결된다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 현재 오류를 보고 다음 학습 목표를 만드는 순차 개선이기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 모든 트리를 처음부터 서로 독립 학습하는 배깅과 다르다.</p>
+<p><strong>한 줄 기억:</strong> 부스팅은 이전 예측의 부족함을 순서대로 보완한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 특성 제거 기준이 모델 학습 내부의 L1 계수다.</p>
+<p><strong>풀이:</strong> 목적 함수에 λΣ|w|를 넣어 일부 계수가 0이 되면 그 원래 열을 제외한다.</p>
+<p><strong>정답:</strong> ②내장형 선택</p>
+<p><strong>왜?</strong> 모델의 훈련 과정 자체가 열을 고르는 신호를 만든다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> PCA처럼 기존 열을 조합한 새 축을 만드는 추출이 아니다.</p>
+<p><strong>한 줄 기억:</strong> L1 학습 중 계수 0으로 고르면 내장형 선택이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> PCA는 X만 사용해 새 좌표를 만든다.</p>
+<p><strong>풀이:</strong> 중심화 X의 분산이 큰 단위 방향을 찾고 이전 축과 직교하는 다음 방향을 찾아 투영한다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 정보 요약 기준은 정답 분리가 아닌 입력 분산이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 스케일이 큰 열의 분산이 영향을 주며 기존 열 일부를 그냥 선택하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> PCA는 분산을 보존하는 직교 축 추출이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> F=8, C=5의 LDA 최대 판별 차원이다.</p>
+<p><strong>풀이:</strong> min(8,5−1)=min(8,4)=4다.</p>
+<p><strong>정답:</strong> ②4</p>
+<p><strong>왜?</strong> 다섯 클래스 평균의 전체 평균 대비 독립 차이는 최대 넷이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 상한 4이지 실제 유효 차원이 언제나 4라는 보장은 아니다.</p>
+<p><strong>한 줄 기억:</strong> 클래스 수에서 1을 뺀 뒤 특성 수와 비교한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 현재 군집에 배정된 점들의 중심 갱신이다.</p>
+<p><strong>풀이:</strong> 군집 [2,4,9]의 새 중심은 합 15/3=5다. 중심 c에 대한 Σ(x−c)² 의 미분을 0으로 두어도 평균을 얻는다.</p>
+<p><strong>정답:</strong> ①</p>
+<p><strong>왜?</strong> 평균이 그 군집의 제곱 거리 합을 최소화한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 정답 라벨 평균이나 가장 먼 점을 쓰지 않는다.</p>
+<p><strong>한 줄 기억:</strong> K-means의 중심은 배정된 점들의 평균이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 밀도 기반 군집의 가능한 장점과 과장을 나눈다.</p>
+<p><strong>풀이:</strong> eps 이웃이 충분한 핵심 점과 연결을 따라 군집을 만들고 밀집 군집에 속하지 않는 점은 잡음으로 남길 수 있다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 중심 하나 주변의 원형 모양만 강제하지 않기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 고차원·서로 다른 밀도에서도 항상 완벽하거나 척도 무관하지 않다.</p>
+<p><strong>한 줄 기억:</strong> DBSCAN은 밀도 연결과 잡음을 찾는다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 단일라벨 분류의 클래스 비율 보존을 묻는다.</p>
+<p><strong>풀이:</strong> 각 클래스 행이 폴드에 비슷한 비율로 들어가도록 StratifiedKFold를 사용한다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 단순 KFold에서 희귀 클래스가 편중되는 상황을 줄인다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 그룹·시간 조건이 있으면 층화만으로 누수 문제를 해결하지 못한다.</p>
+<p><strong>한 줄 기억:</strong> 클래스 비율은 층화가 다룬다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 범주를 정답 통계로 바꾸는 방법이다.</p>
+<p><strong>풀이:</strong> 자기 행밖에 없는 범주의 평균에 자기 y를 넣으면 특성이 그대로 답이 된다. 훈련 행은 교차 적합, 검증은 훈련 통계로 변환하는 방식을 검토한다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 정답을 사용해 특성을 만들 때 같은 행 또는 평가 답이 직접 누설될 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 숫자로 바뀌거나 열이 줄어드는 것 자체가 누수는 아니다.</p>
+<p><strong>한 줄 기억:</strong> 타깃 인코딩은 자기 답·검증 답을 특성에 넣지 않는다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 큰 차이에 제곱 벌점과 원래 단위라는 두 조건을 동시에 본다.</p>
+<p><strong>풀이:</strong> 오차 제곱을 평균한 MSE에 제곱근을 취하면 RMSE다. 오차 [1,3]은 MSE=5, RMSE=√5이고 원래 단위로 돌아온다.</p>
+<p><strong>정답:</strong> ①RMSE</p>
+<p><strong>왜?</strong> 제곱 단위를 제곱근으로 되돌리면서 큰 오차의 제곱 영향을 남긴다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> MAE도 원래 단위지만 제곱 벌점 조건에 맞지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 제곱 평균 후 제곱근이면 RMSE다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 탐색 설정은 많고 평가 예산은 작다.</p>
+<p><strong>풀이:</strong> RandomizedSearch는 정한 분포에서 조합을 뽑아 특히 중요한 일부 차원의 다양한 값을 시험할 수 있다. 같은 평가 예산을 고정해 비교한다.</p>
+<p><strong>정답:</strong> ①</p>
+<p><strong>왜?</strong> 모든 조합을 격자로 채우는 데 평가 횟수를 쓰지 않기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 항상 우월한 보장은 없고 테스트 수동 선택은 대안이 아니다.</p>
+<p><strong>한 줄 기억:</strong> 제한된 예산에서는 무작위 조합 탐색을 검토한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> SMOTE는 소수 클래스 이웃으로 새 샘플을 만드는 재표집이다.</p>
+<p><strong>풀이:</strong> 먼저 train/valid를 나누고 각 train 폴드에서만 이웃과 합성 샘플을 구한다. valid/test는 원래 평가 분포로 남긴다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 분할 전에 합성하면 검증 정보가 합성에 들어가거나 유사 샘플이 양쪽에 섞일 수 있다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 검증 표본 수를 균형 맞추려고 SMOTE를 적용하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 재표집은 훈련 폴드 안에서만 한다.</p>
+</li>
 </ol></div></details>
 
 
+
+
 <h3 id="317-3">31.7 필기 모의고사 3회 — 계산·전 범위 혼합</h3>
+<p>세 번째 회차는 분모·축·경계의 한 칸 차이를 직접 계산하는 연습이다. 작은 숫자라도 먼저 원식을 쓰고 값을 대입하면 우연히 외운 정답과 계산한 정답을 구분할 수 있다. 이 회차도 새 50분으로 독립 응시한 기록을 남긴다.</p>
 <p>이 회차는 계산 과정을 시험지 여백에 반드시 적는다.</p>
 <span id="question-O31-41" data-question-id="O31-41" class="section-anchor"></span><h4 id="3-1">3회-1번</h4><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-31-1">통계·조건부 확률·불순도를 연결해 이해하기</a></p></details>
 <p>모집단 <code>[0,2,4]</code>의 평균과 분산은? ① 2, 8/3 ② 2, 4 ③ 3, 8/3 ④ 2, sqrt(8/3)</p>
@@ -563,7 +857,150 @@ print(round(ce, 3), round(f1, 3), out_len)
 </tr>
 </tbody></table></div><ol>
 <li>편차 제곱합 8을 3으로 나눈다. 2. <code>0.08/(0.08+0.18)=.3077</code>. 3. <code>12×5+5=65</code>. 4. tanh는 원점 대칭 S자이고 범위가 <code>(-1,1)</code>이다. 5. 제곱오차 1과 4의 평균은 2.5다. 6. P=.8,R=.5,F1≈.615. 7. 이 문항의 RMSLE는 비음수 정답·예측을 요구한다. log1p 자체는 -1보다 큰 음수에서도 정의되므로 평가지표의 입력 규칙과 구분한다. 8. 증강은 훈련에만 무작위로 적용하고 평가 입력에는 고정된 변환을 적용한다. 9. 공간축 절반. 10. γ/β 각 20. 11. 이전 셀 상태와 새 후보를 더해 갱신한다. 12. <code>500-20-30+1=451</code>. 13. 정답 인덱스를 기준으로 검증에 배정한다. 14. exp 비율 1:3. 15. 사후분포와 사전분포가 같다. 16. 일반적인 규칙으로는 이상이다. 17. D만 학습. 18. 채널 수와 공간 크기를 투영으로 맞춘다. 19. 각 라벨을 독립적인 이진 문제로 처리한다. 20. 배열 크기를 억지로 바꾸지 말고 출력의 의미부터 바로잡는다.</li>
-</ol><p>3회 독립 시험에서 모두 16개 이상이어야 “3회 연속 80%” 기준을 충족한 것으로 본다.</p></div></details>
+</ol><p>3회 독립 시험에서 모두 16개 이상이어야 “3회 연속 80%” 기준을 충족한 것으로 본다.</p><p><strong>문항별 상세 해설 — 답안 확인 후 복습</strong></p><ol>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 모집단 분산이므로 분모는 N=3이다.</p>
+<p><strong>풀이:</strong> 평균(0+2+4)/3=2, 편차 [−2,0,2], 제곱합 8, 분산 8/3이다.</p>
+<p><strong>정답:</strong> ①평균 2·분산 8/3</p>
+<p><strong>왜?</strong> 모집단 전체의 평균 제곱 편차라는 정의를 따른다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> N−1로 나누면 표본 분산 4, 제곱근을 취하면 표준편차다.</p>
+<p><strong>한 줄 기억:</strong> 모집단 분산은 제곱 편차 합/N이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 경보가 난 집단 안에서 고장 비율을 묻는다.</p>
+<p><strong>풀이:</strong> 1000대 중 고장 100대의 진짜 경보 80대, 정상 900대의 오경보 180대다. 전체 경보 260대 중 80/260=4/13≈.3077이다.</p>
+<p><strong>정답:</strong> ③약 30.8%</p>
+<p><strong>왜?</strong> 고장일 때 경보 확률과 경보일 때 고장 확률은 분모가 다르다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 80% 검출률을 그대로 사후 확률로 쓰지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 경보 후 고장률은 진짜 경보/ 전체 경보다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> Linear의 특성 수 12→5의 기본 bias=True와 배치 7이다.</p>
+<p><strong>풀이:</strong> 가중치 12×5=60,편향 5개를 더해 65개다. 각 행 입력 12개를 출력 5개로 바꾸므로 [7,5]다.</p>
+<p><strong>정답:</strong> ②65개·(7,5)</p>
+<p><strong>왜?</strong> 각 출력은 입력 12개와 편향 하나의 가중합이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 배치 7을 매개변수 수에 곱하지 않고 출력축도 뒤집지 않는다.</p>
+<p><strong>한 줄 기억:</strong> Linear 매개변수 IO+O, 출력 [B,O]다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 원점·홀함수·범위(−1,1)·양 끝 포화를 모두 만족해야 한다.</p>
+<p><strong>풀이:</strong> tanh(0)=0,tanh(−x)=−tanh(x)이고 큰 양/음 입력은 1/−1에 가까워진다.</p>
+<p><strong>정답:</strong> ②tanh</p>
+<p><strong>왜?</strong> 네 조건이 tanh의 형태와 일치한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> sigmoid는 0에서.5,ReLU는 양쪽 포화가 없고 음수는 0이다.</p>
+<p><strong>한 줄 기억:</strong> 원점 대칭 포화 S자는 tanh다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 같은 샘플끼리 오차를 구하고 샘플 2개로 평균한다.</p>
+<p><strong>풀이:</strong> 예측 −실제 =[1,2], 제곱 [1,4],MSE=(1+4)/2=2.5,RMSE=√2.5≈1.581이다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> MSE는 제곱오차 평균이고 RMSE는 그 제곱근이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 절댓값 평균 1.5는 MAE다.</p>
+<p><strong>한 줄 기억:</strong> 제곱 →평균 →필요하면 제곱근 순서다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> P의 분모는 예측 양성, R의 분모는 실제 양성이다.</p>
+<p><strong>풀이:</strong> P=40/(40+10)=.8,R=40/(40+40)=.5,F1=2×40/(80+10+40)=80/130≈.6154다.</p>
+<p><strong>정답:</strong> ①</p>
+<p><strong>왜?</strong> F1은 정밀도·재현율의 조화 평균이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 단순 평균(.8+.5)/2=.65와 다르다.</p>
+<p><strong>한 줄 기억:</strong> P는 경보의 정확도,R은 고장 검출률이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 이 문항이 RMSLE 입력을 비음수로 정의했다.</p>
+<p><strong>풀이:</strong> 0·양수·1은 0 이상이다. 음수는 그 조건을 어기므로 거절해야 한다.</p>
+<p><strong>정답:</strong> ③음수</p>
+<p><strong>왜?</strong> 평가 지표의 허용 입력 정의를 따른다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> log1p가 −1보다 큰 음수에도 수학적으로 정의된다는 사실과 다르다.</p>
+<p><strong>한 줄 기억:</strong> 함수의 정의역과 지표 계약을 구분한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 훈련 증강은 라벨 보존, 평가는 비교 조건 고정이다.</p>
+<p><strong>풀이:</strong> train에만 허용된 랜덤 변환을 주고 valid/test는 고정 resize·normalize를 쓴다. 각 변형 후 정답 의미가 같은지도 확인한다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 평가값의 추가 무작위 변동과 정답 변경을 막는다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 모든 회전·뒤집기가 항상 라벨을 보존하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> train은 라벨 보존 변형, 평가는 고정 입력이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 풀링 K=2, S=2는 공간 축만 다룬다.</p>
+<p><strong>풀이:</strong> 높이 floor((32−2)/2)+1=16, 너비 floor((40−2)/2)+1=20, 채널 16·배치 B는 그대로다.</p>
+<p><strong>정답:</strong> ①(B,16,16,20)</p>
+<p><strong>왜?</strong> 채널별로 각 2×2 영역의 최댓값을 선택하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 채널을 반으로 줄이거나 파라미터를 추가하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 풀링은 공간을 줄이고 채널을 남긴다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> BN의 학습값 γ·β만 센다.</p>
+<p><strong>풀이:</strong> 채널 20개 각각에 γ 하나·β 하나가 있으므로 20+20=40개다.</p>
+<p><strong>정답:</strong> ②40</p>
+<p><strong>왜?</strong> 정규화 후 채널별 크기·위치를 학습한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> running 평균·분산을 더해 80개로 세지 않는다.</p>
+<p><strong>한 줄 기억:</strong> BN 학습 파라미터는 2C다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> c는 셀 기억이고 f,i,g의 역할을 본다.</p>
+<p><strong>풀이:</strong> 이전 기억을 f 비율로 남긴 항과 새 후보 g를 i 비율로 더한 항을 합한다.</p>
+<p><strong>정답:</strong> ①c_t=f_t⊙c_prev+i_t⊙g_t</p>
+<p><strong>왜?</strong> 과거 유지와 새 정보 추가를 분리하는 기억 갱신식이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> o는 h 출력 단계에 쓰며 c 갱신식의 f 대신 넣지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 셀 기억은 남길 과거 +넣을 새 후보다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 슬라이스 길이 20, H=30, T=500, 유효 자료·stride=1이다.</p>
+<p><strong>풀이:</strong> e−19≥0이라 e≥19,e+30≤499라 e≤469이다. 19부터 469까지 469−19+1=451개다.</p>
+<p><strong>정답:</strong> ②451</p>
+<p><strong>왜?</strong> 양 끝 포함 정수 개수는 끝 −시작 +1이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 500−20−30=450에서 첫 가능 위치 1개를 빠뜨리지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 윈도 수는 T−L−H+1이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 배정 조건은 target_idx≥cut이며 경계 같음도 포함한다.</p>
+<p><strong>풀이:</strong> target=400과 cut=400을 비교하면 400≥400이 True이므로 검증이다. 입력 끝 370은 이 배정 규칙의 비교값이 아니다.</p>
+<p><strong>정답:</strong> ②검증</p>
+<p><strong>왜?</strong> 문제가 명시한 기준은 정답 시점이기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 이 한 윈도 배정이 전체 누수 없음을 증명하지는 않는다. 학습 답의 공개 시점도 별도 본다.</p>
+<p><strong>한 줄 기억:</strong> 어느 시점을 어느 부등호로 비교하는지 읽는다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> softmax는 점수 자체가 아닌 지수값 비율이다.</p>
+<p><strong>풀이:</strong> exp(0)=1,exp(ln3)=3, 합 4로 나누어 [.25,.75]다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 모든 키의 양의 가중치가 합 1이 되도록 정규화한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> logit=0을 확률 0으로 읽거나 원점수 합으로 나누지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 지수 비율 1:3은 확률 1/4:3/4다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> q와 p가 모두 평균 0·분산 1인가 확인한다.</p>
+<p><strong>풀이:</strong> logvar=0에서 분산 exp(0)=1이다. KL=.5(0² +1−1−0)=0이다.</p>
+<p><strong>정답:</strong> ①0</p>
+<p><strong>왜?</strong> 동일한 두 분포의 KL은 0이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> KL=0이어도 표본 z는 무작위이고 항상 0이 아니다.</p>
+<p><strong>한 줄 기억:</strong> 분포가 같아서 0인 것이지 표본이 0인 것은 아니다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> AE 점수가 클수록 이상이며 정상 99% 분위수를 경계로 썼다.</p>
+<p><strong>풀이:</strong> 새 점수가 τ보다 크면 경보 조건 s&gt;τ를 만족하므로 이상이다.</p>
+<p><strong>정답:</strong> ②이상</p>
+<p><strong>왜?</strong> 정상 검증의 큰 오차 경계를 벗어난 값을 후보로 보는 규칙이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 99가 클래스 번호도 고장 검출률 99% 보증도 아니다.</p>
+<p><strong>한 줄 기억:</strong> 정상 오차 문턱을 넘으면 이상 후보다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 이번 단계는 D만 학습하며 G 값은 입력으로만 쓴다.</p>
+<p><strong>풀이:</strong> G(z)의 숫자는 유지하고 G까지 이어지는 autograd 경로를 끊는다. D의 가짜 분류 손실은 D 가중치에 계속 미분된다.</p>
+<p><strong>정답:</strong> ①</p>
+<p><strong>왜?</strong> D 단계에 필요 없는 G 기울기를 계산하지 않게 한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> G 단계에도 detach하면 G가 학습할 신호를 끊는다.</p>
+<p><strong>한 줄 기억:</strong> detach는 값은 남기고 그 이전 그래프를 끊는다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 채널 32→64, 공간 32→16이 둘 다 필요하다.</p>
+<p><strong>풀이:</strong> 1×1 Conv의 입력 채널 32, 출력 채널 64로 채널을 맞추고 stride=2로 두 공간 축을 반으로 만든다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 주 분기와 같은 [B,64,16,16]이어야 성분별로 더할 수 있다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> maxpool만으로는 채널 32를 64로 못 바꾼다.</p>
+<p><strong>한 줄 기억:</strong> 채널·공간을 projection으로 동시에 맞춘다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 5개 라벨 중 여러 개가 동시에 참일 수 있다.</p>
+<p><strong>풀이:</strong> 각 라벨마다 logit 하나와 0·1 정답 하나가 필요해 둘 다 [B,5]이고 정답 float로 BCEWithLogits를 쓴다.</p>
+<p><strong>정답:</strong> ①</p>
+<p><strong>왜?</strong> 하나를 고르는 문제가 아니라 5개의 이진 판정을 함께 하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> CE의 [B] 인덱스와 argmax는 동시 여러 라벨을 표현하지 못한다.</p>
+<p><strong>한 줄 기억:</strong> 다중라벨은 라벨별 BCE다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 8333행마다 서로 다른 출력 3개가 필요하다는 의미까지 맞춰야 한다.</p>
+<p><strong>풀이:</strong> 타깃 3열의 의미·순서를 확인하고 모델 head를 출력 3개로, 학습 정답을 [N,3]으로, 예측 결합을 같은 모양으로 고친다.</p>
+<p><strong>정답:</strong> ②</p>
+<p><strong>왜?</strong> 출력 하나의 반복이나 flatten은 배우지 않은 다른 두 정답을 만들지 못한다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 파일명 변경만으로 수치 배열 계약을 수정할 수 없다.</p>
+<p><strong>한 줄 기억:</strong> shape를 억지로 바꾸기 전에 출력의 의미부터 맞춘다.</p>
+</li>
+</ol></div></details>
+
+
 
 
 

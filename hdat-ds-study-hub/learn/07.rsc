@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/07","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/07":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/07":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","07"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/07","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/07"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/07"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/07","_N_T_/layout","_N_T_/learn/07","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/07"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/07","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/07":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/07":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","07"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/07","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/07"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/07"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/07","_N_T_/layout","_N_T_/learn/07","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/07"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -42,7 +42,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 25:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-07-1",{"children":[["$","a",null,{"href":"#visual-07-1","children":"먼저 떠올릴 장면"}],false]}],["$","li","visual-07-2",{"children":[["$","a",null,{"href":"#visual-07-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-07-1",{"children":["$","a",null,{"href":"#topic-07-1","children":"열 이름 뒤에 숨은 측정 조건부터 적기"}]}],["$","li","topic-07-2",{"children":["$","a",null,{"href":"#topic-07-2","children":"그래프에서 본 사실을 어떤 다음 행동으로 바꿀까?"}]}]]}]]}]]}],["$","li","visual-07-3",{"children":[["$","a",null,{"href":"#visual-07-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-07-4",{"children":[["$","a",null,{"href":"#visual-07-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-07-3",{"children":["$","a",null,{"href":"#topic-07-3","children":"히스토그램의 막대 높이와 면적은 무엇을 셀까?"}]}],["$","li","topic-07-4",{"children":["$","a",null,{"href":"#topic-07-4","children":"전체 상관과 카페 안 상관은 왜 반대일까?"}]}]]}]]}]]}],["$","li","visual-07-5",{"children":[["$","a",null,{"href":"#visual-07-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-07-5",{"children":["$","a",null,{"href":"#topic-07-5","children":"새 차량을 맞힐 때 검증 차량도 새로워야 할까?"}]}]]}]]}]]}],["$","li","visual-07-6",{"children":[["$","a",null,{"href":"#visual-07-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-07-6",{"children":["$","a",null,{"href":"#topic-07-6","children":"빈칸 수가 많은 센서와 빈칸 비율이 높은 센서는 같을까?"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-07","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-07-1",{"children":["$","a",null,{"href":"#theory-07-1","children":"데이터 탐색을 마치면 다음에 확인할 일을 정한다"}]}],["$","li","theory-07-2",{"children":["$","a",null,{"href":"#theory-07-2","children":"분포 요약은 중심, 꼬리, 빈도, 밀도를 구분한다"}]}],["$","li","theory-07-3",{"children":["$","a",null,{"href":"#theory-07-3","children":"전체 상관과 그룹 내부 상관이 반대일 수 있다"}]}],["$","li","theory-07-4",{"children":["$","a",null,{"href":"#theory-07-4","children":"무작위 분할과 그룹별 분할은 서로 다른 사용 상황을 평가한다"}]}],["$","li","theory-07-5",{"children":["$","a",null,{"href":"#theory-07-5","children":"새 범주와 시간 공백은 데이터가 달라졌다는 신호다"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","72-eda",{"children":["$","a",null,{"href":"#72-eda","children":"EDA의 목적"}]}],["$","li","73",{"children":["$","a",null,{"href":"#73","children":"데이터 사전 만들기"}]}],["$","li","74-eda",{"children":["$","a",null,{"href":"#74-eda","children":"변수 하나씩 살펴보기"}]}],["$","li","76-eda",{"children":["$","a",null,{"href":"#76-eda","children":"두 변수의 관계와 상관 살펴보기"}]}],["$","li","77-group-eda",{"children":["$","a",null,{"href":"#77-group-eda","children":"그룹별·시간별로 살펴보기"}]}],["$","li","78-eda-split",{"children":["$","a",null,{"href":"#78-eda-split","children":"데이터 탐색과 분할의 순서"}]}],["$","li","79",{"children":["$","a",null,{"href":"#79","children":"실습문제"}]}],["$","li","710",{"children":["$","a",null,{"href":"#710","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],["$","ol",null,{"children":[["$","li","visual-07-7",{"children":["$","a",null,{"href":"#visual-07-7","children":"스스로 확인하기"}]}],["$","li","visual-07-8",{"children":["$","a",null,{"href":"#visual-07-8","children":"정답과 이유"}]}],["$","li","visual-07-9",{"children":["$","a",null,{"href":"#visual-07-9","children":"더 읽을 공식 자료"}]}]]}]]]}]
 26:["$","$L2e",null,{}]
 27:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","행·열·정답의 의미를 확인할 질문을 정리한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"행·열·정답의 의미를 확인할 질문을 정리한다."]}],["$","li","변수 하나, 변수 두 개, 그룹별, 시간별로 데이터를 탐색하는 방법을 구분한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"변수 하나, 변수 두 개, 그룹별, 시간별로 데이터를 탐색하는 방법을 구분한다."]}],["$","li","데이터를 탐색할 때도 검증용 정보가 학습 특성에 섞이지 않도록 한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"데이터를 탐색할 때도 검증용 정보가 학습 특성에 섞이지 않도록 한다."]}],["$","li","그래프를 보기 좋게 그리는 데 그치지 않고, 분석 결과를 모델 선택과 개선에 활용한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"그래프를 보기 좋게 그리는 데 그치지 않고, 분석 결과를 모델 선택과 개선에 활용한다."]}]]}]]}]
-28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 2f:T5334,<h3 id="visual-07-1">먼저 떠올릴 장면</h3>
 <p>카페 두 곳의 하루 주문량과 전기 사용량을 조사했다고 하자. 주문이 적은 A는 기본 전기 사용량이 높고, 주문이 많은 B는 기본 사용량이 낮다. 각 카페 안에서는 주문이 늘수록 전기를 더 쓰는데 두 카페를 합치면 반대 관계가 보일 수 있다. B의 설비가 더 효율적인지는 가능한 설명일 뿐, 이 숫자만으로 확인한 사실은 아니다. “전체 표의 관계”와 “같은 카페 내부 변화”가 다른 질문이라는 점부터 알아야 한다.</p>
 <p>데이터 탐색은 이런 질문을 만드는 과정이다. 앞 장에서 표의 행·열이 올바르게 연결되는지 확인했다면, 이제는 그 표가 현실의 누구를 어떤 시점에 기록했는지 묻는다. 차량 10대에서 100번씩 측정한 1000행은 서로 다른 차량 1000대를 한 번씩 측정한 표와 다르다. 행 수가 같아도 새 차량을 예측할 근거의 폭과 검증 방법이 달라진다.</p>
@@ -133,34 +133,61 @@ assert np.isclose(overall, -25 / 29) and np.isclose(within_a, 1.)
 2b:["$","$L35",null,{"track":"learn","lesson":"07","goal":"행·열·정답의 의미를 확인할 질문을 정리한다."}]
 2c:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"학습 마무리"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"끝까지 읽었다면 아래 완료 기준도 확인해 보세요. 직접 설명하거나 실행할 수 있는 항목을 표시하면 됩니다."}]]}],["$","$L36",null,{"lessonId":"07"}]]}]
 2d:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/06/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",6,". ","확률·통계·정보이론"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/08/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[8,". ","전처리: 결측·이상치·스케일·인코딩·증강"," →"]}]]}]]}]
-37:T2945,<h3 id="theory-07-1">1. 데이터 탐색을 마치면 다음에 확인할 일을 정한다</h3>
+37:T388a,<h3 id="theory-07-1">1. 데이터 탐색을 마치면 다음에 확인할 일을 정한다</h3>
+<p>한 행을 차량 한 대라고 믿고 모델을 만들었는데 실제로는 차량별 매초 기록이었다면, 행 수와 독립 표본 수부터 달라진다. EDA는 그래프를 많이 그리기 전에 이런 관찰 단위를 확인하는 작업이다.</p>
 <p>탐색적 데이터 분석(EDA)은 관찰 대상, 데이터가 생성된 과정과 시간을 이해하고 모델을 어떻게 만들지 결정하는 단계다. 데이터 사전에는 열 이름뿐 아니라 “언제, 누가, 어떤 단위로, 무엇을 측정했는가”를 적는다. 정비가 끝난 뒤 만들어진 판정 열은 고장 이전의 예측 시점에는 없을 수 있다. 이 열과 정답의 상관이 높다면 유용한 특성이라기보다 미래 정보가 섞였다는 단서일 수 있다.</p>
 <p>한 행이 측정 시점인지 차량인지에 따라 행 수의 의미도 달라진다. 차량 50대가 각각 100번 측정되면 행은 5000개지만 서로 완전히 독립인 차량이 5000대인 것은 아니다. 같은 차량의 반복 기록은 차체 특성·센서 보정·운행 습관을 공유한다. 따라서 새로운 차량을 예측할지 기존 차량의 다음 시점을 예측할지 먼저 정하고, 그 사용 상황을 닮은 분할을 택한다. 숫자형 ID도 숫자로 저장되었다는 이유만으로 측정량은 아니다.</p>
-<p>실습에서 “처음 무엇을 확인할까?”라고 묻는 것은 원인을 하나로 확정하라는 뜻이 아니다. 관찰한 현상의 원인으로 가능한 가설을 세우고, 가설들을 구별할 추가 검사를 말하면 된다. 극단값을 보자마자 삭제하거나 높은 상관을 보자마자 누수라고 단정하면 확인 단계를 건너뛰는 셈이다. 관찰 → 가설 → 확인할 정보 → 변경 여부의 순서로 답하면 판단 근거를 분명히 할 수 있다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O07-01">7.9 실습문제 · 1번</a> · <a href="#question-O07-02">7.9 실습문제 · 2번</a> · <a href="#question-V07-03">기초 확인 · 3번</a></p></details>
+<p>실습에서 “처음 무엇을 확인할까?”라고 묻는 것은 원인을 하나로 확정하라는 뜻이 아니다. 관찰한 현상의 원인으로 가능한 가설을 세우고, 가설들을 구별할 추가 검사를 말하면 된다. 극단값을 보자마자 삭제하거나 높은 상관을 보자마자 누수라고 단정하면 확인 단계를 건너뛰는 셈이다. 관찰 → 가설 → 확인할 정보 → 변경 여부의 순서로 답하면 판단 근거를 분명히 할 수 있다.</p>
+<p>분석 메모는 “높은 값 발견”에서 끝내지 않고 “단위 변경인지 과열인지 측정 기록 확인”처럼 다음 행동을 포함한다. 문제에서 첫 확인을 묻는다면 원인을 확정하는 답보다 경쟁 가설을 구별할 검사를 적는다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 관찰→가설→추가 검사→변경 여부를 연결한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O07-01">7.9 실습문제 · 1번</a> · <a href="#question-O07-02">7.9 실습문제 · 2번</a> · <a href="#question-V07-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-07-2">2. 분포 요약은 중심, 꼬리, 빈도, 밀도를 구분한다</h3>
+<p>평균 7을 보고 대부분 값이 7 근처라고 생각하기 쉽지만 [2,3,3,4,5,25]에서는 다섯 값이 5 이하다. 평균·중앙값·히스토그램은 서로 다른 질문에 답한다. 아래 숫자로 중심과 꼬리를 따로 읽고 막대의 높이가 개수인지 밀도인지 확인한다.</p>
 <p>값 [2,3,3,4,5,25]의 합은 42, 평균은 7이다. 중앙값은 가운데 3과 4의 평균인 3.5다. 드문 큰 값 25 때문에 평균은 커지지만, 중앙값은 모든 값의 크기를 더하지 않으므로 영향이 작다. 오른쪽 꼬리가 긴 분포라고 해서 25가 잘못된 값이라는 뜻은 아니다. 실제 고장 비용일 수도 있고, 원과 천 원을 섞은 단위 오류일 수도 있다.</p>
 <p>히스토그램은 값의 범위를 구간으로 나누어 개수를 센다. 위 값을 [0,10), [10,20), [20,30]으로 나누면 개수는 [5,0,1]이다. 가로축은 샘플 순서가 아니라 값의 구간이다. 빈도 히스토그램의 막대 높이 합은 6이다. 밀도 히스토그램의 높이는 개수/(전체 수×구간 폭)이므로 [1/12,0,1/60]이다. 각 높이에 폭 10을 곱한 면적을 더하면 5/6+0+1/6=1이다. 밀도 높이 자체를 확률로 읽으면 구간 폭이 달라질 때 잘못 해석하게 된다.</p>
-<p>결측도 개수와 비율을 함께 본다. 센서 A는 4개 중 1개 결측으로 25%, 센서 B는 200개 중 10개 결측으로 5%다. 결측 개수는 B가 많지만 결측률은 A가 높다. 그룹 평균, 범주별 고장률, 극단값 비중도 분모의 관측 수가 작으면 불안정하다. 표본 한두 개의 100% 고장률을 안정적인 규칙으로 외우지 않는다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O07-05">7.9 실습문제 · 5번</a> · <a href="#question-V07-01">기초 확인 · 1번</a></p></details>
+<p>결측도 개수와 비율을 함께 본다. 센서 A는 4개 중 1개 결측으로 25%, 센서 B는 200개 중 10개 결측으로 5%다. 결측 개수는 B가 많지만 결측률은 A가 높다. 그룹 평균, 범주별 고장률, 극단값 비중도 분모의 관측 수가 작으면 불안정하다. 표본 한두 개의 100% 고장률을 안정적인 규칙으로 외우지 않는다.</p>
+<p>밀도의 높이에는 구간 폭이 나뉘어 있어 높이 자체보다 <strong>높이×폭인 면적</strong>이 그 구간의 확률을 뜻한다. 결측률에도 같은 분모 감각을 적용한다. 1/4와 10/200은 앞쪽이 빈칸 개수는 적지만 비율은 크다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 그래프의 높이를 읽기 전에 분모와 축 단위를 확인한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O07-05">7.9 실습문제 · 5번</a> · <a href="#question-V07-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-07-3">3. 전체 상관과 그룹 내부 상관이 반대일 수 있다</h3>
+<p>각 카페에서 주문량이 늘면 전기도 더 쓰지만, 주문이 많은 카페가 원래 전기 효율이 좋다면 두 카페를 합친 관계는 반대일 수 있다. 전체 표와 같은 집단 내부를 비교하는 것은 다른 질문이다. 아래 두 공장 예제로 이 차이를 실제 상관계수까지 계산한다.</p>
 <p>공장 A의 세 점을 (1,7),(2,8),(3,9), 공장 B를 (7,1),(8,2),(9,3)으로 놓자. 각 공장 안에서는 x와 y가 함께 1씩 증가하여 상관이 1이다. 하지만 두 공장을 합치면 x 평균과 y 평균이 각각 5이고, 편차 곱 합은 (−4)×2+(−3)×3+(−2)×4+2×(−4)+3×(−3)+4×(−2)=−50이다. 두 변수 편차 제곱합은 각각 58이므로 전체 상관은 −50/58=−25/29≈−0.862다.</p>
 <p>공장 B는 기본적인 y 수준이 낮으면서 x 수준은 높다. 그룹 간 차이가 각 그룹 내부 증가 관계와 반대이기 때문에 합친 관계가 뒤집혔다. “x를 올리면 y가 줄어든다”는 인과 결론을 이 전체 상관 하나로 정당화할 수 없다. 공장, 차량, 시간대처럼 두 변수에 함께 영향을 주는 교란 요인이 있는지 구분해서 확인한다. 계산 오류가 아니라 비교 대상이 달라진 것이다.</p>
-<p>상관계수가 0이라고 특성이 쓸모없는 것은 아니다. x=[−2,0,2]와 y=x²=[4,0,4]는 선형 상관이 0이지만 정확한 제곱 관계가 있다. 두 이진 특성의 값이 서로 다른지를 정답으로 삼는 XOR에서도 각 특성의 단독 상관은 작아도 조합은 유용할 수 있다. 따라서 상관계수가 0에 가까운 열을 필터로 모두 제거하지 말고, 비선형 관계와 상호작용이 있는지 살펴보고 실제 성능을 검증한다. 선택 기준을 검증 정답에 반복해서 맞추면 별도의 과적합이 생길 수 있다는 점도 기억한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O07-02">7.9 실습문제 · 2번</a> · <a href="#question-V07-02">기초 확인 · 2번</a> · <a href="#question-V07-04">기초 확인 · 4번</a></p></details>
+<p>상관계수가 0이라고 특성이 쓸모없는 것은 아니다. x=[−2,0,2]와 y=x²=[4,0,4]는 선형 상관이 0이지만 정확한 제곱 관계가 있다. 두 이진 특성의 값이 서로 다른지를 정답으로 삼는 XOR에서도 각 특성의 단독 상관은 작아도 조합은 유용할 수 있다. 따라서 상관계수가 0에 가까운 열을 필터로 모두 제거하지 말고, 비선형 관계와 상호작용이 있는지 살펴보고 실제 성능을 검증한다. 선택 기준을 검증 정답에 반복해서 맞추면 별도의 과적합이 생길 수 있다는 점도 기억한다.</p>
+<p>합친 평균 5를 기준으로 잰 편차와 각 공장 자기 평균을 기준으로 잰 편차가 다르다는 데 주목한다. 전체 상관이 틀린 계산인 것이 아니라 포함한 변동의 종류가 달라졌다. 인과 결론을 내리려면 이런 집단 차이를 포함한 다른 설명을 검토해야 한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 전체의 관계를 개인·그룹 내부의 변화로 자동 해석하지 않는다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O07-02">7.9 실습문제 · 2번</a> · <a href="#question-V07-02">기초 확인 · 2번</a> · <a href="#question-V07-04">기초 확인 · 4번</a></p></details>
 <h3 id="theory-07-4">4. 무작위 분할과 그룹별 분할은 서로 다른 사용 상황을 평가한다</h3>
+<p>기존 차량 A의 내일을 예측하는 것과 처음 보는 차량 Z를 예측하는 것은 필요한 일반화 능력이 다르다. 같은 A의 이력 일부가 학습에 있어도 되는지에 대한 답부터 달라진다. 데이터 분할은 이 미래 사용 장면을 연습장에 재현하는 방법이다.</p>
 <p>무작위 행 분할은 행을 섞어 학습과 검증 데이터로 나눈다. 그룹별 분할은 같은 차량의 모든 행을 한쪽에 모아 새로운 차량에서도 예측이 잘 되는지 확인한다. 같은 차량의 거의 복사된 기록이 양쪽에 있으면 모델이 차량의 특징을 외워 높은 검증 점수를 얻을 수 있다. 그 점수가 새 차량에 대한 성능을 보여 주는 것은 아닐 수 있다. 반면 실제로 기존 차량의 다음 시점을 예측한다면 그룹별 분할만이 유일한 답은 아니다. 그 경우에는 시간 순서와 과거 관측값의 사용 가능성이 중요하다.</p>
 <p>예를 들어 행 분할 AUC가 0.97, 차량 분할 AUC가 0.64라고 하자. AUC는 이진분류 점수가 양성을 음성보다 높은 순위에 놓는 정도를 요약하는 지표이며, 고정된 기준값으로 분류했을 때의 정답률과 다르다. 점수 차이가 크면 식별자 역할을 하는 입력, 같은 차량의 유사 기록, 그룹별 정답 비율 차이를 먼저 확인한다. 숫자 차이만으로 누수를 확정하지 말고, 검증 차량이 원래 더 예측하기 어려운 종류인지, 각 분할에 클래스가 충분히 있는지, 실제 평가 대상이 새 차량인지까지 조사한다.</p>
-<p>검증 점수가 높아지는 파생변수를 찾으려고 수십 개를 계속 추가해 골랐다면, 사람의 선택도 그 검증 데이터에 맞춰진 셈이다. 마지막 평가 데이터는 후보 선택에 쓰지 않고 남겨 두며, 비교할 때는 같은 분할·지표·정답 의미를 유지한다. 난수 시드를 고정해 재현성을 확보하는 것은 필요하지만, 그렇게 해도 편향된 분할이 적절한 분할로 바뀌지는 않는다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O07-01">7.9 실습문제 · 1번</a> · <a href="#question-V07-03">기초 확인 · 3번</a></p></details>
+<p>검증 점수가 높아지는 파생변수를 찾으려고 수십 개를 계속 추가해 골랐다면, 사람의 선택도 그 검증 데이터에 맞춰진 셈이다. 마지막 평가 데이터는 후보 선택에 쓰지 않고 남겨 두며, 비교할 때는 같은 분할·지표·정답 의미를 유지한다. 난수 시드를 고정해 재현성을 확보하는 것은 필요하지만, 그렇게 해도 편향된 분할이 적절한 분할로 바뀌지는 않는다.</p>
+<p>행 분할 점수가 높은 이유가 유사 기록의 반복인지, 그룹 자체의 정답 차이인지, 검증 그룹이 어려운 것인지 추가 조사한다. 낮은 그룹 점수를 지워 높은 행 점수만 택하면 실제 목표를 바꾼 셈이 될 수 있다. 시드 고정은 비교를 재현하지만 어느 목표를 평가할지는 대신 정하지 않는다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 더 높은 점수의 분할이 아니라 실제 예측 상황을 닮은 분할을 고른다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O07-01">7.9 실습문제 · 1번</a> · <a href="#question-V07-03">기초 확인 · 3번</a></p></details>
 <h3 id="theory-07-5">5. 새 범주와 시간 공백은 데이터가 달라졌다는 신호다</h3>
+<p>새 범주가 많아도 프로그램이 멈추지 않게 할 수 있지만, 그 범주에서 잘 예측할지는 별개다. 시간 공백도 행 번호만으로는 드러나지 않는다. 실행 오류를 피하는 처리와 현실의 변화에 대응하는 판단을 분리한다.</p>
 <p>학습 차종이 A·B인데 새 데이터에 C가 많이 등장하면 인코더 오류만 막는 것으로 끝내지 않는다. C가 같은 차종의 다른 표기인지, 신차종인지, 입력 분포가 실제로 변한 것인지 확인한다. 원-핫 인코딩에서 처음 보는 범주를 무시하면 오류 없이 모두 0으로 나타낼 수 있지만, C의 영향을 학습한 것은 아니다. 미지 범주를 따로 두기, 희귀 범주 묶기, 범주의 상하위 관계 이용 등의 방법을 검증해야 한다. 빈도만으로 정답을 추정하거나 새 범주에 임의로 기존 범주의 번호를 붙이지 않는다.</p>
 <p>측정 간격이 보통 0.02초인데 어떤 구간은 4초라면 같은 간격의 한 칸으로 보기 어렵다. 원래 주기로는 4÷0.02=200칸에 해당하기 때문이다. 통신이 중단되었는지, 운행 종료 후 다시 시작했는지, 시각 기록이 중복되거나 거꾸로 갔는지 확인한다. 배열에서 이웃한 행이라는 이유만으로 연속된 구간이라고 가정하면 입력 구간 안의 긴 시간 공백을 놓치게 된다. 필요하면 연속 구간을 나누고 공백 표시나 시간차 특성을 만든다. 보간은 미래 값을 사용할 수 있으므로 예측 시점에 이용 가능한 정보인지 확인한다.</p>
 <p>극단적인 정답값은 단위·입력 오류인지 실제로 꼬리가 긴 분포인지 먼저 조사하고, 평가 지표에 미치는 영향을 계산한다. 제곱오차는 큰 오차를 훨씬 크게 반영하므로 드문 큰 비용이 전체 점수를 좌우할 수 있다. 로그 변환으로 학습한 뒤 원래 단위로 평가해야 하는지, 음수 정답에서도 변환이 정의되는지 확인한다. 큰 값이라는 이유만으로 지우면 실제로 중요한 실패 사례를 학습에서 제외할 수 있다.</p>
-<p>분포 그래프를 읽는 방법은 <a href="https://www.itl.nist.gov/div898/handbook/eda/section3/histogra.htm" target="_blank" rel="noopener noreferrer">NIST histogram</a>, 예측 시점에 알 수 없는 정보를 사용해서 생기는 문제는 <a href="https://scikit-learn.org/stable/common_pitfalls.html#data-leakage" target="_blank" rel="noopener noreferrer">scikit-learn data leakage</a>, 그룹별·시간별 분할의 목적은 <a href="https://scikit-learn.org/stable/modules/cross_validation.html" target="_blank" rel="noopener noreferrer">cross-validation guide</a>를 참고한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O07-03">7.9 실습문제 · 3번</a> · <a href="#question-O07-04">7.9 실습문제 · 4번</a> · <a href="#question-O07-05">7.9 실습문제 · 5번</a></p></details>
+<p>분포 그래프를 읽는 방법은 <a href="https://www.itl.nist.gov/div898/handbook/eda/section3/histogra.htm" target="_blank" rel="noopener noreferrer">NIST histogram</a>, 예측 시점에 알 수 없는 정보를 사용해서 생기는 문제는 <a href="https://scikit-learn.org/stable/common_pitfalls.html#data-leakage" target="_blank" rel="noopener noreferrer">scikit-learn data leakage</a>, 그룹별·시간별 분할의 목적은 <a href="https://scikit-learn.org/stable/modules/cross_validation.html" target="_blank" rel="noopener noreferrer">cross-validation guide</a>를 참고한다.</p>
+<p>미지 범주가 표기 오타라면 표기 정리가 필요하고 실제 신차종이면 분포 변화 대응이 필요하다. 긴 시각 공백도 삭제·보간 전에 운행이 끊겼는지 조사한다. 입력 배열이 일정 길이여도 실제 간격이 달라졌다면 시계열 모델이 받는 시간 의미가 달라진다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 오류 없이 표현되는 것과 학습한 의미가 같은 것은 다르다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O07-03">7.9 실습문제 · 3번</a> · <a href="#question-O07-04">7.9 실습문제 · 4번</a> · <a href="#question-O07-05">7.9 실습문제 · 5번</a></p></details>
 30:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-07","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-07","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$37"}}]]}]
 31:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 32:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-38:T2b6a,
+38:T6114,
 <span class="section-anchor" id="71" aria-hidden="true"></span>
+<p>3강에서 열·행의 구조가 맞는지 봤다면 이번에는 그 데이터가 현실의 누구를 언제 기록했는지 묻는다. 탐색의 산출물은 그래프 개수가 아니라 “어떤 현상을 보았고 다음 무엇을 확인할 것인가”라는 판단이다.</p>
 
 <h3 id="72-eda">7.2 EDA의 목적</h3>
+<p>차량 열 대가 각 백 번 기록된 1000행과 서로 다른 차량 1000대의 한 번 기록은 행 수는 같다. 하지만 새 차량을 예측할 근거의 폭은 다르다. 탐색적 데이터 분석(EDA)은 이 차이를 확인하고 아래의 모델·전처리·분할 선택으로 이어 가는 과정이다.</p>
 <p>데이터 탐색은 가능한 모든 그래프를 그리는 절차가 아니다. 다음 사항을 빠르게 결정하기 위한 과정이다.</p>
 <ol>
 <li>문제 유형: 회귀, 이진분류, 다중분류, 다중 레이블 분류, 다중출력 중 무엇인가?</li>
@@ -169,7 +196,10 @@ assert np.isclose(overall, -25 / 29) and np.isclose(within_a, 1.)
 <li>기준 모델: 선형모델, 트리, MLP, CNN1D 중 무엇을 먼저 실행할 것인가?</li>
 <li>평가 지표: 지표 계산에 필요한 예측값이 클래스 번호인가, 확률인가, 연속값인가?</li>
 </ol>
+<p>회귀는 연속적인 크기, 이진·다중분류는 정답 종류 하나, 다중 레이블은 동시에 참일 수 있는 여러 항목, 다중출력은 출력값 여러 개를 예측한다. 문제 유형은 저장 자료형보다 정답의 의미로 판단한다. 검증은 학습에 직접 쓰지 않은 자료로 새 상황의 성능을 점검하는 과정이며, 실제 사용이 새로운 차량인지 같은 차량의 미래인지에 맞추어 나눈다.</p>
+<p>모델을 고르기 전에 “점수 계산에 무엇을 넣는가”도 확인한다. 양성 확률로 순위를 재는 AUC에 이미 0·1로 잘라 버린 클래스만 넣으면 확률 순위 정보가 사라진다. 반대로 제출이 클래스라면 확률을 클래스 번호로 바꾸는 마지막 단계가 필요하다.</p>
 <h3 id="73">7.3 데이터 사전 만들기</h3>
+<p>고장 전에 경보를 내고 싶은데 수리 후 판정표를 입력으로 주면 아주 높은 점수를 얻을 수 있다. 하지만 실제 고장 전에는 그 열이 없다. 데이터 사전은 열 이름을 번역하는 문서가 아니라 “이 값은 예측 순간에 존재했는가”를 기록하는 문서다.</p>
 <p>열마다 아래 표를 최소한으로 작성한다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="7강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
 <thead>
@@ -221,7 +251,12 @@ assert np.isclose(overall, -25 / 29) and np.isclose(within_a, 1.)
 </tr>
 </tbody></table></div>
 <p>정답 열을 실수로 입력에 넣는 경우에만 데이터 누수가 생기는 것은 아니다. 예측 시점 이후에 생성되는 열, 정답을 집계한 열, 전체 기간의 통계, 같은 개체의 미래 기록을 입력에 사용해도 누수가 생긴다.</p>
+<p>표의 timestamp는 시각 자체이지만 어떤 시간대인지, 기록 시각인지 실제 측정 시각인지 확인해야 한다. repair_result는 정답과 비슷하다는 이유만이 아니라 생성 시각이 늦다는 이유로 누수를 의심한다. temp의 3% 결측도 무작위 통신 실패인지 고온 센서 정지인지에 따라 의미가 다르다. vehicle_id는 묶음 구분에 필요할 수 있지만 새 차량에서는 학습 때의 이름을 외워도 도움이 없을 수 있다.</p>
+<blockquote>
+<p><strong>핵심 기억:</strong> 이름·단위·생성 시각·사용 가능성까지 적어야 입력으로 써도 되는지 판단할 수 있다.</p>
+</blockquote>
 <h3 id="74-eda">7.4 변수 하나씩 살펴보기</h3>
+<p>온도가 대부분 20 근처인데 한 값이 2000이라면 센서 고장·단위 오류·실제 사건 중 무엇인지 확인해야 한다. 평균 하나만 보면 이런 드문 값을 놓치거나 극단값에 중심이 끌릴 수 있다. 아래 요약은 분포의 여러 위치와 빈칸을 함께 보여 준다.</p>
 <p>수치형 변수에서는 값이 모인 위치, 퍼진 정도, 분포의 비대칭 정도, 극단값을 살펴본다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-07-1">복사</button></div><pre id="code-07-1" tabindex="0" aria-label="7강 PYTHON 예시 1"><code class="language-python">summary = train[num_cols].describe(
     percentiles=[0.01, 0.05, 0.25, 0.5, 0.75, 0.95, 0.99]
@@ -237,7 +272,10 @@ print(summary.sort_values("missing_rate", ascending=False).head(20))
     print("test-only categories:", list(unseen)[:10])
 </code></pre></div>
 <p>[함정] <code>nunique</code>가 행 수에 가깝다고 무조건 버려야 할 ID는 아니다. 제품 코드나 시계열을 구분하는 키가 유용한 정보일 수 있다. 반대로 정답과 일대일로 대응하는 식별자를 이용하면 모델이 정답을 외우는 누수가 생길 수 있다. 그룹별로 데이터를 나누어 검증해 판단한다.</p>
+<p>첫 코드의 percentiles는 정렬했을 때 1%·5%·25% 등 위치의 값을 요청한다. .T는 통계 이름을 열로, 입력 열 이름을 행으로 바꾸어 비교하기 쉽게 한다. isna().mean()은 빈칸 표시 True를 1로 평균하여 결측률을 만든다. 예컨대 [False,True,False,False]는 1/4=25%다. nunique(dropna=False)는 결측 상태도 고유값 계산에 포함한다. 마지막 정렬은 결측률이 높은 열부터 보고 앞 20개만 출력한다.</p>
+<p>두 번째 코드는 범주별 빈도를 세고, test에 있으나 train에 없는 종류만 집합 차이로 구한다. 미지 범주가 많으면 표기 오류인지 실제 새 집단인지 확인한다. 빈도를 세어 오류를 막았다고 그 범주의 효과를 학습한 것은 아니다. 요약 결과마다 “확인할 가설”을 하나 붙여야 다음 작업으로 이어진다.</p>
 <h3 id="75-target-eda">7.5 정답 데이터 살펴보기</h3>
+<p>입력만 정리하고 정답 의미를 놓치면 올바른 손실함수도 고를 수 없다. 수리비가 원인지 만 원인지, 0이 무수리인지 미기록인지, 고장 번호 2가 크기인지 종류인지부터 확인하자. 예측할 y의 의미가 모델 출력의 형태와 평가 기준을 정한다.</p>
 <p>회귀:</p>
 <ul>
 <li>범위, 0/음수 가능 여부</li>
@@ -255,7 +293,10 @@ print(summary.sort_values("missing_rate", ascending=False).head(20))
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-07-3">복사</button></div><pre id="code-07-3" tabindex="0" aria-label="7강 PYTHON 예시 3"><code class="language-python">print(train[TARGET].value_counts(dropna=False, normalize=True))
 print(pd.crosstab(train["vehicle_id"], train[TARGET]).head())
 </code></pre></div>
+<p>value_counts(normalize=True)는 종류별 개수를 전체 중 비율로 바꾼다. y=[0,0,0,1]이면 0은 75%, 1은 25%다. dropna=False는 정답 결측도 보이게 하지만 이것을 정상 클래스로 사용해도 된다는 뜻은 아니다. crosstab은 행의 차량별로 열의 정답 종류를 세어 어느 차량에 특정 정답만 몰렸는지 확인한다.</p>
+<p>연속 정답에서 이 코드를 그대로 실행하면 값마다 거의 한 번씩 나와 읽기 어려울 수 있어 범위·분위수·분포 요약을 우선한다. 여러 정답 열은 단위와 평가 가중치가 다를 수 있다. 로그 변환 후보라면 log1p(y)=ln(1+y)의 실수 정의역 y&gt;−1도 확인하고, 평가 때 어떤 단위로 되돌릴지 정한다.</p>
 <h3 id="76-eda">7.6 두 변수의 관계와 상관 살펴보기</h3>
+<p>온도 하나로는 고장을 알기 어렵고 압력 하나로도 어렵지만 “고온이면서 고압”일 때 위험할 수 있다. 각각의 상관만으로 두 열을 버리면 이 조합을 놓친다. 상관은 두 값의 직선 관계를 요약하는 수치이지 모델이 사용할 모든 관계의 목록은 아니다.</p>
 <p>상관관계는 선형 관계를 짐작하는 단서이지 특성의 유용성을 최종 판단하는 기준이 아니다. 트리나 신경망은 비선형 관계와 특성 간 상호작용을 학습할 수 있다. 정답과의 상관계수가 지나치게 1에 가까운 열은 오히려 데이터 누수를 의심한다.</p>
 <p>범주형 변수와 정답의 관계:</p>
 <ul>
@@ -263,7 +304,10 @@ print(pd.crosstab(train["vehicle_id"], train[TARGET]).head())
 <li>분류: 범주별 클래스 비율과 최소 샘플 수</li>
 </ul>
 <p>희귀 범주의 정답 평균은 표본 수가 작아 불안정하다. 정답 평균으로 범주를 바꾸는 타깃 인코딩에서는 현재 학습 묶음 밖의 정보가 섞이기 쉽다.</p>
+<p>x=[−1,0,1],y=x²=[1,0,1]에서는 상관이 0이어도 제곱 관계가 완전하다. 범주 A가 두 행에서 모두 고장이고 B가 200행 중 100행 고장이라면 비율은 100%와 50%지만 근거의 표본 수는 크게 다르다. 작은 A의 평균을 안정적인 규칙처럼 사용하지 않는다.</p>
+<p>타깃 인코딩은 범주를 그 범주의 정답 평균 같은 수치로 바꾸는 방법이다. 현재 행의 정답을 평균에 넣고 그 행의 입력으로 사용하면 정답이 되돌아 들어간다. 따라서 8강에서 내부 학습 묶음을 나누어 자기 정답을 빼고 만드는 과정을 배운다. 높은 상관은 원인의 증거가 아니라 데이터 생성·시각·그룹 차이를 조사할 단서다.</p>
 <h3 id="77-group-eda">7.7 그룹별·시간별로 살펴보기</h3>
+<p>같은 차량의 인접 측정은 차체·운전자·센서를 공유하므로 완전히 독립인 표본으로 보기 어렵다. 시간 정렬이 되어 있어도 1초 간격 기록 사이에 하루의 공백이 끼어 있을 수 있다. 그룹과 시간을 함께 보는 이유는 같은 배열 한 칸이 실제로 같은 간격을 뜻하는지 확인하기 위해서다.</p>
 <div class="code-shell"><div class="code-toolbar"><span>PYTHON 예시</span><button type="button" data-copy-target="code-07-4">복사</button></div><pre id="code-07-4" tabindex="0" aria-label="7강 PYTHON 예시 4"><code class="language-python">group_stats = train.groupby("vehicle_id", observed=True).agg(
     n=(TARGET, "size"),
     target_mean=(TARGET, "mean"),
@@ -281,8 +325,16 @@ print(group_stats.describe())
 <li>행이 이미 시간순인가?</li>
 <li>결측값이 특정 그룹이나 시간대에 집중되는가?</li>
 </ul>
+<p>groupby는 차량별로 묶는다. agg 안의 n=(TARGET,"size")는 그룹 행 수, target_mean은 정답 평균, start·end는 측정 시각의 처음과 끝을 만든다. observed=True는 범주형 그룹 키에서 실제 관측된 조합을 중심으로 결과를 만드는 설정이다. .describe()는 이렇게 얻은 차량별 통계가 차량 사이에서 얼마나 다른지 요약한다.</p>
+<p>한 차량이 대부분 행을 차지하면 전체 점수가 그 차량에 좌우될 수 있다. 평소 간격 0.02초에서 4초 공백은 200칸 분량이므로 바로 이웃한 행이라고 연속 시퀀스로 묶지 않는다. 운행 종료·통신 누락·시각 오류를 확인하고 연속 구간을 나눈다. 정답 평균은 탐색용 요약이며 실제 입력 특성으로 쓰려면 관측 가능 시각을 다시 검사한다.</p>
 <h3 id="78-eda-split">7.8 데이터 탐색과 분할의 순서</h3>
+<p>검증은 아직 풀어 보지 않은 사례에서 모델의 실력을 보는 것이다. 그런데 검증 자료의 정답까지 살펴 가장 상관이 높은 열을 미리 고르면, 모델 코드가 그 정답을 직접 보지 않아도 사람이 답을 참고해 입력을 골랐다. 전처리와 사람의 선택도 학습 과정에 영향을 준다는 점이 순서를 정하는 이유다.</p>
 <p>표의 구조와 데이터가 생성된 과정은 분할 전 전체 학습 데이터에서 확인해도 된다. 다만 정답을 이용한 특성 선택, 결측값을 채울 통계, 스케일러, PCA, 타깃 인코딩은 분할 후 학습에 쓰는 데이터로만 학습한다. 검증 점수를 반복해서 보며 사람이 특성을 고르는 것도 넓은 의미에서 검증 데이터에 과적합하는 행위다. 최종 후보 수를 제한하고 선택 과정을 기록한다.</p>
+<p>먼저 열의 의미와 데이터 생성 구조로 분할 단위를 정한다. 이후 학습 부분에서만 중앙값·척도·PCA 방향·선택 기준을 구하고 검증에는 저장한 기준을 적용한다. fit은 기준을 정하는 일, transform은 적용하는 일이다. 교차검증에서는 이 과정을 각 학습 묶음 안에서 반복해야 한다.</p>
+<p>행 무작위 분할과 차량별 분할의 AUC가 크게 다르면 새 차량에 대한 일반화보다 차량 특징을 외웠을 가능성을 조사한다. AUC는 양성을 음성보다 높은 점수에 놓는 정도를 요약하며 정확도와 다르다. 점수 차이만으로 누수를 확정할 수는 없지만 ID 역할의 입력과 거의 같은 기록의 양쪽 중복부터 확인할 이유가 된다.</p>
+<blockquote>
+<p><strong>핵심 기억:</strong> “실제로 예측하는 그 순간에 이 정보를 알고 있었는가?”는 코드뿐 아니라 전처리·특성 선택에도 적용한다.</p>
+</blockquote>
 <h3 id="79">7.9 실습문제</h3>
 <p>다음 상황마다 첫 번째로 확인할 항목을 쓰라.</p>
 <ol>
@@ -293,19 +345,51 @@ print(group_stats.describe())
 <li id="question-O07-05" data-question-id="O07-05">회귀 정답의 99%는 0~10인데 최댓값은 100,000이다.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-07-2">분포 요약은 중심, 꼬리, 빈도, 밀도를 구분한다</a> · <a href="#theory-07-5">새 범주와 시간 공백은 데이터가 달라졌다는 신호다</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_8"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li>식별자 역할을 하는 특성이 있는지, 같은 그룹의 행이 학습·검증 양쪽에 섞여 모델이 정답을 외운 것은 아닌지 확인한다. 실제 평가 대상이 새로운 그룹이라면 그룹별 분할이 그 상황을 더 잘 반영한다.</li>
-<li>예측 시점에 이용할 수 있는 열인지, 정답에서 파생되거나 결과를 안 뒤에 생성된 정보인지 확인한다.</li>
-<li>원-핫 인코딩에서 처음 보는 범주를 처리하는 방법, 범주의 의미, 고유 범주 수가 많을 때의 처리 방법, 학습·평가 데이터의 분포 차이를 확인한다.</li>
-<li>주행이 끊긴 것인지 기록이 빠진 구간인지 확인하고, 그 공백을 가로지르는 시계열 구간을 만들지 않도록 연속 구간을 나눈다.</li>
-<li>단위나 입력 오류인지, 실제로 꼬리가 긴 분포인지 확인한다. 무조건 제거하지 말고 평가 지표와 해당 분야의 특성에 따라 값 제한, 로그 변환, 이상치에 덜 민감한 손실함수를 검증한다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 같은 데이터의 행 무작위 분할과 그룹별 분할이 서로 다른 사용 상황을 평가할 수 있다.</p>
+<p><strong>풀이:</strong> 같은 차량 ID·거의 복제된 기록이 양쪽에 있는지 본다. 모델이 차량별 정답 경향을 외울 입력이 있는지 확인하고, 실제 목표가 새 차량인지 같은 차량의 미래인지 정한다. 클래스 비율·그룹 난이도 차이도 조사한다.</p>
+<p><strong>정답:</strong> 식별자 역할을 하는 특성이 있는지, 같은 그룹의 행이 학습·검증 양쪽에 섞여 모델이 정답을 외운 것은 아닌지 확인한다. 실제 평가 대상이 새로운 그룹이라면 그룹별 분할이 그 상황을 더 잘 반영한다.</p>
+<p><strong>왜?</strong> 무작위 분할은 이미 본 차량의 일부를, 그룹 분할은 처음 보는 차량을 평가하게 될 수 있어 점수가 크게 달라질 수 있다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> AUC 0.99가 정확도 99%라는 뜻은 아니다. 점수 차이만으로 누수를 확정하거나 낮은 분할을 버리지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 검증 점수보다 먼저 그 분할이 어떤 미래를 시험하는지 확인한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 매우 높은 상관은 관찰 결과이며 해당 열이 언제 어떻게 생성되었는지가 필요하다.</p>
+<p><strong>풀이:</strong> 정답을 복사·변형한 열인지, 수리·판정 후 생성된 열인지 추적한다. 실제 예측 시점에 그 값을 얻을 수 있는지 확인한 뒤 입력 허용 여부를 정한다.</p>
+<p><strong>정답:</strong> 예측 시점에 이용할 수 있는 열인지, 정답에서 파생되거나 결과를 안 뒤에 생성된 정보인지 확인한다.</p>
+<p><strong>왜?</strong> 미래 결과를 담은 열은 학습 파일에서는 맞지만 실제 예측 때 존재하지 않아 성능을 과장할 수 있다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 상관이 높다는 사실만으로 유용한 원인이나 누수라고 확정하지 않는다. 합법적인 강한 신호도 있을 수 있어 생성 과정을 확인한다.</p>
+<p><strong>한 줄 기억:</strong> 정답과 거의 같은 열은 사용 가능 시각과 생성 근거를 먼저 조사한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 미지 범주가 30%로 드문 예외가 아니라 큰 부분을 차지한다.</p>
+<p><strong>풀이:</strong> 학습·평가의 표기 차이인지 새 차종 등 실제 분포 변화인지 확인한다. 인코더의 unknown 정책과 차원·희소 메모리를 점검하고, 범주 묶기·다른 표현 후보를 적절한 검증으로 비교한다.</p>
+<p><strong>정답:</strong> 원-핫 인코딩에서 처음 보는 범주를 처리하는 방법, 범주의 의미, 고유 범주 수가 많을 때의 처리 방법, 학습·평가 데이터의 분포 차이를 확인한다.</p>
+<p><strong>왜?</strong> 오류를 무시하는 옵션은 실행만 가능하게 할 뿐 새 범주의 예측 효과를 학습해 주지 않기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 임의 기존 번호로 바꾸거나 평가 정답을 써 범주 평균을 만들지 않는다. handle_unknown만으로 문제를 해결했다고 보지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 미지 범주의 처리 코드와 새 집단에 대한 예측 근거를 둘 다 확인한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 행이 이웃한다는 사실과 실제 측정 시간이 연속이라는 조건을 구별한다.</p>
+<p><strong>풀이:</strong> 5초는 평소 0.01초 간격의 500칸에 해당한다. 정렬·중복 시각을 확인하고 운행 단절인지 통신 누락인지 조사한다. 필요하면 연속 구간을 나누고 공백을 가로지르는 창을 만들지 않는다.</p>
+<p><strong>정답:</strong> 주행이 끊긴 것인지 기록이 빠진 구간인지 확인하고, 그 공백을 가로지르는 시계열 구간을 만들지 않도록 연속 구간을 나눈다.</p>
+<p><strong>왜?</strong> 동일 시간 간격을 기대하는 입력에서 긴 공백을 한 칸처럼 다루면 시간 의미가 달라진다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 무조건 보간하면 미래 관측을 써 누수가 될 수 있다. 행 번호만 보고 길이 T인 시퀀스를 만들지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 시계열 창은 행 수뿐 아니라 실제 시간 연속성도 검사한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 정답 대부분의 범위와 극단값이 크게 다르지만 오류인지 실제 사건인지는 아직 모른다.</p>
+<p><strong>풀이:</strong> 단위·입력 기록을 먼저 확인한다. 유효한 큰 비용이라면 MSE에서 큰 오차가 제곱되어 점수를 지배할 수 있음을 계산하고, 값 제한·로그·강건 손실 후보를 같은 평가 조건으로 비교한다.</p>
+<p><strong>정답:</strong> 단위나 입력 오류인지, 실제로 꼬리가 긴 분포인지 확인한다. 무조건 제거하지 말고 평가 지표와 해당 분야의 특성에 따라 값 제한, 로그 변환, 이상치에 덜 민감한 손실함수를 검증한다.</p>
+<p><strong>왜?</strong> 드문 큰 값이 중요한 실패 사건이면 삭제가 목표 분포 자체를 바꿀 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 99% 범위 밖이라는 이유만으로 삭제하지 않는다. 로그 변환은 정의역과 원래 단위로의 역변환·평가 조건을 확인한다.</p>
+<p><strong>한 줄 기억:</strong> 극단값은 오류 확인 후 의미와 지표를 기준으로 처리한다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="710">7.10 완료 기준</h3>
+<p>체크하기 전에 아래 행동을 해설 없이 직접 수행한다. 막힌 항목은 앞 절의 작은 예로 돌아가 입력 숫자를 바꾸어 다시 설명한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="07-1"><span>임의 데이터에서 10분 안에 데이터 사전을 만든다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="07-2"><span>데이터 누수가 의심되는 열과 데이터를 나눌 단위를 먼저 표시한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="07-3"><span>모든 그래프 옆에 “그래서 무엇을 바꿀지” 한 줄을 쓴다.</span></label></li>
 </ul>
+<p>관찰한 현상마다 확인할 원인과 사용할 전처리 후보를 정했다면 다음 강의에서 그 변환을 계산한다. 첫 확인 질문을 곧바로 자동 삭제·변환 명령으로 바꾸지 않는 것이 중요하다.</p>
 
 
 33:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$38"}}]

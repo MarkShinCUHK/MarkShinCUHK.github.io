@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/32","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/32":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/32":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","32"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/32","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/32"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/32"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/32","_N_T_/layout","_N_T_/learn/32","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/32"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/32","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/32":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/32":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","32"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/32","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/32"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/32"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/32","_N_T_/layout","_N_T_/learn/32","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/32"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -41,7 +41,7 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 24:["$","li","34",{"data-current":false,"children":["$","a",null,{"href":"/hdat-ds-study-hub/learn/34/","children":["34",". ","21일 학습 계획·최종 암기표·준비 상태 점검"]}]}]
 25:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-32-1",{"children":[["$","a",null,{"href":"#visual-32-1","children":"먼저 떠올릴 장면"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-32-1",{"children":["$","a",null,{"href":"#topic-32-1","children":"구현 상태를 나누어 보기"}]}],["$","li","topic-32-2",{"children":["$","a",null,{"href":"#topic-32-2","children":"여덟 문제를 ‘숫자를 바꾸는 문제’로 뭉뚱그리지 않기"}]}]]}]]}]]}],["$","li","visual-32-2",{"children":[["$","a",null,{"href":"#visual-32-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",4,"개"]}],["$","ul",null,{"children":[["$","li","topic-32-3",{"children":["$","a",null,{"href":"#topic-32-3","children":"로버스트라는 이름보다 무엇을 남기는지 보기"}]}],["$","li","topic-32-4",{"children":["$","a",null,{"href":"#topic-32-4","children":"여덟 주제의 기초 말"}]}],["$","li","topic-32-5",{"children":["$","a",null,{"href":"#topic-32-5","children":"LSTM 배열에서 우연히 같은 숫자에 속지 않기"}]}],["$","li","topic-32-6",{"children":["$","a",null,{"href":"#topic-32-6","children":"닮은 요청에서 달라지는 반환물"}]}]]}]]}]]}],["$","li","visual-32-3",{"children":[["$","a",null,{"href":"#visual-32-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-32-4",{"children":[["$","a",null,{"href":"#visual-32-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-32-7",{"children":["$","a",null,{"href":"#topic-32-7","children":"스케일링·이동 평균 검산"}]}],["$","li","topic-32-8",{"children":["$","a",null,{"href":"#topic-32-8","children":"분위수와 시간 복원을 직접 계산하기"}]}]]}]]}]]}],["$","li","visual-32-5",{"children":[["$","a",null,{"href":"#visual-32-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-32-9",{"children":["$","a",null,{"href":"#topic-32-9","children":"경계 입력 고르기"}]}],["$","li","topic-32-10",{"children":["$","a",null,{"href":"#topic-32-10","children":"여덟 주제의 경계에서 예상값을 먼저 정하기"}]}]]}]]}]]}],["$","li","visual-32-6",{"children":[["$","a",null,{"href":"#visual-32-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-32-11",{"children":["$","a",null,{"href":"#topic-32-11","children":"순서·범위·테스트 한계"}]}],["$","li","topic-32-12",{"children":["$","a",null,{"href":"#topic-32-12","children":"시간 동점·NaN·모델 모드를 따로 확인하기"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-32","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-32-1",{"children":["$","a",null,{"href":"#theory-32-1","children":"중앙값·분위수·IQR을 코드 전에 계산하기"}]}],["$","li","theory-32-2",{"children":["$","a",null,{"href":"#theory-32-2","children":"과거 이동 통계는 정렬·이동·집계·복원 순으로 계산한다"}]}],["$","li","theory-32-3",{"children":["$","a",null,{"href":"#theory-32-3","children":"CE를 log-sum-exp로 바꾸는 전 과정을 이해하기"}]}],["$","li","theory-32-4",{"children":["$","a",null,{"href":"#theory-32-4","children":"분할 검사기는 잘못된 분할을 수정하는 함수가 아니다"}]}],["$","li","theory-32-5",{"children":["$","a",null,{"href":"#theory-32-5","children":"중앙 자르기의 내림 규칙과 모드 보존"}]}],["$","li","theory-32-6",{"children":["$","a",null,{"href":"#theory-32-6","children":"그룹 합성곱의 공간 크기·채널 수·매개변수 수 구분하기"}]}],["$","li","theory-32-7",{"children":["$","a",null,{"href":"#theory-32-7","children":"명세에 맞는 MLP는 배열 크기와 동작 모드를 모두 검사한다"}]}],["$","li","theory-32-8",{"children":["$","a",null,{"href":"#theory-32-8","children":"층 단방향 LSTM의 반환값을 끝까지 따라가기"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","321",{"children":["$","a",null,{"href":"#321","children":"응시 규칙"}]}],["$","li","322-1-robust-scaling",{"children":["$","a",null,{"href":"#322-1-robust-scaling","children":"문제 1 — 선택한 열의 로버스트 스케일링"}]}],["$","li","323-2-causal-group-rolling-feature",{"children":["$","a",null,{"href":"#323-2-causal-group-rolling-feature","children":"문제 2 — 그룹별 과거 이동평균 특성"}]}],["$","li","324-3-stable-softmax-cross-entropy",{"children":["$","a",null,{"href":"#324-3-stable-softmax-cross-entropy","children":"문제 3 — 수치적으로 안정적인 소프트맥스 교차엔트로피"}]}],["$","li","325-4-split-validator",{"children":["$","a",null,{"href":"#325-4-split-validator","children":"문제 4 — 데이터 분할 검사기"}]}],"$L35","$L36","$L37","$L38","$L39","$L3a"]}],"$L3b","$L3c"]]}]
 26:["$","$L3d",null,{}]
-27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+27:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
 3e:T51b4,<h3 id="visual-32-1">먼저 떠올릴 장면</h3>
 <h4 id="topic-32-1">구현 상태를 나누어 보기</h4>
 <p>작은 함수 여덟 개를 작성할 때 모두 처음부터 끝까지 순서대로 풀어야 할까? 첫 문제가 익숙해도 NaN과 원본 보존에서 오래 막힐 수 있고, 뒤쪽에 있는 모델의 배열 크기 문제는 금방 검산할 수도 있다. 모의고사는 구현 능력과 함께 “현재 어디까지 확실히 끝났는가”를 관리하는 연습이다. 작성, 일반 테스트 통과, 경계 테스트 통과를 서로 다른 상태로 표시한다.</p>
@@ -188,41 +188,56 @@ print(out)
 3a:["$","li","3211",{"children":["$","a",null,{"href":"#3211","children":"오답 기록"}]}]
 3b:["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}]
 3c:["$","ol",null,{"children":[["$","li","visual-32-7",{"children":["$","a",null,{"href":"#visual-32-7","children":"스스로 확인하기"}]}],["$","li","visual-32-8",{"children":["$","a",null,{"href":"#visual-32-8","children":"정답과 이유"}]}],["$","li","visual-32-9",{"children":["$","a",null,{"href":"#visual-32-9","children":"더 읽을 공식 자료"}]}]]}]
-46:T3962,<h3 id="theory-32-1">1. 중앙값·분위수·IQR을 코드 전에 계산하기</h3>
-<p>정렬된 유효값 x₀≤…≤xₙ₋₁에서 선형 보간 q 분위수의 위치는 r=(n−1)q다. r이 정수면 그 위치 값, 아니면 아래 위치 a=floor(r), 소수 부분 α=r−a를 사용해 Q(q)=(1−α)x_a+αx_(a+1)로 계산한다. 중앙값은 q=0.5, Q1은 0.25, Q3는 0.75다. IQR=Q3−Q1이고 로버스트 스케일링(robust scaling)은 (x−중앙값)/IQR이다. 이름에 robust가 붙었다고 이상치를 삭제하거나 0–1로 제한하는 것은 아니다. <a href="https://pandas.pydata.org/docs/reference/api/pandas.Series.quantile.html" target="_blank" rel="noopener noreferrer">pandas Series.quantile</a>의 기본 interpolation은 linear다.</p>
+46:T4a9b,<h3 id="theory-32-1">1. 중앙값·분위수·IQR을 코드 전에 계산하기</h3>
+<p>정렬한 네 값 사이에서 25% 지점을 찾으면 항상 실제 값 하나를 고르는 것은 아니다. 기본 선형 보간은 이웃한 두 값 사이를 정해진 비율만큼 이동한다. 아래의 위치 0.75는 인덱스 0과 1 사이를 75% 이동한다는 뜻이다. <strong>분위수 위치와 그 위치에서의 데이터값을 분리</strong>해서 계산한 뒤 IQR로 나눈다. 결과가 1보다 크다는 이유만으로 틀렸다고 생각하지 말자. 로버스트 스케일링은 0~1 범위를 보장하는 변환이 아니다.</p>
+<p>정렬된 유효값 x₀≤…≤xₙ₋₁에서 선형 보간 q 분위수의 위치는 r=(n−1)q다. r이 정수면 그 위치 값, 아니면 아래 위치 a=floor(r), 소수 부분 α=r−a를 사용해 Q(q)=(1−α)x_a+αx_(a+1)로 계산한다. 중앙값은 q=0.5, Q1은 0.25, Q3는 0.75다. IQR=Q3−Q1이고 로버스트 스케일링(robust scaling)은 (x−중앙값)/IQR이다. 이름에 robust가 붙었다고 이상치를 삭제하거나 0–1로 제한하는 것은 아니다.</p>
+<p><a href="https://pandas.pydata.org/docs/reference/api/pandas.Series.quantile.html" target="_blank" rel="noopener noreferrer">pandas Series.quantile</a>의 기본 interpolation은 linear다.</p>
 <p>손계산 A: [0,4,8,20]의 중앙값은 6이다. Q1 위치 0.75는 0과 4 사이의 75% 지점이므로 3이고, Q3 위치 2.25는 8과 20 사이의 25% 지점이므로 11이다. IQR=8이고 결과는 [−0.75,−0.25,0.25,1.75]다. 최댓값 20을 변환한 값도 1보다 크다. 유효값 [9,9]와 NaN 하나로 이루어진 열은 IQR이 0이므로 모의고사의 명세에 따라 유효값만 0으로 바꾸고 NaN은 유지한다. 모든 값이 NaN이면 분위수 자체가 NaN이므로 그대로 두는 규칙을 따른다.</p>
 <p>계산할 열만 복사본에서 변경하고 원래 인덱스, 열 순서, 지정하지 않은 열은 보존한다. 인덱스가 [0,1,2]인지 문자열인지는 통계값과 관계없다. columns가 빈 목록이면 아무 열도 바꾸지 않은 복사본을 반환한다. 없는 열 이름을 자동으로 만드는 것은 명시된 KeyError 발생 조건을 어긴다. 선택할 열의 숫자형 여부, NaN 처리, 중복 열 허용 여부 등 입력 조건이 문항에 없다면 먼저 확인한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O32-01">32.2 문제 1 — 선택한 열의 로버스트 스케일링</a> · <a href="#question-V32-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-32-2">2. 과거 이동 통계는 정렬·이동·집계·복원 순으로 계산한다</h3>
-<p>한 그룹의 시간순 값이 v₀,v₁,…이면 행 i의 과거 평균은 v_i를 제외한 직전 최대 W행에 있는 유효값의 평균이다. <code>shift(1).rolling(W,min_periods=1).mean()</code>으로 현재 위치에 직전 값을 옮긴 뒤, 현재 값을 제외한 구간의 평균을 구한다. min_periods=1은 유효값이 하나만 있어도 평균을 계산한다는 조건이다. NaN은 평균에서 제외하고 구간 안에 유효값이 하나도 없으면 NaN으로 두는 규칙을 사용한다. 여기서 ‘최대 W개’는 과거 W행을 뜻하며, NaN을 건너뛰어 더 오래된 유효값 W개를 찾는다는 뜻이 아니다.</p>
+<p>직전 두 행의 값이 [NaN,11]이면 유효값 평균은 11이다. 더 오래된 값까지 찾아 유효값 두 개를 채우는 작업은 아니다. 아래 문제는 <strong>과거 W행 안의 유효값</strong>을 평균하므로 창을 정하는 일과 NaN을 제외하는 일을 순서대로 해야 한다. 현재 행을 빼기 위한 shift, 그룹 안의 rolling, 원래 순서로 돌리는 위치 번호는 각각 다른 조건을 지킨다. 하나가 빠져도 작은 예제에서는 우연히 맞을 수 있으니 따로 테스트한다.</p>
+<p>한 그룹의 시간순 값이 v₀,v₁,…이면 행 i의 과거 평균은 v_i를 제외한 직전 최대 W행에 있는 유효값의 평균이다. <code>shift(1).rolling(W,min_periods=1).mean()</code>으로 현재 위치에 직전 값을 옮긴 뒤, 현재 값을 제외한 구간의 평균을 구한다. min_periods=1은 유효값이 하나만 있어도 평균을 계산한다는 조건이다. NaN은 평균에서 제외하고 구간 안에 유효값이 하나도 없으면 NaN으로 두는 규칙을 사용한다.</p>
+<p>여기서 ‘최대 W개’는 과거 W행을 뜻하며, NaN을 건너뛰어 더 오래된 유효값 W개를 찾는다는 뜻이 아니다.</p>
 <p>손계산 B: 시간순 값이 [5,NaN,11,17]이고 W=2이면 과거 평균은 [NaN,5,5,11]이다. 마지막 구간은 이전 두 행 [NaN,11]이므로 평균은 11이다. 과거의 유효값 두 개 [5,11]을 찾아 8로 만들지 않는다. rolling을 먼저 적용하면 마지막 값에 현재 값 17이 포함되어 (11+17)/2=14가 되므로 다른 함수가 된다. 그룹 경계를 넘지 않도록 각 그룹 안에서 shift와 rolling을 적용한다.</p>
 <p>입력 순서가 섞여 있으면 원래 위치 번호 0…N−1을 별도 열에 저장하고 그룹, 시간, 원래 위치 순으로 안정 정렬한다. 이 모의고사에서는 시각이 같을 때 원래 행 순서가 사건 순서라고 정의한다. 실제로 동시에 발생해 서로의 정보를 사용할 수 없는 사건이라면 같은 시각을 제외하는 별도의 규칙이 필요하다. 계산 후 원래 위치 번호로 되돌리고 원래 인덱스를 복원한다. 인덱스 라벨은 중복될 수 있으므로 위치 번호처럼 쓰지 않는다. 새 열이나 임시 열의 이름이 기존 열과 겹치는 경우도 명세에 맞게 처리한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O32-02">32.3 문제 2 — 그룹별 과거 이동평균 특성</a> · <a href="#question-V32-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-32-3">3. CE를 log-sum-exp로 바꾸는 전 과정을 이해하기</h3>
+<p>정답 클래스의 점수가 높을수록 손실은 작아져야 하지만, 큰 지수값을 직접 계산하면 숫자가 넘칠 수 있다. softmax 확률에 -log를 취한 식을 <strong>지수 합의 로그에서 정답 점수를 빼는 식</strong>으로 바꾸는 것이 첫 단계다. 그다음 공통 최댓값을 빼어 계산 범위를 낮춘다. 아래에서는 큰 m을 더했다가 다시 빼는 과정도 피하는 이유를 확인한다. 수학적으로 같은 식이라도 유한한 자릿수로 계산하는 컴퓨터에서는 오차가 다를 수 있다.</p>
 <p>샘플 i의 변환 전 점수 zᵢⱼ에서 정답 클래스 yᵢ의 확률은 exp(zᵢ,yᵢ)/Σⱼexp(zᵢⱼ)다. NLL은 이 확률에 음의 자연로그를 취한 값이므로 ℓᵢ=logΣⱼexp(zᵢⱼ)−zᵢ,yᵢ다. 배치 손실은 (ℓ₁+…+ℓN)/N이다. 클래스 확률을 합산하는 축과 샘플 손실을 평균하는 축은 다르다. 정답 클래스 번호 yᵢ를 확률처럼 log에 넣지 않는다.</p>
-<p>mᵢ=maxⱼzᵢⱼ로 두면 logΣexp(z)=m+logΣexp(z−m)이다. 지수 범위를 줄여 오버플로를 피하는 식이다. 손실까지 안정적으로 계산하려면 logΣexp(z−m)−(z_y−m)처럼 정답의 변환 전 점수에서도 최댓값을 빼는 방식을 쓸 수 있다. 매우 큰 공통값에서 m을 더했다가 빼면 부동소수점의 유효숫자가 소실되는 상쇄(cancellation) 오차가 커질 수 있기 때문이다. 모든 유한한 실수 입력에서 완벽한 정확도를 보장하지는 않지만, 단순히 exp를 계산하는 원래 식보다 안정적이다. <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.logsumexp.html" target="_blank" rel="noopener noreferrer">SciPy logsumexp</a>는 같은 수치적 목적을 설명한다.</p>
-<p>설명용 예로 변환 전 점수가 [900,900+log2,900+log7]이고 정답 클래스가 2인 경우를 보자. 공통값을 빼고 지수값의 비율을 구하면 [1,2,7]이고 정답 확률은 7/10, NLL=−log0.7≈0.357이다. 정답이 0이면 −log0.1≈2.303으로 달라진다. 5개 클래스의 점수가 모두 같다면 log5≈1.609다. 정수 정답의 범위는 0≤y&lt;C이며 N=0이면 평균할 샘플이 없으므로 이 문항에서는 ValueError를 발생시킨다. 계산 전에 배열 크기가 [N,C]와 [N]인지, C≥1인지, 변환 전 점수가 유한한지, 정답이 정수형인지 검사한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O32-03">32.4 문제 3 — 수치적으로 안정적인 소프트맥스 교차엔트로피</a></p></details>
+<p>mᵢ=maxⱼzᵢⱼ로 두면 logΣexp(z)=m+logΣexp(z−m)이다. 지수 범위를 줄여 오버플로를 피하는 식이다. 손실까지 안정적으로 계산하려면 logΣexp(z−m)−(z_y−m)처럼 정답의 변환 전 점수에서도 최댓값을 빼는 방식을 쓸 수 있다. 매우 큰 공통값에서 m을 더했다가 빼면 부동소수점의 유효숫자가 소실되는 상쇄(cancellation) 오차가 커질 수 있기 때문이다. 모든 유한한 실수 입력에서 완벽한 정확도를 보장하지는 않지만, 단순히 exp를 계산하는 원래 식보다 안정적이다.</p>
+<p><a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.logsumexp.html" target="_blank" rel="noopener noreferrer">SciPy logsumexp</a>는 같은 수치적 목적을 설명한다.</p>
+<p>설명용 예로 변환 전 점수가 [900,900+log2,900+log7]이고 정답 클래스가 2인 경우를 보자. 공통값을 빼고 지수값의 비율을 구하면 [1,2,7]이고 정답 확률은 7/10, NLL=−log0.7≈0.357이다. 정답이 0이면 −log0.1≈2.303으로 달라진다. 5개 클래스의 점수가 모두 같다면 log5≈1.609다. 정수 정답의 범위는 0≤y&lt;C이며 N=0이면 평균할 샘플이 없으므로 이 문항에서는 ValueError를 발생시킨다.</p>
+<p>계산 전에 배열 크기가 [N,C]와 [N]인지, C≥1인지, 변환 전 점수가 유한한지, 정답이 정수형인지 검사한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O32-03">32.4 문제 3 — 수치적으로 안정적인 소프트맥스 교차엔트로피</a></p></details>
 <h3 id="theory-32-4">4. 분할 검사기는 잘못된 분할을 수정하는 함수가 아니다</h3>
+<p>학습 행 번호가 [0,2], 검증이 [1,3]이면 행 번호는 겹치지 않는다. 하지만 0번과 1번이 같은 차량이면 새 차량 평가 조건은 어길 수 있다. <strong>행의 겹침, 그룹의 겹침, 시간의 역전</strong>은 세 가지 별도 검사다. 또 이 문제는 검사를 요구하므로 겹친 행을 지우거나 순서를 바꿔 자동 수리하지 않는다. 허용하면 True, 어기면 정해진 예외라는 반환 역할까지 명세의 일부로 읽는다.</p>
 <p>행 인덱스 집합 A와 B가 겹치지 않는다는 것은 A∩B가 빈집합이라는 뜻이다. 그러나 서로 다른 행도 같은 차량에 속할 수 있으므로 그룹 조건은 별도로 group[A]∩group[B]를 검사한다. 시간 조건도 별개로 max(time[A])≤min(time[B])를 확인한다. 이 모의고사는 같은 시각을 허용하는 ≤ 규칙을 사용한다. 반드시 과거여야 한다면 &lt;라는 다른 규칙이 된다.</p>
 <p>예를 들어 학습 행 [0,2]와 검증 행 [1,3]은 서로 겹치지 않는다. 그룹이 [A,A,B,C]이면 학습 그룹 {A,B}와 검증 그룹 {A,C}는 A에서 겹친다. 시간이 [1,2,5,6]이면 학습 데이터의 최댓값은 5, 검증 데이터의 최솟값은 2이므로 시간 조건도 만족하지 못한다. 행 인덱스만 비교하면 두 문제를 모두 놓친다.</p>
-<p>각 인덱스 배열은 1차원 정수형이고 비어 있지 않아야 하며, 중복이 없고 값이 0부터 n_rows−1 범위에 있어야 한다. groups/times는 원본 자료의 전체 행 수와 길이가 같은 1차원 배열이어야 하며 결측값 처리 규칙을 정한다. 유효하지 않으면 명시된 예외를 발생시키고 유효하면 True를 반환한다. 문제에서 검사를 요구했는데 겹친 행을 삭제해 수정된 분할을 반환하면 다른 역할을 구현한 것이다. 같은 차량의 미래를 예측하는 문제에서는 그룹 중복 금지와 시간 조건을 항상 함께 적용할 필요는 없다. 다만 두 옵션을 제공했다면 이 함수의 명세대로 모두 검사한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O32-04">32.5 문제 4 — 데이터 분할 검사기</a></p></details>
+<p>각 인덱스 배열은 1차원 정수형이고 비어 있지 않아야 하며, 중복이 없고 값이 0부터 n_rows−1 범위에 있어야 한다. groups/times는 원본 자료의 전체 행 수와 길이가 같은 1차원 배열이어야 하며 결측값 처리 규칙을 정한다. 유효하지 않으면 명시된 예외를 발생시키고 유효하면 True를 반환한다. 문제에서 검사를 요구했는데 겹친 행을 삭제해 수정된 분할을 반환하면 다른 역할을 구현한 것이다. 같은 차량의 미래를 예측하는 문제에서는 그룹 중복 금지와 시간 조건을 항상 함께 적용할 필요는 없다.</p>
+<p>다만 두 옵션을 제공했다면 이 함수의 명세대로 모두 검사한다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O32-04">32.5 문제 4 — 데이터 분할 검사기</a></p></details>
 <h3 id="theory-32-5">5. 중앙 자르기의 내림 규칙과 모드 보존</h3>
+<p>너비 10에서 너비 5를 남기면 버릴 칸은 5개라 좌우를 정수 칸으로 똑같이 나눌 수 없다. 왼쪽 시작점을 내리기로 정하면 여백은 왼쪽 2, 오른쪽 3이다. 이는 오차가 아니라 문제의 반올림 규칙을 따른 결과다. 아래에서는 <strong>시작 좌표, 제외되는 끝 좌표, 결과 채널 수</strong>를 따로 계산한다. RGB·RGBA·흑백을 모두 같은 모양으로 바꾸면 ‘원래 모드를 유지하라’는 조건을 지키지 못한다.</p>
 <p>원본 너비가 W, 높이가 H이고 자를 크기가 w·h이면 left=floor((W−w)/2), upper=floor((H−h)/2)다. box=(left,upper,left+w,upper+h)이고 오른쪽·아래쪽 끝은 포함하지 않는다. W=10,H=7,w=5,h=4이면 left=2,upper=1이므로 x 인덱스 2부터 6, y 인덱스 1부터 4를 가져온다. 좌우 여백은 2와 3이다. 원본과 자를 영역의 크기 차이가 홀수이므로 왼쪽 좌표를 내림하여 얻은 결과다.</p>
 <p>RGB이면 [h,w,3], RGBA이면 [h,w,4], 흑백 L이면 [h,w] 크기의 배열이 된다. 모드 보존은 모든 입력을 RGB로 바꾸라는 뜻이 아니다. 자를 크기가 양의 정수이고 원본보다 작거나 같아야 한다는 입력 규칙을 먼저 확인한다. 1×1 자르기도 유효하며 원본과 크기가 같으면 시작 좌표는 0이다. <a href="https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.crop" target="_blank" rel="noopener noreferrer">Pillow crop</a>의 좌표 순서를 NumPy의 행·열 순서와 혼동하지 않는다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O32-05">32.6 문제 5 — PIL 이미지 중앙 자르기</a></p></details>
 <h3 id="theory-32-6">6. 그룹 합성곱의 공간 크기·채널 수·매개변수 수 구분하기</h3>
+<p>입력 채널 4개를 그룹 2개로 나누면 출력 필터 하나가 읽는 입력은 2채널이다. 출력 10개도 두 그룹에 나뉘어 각 묶음에서 계산한다. 공간 크기는 이 연결 묶음 수가 아니라 커널·패딩·보폭·팽창률로 정한다. 아래 예에서는 <strong>가로·세로를 각각 계산한 결과와 채널 연결 수를 따로 센 값</strong>을 구분하자. 나누어떨어지지 않는 채널 수를 정수 나눗셈으로 버림 처리하면 유효하지 않은 명세를 다른 모델로 바꾼다.</p>
 <p>Conv2d의 높이와 너비는 각각 O=floor((I+2P−D(K−1)−1)/S)+1로 계산한다. kernel·stride·padding·dilation이 int이면 두 축에 같은 값을 적용하고, 길이가 2이면 높이와 너비 순으로 각각 적용한다. 이 모의고사에서 h,w,in_ch,out_ch,groups는 각각 하나의 정수다. padding만 0을 허용하며 길이, 채널 수, kernel, stride, dilation, groups는 양수여야 한다.</p>
 <p>groups=G는 입력 채널과 출력 채널을 G개 묶음으로 나눠 각 출력이 Ci/G개 입력에만 연결되게 한다. 따라서 Ci와 Co는 모두 G로 나누어떨어져야 하며 파라미터 수는 Co×(Ci/G)×Kh×Kw+(bias가 있으면 Co)다. 출력 위치마다 새 커널을 학습하지 않으므로 H/W를 이 식에 곱하지 않는다. 깊이별 합성곱(depthwise)은 G=Ci인 특별한 경우다.</p>
 <p>설명용 계산: 입력이 12×15이고 Ci=4,Co=10,G=2,K=(3,5),S=(2,2),P=(1,2),D=1이면 출력 높이는 floor((12+2−3)/2)+1=6, 너비는 floor((15+4−5)/2)+1=8이다. 편향이 있으면 파라미터는 10×2×3×5+10=310개다. G=3으로 바꾸면 4와 10 모두 3으로 나누어떨어지지 않으므로 정수 나눗셈으로 억지로 계산하지 않고 입력을 거절한다. 출력 크기가 0 이하인 설정도 유효한 층이 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O32-06">32.7 문제 6 — 합성곱 계산기</a></p></details>
 <h3 id="theory-32-7">7. 명세에 맞는 MLP는 배열 크기와 동작 모드를 모두 검사한다</h3>
+<p>Linear→BN→ReLU와 Linear→ReLU→BN은 출력 크기가 같아도 계산 순서가 다른 함수다. shape 테스트만으로는 층 순서까지 맞았는지 알 수 없다. 또 BN은 학습 모드의 [1,C] 입력에서 실패할 수 있지만 평가 모드에서는 저장 통계를 사용할 수 있다. 아래 문제에서는 <strong>정해진 구조를 확인하는 검사와 각 모드에서의 실행 검사를 함께</strong> 수행한다. 오류를 피하려고 필수 BN을 삭제하면 명세 구현에 성공한 것이 아니다.</p>
 <p>Linear는 마지막 차원 I를 O로 바꾸고 나머지 축은 유지한다. 지정한 Linear→BatchNorm→ReLU→Dropout의 순서를 바꾸면 다른 함수가 된다. BatchNorm(C)는 γ·β를 각각 C개 학습하며 누적 통계는 학습 파라미터가 아니다. Dropout은 학습 모드에서만 무작위로 값을 제거한다. 마지막 출력으로 변환 전 점수를 요구한다면 소프트맥스를 덧붙이지 않는다.</p>
 <p>설명용 구조 10→12→5에서 첫 Linear가 편향을 포함해 10×12+12=132개, BN이 24개, 마지막 Linear가 12×5+5=65개이면 총 221개다. ReLU·Dropout은 0개다. 입력 [4,10]은 [4,5]가 된다. BatchNorm1d가 [B,C]를 받는 학습 모드에서는 B=1만으로 채널 분산을 추정하기 어려워 오류가 날 수 있다. 학습 모드의 예시 입력은 B=2로 만들고 평가 모드에서는 B=1도 따로 검사한다. 이를 해결하려고 지정된 BN을 삭제하면 명세를 정확히 구현하는 문제의 조건을 바꾸게 된다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O32-07">32.8 문제 7 — 정확한 MLP 명세</a></p></details>
 <h3 id="theory-32-8">8. 2층 단방향 LSTM의 반환값을 끝까지 따라가기</h3>
-<p>여기서 B는 배치 크기, T는 시퀀스 길이, F는 입력 특성 수, H는 은닉 상태 크기, K는 클래스 수다. batch_first=True인 2층 단방향 LSTM은 [B,T,F]를 받아 크기가 [B,T,H]인 시점별 출력과 (h_n,c_n)을 반환한다. 투영을 쓰지 않는 이 명세에서 h_n과 c_n은 각각 [2,B,H]다. 앞의 2는 시점 수가 아니라 층 수다. batch_first는 시점별 출력의 B/T 순서만 바꾸며 은닉 상태와 셀 상태의 첫 축을 B로 바꾸지 않는다. <a href="https://docs.pytorch.org/docs/2.7/generated/torch.nn.LSTM.html" target="_blank" rel="noopener noreferrer">PyTorch LSTM</a>의 반환 규칙을 따른다.</p>
+<p>이전 시점과 다음 시점으로 이어지는 길이가 T이고, 한 시점의 계산을 위아래로 쌓은 깊이가 2층이다. 두 방향을 구분하면 h_n의 첫 2가 왜 시간 길이가 아닌지 알 수 있다. 아래에서는 <strong>전체 시점의 출력 → 마지막 시점 선택 → 클래스 점수</strong>를 따라간다. B와 층 수가 모두 2인 예에서는 숫자만으로 축을 구분할 수 없으므로 각 자리에 배치·층·은닉 크기라는 이름을 붙여 계산하자.</p>
+<p>여기서 B는 배치 크기, T는 시퀀스 길이, F는 입력 특성 수, H는 은닉 상태 크기, K는 클래스 수다. batch_first=True인 2층 단방향 LSTM은 [B,T,F]를 받아 크기가 [B,T,H]인 시점별 출력과 (h_n,c_n)을 반환한다. 투영을 쓰지 않는 이 명세에서 h_n과 c_n은 각각 [2,B,H]다. 앞의 2는 시점 수가 아니라 층 수다. batch_first는 시점별 출력의 B/T 순서만 바꾸며 은닉 상태와 셀 상태의 첫 축을 B로 바꾸지 않는다.</p>
+<p><a href="https://docs.pytorch.org/docs/2.7/generated/torch.nn.LSTM.html" target="_blank" rel="noopener noreferrer">PyTorch LSTM</a>의 반환 규칙을 따른다.</p>
 <p>다대일 방식은 sequence[:,−1,:]로 마지막 시점의 [B,H]를 고른 뒤 Linear(H,K)에 연결해 [B,K]를 만든다. B=1이어도 [1,K]를 유지한다. 고정 길이·단방향이고 패딩을 사용하지 않는 현재 조건에서는 h_n[−1]과 마지막 시점의 출력이 대응한다. 하지만 양방향이나 가변 길이 패딩에도 같은 결론을 그대로 적용해서는 안 된다. dropout=0.2는 두 층 사이의 출력에 적용된다. 모든 시점의 셀 상태를 20% 지우거나 마지막 헤드에 Dropout을 추가하라는 뜻이 아니다.</p>
 <p>설명용 예에서 B=2,T=7,F=4,H=9,K=6이면 시점별 출력은 [2,7,9], h_n/c_n은 [2,2,9], 마지막 시점을 고른 결과는 [2,9], 변환 전 점수는 [2,6] 크기다. 배열 크기에서 숫자 2가 우연히 같아도 각 축의 의미를 따로 적는다. 은닉 상태와 셀 상태를 외부에서 받지 않는 명세이므로 PyTorch의 기본 초기 상태를 사용한다. 무엇을 구현해야 하는지 이해한 뒤 이어지는 8문제를 빈 함수부터 풀어 본다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O32-08">32.9 문제 8 — Many-to-One LSTM</a> · <a href="#question-V32-03">기초 확인 · 3번</a></p></details>
 3f:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-32","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-32","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$46"}}]]}]
 40:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 41:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-47:T5616,
+47:T8971,
 <h3 id="321">32.1 응시 규칙</h3>
+<p>입력을 보고 예상 출력을 먼저 적을 수 있어야 함수의 정확성을 스스로 검사할 수 있다. 필기 이론 32 강의 작은 예를 이해한 뒤 아래 문제만 보고 빈 함수부터 시작한다. 모범답안은 첫 구현과 공개 테스트를 만든 다음 연다.</p>
 <ul>
 <li>권장 70분. Problem 시간을 남기는 훈련이다.</li>
 <li>아래 “문제”만 보고 먼저 푼다.</li>
@@ -230,6 +245,7 @@ print(out)
 <li>답안과 비공개 테스트 예시는 풀이 후 확인한다.</li>
 <li>실제 시험처럼 함수·클래스 이름을 정확히 지킨다.</li>
 </ul>
+<p>70 분/8 문항=8.75분이지만 모두 같은 시간이 걸릴 필요는 없다. 함수 이름·반환·원본 보존은 한 번의 예제로 확인되지 않아 일반 입력과 경계 입력을 각각 만든다. 같은 크기인데 값이 틀린 경우와 값은 맞는데 인덱스·dtype가 틀린 경우를 구별해 기록한다.</p>
 <span id="question-O32-01" data-question-id="O32-01" class="section-anchor"></span><h3 id="322-1-robust-scaling">32.2 문제 1 — 선택한 열의 로버스트 스케일링</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-32-1">중앙값·분위수·IQR을 코드 전에 계산하기</a></p></details>
 <p><code>robust_scale_columns(df, columns)</code>를 작성하라.</p>
 <p>요구사항:</p>
@@ -263,7 +279,14 @@ print(out)
         else:
             out[c] = (s - med) / iqr
     return out
-</code></pre></div><p>비공개 테스트 예시: 비연속 인덱스, 빈 columns, 상수 열과 NaN의 혼합, 모든 값이 NaN인 열, 호출 전후 원본 비교, 존재하지 않는 열.</p></div></details>
+</code></pre></div><p>비공개 테스트 예시: 비연속 인덱스, 빈 columns, 상수 열과 NaN의 혼합, 모든 값이 NaN인 열, 호출 전후 원본 비교, 존재하지 않는 열.</p><p><strong>문제 1 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 지정한 수치 열만 변환해야 한다. 분위수는 선형 보간으로 계산하고, 원본·NaN·인덱스는 보존해야 한다.</p><p><strong>풀이:</strong> copy로 결과 표를 만든다. 없는 열이 요청되면 KeyError를 발생시키고, 전부 NaN인 열은 그대로 둔다. 유효값이 [0,4,8,20]이면 중앙값은 6, Q1=3, Q3=11, IQR=8이다. 따라서 변환값은 [−0.75,−0.25,0.25,1.75]다. 상수 열에서는 s.where(s.isna(),0.0)로 결측이 아닌 값만 0으로 만든다.</p><p><strong>정답:</strong> 제시한 robust_scale_columns가 요구된 DataFrame을 반환한다. columns가 비어 있으면 값이 같은 복사본을 반환하고, 상수 열 [9,9,NaN]은 [0,0,NaN]으로 바꾼다. 지정하지 않은 열·인덱스·열 순서는 그대로다.</p><p><strong>왜?</strong> 중앙값으로 위치를 옮기고 가운데 50%의 폭인 IQR로 크기를 맞춘다. 원본 대신 복사본을 바꾸어 호출자의 자료를 보존한다.</p><p><strong>헷갈리기 쉬운 부분:</strong> robust라는 이름이 이상한 행을 삭제하거나 값을 0~1로 제한한다는 뜻은 아니다. IQR=0인 경우를 별도로 처리하되 NaN까지 0으로 덮어쓰지 않는다.</p><p><strong>한 줄 기억:</strong> 선택한 열에만 (x−중앙값)/IQR을 적용하고, 분모가 0인 경우와 NaN은 명세대로 처리한다.</p></div></details>
+
+
+
+
+
+
+
 
 
 <span id="question-O32-02" data-question-id="O32-02" class="section-anchor"></span><h3 id="323-2-causal-group-rolling-feature">32.3 문제 2 — 그룹별 과거 이동평균 특성</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-32-2">과거 이동 통계는 정렬·이동·집계·복원 순으로 계산한다</a></p></details>
@@ -309,7 +332,14 @@ print(out)
     work = work.sort_values(order_col, kind="stable")
     work.index = original_index
     return work.drop(columns=drop_cols)
-</code></pre></div><p>비공개 테스트 예시: 행이 하나뿐인 그룹, 같은 시각, 순서가 섞인 입력, NaN, 문자열 인덱스. 각 그룹의 첫 행은 과거 관측이 없으므로 과거 평균이 NaN이다.</p></div></details>
+</code></pre></div><p>비공개 테스트 예시: 행이 하나뿐인 그룹, 같은 시각, 순서가 섞인 입력, NaN, 문자열 인덱스. 각 그룹의 첫 행은 과거 관측이 없으므로 과거 평균이 NaN이다.</p><p><strong>문제 2 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 같은 그룹 안의 과거 최대 window 행이며 현재 값은 제외한다. 같은 시각의 앞 행은 먼저 관측된 것으로 정했다.</p><p><strong>풀이:</strong> 원래 위치를 충돌 없는 임시 열에 저장하고 필요하면 시간을 datetime으로 변환한다. 그룹·시간·원래 위치 순으로 정렬한 뒤 shift(1)→rolling(window,min_periods=1)→mean을 적용한다. 시간순 값이 [5,NaN,11,17]이고 window=2이면 결과는 [NaN,5,5,11]이다. 마지막에는 원래 위치 순으로 돌아가 원래 인덱스를 복구하고 임시 열을 지운다.</p><p><strong>정답:</strong> 제시한 add_past_mean이 새 value_col+"_past_mean" 열을 가진 복사본을 반환한다. 각 그룹의 첫 행은 과거 관측이 없어 새 열의 값이 NaN이며, 원래 행 순서와 인덱스를 보존한다.</p><p><strong>왜?</strong> shift가 현재 관측을 제외하고 그룹별 transform이 계산 값을 해당 행에 다시 대응시키기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 과거 2행에 NaN이 있다고 더 오래된 유효값을 찾아 2개를 채우지 않는다. 인덱스 라벨은 중복될 수 있어 원래 위치 번호를 대신하지 못한다.</p><p><strong>한 줄 기억:</strong> 정렬 →그룹 안 shift→rolling→원래 순서 복원이다.</p></div></details>
+
+
+
+
+
+
+
 
 
 <span id="question-O32-03" data-question-id="O32-03" class="section-anchor"></span><h3 id="324-3-stable-softmax-cross-entropy">32.4 문제 3 — 수치적으로 안정적인 소프트맥스 교차엔트로피</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-32-3">CE를 log-sum-exp로 바꾸는 전 과정을 이해하기</a></p></details>
@@ -337,7 +367,14 @@ print(out)
     logsumexp_shifted = np.log(np.exp(shifted).sum(axis=1))
     correct_shifted = shifted[np.arange(len(z)), y]
     return float(np.mean(logsumexp_shifted - correct_shifted))
-</code></pre></div><p>검산: 모든 logits가 같고 C=4면 CE는 <code>log(4)</code>.</p></div></details>
+</code></pre></div><p>검산: 모든 logits가 같고 C=4면 CE는 <code>log(4)</code>.</p><p><strong>문제 3 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 유한 logits [N,C], 정수 targets [N], N과 C가 1 이상이며 정답 범위는 0 이상 C 미만이다.</p><p><strong>풀이:</strong> 형식·빈 배치·정수형·유한성·정답 범위를 검사한다. 행 최댓값 m을 빼 shifted를 만들고 log(sum(exp(shifted)))에서 같은 행의 정답 위치에 있는 shifted 값을 뺀다. logits가 [900,900+ln(3)]이고 정답 인덱스가 1이면 지숫값의 비는 1:3이다. 정답 확률은 0.75, NLL=−ln(0.75)≈0.288이다. 마지막으로 샘플별 NLL을 평균한다.</p><p><strong>정답:</strong> numpy_cross_entropy는 Python float 스칼라를 반환한다. 모든 점수가 같은 4 클래스는 확률 1/4라 log4≈1.386, 클래스가 하나이고 정답 0이면 0이다.</p><p><strong>왜?</strong> 공통 최댓값을 빼도 확률 비가 같고 가장 큰 지수가 1이 되어 큰 exp의 overflow를 피한다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 정답 인덱스에 log를 취하지 않는다. 클래스 축의 합과 샘플 축의 평균을 바꾸지 않는다. C=0이면 허용된 정답 범위가 없어 오류로 처리된다. 이 안정화 방법도 부동소수점으로 표현할 수 있는 모든 극단 입력에서 완전한 정확도를 보장하지는 않는다.</p><p><strong>한 줄 기억:</strong> 안정화한 log 합에서 정답 점수를 빼고 샘플 평균을 낸다.</p></div></details>
+
+
+
+
+
+
+
 
 
 <span id="question-O32-04" data-question-id="O32-04" class="section-anchor"></span><h3 id="325-4-split-validator">32.5 문제 4 — 데이터 분할 검사기</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-32-4">분할 검사기는 잘못된 분할을 수정하는 함수가 아니다</a></p></details>
@@ -393,7 +430,14 @@ print(out)
         if comparable[tr].max() &gt; comparable[va].min():
             raise ValueError("시간 역전")
     return True
-</code></pre></div><p>[주의] 같은 그룹의 미래를 예측하는 실제 과제에서는 그룹 교집합 금지와 시간 조건을 동시에 강제하지 않을 수 있다. 이 함수는 문제 명세가 두 조건을 모두 요구할 때 사용한다.</p></div></details>
+</code></pre></div><p>[주의] 같은 그룹의 미래를 예측하는 실제 과제에서는 그룹 교집합 금지와 시간 조건을 동시에 강제하지 않을 수 있다. 이 함수는 문제 명세가 두 조건을 모두 요구할 때 사용한다.</p><p><strong>문제 4 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 양의 n_rows, 비어 있지 않은 1 차원 정수 인덱스·중복 없음·범위 조건을 먼저 확인한다. groups/times 옵션을 주면 각각의 조건도 모두 검사한다.</p><p><strong>풀이:</strong> train 인덱스 [0,2]와 valid 인덱스 [1,3]에는 겹치는 행이 없다. 하지만 groups가 [A,A,B,C]라면 양쪽에 그룹 A가 있고, times가 [1,2,5,6]이면 훈련 최대 시각 5가 검증 최소 시각 2보다 커서 시간 조건도 어긴다. 코드는 intersect1d, 그룹 집합의 교집합, 시간의 max/min을 각각 검사한다.</p><p><strong>정답:</strong> 모든 조건이 맞으면 True, 하나라도 틀리면 ValueError다. max(train time)=min(valid time)인 동률은 명시한 ≤규칙에서 통과한다.</p><p><strong>왜?</strong> 행 중복·집단 중복·시간 역전은 서로 다른 실패라 하나의 검사로 대신할 수 없기 때문이다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 검사 요청을 겹친 행 자동 삭제로 바꾸지 않는다. 같은 차량 미래 예측에서는 그룹 중복을 허용할 수 있지만 이 함수에 두 옵션을 주면 둘 다 요구하는 계약이다.</p><p><strong>한 줄 기억:</strong> 분할을 고치지 말고 행·그룹·시간의 계약을 각각 검사한다.</p></div></details>
+
+
+
+
+
+
+
 
 
 <span id="question-O32-05" data-question-id="O32-05" class="section-anchor"></span><h3 id="326-5-pil-crop">32.6 문제 5 — PIL 이미지 중앙 자르기</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-32-5">중앙 자르기의 내림 규칙과 모드 보존</a></p></details>
@@ -418,7 +462,14 @@ print(out)
     upper = (height - crop_height) // 2
     box = (left, upper, left + crop_width, upper + crop_height)
     return np.asarray(image.crop(box))
-</code></pre></div><p>비공개 테스트 예시: RGB/흑백/RGBA, 원본과 같은 크기, 홀수 크기 차이, 1×1.</p></div></details>
+</code></pre></div><p>비공개 테스트 예시: RGB/흑백/RGBA, 원본과 같은 크기, 홀수 크기 차이, 1×1.</p><p><strong>문제 5 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> PIL 입력, bool 제외 양의 정수 crop 크기, 원본 이내 크기이며 원래 모드를 유지한다.</p><p><strong>풀이:</strong> 원본의 너비가 10, 높이가 7이고 잘라 낼 너비가 5, 높이가 4이면 left=(10−5)//2=2, upper=(7−4)//2=1이다. box=(2,1,7,5)로 x좌표 2<del>6, y좌표 1</del>4를 고른다. PIL의 이미지 크기는 (너비,높이) 순서이고, NumPy 배열의 첫 두 축은 (높이,너비) 순서다.</p><p><strong>정답:</strong> center_crop_array는 원래 모드의 NumPy 배열을 반환한다. 이 예제에서 RGB이면 [4,5,3], RGBA이면 [4,5,4], 흑백 L 모드이면 [4,5]다. 원본과 잘라 낼 크기가 같으면 시작 좌표는 (0,0)이다.</p><p><strong>왜?</strong> 홀수 차이를 양쪽 정수 여백으로 나눌 때 왼쪽·위를 내림하라는 규칙을 따른다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 중앙을 반올림하거나 항상 RGB로 변환하지 않는다. 오른쪽·아래쪽 끝은 포함하지 않아 폭 =right−left다.</p><p><strong>한 줄 기억:</strong> 여백은 내림, 끝은 제외, 모드는 보존한다.</p></div></details>
+
+
+
+
+
+
+
 
 
 <span id="question-O32-06" data-question-id="O32-06" class="section-anchor"></span><h3 id="327-6-convolution">32.7 문제 6 — 합성곱 계산기</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-32-6">그룹 합성곱의 공간 크기·채널 수·매개변수 수 구분하기</a></p></details>
@@ -474,7 +525,14 @@ print(out)
     if bias:
         params += out_ch
     return (int(oh), int(ow)), int(params)
-</code></pre></div></div></details>
+</code></pre></div><p><strong>문제 6 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 길이·채널·groups는 양의 정수, padding만 0 허용, 두 축 설정은 정수 또는 길이 2 쌍이며 채널은 groups로 나누어 떨어져야 한다.</p><p><strong>풀이:</strong> scalar는 각 값의 형식·범위를 검사하고, pair는 높이·너비 설정을 한 쌍으로 통일한다. 입력 높이 12, 너비 15, 입력 채널 4, 출력 채널 10, groups=2, 커널 (3,5), stride=2, padding=(1,2), dilation=1이라고 하자. 출력 높이는 floor((12+2−3)/2)+1=6, 너비는 floor((15+4−5)/2)+1=8이다. 가중치는 10×(4/2)×3×5=300개이고 bias 10개를 더해 총 310개다.</p><p><strong>정답:</strong> 이 예제의 반환은 ((6,8),310)이다. 제시한 conv2d_info는 유효하지 않은 설정·채널/groups 불일치·출력 0 이하를 ValueError로 거절하고 정수 tuple과 정수 매개변수 수를 반환한다.</p><p><strong>왜?</strong> 공간 출력은 커널 시작 위치 수, 가중치 수는 묶음 안 연결된 입력 채널과 공유 커널 수로 결정된다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 출력 H/W를 파라미터 수에 곱하지 않는다. bool을 1처럼 통과시키거나 groups 나눗셈을 잘라서 맞추지 않는다.</p><p><strong>한 줄 기억:</strong> 계약 검사 →두 공간 축 계산 →묶음별 공유 가중치 계산이다.</p></div></details>
+
+
+
+
+
+
+
 
 <span id="question-O32-07" data-question-id="O32-07" class="section-anchor"></span><h3 id="328-7-mlp">32.8 문제 7 — 정확한 MLP 명세</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-32-7">명세에 맞는 MLP는 배열 크기와 동작 모드를 모두 검사한다</a></p></details>
 <p>다음 구조의 <code>ExamMLP</code>를 작성하라.</p>
@@ -504,7 +562,14 @@ print(out)
 
 exam_mlp = ExamMLP()
 assert exam_mlp(torch.zeros(2, 20)).shape == (2, 3)
-</code></pre></div><p>BatchNorm의 훈련 모드에서는 배치 크기 1의 더미 입력에 오류가 날 수 있다. 따라서 샘플 2개로 테스트하거나 <code>.eval()</code>에서 배치 크기 1을 검사한다. CE를 쓸 예정이므로 소프트맥스를 추가하지 않는다.</p></div></details>
+</code></pre></div><p>BatchNorm의 훈련 모드에서는 배치 크기 1의 더미 입력에 오류가 날 수 있다. 따라서 샘플 2개로 테스트하거나 <code>.eval()</code>에서 배치 크기 1을 검사한다. CE를 쓸 예정이므로 소프트맥스를 추가하지 않는다.</p><p><strong>문제 7 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 주어진 7개 층의 순서와 폭, Dropout 비율 0.25를 그대로 사용해야 한다. 마지막 출력은 변환하지 않은 logits다.</p><p><strong>풀이:</strong> 입력 크기는 [B,20]→첫 Linear [B,64]→BN/ReLU/Dropout [B,64]→둘째 Linear [B,32]→ReLU [B,32]→마지막 Linear [B,3]으로 바뀐다. 초기화에서 층을 등록하고 forward에서 self.network(x)를 실행한다. 더미 입력 [2,20]을 넣어 반환값의 크기가 [2,3]인지 확인한다.</p><p><strong>정답:</strong> 제시한 ExamMLP가 요구한 구조다. 학습 매개변수 수도 검산하면 첫 Linear 1,344개+BN 128개+둘째 Linear 2,080개+마지막 Linear 99개=총 3,651개다. ReLU와 Dropout에는 학습 매개변수가 없다.</p><p><strong>왜?</strong> 층의 역할과 실행 순서를 지켜야 요구한 동일 함수가 되며 CE가 logits를 받아 내부 확률 변환을 처리한다.</p><p><strong>헷갈리기 쉬운 부분:</strong> 훈련 모드의 [1,64] BN 테스트가 실패한다고 BN을 지우지 않는다. 배치 크기 B=2로 시험하거나 eval 모드에서 B=1을 검사한다. softmax를 추가하는 것도 명세 변경이다.</p><p><strong>한 줄 기억:</strong> 층 목록을 그대로 옮기고 모드별 shape를 검사한다.</p></div></details>
+
+
+
+
+
+
+
 
 
 <span id="question-O32-08" data-question-id="O32-08" class="section-anchor"></span><h3 id="329-8-many-to-one-lstm">32.9 문제 8 — Many-to-One LSTM</h3><details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-32-8">2층 단방향 LSTM의 반환값을 끝까지 따라가기</a></p></details>
@@ -534,10 +599,18 @@ assert exam_mlp(torch.zeros(2, 20)).shape == (2, 3)
 
 exam_lstm = ExamLSTM(6, 32, 4)
 assert exam_lstm(torch.zeros(3, 10, 6)).shape == (3, 4)
-</code></pre></div><p>패딩을 포함한 가변 길이 입력은 이 명세에 없다. 패킹 처리를 임의로 추가하지 않는다.</p></div></details>
+</code></pre></div><p>패딩을 포함한 가변 길이 입력은 이 명세에 없다. 패킹 처리를 임의로 추가하지 않는다.</p><p><strong>문제 8 해설</strong></p><p><strong>먼저 무엇을 봐야 하나?</strong> 패딩 없는 고정 길이 입력이고, 2층 단방향 LSTM이다. 투영은 없으며 batch_first=True, 층 사이 Dropout 비율은 0.2다.</p><p><strong>풀이:</strong> 입력 [3,10,6]은 LSTM에서 시점별 [3,10,32]와 상태 두 개를 반환한다. 외부 상태를 받지 않아 기본 0 상태를 사용한다. sequence[:,−1,:]로 [3,32]를 고르고 Linear32→4로 [3,4] logits를 만든다.</p><p><strong>정답:</strong> 제시한 ExamLSTM이 요구한 크기 [B,n_classes]를 반환한다. 예제의 h_n과 c_n은 각각 [2,3,32]이고, B=1일 때도 최종 분류 출력은 [1,4]로 배치 축을 유지한다.</p><p><strong>왜?</strong> 다대일 분류에서는 시퀀스 여러 시점을 읽고 하나의 분류 결과를 낸다. 이 명세는 단방향 LSTM이 마지막 시점까지 읽은 표현을 분류에 사용하도록 정했다.</p><p><strong>헷갈리기 쉬운 부분:</strong> batch_first가 h_n/c_n을 [B,층,H]로 바꾸지는 않는다. dropout은 두 LSTM 층 사이이며 최종 head에 추가하는 것이 아니다. 가변 길이 packing을 임의 추가하지 않는다.</p><p><strong>한 줄 기억:</strong> 시퀀스 [B,T,H]에서 마지막 시점 [B,H]을 고른다.</p></div></details>
+
+
+
+
+
+
+
 
 
 <h3 id="3210">32.10 채점표</h3>
+<p>채점은 수식만 맞았는지 확인하지 않는다. 일반 입력 5 점·이름/반환 2.5 점·경계 3 점·보존 2 점은 합 12.5 점이고 8 문항이면 100 점이다. 각 항목의 실패를 독립 테스트로 재현해야 다음 연습에서 정확히 개선할 수 있다.</p>
 <p>각 문항 12.5점:</p>
 <ul>
 <li>일반 입력 정확성 5점</li>
@@ -551,7 +624,9 @@ assert exam_lstm(torch.zeros(3, 10, 6)).shape == (3, 4)
 <li>2차: 6개, 75분 이내</li>
 <li>3차: 7개 이상, 70분 이내</li>
 </ul>
+<p>첫 90분에서 5개,다음 75분에서 6개,최종 70분에서 7개 이상은 단계별 연습 목표이며 실제 시험 배점 보장은 아니다. 아직 함수 원리를 설명하지 못하면 시간을 줄이기 전에 작은 입력의 계산부터 복습한다. 8 문항 중 하나가 완성되지 않았어도 나머지 정의와 노트북은 실행·저장해 남긴다.</p>
 <h3 id="3211">32.11 오답 기록</h3>
+<p>‘틀렸다’만 적으면 같은 오류가 재발한다. [7,7,NaN]을 모두 0으로 만든 실패라면 지키지 못한 요구사항은 NaN 보존, 최소 입력은 그 세 값, assertion은 마지막 값이 여전히 NaN이라는 조건이다. 이런 식으로 다음번에 바로 실행할 작은 반례를 만든다.</p>
 <p>각 실패마다 다음 네 줄을 작성한다.</p>
 <ol>
 <li>지키지 못한 요구사항:</li>
@@ -559,6 +634,7 @@ assert exam_lstm(torch.zeros(3, 10, 6)).shape == (3, 4)
 <li>올바른 동작을 확인할 assertion:</li>
 <li>시험장에서 검색할 키워드:</li>
 </ol>
+<p>검색 키워드는 원인을 좁혀 pandas where NaN 보존 또는 torch LSTM output shape처럼 적는다. 정답 전체를 복사할 주소가 아니라 어떤 도구 규칙을 확인할지 기록하는 것이다. 시험에서 사용할 검색·자료 범위는 당일 허용 규정을 따른다.</p>
 
 
 42:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$47"}}]

@@ -7,7 +7,7 @@
 8:I["9276801271d6",[],"AppRouterScrollTarget",1]
 9:I["593f344dc510",[],"RedirectBoundary",1]
 :HL["/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","style"     ]
-0:{"__route":"route:/learn/11","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/11":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/11":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","11"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/11","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/11"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"350b12fc-d0c0-4daa-820a-a784f693cf20","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/11"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/11","_N_T_/layout","_N_T_/learn/11","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/11"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
+0:{"__route":"route:/learn/11","__interceptionContext":null,"__layoutIds":["layout:/"],"__rootLayout":"/","__sourcePage":"/learn/[lesson]/page","page:/learn/11":"$L1","layout:/":[[[["$","link","css:/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css",{"rel":"stylesheet","precedence":"vite-rsc/importer-resources","href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css","data-rsc-css-href":"/hdat-ds-study-hub/_next/static/css/index.DCs-ihMp.css"}],"$undefined"],["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#07152b"}],["$","meta",null,{"name":"description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"application-name","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"author","content":"HDAT DS Study Hub"}],["$","meta",null,{"name":"robots","content":"index, follow"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:locale","content":"ko_KR"}],["$","meta",null,{"property":"og:url","content":"https://markshincuhk.github.io/hdat-ds-study-hub"}],["$","meta",null,{"property":"og:site_name","content":"HDAT DS Study Hub"}],["$","meta",null,{"property":"og:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"property":"og:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"property":"og:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","meta",null,{"property":"og:image:width","content":"1726"}],["$","meta",null,{"property":"og:image:height","content":"911"}],["$","meta",null,{"property":"og:image:alt","content":"Python 기초부터 HDAT DS까지 배우는 PyTorch 학습실"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"name":"twitter:title","content":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}],["$","meta",null,{"name":"twitter:description","content":"Python이라는 이름만 아는 사람을 위한 입문 10강부터 HDAT-DS 본과정 34강, 필기·실기 모의와 PyTorch 치트시트까지 이어지는 개인 학습실"}],["$","meta",null,{"name":"twitter:image","content":"https://markshincuhk.github.io/hdat-ds-study-hub/og.png"}],["$","link",null,{"rel":"icon","href":"/hdat-ds-study-hub/favicon.svg","type":"image/svg+xml"}],["$","title",null,{"children":"Python 기초부터 HDAT-DS까지 | PyTorch 학습실"}]]}],["$","body",null,{"children":["$","$L2",null,{}]}]]}]],null],"route:/learn/11":[[["$","meta",null,{"charSet":"utf-8"}],null,[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]],["$","$L3",null,{"fallback":"$4","children":["$","$L5",null,{"fallback":"$4","children":["$","$L6",null,{"providerId":"layout:/","segmentMap":{"children":["learn","11"]},"children":["$","$L7",null,{"id":"layout:/","parallelSlots":"$undefined","children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$L6",null,{"providerId":"page:/learn/11","segmentMap":{"children":["__PAGE__"]},"children":["$","$L7",null,{"id":"page:/learn/11"}]}],null]}]}]}]}]}]}],null,null],"__layoutFlags":{"layout:/":"s"},"__artifactCompatibility":{"schemaVersion":1,"graphVersion":"app-route-graph:4ae573f0e2fb5d90","deploymentVersion":"ac3f7d94-5927-4674-a740-e7df8777387d","appElementsSchemaVersion":1,"rscPayloadSchemaVersion":1,"rootBoundaryId":"/","renderEpoch":null},"__renderObservation":{"schemaVersion":1,"output":{"kind":"app-rsc","mountedSlotsFingerprint":null,"renderEpoch":null,"rootBoundaryId":"/","routeId":"route:/learn/11"},"completeness":"partial","boundaryOutcome":{"kind":"unknown"},"requestApis":[{"kind":"connection","status":"unknown"},{"kind":"cookies","status":"unknown"},{"kind":"draftMode","status":"unknown"},{"kind":"headers","status":"unknown"},{"kind":"params","status":"observed"},{"kind":"searchParams","status":"unknown"}],"dynamicFetches":[],"cacheTags":["/learn/11","_N_T_/layout","_N_T_/learn/11","_N_T_/learn/[lesson]/layout","_N_T_/learn/[lesson]/page","_N_T_/learn/layout"],"pathTags":["/learn/11"],"cacheability":"unknown","downgrade":{"target":"freshRender","reasons":[{"code":"CP_DOWNGRADE_CACHEABILITY_UNKNOWN","target":"freshRender"},{"code":"CP_DOWNGRADE_INCOMPLETE_OBSERVATION","completeness":"partial","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"connection","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"cookies","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"draftMode","target":"freshRender"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"headers","target":"freshRender"},{"code":"CP_DOWNGRADE_PUBLIC_REQUEST_API","requestApi":"params","target":"publicVariant"},{"code":"CP_DOWNGRADE_UNKNOWN_REQUEST_API","requestApi":"searchParams","target":"freshRender"}],"fallback":{"kind":"breakerFallback","code":"CP_PRIVATE_DYNAMIC_DOWNGRADE","mode":"renderFresh","scope":"affectedOutput","fields":{"reasonCodes":["CP_DOWNGRADE_CACHEABILITY_UNKNOWN","CP_DOWNGRADE_INCOMPLETE_OBSERVATION","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API","CP_DOWNGRADE_PUBLIC_REQUEST_API","CP_DOWNGRADE_UNKNOWN_REQUEST_API"],"target":"freshRender"}},"isPublicCacheCandidate":false}}}
 a:I["326fe58ccdc4",[],"default",1]
 b:I["1bf83181c527",[],"default",1]
 c:I["6a9a214970dc",[],"default",1]
@@ -42,8 +42,8 @@ f:["$","i",null,{"aria-hidden":"true","children":"✓"}]
 25:["$","details",null,{"className":"mobile-lesson-toc","children":[["$","summary",null,{"children":["이번 강의 목차 ",["$","span",null,{"children":"절과 세부 개념 찾아보기"}]]}],[["$","p",null,{"className":"toc-group-label","children":"그림으로 처음 배우기"}],["$","ol",null,{"children":[["$","li","visual-11-1",{"children":[["$","a",null,{"href":"#visual-11-1","children":"먼저 떠올릴 장면"}],false]}],["$","li","visual-11-2",{"children":[["$","a",null,{"href":"#visual-11-2","children":"낯선 말부터 풀기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-11-1",{"children":["$","a",null,{"href":"#topic-11-1","children":"질문 하나를 왜 고르는가?"}]}]]}]]}]]}],["$","li","visual-11-3",{"children":[["$","a",null,{"href":"#visual-11-3","children":"그림을 읽는 순서"}],false]}],["$","li","visual-11-4",{"children":[["$","a",null,{"href":"#visual-11-4","children":"숫자로 끝까지 따라가기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-11-2",{"children":["$","a",null,{"href":"#topic-11-2","children":"같은 표본을 분할 전후에 어떻게 세는가?"}]}],["$","li","topic-11-3",{"children":["$","a",null,{"href":"#topic-11-3","children":"분류가 맞는 것과 여유 있게 맞는 것은 다르다"}]}]]}]]}]]}],["$","li","visual-11-5",{"children":[["$","a",null,{"href":"#visual-11-5","children":"시험 문제로 연결하기"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",2,"개"]}],["$","ul",null,{"children":[["$","li","topic-11-4",{"children":["$","a",null,{"href":"#topic-11-4","children":"여러 트리를 나란히 배우는 것과 차례로 보완하는 것은 어떻게 다를까?"}]}],["$","li","topic-11-5",{"children":["$","a",null,{"href":"#topic-11-5","children":"C와 gamma는 각각 무엇을 조절할까?"}]}]]}]]}]]}],["$","li","visual-11-6",{"children":[["$","a",null,{"href":"#visual-11-6","children":"자주 헷갈리는 지점"}],["$","details",null,{"className":"toc-topics","children":[["$","summary",null,{"children":["개념별로 찾아보기 · ",1,"개"]}],["$","ul",null,{"children":[["$","li","topic-11-6",{"children":["$","a",null,{"href":"#topic-11-6","children":"트리는 같은 행을 나누는데 거리 모델의 판단은 왜 바뀔까?"}]}]]}]]}]]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#theory-11","children":"필기 이론: 정의에서 풀이까지"}]}],["$","ol",null,{"children":[["$","li","theory-11-1",{"children":["$","a",null,{"href":"#theory-11-1","children":"트리 분할은 불순도를 샘플 수로 가중 평균해 비교한다"}]}],["$","li","theory-11-2",{"children":["$","a",null,{"href":"#theory-11-2","children":"트리는 값의 척도보다 순서에 의존하지만 전처리는 확인해야 한다"}]}],["$","li","theory-11-3",{"children":["$","a",null,{"href":"#theory-11-3","children":"평균의 분산으로 Random Forest의 효과를 이해한다"}]}],["$","li","theory-11-4",{"children":["$","a",null,{"href":"#theory-11-4","children":"부스팅은 현재 예측을 보완하는 모델을 차례로 더한다"}]}],["$","li","theory-11-5",{"children":["$","a",null,{"href":"#theory-11-5","children":"SVM의 C는 마진 위반 비용이다"}]}],["$","li","theory-11-6",{"children":["$","a",null,{"href":"#theory-11-6","children":"gamma는 거리에 따라 RBF 유사도가 줄어드는 속도를 정한다"}]}]]}],["$","p",null,{"className":"toc-group-label","children":["$","a",null,{"href":"#lesson-deeper","children":"수식·코드·실전 확장"}]}],["$","ol",null,{"children":[["$","li","112",{"children":["$","a",null,{"href":"#112","children":"결정트리"}]}],["$","li","113",{"children":["$","a",null,{"href":"#113","children":"손계산"}]}],["$","li","114-baggingrandom-forestextra-trees",{"children":["$","a",null,{"href":"#114-baggingrandom-forestextra-trees","children":"배깅·Random Forest·Extra Trees"}]}],["$","li","115-boosting",{"children":["$","a",null,{"href":"#115-boosting","children":"부스팅"}]}],["$","li","116-svm",{"children":["$","a",null,{"href":"#116-svm","children":"SVM"}]}],["$","li","117",{"children":["$","a",null,{"href":"#117","children":"상황에 따른 모델 선택"}]}],["$","li","118",{"children":["$","a",null,{"href":"#118","children":"실습문제"}]}],["$","li","119",{"children":["$","a",null,{"href":"#119","children":"완료 기준"}]}]]}],["$","p",null,{"className":"toc-group-label","children":"기초 확인과 해설"}],["$","ol",null,{"children":[["$","li","visual-11-7",{"children":["$","a",null,{"href":"#visual-11-7","children":"스스로 확인하기"}]}],["$","li","visual-11-8",{"children":["$","a",null,{"href":"#visual-11-8","children":"정답과 이유"}]}],["$","li","visual-11-9",{"children":["$","a",null,{"href":"#visual-11-9","children":"더 읽을 공식 자료"}]}]]}]]]}]
 26:["$","$L2e",null,{}]
 27:["$","section",null,{"className":"outcome-card","aria-labelledby":"outcome-title","children":[["$","p",null,{"className":"micro-label","children":"학습 목표"}],["$","h2",null,{"id":"outcome-title","children":"이번 강의가 끝나면"}],["$","ul",null,{"children":[["$","li","엔트로피, 지니 불순도, 정보 이득을 계산한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"엔트로피, 지니 불순도, 정보 이득을 계산한다."]}],["$","li","배깅과 부스팅을 구분한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"배깅과 부스팅을 구분한다."]}],["$","li","SVM의 마진, C, 커널, gamma가 무엇을 뜻하는지 설명한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"SVM의 마진, C, 커널, gamma가 무엇을 뜻하는지 설명한다."]}],["$","li","표 데이터 Problem에서 빠르고 성능 좋은 기준 모델을 선택한다.",{"children":[["$","span",null,{"aria-hidden":"true","children":"✓"}],"표 데이터 Problem에서 빠르고 성능 좋은 기준 모델을 선택한다."]}]]}]]}]
-28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차의 “개념별로 찾아보기”로 나누어 읽고, 실습에서 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
-2f:T5f26,<h3 id="visual-11-1">먼저 떠올릴 장면</h3>
+28:["$","aside",null,{"className":"recall-note","children":[["$","strong",null,{"children":"처음 공부한다면"}],["$","p",null,{"children":"처음에는 아래 설명에서 “어떤 문제가 있어서 이 방법이 필요한가”를 따라가세요. 예제의 숫자를 직접 계산하고 결과를 한 문장으로 말할 수 있으면, 필기 이론에서 기호와 유도를 확인하세요. 한 번에 끝까지 읽지 않아도 됩니다. 목차에서 한 절씩 나누어 읽고, 문제를 먼저 풀어 본 뒤 해설의 조건 확인·풀이·정답·이유·주의점을 비교하세요. 막힌 조건은 “풀이에 필요한 이론”으로 돌아가 확인할 수 있습니다."}]]}]
+2f:T6056,<h3 id="visual-11-1">먼저 떠올릴 장면</h3>
 <p>앞 장에서 KNN은 가까운 관측을 찾고 선형모델은 입력들을 가중합했다. 그런데 “온도가 높으면서 진동도 클 때만 고장 가능성이 커진다”처럼 조건이 이어지는 관계라면 질문을 차례로 나누는 모델도 생각할 수 있다. 이번 장에서는 먼저 조건 하나가 어느 행을 양쪽으로 보내는지 보고, 좋은 조건을 선택하는 숫자를 계산한다. 이후 한 트리가 불안정할 때 여러 트리를 결합하는 방법, 마지막으로 두 종류 사이의 여백을 넓히는 SVM을 비교한다.</p>
 <p>정비사가 “온도가 80도보다 높은가?”, “진동이 일정 수준보다 큰가?”를 순서대로 확인하며 고장 유형을 좁히는 장면을 떠올리자. 결정트리는 이와 같은 분할 조건을 데이터에서 찾는다. 여러 정비사의 판단을 합쳐 한 사람의 실수를 보완하듯, 여러 모델의 예측을 결합할 수도 있다. SVM은 이런 단계별 질문 대신 정상과 고장 데이터 사이에 가능한 한 여유 폭이 큰 경계를 찾는 방법이다.</p>
 <p>모델 이름을 외우기 전에 각 방법이 어떻게 예측을 정하는지 살펴보자. 트리는 입력 구간을 나누는 조건, 앙상블은 여러 예측의 결합, SVM은 경계 주변의 여유 폭과 위반 사이의 균형이 핵심이다. 표 형태의 데이터의 첫 모델을 고를 때도 “가장 강한 알고리즘”이라는 말보다 표본 수, 값의 대부분이 0인 정도인 희소성, 직선의 가중합만으로 표현하기 어려운 비선형 관계, 사용 가능한 시간, 출력 조건을 근거로 삼는다.</p>
@@ -93,7 +93,9 @@ assert tree_predictions.mean() == 10.
 <p>부스팅은 앞 모델의 부족한 부분을 다음 모델이 차례로 보완한다. 기울기는 현재 예측을 조금 움직일 때 손실이 얼마나 변하는지 나타낸 값이고, 음의 기울기는 그 손실을 줄이는 쪽의 조절 신호다. 제곱오차를 쓰는 그래디언트 부스팅에서는 다음 트리가 현재 예측과 정답의 차이인 잔차와 연결된 이 신호를 학습한다. 다른 손실함수에서는 이 값이 단순한 y−ŷ와 정확히 같지 않을 수 있으므로 “모든 부스팅은 잔차 회귀”라고 외우지 않는다. 학습률은 새 트리의 예측을 더할 비중을 줄이며, 트리 수와 함께 모델의 복잡도를 조절한다. 규제는 학습 자료에만 지나치게 맞추지 않도록 모델 복잡도에 제약이나 비용을 주는 것이다. XGBoost·LightGBM 등은 계산 효율과 규제를 개선한 구현이지만, 실행 환경에 설치되어 있는지와 사용이 허용되는지는 따로 확인한다.</p>
 <p>제곱손실 부스팅을 숫자로 보자. 정답 [3,7], 현재 예측 [4,4]이면 아직 고칠 차이인 잔차는 [−1,3]이다. 새 작은 트리가 이 잔차를 정확히 예측했다고 가정하고 새 트리 비중을 0.2로 두면 [4,4]+0.2×[−1,3]=[3.8,4.6]이 된다. MSE는 (1²+3²)/2=5에서 (0.8²+2.4²)/2=3.2로 줄었다. 실제 작은 트리가 잔차를 정확히 맞추는 것은 보장하지 않는다. 현재 예측이 있어야 다음 잔차를 구할 수 있어 부스팅에는 순서가 필요하다.</p>
 <h4 id="topic-11-5">C와 gamma는 각각 무엇을 조절할까?</h4>
-<p>SVM의 C는 마진 위반에 부과하는 비용의 크기다. C가 크면 위반 비용이 커져 학습 데이터를 더 엄격하게 맞추려 하고, 작으면 더 많은 위반을 허용하며 규제 효과가 강해지는 경향이 있다. 차원은 샘플을 표현하는 좌표의 수다. 커널이라는 유사도 계산 함수를 사용하면 입력을 더 많은 좌표의 공간으로 직접 펼치지 않고도 변환된 공간의 유사도를 계산할 수 있다. RBF 커널 exp(−γ||x−u||²)에서 x와 u는 비교할 두 입력, ||x−u||²는 두 입력의 제곱거리이고 exp는 자연상수 e의 거듭제곱이다. γ는 거리에 따라 유사도가 줄어드는 속도를 정한다. γ가 크면 조금만 떨어져도 유사도가 빠르게 줄어 각 점 주변에서 세밀한 경계를 만들 수 있고, 작으면 영향 범위가 넓어진다. C·γ의 효과는 데이터와 함께 판단해야 하며, 값을 바꿀 때 경계의 폭이 언제나 한 방향으로 변한다고 보장되지는 않는다.</p>
+<p>SVM의 C는 마진 위반에 부과하는 비용의 크기다. C가 크면 위반 비용이 커져 학습 데이터를 더 엄격하게 맞추려 하고, 작으면 더 많은 위반을 허용하며 규제 효과가 강해지는 경향이 있다. 같은 데이터와 특징 표현을 고정한 표준 소프트 마진 SVM의 정확한 최적해에서는, C를 높이면 특징 공간의 마진이 좁아지거나 그대로일 수 있다. 매번 더 좁아진다는 뜻은 아니다.</p>
+<p>차원은 샘플을 표현하는 좌표의 수다. 커널이라는 유사도 계산 함수를 사용하면 입력을 더 많은 좌표의 공간으로 직접 펼치지 않고도 변환된 공간의 유사도를 계산할 수 있다. RBF 커널 exp(−γ||x−u||²)에서 x와 u는 비교할 두 입력, ||x−u||²는 두 입력의 제곱거리이고 exp는 자연상수 e의 거듭제곱이다.</p>
+<p>γ는 거리에 따라 유사도가 줄어드는 속도를 정한다. γ가 크면 조금만 떨어져도 유사도가 빠르게 줄어 각 점 주변에서 세밀한 경계를 만들 수 있고, 작으면 영향 범위가 넓어진다. γ나 스케일링을 바꾸는 것은 특징 표현이나 거리를 바꾸는 일이므로, C만 바꾼 비교와 구분한다. C·γ가 실제 검증 성능에 미치는 효과는 같은 분할에서 확인한다.</p>
 <p>γ를 바꾸는 것도 거리 하나로 검산한다. 두 점의 거리가 2면 제곱거리는 4다. γ=0.25에서 RBF 유사도는 exp(−1)≈0.368, γ=1에서는 exp(−4)≈0.018이다. 같은 두 점을 훨씬 덜 비슷하게 본다. γ는 유사도가 얼마나 빨리 줄어들지, C는 마진을 위반하는 비용을 얼마나 크게 볼지 정하므로 서로 다른 손잡이다. 큰 C·γ로 훈련 오차가 낮아져도 주변의 잡음까지 따라간 결과인지 검증해야 한다.</p>
 <h3 id="visual-11-6">자주 헷갈리는 지점</h3>
 <p>트리는 주로 순서를 비교하므로 양의 선형 스케일링처럼 순서를 보존하는 변환의 영향을 보통 덜 받는다. 반면 SVM은 거리와 마진이 특성의 단위에 직접 영향을 받으므로 스케일링이 중요하다. 커널 SVM은 표본 수가 많을 때 계산 부담이 클 수 있다. 값의 대부분이 0인 고차원 희소 데이터에서는 선형 SVM부터 시도하는 편이 더 적절할 수 있다. 여러 자료형이 섞인 표 형태의 데이터에서는 트리 앙상블을 비교해 볼 수 있지만, 문자열 범주를 그대로 받을 수 있는지와 결측값을 지원하는지는 구현마다 확인해야 한다.</p>
@@ -112,38 +114,75 @@ assert tree_predictions.mean() == 10.
 2b:["$","$L35",null,{"track":"learn","lesson":"11","goal":"엔트로피, 지니 불순도, 정보 이득을 계산한다."}]
 2c:["$","section",null,{"className":"lesson-finish","aria-labelledby":"finish-title","children":[["$","div",null,{"children":[["$","p",null,{"className":"micro-label","children":"학습 마무리"}],["$","h2",null,{"id":"finish-title","children":"직접 설명하고 실행했다면 완료하세요"}],["$","p",null,{"children":"끝까지 읽었다면 아래 완료 기준도 확인해 보세요. 직접 설명하거나 실행할 수 있는 항목을 표시하면 됩니다."}]]}],["$","$L36",null,{"lessonId":"11"}]]}]
 2d:["$","nav",null,{"className":"lesson-pager","aria-label":"이전 및 다음 강의","children":[["$","a",null,{"href":"/hdat-ds-study-hub/learn/10/","children":[["$","span",null,{"children":"이전 강의"}],["$","strong",null,{"children":["← ",10,". ","선형회귀·로지스틱회귀·KNN"]}]]}],["$","a",null,{"className":"next","href":"/hdat-ds-study-hub/learn/12/","children":[["$","span",null,{"children":"다음 강의"}],["$","strong",null,{"children":[12,". ","군집화·DBSCAN·PCA와 비지도학습"," →"]}]]}]]}]
-37:T2df3,<h3 id="theory-11-1">1. 트리 분할은 불순도를 샘플 수로 가중 평균해 비교한다</h3>
+37:T45fe,<h3 id="theory-11-1">1. 트리 분할은 불순도를 샘플 수로 가중 평균해 비교한다</h3>
+<p>두 자식 중 하나가 완전히 순수하면 좋은 분할일 것 같지만, 샘플 대부분이 여전히 섞인 다른 자식에 남아 있다면 개선은 작을 수 있다. 부모에서 임의의 샘플 하나를 고를 때 어느 자식에 갈지 생각하면 샘플 수 가중치가 자연스럽게 나온다.</p>
 <p>분류 트리의 한 노드에서 클래스 k가 차지하는 비율을 p_k라고 하자. Gini=1−Σ_k p_k²는 서로 다른 종류가 섞인 정도를 나타낸다. 한 종류뿐이면 1−1²=0이다. 두 종류의 비율이 각각 1/2이면 1−1/4−1/4=1/2다. 클래스 이름이 달라도 비율이 같으면 값은 같다. 노드가 순수하다는 것은 그 안의 학습 정답이 한 종류라는 뜻이지, 앞으로 들어올 모든 데이터를 정확히 예측한다는 뜻은 아니다.</p>
 <p>새 예로 부모 노드에 양성 5개·음성 5개가 있다면 Gini는 0.5다. 한 분할이 왼쪽에 양성 2개만, 오른쪽에 양성 3개·음성 5개를 보낸다고 하자. 왼쪽 Gini는 0, 오른쪽은 1−(3/8)²−(5/8)²=30/64=15/32다. 자식 가중 불순도는 (2/10)×0+(8/10)×(15/32)=3/8=0.375, 감소는 0.125다. 자식 크기를 무시하고 두 값을 평균하면 15/64로 잘못 계산한다. 각 관측이 어느 자식에 들어갈 비율로 가중하기 때문이다.</p>
-<p>엔트로피 −Σp_k log₂p_k를 써도 같은 가중 방식으로 감소량을 비교한다. 엔트로피 감소를 정보이득이라 부른다. 회귀 트리는 종류 비율 대신 제곱오차·분산 감소 등을 이용한다. 제곱오차 기준 잎의 상수 예측이 그 잎 정답의 평균인 이유는 Σ(y_i−c)²를 c로 미분하면 2Σ(c−y_i)=0이 되어 c=평균이기 때문이다. 분류 트리도 확률을 낼 수 있으므로 “트리는 항상 정수만 출력”은 틀리다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O11-01">11.8 실습문제 · 1번</a> · <a href="#question-V11-01">기초 확인 · 1번</a></p></details>
+<p>엔트로피 −Σp_k log₂p_k를 써도 같은 가중 방식으로 감소량을 비교한다. 엔트로피 감소를 정보이득이라 부른다. 회귀 트리는 종류 비율 대신 제곱오차·분산 감소 등을 이용한다. 제곱오차 기준 잎의 상수 예측이 그 잎 정답의 평균인 이유는 Σ(y_i−c)²를 c로 미분하면 2Σ(c−y_i)=0이 되어 c=평균이기 때문이다. 분류 트리도 확률을 낼 수 있으므로 “트리는 항상 정수만 출력”은 틀리다.</p>
+<p>분할 전후의 감소를 비교할 때 같은 불순도 기준을 사용한다. 엔트로피와 지니의 절대 수치가 다르다고 어느 것이 더 좋은 모델이라고 결론 내리지 않는다. 분류의 순수함과 새 데이터 정확성도 별개다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 자식 불순도에는 각 자식의 샘플 비중을 곱한다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O11-01">11.8 실습문제 · 1번</a> · <a href="#question-V11-01">기초 확인 · 1번</a></p></details>
 <h3 id="theory-11-2">2. 트리는 값의 척도보다 순서에 의존하지만 전처리는 확인해야 한다</h3>
+<p>10·20·30에서 15를 기준으로 나누면 첫 값만 왼쪽이다. 모두 10으로 나눈 1·2·3에서 1.5를 기준으로 나누어도 같은 행이 왼쪽이다. 이처럼 거리 크기가 바뀌어도 비교 순서가 유지되는 것이 트리의 척도 둔감성을 설명한다.</p>
 <p>트리의 질문 x_j≤t는 숫자의 순서에 따라 행을 양쪽으로 나눈다. 온도 값 [10,20,30]을 0.1배로 바꾸면 [1,2,3]이고 t=15도 1.5로 옮겨 같은 첫 행을 왼쪽으로 보낼 수 있다. 거리 길이는 달라졌지만 분할된 샘플은 같다. 그래서 양의 선형 스케일링은 일반적인 축 정렬 결정트리에 보통 필요하지 않다. 반면 KNN·SVM은 실제 거리나 마진을 쓰므로 단위에 민감하다.</p>
 <p>하지만 트리가 모든 변환에서 같은 결과를 내는 것은 아니다. 값을 [0,1] 범위로 제한해 서로 다른 큰 값들을 모두 1로 합치면, 원래 가능했던 분할을 더는 할 수 없을 수 있다. 반올림이나 결측 대치도 비슷한 영향을 줄 수 있다. 범주형 문자열, 결측값, 희소 배열을 입력으로 받을 수 있는지도 구현마다 다르다. 스케일링이 보통 필요 없다는 말을 데이터 조건을 확인할 필요도 없다는 뜻으로 확대하지 않는다.</p>
-<p>깊은 트리는 적은 표본의 우연한 차이까지 분할하므로 데이터가 조금 바뀌어도 구조가 크게 달라질 수 있다. 이것이 높은 분산이다. 최대 깊이, 리프의 최소 표본 수, 가지치기는 작은 우연에 맞춰 모델이 복잡해지는 것을 제한한다. 학습 데이터의 모든 리프를 순수하게 만들 수 있다고 검증 성능도 좋아지는 것은 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O11-05">11.8 실습문제 · 5번</a></p></details>
+<p>깊은 트리는 적은 표본의 우연한 차이까지 분할하므로 데이터가 조금 바뀌어도 구조가 크게 달라질 수 있다. 이것이 높은 분산이다. 최대 깊이, 리프의 최소 표본 수, 가지치기는 작은 우연에 맞춰 모델이 복잡해지는 것을 제한한다. 학습 데이터의 모든 리프를 순수하게 만들 수 있다고 검증 성능도 좋아지는 것은 아니다.</p>
+<p>일대일 단조 변환의 순서 보존과 값 제한으로 다른 값들을 합치는 변환은 다르다. 두 큰 값을 모두 1로 잘라 버리면 원래 두 값을 나눌 수 있던 기준이 사라진다. 문자열·결측을 직접 처리하는 기능도 알고리즘 이름이 아니라 실제 구현에서 확인한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 보통 스케일링이 불필요하다는 말은 전처리 검사가 불필요하다는 뜻이 아니다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 1개</summary><p><a href="#question-O11-05">11.8 실습문제 · 5번</a></p></details>
 <h3 id="theory-11-3">3. 평균의 분산으로 Random Forest의 효과를 이해한다</h3>
+<p>한 모델이 +3, 다른 모델이 −3만큼 틀리면 평균은 맞지만 둘 다 +3이면 평균도 틀린다. 나무를 많이 늘려도 모두 같은 실수를 하면 개선에 한계가 있다. 이 직관을 모델 수 M과 오차 상관 ρ를 구분한 식으로 확인한다.</p>
 <p>모델 M개의 예측 오차를 E₁,…,E_M이라 하고 각각의 분산이 σ², 서로 다른 두 오차 사이 상관이 동일하게 ρ라고 단순화하자. 평균 오차의 분산은 Var((ΣE_m)/M)=(1/M²)[ΣVar(E_m)+Σ_{m≠j}Cov(E_m,E_j)]다. 같은 분산 가정에서 공분산은 ρσ²이고 대각선 항 M개, 서로 다른 순서쌍 M(M−1)개가 있으므로 σ²/M+(M−1)ρσ²/M=σ²[ρ+(1−ρ)/M]이다.</p>
 <p>각 모델의 분산이 9, 모델 수 M=4, 오차 상관 ρ=0이면 평균 분산은 9/4=2.25다. ρ=0.5면 9[0.5+0.5/4]=5.625, ρ=1이면 9로 줄지 않는다. 모두 같은 실수를 반복하면 평균으로 상쇄되지 않는다는 뜻이다. M을 무한히 늘려도 ρ&gt;0이면 ρσ²라는 부분은 남는다. 나무 수만 늘리는 것과 나무들 사이 상관을 줄이는 것은 서로 다른 역할이다.</p>
-<p>배깅은 원자료에서 복원추출한 부트스트랩 표본들을 만들고, 표본마다 모델을 학습해 평균이나 투표로 결합한다. 복원추출은 같은 행을 여러 번 뽑을 수 있다는 뜻이다. 각 모델이 이전 모델의 예측을 기다릴 필요가 없어 병렬로 학습할 수 있다. 여기서 독립적으로 학습할 수 있다는 것은 서로 겹친 데이터에서 나온 예측 오차까지 통계적으로 완전히 독립이라는 뜻은 아니다. Random Forest는 분할마다 후보 특성을 일부로 제한해 트리들이 매번 같은 유력한 특성에 의존하는 정도를 줄인다. Extra Trees는 분할 기준값도 더 무작위로 선택한다. 부트스트랩 사용 여부는 구현 설정에 따른다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O11-02">11.8 실습문제 · 2번</a> · <a href="#question-O11-03">11.8 실습문제 · 3번</a> · <a href="#question-V11-02">기초 확인 · 2번</a></p></details>
+<p>배깅은 원자료에서 복원추출한 부트스트랩 표본들을 만들고, 표본마다 모델을 학습해 평균이나 투표로 결합한다. 복원추출은 같은 행을 여러 번 뽑을 수 있다는 뜻이다. 각 모델이 이전 모델의 예측을 기다릴 필요가 없어 병렬로 학습할 수 있다. 여기서 독립적으로 학습할 수 있다는 것은 서로 겹친 데이터에서 나온 예측 오차까지 통계적으로 완전히 독립이라는 뜻은 아니다. Random Forest는 분할마다 후보 특성을 일부로 제한해 트리들이 매번 같은 유력한 특성에 의존하는 정도를 줄인다. Extra Trees는 분할 기준값도 더 무작위로 선택한다.</p>
+<p>부트스트랩 사용 여부는 구현 설정에 따른다.</p>
+<p>분산 σ²가 모두 같고 모든 오차 쌍의 상관이 ρ로 같다는 것은 유도를 위한 단순화다. 실제 Random Forest에서 모든 나무의 오차가 정확히 이 조건을 만족한다는 주장이 아니다. 그래도 모델 수 증가와 상관 감소가 다른 두 역할이라는 점은 식에서 분명하게 보인다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 평균의 효과는 개별 모델 수뿐 아니라 함께 틀리는 정도에 달렸다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O11-02">11.8 실습문제 · 2번</a> · <a href="#question-O11-03">11.8 실습문제 · 3번</a> · <a href="#question-V11-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-11-4">4. 부스팅은 현재 예측을 보완하는 모델을 차례로 더한다</h3>
+<p>현재 예측이 실제보다 1 높으면 다음 모델은 −1의 보정을, 3 낮으면 +3의 보정을 배울 수 있다. 같은 답을 새로 맞히게 하는 것이 아니라 지금까지의 답이 놓친 부분을 배우는 것이 순차 개선의 출발점이다.</p>
 <p>그래디언트 부스팅은 현재 예측 F_{m−1}(x)에 새 작은 모델 h_m(x)의 예측을 학습률 ν만큼 줄여 F_m(x)=F_{m−1}(x)+νh_m(x)로 더한다. m은 단계 번호이고 ν는 새 모델의 예측을 더할 비중이다. 새 모델은 현재 손실을 줄이는 음의 기울기 방향을 근사한다. 제곱손실을 0.5(y−F)²로 놓으면 F에 대한 미분은 F−y이고, 음의 미분은 y−F이므로 잔차 회귀가 된다.</p>
 <p>정답 [3,7]에 현재 예측 [4,4]이면 잔차 [−1,3]이다. 새 작은 모델이 잔차를 정확히 예측하고 ν=0.2라면 새 예측은 [4−0.2,4+0.6]=[3.8,4.6]이다. MSE는 (1+9)/2=5에서 (0.64+5.76)/2=3.2로 감소한다. 이 숫자 예는 한 단계의 원리이고 실제 약한 모델이 언제나 잔차를 정확히 맞춘다는 뜻은 아니다.</p>
-<p>앞선 예측이 있어야 다음 잔차를 구할 수 있으므로 부스팅은 단계별로 순서가 있다. 모델을 독립적으로 학습하는 배깅과 다른 점이다. 모든 손실함수에서 음의 기울기가 단순한 잔차 y−ŷ인 것은 아니므로 “모든 부스팅은 같은 잔차 회귀”라고 외우지 않는다. 학습률과 트리 수, 깊이, 규제를 함께 검증하고 잡음이나 반복 검증에 따른 과적합을 조심한다. 여러 모델을 쓴다고 오차가 반드시 줄어드는 것은 아니다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O11-03">11.8 실습문제 · 3번</a> · <a href="#question-V11-02">기초 확인 · 2번</a></p></details>
+<p>앞선 예측이 있어야 다음 잔차를 구할 수 있으므로 부스팅은 단계별로 순서가 있다. 모델을 독립적으로 학습하는 배깅과 다른 점이다. 모든 손실함수에서 음의 기울기가 단순한 잔차 y−ŷ인 것은 아니므로 “모든 부스팅은 같은 잔차 회귀”라고 외우지 않는다. 학습률과 트리 수, 깊이, 규제를 함께 검증하고 잡음이나 반복 검증에 따른 과적합을 조심한다. 여러 모델을 쓴다고 오차가 반드시 줄어드는 것은 아니다.</p>
+<p>ν는 새 모델 기여를 줄이는 학습률이고 m은 단계 번호다. 현재 F가 있어야 다음 학습 대상인 음의 기울기를 구할 수 있어 단계 순서를 바꿀 수 없다. 실제 작은 모델은 보정을 근사하므로 한 번에 정답으로 가지 못할 수 있으며 너무 많은 단계는 잡음까지 맞출 수 있다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> 배깅은 독립 모델 결합, 부스팅은 현재 예측을 본 순차 보완이다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O11-03">11.8 실습문제 · 3번</a> · <a href="#question-V11-02">기초 확인 · 2번</a></p></details>
 <h3 id="theory-11-5">5. SVM의 C는 마진 위반 비용이다</h3>
+<p>정답 부호를 겨우 맞힌 점과 충분히 여유 있게 맞힌 점을 같게 취급하지 않는 분류기를 생각하자. SVM의 마진 조건은 “맞았는가”에 더해 “경계에서 충분히 떨어졌는가”를 요구한다. 비용 C는 이 추가 요구를 얼마나 강하게 지킬지 바꾼다.</p>
 <p>선형 SVM의 점수 s=wᵀx+b, 클래스 표기를 y∈{−1,+1}로 두자. 결정경계는 s=0, 표준 마진선은 s=±1이다. 점에서 경계까지 거리는 |s|/||w||₂이므로 전체 마진 폭은 2/||w||₂다. 같은 경계를 나타내는 식을 아무 배율로 바꿀 수 있어 기능적 점수와 실제 거리를 구분해야 한다. 표준 제약 y_i(wᵀx_i+b)≥1을 두면 ||w||를 줄이는 것이 넓은 마진과 연결된다.</p>
 <p>새 예로 w=[2,0], b=−2이면 경계는 x₁=1이다. 마진선 2x₁−2=±1은 x₁=0.5와 1.5이고 전체 폭은 1이다. 양성 샘플 x=[1.3,4]의 점수는 s=0.6이므로 부호는 맞다. 그러나 힌지 손실(hinge loss)=max(0,1−ys)=0.4가 생긴다. 정답 부호만 맞히는 조건 ys&gt;0과 충분한 마진을 확보하는 조건 ys≥1은 다르다. ys&lt;0이면 잘못 분류한 것이며 손실은 1보다 커질 수 있다.</p>
-<p>대표적인 소프트 마진 목적함수는 0.5||w||²+CΣ_i max(0,1−y_i s_i)다. 첫 항은 마진을 넓히는 규제이고, 둘째 항은 마진 위반 비용이다. C가 크면 위반 비용이 커져 학습 샘플을 더 엄격하게 맞추려 하고, C가 작으면 위반을 더 허용한다. 다만 모든 데이터에서 C를 올릴 때 마진 폭이 반드시 줄어든다고 외우면 안 된다. 같은 해가 계속 최적인 구간도 있고 커널과 표본 구성도 영향을 준다. 확실한 것은 목적함수에서 두 비용의 상대적 비중이 바뀐다는 점이다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O11-04">11.8 실습문제 · 4번</a> · <a href="#question-V11-03">기초 확인 · 3번</a> · <a href="#question-V11-04">기초 확인 · 4번</a></p></details>
+<p>대표적인 소프트 마진 목적함수는 0.5||w||²+CΣ_i max(0,1−y_i s_i)다. 첫 항은 마진을 넓히는 규제이고, 둘째 항은 마진 위반 비용이다. C가 크면 위반 비용이 커지고, C가 작으면 상대적으로 규제를 더 중요하게 여긴다. 이 식은 <a href="https://scikit-learn.org/1.5/modules/svm.html#mathematical-formulation" target="_blank" rel="noopener noreferrer">scikit-learn의 SVM 수학 설명</a>에서도 확인할 수 있다.</p>
+<p>같은 데이터와 특징 표현을 고정하고 이 목적함수의 정확한 최적해끼리 비교하면, C를 높일 때 힌지 손실의 합은 줄거나 같아지고 ||w||는 커지거나 같아진다. 따라서 w가 0이 아닌 경우 특징 공간의 마진 폭 2/||w||는 좁아지거나 그대로다. <strong>매번 반드시 더 좁아진다는 뜻은 아니다.</strong> gamma나 스케일링까지 함께 바꿨거나 아직 학습이 수렴하지 않았다면 이 비교 조건과 다르다. 곡선 경계를 그린 원래 입력 공간의 모든 위치에서 폭이 똑같이 변한다는 뜻도 아니다.</p>
+<p>작은 계산으로 차이를 확인하자. 1차원 입력 x=−1과 x=1의 정답을 각각 −1과 +1로 두고 b=0으로 고정한다. 두 점의 힌지 손실은 모두 max(0,1−w)이므로 목적함수는 0.5w²+2C max(0,1−w)다. w&lt;1인 구간에서 미분하면 w−2C이므로 최소점 후보는 w=2C다. w≥1에서는 손실이 이미 0이고 w²만 커지므로 w=1보다 키울 이유가 없다. 따라서 최적 w는 min(2C,1)이다.</p>
+<p>C가 0.1, 0.25, 0.5일 때 w는 차례로 0.2, 0.5, 1이고, 전체 마진 폭은 10, 4, 2다. C를 1로 더 높여도 w=1과 폭 2가 유지된다. 넓은 마진 안에 학습 점이 들어오는 작은 C의 해도 허용되는 이유는, 소프트 마진이 그 위반에 비용을 부과하면서 허용하기 때문이다. 이 예제의 계산은 위 목적함수에 직접 대입해 얻은 것이다.</p>
+<p>함수 점수 s를 같은 양수 배율로 곱해도 부호 경계는 같지만 숫자 ±1의 위치는 달라질 수 있다. 그래서 정규화한 제약과 실제 거리 |s|/||w||를 구분한다. 앞서 본 양성 s=0.6은 분류는 맞아도 여유 조건에 못 미쳐 비용이 있다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> C는 위반 비용의 비중이다. 다른 조건을 고정한 정확한 최적해에서는 C가 커질수록 마진이 좁아지거나 그대로일 수 있다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 3개</summary><p><a href="#question-O11-04">11.8 실습문제 · 4번</a> · <a href="#question-V11-03">기초 확인 · 3번</a> · <a href="#question-V11-04">기초 확인 · 4번</a></p></details>
 <h3 id="theory-11-6">6. gamma는 거리에 따라 RBF 유사도가 줄어드는 속도를 정한다</h3>
+<p>거리 2인 이웃의 영향이 0.37로 남을지 0.02로 거의 사라질지는 gamma에 따라 달라진다. 같은 C에서도 영향이 아주 좁으면 점마다 좁은 경계를 만들 수 있다. 따라서 C와 gamma를 같은 “복잡도 버튼” 하나로 읽지 않는다.</p>
 <p>RBF 커널 K(x,u)=exp(−γ||x−u||²)는 두 점 사이의 거리에 따라 유사도를 계산한다. γ&gt;0이 크면 가까운 거리에서도 유사도가 빠르게 작아져 한 샘플의 영향 범위가 매우 좁아진다. 거리가 2인 두 점에서 γ=0.25이면 유사도는 exp(−1)≈0.36788이고, γ=1이면 exp(−4)≈0.01832다. γ가 작으면 더 넓은 구간에서 유사도가 유지되고, 크면 좁은 구간의 차이를 세밀하게 구분할 수 있다. γ는 앞 절의 C와 다른 조절값이다.</p>
 <p>C와 γ를 함께 키우면 마진 위반 비용을 높이면서 매우 좁은 영역의 차이까지 반영하므로, 잡음에 맞춘 경계가 생길 위험이 커진다. 다만 과적합이 무조건 생긴다는 뜻은 아니다. 스케일링한 뒤 적절한 검증 점수, 학습·검증 성능 차이, 모델 복잡도를 비교한다. 특성의 단위가 달라지면 ||x−u||²도 달라지므로 같은 γ 값의 효과도 바뀐다.</p>
 <p>커널 SVM은 샘플 수가 많을 때 계산·메모리 비용이 클 수 있으며, 고차원 희소 데이터에서는 선형 SVM부터 고려할 수 있다. 트리의 불순도 기반 중요도는 분할 후보가 많은 특성에 유리할 수 있고, 순열 중요도도 상관된 대체 열이 있으면 작게 나올 수 있다. 어느 중요도도 인과 효과 자체를 입증하지는 않는다. 모델 이름에 순위를 매기기보다 데이터 크기, 검증 환경, 사용 가능한 시간, 입력·출력 조건에 따라 선택한다.</p>
-<p>분할 기준은 <a href="https://scikit-learn.org/stable/modules/tree.html" target="_blank" rel="noopener noreferrer">scikit-learn decision trees</a>, 독립 결합과 순차 개선은 <a href="https://scikit-learn.org/stable/modules/ensemble.html" target="_blank" rel="noopener noreferrer">ensemble methods</a>, C·gamma 해석은 <a href="https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html" target="_blank" rel="noopener noreferrer">RBF SVM parameters</a>를 참고한다. 평균 분산의 등상관 식은 조건을 둔 직접 유도이며 실제 나무들의 상관이 모두 같다고 주장하지 않는다.</p><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O11-04">11.8 실습문제 · 4번</a> · <a href="#question-V11-04">기초 확인 · 4번</a></p></details>
+<p>분할 기준은 <a href="https://scikit-learn.org/stable/modules/tree.html" target="_blank" rel="noopener noreferrer">scikit-learn decision trees</a>, 독립 결합과 순차 개선은 <a href="https://scikit-learn.org/stable/modules/ensemble.html" target="_blank" rel="noopener noreferrer">ensemble methods</a>, C·gamma 해석은 <a href="https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html" target="_blank" rel="noopener noreferrer">RBF SVM parameters</a>를 참고한다.</p>
+<p>평균 분산의 등상관 식은 조건을 둔 직접 유도이며 실제 나무들의 상관이 모두 같다고 주장하지 않는다.</p>
+<p>exp는 자연상수 e의 거듭제곱이며 거리 제곱에 음의 γ를 곱하므로 거리가 커질수록 유사도가 줄어든다. γ 자체와 영향 반경이 동일한 수치는 아니다. 스케일링을 바꾸면 거리도 바뀌어 같은 γ 비교가 달라지므로 전처리 조건을 고정해 검증한다.</p>
+<blockquote>
+<p><strong>한 줄 기억:</strong> C는 위반 비용, gamma는 거리별 유사도가 사라지는 속도다.</p>
+</blockquote><details class="theory-applications"><summary>이 개념으로 준비하는 문제 2개</summary><p><a href="#question-O11-04">11.8 실습문제 · 4번</a> · <a href="#question-V11-04">기초 확인 · 4번</a></p></details>
 30:["$","section",null,{"className":"theory-lesson","aria-labelledby":"theory-11","children":[["$","p",null,{"className":"micro-label","children":"정의와 유도 과정부터 문제 풀이까지"}],["$","h2",null,{"id":"theory-11","children":"필기 이론: 정의에서 풀이까지"}],["$","p",null,{"className":"theory-intro","children":"공식에 쓰인 기호가 무엇을 뜻하는지, 어떤 조건에서 그 공식을 쓸 수 있는지 설명합니다. 실습문제와 다른 숫자를 넣은 예제로 계산 과정을 익힙니다. 각 절 끝에는 이 개념을 적용할 문제로 돌아가는 링크가 있습니다."}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$37"}}]]}]
 31:["$","h2",null,{"className":"lesson-deeper-heading","id":"lesson-deeper","children":"수식·코드·실전 확장"}]
 32:["$","p",null,{"className":"lesson-summary","children":"앞에서 배운 원리를 구현과 실습에 적용하세요. 복습할 때는 목차에서 필요한 항목으로 바로 이동할 수 있습니다. 실습문제와 마지막 기초 확인문제에는 풀이에 필요한 이론으로 돌아가는 링크가 있습니다."}]
-38:T1fcf,
+38:T53e8,
 <span class="section-anchor" id="111" aria-hidden="true"></span>
+<p>직선 하나로 복잡한 표 자료를 설명하기 어려우면 조건을 차례로 묻는 트리를 사용할 수 있다. 하지만 한 트리가 작은 차이에 흔들리면 여러 트리를 결합한다. 또 분류 경계의 여유를 크게 만드는 SVM은 다른 관점의 대안이다. 이번 장에서는 이 모델들의 점수가 아니라 작동 원리의 차이를 먼저 비교한다.</p>
 
 <h3 id="112">11.2 결정트리</h3>
+<p>온도 30 이하에서는 정상, 그보다 높을 때 압력도 높으면 고장이라는 관계를 생각하자. 먼저 온도를 묻고 다음에 압력을 물으면 두 특성의 상호작용을 표현할 수 있다. 트리의 노드는 이렇게 질문을 던지거나 답을 내는 위치이고, 리프는 더 나누지 않는 마지막 위치다.</p>
 <p>트리는 각 특성의 값이 기준값보다 큰지 작은지에 따라 입력 공간을 반복해서 나눈다. 분류에서 노드의 불순도는 다음과 같이 계산한다.</p>
 <ul>
 <li>엔트로피: <code>-Σ p_k log₂ p_k</code></li>
@@ -153,9 +192,15 @@ assert tree_predictions.mean() == 10.
 <p><code>Information Gain = impurity(parent) - Σ (n_child/n_parent) impurity(child)</code>.</p>
 <p>회귀에서는 MSE나 분산이 얼마나 줄어드는지를 사용할 수 있다.</p>
 <p>트리는 비선형 관계와 특성 간 상호작용, 여러 형태가 섞인 관계를 학습할 수 있고 보통 스케일링이 필요 없다는 장점이 있다. 반면 깊은 트리 하나만 사용하면 데이터가 조금 바뀌어도 구조가 크게 달라지는 높은 분산이 단점이다.</p>
+<p>p_k는 현재 노드 안에서 클래스 k인 비율이며 모든 비율의 합은 1이다. 불순도는 정답 종류가 얼마나 섞였는지 나타내며 한 종류뿐이면 0이다. 자식별 비율을 단순 평균하지 않고 n_child/n_parent로 가중하는 이유는 각 샘플이 그 자식에 들어갈 비중을 반영하기 위해서다. 부모는 나누기 전, 자식은 나눈 후의 묶음이다.</p>
+<p>부모 10개에서 양성·음성이 5개씩이고 왼쪽에는 양성 2개만, 오른쪽에는 양성 3·음성 5가 간다면 왼쪽 지니는 0, 오른쪽은 15/32다. 가중값은 (2/10)×0+(8/10)×(15/32)=0.375, 감소는 0.125다. 왼쪽이 순수해도 대부분 샘플이 오른쪽에 남으므로 전체 개선을 가중해 봐야 한다.</p>
+<p>회귀 리프는 같은 위치의 샘플들에 하나의 수를 출력할 수 있다. 제곱오차 합을 최소화하는 상수는 그 리프의 평균이다. 깊게 나누면 학습 자료의 우연한 차이까지 맞출 수 있어 최대 깊이·리프 최소 샘플 수·가지치기로 복잡함을 제한한다.</p>
 <h3 id="113">11.3 손계산</h3>
+<p>먼저 현재 노드 안의 비율을 구하자. 4:4는 전체 8개 중 두 종류가 각각 4개이므로 1/2씩이다. 지니는 1에서 각 비율 제곱의 합을 빼고, 엔트로피는 같은 비율에 로그 정보량을 곱해 더한다. 서로 다른 척도이므로 같은 분포에서 숫자 크기만 보고 어느 기준이 더 좋다고 하지 않는다.</p>
 <p>클래스 비율이 4:4인 노드의 지니 불순도는 <code>1-(0.5²+0.5²)=0.5</code>다. 8:0이면 0이다. 한 클래스만 있는 순수한 노드는 더 나누어도 불순도가 줄지 않는다.</p>
+<p>4:4의 엔트로피는 −(1/2)log₂(1/2)−(1/2)log₂(1/2)=1 bit다. 8:0은 지니 0, 엔트로피도 0이다. 0log0은 극한 0으로 다룬다. 두 지표 모두 이진 반반에서 최대, 한 종류뿐일 때 최소지만 수치는 서로 다르다. 순수한 리프는 지금 모인 학습 정답이 같다는 뜻이며 앞으로 오는 새 사례까지 모두 맞힐 보장은 아니다. 분할을 비교할 때는 같은 불순도 기준을 일관되게 쓴다.</p>
 <h3 id="114-baggingrandom-forestextra-trees">11.4 배깅·Random Forest·Extra Trees</h3>
+<p>한 트리의 수리비 예측이 실제보다 +4, 다른 트리가 −2만큼 틀렸다면 두 예측 평균의 오차는 +1이다. 서로 다른 실수가 일부 상쇄되는 효과를 이용해 여러 모델을 결합하는 것이 앙상블이다. 모두 +4만큼 틀리면 평균도 +4이므로 모델 수뿐 아니라 오류가 얼마나 같이 움직이는지도 중요하다.</p>
 <p>배깅은 복원추출한 표본마다 모델을 독립적으로 학습한 뒤 예측값을 평균하거나 투표해 분산을 낮춘다.</p>
 <p>Random Forest는 데이터를 복원추출하는 것에 더해, 각 분할에서 일부 특성만 후보로 사용해 트리 간 상관을 줄인다. Extra Trees는 분할 기준값도 더 무작위로 뽑아 빠르게 다양한 트리를 만든다.</p>
 <p>특성 중요도를 해석할 때 주의할 점:</p>
@@ -164,23 +209,33 @@ assert tree_predictions.mean() == 10.
 <li>서로 상관된 특성 사이에 중요도가 나뉠 수 있다.</li>
 <li>특성 값을 섞어 측정하는 순열 중요도도 검증 데이터에서 평가해야 한다.</li>
 </ul>
+<p>복원추출은 한 번 뽑은 행을 다시 뽑을 수 있는 표본 추출이다. 원자료 [A,B,C]에서 [A,A,C]나 [B,C,C] 같은 학습 표를 만들어 각 모델을 따로 학습한다. 배깅의 “독립 학습”은 앞 모델 결과를 기다리지 않는다는 계산 순서의 말이지, 겹친 자료로 배운 오류가 통계적으로 완전히 독립이라는 뜻은 아니다.</p>
+<p>Random Forest는 매 분할마다 일부 특성만 후보로 보아 모든 트리가 같은 유력 열만 고집하는 정도를 줄인다. Extra Trees는 기준값 선택에도 더 큰 무작위성을 주며 복원추출 사용 여부는 설정을 확인한다. 불순도 중요도는 분할할 후보가 많은 열에 유리할 수 있고, 순열 중요도는 한 열의 값을 섞었을 때 검증 성능이 얼마나 떨어지는지 본다. 상관된 대체 열이 있으면 중요도가 작게 나올 수 있어 인과 효과나 유일한 중요도로 해석하지 않는다.</p>
 <h3 id="115-boosting">11.5 부스팅</h3>
+<p>여러 모델이 같은 원문제를 따로 푸는 대신, 첫 예측이 틀린 부분을 다음 모델에게 알려 줄 수도 있다. 정답 [3,7]에 현재 예측 [4,4]이면 부족한 보정은 [−1,3]이다. 새 모델이 이 보정을 배워 조금씩 더하는 것이 제곱손실 부스팅의 직관이다.</p>
 <p>부스팅은 앞 모델의 오류를 다음 모델이 보완하도록 모델을 차례로 결합한다.</p>
 <ul>
 <li>그래디언트 부스팅: 새 트리가 손실의 음의 기울기 또는 잔차를 학습한다.</li>
 <li>XGBoost/LightGBM 계열: 규제와 계산 효율 개선을 더한 성능 좋은 표 데이터 모델이다.</li>
 </ul>
 <p>배깅은 모델을 병렬로 학습할 수 있으며 주로 분산을 낮춘다. 부스팅은 순차적으로 학습하며 편향까지 줄이는 경향이 있다. 부스팅은 잡음이나 잘못된 검증 방법에 민감하고 하이퍼파라미터 조정에 시간이 들 수 있다.</p>
+<p>학습률 ν=0.2로 보정을 줄여 더하면 새 예측은 [3.8,4.6]이다. MSE는 (1+9)/2=5에서 (0.64+5.76)/2=3.2로 내려간다. 새 모델이 언제나 잔차를 정확히 맞추는 것은 아니며, 제곱손실 이외에는 음의 기울기가 단순 y−ŷ와 다를 수 있다. “잔차 학습”이라는 짧은 말에도 손실 가정이 필요하다.</p>
+<p>앞 예측을 알아야 보정할 값을 만들 수 있어 단계별 모델은 순차적이다. 각 트리 내부 계산의 병렬화 가능성과 이 단계 의존성은 다르다. 학습률·트리 수·깊이를 함께 정하고 같은 검증으로 비교한다. 라이브러리가 제공하는 모델이 있어도 시험 실행 환경에서 설치·사용이 허용되는지 먼저 확인하며, 새로운 모델 이름 자체가 좋은 분할을 대신하지 않는다.</p>
 <h3 id="116-svm">11.6 SVM</h3>
+<p>정상과 고장을 나누는 직선이 여러 개 가능하다면 어떤 선을 고를까? 가장 가까운 학습 점에서 양쪽으로 여유가 큰 선을 찾자는 생각이 SVM의 출발점이다. 2차원에서는 선, 3차원에서는 면, 더 높은 차원에서는 초평면이라고 부르며 모두 wᵀx+b=0으로 적는다.</p>
 <p>선형 SVM은 두 클래스 사이의 여유 폭인 마진을 최대화하는 초평면을 찾는다. 서포트 벡터는 이 경계를 결정하는 가까운 샘플이다.</p>
 <ul>
-<li>큰 C: 마진을 위반했을 때의 비용이 커져 학습 데이터의 위반을 더 엄격하게 줄이려는 경향이 있고, 과적합할 수 있다. 다만 마진 폭이 한 방향으로 계속 변한다고 항상 보장되지는 않는다.</li>
+<li>큰 C: 마진을 위반했을 때의 비용이 커져 위반을 줄이는 것을 더 중요하게 여긴다. 과적합 위험이 커질 수 있지만 항상 과적합하는 것은 아니다.</li>
 <li>작은 C: 마진 위반을 더 허용하고 상대적으로 강하게 규제하는 경향이 있다.</li>
 <li>RBF의 gamma가 큼: 각 샘플의 영향 범위가 좁아지고 결정 경계가 복잡해진다.</li>
 <li>gamma가 작음: 각 샘플의 영향 범위가 넓어지고 결정 경계가 매끄러워진다.</li>
 </ul>
 <p>SVM은 스케일링이 중요하며, 샘플 수가 많으면 커널 SVM은 느릴 수 있다. 고차원 희소 데이터에서는 선형 SVM이 성능 좋은 기준 모델이 될 수 있다.</p>
+<p>클래스를 y∈{−1,+1}, 점수를 s=wᵀx+b로 적으면 ys가 양수일 때 부호는 맞다. 그러나 충분한 여유까지 요구하면 ys≥1을 사용한다. 양성의 s=0.6은 맞게 분류했어도 max(0,1−ys)=0.4라는 힌지 손실이 생긴다. 서포트 벡터는 이런 경계를 정하는 샘플이며 소프트 마진에서는 마진 안이나 잘못 분류된 점도 포함될 수 있다.</p>
+<p>목적함수 0.5||w||²+CΣmax(0,1−ys)의 첫 항은 마진을 넓히려는 규제, 둘째는 위반 비용이다. C는 이 두 비용의 비중을 조절한다. w가 0이 아니면 특징 공간의 전체 마진 폭은 2/||w||이다. 같은 데이터와 특징 표현을 고정한 정확한 최적해끼리 비교하면, C가 커질 때 마진은 좁아지거나 그대로다. 매번 더 좁아지는 것은 아니며, gamma·스케일링까지 바꾸거나 덜 수렴한 해끼리 비교하면 이 조건에 해당하지 않는다. 필기 이론의 두 점 예제에서 C를 높여도 폭이 그대로인 경우를 직접 계산한다.</p>
+<p>커널은 변환된 특징 공간의 내적을 직접 특징을 펼치지 않고 계산하는 함수다. RBF는 exp(−γ||x−u||²)로 두 점의 유사도를 정한다. 거리 2에서 γ=0.25이면 exp(−1)≈0.368, γ=1이면 exp(−4)≈0.018이다. gamma가 커지면 멀리 있는 점의 영향이 빨리 사라져 국소적인 복잡한 경계를 만들 수 있다. 입력 단위를 바꾸면 거리도 변하므로 먼저 학습 기준 스케일링을 적용한 뒤 C와 gamma를 검증한다.</p>
 <h3 id="117">11.7 상황에 따른 모델 선택</h3>
+<p>실전의 첫 모델은 모든 모델의 성능 순위를 정하는 선택이 아니라, 현재 자료와 시간 안에서 비교 기준을 빨리 확보하는 선택이다. 원-핫 열이 매우 많으면 저장 대부분이 0인 희소 자료가 되고, 커널 SVM은 샘플 간 비교가 커져 느릴 수 있다. 표의 첫 후보 뒤에는 반드시 입력 조건과 실행 비용을 확인하는 단계가 따른다.</p>
 <div class="table-scroll" role="region" tabindex="0" aria-label="11강 표 1, 좌우로 스크롤할 수 있습니다"><table data-table="1">
 <thead>
 <tr>
@@ -209,6 +264,7 @@ assert tree_predictions.mean() == 10.
 <td>문제 지시에 맞는 PyTorch</td>
 </tr>
 </tbody></table></div>
+<p>문자열 범주·결측·희소 형식을 모델이 직접 받는지는 구현과 버전에 따라 다르다. 트리에 스케일링이 보통 필요 없다고 해서 모든 전처리가 불필요한 것은 아니다. 입력 표의 타입·결측 처리와 출력 형식을 맞춘 뒤 같은 분할·지표·시간 조건으로 후보를 비교한다. 작은 RBF SVM이 좋아도 대규모 자료에서 같은 학습 시간이 나온다고 추정하지 않는다. Process가 특정 구조를 요구하면 검증 성능이 더 좋은 다른 모델로 바꾸는 것이 정답은 아니다.</p>
 <h3 id="118">11.8 실습문제</h3>
 <ol>
 <li id="question-O11-01" data-question-id="O11-01">클래스 비율이 3/4, 1/4인 노드의 지니 불순도를 계산하라.<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-11-1">트리 분할은 불순도를 샘플 수로 가중 평균해 비교한다</a></p></details></li>
@@ -218,19 +274,51 @@ assert tree_predictions.mean() == 10.
 <li id="question-O11-05" data-question-id="O11-05">트리에 스케일링이 보통 필요 없는 이유는?<details class="question-prerequisites"><summary>풀이에 필요한 이론</summary><p><a href="#theory-11-2">트리는 값의 척도보다 순서에 의존하지만 전처리는 확인해야 한다</a></p></details></li>
 </ol>
 <details class="answer-panel" id="_12"><summary>정답·해설 보기</summary><div class="answer-body"><ol>
-<li><code>1-(0.75²+0.25²)=0.375</code>.</li>
-<li>서로 상관이 낮은 여러 트리의 오류를 평균하면 개별 트리의 변동이 서로 상쇄된다.</li>
-<li>배깅을 구성하는 모델은 독립적으로 학습하므로 병렬 학습이 가능하다. 부스팅은 이전 모델의 오류를 이용하므로 순차적으로 학습한다.</li>
-<li>큰 C는 마진 위반 비용을 높이고, 큰 gamma는 각 샘플의 영향 범위를 좁힌다. 그 결과 학습 데이터의 잡음에 맞춘 복잡한 경계가 만들어져 과적합 위험이 커질 수 있다. C를 높이면 모든 데이터에서 마진 폭이 반드시 줄어든다고 단정하지 말고, 스케일링과 검증 성능을 함께 확인한다.</li>
-<li>값 사이의 절대 거리보다 <code>x_j &lt;= threshold</code>에 따른 순서로 데이터를 나누며, 단조 스케일링은 그 순서를 보존하기 때문이다.</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 현재 노드 클래스 비율은 p₁=3/4,p₂=1/4이며 지니를 묻는다.</p>
+<p><strong>풀이:</strong> 비율 제곱은 9/16과 1/16, 합은 10/16이다. 1=16/16에서 빼면 6/16=3/8=0.375다.</p>
+<p><strong>정답:</strong> <code>1-(0.75²+0.25²)=0.375</code>.</p>
+<p><strong>왜?</strong> 같은 클래스가 차지하는 비율의 제곱합을 1에서 빼 섞임을 재는 정의다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 제곱 없이 1−(3/4+1/4)=0으로 계산하지 않는다. 엔트로피 공식의 로그를 섞지도 않는다.</p>
+<p><strong>한 줄 기억:</strong> 지니는 1에서 클래스 비율 제곱의 합을 뺀다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 단일 트리는 표본 변경에 민감하고 여러 트리의 오류 상관이 중요하다.</p>
+<p><strong>풀이:</strong> 각 부트스트랩 표본에 트리를 학습하고 분할 후보 특성도 일부로 제한한다. 서로 다른 실수를 하는 트리들의 예측을 평균하면 한쪽의 큰 오차가 다른 쪽 오차와 일부 상쇄된다. 같은 분산·등상관 가정에서 평균 분산은 σ²[ρ+(1−ρ)/M]다.</p>
+<p><strong>정답:</strong> 서로 상관이 낮은 여러 트리의 오류를 평균하면 개별 트리의 변동이 서로 상쇄된다.</p>
+<p><strong>왜?</strong> 트리 수 M은 독립적인 변동 부분을 줄이고 후보 특성 무작위화는 오류 상관 ρ를 줄이는 데 도움을 준다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 모든 트리가 같은 오차를 내면 평균으로 줄지 않는다. 독립적으로 학습한다는 말과 오차의 완전한 통계적 독립은 다르다.</p>
+<p><strong>한 줄 기억:</strong> 여러 트리의 낮은 상관 오류를 결합해 변동을 줄인다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 다음 모델을 학습할 때 이전 모델의 예측이 필요한지 확인한다.</p>
+<p><strong>풀이:</strong> 배깅은 각 표본에서 원래 문제를 따로 학습하므로 앞 모델 완료를 기다리지 않아도 된다. 부스팅은 현재 예측의 잔차나 음의 기울기를 구한 뒤 다음 모델을 학습하므로 단계 순서가 있다.</p>
+<p><strong>정답:</strong> 배깅을 구성하는 모델은 독립적으로 학습하므로 병렬 학습이 가능하다. 부스팅은 이전 모델의 오류를 이용하므로 순차적으로 학습한다.</p>
+<p><strong>왜?</strong> 부스팅의 다음 학습 대상 자체가 앞 단계 모델의 출력에 의존하기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 부스팅의 한 트리 내부 일부 계산이 병렬이라고 모델 단계 의존성이 사라지는 것은 아니다. 배깅이 항상 완전히 독립된 오류를 만든다는 뜻도 아니다.</p>
+<p><strong>한 줄 기억:</strong> 배깅은 독립 결합, 부스팅은 이전 예측에 의존한 순차 개선이다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> C는 마진 위반 비용, gamma는 RBF 유사도의 거리 감쇠이며 두 역할이 다르다.</p>
+<p><strong>풀이:</strong> 큰 C는 학습 샘플의 위반을 강하게 줄이도록 비용을 높인다. 큰 gamma는 조금만 멀어져도 유사도가 작아져 각 샘플 근처의 좁은 차이를 반영하게 한다. 함께 크면 잡음까지 맞춘 경계가 생기는지 점검한다.</p>
+<p><strong>정답:</strong> 큰 C는 마진 위반 비용을 높이고, 큰 gamma는 각 샘플의 영향 범위를 좁힌다. 그 결과 학습 데이터의 잡음에 맞춘 복잡한 경계가 만들어져 과적합 위험이 커질 수 있다. C만 높인 정확한 최적해의 마진이 좁아지거나 유지되는 성질과, C·gamma를 함께 바꿀 때의 검증 성능은 구분한다.</p>
+<p><strong>왜?</strong> 위반을 잘 허용하지 않으면서 매우 국소적인 표현을 쓰면 우연한 학습 차이에 민감해질 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 과적합이 무조건 생기는 것은 아니다. 다른 조건을 고정하고 C만 높여도 마진 폭이 그대로인 구간이 있을 수 있다. C와 gamma를 함께 바꾼 비교를 C 하나의 효과로 설명하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 큰 C·gamma는 잡음에 맞춘 복잡한 경계 위험을 검증한다.</p>
+</li>
+<li><p><strong>먼저 무엇을 봐야 하나?</strong> 트리는 x_j≤threshold로 나누며 절대 거리 대신 주로 순서를 사용한다.</p>
+<p><strong>풀이:</strong> 값 10·20·30에서 15로 나눈 결과를 모두 10으로 나누어 값 1·2·3, 기준 1.5로 바꾸면 같은 첫 행만 왼쪽이다. 양의 단조 스케일 변화에서 대응하는 기준을 둘 수 있다.</p>
+<p><strong>정답:</strong> 값 사이의 절대 거리보다 <code>x_j &lt;= threshold</code>에 따른 순서로 데이터를 나누며, 단조 스케일링은 그 순서를 보존하기 때문이다.</p>
+<p><strong>왜?</strong> 값의 상대적 순서가 보존되면 같은 샘플 집합으로 분할할 수 있기 때문이다.</p>
+<p><strong>헷갈리기 쉬운 부분:</strong> 값 제한·반올림은 서로 다른 값을 같게 만들어 예외가 생긴다. 스케일 불필요를 범주·결측 검사 불필요로 확대하지 않는다.</p>
+<p><strong>한 줄 기억:</strong> 트리는 크기의 단위보다 기준값에 대한 순서로 나눈다.</p>
+</li>
 </ol></div></details>
 
 <h3 id="119">11.9 완료 기준</h3>
+<p>체크하기 전에 아래 행동을 해설 없이 직접 수행한다. 막힌 항목은 앞 절의 작은 예로 돌아가 입력 숫자를 바꾸어 다시 설명한다.</p>
 <ul>
 <li class="check-item"><label><input type="checkbox" data-check-id="11-1"><span>지니 불순도와 엔트로피를 계산하고 어느 쪽이 더 큰지 판단한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="11-2"><span>RF/Extra Trees/부스팅의 차이를 30초 안에 설명한다.</span></label></li>
 <li class="check-item"><label><input type="checkbox" data-check-id="11-3"><span>SVM의 C·gamma를 바꿀 때 나타나는 변화 경향을 외웠다.</span></label></li>
 </ul>
+<p>모델 이름 대신 분할·평균·보정·마진이라는 계산의 차이를 설명해 본다. 다음 비지도학습에서는 정답 없이 비슷한 사례를 묶는 목적이 어떻게 달라지는지 배운다. 지니와 엔트로피는 같은 지표 안에서 분포를 비교하고 서로의 절대 크기로 모델 우열을 판단하지 않는다.</p>
 
 
 33:["$","div",null,{"className":"lesson-content","dangerouslySetInnerHTML":{"__html":"$38"}}]
