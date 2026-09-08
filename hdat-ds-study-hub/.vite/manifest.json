@@ -57,6 +57,17 @@
       "_framework-CQnNz__K.js"
     ]
   },
+  "components/ProblemStartGuide.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/ProblemStartGuide-Bds1JW2a.js",
+    "name": "ProblemStartGuide",
+    "src": "components/ProblemStartGuide.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "_paths-C4SqvhVd.js",
+      "_framework-CQnNz__K.js"
+    ]
+  },
   "components/ProgressSummary.tsx": {
     "file": "hdat-ds-study-hub/_next/static/chunks/ProgressSummary-CURI3OiI.js",
     "name": "ProgressSummary",
@@ -69,7 +80,7 @@
     ]
   },
   "components/ProgressTools.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/ProgressTools-C_ypwspI.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/ProgressTools-BvVQEOZt.js",
     "name": "ProgressTools",
     "src": "components/ProgressTools.tsx",
     "isDynamicEntry": true,
@@ -82,7 +93,7 @@
     ]
   },
   "components/ReadingTools.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/ReadingTools-DjPzqCjP.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/ReadingTools-vLbf6RTy.js",
     "name": "ReadingTools",
     "src": "components/ReadingTools.tsx",
     "isDynamicEntry": true,
@@ -92,7 +103,7 @@
     ]
   },
   "components/RecallCheck.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/RecallCheck-CF9Mr5HK.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/RecallCheck-7vsWD7Q-.js",
     "name": "RecallCheck",
     "src": "components/RecallCheck.tsx",
     "isDynamicEntry": true,
@@ -103,7 +114,7 @@
     ]
   },
   "components/SiteHeader.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-CHGrDouC.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-Cj51g8t6.js",
     "name": "SiteHeader",
     "src": "components/SiteHeader.tsx",
     "isDynamicEntry": true,
@@ -114,7 +125,7 @@
     ]
   },
   "components/StudyDashboard.tsx": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/StudyDashboard-lkUgyZuU.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/StudyDashboard-DTFsZyVO.js",
     "name": "StudyDashboard",
     "src": "components/StudyDashboard.tsx",
     "isDynamicEntry": true,
@@ -128,7 +139,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-Sua821Fg.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-rPoobCmB.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -139,7 +150,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "hdat-ds-study-hub/_next/static/chunks/index-Bqnp3S7M.js",
+    "file": "hdat-ds-study-hub/_next/static/chunks/index-DbtvBxbi.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -159,7 +170,8 @@
       "components/ReadingTools.tsx",
       "components/ProgressSummary.tsx",
       "components/PlaybookCopy.tsx",
-      "components/LessonClient.tsx"
+      "components/LessonClient.tsx",
+      "components/ProblemStartGuide.tsx"
     ]
   }
 }

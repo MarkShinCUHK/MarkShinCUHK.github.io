@@ -13248,5 +13248,41 @@
     "sectionTitle": "학습 결과 보고서의 최소 기록",
     "text": "교육자료 DOCX에서 요구하는 실험·결과·한계 설명을 독립 학습지로 재구성한 항목이다. 기존 15강의 요소별 비교 실험표에 다음 내용을 함께 적으면 결과를 다시 검토하기 쉽다. 데이터 구성: 행·그룹·시간의 단위, 정답의 의미와 단위, 실제로 사용할 수 있는 특성 정제 근거: 결측·이상치를 오류 또는 유효한 신호로 판단한 이유 검증 근거: 분할 방식, 누수 검사, 클래스·그룹 분포 비교 조건: 바꾼 요소 하나, 고정한 요소, 난수 시드, 시간·메모리 한도 결과: 검증 지표, 클래스·정답 항목별 오류, 사용한 체크포인트 한계: 합성 데이터와 실제 데이터의 차이, 누락된 관측, 일반화할 수 없는 조건 빈칸에 점수만 적고 끝내지 않는다. 예를 들어 ‘RMSE가 줄었다’에 더해 어떤 정답 항목과 기간에서 개선되었는지, 선택한 분할이 실제 배포 상황을 어떻게 반영하는지 설명한다.",
     "href": "/supplement/04/#supplement-04-1"
+  },
+  {
+    "track": "resources",
+    "order": 51,
+    "label": "자료 묶음 01",
+    "lesson": 0,
+    "lessonId": "starter",
+    "lessonTitle": "실기를 처음 시작해요",
+    "sectionId": "opening-order",
+    "sectionTitle": "실기 시작팩 한 번에 받기",
+    "text": "문제를 받아도 어디부터 손대야 할지 모르겠다면 이것 하나만 시작하세요. 작은 가격 예측 문제를 끝까지 따라 풀고, 내 컴퓨터에 결과 CSV 한 개를 남깁니다. ZIP을 받고 압축을 풀어요 압축파일 안에서 바로 실행하지 말고 hdat-first-problem 폴더를 밖으로 꺼내세요. 폴더 안의 파일을 따로 옮기거나 이름을 바꾸지 않습니다. 00-START.html을 더블클릭해요 인터넷 없이 읽는 시작 안내입니다. Jupyter 여는 법과 필요한 파일의 역할이 들어 있습니다. 01-first-problem.ipynb를 Jupyter에서 열어요 위쪽 셀부터 Shift+Enter로 실행하세요. 데이터는 이미 포함되어 있습니다. 처음에는 코드를 수정하지 않고 파일 읽기 → 분할 → 전처리 → 학습 → 예측 → 저장을 연결합니다. outputs/practice-price-v1.csv를 확인해요 파일이 생성됐다는 문구와 행·열 검사를 확인합니다. 다시 저장할 때는 v2처럼 새 파일 이름을 사용합니다. 기존 파일은 덮어쓰지 않습니다. 02-read-my-problem.ipynb에 내 문제의 조건을 적어요 이 노트북은 자동 풀이기가 아닙니다. 무엇을 입력받고 무엇을 반환하는지 정리한 뒤, 아래 문제별 시작 안내에서 다음 코드를 고릅니다. 00-START.html 가장 먼저 읽는 안내 더블클릭해서 읽기 01-first-problem.ipynb 첫 문제의 설명과 실행 코드 Jupyter에서 순서대로 실행 02-read-my-problem.ipynb 내 문제 조건을 적고 데이터 살펴보기 문제의 경로·입출력 조건만 작성 support/data/ 연습용 train·test·제출 예시 CSV 수정하지 않기 support/hdat_templates.py 모델·학습 함수 처음에는 수정하지 않기 support/template-guide.html 인자·호출 설명 사전 막혔을 때만 찾아보기 outputs/ 실행 후 생기는 내 예측 파일 저장 결과 확인",
+    "href": "/resources/starter/#opening-order"
+  },
+  {
+    "track": "resources",
+    "order": 52,
+    "label": "자료 묶음 02",
+    "lesson": 0,
+    "lessonId": "practice",
+    "lessonTitle": "이번에는 혼자 풀어볼래요",
+    "sectionId": "opening-order",
+    "sectionTitle": "실전 15문제 연습팩 받기",
+    "text": "첫 예측 파일을 만들어 봤다면, 문제·빈 코드·검사기·해설이 든 연습팩으로 넘어가세요. P01의 빈 함수를 직접 채우고 검사합니다. 이후 P02~P08, B01~B07을 나눠 풉니다. ZIP을 풀고 manual.html을 열어요 처음에는 P01 한 문제만 읽으세요. 15문제를 한꺼번에 풀지 않습니다. 00-start.ipynb로 실행 환경을 확인해요 이 노트북은 검사 명령을 실행하는 도구입니다. 정답 함수를 작성하는 곳은 다음 단계의 .py 파일입니다. process_starter.py의 scale_sensor_columns를 고쳐요 P01에 해당하는 TODO만 작성하고 파일을 저장합니다. 다른 문제의 미완성 코드는 아직 건드리지 않습니다. P01 검사 명령을 실행해요 처음의 NotImplementedError는 아직 답을 쓰지 않았다는 뜻입니다. 작성 후 검사하고, 막히면 P01의 힌트 → 수정 매뉴얼 → 해설 순서로 확인합니다. 모델 학습 문제는 problem_starter.py에서 풀어요 Process와 다른 파일입니다. B01부터 한 분기씩 작성합니다. 데이터 형식 NPZ와 검사 명령은 이 연습팩용이며 실제 시험 제출 형식과 다를 수 있습니다. manual.html 문제·힌트·수정 순서 P01만 먼저 읽기 00-start.ipynb 환경 확인과 검사 명령 셀 실행. 답 작성 위치는 아님 process_starter.py P01~P08의 빈 함수·클래스 선택 문제의 TODO만 수정 problem_starter.py B01~B07의 모델 풀이 선택 문제의 solve 분기 수정 data/ · contracts.json · 검사기 입력 데이터와 확인 도구 수정하지 않기 solutions/ 참고 풀이와 자가채점 정답 직접 풀고 나서 열기",
+    "href": "/resources/practice/#opening-order"
+  },
+  {
+    "track": "resources",
+    "order": 53,
+    "label": "자료 묶음 03",
+    "lesson": 0,
+    "lessonId": "theory",
+    "lessonTitle": "개념·필기부터 공부할래요",
+    "sectionId": "opening-order",
+    "sectionTitle": "이론·기초 읽기 팩 받기",
+    "text": "강의와 Python 기초를 읽을 때 쓰는 묶음입니다. 실기 소스 파일과 검사 기록은 들어 있지 않습니다. 그림과 해설이 포함된 34강을 순서대로 읽고, 부족한 NumPy·pandas 기초를 보충합니다. ZIP을 풀고 00-START.html을 열어요 HTML은 읽는 문서이고 ipynb는 Jupyter에서 실행하는 노트북입니다. 01-course.html의 1강부터 읽어요 그림·본문·필기 이론·실습 해설을 한 교재로 읽습니다. 웹에서 공부하고 싶다면 기존 본과정의 진도 기록을 그대로 사용하면 됩니다. Python·배열·표 문법이 막히면 02-python-basics.html로 가요 NumPy·pandas 사용법부터 확인하세요. 모든 기초를 다시 읽어야 다음 강의로 갈 수 있다는 뜻은 아닙니다. 03-basics-practice.ipynb로 직접 확인해요 예상 결과를 생각한 뒤 셀을 실행합니다. answers 폴더의 해설은 시도한 뒤 비교하세요. 실기 코드를 처음 연결할 때는 실기 시작팩으로 넘어가요 지금은 hdat_templates와 전체 치트시트를 함께 외우지 않아도 됩니다. 00-START.html 읽는 순서 먼저 읽기 01-course.html 그림·이론·해설 통합 34강 강의 번호 순서대로 읽기 02-python-basics.html Python 데이터 기초 10강 문법이 막힐 때 찾아보기 03-basics-practice.ipynb 기초 실습 Jupyter에서 풀기 answers/basics-solution.ipynb 기초 실습 해설 직접 시도한 뒤 비교",
+    "href": "/resources/theory/#opening-order"
   }
 ]
