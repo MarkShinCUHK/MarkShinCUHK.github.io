@@ -1,11 +1,13 @@
 # HDAT-DS 실기 오픈북 치트시트 — PyTorch 전용
 
-버전: 2026-08-18  
+버전: 2026-09-07 · Astra 감사 반영<br>
 검색 키워드: `EDIT`, `binary`, `multiclass`, `multioutput`, `RMSLE`, `group`, `timeseries`, `window`, `CNN1D`, `GRU`, `LSTM`, `image`, `autoencoder`, `submission`, `hidden test`, `OOM`, `NaN`
 
 > 목표는 만능 모델이 아니라 **문제 유형을 2분 안에 분류하고, 유효한 baseline 제출 파일을 먼저 만든 뒤, 한 가지 개선 모델만 시도하는 것**이다. 실제 문제의 skeleton·함수명·변수명·파일명·출력 shape가 이 문서보다 항상 우선한다.
 
-> 이 팩은 개인 연습·검색용이다. 시험 중 `hdat_templates.py` 전체를 업로드/import하거나 end-to-end 함수를 무수정 호출하지 않는다. 필요한 **작은 블록만** 제공 skeleton에 옮겨 실제 열·split·metric·출력 계약에 맞게 수정한다.
+> 이 팩은 개인 연습·검색용이다. 파일 반입·업로드·외부 접속 및 코드 사용 허용 범위는 해당 회차 규정으로 확인한다. 생성형 AI 활용은 공식 안내상 금지다. 허용되는 범위 안에서 필요한 블록을 제공 skeleton의 명세에 맞춘다. 이 문서가 시험장 사용 허가를 의미하지 않는다.
+
+**어디서 시작할지 모르겠다면 [12유형 풀이 가이드](./playbook/)부터 보세요.** 새 가이드는 다운로드 소스 `hdat_templates.py`의 API로 통일했다. 이 문서의 독립 예제(`fit`, `ImageCNN`)와 소스 함수(`train_torch_model`, `SmallImageCNN`)를 섞지 않는다. 딥러닝은 PyTorch이며 5·7절의 sklearn 모델은 고전 머신러닝 선택 참고다. PyTorch 표형 첫 경로는 10→11(MLP)→12→17절이다.
 
 ## 0. 시험장에서 가장 먼저 할 일
 
@@ -76,7 +78,7 @@ FILE        = 정확한 파일명, 대소문자, 저장 위치
 
 - `CrossEntropyLoss` 앞에 softmax를 붙이지 않는다.
 - `BCEWithLogitsLoss` 앞에 sigmoid를 붙이지 않는다.
-- 회귀·BCE에서 output과 target shape를 완전히 같게 만든다. `[B]`와 `[B,1]`은 broadcasting되어 조용히 틀릴 수 있다.
+- 회귀·BCE에서 output과 target shape를 완전히 같게 만든다. MSELoss는 `[B]`와 `[B,1]`을 broadcasting해 의도와 다른 비교를 할 수 있다. BCEWithLogitsLoss는 서로 다른 shape를 허용하지 않고 오류를 낸다.
 - 표형 입력은 `[N,F]`, sequence 입력은 `[N,T,F]`, PyTorch 이미지 입력은 `[N,C,H,W]`.
 - `Conv1d`는 `[B,C,L]`이므로 `[B,T,F] → [B,F,T]`로 바꾼다.
 - validation/test loader는 `shuffle=False`.
@@ -123,7 +125,7 @@ def minmax_selected(df, columns):
         lo, hi = x.min(skipna=True), x.max(skipna=True)
         if pd.isna(lo) or pd.isna(hi):
             out[col] = x                  # 전부 NaN
-        elif np.isclose(hi, lo):
+        elif hi == lo:
             out[col] = x.where(x.isna(), 0.0)
         else:
             out[col] = (x - lo) / (hi - lo)
@@ -339,9 +341,12 @@ if IS_CLASSIFICATION:
     if metric in {"auc", "roc_auc"}:
         prob = pipe.predict_proba(X.iloc[va_idx])
         if yt.ndim == 2 and yt.shape[1] > 1:
-            # multilabel/다중출력: 열별 AUC 평균 예시. 공식 산식이 다르면 교체.
+            # 0/1 multilabel만 지원. categorical multi-output은 별도 산식 필요.
+            if not set(np.unique(yt)).issubset({0, 1}):
+                raise ValueError("이 AUC 분기는 0/1 multilabel 전용입니다")
+            classes = pipe.named_steps["model"].classes_
             score = np.mean([
-                roc_auc_score(yt[:, j], prob[j][:, 1])
+                roc_auc_score(yt[:, j], prob[j][:, list(classes[j]).index(1)])
                 for j in range(yt.shape[1])
             ])
         elif TASK == "binary":
@@ -386,7 +391,31 @@ print("validation", METRIC, float(score))
 
 # 검증 후 전체 train 재학습
 pipe.fit(X, y)
-test_pred = pipe.predict(X_test)
+OUTPUT_KIND = "label" if IS_CLASSIFICATION else "value"    # <<< EDIT: probability도 가능
+if OUTPUT_KIND == "probability":
+    prob = pipe.predict_proba(X_test)
+    classes = pipe.named_steps["model"].classes_
+    if TASK == "binary":
+        POS_LABEL = 1                                     # <<< 문제에서 지정한 양성
+        test_pred = prob[:, list(classes).index(POS_LABEL)]
+    elif TASK == "multiclass":
+        REQUIRED_LABEL_ORDER = list(classes)               # <<< 제출 열 순서
+        assert len(REQUIRED_LABEL_ORDER) == len(classes)
+        assert set(REQUIRED_LABEL_ORDER) == set(classes)
+        test_pred = prob[:, [list(classes).index(v) for v in REQUIRED_LABEL_ORDER]]
+    elif TASK == "multilabel":
+        if not set(np.unique(y)).issubset({0, 1}):
+            raise ValueError("0/1 multilabel만 지원합니다")
+        test_pred = np.column_stack([
+            p[:, list(c).index(1)] if 1 in c else np.zeros(len(X_test))
+            for p, c in zip(prob, classes)
+        ])
+    else:
+        raise ValueError("회귀의 제출은 value입니다")
+elif OUTPUT_KIND == ("label" if IS_CLASSIFICATION else "value"):
+    test_pred = pipe.predict(X_test)
+else:
+    raise ValueError("TASK와 OUTPUT_KIND를 확인하세요")
 if metric == "rmsle":
     test_pred = np.clip(test_pred, 0, None)
 print("test_pred", np.asarray(test_pred).shape)
@@ -444,12 +473,12 @@ tr_idx, va_idx = order[:cut], order[cut:]
 assert time_key.iloc[tr_idx].max() <= time_key.iloc[va_idx].min()
 ```
 
-time과 group을 동시에 넣어 자동으로 섞지 않는다. “같은 차량의 미래”면 time split, “처음 보는 차량”이면 group split처럼 실제 평가 목표에 맞는 하나를 고른다.
+“같은 차량의 미래”와 “처음 보는 차량”을 구분한다. 처음 보는 차량의 미래를 평가한다면 group과 시간 제약을 **함께** 만족해야 한다. 하나를 임의로 버리지 않는다.
 
 ### sliding window가 겹칠 때
 
 - window를 만든 뒤 random split하지 않는다.
-- 전체 원시 시간축에서 window와 **target index**를 만든 뒤, target 시점이 경계 이전/이후인지로 나눈다. 그러면 validation target은 직전 train 구간을 과거 context로 쓸 수 있다.
+- 실시간 미래 예측은 train label을 관측할 수 있는 시점이 첫 validation의 **예측 원점(입력 끝)**보다 늦으면 안 된다. target index만 경계로 나누면 horizon>1에서 이 조건을 어길 수 있다. 아래 기본 코드는 label availability와 예측 원점을 함께 검사한다.
 - 겹침으로 성능이 과도하게 낙관적이면 경계 양쪽 target에 gap을 둔다. gap 크기는 문제 구조로 결정하고 validation 표본이 비지 않는지 확인한다.
 - group별 sequence는 group 경계를 넘는 window를 만들지 않는다.
 
@@ -565,17 +594,20 @@ if pd.isna(time_all).any():
 row_order = np.argsort(np.asarray(time_all), kind="stable")
 X_sorted, y_sorted = np.asarray(X_all)[row_order], np.asarray(y_all)[row_order]
 
-# 시간 경계는 target index로 적용한다. validation window는 경계 전 과거를 쓸 수 있다.
+# 경계 전에 학습 정답을 확보하고, 경계 이후 관측 시점에서 예측한다.
 Xw, yw, target_idx = make_windows(
     X_sorted, y_sorted, LOOKBACK, HORIZON, STRIDE, assume_sorted=True
 )
 target_original_rows = row_order[target_idx]
 cut, gap = int(len(X_sorted) * 0.8), 0                                   # <<< EDIT
-train_mask = target_idx < cut - gap
-valid_mask = target_idx >= cut + gap
+LABEL_DELAY = 0  # <<< 정답 확정 지연, 여기서는 raw 행 단위
+origin_idx = target_idx - HORIZON
+train_mask = target_idx + LABEL_DELAY < cut - gap
+valid_mask = origin_idx >= cut + gap
 X_train, y_train = Xw[train_mask], yw[train_mask]
 X_valid, y_valid = Xw[valid_mask], yw[valid_mask]
 assert len(X_train) and len(X_valid)
+assert (target_idx[train_mask] + LABEL_DELAY).max() <= origin_idx[valid_mask].min()
 ```
 
 차량·주행별 sequence라면 각 group 안에서만 정렬하고 window를 만든다.
@@ -621,22 +653,29 @@ if SPLIT_MODE == "unseen_group":
     tr_idx, va_idx = next(splitter.split(Xg, yg, groups=target_groups))
     assert set(target_groups[tr_idx]).isdisjoint(set(target_groups[va_idx]))
 elif SPLIT_MODE == "future_within_group":
-    # 각 차량/설비의 과거로 같은 개체의 미래 예측
+    # 공동 모델은 모든 train label이 첫 valid 예측 원점 전에 알려져야 한다.
     target_times = pd.to_datetime(np.asarray(TIME_ALL)[target_rows], errors="coerce")
     if pd.isna(target_times).any():
         raise ValueError("target time parse 실패")
-    train_mask = np.zeros(len(Xg), dtype=bool)
-    valid_mask = np.zeros(len(Xg), dtype=bool)
-    GAP_WINDOWS = 0                                                # <<< EDIT
-    for group in pd.unique(target_groups):
-        idx = np.flatnonzero(target_groups == group)
-        idx = idx[np.argsort(target_times[idx], kind="stable")]
-        cut = int(len(idx) * 0.8)
-        train_mask[idx[:max(cut - GAP_WINDOWS, 0)]] = True
-        valid_mask[idx[min(cut + GAP_WINDOWS, len(idx)):]] = True
+    all_times = pd.to_datetime(np.asarray(TIME_ALL), errors="raise")
+    all_groups = np.asarray(GROUPS)
+    origin_for_row = np.full(len(all_times), -1, dtype=int)
+    for group in pd.unique(all_groups):
+        rows = np.flatnonzero(all_groups == group)
+        rows = rows[np.argsort(all_times[rows], kind="stable")]
+        positions = np.arange(HORIZON, len(rows))
+        origin_for_row[rows[positions]] = rows[positions - HORIZON]
+    assert (origin_for_row[target_rows] >= 0).all()
+    origin_times = all_times[origin_for_row[target_rows]]
+    ordered = all_times.sort_values()
+    cutoff_time = ordered[int(len(ordered) * 0.8)]              # <<< 공통 시간 경계
+    label_delay = pd.Timedelta(0)                              # <<< 정답 확정 지연
+    train_mask = target_times + label_delay < cutoff_time
+    valid_mask = origin_times >= cutoff_time
     tr_idx, va_idx = np.flatnonzero(train_mask), np.flatnonzero(valid_mask)
     if len(tr_idx) == 0 or len(va_idx) == 0:
         raise ValueError("group별 time split 결과가 비었습니다")
+    assert (target_times[tr_idx] + label_delay).max() <= origin_times[va_idx].min()
 else:
     raise ValueError(SPLIT_MODE)
 
@@ -777,7 +816,7 @@ from torch.utils.data import TensorDataset, DataLoader
 SEED = 42
 TASK = "regression"              # <<< EDIT: regression/binary/multiclass/multilabel
 METRIC = "rmse"                  # <<< EDIT: mse/rmse/mae/rmsle/accuracy/f1_macro/auc
-MODEL_KIND = "cnn1d"             # <<< EDIT: mlp/cnn1d/gru/lstm/image_cnn
+MODEL_KIND = "mlp"               # <<< 표형 기본. [N,T,F]면 cnn1d/gru/lstm으로 EDIT
 BATCH_SIZE = 128                  # OOM이면 64→32
 MAX_EPOCHS = 30
 PATIENCE = 5
@@ -1032,6 +1071,18 @@ def fit(model, train_loader, valid_loader, task, epochs=30, patience=5,
     best_loss, best_state, bad = float("inf"), None, 0
     started = time.monotonic()
 
+    def denominator(target):
+        if isinstance(criterion, nn.CrossEntropyLoss):
+            target = target.long().reshape(-1)
+            keep = target != criterion.ignore_index
+            n = (criterion.weight[target[keep]].sum().item()
+                 if criterion.weight is not None else keep.sum().item())
+        else:
+            n = len(target)
+        if n <= 0:
+            raise ValueError("loss 평균 분모가 0입니다")
+        return n
+
     for epoch in range(1, epochs + 1):
         model.train()
         train_sum, train_n = 0.0, 0
@@ -1047,8 +1098,9 @@ def fit(model, train_loader, valid_loader, task, epochs=30, patience=5,
             loss.backward()
             nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
-            train_sum += loss.item() * len(xb)
-            train_n += len(xb)
+            n = denominator(yb)
+            train_sum += loss.item() * n
+            train_n += n
 
         model.eval()
         valid_sum, valid_n = 0.0, 0
@@ -1058,8 +1110,9 @@ def fit(model, train_loader, valid_loader, task, epochs=30, patience=5,
                 loss = checked_loss(model(xb), yb, criterion, task)
                 if not torch.isfinite(loss):
                     raise RuntimeError("valid loss is NaN/Inf")
-                valid_sum += loss.item() * len(xb)
-                valid_n += len(xb)
+                n = denominator(yb)
+                valid_sum += loss.item() * n
+                valid_n += n
         if train_n == 0 or valid_n == 0:
             raise RuntimeError("한 epoch에서 처리된 train/valid sample이 없습니다")
         va_loss = valid_sum / valid_n
@@ -1158,7 +1211,10 @@ else:
 print("valid", METRIC, float(score))
 
 raw = raw_predict(model, test_loader)
-test_pred = decode(raw, TASK, probability=False)       # <<< 제출 규격에 맞게 EDIT
+OUTPUT_KIND = "value" if TASK == "regression" else "label"  # <<< EDIT
+if OUTPUT_KIND not in ({"value"} if TASK == "regression" else {"label", "probability"}):
+    raise ValueError("TASK와 OUTPUT_KIND가 맞지 않습니다")
+test_pred = decode(raw, TASK, probability=(OUTPUT_KIND == "probability"))
 ```
 
 multilabel accuracy는 “모든 label이 맞아야 정답”인 subset accuracy일 수 있고 열별 평균일 수도 있다. 다중출력 metric은 반드시 문제의 공식 산식을 그대로 구현한다.
@@ -1166,21 +1222,25 @@ multilabel accuracy는 “모든 label이 맞아야 정답”인 subset accuracy
 label 제출이고 위에서 encoding했다면 **추론 후** 원래 값으로 복원한다. 확률 제출이면 복원하지 않는다.
 
 ```python
-if TASK == "binary" and NEG_LABEL is not None:
+if OUTPUT_KIND == "label" and TASK == "binary" and NEG_LABEL is not None:
     test_pred = np.where(np.asarray(test_pred).reshape(-1) == 1,
                          POS_LABEL, NEG_LABEL)
-elif TASK == "multiclass" and label_encoder is not None:
+elif OUTPUT_KIND == "label" and TASK == "multiclass" and label_encoder is not None:
     test_pred = label_encoder.inverse_transform(np.asarray(test_pred).reshape(-1))
 ```
 
 multiclass **확률 열**은 `label_encoder.classes_` 순서다. 제출 열 순서가 따로 주어지면 재정렬한다.
 
 ```python
-test_prob = decode(raw, "multiclass", probability=True)
-REQUIRED_LABEL_ORDER = list(label_encoder.classes_)      # <<< sample 제출 열 순서로 EDIT
-column_idx = [list(label_encoder.classes_).index(v) for v in REQUIRED_LABEL_ORDER]
-test_pred = test_prob[:, column_idx]
+if TASK == "multiclass" and OUTPUT_KIND == "probability":
+    REQUIRED_LABEL_ORDER = list(label_encoder.classes_)  # <<< sample 제출 열 순서
+    assert len(REQUIRED_LABEL_ORDER) == len(label_encoder.classes_)
+    assert set(REQUIRED_LABEL_ORDER) == set(label_encoder.classes_)
+    column_idx = [list(label_encoder.classes_).index(v) for v in REQUIRED_LABEL_ORDER]
+    test_pred = np.asarray(test_pred)[:, column_idx]
 ```
+
+**checkpoint 주의:** 위 독립 `fit`은 validation **loss** 최소 모델을 복원한다. `METRIC`은 마지막 점수 계산용이며 checkpoint 선택을 바꾸지 않는다. 공식 MAE·RMSLE·F1·AUC로 매 epoch 선택하려면 새 유형별 가이드의 `hdat_templates.train_torch_model(score_fn=..., maximize=...)` 경로를 쓴다. 두 API를 혼용하지 않는다.
 
 ## 13. 이미지 처리
 
@@ -1324,6 +1384,14 @@ normal_error = reconstruction_error(ae, X_valid_normal)
 threshold = np.quantile(normal_error, 0.99)              # <<< EDIT/validation으로 결정
 test_error = reconstruction_error(ae, X_test)
 pred_anomaly = (test_error > threshold).astype(int)
+OUTPUT_KIND = "label"  # <<< EDIT: anomaly_score이면 error 자체를 제출
+if OUTPUT_KIND == "label":
+    test_pred = pred_anomaly  # 이상=1인 명세. 정상=1이면 반전
+elif OUTPUT_KIND == "anomaly_score":
+    test_pred = test_error
+else:
+    raise ValueError(OUTPUT_KIND)
+assert np.asarray(test_pred).shape == (len(X_test),)
 ```
 
 - 이상 label이 있는 validation이면 threshold를 F1 등 공식 metric으로 고른다.
@@ -1335,6 +1403,8 @@ pred_anomaly = (test_error > threshold).astype(int)
 ## 14A. 명세가 직접 요구할 때만 쓰는 PyTorch 부록
 
 VAE·GAN·Transformer는 170분 Problem의 첫 모델로 쓰지 않는다. Process가 구조를 직접 요구하거나, 빠른 baseline 제출 후 validation 근거가 있을 때만 사용한다.
+
+VAE는 재구성+KL loss, GAN은 두 optimizer·교대 학습, 가변길이 Transformer는 padding/mask 처리가 필요하다. 구조 블록만 가져와 위 범용 `fit`에 연결하면 완성되지 않는다. 아래 코드는 구조 참고이며 문제 명세에 맞는 전용 루프를 별도로 작성한다.
 
 ### Residual block
 
@@ -1673,10 +1743,12 @@ if torch.cuda.is_available():
 
 ## 20. 170분 권장 운영
 
+시간 배분 연습용 예시이며 화면 이동 규칙이 아니다. 공식 “One-way only”는 오픈북 규정 문맥이다. 문항 이동·영역 전환·재진입 가능 여부는 해당 회차 안내로 확인하고, 재방문 가능성을 전제로 시간을 짜지 않는다.
+
 | 시간 | 행동 |
 |---:|---|
 | 0~5분 | skeleton, 변수, output shape, metric, 파일명 확인 |
-| 5~55분 | Process 쉬운 순서. 8~10분 막히면 표시 후 이동 |
+| 5~55분 | 허용된 순서로 Process 풀이. 이동 전 가능한 검사와 저장 완료 |
 | 55~60분 | Process micro-test, 저장 상태 확인 |
 | 60~65분 | **Process 첫 제출** |
 | 65~78분 | Problem audit, split, leakage, output 계약 확정 |
@@ -1685,7 +1757,7 @@ if torch.cuda.is_available():
 | 105~140분 | 한 가지 PyTorch 개선 모델 |
 | 140~150분 | validation 비교, 필요할 때만 단순 평균 ensemble |
 | 150~158분 | 최종 prediction 생성·재검증·Problem 재제출 |
-| 158~165분 | Process 미완성 회수, 변경했다면 재제출 |
+| 158~165분 | 최종 파일 reload, test 행·shape·dtype·유한값 재확인 |
 | 165~170분 | 두 영역 제출 완료 상태와 최종 저장 확인 |
 
 ## 21. 소스 코드 지도

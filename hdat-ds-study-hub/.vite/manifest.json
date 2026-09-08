@@ -1,0 +1,154 @@
+{
+  "_framework-CQnNz__K.js": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/framework-CQnNz__K.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js"
+    ]
+  },
+  "_paths-C4SqvhVd.js": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/paths-C4SqvhVd.js",
+    "name": "paths"
+  },
+  "_rolldown-runtime-eEpsFiGm.js": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/rolldown-runtime-eEpsFiGm.js",
+    "name": "rolldown-runtime"
+  },
+  "components/CurriculumProgressSync.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/CurriculumProgressSync-CDOEqqpl.js",
+    "name": "CurriculumProgressSync",
+    "src": "components/CurriculumProgressSync.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "components/ProgressSummary.tsx",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "components/LessonClient.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/LessonClient-DelhzYUh.js",
+    "name": "LessonClient",
+    "src": "components/LessonClient.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "components/ProgressSummary.tsx",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "components/PlaybookCopy.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/PlaybookCopy-B29pE1fP.js",
+    "name": "PlaybookCopy",
+    "src": "components/PlaybookCopy.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "components/PracticeQuiz.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/PracticeQuiz-DXeRJY3f.js",
+    "name": "PracticeQuiz",
+    "src": "components/PracticeQuiz.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "_paths-C4SqvhVd.js",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "components/ProgressSummary.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/ProgressSummary-DW8_6qP0.js",
+    "name": "ProgressSummary",
+    "src": "components/ProgressSummary.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "_paths-C4SqvhVd.js",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "components/ProgressTools.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/ProgressTools-LGJc-dqo.js",
+    "name": "ProgressTools",
+    "src": "components/ProgressTools.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "components/PracticeQuiz.tsx",
+      "components/ProgressSummary.tsx",
+      "components/RecallCheck.tsx",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "components/RecallCheck.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/RecallCheck-CtkvC-sW.js",
+    "name": "RecallCheck",
+    "src": "components/RecallCheck.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "_paths-C4SqvhVd.js",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "components/SiteHeader.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/SiteHeader-B99244Q3.js",
+    "name": "SiteHeader",
+    "src": "components/SiteHeader.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "_paths-C4SqvhVd.js",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "components/StudyDashboard.tsx": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/StudyDashboard-BUwvAUcw.js",
+    "name": "StudyDashboard",
+    "src": "components/StudyDashboard.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "components/PracticeQuiz.tsx",
+      "components/ProgressSummary.tsx",
+      "components/ProgressTools.tsx",
+      "components/RecallCheck.tsx",
+      "_paths-C4SqvhVd.js",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/layout-segment-context-BjNVCV4A.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CQnNz__K.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "hdat-ds-study-hub/_next/static/chunks/index-s43iJprX.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-eEpsFiGm.js",
+      "_framework-CQnNz__K.js"
+    ],
+    "dynamicImports": [
+      "virtual:vinext-app-browser-entry",
+      "components/ProgressTools.tsx",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "components/CurriculumProgressSync.tsx",
+      "components/RecallCheck.tsx",
+      "components/StudyDashboard.tsx",
+      "components/SiteHeader.tsx",
+      "components/PracticeQuiz.tsx",
+      "components/ProgressSummary.tsx",
+      "components/PlaybookCopy.tsx",
+      "components/LessonClient.tsx"
+    ]
+  }
+}

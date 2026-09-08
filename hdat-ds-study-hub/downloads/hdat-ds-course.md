@@ -2510,13 +2510,15 @@ def make_windows(X, y, lookback, horizon, stride=1, assume_sorted=False):
 
 ### 21.6 target-index split
 
-time boundary가 원본 index `cut`일 때 target index `<cut`인 window는 train, `>=cut`은 validation이다. validation input은 경계 이전 과거를 포함할 수 있다. 실제 미래 예측에서도 그 과거가 사용 가능하기 때문이다.
+실시간 예측에서는 학습 label이 validation의 예측 원점(입력 끝)에 이미 알려져 있어야 한다. target index만 `cut`으로 나누면 horizon>1에서 미래 정답을 학습에 쓸 수 있다. 아래 `HORIZON`은 window를 생성할 때 사용한 같은 행 간격이다. label 확정 지연이 있으면 train 조건에 더한다. 별도 배치평가의 target-only split과 구분한다.
 
 ```python
 train_mask = target_idx < cut
-valid_mask = target_idx >= cut
+valid_mask = target_idx - HORIZON >= cut
 Xtr, ytr = Xw[train_mask], yw[train_mask]
 Xva, yva = Xw[valid_mask], yw[valid_mask]
+assert len(Xtr) and len(Xva)
+assert target_idx[train_mask].max() < (target_idx[valid_mask] - HORIZON).min()
 ```
 
 ### 21.7 sequence scaling
@@ -4042,7 +4044,7 @@ Momentum의 핵심 설명으로 가장 적절한 것은?
 
 #### 9번. Batch Normalization
 
-평가 시 BatchNorm의 동작으로 옳은 것은?
+track_running_stats=True인 BatchNorm을 model.eval()로 평가할 때 옳은 것은?
 
 ① 현재 sample 하나의 통계만 사용  
 ② 학습 중 저장한 running mean/variance 사용  
@@ -4321,7 +4323,7 @@ LSTM cell update로 옳은 것은? ① `c_t=f_t⊙c_{t-1}+i_t⊙g_t` ② `c_t=so
 
 #### 3회-13번
 
-cut=400이고 window target index가 400, input 마지막 index가 370일 때 time validation 배정은? ① train ② valid ③ 폐기만 가능 ④ random
+target index가 cut 이상이면 validation에 배정하는 규칙에서 cut=400이고 window target index가 400, input 마지막 index가 370일 때 time validation 배정은? ① train ② valid ③ 폐기만 가능 ④ random
 
 #### 3회-14번
 
@@ -4357,7 +4359,7 @@ multilabel 5개 target의 올바른 계약은? ① logits `(B,5)`, float target 
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 정답 | ① | ③ | ② | ② | ② | ① | ③ | ② | ① | ② | ① | ② | ② | ② | ① | ② | ① | ② | ① | ② |
 
-1. 편차 제곱합 8을 3으로 나눈다. 2. `0.08/(0.08+0.18)=.3077`. 3. `12×5+5=65`. 4. tanh는 원점 대칭 S자이고 범위가 `(-1,1)`이다. 5. squared error 1,4 평균 2.5. 6. P=.8,R=.5,F1≈.615. 7. log1p domain과 metric 정의상 음수를 처리할 수 없다. 8. augmentation은 train에만 stochastic하게 적용하고 평가 분포는 deterministic하게 고정한다. 9. 공간축 절반. 10. γ/β 각 20. 11. additive cell path. 12. `500-20-30+1=451`. 13. target index로 valid. 14. exp 비율 1:3. 15. posterior=prior. 16. 일반 판정 anomaly. 17. D만 학습. 18. channel·공간 projection. 19. 각 label 독립 binary. 20. shape를 억지 reshape하지 말고 output 의미부터 수정한다.
+1. 편차 제곱합 8을 3으로 나눈다. 2. `0.08/(0.08+0.18)=.3077`. 3. `12×5+5=65`. 4. tanh는 원점 대칭 S자이고 범위가 `(-1,1)`이다. 5. squared error 1,4 평균 2.5. 6. P=.8,R=.5,F1≈.615. 7. 이 문항의 RMSLE는 비음수 target·prediction을 요구한다. log1p 자체는 -1보다 큰 음수에서도 정의되므로 metric의 입력 규약과 구분한다. 8. augmentation은 train에만 stochastic하게 적용하고 평가 분포는 deterministic하게 고정한다. 9. 공간축 절반. 10. γ/β 각 20. 11. additive cell path. 12. `500-20-30+1=451`. 13. target index로 valid. 14. exp 비율 1:3. 15. posterior=prior. 16. 일반 판정 anomaly. 17. D만 학습. 18. channel·공간 projection. 19. 각 label 독립 binary. 20. shape를 억지 reshape하지 말고 output 의미부터 수정한다.
 
 3회 독립 시험에서 모두 16개 이상이어야 “3회 연속 80%” 기준을 충족한 것으로 본다.
 
@@ -4806,7 +4808,7 @@ print(X_raw.shape, y_raw.shape)
 ### 33.3 응시자 과제
 
 1. `X_raw`, `y_raw`의 shape/dtype/finite와 첫 유효 target을 확인한다.
-2. target 시각 기준 70% train, 15% validation, 15% test로 나눈다.
+2. 원시 시간의 70%·85%에 경계를 두고, 이전 구간 label이 다음 구간의 예측 원점 전에 알려지도록 horizon만큼 경계 sample을 제외한다. 최종 sample 비율은 정확한 70/15/15가 아니다.
 3. input window `[e-L+1:e+1]`, target `y[e+H]`를 정확히 만든다.
 4. scaler는 train window에만 fit한다.
 5. target 평균 또는 flatten linear/MLP baseline을 평가한다.
@@ -4826,8 +4828,8 @@ all_end = np.arange(LOOKBACK - 1, n - HORIZON, dtype=np.int64)
 all_target = all_end + HORIZON
 
 train_end = all_end[all_target < train_target_cut]
-valid_end = all_end[(all_target >= train_target_cut) & (all_target < valid_target_cut)]
-test_end = all_end[all_target >= valid_target_cut]
+valid_end = all_end[(all_end >= train_target_cut) & (all_target < valid_target_cut)]
+test_end = all_end[all_end >= valid_target_cut]
 
 def materialize(X, y, end_indices, lookback, horizon):
     Xw = np.stack([X[e - lookback + 1:e + 1] for e in end_indices]).astype(np.float32)
@@ -4845,8 +4847,10 @@ X_valid, y_valid = materialize(X_raw, y_raw, valid_end, LOOKBACK, HORIZON)
 X_test, y_test_hidden = materialize(X_raw, y_raw, test_end, LOOKBACK, HORIZON)
 
 assert train_end[-1] + HORIZON < train_target_cut
-assert valid_end[0] + HORIZON >= train_target_cut
-assert test_end[0] + HORIZON >= valid_target_cut
+assert valid_end[0] >= train_target_cut
+assert test_end[0] >= valid_target_cut
+assert train_end[-1] + HORIZON < valid_end[0]
+assert valid_end[-1] + HORIZON < test_end[0]
 print(X_train.shape, X_valid.shape, X_test.shape)
 ```
 
@@ -5343,6 +5347,8 @@ Attention:
 
 ### 34.10 합격 준비 상태 체크
 
+아래 수치는 자체 복습 목표이며 공식 합격선이 아니다. 공식 커트라인과 세부 채점 기준은 비공개다.
+
 필기:
 
 - [ ] 20문항 모의에서 3회 연속 16개 이상
@@ -5427,7 +5433,7 @@ Problem:
 
 ## 끝까지 공부한 뒤
 
-이 교재를 한 번 읽은 것은 시작일 뿐이다. 합격 준비가 되었다는 증거는 다음 세 가지다.
+이 교재를 한 번 읽은 것은 시작일 뿐이다. 다음 세 가지는 개인 학습 점검 기준이며 공식 합격 판정이 아니다.
 
 1. 폐쇄형 필기 20문항을 시간 안에 안정적으로 푼다.
 2. Process 함수와 정확한 PyTorch 구조를 빈 화면에서 구현한다.

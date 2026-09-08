@@ -1,0 +1,64 @@
+{
+  "B01": {
+    "output": "label",
+    "tail_shape": [],
+    "metric": "Macro-F1",
+    "dataset_id": "29a5e6b4d61a131d0ceb3adc2d7e9ecf0403407f90a80ed4eaeab01318da1ddd",
+    "labels": [
+      10,
+      20,
+      40
+    ]
+  },
+  "B02": {
+    "output": "value",
+    "tail_shape": [
+      1
+    ],
+    "metric": "RMSLE",
+    "dataset_id": "cd820f6b71755f0e9d8b0e1cbceaf54e586b6df41aeea448e3a6dd77170542f8",
+    "nonnegative": true
+  },
+  "B06": {
+    "output": "probability",
+    "tail_shape": [
+      1
+    ],
+    "metric": "ROC-AUC: label=2",
+    "dataset_id": "ccd1af309f23349ef77ded9f77a7914878267174298f300562812d30ee09e7e7"
+  },
+  "B07": {
+    "output": "probability",
+    "tail_shape": [
+      3
+    ],
+    "metric": "Macro ROC-AUC",
+    "dataset_id": "e9e1afc48d87cb8f49ff8d4671980c69ae532711866fde491a1079e1e297cab8"
+  },
+  "B03": {
+    "output": "value",
+    "tail_shape": [
+      3
+    ],
+    "metric": "MSE all elements",
+    "dataset_id": "fe34cf14a08f4f66ba24cbdaa2bb92811f0361f24c1bca599e7e23d16697a372"
+  },
+  "B04": {
+    "output": "label",
+    "tail_shape": [],
+    "metric": "Accuracy",
+    "dataset_id": "96bb13537bad8aa69caa843223039d6ed41b1389b85d38b740166164eb5bda34",
+    "labels": [
+      0,
+      1,
+      2
+    ]
+  },
+  "B05": {
+    "output": "score",
+    "tail_shape": [],
+    "metric": "ROC-AUC: anomaly=1",
+    "dataset_id": "fe566d8925d2564665d042933c10d4aed820af9c1db75913773f8b458352ab2a",
+    "nonnegative": true
+  }
+}
