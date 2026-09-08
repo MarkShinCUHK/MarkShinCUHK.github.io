@@ -117,14 +117,14 @@
 ### 1.6 확인문제
 
 1. Process에서 성능이 아니라 명세 준수가 중요한 이유를 두 가지 쓰라.
-2. Problem에서 첫 60분 안에 확보해야 하는 산출물은 무엇인가?
+2. 1.5의 170분 연습 계획에서 첫 baseline 구간이 끝나는 약 65분 시점까지 확보하려는 산출물은 무엇인가? 이 시각이 공식 채점 조건인가?
 3. 실기에서 생성형 AI가 금지되어 있다면, 이 교재는 언제 어떻게 사용해야 하는가?
 4. 필기 한 문항에 평균 몇 분을 쓸 수 있는가?
 
 #### 정답·해설
 
 1. 함수명·반환형·shape·경계조건이 명세와 다르면 공개 예시 밖 입력에서 실패할 수 있고, 요구한 동작과 다른 “더 좋은” 구현도 오답이 될 수 있기 때문이다.
-2. 최소한 실행 가능한 baseline과 요구된 이름·shape의 예측 파일이다.
+2. 최소한 실행 가능한 baseline과 요구된 이름·shape·행 순서의 예측 파일이다. 약 65분은 본문 연습 계획의 누적 목표이며 공식 채점 조건이 아니다.
 3. 시험 전에 충분히 학습하고, 시험 중에는 해당 회차 공식 안내가 허용한 검색·자료 범위에서만 짧은 공식·코드 조각을 찾는다.
 4. `50 / 20 = 2.5분`, 즉 2분 30초다.
 
@@ -261,7 +261,7 @@ def selected_minmax(df, columns):
 
 ### 2.8 실습문제
 
-1. `[32, 50, 8]` 센서 텐서를 `Conv1d(in_channels=8, ...)`에 넣기 직전 필요한 코드를 쓰라.
+1. x의 shape가 [32,50,8]이고 축 의미가 [배치,시간,특성]이다. 특성 8개를 채널로 쓰는 Conv1d(in_channels=8, ...)에 넣기 직전 필요한 PyTorch 코드를 쓰라.
 2. 예측 `[128,1]`, 정답 `[128]`의 MSE에서 생길 수 있는 문제와 수정법을 쓰라.
 3. `a = np.arange(12).reshape(3,4)`에서 2번째 열만 `[3,1]`로 선택하는 코드를 두 가지 쓰라.
 4. 위 `selected_minmax`가 빈 `columns=[]`를 받으면 무엇을 반환해야 하는가?
@@ -594,7 +594,7 @@ print(train[features].shape, test[features].shape)  # (2,1) (1,1)
 2. test를 시간순으로 정렬해 예측한 뒤 원래 순서를 복원하는 최소 코드를 작성하라.
 3. float64 `(500_000, 100)` 배열 하나의 대략적인 메모리를 MiB로 계산하라.
 4. `merge(..., validate="one_to_one")`가 실패했다. 가능한 데이터 문제 두 가지는?
-5. `pd.NA`를 범주형 imputer가 받을 `np.nan`으로 바꾸는 안전한 코드를 쓰라.
+5. 한 범주 열에서 숫자 1과 문자열 '1'을 같은 범주로 합쳐도 된다고 가정한다. pd.NA를 범주형 imputer가 받을 np.nan으로 바꾸고 결측을 문자열로 만들지 않는 코드를 쓰라.
 
 #### 쉬운 확인문제부터 다시 풀기
 
@@ -731,17 +731,17 @@ assert torch.allclose(Z[:, 0], torch.tensor([1.5, 1.5]))
 
 1. `X:[64,20]`, `Linear(20,7)`의 weight, bias, output shape를 쓰라.
 2. `x=[3,4]`의 L1, L2 norm을 구하라.
-3. 두 feature가 완전히 동일할 때 covariance matrix의 rank와 PCA 주성분 수에 어떤 영향이 있는가?
+3. 입력에 동일한 두 수치 feature만 있고 적어도 두 개의 서로 다른 관측값이 있다. 중심화한 covariance matrix의 rank와 양의 분산을 가진 PCA 방향 수는 얼마인가? 두 feature가 모두 상수이면 어떻게 달라지는가?
 4. PCA를 split 전에 전체 데이터에 fit하면 왜 leakage인가?
-5. cosine similarity가 1, 0, -1일 때 의미를 쓰라.
+5. 두 영벡터가 아닌 벡터의 cosine similarity가 1, 0, -1일 때 의미를 쓰라. 한쪽이 영벡터이면 같은 각도 해석을 적용할 수 있는가?
 
 #### 정답·해설
 
 1. weight `[7,20]`, bias `[7]`, output `[64,7]`.
 2. L1은 7, L2는 5.
-3. 새로운 독립 방향을 추가하지 않으므로 rank가 늘지 않고, 한 방향의 고유값은 0이 된다.
+3. 두 열만 있고 동일한 비상수 값이면 중심화 후 독립 방향이 하나여서 covariance rank는 1, 양의 분산을 가진 PCA 방향도 1개다. 다른 한 고유값은 0이다. 두 열이 모두 상수이면 중심화 후 전부 0이므로 rank와 양의 분산 방향 수는 모두 0이다.
 4. validation/test 분포의 평균·분산·주성분 방향이 train feature 생성에 들어가 검증 정보가 새어 들어간다.
-5. 같은 방향, 직교, 반대 방향이다.
+5. 두 벡터 모두 영벡터가 아닐 때 각각 같은 방향, 직교, 반대 방향이다. 한쪽이 영벡터이면 길이 곱이 0이라 수학적 코사인 유사도와 각도가 정의되지 않는다.
 
 ### 4.10 완료 기준
 
@@ -861,7 +861,7 @@ Adam이 언제나 최종 일반화가 가장 좋은 것은 아니다. 그러나 
 
 ### 5.9 실습문제
 
-1. `x=2, y=5, w=1, b=0`, squared error에서 `dL/dw`, `dL/db`를 구하라.
+1. 예측 ŷ=wx+b, 손실 L=(ŷ−y)²인 한 샘플에서 x=2, y=5, w=1, b=0이다. dL/dw와 dL/db를 구하라.
 2. `zero_grad()`를 생략하고 두 batch를 학습하면 어떤 일이 생기는가?
 3. sigmoid가 깊은 신경망 hidden activation에 불리한 이유 두 가지는?
 4. learning rate가 너무 클 때와 너무 작을 때의 loss 곡선을 설명하라.
@@ -1234,16 +1234,16 @@ PyTorch MLP로 넘길 때 희소 one-hot이 너무 크면 dense 변환으로 OOM
 1. train `[0,5,10]`, test `[15]`에 train min-max를 적용한 test 값은?
 2. tree와 KNN 중 scaling이 더 중요한 모델과 이유는?
 3. target encoding을 안전하게 train feature로 만드는 원리는?
-4. 시계열 forward fill이 언제도 누수가 될 수 있는가?
-5. test-only category를 `-1`로 ordinal encoding할 때 모델이 알아야 할 것은?
+4. 시계열 forward fill은 어떤 조건에서 누수가 될 수 있는가? split 전에 실행했다는 사실만으로 항상 누수라고 할 수 있는지도 설명하라.
+5. test-only category를 -1로 ordinal encoding할 때 unknown 코드의 의미와 충돌 여부에서 무엇을 확인해야 하는가? 이어서 PyTorch Embedding에 넣는다면 어떤 추가 변환·범위 검사가 필요한가?
 
 #### 정답·해설
 
 1. `(15-0)/(10-0)=1.5`.
 2. KNN. 거리 계산이 feature 단위에 직접 영향받는다.
 3. 각 train 행의 encoding은 그 행의 target을 포함하지 않는 out-of-fold 통계로 만들고, validation/test는 train fold 통계를 쓴다.
-4. split 전에 전체 시계열을 채우거나, 정렬이 잘못되어 미래 관측이 과거로 들어가면 누수다.
-5. unknown code가 정상 범주와 충돌하지 않고 embedding index 범위 안에 있어야 하며, `-1`을 직접 embedding에 넣을 수 없으므로 offset/padding index 처리가 필요하다.
+4. 시간 정렬이 잘못되어 미래 값을 전달하거나, 다른 개체의 값을 넘기거나, 예측 원점에서 아직 관측할 수 없는 값을 사용하면 누수 또는 잘못된 특성 처리가 된다. 같은 개체의 실제로 이용 가능한 과거 값만 인과적으로 전달했다면 split 전에 실행했다는 사실만으로 항상 누수인 것은 아니다. 일괄 다중시점 예측과 순차적으로 새 관측을 받는 예측의 정보 계약도 구분한다.
+5. ordinal unknown -1이 기존 범주 코드와 충돌하지 않는지, 수치형 모델이 이를 어떤 순서·거리로 해석하는지 확인한다. Embedding을 쓰는 경우에는 -1을 직접 넣지 말고 unknown=0, 기존 범주=1부터 같은 유효 주소로 매핑하며 정수 dtype과 0 ≤ index < num_embeddings를 검사한다. 모든 모델이 embedding 범위 조건을 요구하는 것은 아니다.
 
 ### 8.10 완료 기준
 
@@ -1509,8 +1509,8 @@ Bagging은 병렬·variance 감소, boosting은 순차·bias까지 줄이는 경
 
 선형 SVM은 두 class 사이 margin을 최대화하는 hyperplane을 찾는다. support vector는 경계를 결정하는 가까운 샘플이다.
 
-- 큰 C: 오분류 penalty 큼, 좁은 margin, train 적합↑, overfit 가능
-- 작은 C: 위반 허용, 넓은 margin, 규제↑
+- 큰 C: 마진 위반 penalty 큼, train 위반을 더 엄격히 줄이려는 경향, overfit 가능. 마진 폭의 단조 변화가 항상 보장되지는 않는다.
+- 작은 C: 위반을 더 허용하고 상대적으로 강한 규제를 주는 경향
 - RBF gamma 큼: 각 sample 영향 범위 좁음, 복잡한 경계
 - gamma 작음: 영향 범위 넓음, 부드러운 경계
 
@@ -1539,7 +1539,7 @@ SVM은 scaling이 중요하고 큰 n에서 kernel SVM이 느릴 수 있다. spar
 1. `1-(0.75²+0.25²)=0.375`.
 2. 서로 덜 상관된 여러 tree의 오류를 평균하면 개별 변동이 상쇄된다.
 3. bagging 구성 모델은 독립·병렬 가능, boosting은 이전 오류를 이용하므로 순차적이다.
-4. 좁은 margin과 매우 국소적인 복잡한 경계로 overfitting 위험이 크다.
+4. 큰 C는 마진 위반을 강하게 벌하고 큰 gamma는 각 샘플의 영향 범위를 좁게 만들어, 훈련 잡음에 맞춘 복잡한 경계와 overfitting 위험이 커질 수 있다. C 증가가 모든 데이터에서 마진 폭을 반드시 줄인다고 단정하지 말고 scaling과 검증 성능을 함께 확인한다.
 5. 값의 절대 거리보다 `x_j <= threshold`의 순서 분할을 사용하며 단조 scaling이 순서를 보존한다.
 
 ### 11.9 완료 기준
@@ -1829,7 +1829,7 @@ Binary `BCEWithLogitsLoss(pos_weight=Nneg/Npos)`는 양성 loss를 키운다. Mu
 confusion matrix가 TP=30, FP=10, FN=20, TN=940일 때:
 
 1. accuracy, precision, recall, F1을 계산하라.
-2. hard label 대신 probability가 필요한 metric 두 개를 쓰라.
+2. hard label보다 연속 score 또는 probability를 보존해야 하는 metric 두 개를 쓰고, ROC-AUC와 log loss의 입력 요구가 어떻게 다른지 설명하라.
 3. Macro-F1과 Weighted-F1 중 소수 class에 더 동일한 중요도를 주는 것은?
 4. validation에서 threshold를 골랐는데 전체 재학습 후 calibration이 달라지는 이유는?
 5. `pos_weight`를 전체 train+validation에서 계산하면 왜 엄밀히 누수인가?
@@ -1837,7 +1837,7 @@ confusion matrix가 TP=30, FP=10, FN=20, TN=940일 때:
 #### 정답·해설
 
 1. accuracy=`970/1000=.97`, precision=`30/40=.75`, recall=`30/50=.60`, F1=`2×.75×.60/1.35≈.667`.
-2. ROC-AUC, PR-AUC/log loss. AUC에는 ranking score가 필요하다.
+2. 예를 들어 ROC-AUC와 Average Precision이다. 이진 ROC-AUC와 AP는 적절한 연속 ranking score를 사용할 수 있어 보정된 확률이 필수는 아니다. log loss는 클래스 확률 계약이 필요하다. hard label만 저장하면 원래 점수의 순위와 확률 정보를 잃는다.
 3. Macro-F1.
 4. 학습 sample과 parameter가 바뀌어 score 분포가 달라질 수 있다.
 5. validation label 비율을 loss hyperparameter에 사용한다. split 비교 단계에서는 train fold만 사용해야 한다.
@@ -2097,7 +2097,7 @@ optimizer.step()
 2. validation에서 `no_grad()`만 쓰고 `model.eval()`을 안 쓰면 어떤 layer가 문제인가?
 3. batch size 1에서 무인자 `squeeze()`가 위험한 이유는?
 4. multiclass target이 문자열이면 DataLoader 전에 무엇을 해야 하는가?
-5. test DataLoader에 `drop_last=True`를 쓰면 제출에 어떤 일이 생기는가?
+5. test 표본 수가 batch_size로 나누어떨어지지 않을 때 DataLoader에 drop_last=True를 쓰면 제출에 어떤 일이 생기는가?
 
 #### 정답·해설
 
@@ -2207,7 +2207,7 @@ Loss와 평가 metric은 같을 필요가 없다. Macro-F1은 미분 불가능�
 1. activation 없는 3개 Linear 층이 여전히 선형인 이유는?
 2. `Linear(32,16)` parameter 수는?
 3. binary 모델 output에 sigmoid가 없는데 확률은 언제 만드는가?
-4. multiclass target one-hot `[B,K]`를 `CrossEntropyLoss`에 넣지 않는 이유는?
+4. PyTorch CrossEntropyLoss의 기본 class-index 경로에서 target의 shape와 dtype은 무엇인가? one-hot [B,K]도 사용할 수 있는 별도 경로의 조건과 구분 이유를 설명하라.
 5. MLP 입력 `[B,10,3]`의 올바른 `input_dim`은?
 
 #### 정답·해설
@@ -2215,7 +2215,7 @@ Loss와 평가 metric은 같을 필요가 없다. Macro-F1은 미분 불가능�
 1. affine transform의 합성은 하나의 affine transform으로 정리된다.
 2. `32×16+16=528`.
 3. loss는 logits를 직접 받고, validation metric/예측 단계에서 `torch.sigmoid`를 쓴다.
-4. 기본 계약은 class index long `[B]`; one-hot을 쓰면 다른 확률 target 동작이 될 수 있어 명세를 흐린다.
+4. 기본 class-index 경로는 [B]의 torch.long 정답이며 값은 0 이상 K 미만이다. 입력 logits와 같은 [B,K]의 float 확률 target도 별도 경로로 지원하므로 올바른 one-hot도 사용할 수 있다. 이 경우 각 행이 유효한 확률 분포여야 한다. 기본 과제에서는 지정된 class-index 계약을 따르고 두 경로의 shape·dtype을 혼합하지 않는다.
 5. `10×3=30`.
 
 ### 17.10 완료 기준
@@ -2385,7 +2385,7 @@ metric이 클수록 좋은 F1/AUC라면 비교 방향을 반대로 한다.
 
 ### 18.10 실습문제
 
-1. BatchNorm의 train/eval 차이를 쓰라.
+1. PyTorch BatchNorm의 기본 track_running_stats=True에서 train/eval의 통계 사용과 running statistics 갱신 차이를 쓰라.
 2. dropout p를 0.2에서 0.8로 높이면 일반적으로 train/valid에 어떤 영향이 가능한가?
 3. ReLU network에 He 초기화가 적합한 직관은?
 4. validation F1 early stopping에서 `min` 비교를 쓰면 어떤 오류인가?
@@ -2630,7 +2630,7 @@ pretrained weight가 기대하는 mean/std를 사용한다. scratch model에서�
 ### 20.8 실습문제
 
 1. residual addition에서 input `[B,32,64,64]`, main `[B,64,32,32]`이면 shortcut에 무엇이 필요한가?
-2. head만 교체한 뒤 optimizer에 `model.parameters()` 전체를 넣어도 frozen weight가 갱신되는가?
+2. 학습 시작 전에 backbone을 requires_grad=False로 동결했고 각 frozen parameter의 .grad가 None이다. head를 교체한 뒤 일반적인 PyTorch optimizer에 model.parameters() 전체를 넣으면 frozen weight가 갱신되는가? 학습 중간에 동결하는 경우의 추가 주의점도 쓰라.
 3. `requires_grad=False`와 `model.eval()`은 같은가?
 4. pretrained ResNet에 grayscale image를 넣는 해결책 두 가지는?
 5. 전이학습이 항상 scratch보다 좋은가?
@@ -2638,7 +2638,7 @@ pretrained weight가 기대하는 mean/std를 사용한다. scratch model에서�
 #### 정답·해설
 
 1. `Conv2d(32,64,kernel_size=1,stride=2)`와 보통 BN projection.
-2. gradient가 없으므로 갱신되지 않지만 optimizer state/의도가 불명확하다. trainable parameter만 넘기는 것이 명료하다.
+2. 주어진 grad=None 조건에서는 일반적인 PyTorch optimizer가 해당 parameter를 건너뛰므로 frozen weight는 갱신되지 않는다. 학습 중간에 동결하면 이전 .grad가 남아 있을 수 있으므로 gradient와 optimizer 구성을 정리해야 한다. trainable parameter만 optimizer에 넣으면 의도가 명료하다. BN running statistics의 변화는 별도로 확인한다.
 3. 아니다. 전자는 parameter gradient, 후자는 Dropout/BN mode를 바꾼다.
 4. grayscale을 3채널 반복하거나 첫 conv를 1채널로 교체하고 weight를 평균/재초기화한다.
 5. domain 차이, 입력 규격, 데이터 크기, normalization, tuning에 따라 다르다. validation으로 판단한다.
@@ -2785,7 +2785,7 @@ class LazyWindowDataset(Dataset):
 1. 50Hz, lookback 0.4초, horizon 2초는 각각 몇 sample인가?
 2. T=1000, L=20, H=100, stride 1의 window 수는?
 3. window를 먼저 random split할 때 발생하는 누수를 설명하라.
-4. validation target index가 800이고 input이 780~799라면 cut=800 time split에서 허용되는가?
+4. 시점 799의 관측과 정답이 확정된 직후, 그때까지 알려진 label만으로 학습을 마치고 target 800을 예측한다. 입력은 인덱스 780부터 799이고 H=1이다. validation target 구간이 800부터라는 조건에서, 입력에 train 기간의 과거가 들어갔다는 이유만으로 누수인가? 모델을 cut=800 직전에 확정하고 validation 예측 원점을 800 이상으로 제한하는 별도 설계와도 구분하라.
 5. float32 `(900000,20,23)` window의 대략 메모리는?
 
 #### 정답·해설
@@ -2793,7 +2793,7 @@ class LazyWindowDataset(Dataset):
 1. L=20, H=100.
 2. `1000-20-100+1=881`.
 3. 인접 window가 대부분의 raw 시점을 공유해 validation이 사실상 train 복사본과 비슷해진다.
-4. 실제 예측 시점 800에 과거 780~799가 사용 가능하므로 허용된다.
+4. 첫 설계에서는 원점 799에 입력과 모든 학습 label이 이미 알려졌으므로 과거 입력을 공유했다는 이유만으로 누수는 아니다. 별도 설계가 validation 원점을 800 이상으로 제한한다면 이 창의 원점은 799이므로 그 validation에는 포함하지 않는다. target index만으로 허용 여부를 정하지 말고 모델 확정 시점과 예측 원점을 함께 확인한다.
 5. `900000×20×23×4≈1.656GB`(10진), 여기에 복사·activation이 추가된다.
 
 ### 21.10 완료 기준
@@ -3032,16 +3032,16 @@ self-attention score는 T×T라 memory/time이 `O(T²)`다. 긴 sequence에서�
 
 1. `d_model=60, nhead=8`이 기본 multi-head에 맞지 않는 이유는?
 2. Q `[B,4,10,16]`, K `[B,4,20,16]` score shape는?
-3. positional encoding이 없으면 무엇을 잃는가?
-4. padding mask에서 PyTorch boolean `True`가 일반적으로 의미하는 것은?
+3. positional encoding, 위치 의존 mask, 기타 순서 단서가 없는 self-attention은 입력 순서를 바꾸었을 때 어떻게 동작하는가? 순서 없는 평균 pooling까지 적용하면 무엇을 구별하기 어려운가?
+4. PyTorch nn.TransformerEncoder의 src_key_padding_mask에서 bool True는 무엇을 뜻하는가? functional scaled_dot_product_attention의 bool attn_mask와 같은 의미인가?
 5. T를 2배로 하면 attention score 원소 수는 몇 배인가?
 
 #### 정답·해설
 
 1. 60이 8로 나누어지지 않아 head별 동일 dimension으로 분할할 수 없다.
 2. `[B,4,10,20]`.
-3. sequence의 절대/상대 순서 정보를 자체적으로 구분하지 못한다.
-4. mask된, attention에서 무시할 위치.
+3. 주어진 위치 단서 없는 self-attention은 입력 행의 순열에 맞춰 출력 행도 재배열되는 permutation equivariance를 갖는다. 출력 배열이 그대로 동일하다는 뜻은 아니다. 이후 순서 없는 평균 pooling까지 적용하면 같은 token 집합의 서로 다른 배열 순서를 구별하기 어렵다.
+4. nn.TransformerEncoder의 bool src_key_padding_mask에서 True는 attention의 key로 무시할 위치다. 반면 functional scaled_dot_product_attention의 bool attn_mask는 True가 참여 허용을 뜻한다. API별 계약이 반대이므로 변환 없이 같은 bool mask를 재사용하면 안 된다.
 5. 약 4배.
 
 ### 23.11 완료 기준
@@ -3143,11 +3143,11 @@ pred_anomaly = (errors > threshold).astype(np.int64)
 
 ### 24.9 실습문제
 
-1. anomaly error가 threshold보다 낮으면 anomaly인가 정상인가?
+1. 이 강의처럼 reconstruction error가 클수록 이상이며 score > threshold일 때 anomaly=1로 정의한다. 새 sample의 error가 threshold보다 낮으면 어떤 label로 판정하는가?
 2. train에 anomaly를 대량 포함하면 어떤 문제가 가능한가?
 3. AE latent dimension이 input보다 반드시 작아야 하는가?
 4. sample별 `[B,F]` error를 `[B]`로 만드는 코드는?
-5. validation label이 없을 때 threshold 후보를 어떻게 정할 수 있는가?
+5. 고장 라벨은 없지만 정상으로 확인된 validation sample만 별도로 있다. 이 조건에서 threshold 후보를 어떻게 정하고, 어떤 성능은 직접 계산할 수 없는가?
 
 #### 정답·해설
 
@@ -3155,7 +3155,7 @@ pred_anomaly = (errors > threshold).astype(np.int64)
 2. anomaly pattern까지 잘 복원해 분리력이 낮아질 수 있다.
 3. 아니다. denoising/sparse 등 다른 규제로 useful representation을 만들 수 있다. 다만 무규제 overcomplete는 identity 위험.
 4. `(recon-x).pow(2).flatten(1).mean(1)`.
-5. 정상 validation error quantile이나 허용 false positive rate를 사용하고 민감도를 분석한다.
+5. 정상으로 확인된 validation error의 quantile 또는 허용 false positive rate에 맞춘 threshold 후보를 정하고 민감도를 분석한다. 고장 라벨이 없으므로 고장 recall·F1은 직접 계산할 수 없으며, 정체불명의 unlabeled validation을 정상이라고 가정하지 않는다.
 
 ### 24.10 완료 기준
 
@@ -3542,7 +3542,7 @@ dbscan = DBSCAN(eps=0.5, min_samples=5)
 
 ### 26.13 실습문제
 
-1. `Conv2d(3,8,5,padding=2)` 뒤 BN+ReLU에서 learnable parameter 총수를 계산하라.
+1. Conv2d(3,8,kernel_size=5,padding=2,bias=True) → BatchNorm2d(8,affine=True) → ReLU의 learnable parameter 총수를 계산하라. running mean/variance는 parameter에서 제외한다.
 2. `stable_softmax([1000,1000])` 결과는?
 3. feature가 5개인 3-class LDA 최대 차원은?
 4. TimeSeriesSplit을 쓰기 전 반드시 보장할 것은?
@@ -3726,7 +3726,7 @@ toy = pd.DataFrame({"speed": speed, "weight": weight, "temp": temp, "mode": mode
 5. 5% 결측을 넣고 안전하게 처리
 6. prediction `(N,1)`과 `(N,)` 제출 계약 비교
 
-불균형 이진분류를 데이터 생성부터 group split, PyTorch MLP, threshold, 전체 재학습, NPY reload까지 실행하는 모범 실습은 같은 폴더의 `full_mock_tabular.py`에 있다. 먼저 `--generate-only`로 train/test만 만든 뒤 혼자 풀고, 그 다음 기본 실행 결과와 비교한다.
+불균형 이진분류를 데이터 생성부터 group split, PyTorch MLP, threshold, 전체 재학습, NPY reload까지 실행하는 모범 실습은 같은 폴더의 `full-mock-tabular.py`에 있다. 먼저 `--generate-only`로 train/test만 만든 뒤 혼자 풀고, 그 다음 기본 실행 결과와 비교한다.
 
 ### 27.11 실습문제
 
@@ -3860,8 +3860,8 @@ def make_sensor_series(n=20000, features=12, seed=42):
 ### 28.11 실습문제
 
 1. test row 순서를 정렬해 학습했는데 복원하지 않으면 무엇이 틀리는가?
-2. CNN1D kernel 3 두 층(stride 1,dilation 1)의 대략 receptive field는?
-3. GRU가 느려 time cap을 넘으면 첫 축소는?
+2. Conv1d kernel 3 두 층을 연속 적용하고 두 층 모두 stride=1, dilation=1이며 pooling은 없다. padding 경계를 제외한 두 번째 층의 한 출력 위치가 참조하는 이론적 receptive field는 몇 시점인가?
+3. 유효한 CNN 제출은 이미 보존했고 GRU의 계산 시간이 cap을 넘는다. OOM은 아니다. 시간 예산을 줄일 조정 두 가지와, batch size 감소가 반드시 학습 시간을 줄이지는 않는 이유를 설명하라.
 4. validation target scaler를 train+valid에 fit하면 왜 누수인가?
 5. naive baseline이 CNN보다 좋으면 어떤 점을 점검할까?
 
@@ -3869,7 +3869,7 @@ def make_sensor_series(n=20000, features=12, seed=42):
 
 1. 각 prediction과 제출 대상 sample 대응이 어긋나 성능이 무너진다.
 2. 5시점.
-3. batch/hidden/layer/lookback을 목적에 맞게 줄이되 이미 유효한 CNN 제출을 보존한다.
+3. 이미 유효한 CNN 제출을 보존하고 GRU의 hidden 크기·층 수·epoch 수를 줄이는 조정을 비교한다. OOM이 아닌 계산 시간 문제에서는 batch 감소가 배치 수를 늘려 오히려 느려질 수 있어 실행 시간을 측정한다. lookback은 문제 계약을 바꾸지 않는 범위에서만 조정한다.
 4. validation target 분포 통계가 학습 target 변환에 들어간다.
 5. window/horizon off-by-one, target-channel 의미, scaling/inverse, overfit, sequence 모델 필요성을 점검한다.
 
@@ -4414,7 +4414,7 @@ validation fold의 중앙값을 imputation에 사용하지 않게 하는 가장 
 
 #### 2회-4번
 
-Ridge의 λ를 매우 크게 하면 일반적으로? ① weight 크기 감소·bias 증가 ② weight 폭발 ③ L1 sparsity만 발생 ④ test label 사용
+Ridge의 L2 규제 강도 λ를 매우 크게 하면 일반적으로? 여기서 bias는 절편 parameter가 아니라 추정 편향을 뜻한다. ① weight 크기 감소·bias 증가 ② weight 폭발 ③ L1 sparsity만 발생 ④ test label 사용
 
 #### 2회-5번
 
@@ -4518,7 +4518,7 @@ TP=40, FP=10, FN=40일 때 precision/recall/F1은? ① .8/.5 약 .615 ② .5/.8 
 
 #### 3회-7번
 
-RMSLE에 직접 넣을 수 없는 일반적인 target/prediction은? ① 0 ② 양수 ③ 음수 ④ 1
+이 모의의 RMSLE는 target과 prediction이 모두 0 이상이어야 한다고 정의한다. 이 입력 규약에 맞지 않는 값은? ① 0 ② 양수 ③ 음수 ④ 1
 
 #### 3회-8번
 
@@ -4538,7 +4538,7 @@ LSTM cell update로 옳은 것은? ① `c_t=f_t⊙c_{t-1}+i_t⊙g_t` ② `c_t=so
 
 #### 3회-12번
 
-길이 T=500, lookback=20, horizon=30, stride 1의 window 수는? ① 450 ② 451 ③ 470 ④ 500
+길이 T=500인 유효 시계열에서 input은 X[e-19:e+1], 단일 target은 y[e+30]이다. group 경계·결측이 없고 stride=1일 때 만들 수 있는 window 수는? ① 450 ② 451 ③ 470 ④ 500
 
 #### 3회-13번
 
@@ -4601,7 +4601,7 @@ multilabel 5개 target의 올바른 계약은? ① logits `(B,5)`, float target 
 요구사항:
 
 - 각 지정 열을 `(x - median) / IQR`로 변환한다.
-- Q1/Q3는 pandas 기본 quantile을 사용한다.
+- 선택 열은 수치형이며 열 이름은 유일하다. Q1/Q3는 NaN을 제외한 pandas quantile(q, interpolation="linear")을 사용한다. 모든 값이 NaN인 열은 그대로 유지한다.
 - IQR이 0이면 해당 열의 유효값을 0.0으로 만든다.
 - 기존 NaN은 유지한다.
 - 미지정 열, index, 열 순서를 보존한다.
@@ -4619,6 +4619,8 @@ def robust_scale_columns(df, columns):
         if c not in out.columns:
             raise KeyError(c)
         s = out[c]
+        if s.isna().all():
+            continue  # 전체 결측 열은 통계를 계산하지 않고 그대로 유지
         med = s.median(skipna=True)
         q1 = s.quantile(0.25)
         q3 = s.quantile(0.75)
@@ -4640,10 +4642,10 @@ Hidden test: 비연속 index, 빈 columns, 상수 열+NaN, 전부 NaN, 원본 �
 
 요구사항:
 
-- group별 time 오름차순으로 정렬해 현재 행 **이전** 최대 `window`개 value 평균을 `value_col + '_past_mean'`에 추가한다.
+- group/time에는 결측이 없고 time은 비교 가능한 숫자·datetime 또는 변환 가능한 날짜 문자열이다. value는 유한 수치 또는 NaN이다. group별 time 오름차순에서 현재 행을 제외한 직전 최대 window행의 값으로 평균을 계산한다. NaN은 평균에서 제외하며 유효값이 없으면 NaN이다. 결과를 value_col + '_past_mean'이라는 새 열에 추가하고 이 열은 입력에 없다고 가정한다.
 - 현재 행 값은 평균에서 제외한다.
 - 계산 후 원래 행 순서와 index를 복원한다.
-- 동일 time은 원래 행 순서로 안정 정렬한다.
+- 동일 time은 원래 행 순서로 안정 정렬한다. 이 모의에서는 같은 timestamp의 앞 행도 현재 행 이전에 관측된 것으로 정의한다.
 - 입력 변경 금지, `window>=1`.
 
 #### 모범답안 2
@@ -4690,7 +4692,7 @@ Hidden test: group 1행, 같은 timestamp, 섞인 입력, NaN, 문자열 index. 
 
 `numpy_cross_entropy(logits, targets)`를 작성하라.
 
-- logits shape `(N,C)`, targets shape `(N,)` class index.
+- logits는 유한 실수 shape (N,C), N>=1, C>=1이며 targets는 shape (N,)의 정수 class index이다. 각 target은 0 이상 C 미만이다.
 - stable log-sum-exp를 사용한다.
 - 각 sample NLL의 평균 scalar 반환.
 - 빈 batch, 범위 밖 target, NaN/Inf, shape 오류는 `ValueError`.
@@ -4711,9 +4713,10 @@ def numpy_cross_entropy(logits, targets):
         raise ValueError("target 범위 오류")
 
     max_z = z.max(axis=1, keepdims=True)
-    logsumexp = max_z[:, 0] + np.log(np.exp(z - max_z).sum(axis=1))
-    correct = z[np.arange(len(z)), y]
-    return float(np.mean(logsumexp - correct))
+    shifted = z - max_z
+    logsumexp_shifted = np.log(np.exp(shifted).sum(axis=1))
+    correct_shifted = shifted[np.arange(len(z)), y]
+    return float(np.mean(logsumexp_shifted - correct_shifted))
 ```
 
 검산: 모든 logits가 같고 C=4면 CE는 `log(4)`.
@@ -4722,7 +4725,7 @@ def numpy_cross_entropy(logits, targets):
 
 `validate_split(train_idx, valid_idx, n_rows, groups=None, times=None)`를 작성하라.
 
-- index는 1D integer, 범위 안, 각 집합 내 중복 없음.
+- n_rows는 양의 정수이다. train_idx/valid_idx는 각각 비어 있지 않은 1D integer이며 0 이상 n_rows 미만, 각 집합 내 중복이 없어야 한다. groups/times가 주어지면 각각 길이 n_rows의 1D이며 결측을 허용하지 않는다. 수치 times는 finite여야 한다. 어느 조건이든 위반하면 ValueError를 낸다.
 - train/valid index 교집합 없음.
 - groups가 주어지면 group 교집합 없음.
 - times가 주어지면 train의 최대 시간이 valid 최소 시간 이하.
@@ -4734,6 +4737,8 @@ def numpy_cross_entropy(logits, targets):
 def validate_split(train_idx, valid_idx, n_rows, groups=None, times=None):
     tr = np.asarray(train_idx)
     va = np.asarray(valid_idx)
+    if isinstance(n_rows, (bool, np.bool_)) or not isinstance(n_rows, (int, np.integer)) or n_rows < 1:
+        raise ValueError("n_rows는 양의 정수")
     for name, idx in (("train", tr), ("valid", va)):
         if idx.ndim != 1 or not np.issubdtype(idx.dtype, np.integer):
             raise ValueError(f"{name} index 형식")
@@ -4746,8 +4751,8 @@ def validate_split(train_idx, valid_idx, n_rows, groups=None, times=None):
 
     if groups is not None:
         g = np.asarray(groups)
-        if len(g) != n_rows:
-            raise ValueError("groups 길이")
+        if g.ndim != 1 or len(g) != n_rows:
+            raise ValueError("groups는 길이 n_rows의 1D")
         if pd.isna(g).any():
             raise ValueError("groups 결측")
         if set(g[tr]) & set(g[va]):
@@ -4755,8 +4760,8 @@ def validate_split(train_idx, valid_idx, n_rows, groups=None, times=None):
 
     if times is not None:
         t = np.asarray(times)
-        if len(t) != n_rows:
-            raise ValueError("times 길이")
+        if t.ndim != 1 or len(t) != n_rows:
+            raise ValueError("times는 길이 n_rows의 1D")
         if pd.isna(t).any():
             raise ValueError("times 결측")
         try:
@@ -4783,7 +4788,7 @@ def validate_split(train_idx, valid_idx, n_rows, groups=None, times=None):
 
 - PIL image 입력.
 - 중심 기준 crop. 홀수 차이는 왼쪽/위쪽에 floor offset을 둔다.
-- crop이 원본보다 크면 `ValueError`.
+- crop_width/crop_height는 bool을 제외한 양의 정수여야 하며 원본보다 큰 crop 또는 잘못된 크기는 ValueError이다.
 - 원 mode를 유지한 NumPy array 반환.
 
 #### 모범답안 5
@@ -4793,8 +4798,9 @@ def center_crop_array(image, crop_width, crop_height):
     from PIL import Image
     if not isinstance(image, Image.Image):
         raise TypeError("PIL Image 필요")
-    if crop_width < 1 or crop_height < 1:
-        raise ValueError("crop 크기는 양수")
+    for size in (crop_width, crop_height):
+        if isinstance(size, (bool, np.bool_)) or not isinstance(size, (int, np.integer)) or size < 1:
+            raise ValueError("crop 크기는 bool을 제외한 양의 정수")
     width, height = image.size
     if crop_width > width or crop_height > height:
         raise ValueError("crop이 원본보다 큼")
@@ -4810,7 +4816,7 @@ Hidden test: RGB/gray/RGBA, 원본과 같은 크기, 홀수 차이, 1×1.
 
 `conv2d_info(h, w, in_ch, out_ch, kernel, stride=1, padding=0, dilation=1, groups=1, bias=True)`를 작성하라.
 
-- int 또는 `(h,w)` tuple parameter 허용.
+- h,w,in_ch,out_ch,groups는 bool을 제외한 양의 정수이다. kernel,stride,padding,dilation은 bool을 제외한 int 또는 길이2 tuple/list (높이,너비)를 허용한다. padding은 0 이상, 나머지는 양수이며 bias는 bool이다. 잘못된 설정은 ValueError이다.
 - output `(out_h,out_w)`와 parameter 수 반환.
 - channel이 groups로 나누어지지 않거나 output이 1 미만이면 오류.
 
@@ -4844,6 +4850,8 @@ def conv2d_info(h, w, in_ch, out_ch, kernel, stride=1,
     h, w = scalar(h, "h"), scalar(w, "w")
     in_ch, out_ch = scalar(in_ch, "in_ch"), scalar(out_ch, "out_ch")
     groups = scalar(groups, "groups")
+    if not isinstance(bias, bool):
+        raise ValueError("bias는 bool이어야 합니다")
     kh, kw = pair(kernel, "kernel")
     sh, sw = pair(stride, "stride")
     ph, pw = pair(padding, "padding", allow_zero=True)
@@ -4904,7 +4912,7 @@ BatchNorm train mode에서 batch 1 dummy는 오류가 날 수 있으므로 2개�
 `ExamLSTM(n_features, hidden_size, n_classes)`를 작성하라.
 
 - 2층 단방향 LSTM, `batch_first=True`, layer 사이 dropout 0.2
-- 입력 `[B,T,F]`
+- 입력은 padding 없는 고정 길이 [B,T,F]이며 B>=1,T>=1이다. projection과 bidirectional을 사용하지 않는다.
 - 마지막 시점 sequence output으로 class logits `[B,n_classes]`
 - hidden/cell을 외부에서 받지 않는다.
 
@@ -5349,11 +5357,11 @@ target을 “향후 50 sample 안에 threshold event 발생”으로 바꾼다.
 
 #### 통합 Process 1 — 결측 보고서
 
-`missing_report(df)`를 구현하라. 각 열마다 `dtype`, `missing_count`, `missing_rate`, `nunique_with_missing`을 가진 DataFrame을 원래 열 순서로 반환한다. 빈 DataFrame과 비연속 index를 처리하고 입력을 변경하지 않는다.
+missing_report(df)를 구현하라. 입력은 열 이름이 유일한 DataFrame이다. 원래 열 이름을 index로 갖는 DataFrame을 원래 열 순서로 반환하고, 반환 열 순서는 dtype, missing_count, missing_rate, nunique_with_missing으로 한다. dtype에는 원 열 dtype 객체를 기록하고 missing_rate=missing_count/행 수로 계산하되 행이 0개이면 0.0으로 정의한다. nunique_with_missing은 NaN을 하나의 고유값으로 센다. 입력의 비연속 index를 처리하고 원본을 변경하지 않는다.
 
 #### 통합 Process 2 — Group Z-score
 
-`group_zscore(df, group_col, value_col)`을 구현하라. group별 population mean/std(ddof=0)를 쓰고 std=0인 유효값은 0, NaN은 유지한다. 원 index/순서를 지킨다.
+group_zscore(df, group_col, value_col)을 구현하라. group_col은 결측이 없고 value_col은 유한 수치 또는 NaN이다. value_col을 group별 유효값의 population mean/std(ddof=0)로 z-score 변환한 복사 DataFrame을 반환한다. std=0인 유효값은 0, 기존 NaN과 전부 NaN인 group은 NaN을 유지하고 미지정 열은 보존한다. 원 index/순서를 지킨다.
 
 #### 통합 Process 3 — Binary F1
 
@@ -5361,11 +5369,11 @@ NumPy만으로 `binary_f1(y_true, y_pred)`를 작성하라. 두 배열은 같은
 
 #### 통합 Process 4 — Causal Lag
 
-`add_lag(df, group_col, time_col, value_col, lag=1)`을 구현하라. group/time stable sort 후 과거 lag 값을 추가하고 원래 순서로 복원한다. `lag>=1`.
+add_lag(df, group_col, time_col, value_col, lag=1)을 구현하라. group/time에는 결측이 없고 time은 비교 가능한 숫자 또는 datetime이다. group/time/원래 위치 순으로 안정 정렬한 뒤 group 내부에서 value_col을 lag행 이동해 value_col + '_lag'라는 새 열에 추가한다. 동일 time의 앞 행도 이전 관측으로 정의한다. 새 열은 입력에 없다고 가정한다. 원래 행 순서·index·나머지 열을 보존하며 입력을 변경하지 않는다. lag는 bool을 제외한 1 이상 정수다.
 
 #### 통합 Process 5 — RGB Normalize
 
-uint8 NumPy image `(H,W,3)`을 받아 float32 PyTorch tensor `(3,H,W)`와 각 channel별 `(x-mean)/std`를 반환하는 `normalize_rgb(image, mean, std)`를 구현하라. mean/std 길이는 3, std>0, 입력 범위 0~255.
+normalize_rgb(image, mean, std)를 구현하라. image는 H>=1,W>=1인 uint8 NumPy array (H,W,3)이고 mean/std는 길이3의 finite 실수이며 std>0이다. image를 float32로 바꾸어 255로 나누고 HWC에서 CHW로 축을 옮긴 뒤 채널별 (x-mean)/std를 적용한 float32 PyTorch tensor 하나를 반환한다. 입력 image를 변경하지 않는다.
 
 #### 통합 Process 6 — 정확한 CNN Block
 
@@ -5373,7 +5381,7 @@ uint8 NumPy image `(H,W,3)`을 받아 float32 PyTorch tensor `(3,H,W)`와 각 ch
 
 #### 통합 Process 7 — Class Weight
 
-class index `y`와 전체 class 수 `n_classes`를 받아 각 class weight `N/(C×count_c)` float32 Tensor를 반환하는 `balanced_class_weights`를 작성하라. 누락 class가 있으면 명시적 `ValueError`.
+balanced_class_weights(y,n_classes)를 작성하라. y는 비어 있지 않은 1D integer class index, n_classes=C는 bool을 제외한 양의 정수이고 모든 y는 0 이상 C 미만이어야 한다. class별 weight N/(C×count_c)를 class0부터 C-1 순서의 shape(C,) float32 Tensor로 반환한다. 누락 class 또는 입력 계약 위반은 ValueError이다.
 
 #### 통합 Process 8 — NPY 계약
 
@@ -5381,7 +5389,7 @@ class index `y`와 전체 class 수 `n_classes`를 받아 각 class weight `N/(C
 
 ### 33.16 통합 Problem — 새 차량 고장 분류
 
-동봉한 `full_mock_tabular.py --generate-only`로 train/test를 생성한다.
+다운로드한 full-mock-tabular.py를 저장한 폴더에서 python full-mock-tabular.py --generate-only로 train/test를 생성한다.
 
 - 행: 차량 운행 segment
 - 동일 `vehicle_id`가 여러 행
@@ -5406,7 +5414,7 @@ class index `y`와 전체 class 수 `n_classes`를 받아 각 class weight `N/(C
 
 실제 응시 후 확인한다.
 
-1. `df.isna().sum()`, `/len(df)`(빈 데이터는 0 정책 명시), `nunique(dropna=False)`를 열 순서 index로 조립한다.
+1. df.isna().sum(), missing_count/len(df)(행이 0개이면 missing_rate=0.0), nunique(dropna=False)를 원 열 이름 index로 조립한다. 반환 열 순서는 dtype, missing_count, missing_rate, nunique_with_missing이다.
 2. `groupby.transform('mean')`, population std. std 0 mask에서 NaN을 덮지 않는다.
 3. TP/FP/FN을 boolean sum하고 `2PR/(P+R)`의 0 denominator를 처리한다.
 4. `__order__` 보존→stable sort→groupby shift(lag)→원 order 복원.
